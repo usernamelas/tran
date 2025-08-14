@@ -1,0 +1,28 @@
+# .github/workflows/decompile_rpyc.yml
+name: Decompile RPYC to RPY
+
+on:
+  workflow_dispatch:  # Hanya manual trigger
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install unrpyc
+        run: pip install unrpyc
+      - name: Buat folder output (jika belum ada)
+        run: mkdir -p to_rpy_decompiled
+      - name: Decompile .rpyc di folder to_rpy
+        run: |
+          find to_rpy -name "*.rpyc" -exec sh -c '
+            unrpyc "$1" --output "to_rpy_decompiled/$(basename "$1" .rpyc).rpy"
+          ' sh {} \;
+      - name: Tampilkan hasil
+        run: |
+          echo "File hasil decompile:"
+          ls -l to_rpy_decompiled/

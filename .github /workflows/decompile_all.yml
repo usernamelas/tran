@@ -1,0 +1,31 @@
+# .github/workflows/decompile_all_rpyc.yml
+name: Decompile All RPYC (Recursive)
+
+on:
+  workflow_dispatch:  # Hanya bisa dijalankan manual
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install unrpyc
+        run: pip install unrpyc
+      - name: Buat folder output
+        run: mkdir -p decompiled_rpy
+      - name: Decompile SEMUA .rpyc (termasuk subfolder)
+        run: |
+          find . -type f -name "*.rpyc" -exec sh -c '
+            filepath="$1"
+            dirpath=$(dirname "$filepath")
+            mkdir -p "decompiled_rpy/$dirpath"
+            unrpyc "$filepath" --output "decompiled_rpy/${filepath%.rpyc}.rpy"
+          ' sh {} \;
+      - name: Tampilkan struktur hasil
+        run: |
+          echo "Struktur folder hasil decompile:"
+          tree decompiled_rpy/
