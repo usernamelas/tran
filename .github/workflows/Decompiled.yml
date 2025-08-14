@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY☠️😈💀👻 (Simple Docker)
+name: Convert RPYC to RPY😈💀👻☠️ (Simple Docker)
 
 on:
   push:
@@ -65,59 +65,29 @@ jobs:
               echo "  ✅ Success with unrpyc -c"
             elif python3 -m unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
               echo "  ✅ Success with python3 -m unrpyc -c"
+            elif unrpyc "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
+              echo "  ✅ Success with unrpyc (no -c flag)"
+            elif python3 -m unrpyc "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
+              echo "  ✅ Success with python3 -m unrpyc (no -c flag)"
             else
-              echo "  ❌ Standard conversion methods failed"
+              echo "  ❌ All unrpyc methods failed"
               
-              # Create a simple converter script
-              cat > temp_convert.py << 'SCRIPT'
-import sys
-try:
-    import unrpyc
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-    with open(input_file, 'rb') as f:
-        data = f.read()
-    result = unrpyc.decompile_rpyc(data)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(result)
-    print('Success')
-except Exception as e:
-    print('Error:', str(e))
-    sys.exit(1)
-SCRIPT
+              # Last resort: extract strings that look like RenPy code
+              echo "  Trying string extraction..."
+              strings "$file" | grep -E "(label|menu|scene|show|say|jump|call|define)" > "$output" 2>/dev/null
               
-              if python3 temp_convert.py "$file" "$output" 2>/dev/null && [ -s "$output" ]; then
-                echo "  ✅ Success with temp script"
+              if [ -s "$output" ]; then
+                echo "  ✅ Extracted $(wc -l < "$output") lines with string method"
               else
-                echo "  ❌ Temp script also failed"
+                echo "  ❌ String extraction failed"
                 
-                # Last resort: extract readable content
-                echo "  Trying content extraction..."
-                cat > extract_content.py << 'EXTRACT'
-import sys
-try:
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-    with open(input_file, 'rb') as f:
-        data = f.read()
-    content = data.decode('latin1', errors='ignore')
-    lines = []
-    for line in content.split('\n'):
-        clean_line = line.strip()
-        if any(keyword in clean_line for keyword in ['label', 'menu', 'scene', 'show', 'say', 'jump', 'call', 'define']):
-            lines.append(clean_line)
-    if lines:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(lines))
-        print('Extracted', len(lines), 'lines')
-    else:
-        print('No recognizable content found')
-except Exception as e:
-    print('Extraction failed:', str(e))
-EXTRACT
-                
-                python3 extract_content.py "$file" "$output" 2>/dev/null || echo "  Content extraction failed"
-                rm -f temp_convert.py extract_content.py
+                # Very last resort: just extract all strings
+                strings "$file" > "$output" 2>/dev/null
+                if [ -s "$output" ]; then
+                  echo "  ⚠️ Extracted all strings ($(wc -l < "$output") lines)"
+                else
+                  echo "  ❌ No content could be extracted"
+                fi
               fi
             fi
             
