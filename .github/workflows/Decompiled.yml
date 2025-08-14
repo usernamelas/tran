@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY🫠
+name: Decompile RPYC to RPY😈
 on:
   workflow_dispatch:
 
@@ -13,37 +13,36 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install stable unrpyc version
         run: |
-          pip install git+https://github.com/CensoredUsername/unrpyc.git@7.6-compat
-          pip install decompyle3 uncompyle6
-          echo "Python path: $(which python)"
-          echo "unrpyc version: $(python -c "import unrpyc; print(unrpyc.__version__)""
+          pip install git+https://github.com/CensoredUsername/unrpyc.git
+          pip install decompyle6
+          echo "Python version: $(python --version)"
+          echo "unrpyc info:"
+          python -c "import unrpyc; print(f'Version: {unrpyc.__version__}')"
 
-      - name: Prepare directory structure
+      - name: Prepare directories
         run: |
           mkdir -p to_rpy_decompiled
           echo "Input files:"
-          find to_rpy -name "*.rpyc" | xargs ls -l
+          ls -la to_rpy/
 
-      - name: Decompile each file
+      - name: Decompile files (single-thread)
         run: |
-          for rpyc_file in to_rpy/*.rpyc; do
-            if [ -f "$rpyc_file" ]; then
-              filename=$(basename "$rpyc_file" .rpyc)
-              echo "Processing $filename.rpyc..."
-              python -m unrpyc "$rpyc_file" --output "to_rpy_decompiled/${filename}.rpy" || echo "Failed to decompile $filename"
-            fi
+          cd to_rpy
+          for file in *.rpyc; do
+            echo "Processing $file..."
+            python -m unrpyc "$file" --output "../to_rpy_decompiled/${file%.rpyc}.rpy" || echo "Failed $file"
           done
+          cd ..
 
-      - name: Verify results
+      - name: Verify output
         run: |
           echo "Decompiled files:"
-          find to_rpy_decompiled -name "*.rpy" | xargs ls -l
-          echo "Total files: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
+          ls -la to_rpy_decompiled/
+          echo "Total decompiled: $(ls to_rpy_decompiled | wc -l)"
 
       - uses: actions/upload-artifact@v4
-        if: success() || failure()
         with:
           name: Decompiled-RPY-Files
           path: to_rpy_decompiled/
