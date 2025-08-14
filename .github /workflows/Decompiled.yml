@@ -1,8 +1,8 @@
 # .github/workflows/decompile_rpyc.yml
 name: Decompile RPYC to RPY
 
-on:
-  workflow_dispatch:  # Hanya manual trigger
+on: push
+    workflow_dispatch:  # Hanya manual trigger
 
 jobs:
   decompile:
