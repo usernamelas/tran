@@ -13,34 +13,30 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install stable unrpyc version
+      - name: Install dependencies
         run: |
           pip install git+https://github.com/CensoredUsername/unrpyc.git
-          pip install decompyle6
-          echo "Python version: $(python --version)"
-          echo "unrpyc info:"
-          python -c "import unrpyc; print(f'Version: {unrpyc.__version__}')"
+          pip install uncompyle6  # Ganti decompyle6 dengan uncompyle6
+          echo "Versi Python: $(python --version)"
+          echo "Package terinstall:"
+          pip list | grep -E "unrpyc|uncompyle6"
 
       - name: Prepare directories
         run: |
           mkdir -p to_rpy_decompiled
-          echo "Input files:"
-          ls -la to_rpy/
+          echo "File input:"
+          find to_rpy -name "*.rpyc" -exec ls -lh {} \;
 
-      - name: Decompile files (single-thread)
+      - name: Decompile files
         run: |
           cd to_rpy
           for file in *.rpyc; do
-            echo "Processing $file..."
-            python -m unrpyc "$file" --output "../to_rpy_decompiled/${file%.rpyc}.rpy" || echo "Failed $file"
+            echo "Memproses $file..."
+            python -m unrpyc "$file" --output "../to_rpy_decompiled/${file%.rpyc}.rpy" || echo "Gagal memproses $file"
           done
           cd ..
-
-      - name: Verify output
-        run: |
-          echo "Decompiled files:"
-          ls -la to_rpy_decompiled/
-          echo "Total decompiled: $(ls to_rpy_decompiled | wc -l)"
+          echo "File berhasil didecompile:"
+          find to_rpy_decompiled -name "*.rpy" | wc -l
 
       - uses: actions/upload-artifact@v4
         with:
