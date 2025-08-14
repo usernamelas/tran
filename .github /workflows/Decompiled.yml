@@ -26,3 +26,5 @@ jobs:
         run: |
           echo "File hasil decompile:"
           ls -l to_rpy_decompiled/
+
+          
