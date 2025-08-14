@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY💀😈❎✅ (Simple Docker)
+name: Convert RPYC to RPY (Simple Docker)
 
 on:
   push:
@@ -36,13 +36,32 @@ jobs:
             for file in *.rpyc; do
               if [ -f \"\$file\" ]; then
                 echo 'Converting: \$file'
-                unrpyc -c \"\$file\" > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
-                python -m unrpyc -c \"\$file\" > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
-                echo 'Failed: \$file'
+                filename=\${file%.rpyc}
+                
+                # Method 1: Try unrpyc with proper output file specification
+                unrpyc \"\$file\" -o \"/output/\${filename}.rpy\" 2>/dev/null ||
+                
+                # Method 2: Try unrpyc with directory output
+                unrpyc \"\$file\" --output-dir /output 2>/dev/null ||
+                
+                # Method 3: Try without -c flag, redirect properly
+                (unrpyc \"\$file\" 2>/dev/null | head -n -10 > \"/output/\${filename}.rpy\") ||
+                
+                # Method 4: Try python module
+                python -m unrpyc \"\$file\" -o \"/output/\${filename}.rpy\" 2>/dev/null ||
+                
+                echo 'All methods failed for \$file'
               fi
             done
             echo 'Docker conversion done'
             ls -la /output/
+            # Show content samples
+            for f in /output/*.rpy; do
+              if [ -f \"\$f\" ] && [ -s \"\$f\" ]; then
+                echo \"=== Sample from \$(basename \"\$f\") ====\"
+                head -5 \"\$f\" 2>/dev/null | grep -v \"Unrpyc\" | grep -v \"results summary\" | grep -v \"---\" || echo \"No clean content\"
+              fi
+            done
             # Fix permissions
             chown -R 1001:121 /output/* 2>/dev/null || true
             chmod 644 /output/* 2>/dev/null || true
@@ -68,9 +87,23 @@ jobs:
                 size=$(stat -c%s "$f" 2>/dev/null || echo "0")
                 lines=$(wc -l < "$f" 2>/dev/null || echo "0")
                 echo "  $(basename "$f"): ${size} bytes, ${lines} lines"
-                if [ "$size" -gt 100 ]; then
+                
+                # Check if file contains actual RenPy code vs just unrpyc output
+                if grep -q "Unrpyc.*results summary\|Performing decompilation\|file were successfully" "$f" 2>/dev/null; then
+                  echo "    ❌ Contains unrpyc log output, not decompiled code"
+                  # Try to clean the file
+                  grep -v "Unrpyc\|results summary\|Performing decompilation\|file were successfully\|---\|Found.*file to process\|Decompiling.*to" "$f" > "${f}.clean" 2>/dev/null
+                  if [ -s "${f}.clean" ]; then
+                    mv "${f}.clean" "$f"
+                    echo "    ✅ Cleaned file, new size: $(stat -c%s "$f") bytes"
+                  else
+                    rm -f "${f}.clean"
+                  fi
+                fi
+                
+                if [ "$size" -gt 50 ]; then
                   echo "    Sample content:"
-                  head -3 "$f" 2>/dev/null | sed 's/^/      /' || echo "      Cannot read content"
+                  head -3 "$f" 2>/dev/null | grep -v "^$" | sed 's/^/      /' || echo "      Cannot read content"
                 fi
               fi
             done
@@ -93,33 +126,54 @@ jobs:
               echo "  File type: $(file "$file")"
               echo "  File size: $(stat -c%s "$file") bytes"
               
-              # Try multiple conversion approaches
-              if unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
-                echo "  ✅ Success with unrpyc -c"
-              elif python3 -m unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
-                echo "  ✅ Success with python3 -m unrpyc -c"
-              elif unrpyc "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
-                echo "  ✅ Success with unrpyc (no -c flag)"
-              elif python3 -m unrpyc "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
-                echo "  ✅ Success with python3 -m unrpyc (no -c flag)"
+              # Try multiple conversion approaches  
+              if unrpyc "$file" -o "$output" 2>/dev/null && [ -s "$output" ]; then
+                echo "  ✅ Success with unrpyc -o"
+              elif unrpyc "$file" --output-dir "converted_rpy/" 2>/dev/null && [ -s "$output" ]; then
+                echo "  ✅ Success with unrpyc --output-dir"
+              elif python3 -m unrpyc "$file" -o "$output" 2>/dev/null && [ -s "$output" ]; then
+                echo "  ✅ Success with python3 -m unrpyc -o"
               else
-                echo "  ❌ All unrpyc methods failed"
+                echo "  ❌ All proper unrpyc methods failed"
                 
-                # Last resort: extract strings that look like RenPy code
-                echo "  Trying string extraction..."
-                strings "$file" | grep -E "(label|menu|scene|show|say|jump|call|define)" > "$output" 2>/dev/null
+                # Try alternative decompilation method
+                echo "  Trying manual decompilation..."
+                python3 -c "
+import sys, os
+sys.path.insert(0, os.path.expanduser('~/.local/lib/python*/site-packages'))
+try:
+    import unrpyc
+    with open('$file', 'rb') as f:
+        data = f.read()
+    # Try to decompile
+    result = unrpyc.decompile_rpyc(data)
+    if result and len(result) > 100:
+        with open('$output', 'w', encoding='utf-8') as f:
+            f.write(result)
+        print('Manual decompilation successful')
+    else:
+        print('Manual decompilation returned empty/small result')
+except Exception as e:
+    print('Manual decompilation failed:', e)
+" 2>/dev/null && [ -s "$output" ] && echo "  ✅ Success with manual method" || echo "  ❌ Manual method failed"
                 
-                if [ -s "$output" ]; then
-                  echo "  ✅ Extracted $(wc -l < "$output") lines with string method"
-                else
-                  echo "  ❌ String extraction failed"
+                if [ ! -s "$output" ]; then
+                  # Last resort: extract strings that look like RenPy code
+                  echo "  Trying string extraction..."
+                  strings "$file" | grep -E "(label|menu|scene|show|say|jump|call|define)" > "$output" 2>/dev/null
                   
-                  # Very last resort: just extract all strings
-                  strings "$file" > "$output" 2>/dev/null
                   if [ -s "$output" ]; then
-                    echo "  ⚠️ Extracted all strings ($(wc -l < "$output") lines)"
+                    echo "  ✅ Extracted $(wc -l < "$output") lines with string method"
                   else
-                    echo "  ❌ No content could be extracted"
+                    echo "  ❌ String extraction failed"
+                    
+                    # Very last resort: just extract all strings
+                    strings "$file" > "$output" 2>/dev/null
+                    if [ -s "$output" ]; then
+                      echo "  ⚠️ Extracted all strings ($(wc -l < "$output") lines)"
+                    else
+                      echo "  ❌ No content could be extracted"
+                    fi
                   fi
                 fi
               fi
