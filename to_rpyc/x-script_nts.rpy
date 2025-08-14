@@ -2582,7 +2582,7 @@ label negotiation_newhome:
 
     scene nhm48 with dissolve
 
-    lr "Baiklah, [name] - tetapi untuk penurunan harga semacam itu, saya akan membutuhkan * "pembayaran" pertama saya sekarang."
+    lr "Baiklah, [name] - tetapi untuk penurunan harga semacam itu, saya akan membutuhkan  {b}pembayaran{/b} *pertama* saya sekarang."
 
     scene nhm52 with dissolve
 
