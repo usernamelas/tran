@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY😅😂🤣😭
+name: Convert RPYC to RPY😀😃😄
 
 on:
   push:
@@ -45,28 +45,19 @@ jobs:
         if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
           echo "Converting .rpyc files to .rpy..."
           
-          # Method 1: Try using unrpyc directly
           for file in $(find to_rpy -name "*.rpyc" -type f); do
             echo "Converting: $file"
             OUTPUT_FILE="converted_rpy/$(basename "$file" .rpyc).rpy"
             
-            # Try different unrpyc commands
+            # Try unrpyc command
             unrpyc "$file" -o "$OUTPUT_FILE" || \
             python -m unrpyc "$file" -o "$OUTPUT_FILE" || \
-            python -c "
-import sys
-sys.path.append('unrpyc')
-try:
-    from unrpyc import decompile_rpyc
-    decompile_rpyc('$file', '$OUTPUT_FILE')
-except Exception as e:
-    print('Error converting $file: ' + str(e))
-            " || echo "Failed to convert $file"
+            echo "Failed to convert $file"
           done
           
           echo "Conversion completed!"
           echo "Converted files:"
-          ls -la converted_rpy/
+          ls -la converted_rpy/ || echo "No files converted"
         else
           echo "No .rpyc files found in to_rpy folder"
         fi
