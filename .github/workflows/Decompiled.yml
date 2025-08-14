@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY👿😈❌
+name: Decompile RPYC to RPY
 on:
   workflow_dispatch:
 
