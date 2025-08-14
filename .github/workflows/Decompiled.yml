@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY😈
+name: Decompile RPYC to RPY👿
 on:
   workflow_dispatch:
 
@@ -13,30 +13,42 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install tools
         run: |
-          pip install git+https://github.com/CensoredUsername/unrpyc.git
-          pip install uncompyle6  # Ganti decompyle6 dengan uncompyle6
-          echo "Versi Python: $(python --version)"
-          echo "Package terinstall:"
-          pip list | grep -E "unrpyc|uncompyle6"
+          pip install git+https://github.com/AltF4/unrpyc.git
+          pip install uncompyle6
 
-      - name: Prepare directories
+      - name: Validate input files
+        run: |
+          echo "### File Checks ###"
+          for f in to_rpy/*.rpyc; do
+            echo "File: $f"
+            echo "Size: $(wc -c < "$f") bytes"
+            echo "Header: $(head -c 20 "$f" | hexdump -C)"
+            echo "----------------"
+          done
+
+      - name: Decompile with validation
         run: |
           mkdir -p to_rpy_decompiled
-          echo "File input:"
-          find to_rpy -name "*.rpyc" -exec ls -lh {} \;
-
-      - name: Decompile files
-        run: |
           cd to_rpy
           for file in *.rpyc; do
-            echo "Memproses $file..."
-            python -m unrpyc "$file" --output "../to_rpy_decompiled/${file%.rpyc}.rpy" || echo "Gagal memproses $file"
+            echo "Processing $file..."
+            if [ $(stat -c%s "$file") -gt 100 ]; then
+              python -m unrpyc "$file" --output "../to_rpy_decompiled/${file%.rpyc}.rpy"
+              if [ $(stat -c%s "../to_rpy_decompiled/${file%.rpyc}.rpy") -lt 50 ]; then
+                echo "WARNING: Output file too small, likely failed!"
+              fi
+            else
+              echo "SKIPPED: $file too small (likely corrupt)"
+            fi
           done
-          cd ..
-          echo "File berhasil didecompile:"
-          find to_rpy_decompiled -name "*.rpy" | wc -l
+
+      - name: Verify output
+        run: |
+          echo "### Results ###"
+          echo "Files decompiled: $(find to_rpy_decompiled -type f | wc -l)"
+          find to_rpy_decompiled -type f -exec ls -lh {} \;
 
       - uses: actions/upload-artifact@v4
         with:
