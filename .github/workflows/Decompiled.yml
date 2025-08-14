@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY😜🤪😜
+name: Convert RPYC to RPY😅😂🤣😭
 
 on:
   push:
@@ -60,8 +60,8 @@ try:
     from unrpyc import decompile_rpyc
     decompile_rpyc('$file', '$OUTPUT_FILE')
 except Exception as e:
-    print(f'Error converting $file: {e}')
-" || echo "Failed to convert $file"
+    print('Error converting $file: ' + str(e))
+            " || echo "Failed to convert $file"
           done
           
           echo "Conversion completed!"
