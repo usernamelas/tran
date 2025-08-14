@@ -1,37 +1,110 @@
-name: Decompile all RPYC to RPY👻💀☠️
+name: Convert RPYC to RPY😈😈😈☠️💀
 
 on:
   push:
-    paths:
-      - 'to_rpy/**/*.rpyc'
-      - '.github/workflows/decompile_rpyc.yml'
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
 
 jobs:
-  decompile:
+  convert-rpyc:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+    - name: Checkout repository
+      uses: actions/checkout@v4
       
-      - name: Install unrpyc
-        run: pip install unrpyc
-
-      - name: Create output folder
-        run: mkdir -p to_rpy_decompiled
-
-      - name: Decompile all .rpyc in to_rpy
-        run: |
-          find to_rpy -name "*.rpyc" | while read file; do
-            echo "Dekompilasi $file..."
-            unrpyc "$file" --output "to_rpy_decompiled/$(basename "$file" .rpyc).rpy"
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+        
+    - name: Create directories
+      run: |
+        mkdir -p to_rpy
+        mkdir -p converted_rpy
+        
+    - name: Install unrpyc
+      run: |
+        python -m pip install --upgrade pip
+        # Try multiple installation methods
+        pip install git+https://github.com/CensoredUsername/unrpyc.git || \
+        pip install git+https://github.com/CensoredUsername/unrpyc.git@master || \
+        (git clone https://github.com/CensoredUsername/unrpyc.git && cd unrpyc && pip install .) || \
+        echo "Failed to install unrpyc, will try alternative methods"
+        
+    - name: Check for RPYC files
+      run: |
+        echo "Checking for .rpyc files in to_rpy folder..."
+        if [ -d "to_rpy" ]; then
+          find to_rpy -name "*.rpyc" -type f | head -10
+          RPYC_COUNT=$(find to_rpy -name "*.rpyc" -type f | wc -l)
+          echo "Found $RPYC_COUNT .rpyc files"
+        else
+          echo "to_rpy folder not found"
+        fi
+        
+    - name: Convert RPYC to RPY
+      run: |
+        if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
+          echo "Converting .rpyc files to .rpy..."
+          
+          for file in $(find to_rpy -name "*.rpyc" -type f); do
+            echo "Converting: $file"
+            filename=$(basename "$file" .rpyc)
+            output_file="converted_rpy/${filename}.rpy"
+            
+            # Try different conversion methods
+            if command -v unrpyc >/dev/null 2>&1; then
+              unrpyc "$file" -o "$output_file" && echo "✓ Converted with unrpyc" && continue
+            fi
+            
+            if python -m unrpyc "$file" -o "$output_file" 2>/dev/null; then
+              echo "✓ Converted with python -m unrpyc"
+              continue
+            fi
+            
+            # Alternative: try with different syntax
+            if python -c "import unrpyc; unrpyc.decompile_rpyc('$file', '$output_file')" 2>/dev/null; then
+              echo "✓ Converted with Python import"
+              continue
+            fi
+            
+            echo "✗ Failed to convert $file"
           done
-      
-      - name: List output files
-        run: |
-          echo "Hasil decompile:"
-          ls -l to_rpy_decompiled/
+          
+          echo ""
+          echo "=== Conversion Summary ==="
+          if [ "$(ls -A converted_rpy/ 2>/dev/null)" ]; then
+            echo "✅ Conversion completed successfully!"
+            echo "Converted files:"
+            ls -la converted_rpy/
+          else
+            echo "❌ No files were converted"
+          fi
+        else
+          echo "No .rpyc files found in to_rpy folder"
+          echo "Please add .rpyc files to the to_rpy folder and run again"
+        fi
+        
+    - name: Upload converted files
+      uses: actions/upload-artifact@v4
+      if: hashFiles('converted_rpy/*') != ''
+      with:
+        name: converted-rpy-files
+        path: converted_rpy/
+        
+    - name: Commit converted files (optional)
+      if: hashFiles('converted_rpy/*') != ''
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add converted_rpy/
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "✨ Add converted .rpy files from .rpyc [automated]"
+          git push && echo "✅ Files committed and pushed successfully" || echo "⚠️ Push failed - may need permissions"
+        fi
+      continue-on-error: true
