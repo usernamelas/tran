@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY🗿
+name: Decompile RPYC to RPY🫠
 on:
   workflow_dispatch:
 
@@ -15,23 +15,35 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install git+https://github.com/CensoredUsername/unrpyc.git
-          pip install decompyle3
-          python -m pip list | grep unrpyc
+          pip install git+https://github.com/CensoredUsername/unrpyc.git@7.6-compat
+          pip install decompyle3 uncompyle6
+          echo "Python path: $(which python)"
+          echo "unrpyc version: $(python -c "import unrpyc; print(unrpyc.__version__)""
 
-      - name: Prepare directories
+      - name: Prepare directory structure
         run: |
           mkdir -p to_rpy_decompiled
-          echo "Directory structure:"
-          tree -d
+          echo "Input files:"
+          find to_rpy -name "*.rpyc" | xargs ls -l
 
-      - name: Decompile files
+      - name: Decompile each file
         run: |
-          python -m unrpyc to_rpy/ --output-dir to_rpy_decompiled
+          for rpyc_file in to_rpy/*.rpyc; do
+            if [ -f "$rpyc_file" ]; then
+              filename=$(basename "$rpyc_file" .rpyc)
+              echo "Processing $filename.rpyc..."
+              python -m unrpyc "$rpyc_file" --output "to_rpy_decompiled/${filename}.rpy" || echo "Failed to decompile $filename"
+            fi
+          done
+
+      - name: Verify results
+        run: |
           echo "Decompiled files:"
-          find to_rpy_decompiled -type f -name "*.rpy"
+          find to_rpy_decompiled -name "*.rpy" | xargs ls -l
+          echo "Total files: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
 
       - uses: actions/upload-artifact@v4
+        if: success() || failure()
         with:
           name: Decompiled-RPY-Files
           path: to_rpy_decompiled/
