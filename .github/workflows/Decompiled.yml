@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY🤪
+name: Decompile RPYC to RPY👿😈🤪
 on:
   workflow_dispatch:
 
@@ -13,55 +13,30 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install correct unrpyc version
         run: |
-          # Install dari sumber utama dengan versi spesifik
-          pip install git+https://github.com/CensoredUsername/unrpyc.git@e16a767
-          pip install uncompyle6
-          echo "Versi Python: $(python --version)"
-          echo "Package terinstall:"
-          pip list | grep -E "unrpyc|uncompyle6"
+          pip install git+https://github.com/CensoredUsername/unrpyc.git@7.5-compat
+          echo "unrpyc version:"
+          python -c "import unrpyc; print(unrpyc.__version__)"
 
-      - name: Validate input files
-        run: |
-          echo "### Validasi File Input ###"
-          for file in to_rpy/*.rpyc; do
-            echo "File: $file"
-            echo "Ukuran: $(wc -c < "$file") bytes"
-            if [ $(stat -c%s "$file") -lt 100 ]; then
-              echo "ERROR: File terlalu kecil (mungkin corrupt)"
-              exit 1
-            fi
-            echo "Header: $(head -c 20 "$file" | hexdump -C)"
-            echo "------------------------"
-          done
-
-      - name: Decompile files
+      - name: Prepare directories
         run: |
           mkdir -p to_rpy_decompiled
-          cd to_rpy
-          for file in *.rpyc; do
-            echo "Memproses $file..."
-            output_file="../to_rpy_decompiled/${file%.rpyc}.rpy"
-            python -m unrpyc "$file" --output "$output_file"
-            
-            # Verifikasi output
-            if [ ! -f "$output_file" ]; then
-              echo "ERROR: Gagal membuat output untuk $file"
-            elif [ $(stat -c%s "$output_file") -lt 50 ]; then
-              echo "WARNING: Output file terlalu kecil ($(stat -c%s "$output_file") bytes)"
-              hexdump -C "$output_file" | head -n 5
-            else
-              echo "SUKSES: Output file $(stat -c%s "$output_file") bytes"
-            fi
-          done
+          echo "Input files:"
+          ls -lh to_rpy/
 
-      - name: Verify results
+      - name: Decompile files (alternative method)
         run: |
-          echo "### Hasil Dekompilasi ###"
-          echo "Total file: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
-          echo "Contoh file output:"
-          find to_rpy_decompiled -name "*.rpy" | head -n 3 | xargs ls -lh
+          cd to_rpy
+          python -m unrpyc . --output-dir ../to_rpy_decompiled
+          echo "Decompiled files:"
+          ls -lh ../to_rpy_decompiled/
+
+      - name: Verify output
+        run: |
+          echo "### Output Verification ###"
+          find to_rpy_decompiled -name "*.rpy" -exec ls -lh {} \;
+          echo "Total files: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
 
       - uses: actions/upload-artifact@v4
         with:
