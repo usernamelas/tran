@@ -1,33 +1,152 @@
-name: Simple RPYC Converter😈☠️💀
+name: Convert RPYC to RPY👻😈☠️💀 (Simple Docker)
 
 on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
-  convert:
+  convert-rpyc:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
     
-    - name: Setup and Convert
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Create directories
       run: |
-        # Download converter tool
-        wget https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py
-        
-        # Convert all rpyc files
+        mkdir -p to_rpy
         mkdir -p converted_rpy
-        for file in to_rpy/*.rpyc; do
-          if [ -f "$file" ]; then
-            echo "Converting: $file"
-            python3 unrpyc.py -c "$file" > "converted_rpy/$(basename "$file" .rpyc).rpy"
+        
+    - name: Convert using RenPy Docker
+      run: |
+        if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
+          echo "Converting .rpyc files using multiple methods..."
+          
+          # Method 1: Try with proper unrpyc installation
+          echo "=== Method 1: Docker with unrpyc ==="
+          docker run --rm -v $(pwd)/to_rpy:/input -v $(pwd)/converted_rpy:/output \
+            python:3.9 bash -c "
+            pip install git+https://github.com/CensoredUsername/unrpyc.git
+            cd /input
+            for file in *.rpyc; do
+              if [ -f \"\$file\" ]; then
+                echo 'Converting: \$file'
+                unrpyc -c \"\$file\" > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
+                python -m unrpyc -c \"\$file\" > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
+                echo 'Failed: \$file'
+              fi
+            done
+            echo 'Docker conversion done'
+            ls -la /output/
+            " && echo "✅ Docker method completed" || echo "❌ Docker method failed"
+            
+          # Method 2: Native Linux approach
+          echo ""
+          echo "=== Method 2: Native Linux ==="
+          
+          # Install unrpyc directly
+          pip3 install git+https://github.com/CensoredUsername/unrpyc.git || echo "pip install failed"
+          
+          # Try to convert each file
+          for file in $(find to_rpy -name "*.rpyc" -type f); do
+            filename=$(basename "$file" .rpyc)
+            output="converted_rpy/${filename}.rpy"
+            echo "Processing: $file -> $output"
+            
+            # Check file type first
+            echo "  File type: $(file "$file")"
+            echo "  File size: $(stat -c%s "$file") bytes"
+            
+            # Try multiple conversion approaches
+            if unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
+              echo "  ✅ Success with unrpyc -c"
+            elif python3 -m unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
+              echo "  ✅ Success with python3 -m unrpyc -c"
+            elif python3 -c "
+import sys
+try:
+    import unrpyc
+    with open('$file', 'rb') as f:
+        data = f.read()
+    result = unrpyc.decompile_rpyc(data)
+    with open('$output', 'w', encoding='utf-8') as f:
+        f.write(result)
+    print('Success')
+except Exception as e:
+    print('Error:', str(e))
+    sys.exit(1)
+" && [ -s "$output" ]; then
+              echo "  ✅ Success with Python script"
+            else
+              echo "  ❌ All conversion methods failed"
+              
+              # As last resort, try to extract any readable content
+              echo "  Trying content extraction..."
+              python3 -c "
+import sys
+try:
+    with open('$file', 'rb') as f:
+        data = f.read()
+    # Try to find Python AST or readable strings
+    content = data.decode('latin1', errors='ignore')
+    lines = []
+    for line in content.split('\n'):
+        if any(keyword in line for keyword in ['label', 'menu', 'scene', 'show', 'say', 'jump', 'call']):
+            lines.append(line.strip())
+    if lines:
+        with open('$output', 'w', encoding='utf-8') as f:
+            f.write('\n'.join(lines))
+        print('Extracted', len(lines), 'lines')
+    else:
+        print('No recognizable content found')
+except Exception as e:
+    print('Extraction failed:', str(e))
+" || echo "  Content extraction also failed"
+            fi
+            
+            # Show what we got
+            if [ -f "$output" ] && [ -s "$output" ]; then
+              echo "  Output size: $(stat -c%s "$output") bytes"
+              echo "  First few lines:"
+              head -3 "$output" | sed 's/^/    /'
+            else
+              echo "  No output generated"
+            fi
+            echo ""
+          done
+          
+          echo "=== Final Results ==="
+          if [ "$(ls -A converted_rpy/ 2>/dev/null)" ]; then
+            echo "✅ Files in output directory:"
+            ls -la converted_rpy/
+            echo ""
+            echo "Content summary:"
+            for f in converted_rpy/*.rpy; do
+              if [ -f "$f" ]; then
+                size=$(stat -c%s "$f" 2>/dev/null || echo "0")
+                echo "  $(basename "$f"): ${size} bytes"
+              fi
+            done
+          else
+            echo "❌ No output files generated"
+            echo "Debugging info:"
+            echo "Input files:"
+            ls -la to_rpy/
+            echo "File types:"
+            for f in to_rpy/*.rpyc; do
+              [ -f "$f" ] && echo "  $f: $(file "$f")"
+            done
           fi
-        done
+        else
+          echo "No .rpyc files found in to_rpy folder"
+        fi
         
-        # Show results
-        ls -la converted_rpy/
-        
-    - name: Upload Results
+    - name: Upload converted files
       uses: actions/upload-artifact@v4
+      if: hashFiles('converted_rpy/*') != ''
       with:
-        name: converted-files
+        name: converted-rpy-files
         path: converted_rpy/
