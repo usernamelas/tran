@@ -7,37 +7,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Install dependencies
+      
+      - name: Setup Project Structure
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libavcodec58 libavformat58 libswscale5
-
-      - name: Download Ren'Py SDK
+          mkdir -p game
+          cp to_rpyc/*.rpy game/
+          echo "File yang akan dikompilasi:"
+          ls -l game/
+          
+      - name: Install Ren'Py SDK
         run: |
           wget -q https://www.renpy.org/dl/8.1.3/renpy-8.1.3-sdk.tar.bz2
           tar -xf renpy-8.1.3-sdk.tar.bz2
-
-      - name: Prepare directory structure
+          echo "Ren'Py SDK versi:"
+          ./renpy-8.1.3-sdk/renpy.sh --version
+          
+      - name: Compile Scripts
         run: |
-          mkdir -p game
-          find to_rpyc -name "*.rpy" -exec cp {} game/ \;
-          echo "Files to compile:"
-          find game -name "*.rpy"
-
-      - name: Compile scripts
-        run: |
-          ./renpy-8.1.3-sdk/renpy.sh ./game compile --force
-          echo "Compiled files:"
-          find game -name "*.rpyc"
-
-      - name: Move compiled files
+          ./renpy-8.1.3-sdk/renpy.sh ./game compile
+          echo "Hasil kompilasi:"
+          ls -l game/*.rpyc
+          
+      - name: Move Results
         run: |
           mkdir -p to_rpyc_compiled
-          find game -name "*.rpyc" -exec sh -c '
-            filepath="$1"
-            filename=$(basename "$filepath")
-            cp "$filepath" "to_rpyc_compiled/$filename"
-          ' sh {} \;
-          echo "Final compiled files:"
-          ls -l to_rpyc_compiled
+          mv game/*.rpyc to_rpyc_compiled/
+          echo "File hasil kompilasi:"
+          ls -l to_rpyc_compiled/
+          
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Compiled-RPYC-Files
+          path: to_rpyc_compiled/*.rpyc
