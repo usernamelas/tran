@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY😈😈😈☠️💀
+name: Convert RPYC to RPY☠️☠️☠️💀
 
 on:
   push:
@@ -28,11 +28,31 @@ jobs:
     - name: Install unrpyc
       run: |
         python -m pip install --upgrade pip
-        # Try multiple installation methods
-        pip install git+https://github.com/CensoredUsername/unrpyc.git || \
-        pip install git+https://github.com/CensoredUsername/unrpyc.git@master || \
-        (git clone https://github.com/CensoredUsername/unrpyc.git && cd unrpyc && pip install .) || \
-        echo "Failed to install unrpyc, will try alternative methods"
+        
+        echo "=== Trying installation method 1: Direct git install ==="
+        if pip install git+https://github.com/CensoredUsername/unrpyc.git; then
+          echo "✅ Method 1 successful"
+        else
+          echo "❌ Method 1 failed"
+          
+          echo "=== Trying installation method 2: Clone and install ==="
+          if git clone https://github.com/CensoredUsername/unrpyc.git && cd unrpyc && pip install .; then
+            echo "✅ Method 2 successful"
+            cd ..
+          else
+            echo "❌ Method 2 failed"
+            
+            echo "=== Trying installation method 3: Download script directly ==="
+            wget -O unrpyc.py https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py || \
+            curl -o unrpyc.py https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py || \
+            echo "❌ Method 3 failed"
+          fi
+        fi
+        
+        echo "=== Checking installation ==="
+        which unrpyc || echo "unrpyc command not found in PATH"
+        python -c "import unrpyc; print('✅ unrpyc module available')" 2>/dev/null || echo "❌ unrpyc module not importable"
+        ls -la unrpyc.py 2>/dev/null && echo "✅ unrpyc.py script available" || echo "❌ unrpyc.py script not found"
         
     - name: Check for RPYC files
       run: |
@@ -55,23 +75,70 @@ jobs:
             filename=$(basename "$file" .rpyc)
             output_file="converted_rpy/${filename}.rpy"
             
-            # Try different conversion methods
+            # Method 1: Try unrpyc command
             if command -v unrpyc >/dev/null 2>&1; then
-              unrpyc "$file" -o "$output_file" && echo "✓ Converted with unrpyc" && continue
+              echo "  Trying: unrpyc command..."
+              if unrpyc -c "$file" > "$output_file" 2>/dev/null; then
+                echo "  ✅ Success with unrpyc -c"
+                continue
+              elif unrpyc "$file" > "$output_file" 2>/dev/null; then
+                echo "  ✅ Success with unrpyc"
+                continue
+              else
+                echo "  ❌ unrpyc command failed"
+              fi
             fi
             
-            if python -m unrpyc "$file" -o "$output_file" 2>/dev/null; then
-              echo "✓ Converted with python -m unrpyc"
+            # Method 2: Try python -m unrpyc
+            echo "  Trying: python -m unrpyc..."
+            if python -m unrpyc -c "$file" > "$output_file" 2>/dev/null; then
+              echo "  ✅ Success with python -m unrpyc -c"
               continue
-            fi
-            
-            # Alternative: try with different syntax
-            if python -c "import unrpyc; unrpyc.decompile_rpyc('$file', '$output_file')" 2>/dev/null; then
-              echo "✓ Converted with Python import"
+            elif python -m unrpyc "$file" > "$output_file" 2>/dev/null; then
+              echo "  ✅ Success with python -m unrpyc"
               continue
+            else
+              echo "  ❌ python -m unrpyc failed"
             fi
             
-            echo "✗ Failed to convert $file"
+            # Method 3: Try direct Python import
+            echo "  Trying: direct Python import..."
+            if python -c "
+import sys
+sys.path.append('.')
+try:
+    import unrpyc
+    with open('$file', 'rb') as f:
+        data = f.read()
+    result = unrpyc.decompile_rpyc(data)
+    with open('$output_file', 'w') as f:
+        f.write(result)
+    print('Success with direct import')
+except Exception as e:
+    print(f'Error: {e}')
+    sys.exit(1)
+" 2>/dev/null; then
+              echo "  ✅ Success with direct Python import"
+              continue
+            else
+              echo "  ❌ Direct Python import failed"
+            fi
+            
+            # Method 4: Try with unrpyc.py script
+            if [ -f "unrpyc.py" ]; then
+              echo "  Trying: unrpyc.py script..."
+              if python unrpyc.py -c "$file" > "$output_file" 2>/dev/null; then
+                echo "  ✅ Success with unrpyc.py -c"
+                continue
+              elif python unrpyc.py "$file" > "$output_file" 2>/dev/null; then
+                echo "  ✅ Success with unrpyc.py"
+                continue
+              else
+                echo "  ❌ unrpyc.py script failed"
+              fi
+            fi
+            
+            echo "  ❌ All methods failed for $file"
           done
           
           echo ""
@@ -80,8 +147,20 @@ jobs:
             echo "✅ Conversion completed successfully!"
             echo "Converted files:"
             ls -la converted_rpy/
+            echo ""
+            echo "Sample content from first converted file:"
+            head -10 converted_rpy/$(ls converted_rpy/ | head -1) 2>/dev/null || echo "Cannot show sample content"
           else
             echo "❌ No files were converted"
+            echo ""
+            echo "=== Debugging Info ==="
+            echo "File details:"
+            for file in $(find to_rpy -name "*.rpyc" -type f | head -3); do
+              echo "  File: $file"
+              echo "    Size: $(stat -c%s "$file" 2>/dev/null || echo 'unknown') bytes"
+              echo "    Type: $(file "$file" 2>/dev/null || echo 'unknown')"
+              echo "    First few bytes: $(xxd -l 16 "$file" 2>/dev/null || echo 'cannot read')"
+            done
           fi
         else
           echo "No .rpyc files found in to_rpy folder"
