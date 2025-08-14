@@ -8,28 +8,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python 3.8
+      - name: Setup Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
           pip install git+https://github.com/CensoredUsername/unrpyc.git
           pip install decompyle3
-          echo "Python path:"
-          which python
-          echo "Installed packages:"
-          pip list | grep unrpyc
+          python -m pip list | grep unrpyc
+
+      - name: Prepare directories
+        run: |
+          mkdir -p to_rpy_decompiled
+          echo "Directory structure:"
+          tree -d
 
       - name: Decompile files
         run: |
-          mkdir -p to_rpy_decompiled
-          python -m unrpyc to_rpy/*.rpyc --output-dir to_rpy_decompiled
+          python -m unrpyc to_rpy/ --output-dir to_rpy_decompiled
           echo "Decompiled files:"
-          ls -l to_rpy_decompiled/
+          find to_rpy_decompiled -type f -name "*.rpy"
 
       - uses: actions/upload-artifact@v4
         with:
           name: Decompiled-RPY-Files
-          path: to_rpy_decompiled/*.rpy
+          path: to_rpy_decompiled/
