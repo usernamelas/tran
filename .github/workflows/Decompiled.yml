@@ -1,4 +1,4 @@
-name: Decompile RPYC to RPY👿😈🤪
+name: Decompile RPYC to RPY👿😈❌
 on:
   workflow_dispatch:
 
@@ -13,30 +13,48 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install correct unrpyc version
+      - name: Install dependencies
         run: |
-          pip install git+https://github.com/CensoredUsername/unrpyc.git@7.5-compat
-          echo "unrpyc version:"
-          python -c "import unrpyc; print(unrpyc.__version__)"
+          # Install dari fork yang lebih aktif
+          pip install git+https://github.com/MattyMugz/unrpyc.git@experimental
+          pip install uncompyle6
+          echo "Versi Python: $(python --version)"
+          echo "Package terinstall:"
+          pip list | grep -E "unrpyc|uncompyle6"
 
       - name: Prepare directories
         run: |
           mkdir -p to_rpy_decompiled
-          echo "Input files:"
-          ls -lh to_rpy/
+          echo "File input:"
+          find to_rpy -name "*.rpyc" -exec ls -lh {} \;
 
-      - name: Decompile files (alternative method)
+      - name: Decompile files (direct method)
         run: |
           cd to_rpy
-          python -m unrpyc . --output-dir ../to_rpy_decompiled
-          echo "Decompiled files:"
-          ls -lh ../to_rpy_decompiled/
+          python -c "
+import unrpyc
+import os
+for file in os.listdir('.'):
+    if file.endswith('.rpyc'):
+        print(f'Processing {file}...')
+        with open(file, 'rb') as f:
+            data = f.read()
+        try:
+            result = unrpyc.decompile(data)
+            with open(f'../to_rpy_decompiled/{file[:-1]}', 'w') as f:
+                f.write(result)
+            print(f'Saved as {file[:-1]}')
+        except Exception as e:
+            print(f'Error processing {file}: {str(e)}')
+          "
+          cd ..
 
-      - name: Verify output
+      - name: Verify results
         run: |
-          echo "### Output Verification ###"
+          echo "### Hasil Dekompilasi ###"
+          echo "Total file: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
+          echo "File output:"
           find to_rpy_decompiled -name "*.rpy" -exec ls -lh {} \;
-          echo "Total files: $(find to_rpy_decompiled -name "*.rpy" | wc -l)"
 
       - uses: actions/upload-artifact@v4
         with:
