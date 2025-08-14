@@ -136,28 +136,34 @@ jobs:
               else
                 echo "  ❌ All proper unrpyc methods failed"
                 
-                # Try alternative decompilation method
-                echo "  Trying manual decompilation..."
-                python3 -c "
-import sys, os
-sys.path.insert(0, os.path.expanduser('~/.local/lib/python*/site-packages'))
+                # Create a simple decompiler script
+                cat > temp_decompile.py << 'DECOMP'
+import sys
 try:
     import unrpyc
-    with open('$file', 'rb') as f:
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    with open(input_file, 'rb') as f:
         data = f.read()
-    # Try to decompile
     result = unrpyc.decompile_rpyc(data)
     if result and len(result) > 100:
-        with open('$output', 'w', encoding='utf-8') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             f.write(result)
-        print('Manual decompilation successful')
+        print('SUCCESS')
     else:
-        print('Manual decompilation returned empty/small result')
+        print('EMPTY_RESULT')
 except Exception as e:
-    print('Manual decompilation failed:', e)
-" 2>/dev/null && [ -s "$output" ] && echo "  ✅ Success with manual method" || echo "  ❌ Manual method failed"
+    print('ERROR:', str(e))
+DECOMP
                 
-                if [ ! -s "$output" ]; then
+                echo "  Trying manual decompilation script..."
+                if python3 temp_decompile.py "$file" "$output" 2>/dev/null | grep -q "SUCCESS" && [ -s "$output" ]; then
+                  echo "  ✅ Success with manual decompilation script"
+                  rm -f temp_decompile.py
+                else
+                  echo "  ❌ Manual decompilation script failed"
+                  rm -f temp_decompile.py
+                  
                   # Last resort: extract strings that look like RenPy code
                   echo "  Trying string extraction..."
                   strings "$file" | grep -E "(label|menu|scene|show|say|jump|call|define)" > "$output" 2>/dev/null
