@@ -1,63 +1,33 @@
-name: Convert RPYC to RPY (Simple Docker)😈☠️💀
+name: Simple RPYC Converter😈☠️💀
 
 on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
-  convert-rpyc:
+  convert:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Create directories
+    - uses: actions/checkout@v4
+    
+    - name: Setup and Convert
       run: |
-        mkdir -p to_rpy
+        # Download converter tool
+        wget https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py
+        
+        # Convert all rpyc files
         mkdir -p converted_rpy
+        for file in to_rpy/*.rpyc; do
+          if [ -f "$file" ]; then
+            echo "Converting: $file"
+            python3 unrpyc.py -c "$file" > "converted_rpy/$(basename "$file" .rpyc).rpy"
+          fi
+        done
         
-    - name: Convert using RenPy Docker
-      run: |
-        if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
-          echo "Converting .rpyc files using Docker..."
-          
-          # Method 1: Try using renpy/ubuntu docker image
-          docker run --rm -v $(pwd)/to_rpy:/input -v $(pwd)/converted_rpy:/output \
-            python:3.9 bash -c "
-            pip install renpy-decompiler-tool || pip install unrpyc || echo 'Installing from source...'
-            cd /input
-            for file in *.rpyc; do
-              echo 'Converting: \$file'
-              python -c 'import pickle, ast; exec(open(\"/input/\$file\", \"rb\").read())' > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
-              echo 'Failed to convert \$file'
-            done
-            " || echo "Docker method failed"
-            
-          # Method 2: Simple binary extraction
-          echo "Trying simple extraction method..."
-          for file in $(find to_rpy -name "*.rpyc" -type f); do
-            filename=$(basename "$file" .rpyc)
-            echo "Processing: $file"
-            
-            # Try to extract readable strings
-            strings "$file" | grep -E '^[[:space:]]*[a-zA-Z_][a-zA-Z0-9_]*[[:space:]]*[=:]' > "converted_rpy/${filename}.rpy" 2>/dev/null || 
-            strings "$file" > "converted_rpy/${filename}.rpy" 2>/dev/null || 
-            echo "Failed to process $file"
-          done
-          
-          echo "Conversion completed!"
-          ls -la converted_rpy/
-        else
-          echo "No .rpyc files found in to_rpy folder"
-        fi
+        # Show results
+        ls -la converted_rpy/
         
-    - name: Upload converted files
+    - name: Upload Results
       uses: actions/upload-artifact@v4
-      if: hashFiles('converted_rpy/*') != ''
       with:
-        name: converted-rpy-files
+        name: converted-files
         path: converted_rpy/
