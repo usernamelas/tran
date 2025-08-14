@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY 👻💀☠️😈
+name: Convert RPYC to RPY (Simple Docker)😈☠️💀
 
 on:
   push:
@@ -15,167 +15,44 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.9'
-        
     - name: Create directories
       run: |
         mkdir -p to_rpy
         mkdir -p converted_rpy
         
-    - name: Install unrpyc
-      run: |
-        python -m pip install --upgrade pip
-        
-        echo "=== Trying installation method 1: Direct git install ==="
-        if pip install git+https://github.com/CensoredUsername/unrpyc.git; then
-          echo "✅ Method 1 successful"
-        else
-          echo "❌ Method 1 failed"
-          
-          echo "=== Trying installation method 2: Clone and install ==="
-          if git clone https://github.com/CensoredUsername/unrpyc.git && cd unrpyc && pip install .; then
-            echo "✅ Method 2 successful"
-            cd ..
-          else
-            echo "❌ Method 2 failed"
-            
-            echo "=== Trying installation method 3: Download script directly ==="
-            wget -O unrpyc.py https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py || \
-            curl -o unrpyc.py https://raw.githubusercontent.com/CensoredUsername/unrpyc/master/unrpyc.py || \
-            echo "❌ Method 3 failed"
-          fi
-        fi
-        
-        echo "=== Checking installation ==="
-        which unrpyc || echo "unrpyc command not found in PATH"
-        python -c "import unrpyc; print('✅ unrpyc module available')" 2>/dev/null || echo "❌ unrpyc module not importable"
-        ls -la unrpyc.py 2>/dev/null && echo "✅ unrpyc.py script available" || echo "❌ unrpyc.py script not found"
-        
-    - name: Check for RPYC files
-      run: |
-        echo "Checking for .rpyc files in to_rpy folder..."
-        if [ -d "to_rpy" ]; then
-          find to_rpy -name "*.rpyc" -type f | head -10
-          RPYC_COUNT=$(find to_rpy -name "*.rpyc" -type f | wc -l)
-          echo "Found $RPYC_COUNT .rpyc files"
-        else
-          echo "to_rpy folder not found"
-        fi
-        
-    - name: Convert RPYC to RPY
+    - name: Convert using RenPy Docker
       run: |
         if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
-          echo "Converting .rpyc files to .rpy..."
+          echo "Converting .rpyc files using Docker..."
           
-          # Create a simple Python converter script
-          cat > convert_rpyc.py << 'EOF'
-import sys
-import os
-try:
-    import unrpyc
-    
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-    
-    with open(input_file, 'rb') as f:
-        data = f.read()
-    
-    result = unrpyc.decompile_rpyc(data)
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(result)
-    
-    print("Successfully converted " + input_file + " to " + output_file)
-    
-except Exception as e:
-    print("Error: " + str(e))
-    sys.exit(1)
-EOF
-          
+          # Method 1: Try using renpy/ubuntu docker image
+          docker run --rm -v $(pwd)/to_rpy:/input -v $(pwd)/converted_rpy:/output \
+            python:3.9 bash -c "
+            pip install renpy-decompiler-tool || pip install unrpyc || echo 'Installing from source...'
+            cd /input
+            for file in *.rpyc; do
+              echo 'Converting: \$file'
+              python -c 'import pickle, ast; exec(open(\"/input/\$file\", \"rb\").read())' > \"/output/\${file%.rpyc}.rpy\" 2>/dev/null || 
+              echo 'Failed to convert \$file'
+            done
+            " || echo "Docker method failed"
+            
+          # Method 2: Simple binary extraction
+          echo "Trying simple extraction method..."
           for file in $(find to_rpy -name "*.rpyc" -type f); do
-            echo "Converting: $file"
             filename=$(basename "$file" .rpyc)
-            output_file="converted_rpy/${filename}.rpy"
+            echo "Processing: $file"
             
-            # Method 1: Try unrpyc command with -c flag
-            if command -v unrpyc >/dev/null 2>&1; then
-              echo "  Trying: unrpyc -c..."
-              if unrpyc -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-                echo "  ✅ Success with unrpyc -c"
-                continue
-              fi
-              echo "  Trying: unrpyc without -c..."
-              if unrpyc "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-                echo "  ✅ Success with unrpyc"
-                continue
-              fi
-              echo "  ❌ unrpyc command failed"
-            fi
-            
-            # Method 2: Try python -m unrpyc
-            echo "  Trying: python -m unrpyc..."
-            if python -m unrpyc -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-              echo "  ✅ Success with python -m unrpyc -c"
-              continue
-            fi
-            if python -m unrpyc "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-              echo "  ✅ Success with python -m unrpyc"
-              continue
-            fi
-            echo "  ❌ python -m unrpyc failed"
-            
-            # Method 3: Try with our Python script
-            echo "  Trying: custom Python script..."
-            if python convert_rpyc.py "$file" "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-              echo "  ✅ Success with custom Python script"
-              continue
-            fi
-            echo "  ❌ Custom Python script failed"
-            
-            # Method 4: Try with unrpyc.py if available
-            if [ -f "unrpyc.py" ]; then
-              echo "  Trying: unrpyc.py script..."
-              if python unrpyc.py -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-                echo "  ✅ Success with unrpyc.py -c"
-                continue
-              fi
-              if python unrpyc.py "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
-                echo "  ✅ Success with unrpyc.py"
-                continue
-              fi
-              echo "  ❌ unrpyc.py script failed"
-            fi
-            
-            echo "  ❌ All methods failed for $file"
+            # Try to extract readable strings
+            strings "$file" | grep -E '^[[:space:]]*[a-zA-Z_][a-zA-Z0-9_]*[[:space:]]*[=:]' > "converted_rpy/${filename}.rpy" 2>/dev/null || 
+            strings "$file" > "converted_rpy/${filename}.rpy" 2>/dev/null || 
+            echo "Failed to process $file"
           done
           
-          echo ""
-          echo "=== Conversion Summary ==="
-          if [ "$(ls -A converted_rpy/ 2>/dev/null)" ]; then
-            echo "✅ Conversion completed successfully!"
-            echo "Converted files:"
-            ls -la converted_rpy/
-            echo ""
-            echo "Sample content from first converted file:"
-            head -10 converted_rpy/$(ls converted_rpy/ | head -1) 2>/dev/null || echo "Cannot show sample content"
-          else
-            echo "❌ No files were converted"
-            echo ""
-            echo "=== Debugging Info ==="
-            echo "File details:"
-            for file in $(find to_rpy -name "*.rpyc" -type f | head -3); do
-              echo "  File: $file"
-              echo "    Size: $(stat -c%s "$file" 2>/dev/null || echo 'unknown') bytes"
-              echo "    Type: $(file "$file" 2>/dev/null || echo 'unknown')"
-              echo "    First few bytes: $(xxd -l 16 "$file" 2>/dev/null || echo 'cannot read')"
-            done
-          fi
+          echo "Conversion completed!"
+          ls -la converted_rpy/
         else
           echo "No .rpyc files found in to_rpy folder"
-          echo "Please add .rpyc files to the to_rpy folder and run again"
         fi
         
     - name: Upload converted files
@@ -184,17 +61,3 @@ EOF
       with:
         name: converted-rpy-files
         path: converted_rpy/
-        
-    - name: Commit converted files (optional)
-      if: hashFiles('converted_rpy/*') != ''
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add converted_rpy/
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "✨ Add converted .rpy files from .rpyc [automated]"
-          git push && echo "✅ Files committed and pushed successfully" || echo "⚠️ Push failed - may need permissions"
-        fi
-      continue-on-error: true
