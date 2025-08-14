@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY👻😈☠️💀 (Simple Docker)
+name: Convert RPYC to RPY☠️😈💀👻 (Simple Docker)
 
 on:
   push:
@@ -65,46 +65,60 @@ jobs:
               echo "  ✅ Success with unrpyc -c"
             elif python3 -m unrpyc -c "$file" > "$output" 2>/dev/null && [ -s "$output" ]; then
               echo "  ✅ Success with python3 -m unrpyc -c"
-            elif python3 -c "
+            else
+              echo "  ❌ Standard conversion methods failed"
+              
+              # Create a simple converter script
+              cat > temp_convert.py << 'SCRIPT'
 import sys
 try:
     import unrpyc
-    with open('$file', 'rb') as f:
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    with open(input_file, 'rb') as f:
         data = f.read()
     result = unrpyc.decompile_rpyc(data)
-    with open('$output', 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         f.write(result)
     print('Success')
 except Exception as e:
     print('Error:', str(e))
     sys.exit(1)
-" && [ -s "$output" ]; then
-              echo "  ✅ Success with Python script"
-            else
-              echo "  ❌ All conversion methods failed"
+SCRIPT
               
-              # As last resort, try to extract any readable content
-              echo "  Trying content extraction..."
-              python3 -c "
+              if python3 temp_convert.py "$file" "$output" 2>/dev/null && [ -s "$output" ]; then
+                echo "  ✅ Success with temp script"
+              else
+                echo "  ❌ Temp script also failed"
+                
+                # Last resort: extract readable content
+                echo "  Trying content extraction..."
+                cat > extract_content.py << 'EXTRACT'
 import sys
 try:
-    with open('$file', 'rb') as f:
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    with open(input_file, 'rb') as f:
         data = f.read()
-    # Try to find Python AST or readable strings
     content = data.decode('latin1', errors='ignore')
     lines = []
     for line in content.split('\n'):
-        if any(keyword in line for keyword in ['label', 'menu', 'scene', 'show', 'say', 'jump', 'call']):
-            lines.append(line.strip())
+        clean_line = line.strip()
+        if any(keyword in clean_line for keyword in ['label', 'menu', 'scene', 'show', 'say', 'jump', 'call', 'define']):
+            lines.append(clean_line)
     if lines:
-        with open('$output', 'w', encoding='utf-8') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines))
         print('Extracted', len(lines), 'lines')
     else:
         print('No recognizable content found')
 except Exception as e:
     print('Extraction failed:', str(e))
-" || echo "  Content extraction also failed"
+EXTRACT
+                
+                python3 extract_content.py "$file" "$output" 2>/dev/null || echo "  Content extraction failed"
+                rm -f temp_convert.py extract_content.py
+              fi
             fi
             
             # Show what we got
