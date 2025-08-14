@@ -1,4 +1,4 @@
-name: Convert RPYC to RPY☠️☠️☠️💀
+name: Convert RPYC to RPY☠️💀☠️💀
 
 on:
   push:
@@ -70,72 +70,83 @@ jobs:
         if [ -d "to_rpy" ] && [ "$(find to_rpy -name '*.rpyc' -type f | wc -l)" -gt 0 ]; then
           echo "Converting .rpyc files to .rpy..."
           
+          # Create a simple Python converter script
+          cat > convert_rpyc.py << 'EOF'
+import sys
+import os
+try:
+    import unrpyc
+    
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    
+    with open(input_file, 'rb') as f:
+        data = f.read()
+    
+    result = unrpyc.decompile_rpyc(data)
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(result)
+    
+    print(f"Successfully converted {input_file} to {output_file}")
+    
+except Exception as e:
+    print(f"Error: {e}")
+    sys.exit(1)
+EOF
+          
           for file in $(find to_rpy -name "*.rpyc" -type f); do
             echo "Converting: $file"
             filename=$(basename "$file" .rpyc)
             output_file="converted_rpy/${filename}.rpy"
             
-            # Method 1: Try unrpyc command
+            # Method 1: Try unrpyc command with -c flag
             if command -v unrpyc >/dev/null 2>&1; then
-              echo "  Trying: unrpyc command..."
-              if unrpyc -c "$file" > "$output_file" 2>/dev/null; then
+              echo "  Trying: unrpyc -c..."
+              if unrpyc -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
                 echo "  ✅ Success with unrpyc -c"
                 continue
-              elif unrpyc "$file" > "$output_file" 2>/dev/null; then
+              fi
+              echo "  Trying: unrpyc without -c..."
+              if unrpyc "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
                 echo "  ✅ Success with unrpyc"
                 continue
-              else
-                echo "  ❌ unrpyc command failed"
               fi
+              echo "  ❌ unrpyc command failed"
             fi
             
             # Method 2: Try python -m unrpyc
             echo "  Trying: python -m unrpyc..."
-            if python -m unrpyc -c "$file" > "$output_file" 2>/dev/null; then
+            if python -m unrpyc -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
               echo "  ✅ Success with python -m unrpyc -c"
               continue
-            elif python -m unrpyc "$file" > "$output_file" 2>/dev/null; then
+            fi
+            if python -m unrpyc "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
               echo "  ✅ Success with python -m unrpyc"
               continue
-            else
-              echo "  ❌ python -m unrpyc failed"
             fi
+            echo "  ❌ python -m unrpyc failed"
             
-            # Method 3: Try direct Python import
-            echo "  Trying: direct Python import..."
-            if python -c "
-import sys
-sys.path.append('.')
-try:
-    import unrpyc
-    with open('$file', 'rb') as f:
-        data = f.read()
-    result = unrpyc.decompile_rpyc(data)
-    with open('$output_file', 'w') as f:
-        f.write(result)
-    print('Success with direct import')
-except Exception as e:
-    print(f'Error: {e}')
-    sys.exit(1)
-" 2>/dev/null; then
-              echo "  ✅ Success with direct Python import"
+            # Method 3: Try with our Python script
+            echo "  Trying: custom Python script..."
+            if python convert_rpyc.py "$file" "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
+              echo "  ✅ Success with custom Python script"
               continue
-            else
-              echo "  ❌ Direct Python import failed"
             fi
+            echo "  ❌ Custom Python script failed"
             
-            # Method 4: Try with unrpyc.py script
+            # Method 4: Try with unrpyc.py if available
             if [ -f "unrpyc.py" ]; then
               echo "  Trying: unrpyc.py script..."
-              if python unrpyc.py -c "$file" > "$output_file" 2>/dev/null; then
+              if python unrpyc.py -c "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
                 echo "  ✅ Success with unrpyc.py -c"
                 continue
-              elif python unrpyc.py "$file" > "$output_file" 2>/dev/null; then
+              fi
+              if python unrpyc.py "$file" > "$output_file" 2>/dev/null && [ -s "$output_file" ]; then
                 echo "  ✅ Success with unrpyc.py"
                 continue
-              else
-                echo "  ❌ unrpyc.py script failed"
               fi
+              echo "  ❌ unrpyc.py script failed"
             fi
             
             echo "  ❌ All methods failed for $file"
