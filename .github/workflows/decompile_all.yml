@@ -1,31 +1,37 @@
-# .github/workflows/decompile_all_rpyc.yml
-name: Decompile All RPYC (Recursive)
-
+name: Decompile RPYC to RPY
 on:
-  workflow_dispatch:  # Hanya bisa dijalankan manual
+  workflow_dispatch:  # Hanya manual trigger
 
 jobs:
   decompile:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Python
+      
+      - name: Setup Python 3.8
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
-      - name: Install unrpyc
-        run: pip install unrpyc
-      - name: Buat folder output
-        run: mkdir -p decompiled_rpy
-      - name: Decompile SEMUA .rpyc (termasuk subfolder)
+          python-version: "3.8"  # Versi paling kompatibel
+
+      - name: Install unrpyc from GitHub
         run: |
-          find . -type f -name "*.rpyc" -exec sh -c '
+          pip install git+https://github.com/CensoredUsername/unrpyc.git
+          pip install decompyle3
+
+      - name: Create output directory
+        run: mkdir -p to_rpy_decompiled
+
+      - name: Decompile all .rpyc files
+        run: |
+          find to_rpy -name "*.rpyc" -exec sh -c '
             filepath="$1"
-            dirpath=$(dirname "$filepath")
-            mkdir -p "decompiled_rpy/$dirpath"
-            unrpyc "$filepath" --output "decompiled_rpy/${filepath%.rpyc}.rpy"
+            relpath="${filepath#to_rpy/}"
+            outpath="to_rpy_decompiled/${relpath%.rpyc}.rpy"
+            mkdir -p "$(dirname "$outpath")"
+            unrpyc "$filepath" --output "$outpath"
           ' sh {} \;
-      - name: Tampilkan struktur hasil
+
+      - name: Show results
         run: |
-          echo "Struktur folder hasil decompile:"
-          tree decompiled_rpy/
+          echo "Decompiled files:"
+          find to_rpy_decompiled -type f
