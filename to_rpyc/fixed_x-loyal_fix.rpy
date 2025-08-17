@@ -1761,7 +1761,7 @@ label Loyal:
         m "Bisakah Anda menyirami tanaman untuk saat ini? Saya akan menanganinya."
         k "Ya, oke ... maaf ..."
         show mila close_t-shirt_thinking2 with dissolve
-        ms "Oh..."dari lorong."
+        ms "Oh... dari lorong."
         scene bg door with hpunch
         show mila close_t-shirt_worried at center with dissolve:
             xpos 0.8

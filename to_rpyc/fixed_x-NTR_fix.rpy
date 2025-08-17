@@ -5571,7 +5571,7 @@ label a138_brief:
         scene 138_lost_in_arms_1 with dissolve
         ms "Saya masih memikirkannya dari waktu ke waktu. Tetapi saya selalu memiliki kesempatan untuk kehilangan diri saya dalam pelukan seseorang."
         ms "Dan tidak ada yang mengajar saya tentang hal itu lagi."
-        ms "partners"Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
+        ms "mitrra Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
         menu:
             "Tubuh saya akan tetap sama, saya suka":
                 jump not_yet
