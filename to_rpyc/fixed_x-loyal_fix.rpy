@@ -185,7 +185,7 @@ label Loyal:
     m "..."
     scene 140_morning_9 with dissolve
     p "Dari satu perspektif ..."
-    play sound call loop
+    play sound heart3 loop
     scene 140_morning_10 with hpunch
     m "Lai"
     scene 140_morning_11 with dissolve
@@ -257,7 +257,7 @@ label Loyal:
     "Bibi Ruth Anda sangat baik, Mila! {w} Itu salah satu dari banyak kebajikan Anda!"
     "Bibi Ruth Itulah mengapa Anda bertemu dengan suami yang luar biasa!"
     scene 140_morning_21 with dissolve
-    "Bibi Ruth The generous soul will be made rich, and he who waters will also be watered himself". Dan Anda selalu memiliki hati emas."
+    "Bibi Ruth" "Jiwa yang dermawan akan menjadi kaya, dan siapa yang menyiram, dirinya juga akan diberi minum. Dan Anda selalu memiliki hati emas."
     "Bibi Ruth Gadis malang saya, meskipun ... {w} selalu satu atau lain hal dengan dia ..."
     scene 140_morning_22 with dissolve
     "Bibi Ruth Seorang siswa yang baik, katamu? {w} Di mana dia akan berada jika aku tidak berdiri di atasnya dengan seorang penguasa?"

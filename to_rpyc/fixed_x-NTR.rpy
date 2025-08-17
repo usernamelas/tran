@@ -6079,7 +6079,7 @@ label a138_brief:
                 ms "Saya hampir menangis."
                 ms "Pada saat itu saya benar -benar yakin bahwa saya tidak tahan sekali sekaligus ..."
                 d "Berlutut."
-                ms"
+                ms "Aku yakin aku tidak tahan lagi dengan kontol."
                 ms "Tetapi ketika saya mendengar suaranya ada sesuatu yang diklik di dalam diri saya. {w} dan saya hanya patuh."
                 scene 138_bukkake_1 with dissolve
                 ms "Beberapa orang mengepung saya dan mulai menyentak."
