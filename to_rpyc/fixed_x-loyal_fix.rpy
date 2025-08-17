@@ -295,7 +295,7 @@ label Loyal:
     "Bibi Ruth Terima kasih kepada Tuhan!"
     "Bibi Ruth Dan Anda tahu apa?"
     "Bibi Ruth Orang tua dari gadis -gadis lain sepakat untuk memperlancar hal -hal jika dia hanya meminta maaf."
-    "Bibi Ruththank you and I'm sorry."Tapi tidak..."
+    "Bibi Ruththank you and I'm sorry.Tapi tidak..."
     scene 140_morning_14 with dissolve
     k "{size=-2} Mereka memulainya! {w} Saya tidak perlu meminta maaf untuk itu!"
     "Bibi Ruth Melihat?"
@@ -544,7 +544,7 @@ label Loyal:
         show paul close_pensive2
         p "Dan apa yang Anda katakan ..."
         p "Itu mengingatkan saya akan hal itu."
-        p"scheduled sex", seperti yang kami miliki."
+        p"seks terjadwal, seperti yang kami miliki."
         p "Itu membosankan dan hanya ..."
         show paul close_pensive
         p "Terlalu mekanis."
@@ -610,7 +610,7 @@ label Loyal:
         scene 140 mila_and_paul_on_coach_1d with dissolve
         m "Hanya saja, jangan katakan itu ke wajahnya."
         scene 140 mila_and_paul_on_coach_1f with dissolve
-        m"shouldn't have done that"."
+        "Saya seharusnya tidak melakukan hal itu."
         m "Ya, mungkin."
         m "Tapi Anda sudah ada di dalamnya."
         p "..."
@@ -1125,7 +1125,7 @@ label Loyal:
             scene 141_paul_working_from_bed_mila_open_towel4 with dissolve
             p "Saya akan memilih yang ini, saya pikir. Kedengarannya sulit, tetapi jika saya {b} harus {/b} melakukannya untuk dimurnikan di mata dewi yang maha kuasa ..."
             m "..."
-            ms"Have to"..."
+            ms"Harus..."
             ms "Dia tidak menekankan kata itu, dan mengatakan itu lebih seperti lelucon. Tapi dia mengatakannya."
             ms "Tiba -tiba, saya merasa dingin."
             ms "Meskipun air di kulit saya sudah lama dikeringkan dan ruangannya panas."
@@ -1723,7 +1723,7 @@ label Loyal:
         ms "Sangat menyenangkan melihat dia tumbuh menjadi gadis yang rajin."
         show mila close_t-shirt_worried with vpunch
         m "Lai"
-        ms"Oh..."dari ruang cuci."
+        ms"Oh...dari ruang cuci."
         scene bg laundry_room with dissolve
         show mila close_t-shirt_worried at center with dissolve:
             xpos 0.8
@@ -1882,7 +1882,7 @@ label Loyal:
         p "Saya merasa kuat."
         p "Kuat"
         p "Hidup."
-        p "you"ingin."
+        p "kamu ingin."
         p "Dan seluruh hidup saya, saya tidak berdaya."
         p "Terperangkap oleh aturan yang saya diberlakukan pada diri saya sendiri."
         p "Dan fakta bahwa Anda tidak menikmatinya ..."
@@ -1933,7 +1933,7 @@ label Loyal:
         m "Phewww ..."
         scene 142_mila_and_paul_10 with dissolve
         p "Fiuh?"
-        p "phew"?"
+        p "phew?"
         scene 142_mila_and_paul_11 with dissolve
         m "Saya pikir kalian berdua ... erm ... Anda tahu?"
         p "..."
