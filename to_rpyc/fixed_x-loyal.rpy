@@ -1863,7 +1863,7 @@ label Loyal:
         ms "Terkadang terasa terputus. Tapi saya tidak perlu mengerti - saya merasakan apa yang dia maksud."
         p "Apa yang Anda katakan adalah jerami terakhir."
         p "Yang benar adalah, saya semakin dingin dan acuh tak acuh karena saya harus memakai topeng."
-        p"the good guy"."
+        p"the good guy."
         p "Begitulah cara saya dibesarkan."
         p "Silence is golden."
         p "You can't go wrong when you choose kindness."

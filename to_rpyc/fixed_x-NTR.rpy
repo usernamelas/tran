@@ -664,7 +664,7 @@ ms "Tidak ada keraguan atau kekhawatiran yang tersisa"
 show mila sport_suit_naughty3
 ms "Hanya cahaya dan euforia"
 ms "Saya bebas lagi."
-ms "me"lagi..."
+ms "\"me\" lagi..."  
 play sound "call.mp3"
 scene 1214_mila_facetime_worried with fade
 ms "Panggilan video dari nomor yang tidak diketahui?"
