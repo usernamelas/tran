@@ -1958,7 +1958,7 @@ d "recruit Nymphomaniacs seperti Anda"
 scene 133_mila_computer_5 with dissolve
 ms "Apa yang dia katakan mengejutkan saya."
 m "Apa maksudmu?"
-m "Recruit"saya untuk apa?"
+m "Rekrut saya untuk apa?"
 m "Saya tidak berencana menjadi pelacur"
 d "..."
 d "Apa yang saya katakan tentang mulut Anda? Seharusnya hanya terbuka untuk mengisap atau menjawab pertanyaan."
@@ -2171,9 +2171,9 @@ scene 133_liz_rest_4 with dissolve
 l "Bukankah itu sama dengan lebih dari tujuh ... {w} tidak, lebih dari sembilan tahun bekerja dengan kita?"
 scene 133_liz_rest_1 with dissolve
 "??? ... {w} masih, saya tidak bisa ..."
-"??? loyal"pemasok."
+"??? loyal pemasok."
 scene 133_liz_rest_2 with dissolve
-l "pressure"punya nama?"
+l "tekanan punya nama?"
 ls "Pria itu melihat sekeliling dengan gugup."
 "??? I ... {w} saya tidak bisa ..."
 scene 133_liz_rest_5 with dissolve
@@ -2234,7 +2234,7 @@ l_translation2 "{i} Samcheon {/i} (paman) Kim?" (multiple=2)
 Kim_translation1 "Ya, {font=malgun.ttf} 아가씨 {/font}?" (multiple=2)
 Kim_translation2 "Ya, Agashi (wanita kecil)?" (multiple=2)
 scene 133_liz_rest_13 with dissolve
-l "that"Tempatkan lagi?"
+l "Tempatkan itu lagi?"
 "Kim ..."
 "Kim Kami diharapkan di perkebunan, ayahmu akan menunggumu."
 scene 133_liz_rest_14 with dissolve
@@ -2596,7 +2596,7 @@ scene 134_mila_and_liz_talking_41 with dissolve
 l "Lalu mengapa melawannya?"
 ls "Fragmen terakhir dari kewarasan hancur. {w} Saya kehilangan kendali sepenuhnya, tidak hanya atas apa yang saya katakan tetapi juga apa yang saya lakukan juga."
 ls "Saya menjadi tidak lebih dari pengamat yang diam."
-ls "
+ls "Seorang voyeur yang terangsang."
 scene 134_mila_and_liz_talking_42 with dissolve
 m "..."
 scene 134_mila_and_liz_talking_43 with dissolve
@@ -3396,12 +3396,12 @@ label first_hscene_with_dick:
     ms "Dilihat dari tag, semua pakaian itu baru."
 
 label outfit_choice_intro:
-    ms "Hm, apa yang harus saya pakai?"
+    ms "Hm, what should I wear?"
     window hide
     show screen image_choice(
-        ImageChoice("gambar/pilihan/outfit_choice_1_cute.webp, Jump(outfit_choice_left"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
-        ImageChoice("gambar/pilihan/outfit_choice_1_slutty.webp, Jump(outfit_choice_right"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
-        alpha_mask="gambar/pilihan/gambar_choice_mask.webp"
+        ImageChoice("images/choices/outfit_choice_1_cute.webp", Jump("outfit_choice_left"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="bottom")),
+        ImageChoice("images/choices/outfit_choice_1_slutty.webp", Jump("outfit_choice_right"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="bottom")),
+        alpha_mask="images/choices/image_choice_mask.webp"
     ) with fade
     $ renpy.pause(hard=True)
 
@@ -3934,7 +3934,7 @@ label hscene_ntr_bbc_1_cutie:
     ms "Kita harus menelepon ambulans ..."
     ms "Entah bagaimana pikiran saya tidak menarik sama sekali."
     ms "Saya menatap Dick lagi dan menyadari bahwa dia sedang menatap saya."
-    ms"Deeper", katanya hanya dengan bibirnya."
+    ms "Lebih dalam aku, katanya hanya dengan bibirnya."
     scene 136_cough with dissolve
     play voice_fg1 dickCute_3
     ms "Mengingat pelatihan saya, saya mengambil napas dalam -dalam, mencoba bersantai sebanyak mungkin dan mencoba mendorongnya lebih dalam."
@@ -5140,9 +5140,9 @@ label a137_mila_gangbang:
     "{i} slap {w} slap {w} slap"
     ms "Saya tidak peduli apa yang mereka katakan."
     ms "Kesenangan itu begitu kuat sehingga semua komentar memalukan ini hanya membuat saya bersemangat."
-    play sound call
+    play sound "x-audio/x-call.mp3" loop
     play voice_fg1 dickGroup_51
-    d "Oh ... {w} suamimu menelepon."
+    d "Oh ... {w} suamimu menelepon suasu."
     d "Apakah Anda keberatan jika saya menerimanya?"
     scene 137_mila_gangbang_3b with dissolve
     play voice_fg1 dickGroup_52
@@ -5544,9 +5544,9 @@ label a138_brief:
     ms "Apa yang harus saya lakukan?"
     window hide
     show screen image_choice(
-        ImageChoice("gambar/pilihan/bbc_ending_choice_liz.webp, Jump(bbc_ending_choice_liz"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
-        ImageChoice("gambar/pilihan/bbc_ending_choice_slut.webp, Jump(bbc_ending_choice_slut"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
-        alpha_mask="gambar/pilihan/gambar_choice_mask.webp"
+        ImageChoice("images/choices/bbc_ending_choice_liz.webp", Jump("bbc_ending_choice_liz"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="bottom")),
+        ImageChoice("images/choices/bbc_ending_choice_slut.webp", Jump("bbc_ending_choice_slut"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="bottom")),
+        alpha_mask="images/choices/image_choice_mask.webp"
     ) with fade
     $ renpy.pause(hard=True)
 
