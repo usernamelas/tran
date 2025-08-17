@@ -2400,7 +2400,7 @@ label Loyal:
         ms "Tapi sekarang ... ada sesuatu yang berubah. Untuk kami berdua."
         ms "Dia meraih rambut saya dengan tangan dan sepertinya kesulitan menahan diri."
         ms "Mulut saya dipenuhi air liur, baik dari kegembiraan atau overflow emosi."
-        ms"mess"..."
+        ms"kekacauan..."
         ms "Tapi sekarang ... {w} Saya tidak peduli ... Saya ingin itu slutty, ceroboh dan berantakan."
         ms "Aku menyelipkan bibir dan lidahku di atas kepalanya, membiarkan air liur mengalir dengan bebas dari sudut mulutku."
         ms "Sepertinya dia menyukainya."
@@ -3039,7 +3039,7 @@ label Loyal:
                 jump harem_route
             scene under_constr
             "Rute murni berakhir - untuk saat ini."
-            menu:"Polyamorus (harem)"rute dari sini."
+            menu:"Polyamorus (harem) rute dari sini."
                 "Ya, ganti saya ke rute harem.":
                     jump harem_route
                 "Tidak, saya keluar dari sini.":
@@ -3264,7 +3264,7 @@ label Loyal:
         k "Anda berdua hanya bersikap baik ... {w} seperti biasa."
         m portrait_robe_annoyed "Haaah ..."
         m portrait_robe_naughty_face_side "Maukah Anda melatihnya?"
-        ms portrait_robe_naughty_face"train"Tiba -tiba mengambil ... makna yang berbeda, setelah apa yang terjadi pagi ini."
+        ms portrait_robe_naughty_face"hujan Tiba -tiba mengambil ... makna yang berbeda, setelah apa yang terjadi pagi ini."
         ms portrait_robe_naughty_face_side "Dan untuk beberapa alasan aneh ... Saya tidak keberatan sama sekali."
         m "fat."
         m portrait_robe_naughty_face "Tetapi jika Anda bertanya kepada saya - dia harus memamerkan tubuh itu."
@@ -4950,7 +4950,7 @@ label Loyal:
         m "Salah?"
         k "..."
         show mila 145_close_frown with dissolve
-        m "wrong"Kemudian."
+        m "emudian memeras."
         m "Ini hidup kita. {w} pilihan kita."
         m "Anda tidak akan mendapatkan percobaan kedua."
         m "Anda tidak akan bisa melihat kembali pada akhirnya dan berkata, 'Yah, setidaknya saya menjalaninya dengan benar.'"

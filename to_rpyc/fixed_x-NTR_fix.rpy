@@ -2369,7 +2369,7 @@ d "Ya."
 scene 133_liz_and_mila_6 with dissolve
 l "Saya merasa ini akan memakan waktu ..."
 scene 133_liz_and_mila_4 with dissolve
-l "debt"tidak cukup."
+l " tidak cukup."
 d "..."
 d "Apa yang kamu inginkan?"
 scene 133_liz_and_mila_8 with dissolve
