@@ -1,0 +1,14 @@
+=== TAG MAPPING ===
+{1} = {size=-10}
+{2} = {w}
+{3} = {a=https://subscribestar.adult/addont}
+{4} = {/b}
+{5} = {/a}
+{6} = {i}
+{7} = {/i}
+{8} = {a=https://www.youtube.com/@aDDont}
+{9} = {b}
+
+=== VARIABLE MAPPING ===
+[1] = [thrust_once, "<silence 0.6>"]
+[2] = [thrust_once, "<silence 0.8>"]

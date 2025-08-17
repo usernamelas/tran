@@ -1,0 +1,119 @@
+[2025-08-15 23:27:41] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:42] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:42] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:43] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:43] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:44] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:44] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:45] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:45] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:46] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:46] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:47] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:47] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:48] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:48] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:49] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:49] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:50] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:50] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:51] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:51] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:27:52] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:28:15] [SKIP] Teks sistem/dilewati (Baris 0): {image=Send photos 305x350/messagehide.png}
+[2025-08-15 23:29:16] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:29:17] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:29:50] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:29:50] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:30:22] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:30:48] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:30:50] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:31:29] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:31:35] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:31:56] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:32:13] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:32:43] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:32:48] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:34:56] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:34:58] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:35:23] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:36:21] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:36:57] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:37:04] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:37:49] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:42:57] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:42:57] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:43:05] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:43:05] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:45:23] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:45:31] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:45:33] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:45:36] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:45:38] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:45:50] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:45:51] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:45:53] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:46:09] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:46:20] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:46:38] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:46:42] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:47:23] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:48:04] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:48:04] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:48:35] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:48:36] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:49:17] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:49:33] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:49:33] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:49:36] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:49:37] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:50:14] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:50:16] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:50:25] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:50:25] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:50:38] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:50:39] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:50:42] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:50:57] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:51:47] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:51:47] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:52:03] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:52:04] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:53:28] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:54:16] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:54:47] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:55:21] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:55:21] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:55:42] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:55:43] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-15 23:56:02] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:56:09] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:56:11] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:56:12] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:57:31] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:57:37] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:57:47] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-15 23:58:55] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:59:05] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:59:38] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-15 23:59:54] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 00:00:43] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:00:54] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:00:56] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:00:57] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-16 00:01:09] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:01:09] [SKIP] Teks sistem/dilewati (Baris 0): 2
+[2025-08-16 00:01:13] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:01:13] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:01:19] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:01:31] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:05] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:22] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 00:02:23] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 00:02:23] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:24] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:26] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:28] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:02:52] [SKIP] Teks sistem/dilewati (Baris 0): 1
+[2025-08-16 00:03:17] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 00:03:18] [SKIP] Teks sistem/dilewati (Baris 0): 

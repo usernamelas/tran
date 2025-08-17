@@ -1,0 +1,14 @@
+=== TAG MAPPING ===
+{1} = {size=-10}
+{2} = {w}
+{3} = {image=dick/Selfies/mila_vid.webp}
+{4} = {size=-14}
+{5} = {size=-16}
+{6} = {image=dick/Selfies/cg 1214_from_behind_selfie_1x.webp}
+{7} = {image=dick/Selfies/cg 1214_from_behind_selfie_2x.webp}
+{8} = {image=dick/Selfies/cg 1214_from_behind_selfie_3x.webp}
+{9} = {image=dick/Selfies/1214_selfie_kneelingx.webp}
+{10} = {size=-6}
+{11} = {image=dick/Selfies/dick_selfie9.webp}
+
+=== VARIABLE MAPPING ===

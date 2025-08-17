@@ -1,0 +1,11 @@
+=== VARIABEL ===
+
+=== TAG ===
+{1} = {w}
+{1} = {size=-10}
+{1} = {image=emoji/heart.png}
+{1} = {size=-6}
+{1} = {i}
+{1} = {/i}
+{1} = {b}
+{1} = {/b}

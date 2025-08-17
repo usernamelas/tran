@@ -1,322 +1,242 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-PENERJEMAH REN'PY OTOMATIS - VERSION IMPROVED
+REN'PY TRANSLATOR WITH TRANSLATE-SHELL
 Fitur:
-- Mempertahankan urutan kalimat asli
-- Proteksi variabel [nama] dan tag {color} yang lebih baik
-- Memisahkan dan menyatukan kalimat dengan benar
+- Menggunakan translate-shell (command line)
+- Format mapping sederhana
+- Preservasi tag/variabel
+- Auto-generate nama file
 """
 
 import re
 import os
-import sys
-import json
 import time
-import signal
-import shutil
 import subprocess
-from datetime import datetime
-from typing import Tuple, Dict, List, Optional
+from collections import defaultdict
 
-# ================= CONFIGURASI =================
-INPUT_FILE = "x-script_nts.rpy"            # File input
-OUTPUT_FILE = "x-script_nts_id.rpy"        # File output
-LOG_TXT = "tl_log.txt"                     # Log readable
-LOG_JSON = "tl_log.json"                   # Log terstruktur
-BAHASA_ASAL = "en"                         # Bahasa sumber
-BAHASA_TUJUAN = "id"                       # Bahasa target
-JEDA_TERJEMAH = 0.5                        # Delay antar terjemahan (detik)
-MAX_RETRY = 3                              # Percobaan ulang jika gagal
-# ==============================================
+# ================ CONFIG ================
+SUPPORTED_EXTENSIONS = ['.rpy']
+JEDA_TERJEMAH = 0.2
+DEFAULT_SOURCE_LANG = 'en'
+DEFAULT_TARGET_LANG = 'id'
+# ========================================
 
 class RenPyTranslator:
     def __init__(self):
-        self.should_exit = False
-        signal.signal(signal.SIGINT, self._handle_interrupt)
-        
-        # Verifikasi translate-shell terinstall
-        if not self._check_dependencies():
-            print("❌ Error: 'trans' (translate-shell) tidak ditemukan!")
-            print("Instal dengan: brew install translate-shell")
-            sys.exit(1)
+        self.input_file = ""
+        self.output_file = ""
+        self.mapping_file = ""
+        self.tag_map = defaultdict(str)
+        self.var_map = defaultdict(str)
+        self.tag_counter = 1
+        self.var_counter = 1
+        self.source_lang = DEFAULT_SOURCE_LANG
+        self.target_lang = DEFAULT_TARGET_LANG
+
+    def set_languages(self, source, target):
+        self.source_lang = source
+        self.target_lang = target
+
+    def set_input_file(self, filename):
+        self.input_file = filename
+        base = os.path.splitext(filename)[0]
+        self.mapping_file = f"mapping_{base}.txt"
+        self.output_file = f"{base}_{self.target_lang}.rpy"
+
+    def _scan_tags_and_vars(self):
+        """Scan semua tag dan variabel dalam file"""
+        with open(self.input_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Scan tags {ini}
+        for tag in set(re.findall(r'\{([^\}]+)\}', content)):
+            if tag not in self.tag_map:
+                self.tag_map[tag] = str(self.tag_counter)
+                self.tag_counter += 1
+
+        # Scan variables [ini]
+        for var in set(re.findall(r'\[([^\]]+)\]', content)):
+            if var not in self.var_map:
+                self.var_map[var] = str(self.var_counter)
+                self.var_counter += 1
+
+        # Simpan mapping file
+        with open(self.mapping_file, 'w', encoding='utf-8') as f:
+            f.write("=== TAG MAPPING ===\n")
+            for tag, num in sorted(self.tag_map.items(), key=lambda x: int(x[1])):
+                f.write(f"{{{num}}} = {{{tag}}}\n")
             
-        # Inisialisasi log
-        self.log_data = {
-            "start_time": datetime.now().isoformat(),
-            "file_input": INPUT_FILE,
-            "file_output": OUTPUT_FILE,
-            "total_lines": 0,
-            "translated": 0,
-            "skipped": [],
-            "errors": [],
-            "end_time": None,
-            "success": False
-        }
-        
-        # Bersihkan log sebelumnya
-        open(LOG_TXT, 'w').close()
-        open(LOG_JSON, 'w').close()
+            f.write("\n=== VARIABLE MAPPING ===\n")
+            for var, num in sorted(self.var_map.items(), key=lambda x: int(x[1])):
+                f.write(f"[{num}] = [{var}]\n")
 
-    def _check_dependencies(self) -> bool:
-        """Cek apakah translate-shell terinstall"""
-        return shutil.which("trans") is not None
-
-    def _handle_interrupt(self, signum, frame):
-        """Tangani Ctrl+C untuk exit graceful"""
-        print("\n🛑 Mempersiapkan penghentian... (Simpan progres...)")
-        self.should_exit = True
-
-    def _write_log(self, text: str, reason: str, line_num: int, is_skipped: bool = True) -> None:
-        """Catat ke log file"""
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        truncated_text = text[:200] + "..." if len(text) > 200 else text
-        log_entry = {
-            "time": timestamp,
-            "text": truncated_text,
-            "reason": reason,
-            "line": line_num
-        }
-        
-        # Log teks
-        with open(LOG_TXT, 'a', encoding='utf-8') as f:
-            status = "[SKIP]" if is_skipped else "[TRANSLATE]"
-            f.write(f"[{timestamp}] {status} {reason} (Baris {line_num}): {truncated_text}\n")
-        
-        # Log JSON
-        if is_skipped:
-            self.log_data["skipped"].append(log_entry)
-        elif "Error" in reason:
-            self.log_data["errors"].append(log_entry)
-
-    def _should_skip(self, text: str) -> bool:
-        """Tentukan apakah teks harus dilewati"""
-        text = text.strip()
-        return (
-            len(text) < 2 or
-            text.startswith(('http://', 'https://')) or
-            text.isdigit() or
-            any(ext in text.lower() for ext in ['.png','.jpg','.webm','.mp3','.ogg','.wav'])
-        )
-
-    def _protect_special_content(self, text: str) -> Tuple[str, Dict[str, str]]:
-        """
-        Lindungi konten khusus dengan placeholder unik
-        """
-        protected_items = {}
-        protected = text
-        
-        # Proteksi variabel [nama]
-        for i, match in enumerate(re.finditer(r'(\[[^\]]+\])', text)):
-            placeholder = f"__RENPY_VAR_{i}__"
-            protected_items[placeholder] = match.group(1)
-            protected = protected.replace(match.group(1), placeholder)
-        
-        # Proteksi tag {color=#fff}
-        for i, match in enumerate(re.finditer(r'(\{[^\}]+\})', protected)):
-            placeholder = f"__RENPY_TAG_{i}__"
-            protected_items[placeholder] = match.group(1)
-            protected = protected.replace(match.group(1), placeholder)
-        
-        # Proteksi escape character
-        for i, match in enumerate(re.finditer(r'(\\.)', protected)):
-            placeholder = f"__RENPY_ESC_{i}__"
-            protected_items[placeholder] = match.group(1)
-            protected = protected.replace(match.group(1), placeholder)
-            
-        return protected, protected_items
-
-    def _restore_special_content(self, text: str, items: Dict[str, str]) -> str:
-        """Kembalikan konten yang diproteksi"""
-        restored = text
-        for placeholder, original in items.items():
-            restored = restored.replace(placeholder, original)
-        return restored
-
-    def _split_sentences(self, text: str) -> List[str]:
-        """Pisahkan teks menjadi kalimat-kalimat"""
-        # Gunakan regex untuk memisahkan kalimat namun tetap mempertahankan tanda baca
-        sentences = re.split(r'(?<=[.!?])\s+', text)
-        return [s.strip() for s in sentences if s.strip()]
-
-    def _translate_sentence(self, sentence: str, retry_count: int = 0) -> Optional[str]:
-        """Terjemahkan satu kalimat dengan proteksi"""
-        if retry_count >= MAX_RETRY:
-            self._write_log(sentence, f"Error: Maksimum percobaan terjemahan ({MAX_RETRY}x)", 0)
-            return None
-            
+    def _translate_text(self, text):
+        """Terjemahkan teks menggunakan translate-shell"""
         try:
-            # Proteksi konten khusus
-            protected_text, protected_items = self._protect_special_content(sentence)
+            # Escape karakter khusus untuk command line
+            text = text.replace('"', '\\"')
             
-            # Proses terjemahan
+            # Eksekusi translate-shell
             cmd = [
                 'trans',
                 '-b',
-                f'{BAHASA_ASAL}:{BAHASA_TUJUAN}',
-                f'"{protected_text}"'
+                f'{self.source_lang}:{self.target_lang}',
+                f'"{text}"'
             ]
-            
             result = subprocess.run(
                 ' '.join(cmd),
                 shell=True,
-                capture_output=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
                 text=True,
-                timeout=15
+                timeout=10
             )
             
             if result.returncode != 0:
-                error_msg = result.stderr.strip() or "Unknown error"
-                self._write_log(sentence, f"Translate Error: {error_msg}", 0)
-                time.sleep(2)
-                return self._translate_sentence(sentence, retry_count + 1)
+                print(f"\n⚠️ Error menerjemahkan: {result.stderr.strip()}")
+                return text
                 
-            translated = result.stdout.strip()
-            
-            # Kembalikan konten yang diproteksi
-            translated = self._restore_special_content(translated, protected_items)
-            
-            return translated
-        except subprocess.TimeoutExpired:
-            self._write_log(sentence, "Error: Timeout saat menerjemahkan", 0)
-            time.sleep(3)
-            return self._translate_sentence(sentence, retry_count + 1)
+            return result.stdout.strip().strip('"')
         except Exception as e:
-            self._write_log(sentence, f"Error: {str(e)}", 0)
-            return None
+            print(f"\n⚠️ Gagal menerjemahkan: {str(e)}")
+            return text
 
-    def _translate_text(self, text: str) -> str:
-        """Terjemahkan teks dengan mempertahankan urutan kalimat"""
-        sentences = self._split_sentences(text)
-        translated_sentences = []
+    def _process_line(self, line):
+        """Proses satu baris teks"""
+        # Proses variabel [ini] -> [1]
+        line = re.sub(
+            r'\[([^\]]+)\]',
+            lambda m: f"[{self.var_map.get(m.group(1), '?')}]",
+            line
+        )
         
-        for sentence in sentences:
-            if self._should_skip(sentence):
-                translated_sentences.append(sentence)
-                continue
-                
-            translated = self._translate_sentence(sentence)
-            if translated:
-                translated_sentences.append(translated)
-                self.log_data["translated"] += 1
-                self._write_log(sentence, f"Terjemahan sukses -> {translated[:50]}...", 0, False)
-            else:
-                translated_sentences.append(sentence)  # Jika gagal, gunakan teks asli
+        # Proses tag {ini} -> {1}
+        line = re.sub(
+            r'\{([^\}]+)\}',
+            lambda m: f"{{{self.tag_map.get(m.group(1), '?')}}}",
+            line
+        )
         
-        # Gabungkan kembali dengan spasi
-        return ' '.join(translated_sentences)
+        # Terjemahkan teks dalam tanda kutip
+        return re.sub(
+            r'"(.*?)"',
+            lambda m: f'"{self._translate_text(m.group(1))}"',
+            line
+        )
 
-    def _process_line(self, line: str) -> str:
-        """Proses satu baris untuk diterjemahkan"""
-        # Pola untuk menangkap dialog dalam berbagai format Ren'Py
-        pattern = r'(?P<prefix>[\w\s]*)(?P<quote>")(?P<content>[^"]+)(?P<endquote>")'
-        
-        def translate_match(match):
-            prefix = match.group('prefix')
-            content = match.group('content')
-            quote = match.group('quote')
-            endquote = match.group('endquote')
-            
-            if self._should_skip(content):
-                self._write_log(content, "Teks sistem/dilewati", 0)
-                return match.group(0)
-                
-            translated = self._translate_text(content)
-            if translated and translated != content:
-                return f'{prefix}{quote}{translated}{endquote}'
-            return match.group(0)
-        
-        return re.sub(pattern, translate_match, line)
-
-    def process_file(self) -> bool:
-        """Proses utama penerjemahan"""
-        print(f"🔍 Memulai penerjemahan: {INPUT_FILE}")
-        print(f"ℹ️ Target bahasa: {BAHASA_ASAL} → {BAHASA_TUJUAN}")
-        print("ℹ️ Tekan Ctrl+C untuk berhenti kapan saja\n")
-        
-        # Verifikasi file input
-        if not os.path.exists(INPUT_FILE):
-            print(f"❌ File input tidak ditemukan: {INPUT_FILE}")
-            return False
-            
-        try:
-            with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-        except Exception as e:
-            print(f"❌ Gagal membaca file: {e}")
+    def run_translation(self):
+        """Jalankan proses terjemahan lengkap"""
+        if not os.path.exists(self.input_file):
+            print(f"❌ File tidak ditemukan: {self.input_file}")
             return False
 
-        self.log_data["total_lines"] = len(lines)
-        translated_lines = []
+        print("\n🔍 Memulai proses...")
+        print(f"📄 File input: {self.input_file}")
+        print(f"🌐 Bahasa: {self.source_lang} → {self.target_lang}")
+        
+        # Step 1: Scan tags dan variabel
+        print("\n🔎 Scanning tags dan variabel...")
+        self._scan_tags_and_vars()
+        print(f"✅ Ditemukan: {len(self.tag_map)} tags, {len(self.var_map)} variabel")
+        print(f"📝 File mapping dibuat: {self.mapping_file}")
+        
+        # Step 2: Proses terjemahan
+        print("\n🚀 Memulai terjemahan... (Mohon tunggu)")
+        with open(self.input_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+
+        total_lines = len(lines)
+        results = []
         start_time = time.time()
-        
-        try:
-            for line_num, line in enumerate(lines, 1):
-                if self.should_exit:
-                    raise KeyboardInterrupt
-                    
-                # Skip baris kosong atau komentar
-                if line.strip().startswith('#') or not line.strip():
-                    translated_lines.append(line)
-                    continue
-                    
-                # Proses baris
+
+        for i, line in enumerate(lines, 1):
+            try:
                 processed_line = self._process_line(line)
-                translated_lines.append(processed_line)
+                results.append(processed_line)
                 
-                # Update progress
-                if line_num % 5 == 0 or line_num == len(lines):
-                    elapsed = time.time() - start_time
-                    percent = (line_num / len(lines)) * 100
-                    remaining = (len(lines) - line_num) * JEDA_TERJEMAH
-                    print(
-                        f"\r🔄 Progress: {percent:.1f}% | "
-                        f"Baris: {line_num}/{len(lines)} | "
-                        f"Diterjemahkan: {self.log_data['translated']} | "
-                        f"Sisa: ~{remaining:.0f} detik",
-                        end=''
-                    )
-                
+                # Hitung progress
+                percent = (i / total_lines) * 100
+                elapsed = time.time() - start_time
+                print(f"\r📊 Progress: {percent:.1f}% | Baris: {i}/{total_lines} | Waktu: {elapsed:.1f}s", end='')
                 time.sleep(JEDA_TERJEMAH)
-                
-        except KeyboardInterrupt:
-            print("\n⚠️ Proses dihentikan manual oleh user")
-        
-        # Simpan hasil
+            except Exception as e:
+                print(f"\n⚠️ Error di baris {i}: {str(e)}")
+                results.append(line)  # Simpan line asli jika error
+
+        # Step 3: Simpan hasil
+        with open(self.output_file, 'w', encoding='utf-8') as f:
+            f.writelines(results)
+
+        print(f"\n\n✅ Terjemahan selesai!")
+        print(f"📂 File hasil: {self.output_file}")
+        print(f"⏱️ Waktu total: {time.time() - start_time:.1f} detik")
+        return True
+
+def show_files():
+    """Tampilkan file yang tersedia"""
+    files = [f for f in os.listdir() 
+             if os.path.isfile(f) 
+             and os.path.splitext(f)[1].lower() in SUPPORTED_EXTENSIONS]
+    
+    if not files:
+        print("\n❌ Tidak ada file yang didukung")
+        print(f"Ekstensi didukung: {', '.join(SUPPORTED_EXTENSIONS)}")
+        return None
+    
+    print("\n📁 File yang tersedia:")
+    for i, file in enumerate(files, 1):
+        print(f"{i}. {file}")
+    
+    while True:
+        choice = input("\nPilih file (nomor): ").strip()
         try:
-            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                f.writelines(translated_lines)
-                
-            self.log_data["end_time"] = datetime.now().isoformat()
-            self.log_data["success"] = not self.should_exit
-            
-            with open(LOG_JSON, 'w', encoding='utf-8') as f:
-                json.dump(self.log_data, f, indent=2, ensure_ascii=False)
-                
-            print(f"\n\n✅ Hasil tersimpan di: {OUTPUT_FILE}")
-            print(f"📝 Log teks: {LOG_TXT}")
-            print(f"📊 Log JSON: {LOG_JSON}")
-            
-            # Ringkasan
-            print("\n=== RINGKASAN ===")
-            print(f"Total baris: {self.log_data['total_lines']}")
-            print(f"Teks diterjemahkan: {self.log_data['translated']}")
-            print(f"Teks dilewati: {len(self.log_data['skipped'])}")
-            print(f"Error: {len(self.log_data['errors'])}")
-            
-            return True
-            
-        except Exception as e:
-            print(f"\n❌ Gagal menyimpan hasil: {e}")
-            return False
+            return files[int(choice)-1]
+        except:
+            print("❌ Input tidak valid")
+
+def select_language(prompt, current):
+    """Menu pilih bahasa"""
+    langs = {
+        '1': 'id', '2': 'en', '3': 'ja', 
+        '4': 'ko', '5': 'zh', '6': 'es'
+    }
+    
+    print(f"\n{prompt}:")
+    for num, lang in langs.items():
+        print(f"{num}. {lang.upper()}")
+    
+    while True:
+        choice = input(f"Pilihan [{current}]: ").strip()
+        if not choice:
+            return current
+        if choice in langs:
+            return langs[choice]
+        print("❌ Pilihan tidak valid")
+
+def main():
+    translator = RenPyTranslator()
+    
+    print("\n=== REN'PY TRANSLATOR ===")
+    print("Menggunakan translate-shell")
+    print("Pastikan sudah install:")
+    print("1. translate-shell (brew install translate-shell)")
+    print("2. Python library subprocess\n")
+    
+    # Pilih file
+    selected_file = show_files()
+    if not selected_file:
+        return
+    translator.set_input_file(selected_file)
+    
+    # Pilih bahasa
+    translator.set_languages(
+        select_language("Bahasa Sumber", DEFAULT_SOURCE_LANG),
+        select_language("Bahasa Target", DEFAULT_TARGET_LANG)
+    )
+    
+    # Jalankan terjemahan
+    translator.run_translation()
 
 if __name__ == "__main__":
-    print("\n=== PENERJEMAH REN'PY OTOMATIS ===")
-    translator = RenPyTranslator()
-    success = translator.process_file()
-    
-    if success:
-        print("\n🎉 Penerjemahan selesai!")
-    else:
-        print("\n🔴 Penerjemahan gagal atau terhenti")
-    print("====================================\n")
+    main()

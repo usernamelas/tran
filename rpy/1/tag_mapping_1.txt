@@ -1,0 +1,9 @@
+=== TAG MAPPING ===
+{1} = {color=FFF000}
+{2} = {w}
+{3} = {u}
+{4} = {color=#f00000}
+{5} = {/b}
+{6} = {color}
+
+=== VARIABLE MAPPING ===

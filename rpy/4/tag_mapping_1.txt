@@ -1,0 +1,17 @@
+=== TAG MAPPING ===
+{1} = {color=#e90e3f}
+{2} = {size=+10}
+{3} = {i}
+{4} = {color=#300f0f}
+{5} = {/color}
+{6} = {/i}
+{7} = {size=-10}
+{8} = {w}
+{9} = {color=#e90eaf}
+{10} = {size=+6}
+
+=== VARIABLE MAPPING ===
+[1] = [thrust_once, "<silence 0.65>"]
+[2] = [fuck1, dickSlutty8_9]
+[3] = [fuck3, dickSlutty8_8]
+[4] = [thrust_once, "<silence 1>"]

@@ -1,0 +1,9 @@
+=== TAG MAPPING ===
+{1} = {w}
+{2} = {/b}
+{3} = {b}
+{4} = {i}
+
+=== VARIABLE MAPPING ===
+[1] = [day]
+[2] = [player_name]

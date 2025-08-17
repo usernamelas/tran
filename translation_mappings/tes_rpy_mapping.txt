@@ -1,0 +1,8 @@
+# MAPPING FILE UNTUK: tes_rpy.rpy
+# BAHASA: en -> id
+
+=== TAG MAPPING ===
+
+=== VARIABLE MAPPING ===
+VAR_1 = [player_name]
+VAR_2 = [day]

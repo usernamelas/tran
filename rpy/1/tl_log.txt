@@ -1,0 +1,62 @@
+[2025-08-16 04:23:28] [SKIP] Teks sistem/dilewati (Baris 0): shot.mp3
+[2025-08-16 04:23:33] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): After a couple seconds, the message was marked as \
+[2025-08-16 04:23:35] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): After a couple seconds, the message was marked as \
+[2025-08-16 04:23:37] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): After a couple seconds, the message was marked as \
+[2025-08-16 04:23:39] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): After a couple seconds, the message was marked as \
+[2025-08-16 04:23:39] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 04:24:44] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): You will answer \
+[2025-08-16 04:24:46] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): You will answer \
+[2025-08-16 04:24:48] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): You will answer \
+[2025-08-16 04:24:50] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): You will answer \
+[2025-08-16 04:24:50] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0):  or \
+[2025-08-16 04:24:52] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0):  or \
+[2025-08-16 04:24:54] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0):  or \
+[2025-08-16 04:24:56] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0):  or \
+[2025-08-16 04:25:15] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Should I ask his majesty: \
+[2025-08-16 04:25:17] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Should I ask his majesty: \
+[2025-08-16 04:25:19] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Should I ask his majesty: \
+[2025-08-16 04:25:21] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): Should I ask his majesty: \
+[2025-08-16 04:25:21] [SKIP] Teks sistem/dilewati (Baris 0): 
+[2025-08-16 04:25:36] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Two \
+[2025-08-16 04:25:38] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Two \
+[2025-08-16 04:25:40] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Two \
+[2025-08-16 04:25:42] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): Two \
+[2025-08-16 04:25:44] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): But the \
+[2025-08-16 04:25:46] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): But the \
+[2025-08-16 04:25:48] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): But the \
+[2025-08-16 04:25:50] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): But the \
+[2025-08-16 04:25:52] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): The \
+[2025-08-16 04:25:54] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): The \
+[2025-08-16 04:25:56] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): The \
+[2025-08-16 04:25:58] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): The \
+[2025-08-16 04:26:18] [SKIP] Teks sistem/dilewati (Baris 0): !
+[2025-08-16 04:27:09] [SKIP] Teks sistem/dilewati (Baris 0): knock.mp3
+[2025-08-16 04:29:52] [SKIP] Teks sistem/dilewati (Baris 0): door-open-close.mp3
+[2025-08-16 04:31:53] [SKIP] Teks sistem/dilewati (Baris 0): vibro.mp3
+[2025-08-16 04:32:58] [SKIP] Teks sistem/dilewati (Baris 0): shot.mp3
+[2025-08-16 04:33:08] [SKIP] Teks sistem/dilewati (Baris 0): shot.mp3
+[2025-08-16 04:33:28] [SKIP] Teks sistem/dilewati (Baris 0): shot.mp3
+[2025-08-16 04:34:21] [SKIP] Teks sistem/dilewati (Baris 0): birds.mp3
+[2025-08-16 04:35:01] [SKIP] Teks sistem/dilewati (Baris 0): door-open-close.mp3
+[2025-08-16 04:35:43] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I mean, more \
+[2025-08-16 04:35:45] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I mean, more \
+[2025-08-16 04:35:47] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I mean, more \
+[2025-08-16 04:35:49] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): I mean, more \
+[2025-08-16 04:36:38] [SKIP] Teks sistem/dilewati (Baris 0): heart.mp3
+[2025-08-16 04:37:38] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I'm \
+[2025-08-16 04:37:40] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I'm \
+[2025-08-16 04:37:42] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): I'm \
+[2025-08-16 04:37:44] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): I'm \
+[2025-08-16 04:37:46] [SKIP] Teks sistem/dilewati (Baris 0): call.mp3
+[2025-08-16 04:40:23] [SKIP] Teks sistem/dilewati (Baris 0): !
+[2025-08-16 04:40:38] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Some part of \
+[2025-08-16 04:40:40] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Some part of \
+[2025-08-16 04:40:42] [SKIP] Translate Error: /data/data/com.termux/files/usr/bin/sh: 1: Syntax error: Unterminated quoted string (Baris 0): Some part of \
+[2025-08-16 04:40:44] [SKIP] Error: Maksimum percobaan terjemahan (3x) (Baris 0): Some part of \
+[2025-08-16 04:41:30] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:41:44] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:42:14] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:42:23] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:42:28] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:43:57] [SKIP] Teks sistem/dilewati (Baris 0): egg.mp3
+[2025-08-16 04:45:19] [SKIP] Teks sistem/dilewati (Baris 0): heart.mp3
