@@ -2810,7 +2810,7 @@ label hscene_ntr_liz_1:
     scene 134_liz_with_bellboy_7 with dissolve
     l "Duduk."
     "???" "... {w} apa?"
-    l"sit down"."
+    l"sit down."
     ls "Saya mencoba berbicara dengan lembut, tetapi nada yang memerintah masih tergelincir."
     ls "Aku benci mengulangi diriku sendiri."
     scene 134_liz_with_bellboy_suck_1 with fade

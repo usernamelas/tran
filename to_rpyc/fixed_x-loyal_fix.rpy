@@ -295,7 +295,7 @@ label Loyal:
     "Bibi Ruth Terima kasih kepada Tuhan!"
     "Bibi Ruth Dan Anda tahu apa?"
     "Bibi Ruth Orang tua dari gadis -gadis lain sepakat untuk memperlancar hal -hal jika dia hanya meminta maaf."
-    "Bibi Ruththank you and I'm sorry."Tapi tidak ..."
+    "Bibi Ruththank you and I'm sorry."Tapi tidak..."
     scene 140_morning_14 with dissolve
     k "{size=-2} Mereka memulainya! {w} Saya tidak perlu meminta maaf untuk itu!"
     "Bibi Ruth Melihat?"
