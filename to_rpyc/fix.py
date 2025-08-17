@@ -1,67 +1,88 @@
 import os
 import re
+from pathlib import Path
 
 def list_rpy_files():
-    """Mencari semua file .rpy di direktori saat ini"""
-    rpy_files = [f for f in os.listdir('.') if f.endswith('.rpy')]
-    return rpy_files
+    """Daftar file .rpy di folder saat ini (tanpa file hasil perbaikan)"""
+    return [f for f in os.listdir('.') 
+            if f.endswith('.rpy') 
+            and not f.startswith('fixed_')]
 
-def show_menu(files):
-    """Menampilkan menu pilihan file"""
-    print("\nDaftar file .rpy yang ditemukan:")
-    for i, file in enumerate(files, 1):
-        print(f"{i}. {file}")
-    print("0. Keluar")
+def create_fixed_file(original_path):
+    """Buat file baru dengan awalan 'fixed_'"""
+    fixed_name = f"fixed_{original_path}"
+    counter = 1
+    while os.path.exists(fixed_name):
+        fixed_name = f"fixed_{counter}_{original_path}"
+        counter += 1
+    return fixed_name
+
+def fix_content(content):
+    """Perbaiki konten file"""
+    # 1. Perbaiki tanda kutip ganda
+    content = re.sub(r'""\s*(.*?)\s*""', r'"\1"', content, flags=re.DOTALL)
     
-    while True:
-        try:
-            choice = int(input("\nPilih file yang ingin diperbaiki (nomor): "))
-            if 0 <= choice <= len(files):
-                return choice
-            print("Pilihan tidak valid!")
-        except ValueError:
-            print("Masukkan angka saja!")
+    # 2. Perbaiki escape quotes
+    content = re.sub(r'(?<!\\)\\"', '"', content)
+    
+    # 3. Normalisasi definisi karakter
+    content = re.sub(r"u'#([0-9a-f]{6})'", r"'\#\1'", content, flags=re.IGNORECASE)
+    
+    return content
 
-def fix_rpy_file(filename):
-    """Memperbaiki masalah tanda kutip pada file"""
+def process_file(original_file):
+    """Proses file dan simpan sebagai file baru"""
     try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            content = f.read()
+        # Baca file asli
+        with open(original_file, 'r', encoding='utf-8') as f:
+            original_content = f.read()
         
-        # Perbaikan utama:
-        # 1. Ganti ""text" menjadi "text"
-        content = re.sub(r'""(.+?)""', r'"\1"', content)
-        # 2. Perbaiki escape quotes yang salah
-        content = re.sub(r'\\"', '"', content)
-        # 3. Pastikan setiap baris dialog diawali dengan karakter dan "
-        content = re.sub(r'^([a-zA-Z0-9_]+)\s+""', r'\1 "', content, flags=re.MULTILINE)
+        # Buat file perbaikan
+        fixed_file = create_fixed_file(original_file)
+        fixed_content = fix_content(original_content)
         
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(content)
-            
-        print(f"\n✅ File {filename} berhasil diperbaiki!")
+        # Tulis file baru
+        with open(fixed_file, 'w', encoding='utf-8') as f:
+            f.write(fixed_content)
+        
+        print(f"✅ Hasil disimpan di: {fixed_file}")
+        print(f"   Ukuran: {os.path.getsize(fixed_file)/1024:.1f} KB")
+        return True
+    
     except Exception as e:
-        print(f"\n❌ Gagal memperbaiki {filename}: {str(e)}")
+        print(f"❌ Gagal memproses {original_file}: {str(e)}")
+        return False
 
 def main():
-    print("=== RPY File Fixer ===")
-    files = list_rpy_files()
+    print("=== RPY File Fixer (Mode Aman) ===")
+    print("Akan membuat file baru dengan awalan 'fixed_'")
     
+    files = list_rpy_files()
     if not files:
         print("Tidak ditemukan file .rpy di folder ini!")
         return
     
     while True:
-        choice = show_menu(files)
-        if choice == 0:
-            print("Keluar...")
-            break
-            
-        file_to_fix = files[choice-1]
-        print(f"\nMemperbaiki file: {file_to_fix}...")
-        fix_rpy_file(file_to_fix)
+        # Tampilkan menu
+        print("\nDaftar file:")
+        for i, f in enumerate(files, 1):
+            size = os.path.getsize(f)/1024
+            print(f"{i}. {f} ({size:.1f} KB)")
+        print("0. Keluar")
         
-        input("\nTekan Enter untuk melanjutkan...")
+        # Input pilihan
+        try:
+            choice = int(input("Pilih file (0 untuk keluar): "))
+            if choice == 0:
+                break
+            if 1 <= choice <= len(files):
+                selected = files[choice-1]
+                print(f"\nMemproses: {selected}...")
+                process_file(selected)
+            else:
+                print("Pilihan tidak valid!")
+        except ValueError:
+            print("Harap masukkan angka!")
 
 if __name__ == "__main__":
     main()

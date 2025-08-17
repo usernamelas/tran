@@ -2171,7 +2171,7 @@ scene 133_liz_rest_4 with dissolve
 l "Bukankah itu sama dengan lebih dari tujuh ... {w} tidak, lebih dari sembilan tahun bekerja dengan kita?"
 scene 133_liz_rest_1 with dissolve
 "???" "... {w} masih, saya tidak bisa ..."
-"???" ""loyal"pemasok."
+"???" "loyal"pemasok."
 scene 133_liz_rest_2 with dissolve
 l "pressure"punya nama?"
 ls "Pria itu melihat sekeliling dengan gugup."
@@ -2810,7 +2810,7 @@ label hscene_ntr_liz_1:
     scene 134_liz_with_bellboy_7 with dissolve
     l "Duduk."
     "???" "... {w} apa?"
-    l ""sit down"."
+    l"sit down"."
     ls "Saya mencoba berbicara dengan lembut, tetapi nada yang memerintah masih tergelincir."
     ls "Aku benci mengulangi diriku sendiri."
     scene 134_liz_with_bellboy_suck_1 with fade
@@ -3662,7 +3662,7 @@ label hscene_ntr_bbc_1_slutty:
     play voice_fg1 dickSlutty8_1
     ms "Saya melepas celana dalam saya dan melemparkan kaki saya di atas penis."
     ms "Aku bahkan tidak memikirkan pesanannya."
-    ms ""me"..."
+    ms "me"..."
     scene 135_sex2_2 with dissolve
     play voice_fg1 dickSlutty8_2
     ms "Penisnya menekan vaginaku dan dengan mudah menyelinap ke dalam."
@@ -3934,7 +3934,7 @@ label hscene_ntr_bbc_1_cutie:
     ms "Kita harus menelepon ambulans ..."
     ms "Entah bagaimana pikiran saya tidak menarik sama sekali."
     ms "Saya menatap Dick lagi dan menyadari bahwa dia sedang menatap saya."
-    ms ""Deeper", katanya hanya dengan bibirnya."
+    ms"Deeper", katanya hanya dengan bibirnya."
     scene 136_cough with dissolve
     play voice_fg1 dickCute_3
     ms "Mengingat pelatihan saya, saya mengambil napas dalam -dalam, mencoba bersantai sebanyak mungkin dan mencoba mendorongnya lebih dalam."
@@ -4406,7 +4406,7 @@ label a137_mila_and_paul_after_mila_irritated:
     ms "Tapi saya merasa tidak pada tempatnya di mana -mana."
     ms "Jadi, seperti biasa, saya mencoba memainkan istri yang sempurna."
     ms "Sepotong demi sepotong, mencoba menyatukan diri."
-    ms ""old me"seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
+    ms "old me"seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
     ms "Ini bukan aku lagi."
     scene 137_mila_on_couch_4 with dissolve
     ms "Mungkin tidak pernah ..."
@@ -5031,7 +5031,7 @@ label a137_mila_gangbang:
     "???" "Anda bisa menelepon saya ayah."
     scene 137_mila_after_1a with dissolve
     m "Mustahil."
-    "K" ""K"."
+    "K""K"."
     scene 137_mila_after_2 with dissolve
     m "Senang bertemu denganmu, Clarence."
     d "Apakah Anda mendapatkan teman baru?"
@@ -5571,7 +5571,7 @@ label a138_brief:
         scene 138_lost_in_arms_1 with dissolve
         ms "Saya masih memikirkannya dari waktu ke waktu. Tetapi saya selalu memiliki kesempatan untuk kehilangan diri saya dalam pelukan seseorang."
         ms "Dan tidak ada yang mengajar saya tentang hal itu lagi."
-        ms ""partners"Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
+        ms "partners"Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
         menu:
             "Tubuh saya akan tetap sama, saya suka":
                 jump not_yet
@@ -5596,7 +5596,7 @@ label a138_brief:
                 ms "Setidaknya saya selalu menjadi pusat perhatian."
                 scene 138_small_tits_1 with dissolve
                 ms "Klien lain menyarankan saya mendapatkan implan payudara."
-                ms ""flat as a board"."
+                ms"flat as a board"."
                 ms "Saya tidak pernah sadar diri tentang hal itu, tetapi jika itu membuat mereka bahagia, mengapa tidak?"
                 ms "Jadi..."
                 scene 138_small_tits_2 with dissolve
@@ -5617,7 +5617,7 @@ label a138_brief:
                 scene 138_tattoo_4 with dissolve
                 ms "Haha. {w} Mereka melakukan apa pun yang mereka inginkan dengan tubuh saya!"
                 ms "Tapi saya pikir itu terlihat keren."
-                ms ""the Size Queen"{/i}."
+                ms "the Size Queen"{/i}."
                 ms "Saya tidak yakin bahwa saya sepenuhnya mengerti apa artinya itu, tetapi saya memakai judul itu dengan bangga."
                 label a138_gangbang:
                 scene 138_porn_1 with dissolve
@@ -6079,7 +6079,7 @@ label a138_brief:
                 ms "Saya hampir menangis."
                 ms "Pada saat itu saya benar -benar yakin bahwa saya tidak tahan sekali sekaligus ..."
                 d "Berlutut."
-                ms ""
+                ms"
                 ms "Tetapi ketika saya mendengar suaranya ada sesuatu yang diklik di dalam diri saya. {w} dan saya hanya patuh."
                 scene 138_bukkake_1 with dissolve
                 ms "Beberapa orang mengepung saya dan mulai menyentak."
