@@ -80,7 +80,7 @@ show mila oversized_shirt_twintails_rolling_eyes_annoyed
 ms "Oh, bercinta denganmu"
 show mila oversized_shirt_twintails_awkward_smile
 md "Mau mu."
-dm "Yes, master"Yes, sire", memahami?"
+dm "Yes, master. Yes, sire, memahami?"
 show mila oversized_shirt_twintails_rolling_eyes_annoyed
 ms "Tidak, Shithead"
 show mila oversized_shirt_twintails_naughty
@@ -107,9 +107,9 @@ show mila oversized_shirt_twintails_grin
 ms "Pfff. {w} ya, tentu saja."
 md "Ya, tuan."
 show mila oversized_shirt_twintails_bitlips
-ms "me"bertempur satu sama lain di dalam kepalaku."
-ms "old"saya kehilangan hal yang paling berharga"
-ms "old"saya kehilangan kendali"
+ms "saya bertempur satu sama lain di dalam kepalaku."
+ms "Saya kehilangan hal yang paling berharga."
+ms "Saya kehilangan kendali yang lama."
 dm "Saya telah mengirimi Anda hadiah kecil."
 show mila oversized_shirt_twintails_scared2
 dm "Seorang kurir akan segera hadir untuk memberikannya kepada Anda."
