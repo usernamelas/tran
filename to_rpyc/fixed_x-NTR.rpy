@@ -5031,7 +5031,7 @@ label a137_mila_gangbang:
     "???" "Anda bisa menelepon saya ayah."
     scene 137_mila_after_1a with dissolve
     m "Mustahil."
-    "K""K"."
+    "K."
     scene 137_mila_after_2 with dissolve
     m "Senang bertemu denganmu, Clarence."
     d "Apakah Anda mendapatkan teman baru?"

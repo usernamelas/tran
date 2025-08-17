@@ -6977,7 +6977,7 @@ label Loyal:
         p "Ahem ..."
         hide paul with dissolve
         p "Anda tahu, saya sangat dihidupkan sekarang."
-        p"situation"Bukan yang terbaik untuk pertama kalinya."
+        p "Situation bukan yang terbaik untuk pertama kalinya."
         p "... {w} terutama dengan Mila tidur di sini."
         hide kiki with dissolve
         k "..."
