@@ -2981,7 +2981,7 @@ label Loyal:
         m "..."
         m "Jujur saja ..."
         scene 143_mila_and_kiki_talking_18o with dissolve
-        m"fat ass"Anda selalu mengeluh?"
+        m"pantat besar Anda selalu mengeluh?"
         scene 143_mila_and_kiki_talking_18q with dissolve
         k "!!"
         k "Mustahil!"
@@ -4448,7 +4448,7 @@ label Loyal:
         scene 145_mila_trying_to_cum_10 with dissolve
         ms "Tapi saya mengertakkan gigi dan membuat diri saya bertahan sedikit lebih lama."
         scene 145_mila_trying_to_cum_11 with dissolve
-        ms "thing I want the most"?"
+        ms "hal yang paling saya inginkan?"
         m "..."
         ms "Aku tidak bisa begitu saja pergi ke Kiki dan memintanya untuk menjadi kekasih Paul ..."
         m "..."

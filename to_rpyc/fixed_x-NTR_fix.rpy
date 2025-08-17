@@ -2558,7 +2558,7 @@ scene 134_mila_and_liz_talking_32 with dissolve
 m "I ... {w} Saya tidak mengerti ... {w} tidak ... {w} saya tidak bisa ..."
 scene 134_mila_and_liz_talking_33 with dissolve
 ls "Aku menjilat bibirku yang tiba -tiba kering."
-ls "her"keinginan ... {w} untuk mengirimkan."
+ls "keinginan dia... {w} untuk mengirimkan."
 scene 134_mila_and_liz_talking_33a with dissolve
 ls "Saya tidak pernah tertarik pada wanita. {w} tetapi pada saat ini, dalam pengaturan ini ..."
 ls "façade {/i}."
