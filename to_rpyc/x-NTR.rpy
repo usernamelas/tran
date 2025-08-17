@@ -5215,7 +5215,7 @@ label a137_mila_gangbang:
     p "Saya berpikir untuk memberi Anda kesempatan untuk menjelaskan diri sendiri ... {w} Setelah bertahun -tahun bersama."
     p "Bukannya kamu pantas mendapatkannya. {w} Itu lebih dari cintaku untuk kamu layak mendapatkan kesempatan itu."
     scene 137_mila_gangbang_3s with dissolve
-    p ""unfortunately, you didn't take it\". {w} Tapi Anda tahu apa? {w} Tiba -tiba, saya merasa sangat baik ... sangat gratis. {w} Jadi itu hal yang baik, saya pikir."
+    p "unfortunately, you didn't take it\". {w} Tapi Anda tahu apa? {w} Tiba-tiba, saya merasa sangat baik... sangat gratis. {w} Jadi itu hal yang baik, saya pikir."
     ms "Saya mendengar dia berbicara seolah -olah dari jauh."
     ms "Seolah -olah saya jauh, bukan di sini."
     ms "Atau saya baru saja tidur."

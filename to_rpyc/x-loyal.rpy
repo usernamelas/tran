@@ -1866,7 +1866,7 @@ label Loyal:
         p ""the good guy\"."
         p "Begitulah cara saya dibesarkan."
         p ""Silence is golden.\""
-        p ""You can't go wrong when you choose kindness.\""
+        p "You can't go wrong when you choose kindness."
         p "Tapi ... {w} Saya pikir saya salah paham."
         p "Menjadi baik adalah pilihan - sesuatu yang hanya bisa Anda lakukan jika Anda mampu menjadi kejam."
         p "Anda tidak baik jika Anda tidak mampu menyakiti siapa pun."
