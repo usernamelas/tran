@@ -1,9 +1,0 @@
-=== TAG MAPPING ===
-{1} = {/b}
-{2} = {i}
-{3} = {size=-6}
-{4} = {b}
-{5} = {/i}
-{6} = {w}
-
-=== VARIABLE MAPPING ===

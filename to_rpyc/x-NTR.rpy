@@ -35,7 +35,7 @@ show dick_selfie9x at right:
 md "{UNKNOWN_TAG}"
 hide dick_selfie9x
 "..."
-ms ""read\""
+ms "read"
 ms "Tapi Dick tidak mengatakan apapun"
 show mila oversized_shirt_twintails_shy_down
 ms "Saya menyadari apa yang diinginkannya."
@@ -80,7 +80,7 @@ show mila oversized_shirt_twintails_rolling_eyes_annoyed
 ms "Oh, bercinta denganmu"
 show mila oversized_shirt_twintails_awkward_smile
 md "Mau mu."
-dm ""Yes, master\""Yes, sire\", memahami?"
+dm "Yes, master"Yes, sire", memahami?"
 show mila oversized_shirt_twintails_rolling_eyes_annoyed
 ms "Tidak, Shithead"
 show mila oversized_shirt_twintails_naughty
@@ -94,7 +94,7 @@ ms "Bagaimana ... {w} Bagaimana dia tahu?"
 dm "Sekarang Anda hanya bisa menyentuhnya dengan izin saya."
 show mila oversized_shirt_twintails_rolling_eyes_annoyed
 ms "Da fuck?"
-ms ""Can I shlick?\""
+ms "Can I shlick?"
 show mila oversized_shirt_twintails_grin
 ms "Heh heh."
 dm "Kamu mengerti?"
@@ -107,9 +107,9 @@ show mila oversized_shirt_twintails_grin
 ms "Pfff. {w} ya, tentu saja."
 md "Ya, tuan."
 show mila oversized_shirt_twintails_bitlips
-ms ""me\"bertempur satu sama lain di dalam kepalaku."
-ms ""old\"saya kehilangan hal yang paling berharga"
-ms ""old\"saya kehilangan kendali"
+ms "me"bertempur satu sama lain di dalam kepalaku."
+ms "old"saya kehilangan hal yang paling berharga"
+ms "old"saya kehilangan kendali"
 dm "Saya telah mengirimi Anda hadiah kecil."
 show mila oversized_shirt_twintails_scared2
 dm "Seorang kurir akan segera hadir untuk memberikannya kepada Anda."
@@ -583,7 +583,7 @@ ms "Saya dapat memberi tahu Paul bahwa saya tidak enak badan."
 show mila sport_suit_naughty2
 ms "Aku akan menjadi gadis yang buruk sekali"
 ms "Saya akan memesan beberapa makanan daripada memasak ... {w} dengan cara ini saya akan memiliki lebih banyak waktu untuk ..."
-ms ""Free\"waktu..."
+ms "Free"waktu..."
 ms "..."
 show mila sport_suit_naughty
 ma "Halo!"
@@ -664,7 +664,7 @@ ms "Tidak ada keraguan atau kekhawatiran yang tersisa"
 show mila sport_suit_naughty3
 ms "Hanya cahaya dan euforia"
 ms "Saya bebas lagi."
-ms ""me\"lagi..."
+ms "me"lagi..."
 play sound "call.mp3"
 scene 1214_mila_facetime_worried with fade
 ms "Panggilan video dari nomor yang tidak diketahui?"
@@ -801,7 +801,7 @@ m "..."
 m "Ya, tuan, {w} Aku akan membiarkanmu meniduriku di pantat"
 ms "Kata -kata ini meninggalkan aftertaste pahit"
 ms "Seperti saya kehilangan sesuatu yang penting"
-ms ""old\"Saya"
+ms "old"Saya"
 d "Ada telur getaran"
 d "Itu dikendalikan dari jarak jauh"
 d "Saya ingin Anda memakainya sepanjang waktu"
@@ -1477,7 +1477,7 @@ scene 132_mila_store_clerk_3 with dissolve
 ms "Membayar?"
 ms "Apa yang terjadi?"
 scene 132_mila_store_clerk_1 with dissolve
-m ""Double\"?"
+m "Double"?"
 "???" "..."
 "???" "Itu adil. Kesepakatan."
 d "Lepaskan gaun Anda"
@@ -1790,14 +1790,14 @@ show mila shortdress_annoyed
 ms "Demi Fuck, dia benar -benar meluangkan waktu ..."
 show mila shortdress_emotionless
 d "Di Sini."
-d ""I often imagine multiple men fucking me tirelessly\""
+d "I often imagine multiple men fucking me tirelessly"
 show mila shortdress_scared2
-d ""In my fantasies, I am treated like a helpless doll, being used as they please.\""
+d "In my fantasies, I am treated like a helpless doll, being used as they please."
 show mila shortdress_scared
-d ""I like to imagine myself as just a cunt, men as just dicks that fuck me\""
+d "I like to imagine myself as just a cunt, men as just dicks that fuck me"
 show mila shortdress_shy
-d ""A whore, ready to give myself to the first person I meet for a couple of bucks\""
-d ""To stop being this perfect girl, even for just a split second.\""
+d "A whore, ready to give myself to the first person I meet for a couple of bucks"
+d "To stop being this perfect girl, even for just a split second."
 show mila shortdress_naughty
 ms "Saya mengenali tulisan saya"
 ms "Itu dari profil saya ..."
@@ -1954,11 +1954,11 @@ d "Secara fisik - mungkin. Tapi itu tidak selalu terjadi."
 d "Pelacur akan membuatmu kecewa"
 d "Setiap kata -katanya, setiap tindakan, adalah semua tindakan - hanya untuk mendapat untung."
 d "Itulah mengapa saya membuat situs web"
-d ""recruit\"Nymphomaniacs seperti Anda"
+d "recruit"Nymphomaniacs seperti Anda"
 scene 133_mila_computer_5 with dissolve
 ms "Apa yang dia katakan mengejutkan saya."
 m "Apa maksudmu?"
-m ""Recruit\"saya untuk apa?"
+m "Recruit"saya untuk apa?"
 m "Saya tidak berencana menjadi pelacur"
 d "..."
 d "Apa yang saya katakan tentang mulut Anda? Seharusnya hanya terbuka untuk mengisap atau menjawab pertanyaan."
@@ -2014,13 +2014,13 @@ ms "Mengapa dia tidak memuji saya? {w} Dick?"
 ms "Dick tidak bisa melihat reaksi saya dan terus berbicara"
 scene 133_dildo_deepthroat_2a
 d "Seiring waktu, rumor mulai menyebar."
-d ""community\""
+d "community"
 d "Politisi, pengusaha, selebriti, pria kaya, dan gangster ..."
 d "Butuh banyak upaya untuk menjaga hal itu untuk diri saya sendiri."
 d "Pada akhirnya, semua klien saya tahu bahwa ini bukan rumah bordil."
-d ""buy\"seorang gadis di sini"
+d "buy"seorang gadis di sini"
 d "Anda tidak bisa memaksanya untuk melakukan sesuatu"
-d ""big shots\"Klien"
+d "big shots"Klien"
 d "Hampir setiap saat, mereka dengan senang hati membantu"
 d "Karena mereka yang membantu saya, sebagai rasa terima kasih menerima beberapa ... {w} hak istimewa"
 d "Misalnya, memiliki kesempatan untuk menjadi yang pertama meniduri Anda"
@@ -2032,7 +2032,7 @@ d "Kami akan mewujudkan semua fantasi Anda"
 scene 133_mila_deepthroat_training_9 with dissolve
 m "Haaa ... {w} haaaa ... {w} haaa ..."
 ms "Sulit untuk merasa diberdayakan dengan dildo di tenggorokan Anda"
-ms ""free\"Keju di perangkap tikus"
+ms "free"Keju di perangkap tikus"
 ms "Saya tidak benar -benar mendengarkan hal -hal yang dia katakan"
 ms "Saya tidak akan menjadi pelacur diskon, itu sudah pasti"
 ms "Saya melakukannya karena itu menyenangkan ... {w} dan saya akan melakukannya sampai tidak lagi."
@@ -2171,9 +2171,9 @@ scene 133_liz_rest_4 with dissolve
 l "Bukankah itu sama dengan lebih dari tujuh ... {w} tidak, lebih dari sembilan tahun bekerja dengan kita?"
 scene 133_liz_rest_1 with dissolve
 "???" "... {w} masih, saya tidak bisa ..."
-"???" ""loyal\"pemasok."
+"???" ""loyal"pemasok."
 scene 133_liz_rest_2 with dissolve
-l ""pressure\"punya nama?"
+l "pressure"punya nama?"
 ls "Pria itu melihat sekeliling dengan gugup."
 "???" "I ... {w} saya tidak bisa ..."
 scene 133_liz_rest_5 with dissolve
@@ -2234,7 +2234,7 @@ l_translation2 "{i} Samcheon {/i} (paman) Kim?" (multiple=2)
 Kim_translation1 "Ya, {font=malgun.ttf} 아가씨 {/font}?" (multiple=2)
 Kim_translation2 "Ya, Agashi (wanita kecil)?" (multiple=2)
 scene 133_liz_rest_13 with dissolve
-l ""that\"Tempatkan lagi?"
+l "that"Tempatkan lagi?"
 "Kim" "..."
 "Kim" "Kami diharapkan di perkebunan, ayahmu akan menunggumu."
 scene 133_liz_rest_14 with dissolve
@@ -2266,7 +2266,7 @@ scene 133_liz_rest_21 with dissolve
 play sound "Smokeout.mp3"
 l "Apakah akan berakhir?"
 "Kim" "Tidak ... {w} tidak pernah."
-ls ""Trust\""
+ls "Trust"
 ls "Saya benci kata ini."
 "Kim" "Tapi Anda bisa berhenti."
 scene 133_liz_rest_22 with dissolve
@@ -2361,7 +2361,7 @@ scene 133_liz_and_mila_4 with dissolve
 l "Ada lebih banyak dari mereka?"
 d "..."
 scene 133_liz_and_mila_3 with dissolve
-l ""wall\"dianggap rusak saat apa? {w} Ketika dia setuju untuk bercinta dengan siapa pun?"
+l "wall"dianggap rusak saat apa? {w} Ketika dia setuju untuk bercinta dengan siapa pun?"
 d "Ya."
 scene 133_liz_and_mila_7 with dissolve
 l "Saya melakukan ini dan kami bahkan?"
@@ -2369,7 +2369,7 @@ d "Ya."
 scene 133_liz_and_mila_6 with dissolve
 l "Saya merasa ini akan memakan waktu ..."
 scene 133_liz_and_mila_4 with dissolve
-l ""debt\"tidak cukup."
+l "debt"tidak cukup."
 d "..."
 d "Apa yang kamu inginkan?"
 scene 133_liz_and_mila_8 with dissolve
@@ -2381,7 +2381,7 @@ d "Anda palsu ... {w} Saya tidak bercinta palsu."
 d "Setelah Anda menyingkirkan façade bodoh ini ..."
 d "Kemudian dan hanya dengan begitu kita bisa bercinta."
 scene 133_liz_and_mila_5 with dissolve
-l ""façade\"Anda terus membicarakan karena {w} bukan {w} di sana."
+l "façade"Anda terus membicarakan karena {w} bukan {w} di sana."
 d "Maka itu tidak akan pernah terjadi."
 scene 133_liz_and_mila_6 with dissolve
 l "..."
@@ -2424,7 +2424,7 @@ l "Menanggalkan pakaian."
 scene 134_mila_and_liz_talking_4 with dissolve
 m "Maaf, saya tidak ... {w} erm ..."
 scene 134_mila_and_liz_talking_5 with dissolve
-l ""You are not\"Apa?"
+l "You are not"Apa?"
 m "..."
 l "Oh, Anda pikir saya berencana untuk bercinta dengan Anda?"
 scene 134_mila_and_liz_talking_2 with dissolve
@@ -2503,7 +2503,7 @@ ls "Tanganku gemetar. {w} Aku membungkuk rokok untuk menyembunyikan goyang, {w} 
 ls "Saya merasa berpegang pada sepersekian detik."
 scene 134_mila_and_liz_talking_19 with dissolve
 ls "Saya dengan cepat mendapatkan kembali ketenangan saya, tetapi sekarang, setelah itu ... {w} {i} Nightmare {/i} {w} ... Saya mulai memahami apa yang mungkin dia rasakan ..."
-ls ""I\"{/i} ingin mendengar {b} {i} if {/i} {/b} Saya pernah berada di posisinya."
+ls "I"{/i} ingin mendengar {b} {i} if {/i} {/b} Saya pernah berada di posisinya."
 play music ["music/dom.mp3", "music/menu_hw2.mp3"] loop
 l "Anda ... {w} Miss Passion, bukan?"
 scene 134_mila_and_liz_talking_20 with dissolve
@@ -2533,7 +2533,7 @@ play sound "heart.mp3"
 ls "Setiap kata seperti pukulan, beresonansi dengan hatiku, {w} berdebar begitu keras sehingga terasa seperti itu akan keluar dari dadaku."
 scene 134_mila_and_liz_talking_27 with dissolve
 ls "Saya menyembunyikan wajah saya di dalam cangkir kopi yang dingin dan pahit. {w} Saya tidak memiliki kekuatan untuk memanggil seorang pelayan untuk menyuruhnya membuat yang baru."
-ls ""I\""I\"tidak ingin ada yang melihat saya."
+ls "I"I"tidak ingin ada yang melihat saya."
 ls "Namun, saya mulai berbicara."
 ls "Kata -kata itu tumpah dari bibirku, seolah -olah aku akan menahannya sepanjang hidupku, {w} seolah -olah aku selalu ingin mengatakannya tetapi tetap diam."
 scene 134_mila_and_liz_talking_28 with dissolve
@@ -2558,10 +2558,10 @@ scene 134_mila_and_liz_talking_32 with dissolve
 m "I ... {w} Saya tidak mengerti ... {w} tidak ... {w} saya tidak bisa ..."
 scene 134_mila_and_liz_talking_33 with dissolve
 ls "Aku menjilat bibirku yang tiba -tiba kering."
-ls ""her\"keinginan ... {w} untuk mengirimkan."
+ls "her"keinginan ... {w} untuk mengirimkan."
 scene 134_mila_and_liz_talking_33a with dissolve
 ls "Saya tidak pernah tertarik pada wanita. {w} tetapi pada saat ini, dalam pengaturan ini ..."
-ls ""façade\"{/i}."
+ls "façade"{/i}."
 ls "Saya ingin melahapnya. {w} karena dia ingin melahap."
 scene 134_mila_and_liz_talking_34 with dissolve
 l "Lihat aku."
@@ -2596,7 +2596,7 @@ scene 134_mila_and_liz_talking_41 with dissolve
 l "Lalu mengapa melawannya?"
 ls "Fragmen terakhir dari kewarasan hancur. {w} Saya kehilangan kendali sepenuhnya, tidak hanya atas apa yang saya katakan tetapi juga apa yang saya lakukan juga."
 ls "Saya menjadi tidak lebih dari pengamat yang diam."
-ls ""
+ls "
 scene 134_mila_and_liz_talking_42 with dissolve
 m "..."
 scene 134_mila_and_liz_talking_43 with dissolve
@@ -2613,7 +2613,7 @@ scene 134_mila_and_liz_talking_45 with dissolve
 l "{size=-6} Jangan sembunyikan."
 l "{size=-10} rileks. {w} percayalah."
 scene 134_mila_and_liz_talking_46 with dissolve
-ls ""trust\"meninggalkan rasa yang tidak menyenangkan di mulutku."
+ls "trust"meninggalkan rasa yang tidak menyenangkan di mulutku."
 ls "{i} Trust {/i} adalah kemewahan bagi orang miskin - saya tahu itu lebih baik daripada orang lain."
 ls "Namun, kata yang terlepas dari lidah saya."
 ls "Itu bergema di kepalaku, memabukkannya."
@@ -2657,7 +2657,7 @@ scene 134_mila_and_liz_talking_53 with dissolve
 play sound "heart.mp3"
 l "..."
 ls "Saya tidak tahu bahwa seseorang dapat melihat Anda seperti itu. {w} tidak memahami sikap semacam ini."
-ls ""Hurt me\". {w} Tidak, dia tidak ingin rasa sakit, tidak ingin penghinaan."
+ls "Hurt me". {w} Tidak, dia tidak ingin rasa sakit, tidak ingin penghinaan."
 ls "Dia menginginkan hal yang berbeda ..."
 ls "Dia menuntut panduan. {w} untuk kesenangan ... {w} bahkan melalui rasa sakit dan penghinaan."
 ls "Dia menatapku seperti aku adalah dewa. {w} Iman mutlak di matanya. {w} Dia ingin melayani, untuk menemukan sukacita dalam menyerah, dalam kelemahan."
@@ -2810,7 +2810,7 @@ label hscene_ntr_liz_1:
     scene 134_liz_with_bellboy_7 with dissolve
     l "Duduk."
     "???" "... {w} apa?"
-    l ""sit down\"."
+    l ""sit down"."
     ls "Saya mencoba berbicara dengan lembut, tetapi nada yang memerintah masih tergelincir."
     ls "Aku benci mengulangi diriku sendiri."
     scene 134_liz_with_bellboy_suck_1 with fade
@@ -2891,7 +2891,7 @@ label hscene_ntr_liz_1:
     ls "Saya merasakan kehadirannya di belakangku. {w} Aku merasakan tatapannya."
     ls "Kegembiraan dengan cepat berubah menjadi ketakutan dan kenangan bodoh dari bajingan itu."
     ls "Dia dulu menyakiti dan mempermalukan saya."
-    ls ""love\""
+    ls "love"
     ls "Kenangan tersangkut di tenggorokan saya, dan saya sudah ingin berhenti, tapi ..."
     scene 134_liz_with_bellboy_8 with dissolve
     l "Lai"
@@ -3116,7 +3116,7 @@ m "..."
 ms "Apa yang bahkan saya harapkan?"
 scene 135_dinner_2 with dissolve
 m "..."
-ms ""We'll spend some time together\", pantatku"
+ms "We'll spend some time together", pantatku"
 scene 135_dinner_1a with dissolve
 m "..."
 scene 135_dinner_1b with dissolve
@@ -3662,7 +3662,7 @@ label hscene_ntr_bbc_1_slutty:
     play voice_fg1 dickSlutty8_1
     ms "Saya melepas celana dalam saya dan melemparkan kaki saya di atas penis."
     ms "Aku bahkan tidak memikirkan pesanannya."
-    ms ""me\"..."
+    ms ""me"..."
     scene 135_sex2_2 with dissolve
     play voice_fg1 dickSlutty8_2
     ms "Penisnya menekan vaginaku dan dengan mudah menyelinap ke dalam."
@@ -3934,7 +3934,7 @@ label hscene_ntr_bbc_1_cutie:
     ms "Kita harus menelepon ambulans ..."
     ms "Entah bagaimana pikiran saya tidak menarik sama sekali."
     ms "Saya menatap Dick lagi dan menyadari bahwa dia sedang menatap saya."
-    ms ""Deeper\", katanya hanya dengan bibirnya."
+    ms ""Deeper", katanya hanya dengan bibirnya."
     scene 136_cough with dissolve
     play voice_fg1 dickCute_3
     ms "Mengingat pelatihan saya, saya mengambil napas dalam -dalam, mencoba bersantai sebanyak mungkin dan mencoba mendorongnya lebih dalam."
@@ -4220,7 +4220,7 @@ label after_the_first_sex_with_dick:
     ms "Oh, untuk cinta ... {w} Anda dan keanehan Anda yang aneh ..."
     scene 136_morning_after_8 with dissolve
     d "Biarkan saya membuat sesuatu yang jelas."
-    d ""relationship.\""
+    d "relationship."
     d "Jika Anda pernah masuk ke kantor saya seperti yang Anda lakukan kemarin, akan ada konsekuensi."
     d "Dipahami?"
     m "..."
@@ -4406,7 +4406,7 @@ label a137_mila_and_paul_after_mila_irritated:
     ms "Tapi saya merasa tidak pada tempatnya di mana -mana."
     ms "Jadi, seperti biasa, saya mencoba memainkan istri yang sempurna."
     ms "Sepotong demi sepotong, mencoba menyatukan diri."
-    ms ""old me\"seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
+    ms ""old me"seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
     ms "Ini bukan aku lagi."
     scene 137_mila_on_couch_4 with dissolve
     ms "Mungkin tidak pernah ..."
@@ -5031,7 +5031,7 @@ label a137_mila_gangbang:
     "???" "Anda bisa menelepon saya ayah."
     scene 137_mila_after_1a with dissolve
     m "Mustahil."
-    ""K\"" ""K\"."
+    "K" ""K"."
     scene 137_mila_after_2 with dissolve
     m "Senang bertemu denganmu, Clarence."
     d "Apakah Anda mendapatkan teman baru?"
@@ -5052,7 +5052,7 @@ label a137_mila_gangbang:
     ms "Saya ingin melakukan apa yang dia katakan."
     scene 137_mila_after_6 with dissolve
     m "..."
-    ""K\"" "Anda meregangkannya dengan baik."
+    "K" "Anda meregangkannya dengan baik."
     "Tanda" "Ya, dia terlihat seperti pelacur nyata sekarang."
     play voice_fg1 giggle
     m "Hihihi."
@@ -5123,7 +5123,7 @@ label a137_mila_gangbang:
     play voice_bg1 [thrust_once] loop
     play sound masturbating loop
     m "Ya, {w} {size=+5} Ya, {w} {size=+10} Ya!"
-    ""K\"" "Saya suka menontonnya cum."
+    "K" "Saya suka menontonnya cum."
     d "Ya, sungguh menyenangkan untuk ditonton."
     "Tanda" "Biarkan saya menunjukkan kepada Anda lebih baik."
     scene 137_mila_gangbang_3 with hpunch
@@ -5135,7 +5135,7 @@ label a137_mila_gangbang:
     play sound masturbating loop
     play voice_fg1 dickGroup_50
     "Tanda" "Dia sangat ringan! {w} seperti mainan seks."
-    ""K\"" "Ahah"
+    "K" "Ahah"
     d "Wajah yang bodoh."
     "{i} slap {w} slap {w} slap"
     ms "Saya tidak peduli apa yang mereka katakan."
@@ -5215,7 +5215,7 @@ label a137_mila_gangbang:
     p "Saya berpikir untuk memberi Anda kesempatan untuk menjelaskan diri sendiri ... {w} Setelah bertahun -tahun bersama."
     p "Bukannya kamu pantas mendapatkannya. {w} Itu lebih dari cintaku untuk kamu layak mendapatkan kesempatan itu."
     scene 137_mila_gangbang_3s with dissolve
-    p "unfortunately, you didn't take it\". {w} Tapi Anda tahu apa? {w} Tiba-tiba, saya merasa sangat baik... sangat gratis. {w} Jadi itu hal yang baik, saya pikir."
+    p "unfortunately, you didn't take it". {w} Tapi Anda tahu apa? {w} Tiba-tiba, saya merasa sangat baik... sangat gratis. {w} Jadi itu hal yang baik, saya pikir."
     ms "Saya mendengar dia berbicara seolah -olah dari jauh."
     ms "Seolah -olah saya jauh, bukan di sini."
     ms "Atau saya baru saja tidur."
@@ -5383,7 +5383,7 @@ label a138_mila_and_liz:
     scene 138_liz_6 with dissolve
     l "Gangba ..."
     scene 138_liz_6a with hpunch
-    l ""Another\""another\"{/i}?!"
+    l "Another"another"{/i}?!"
     scene 138_mila_3 with dissolve
     play voice_fg1 ehehe1
     m "Hehe ..."
@@ -5501,7 +5501,7 @@ label a138_brief:
     scene 138_eat_sleep_fuck with dissolve
     ms "Saya tidur, makan, dan bercinta seperti orang gila."
     ms "Sejujurnya, saya tidak peduli dengan siapa saya bercinta."
-    ms ""attention.\""
+    ms "attention."
     ms "Dan saya menghujani mereka dengan hati -hati dan kasih sayang."
     scene 138_necklace with dissolve
     ms "Itu terbayar."
@@ -5571,7 +5571,7 @@ label a138_brief:
         scene 138_lost_in_arms_1 with dissolve
         ms "Saya masih memikirkannya dari waktu ke waktu. Tetapi saya selalu memiliki kesempatan untuk kehilangan diri saya dalam pelukan seseorang."
         ms "Dan tidak ada yang mengajar saya tentang hal itu lagi."
-        ms ""partners\"Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
+        ms ""partners"Kata dia suka tindikan pusar dan memohon saya untuk melakukannya."
         menu:
             "Tubuh saya akan tetap sama, saya suka":
                 jump not_yet
@@ -5596,7 +5596,7 @@ label a138_brief:
                 ms "Setidaknya saya selalu menjadi pusat perhatian."
                 scene 138_small_tits_1 with dissolve
                 ms "Klien lain menyarankan saya mendapatkan implan payudara."
-                ms ""flat as a board\"."
+                ms ""flat as a board"."
                 ms "Saya tidak pernah sadar diri tentang hal itu, tetapi jika itu membuat mereka bahagia, mengapa tidak?"
                 ms "Jadi..."
                 scene 138_small_tits_2 with dissolve
@@ -5617,7 +5617,7 @@ label a138_brief:
                 scene 138_tattoo_4 with dissolve
                 ms "Haha. {w} Mereka melakukan apa pun yang mereka inginkan dengan tubuh saya!"
                 ms "Tapi saya pikir itu terlihat keren."
-                ms ""the Size Queen\"{/i}."
+                ms ""the Size Queen"{/i}."
                 ms "Saya tidak yakin bahwa saya sepenuhnya mengerti apa artinya itu, tetapi saya memakai judul itu dengan bangga."
                 label a138_gangbang:
                 scene 138_porn_1 with dissolve

@@ -209,7 +209,7 @@ label Loyal:
     "Bibi Ruth" "Sejak kapan Anda menjadi begitu menuntut?"
     k "{size=-10} Saya tidak ingin menjadi beban bagi mereka ..."
     scene 140_morning_15a with dissolve
-    "Bibi Ruth" ""{i}Two are better than one, because they have a good reward for their labor.\""
+    "Bibi Ruth" "{i}Two are better than one, because they have a good reward for their labor."
     scene 140_morning_16 with dissolve
     m "Um ... halo?"
     "Bibi Ruth" "Oh, halo, sayang!"
@@ -257,7 +257,7 @@ label Loyal:
     "Bibi Ruth" "Anda sangat baik, Mila! {w} Itu salah satu dari banyak kebajikan Anda!"
     "Bibi Ruth" "Itulah mengapa Anda bertemu dengan suami yang luar biasa!"
     scene 140_morning_21 with dissolve
-    "Bibi Ruth" ""The generous soul will be made rich, and he who waters will also be watered himself\". Dan Anda selalu memiliki hati emas."
+    "Bibi Ruth" ""The generous soul will be made rich, and he who waters will also be watered himself". Dan Anda selalu memiliki hati emas."
     "Bibi Ruth" "Gadis malang saya, meskipun ... {w} selalu satu atau lain hal dengan dia ..."
     scene 140_morning_22 with dissolve
     "Bibi Ruth" "Seorang siswa yang baik, katamu? {w} Di mana dia akan berada jika aku tidak berdiri di atasnya dengan seorang penguasa?"
@@ -295,7 +295,7 @@ label Loyal:
     "Bibi Ruth" "Terima kasih kepada Tuhan!"
     "Bibi Ruth" "Dan Anda tahu apa?"
     "Bibi Ruth" "Orang tua dari gadis -gadis lain sepakat untuk memperlancar hal -hal jika dia hanya meminta maaf."
-    "Bibi Ruth" ""thank you and I'm sorry.\"Tapi tidak ..."
+    "Bibi Ruth" ""thank you and I'm sorry."Tapi tidak ..."
     scene 140_morning_14 with dissolve
     k "{size=-2} Mereka memulainya! {w} Saya tidak perlu meminta maaf untuk itu!"
     "Bibi Ruth" "Melihat?"
@@ -316,7 +316,7 @@ label Loyal:
     "Bibi Ruth" "Dan hatiku berdarah hanya memikirkannya di beberapa asrama ... {w} Sarang pesta pora dan nafsu muda."
     scene 140_morning_19 with dissolve
     k "{size=-10} Bu, asrama terpisah untuk pria dan wanita."
-    "Bibi Ruth" ""separate dorms.\"Pria adalah sarang, wanita rumah bordil."
+    "Bibi Ruth" ""separate dorms."Pria adalah sarang, wanita rumah bordil."
     k "{size=-10} Bu, demi Tuhan ..."
     scene 140_morning_15 with hpunch
     "Bibi Ruth" "Jangan ambil nama Tuhan dengan sia -sia!"
@@ -544,7 +544,7 @@ label Loyal:
         show paul close_pensive2
         p "Dan apa yang Anda katakan ..."
         p "Itu mengingatkan saya akan hal itu."
-        p ""scheduled sex\", seperti yang kami miliki."
+        p ""scheduled sex", seperti yang kami miliki."
         p "Itu membosankan dan hanya ..."
         show paul close_pensive
         p "Terlalu mekanis."
@@ -562,7 +562,7 @@ label Loyal:
         p "Bagaimana cara meletakkan ini ..."
         p "Anda tahu, saya agak ingin blowjob pagi yang slobbery."
         show mila close_robe_after_sex_shy
-        p ""deep throat\"semacam blowjob, dengan ekspresi bodoh dan suara bejat ..."
+        p ""deep throat"semacam blowjob, dengan ekspresi bodoh dan suara bejat ..."
         show mila close_robe_after_sex_shy2
         p "Tapi saya terlalu menghormati Anda untuk meminta sesuatu seperti itu."
         m "..."
@@ -610,7 +610,7 @@ label Loyal:
         scene 140 mila_and_paul_on_coach_1d with dissolve
         m "Hanya saja, jangan katakan itu ke wajahnya."
         scene 140 mila_and_paul_on_coach_1f with dissolve
-        m ""shouldn't have done that\"."
+        m ""shouldn't have done that"."
         m "Ya, mungkin."
         m "Tapi Anda sudah ada di dalamnya."
         p "..."
@@ -621,7 +621,7 @@ label Loyal:
         scene 140 mila_and_paul_on_coach_1e with dissolve
         p "Obsesi untuk menjadi benar dan menempel di jalannya belum ada di mana pun."
         scene 140 mila_and_paul_on_coach_1f with dissolve
-        m ""fix\"..."
+        m ""fix"..."
         m "Satu hal yang saya tahu dia lebih mencintai Kira."
         m "Dia menginginkan yang terbaik untuknya."
         m "Dia hanya tidak selalu tahu bagaimana menunjukkannya dengan benar."
@@ -1121,11 +1121,11 @@ label Loyal:
             p "Ha ha. Maaf, Priestess, saya tidak tahu saya berada di tempat yang sakral."
             m "Anda dapat berdoa untuk pengampunan atau membeli kesenangan untuk menebus dosa -dosa Anda."
             p "Betapa agama demokratis yang kita miliki di sini! Banyak pilihan."
-            m ""make priestess cum and you are forgiven.\""
+            m "make priestess cum and you are forgiven."
             scene 141_paul_working_from_bed_mila_open_towel4 with dissolve
             p "Saya akan memilih yang ini, saya pikir. Kedengarannya sulit, tetapi jika saya {b} harus {/b} melakukannya untuk dimurnikan di mata dewi yang maha kuasa ..."
             m "..."
-            ms ""Have to\"..."
+            ms ""Have to"..."
             ms "Dia tidak menekankan kata itu, dan mengatakan itu lebih seperti lelucon. Tapi dia mengatakannya."
             ms "Tiba -tiba, saya merasa dingin."
             ms "Meskipun air di kulit saya sudah lama dikeringkan dan ruangannya panas."
@@ -1154,7 +1154,7 @@ label Loyal:
             scene 141_paul_and_mila_split_2 with dissolve
             p "Bisa jadi apa saja - mulai dari berhubungan seks hingga pergi ke restoran."
             m "Bisakah saya meminta Anda untuk membawa saya ke Paris?"
-            p ""wishes\"tentang itu."
+            p ""wishes"tentang itu."
             p "Untuk memulai, saya dapat memilih tanggal dan membeli tiket untuk salah satu keinginan."
             scene 141_paul_and_mila_split_3 with dissolve
             p "Dan Anda akan berhutang budi kepada saya setiap hari yang kami habiskan di Paris."
@@ -1723,7 +1723,7 @@ label Loyal:
         ms "Sangat menyenangkan melihat dia tumbuh menjadi gadis yang rajin."
         show mila close_t-shirt_worried with vpunch
         m "Lai"
-        ms ""Oh...\"dari ruang cuci."
+        ms ""Oh..."dari ruang cuci."
         scene bg laundry_room with dissolve
         show mila close_t-shirt_worried at center with dissolve:
             xpos 0.8
@@ -1761,7 +1761,7 @@ label Loyal:
         m "Bisakah Anda menyirami tanaman untuk saat ini? Saya akan menanganinya."
         k "Ya, oke ... maaf ..."
         show mila close_t-shirt_thinking2 with dissolve
-        ms ""Oh...\"dari lorong."
+        ms ""Oh..."dari lorong."
         scene bg door with hpunch
         show mila close_t-shirt_worried at center with dissolve:
             xpos 0.8
@@ -1863,9 +1863,9 @@ label Loyal:
         ms "Terkadang terasa terputus. Tapi saya tidak perlu mengerti - saya merasakan apa yang dia maksud."
         p "Apa yang Anda katakan adalah jerami terakhir."
         p "Yang benar adalah, saya semakin dingin dan acuh tak acuh karena saya harus memakai topeng."
-        p ""the good guy\"."
+        p ""the good guy"."
         p "Begitulah cara saya dibesarkan."
-        p ""Silence is golden.\""
+        p "Silence is golden."
         p "You can't go wrong when you choose kindness."
         p "Tapi ... {w} Saya pikir saya salah paham."
         p "Menjadi baik adalah pilihan - sesuatu yang hanya bisa Anda lakukan jika Anda mampu menjadi kejam."
@@ -1882,11 +1882,11 @@ label Loyal:
         p "Saya merasa kuat."
         p "Kuat"
         p "Hidup."
-        p ""you\"ingin."
+        p ""you"ingin."
         p "Dan seluruh hidup saya, saya tidak berdaya."
         p "Terperangkap oleh aturan yang saya diberlakukan pada diri saya sendiri."
         p "Dan fakta bahwa Anda tidak menikmatinya ..."
-        p ""the real me\"..."
+        p ""the real me"..."
         p "Itu ... sakit."
         scene 142_mila_and_paul_4 with dissolve
         m "Saya tidak-"
@@ -1933,7 +1933,7 @@ label Loyal:
         m "Phewww ..."
         scene 142_mila_and_paul_10 with dissolve
         p "Fiuh?"
-        p ""phew\"?"
+        p ""phew"?"
         scene 142_mila_and_paul_11 with dissolve
         m "Saya pikir kalian berdua ... erm ... Anda tahu?"
         p "..."
@@ -2400,7 +2400,7 @@ label Loyal:
         ms "Tapi sekarang ... ada sesuatu yang berubah. Untuk kami berdua."
         ms "Dia meraih rambut saya dengan tangan dan sepertinya kesulitan menahan diri."
         ms "Mulut saya dipenuhi air liur, baik dari kegembiraan atau overflow emosi."
-        ms ""mess\"..."
+        ms ""mess"..."
         ms "Tapi sekarang ... {w} Saya tidak peduli ... Saya ingin itu slutty, ceroboh dan berantakan."
         ms "Aku menyelipkan bibir dan lidahku di atas kepalanya, membiarkan air liur mengalir dengan bebas dari sudut mulutku."
         ms "Sepertinya dia menyukainya."
@@ -2419,7 +2419,7 @@ label Loyal:
         m "*Tertawa"
         p "Maaf, apakah kamu baik -baik saja?"
         scene 143_mila_and_paul_throating_10 with dissolve
-        m ""train\"saya, bukan?"
+        m ""train"saya, bukan?"
         m "Teruskan."
         scene 143_mila_and_paul_throating_11 with dissolve
         p "..."
@@ -2506,7 +2506,7 @@ label Loyal:
         ms "Fantasi ini membuatku lebih menginginkannya."
         ms "Meskipun sedikit membuatku takut ..."
         ms "Bukan itu yang biasa saya lakukan."
-        ms ""normal\"."
+        ms ""normal"."
         ms "Tapi itulah yang dia inginkan ..."
         ms "{b} Kami {/b} ingin."
         scene 143_mila_and_paul_throating_17 with dissolve
@@ -2528,7 +2528,7 @@ label Loyal:
         p "Santai dan menelan saya."
         p "Apakah kamu mengerti?"
         ms "Saya mengangguk."
-        p ""Yes, sir\""
+        p "Yes, sir"
         scene 143_mila_and_paul_throating_19 with dissolve
         ms "Pak? {w} Sial, itu sangat panas ..."
         scene 143_mila_and_paul_throating_20 with dissolve
@@ -2965,7 +2965,7 @@ label Loyal:
         scene 143_mila_and_kiki_talking_18e with dissolve
         k "Kembali ke sekolah, maksudku ..."
         k "Tapi semua gadis populer ada di dalamnya, dan ..."
-        k ""one of them\", Kamu tahu?"
+        k ""one of them", Kamu tahu?"
         k "Tapi saya pikir mungkin ... {w} mungkin saya masih bisa menari. {w} tepat di belakang ... {w} di bayang -bayang ..."
         k "Dan kemudian mereka mengatakan itu ..."
         scene 143_mila_and_kiki_talking_18k with dissolve
@@ -2981,7 +2981,7 @@ label Loyal:
         m "..."
         m "Jujur saja ..."
         scene 143_mila_and_kiki_talking_18o with dissolve
-        m ""fat ass\"Anda selalu mengeluh?"
+        m ""fat ass"Anda selalu mengeluh?"
         scene 143_mila_and_kiki_talking_18q with dissolve
         k "!!"
         k "Mustahil!"
@@ -3038,9 +3038,9 @@ label Loyal:
             if mila_cuckquean:
                 jump harem_route
             scene under_constr
-            ""pure\"Rute berakhir - untuk saat ini."
+            ""pure"Rute berakhir - untuk saat ini."
             menu:
-                ""Polyamorus (harem)\"rute dari sini."
+                ""Polyamorus (harem)"rute dari sini."
                 "Ya, ganti saya ke rute harem.":
                     jump harem_route
                 "Tidak, saya keluar dari sini.":
@@ -3117,7 +3117,7 @@ label Loyal:
         show mila left_wardrobe_5 with dissolve
         ms "Padahal, saya mungkin memiliki ... {w} membengkokkan kebenaran di sana -sini."
         show mila left_wardrobe_4 with dissolve
-        ms ""big-sister\"hak istimewa."
+        ms ""big-sister"hak istimewa."
         show kiki right_wardrobe_8 with dissolve
         k "Tapi saya katakan, saya tidak ingin meminta bantuannya ... Saya tidak ingin mengganggu Paul."
         m "Jika dia tidak nyaman, dia akan mengatakannya."
@@ -3177,7 +3177,7 @@ label Loyal:
         show kiki2 right_yoga_pants_3 at left
         with dissolve
         k "Aneh, kan? {w} dan tidak cocok untukku ..."
-        m portrait_robe_empty_eyes_open_mouth ""lose\"{w} - Apakah Anda meninggalkannya di karung kentang yang Anda sebut pakaian?"
+        m portrait_robe_empty_eyes_open_mouth ""lose"{w} - Apakah Anda meninggalkannya di karung kentang yang Anda sebut pakaian?"
         show kiki left_yoga_pants_4 at right
         show kiki2 right_yoga_pants_4 at left
         with hpunch
@@ -3249,7 +3249,7 @@ label Loyal:
         show kiki left_yoga_pants_4 at right
         show kiki2 right_yoga_pants_4 at left
         with hpunch
-        m ""gorgeous\"? Dia bom seks terkutuk!"
+        m ""gorgeous"? Dia bom seks terkutuk!"
         show kiki left_yoga_pants_7 at right
         show kiki2 right_yoga_pants_7 at left
         with dissolve
@@ -3265,9 +3265,9 @@ label Loyal:
         k "Anda berdua hanya bersikap baik ... {w} seperti biasa."
         m portrait_robe_annoyed "Haaah ..."
         m portrait_robe_naughty_face_side "Maukah Anda melatihnya?"
-        ms portrait_robe_naughty_face ""train\"Tiba -tiba mengambil ... makna yang berbeda, setelah apa yang terjadi pagi ini."
+        ms portrait_robe_naughty_face ""train"Tiba -tiba mengambil ... makna yang berbeda, setelah apa yang terjadi pagi ini."
         ms portrait_robe_naughty_face_side "Dan untuk beberapa alasan aneh ... Saya tidak keberatan sama sekali."
-        m ""fat\"."
+        m ""fat"."
         m portrait_robe_naughty_face "Tetapi jika Anda bertanya kepada saya - dia harus memamerkan tubuh itu."
         m "Karena itu sangat luar biasa."
         show kiki left_yoga_pants_7 at right
@@ -4238,7 +4238,7 @@ label Loyal:
         m "Mengapa Anda membutuhkan seorang pendeta ketika seorang malaikat memaafkan dosa -dosa Anda di sini?"
         m "Menyesali!"
         show var 144_kikis_dream_44 with dissolve
-        m ""Mila rules.\""
+        m "Mila rules."
         k "..."
         m "..."
         show var 144_kikis_dream_45 with dissolve
@@ -4393,7 +4393,7 @@ label Loyal:
         ms "Dan setiap kali saya mendekat ..."
         scene 145_mila_masturbation_2_anim with dissolve
         ms "Kata -katanya bergema di pikiran saya."
-        ms ""Do what you want,\"katanya."
+        ms ""Do what you want,"katanya."
         ms "Tetapi jika saya menyisihkan yang jelas ..."
         ms "Bahwa saya ingin datang !!!" with hpunch
         ms "... apa yang tersisa?"
@@ -4449,7 +4449,7 @@ label Loyal:
         scene 145_mila_trying_to_cum_10 with dissolve
         ms "Tapi saya mengertakkan gigi dan membuat diri saya bertahan sedikit lebih lama."
         scene 145_mila_trying_to_cum_11 with dissolve
-        ms ""thing I want the most\"?"
+        ms ""thing I want the most"?"
         m "..."
         ms "Aku tidak bisa begitu saja pergi ke Kiki dan memintanya untuk menjadi kekasih Paul ..."
         m "..."
@@ -4652,7 +4652,7 @@ label Loyal:
         scene 145_mila_and_kikky_cards_out_3m
         show mila 145_close_sadside
         with dissolve
-        m ""right\", labu."
+        m ""right", labu."
         m "Dan kami lelah."
         m "Saya lelah."
         m "Dan kelelahan itu ... {w} itu membuatmu ... {w} menginginkan segalanya ..."
@@ -4951,7 +4951,7 @@ label Loyal:
         m "Salah?"
         k "..."
         show mila 145_close_frown with dissolve
-        m ""wrong\"Kemudian."
+        m ""wrong"Kemudian."
         m "Ini hidup kita. {w} pilihan kita."
         m "Anda tidak akan mendapatkan percobaan kedua."
         m "Anda tidak akan bisa melihat kembali pada akhirnya dan berkata, 'Yah, setidaknya saya menjalaninya dengan benar.'"
@@ -5045,7 +5045,7 @@ label Loyal:
         m "Kiki."
         k "Sor—"
         show mila 145_close_annoyed5 with dissolve
-        m ""sorry\"Dan saya memukul pantat lucu yang terus Anda sembunyikan."
+        m ""sorry"Dan saya memukul pantat lucu yang terus Anda sembunyikan."
         show mila 145_close_naughty_face2 with dissolve
         m "Dan saya akan memukulnya setiap kali Anda meminta maaf."
         k "Sor—"
@@ -5168,7 +5168,7 @@ label Loyal:
         k "Sudah kubilang, aku tidak cocok untuk ini ..."
         show mila 145_2_naughty with dissolve
         m "Maaf, maaf! Aku tidak bermaksud membuatmu merasa buruk, ahah ..."
-        m ""cut\", Anda sudah sempurna apa adanya."
+        m ""cut", Anda sudah sempurna apa adanya."
         m "Jangan {i} coba {/i} agar terlihat seksi."
         show kiki 145_2_shy4 with dissolve
         m "Lihat saja dia dan jangan menahan diri."
@@ -5688,7 +5688,7 @@ label Loyal:
         show paul 145_club_grin with dissolve
         p "Kedengarannya adil."
         show mila 145_club_amber2 with dissolve
-        m ""Fine.\""
+        m "Fine."
         m "Lalu kita akan pergi nanti."
         show mila 145_club_pleading with dissolve
         m "Tetapi-"
@@ -5776,7 +5776,7 @@ label Loyal:
         show paul 145_club_viewer_expressionless with dissolve
         p "..."
         show mila 145_club_annoyed with dissolve
-        m ""Cute and pretty\"? Pujian lemas macam apa itu?"
+        m ""Cute and pretty"? Pujian lemas macam apa itu?"
         show paul 145_club_surprised
         show mila 145_club_naughty
         with dissolve
@@ -5884,7 +5884,7 @@ label Loyal:
         "???" "Bagaimana kalau aku membelikanmu minuman?"
         show mila 145_club_dude_false_smile with dissolve
         m "Tidak, terima kasih, saya di sini dengan—"
-        ms ""my husband\"."
+        ms ""my husband"."
         show mila 145_club_worried with dissolve
         ms "Tetapi jika saya menunjuknya sekarang, tidak ada yang akan mempercayai saya."
         ms "Paul bersama Kiki. {w} dengan Kiki, bukan dengan saya."
@@ -6124,7 +6124,7 @@ label Loyal:
         ms "Apa yang saya dorong dengan lembut ke arahnya."
         ms "Jujur ... {w} Saya mungkin akan melakukan hal yang sama, jika saya adalah dia."
         ms "Paul berdiri di dekatnya, bergeser dengan canggung, matanya tidak bisa dibaca."
-        ms ""Told you this would happen.\""
+        ms "Told you this would happen."
         ms "Dia tidak akan pernah mengatakannya dengan keras."
         ms "Mungkin dia bahkan tidak memikirkannya."
         ms "Tapi seperti itulah rasanya bagi saya."
@@ -6978,7 +6978,7 @@ label Loyal:
         p "Ahem ..."
         hide paul with dissolve
         p "Anda tahu, saya sangat dihidupkan sekarang."
-        p ""situation\"Bukan yang terbaik untuk pertama kalinya."
+        p ""situation"Bukan yang terbaik untuk pertama kalinya."
         p "... {w} terutama dengan Mila tidur di sini."
         hide kiki with dissolve
         k "..."
