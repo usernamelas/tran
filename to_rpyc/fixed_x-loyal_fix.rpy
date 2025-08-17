@@ -562,7 +562,7 @@ label Loyal:
         p "Bagaimana cara meletakkan ini ..."
         p "Anda tahu, saya agak ingin blowjob pagi yang slobbery."
         show mila close_robe_after_sex_shy
-        p "deep throat"semacam blowjob, dengan ekspresi bodoh dan suara bejat ..."
+        p "deep throat semacam blowjob, dengan ekspresi bodoh dan suara bejat ..."
         show mila close_robe_after_sex_shy2
         p "Tapi saya terlalu menghormati Anda untuk meminta sesuatu seperti itu."
         m "..."
@@ -1886,7 +1886,7 @@ label Loyal:
         p "Dan seluruh hidup saya, saya tidak berdaya."
         p "Terperangkap oleh aturan yang saya diberlakukan pada diri saya sendiri."
         p "Dan fakta bahwa Anda tidak menikmatinya ..."
-        p"the real me"..."
+        p"the real me..."
         p "Itu ... sakit."
         scene 142_mila_and_paul_4 with dissolve
         m "Saya tidak-"
@@ -2465,9 +2465,9 @@ label Loyal:
 
         window hide
         show screen image_choice(
-            ImageChoice("gambar/pilihan/loyal_cuckquean.webp, Jump(loyal_cuckquean"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
-            ImageChoice("gambar/pilihan/loyal_pure.webp, Jump(loyal_pure"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
-            alpha_mask="gambar/pilihan/gambar_choice_mask.webp"
+            ImageChoice("images/choices/loyal_cuckquean.webp", Jump("loyal_cuckquean"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="bottom")),
+            ImageChoice("images/choices/loyal_pure.webp", Jump("loyal_pure"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="bottom")),
+            alpha_mask="images/choices/image_choice_mask.webp"
         ) with fade
         $ renpy.pause(hard=True)
 
@@ -2965,7 +2965,7 @@ label Loyal:
         scene 143_mila_and_kiki_talking_18e with dissolve
         k "Kembali ke sekolah, maksudku ..."
         k "Tapi semua gadis populer ada di dalamnya, dan ..."
-        k "one of them", Kamu tahu?"
+        k "salah satunya, Kamu tahu?"
         k "Tapi saya pikir mungkin ... {w} mungkin saya masih bisa menari. {w} tepat di belakang ... {w} di bayang -bayang ..."
         k "Dan kemudian mereka mengatakan itu ..."
         scene 143_mila_and_kiki_talking_18k with dissolve
@@ -3038,7 +3038,7 @@ label Loyal:
             if mila_cuckquean:
                 jump harem_route
             scene under_constr
-            "pure"Rute berakhir - untuk saat ini."
+            "Rute murni berakhir - untuk saat ini."
             menu:"Polyamorus (harem)"rute dari sini."
                 "Ya, ganti saya ke rute harem.":
                     jump harem_route
@@ -3116,7 +3116,7 @@ label Loyal:
         show mila left_wardrobe_5 with dissolve
         ms "Padahal, saya mungkin memiliki ... {w} membengkokkan kebenaran di sana -sini."
         show mila left_wardrobe_4 with dissolve
-        ms "big-sister"hak istimewa."
+        ms "hak istimewa kakak perempuan."
         show kiki right_wardrobe_8 with dissolve
         k "Tapi saya katakan, saya tidak ingin meminta bantuannya ... Saya tidak ingin mengganggu Paul."
         m "Jika dia tidak nyaman, dia akan mengatakannya."
@@ -3248,7 +3248,7 @@ label Loyal:
         show kiki left_yoga_pants_4 at right
         show kiki2 right_yoga_pants_4 at left
         with hpunch
-        m "gorgeous"? Dia bom seks terkutuk!"
+        m "sangat indah? Dia bom seks terkutuk!"
         show kiki left_yoga_pants_7 at right
         show kiki2 right_yoga_pants_7 at left
         with dissolve
@@ -4392,7 +4392,7 @@ label Loyal:
         ms "Dan setiap kali saya mendekat ..."
         scene 145_mila_masturbation_2_anim with dissolve
         ms "Kata -katanya bergema di pikiran saya."
-        ms"Do what you want,"katanya."
+        ms"Lakukan apa yang kamu inginkan,katanya."
         ms "Tetapi jika saya menyisihkan yang jelas ..."
         ms "Bahwa saya ingin datang !!!" with hpunch
         ms "... apa yang tersisa?"
@@ -4651,7 +4651,7 @@ label Loyal:
         scene 145_mila_and_kikky_cards_out_3m
         show mila 145_close_sadside
         with dissolve
-        m"right", labu."
+        m "kanan, labu."
         m "Dan kami lelah."
         m "Saya lelah."
         m "Dan kelelahan itu ... {w} itu membuatmu ... {w} menginginkan segalanya ..."
@@ -5044,7 +5044,7 @@ label Loyal:
         m "Kiki."
         k "Sor--"
         show mila 145_close_annoyed5 with dissolve
-        m"sorry"Dan saya memukul pantat lucu yang terus Anda sembunyikan."
+        m "maaf Dan saya memukul pantat lucu yang terus Anda sembunyikan."
         show mila 145_close_naughty_face2 with dissolve
         m "Dan saya akan memukulnya setiap kali Anda meminta maaf."
         k "Sor--"

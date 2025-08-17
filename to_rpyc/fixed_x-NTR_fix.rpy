@@ -2020,7 +2020,7 @@ d "Butuh banyak upaya untuk menjaga hal itu untuk diri saya sendiri."
 d "Pada akhirnya, semua klien saya tahu bahwa ini bukan rumah bordil."
 d "beli seorang gadis di sini"
 d "Anda tidak bisa memaksanya untuk melakukan sesuatu"
-d "big shots"Klien"
+d "klien hebat"
 d "Hampir setiap saat, mereka dengan senang hati membantu"
 d "Karena mereka yang membantu saya, sebagai rasa terima kasih menerima beberapa ... {w} hak istimewa"
 d "Misalnya, memiliki kesempatan untuk menjadi yang pertama meniduri Anda"
@@ -2424,7 +2424,7 @@ l "Menanggalkan pakaian."
 scene 134_mila_and_liz_talking_4 with dissolve
 m "Maaf, saya tidak ... {w} erm ..."
 scene 134_mila_and_liz_talking_5 with dissolve
-l "You are not"Apa?"
+l "Kamu bukan Apa?"
 m "..."
 l "Oh, Anda pikir saya berencana untuk bercinta dengan Anda?"
 scene 134_mila_and_liz_talking_2 with dissolve
@@ -4406,7 +4406,7 @@ label a137_mila_and_paul_after_mila_irritated:
     ms "Tapi saya merasa tidak pada tempatnya di mana -mana."
     ms "Jadi, seperti biasa, saya mencoba memainkan istri yang sempurna."
     ms "Sepotong demi sepotong, mencoba menyatukan diri."
-    ms "old me"seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
+    ms "old me seperti potongan puzzle yang tidak cocok - mereka terus jatuh."
     ms "Ini bukan aku lagi."
     scene 137_mila_on_couch_4 with dissolve
     ms "Mungkin tidak pernah ..."
