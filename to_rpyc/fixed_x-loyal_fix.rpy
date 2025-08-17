@@ -5169,7 +5169,7 @@ label Loyal:
         k "Sudah kubilang, aku tidak cocok untuk ini ..."
         show mila 145_2_naughty with dissolve
         m "Maaf, maaf! Aku tidak bermaksud membuatmu merasa buruk, ahah ..."
-        m "cut", Anda sudah sempurna apa adanya."
+        m "potong, Anda sudah sempurna apa adanya."
         m "Jangan {i} coba {/i} agar terlihat seksi."
         show kiki 145_2_shy4 with dissolve
         m "Lihat saja dia dan jangan menahan diri."
