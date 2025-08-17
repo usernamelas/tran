@@ -316,7 +316,7 @@ label Loyal:
     "Bibi Ruth Dan hatiku berdarah hanya memikirkannya di beberapa asrama ... {w} Sarang pesta pora dan nafsu muda."
     scene 140_morning_19 with dissolve
     k "{size=-10} Bu, asrama terpisah untuk pria dan wanita."
-    "Bibi Ruth separate dorms."Pria adalah sarang, wanita rumah bordil."
+    "Bibi Ruth memisahkan asrama. Pria adalah sarang, wanita rumah bordil."
     k "{size=-10} Bu, demi Tuhan ..."
     scene 140_morning_15 with hpunch
     "Bibi Ruth Jangan ambil nama Tuhan dengan sia -sia!"
@@ -621,7 +621,7 @@ label Loyal:
         scene 140 mila_and_paul_on_coach_1e with dissolve
         p "Obsesi untuk menjadi benar dan menempel di jalannya belum ada di mana pun."
         scene 140 mila_and_paul_on_coach_1f with dissolve
-        m "fix"..."
+        m "fix..."
         m "Satu hal yang saya tahu dia lebih mencintai Kira."
         m "Dia menginginkan yang terbaik untuknya."
         m "Dia hanya tidak selalu tahu bagaimana menunjukkannya dengan benar."
@@ -1154,7 +1154,7 @@ label Loyal:
             scene 141_paul_and_mila_split_2 with dissolve
             p "Bisa jadi apa saja - mulai dari berhubungan seks hingga pergi ke restoran."
             m "Bisakah saya meminta Anda untuk membawa saya ke Paris?"
-            p "wishes"tentang itu."
+            p "harapan tentang itu."
             p "Untuk memulai, saya dapat memilih tanggal dan membeli tiket untuk salah satu keinginan."
             scene 141_paul_and_mila_split_3 with dissolve
             p "Dan Anda akan berhutang budi kepada saya setiap hari yang kami habiskan di Paris."
@@ -2506,7 +2506,7 @@ label Loyal:
         ms "Fantasi ini membuatku lebih menginginkannya."
         ms "Meskipun sedikit membuatku takut ..."
         ms "Bukan itu yang biasa saya lakukan."
-        ms"normal"."
+        ms"normal."
         ms "Tapi itulah yang dia inginkan ..."
         ms "{b} Kami {/b} ingin."
         scene 143_mila_and_paul_throating_17 with dissolve
@@ -3266,7 +3266,7 @@ label Loyal:
         m portrait_robe_naughty_face_side "Maukah Anda melatihnya?"
         ms portrait_robe_naughty_face"train"Tiba -tiba mengambil ... makna yang berbeda, setelah apa yang terjadi pagi ini."
         ms portrait_robe_naughty_face_side "Dan untuk beberapa alasan aneh ... Saya tidak keberatan sama sekali."
-        m "fat"."
+        m "fat."
         m portrait_robe_naughty_face "Tetapi jika Anda bertanya kepada saya - dia harus memamerkan tubuh itu."
         m "Karena itu sangat luar biasa."
         show kiki left_yoga_pants_7 at right
@@ -5883,7 +5883,7 @@ label Loyal:
         "??? Bagaimana kalau aku membelikanmu minuman?"
         show mila 145_club_dude_false_smile with dissolve
         m "Tidak, terima kasih, saya di sini dengan--"
-        ms "my husband"."
+        ms "my husband."
         show mila 145_club_worried with dissolve
         ms "Tetapi jika saya menunjuknya sekarang, tidak ada yang akan mempercayai saya."
         ms "Paul bersama Kiki. {w} dengan Kiki, bukan dengan saya."

@@ -5596,7 +5596,7 @@ label a138_brief:
                 ms "Setidaknya saya selalu menjadi pusat perhatian."
                 scene 138_small_tits_1 with dissolve
                 ms "Klien lain menyarankan saya mendapatkan implan payudara."
-                ms"flat as a board"."
+                "datar seperti papan."
                 ms "Saya tidak pernah sadar diri tentang hal itu, tetapi jika itu membuat mereka bahagia, mengapa tidak?"
                 ms "Jadi..."
                 scene 138_small_tits_2 with dissolve
@@ -5617,7 +5617,7 @@ label a138_brief:
                 scene 138_tattoo_4 with dissolve
                 ms "Haha. {w} Mereka melakukan apa pun yang mereka inginkan dengan tubuh saya!"
                 ms "Tapi saya pikir itu terlihat keren."
-                ms "the Size Queen"{/i}."
+                ms "the Size Queen {/i}."
                 ms "Saya tidak yakin bahwa saya sepenuhnya mengerti apa artinya itu, tetapi saya memakai judul itu dengan bangga."
                 label a138_gangbang:
                 scene 138_porn_1 with dissolve
