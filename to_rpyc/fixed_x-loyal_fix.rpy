@@ -3039,11 +3039,13 @@ label Loyal:
                 jump harem_route
             scene under_constr
             "Rute murni berakhir - untuk saat ini."
-            menu:"Polyamorus (harem) rute dari sini."
-                "Ya, ganti saya ke rute harem.":
+            menu:
+                "If you'd like, you can switch to the \"Polyamorus (harem)\" route from here."
+                "Yeah, switch me to the harem route.":
                     jump harem_route
-                "Tidak, saya keluar dari sini.":
+                "Nope, I'm outta here.":
                     jump not_yet
+
 
         label harem_route:
         scene 143_mila_and_kiki_talking_19h with dissolve
@@ -3176,7 +3178,7 @@ label Loyal:
         show kiki2 right_yoga_pants_3 at left
         with dissolve
         k "Aneh, kan? {w} dan tidak cocok untukku ..."
-        m portrait_robe_empty_eyes_open_mouth"lose"{w} - Apakah Anda meninggalkannya di karung kentang yang Anda sebut pakaian?"
+        m portrait_robe_empty_eyes_open_mouth"lose {w} - Apakah Anda meninggalkannya di karung kentang yang Anda sebut pakaian?"
         show kiki left_yoga_pants_4 at right
         show kiki2 right_yoga_pants_4 at left
         with hpunch
