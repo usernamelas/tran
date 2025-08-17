@@ -664,7 +664,7 @@ ms "Tidak ada keraguan atau kekhawatiran yang tersisa"
 show mila sport_suit_naughty3
 ms "Hanya cahaya dan euforia"
 ms "Saya bebas lagi."
-ms "\"me\" lagi..."  
+ms "\me\ lagi..."  
 play sound "call.mp3"
 scene 1214_mila_facetime_worried with fade
 ms "Panggilan video dari nomor yang tidak diketahui?"
@@ -801,7 +801,7 @@ m "..."
 m "Ya, tuan, {w} Aku akan membiarkanmu meniduriku di pantat"
 ms "Kata -kata ini meninggalkan aftertaste pahit"
 ms "Seperti saya kehilangan sesuatu yang penting"
-ms "\"old\" Saya"
+ms "\old\ Saya"
 d "Ada telur getaran"
 d "Itu dikendalikan dari jarak jauh"
 d "Saya ingin Anda memakainya sepanjang waktu"
@@ -1456,7 +1456,7 @@ ms "Fuck fuck"
 ms "Saya akan menyesali ini, saya pasti akan menyesali ini."
 scene 132_mila_store_clerk_1 with fade
 m "Halo!"
-"???" "Halo Mila"
+"??? Halo Mila"
 scene 132_mila_store_clerk_2 with dissolve
 ms "Bagaimana dia tahu nama saya?"
 ms "Meskipun..."
@@ -1468,7 +1468,7 @@ ms "Apa? Apa yang dia bicarakan?"
 d "Berbicara"
 scene 132_mila_store_clerk_1 with dissolve
 m "Erm ... {w} atas atau bawah?"
-"???" "Keduanya"
+"??? Keduanya"
 d "..."
 m "..."
 ms "Erm ... {w} kenapa begitu tegang?"
@@ -1478,8 +1478,8 @@ ms "Membayar?"
 ms "Apa yang terjadi?"
 scene 132_mila_store_clerk_1 with dissolve
 m "Double ?"
-"???" "..."
-"???" "Itu adil. Kesepakatan."
+"??? ..."
+"??? Itu adil. Kesepakatan."
 d "Lepaskan gaun Anda"
 scene 132_mila_store_clerk_4 with dissolve
 m "Apa?"
@@ -1495,7 +1495,7 @@ ms "Di satu sisi, risikonya benar -benar tidak terlalu bagus"
 scene 132_mila_store_clerk_5 with dissolve
 ms "Tapi ... {w} Kenapa aku harus melepas pakaianku?"
 ms "Kenapa aku bahkan memikirkan hal ini?"
-"???" "Saya ingin melepasnya sendiri"
+"??? Saya ingin melepasnya sendiri"
 scene 132_mila_store_clerk_3 with dissolve
 ms "Lai"
 ms "Apakah kamu gila?"
@@ -1508,7 +1508,7 @@ ms "Kemudian datang yang lain dan yang lain"
 scene 132_mila_store_clerk_5 with dissolve
 m "..."
 ms "Apa yang terjadi di sana?"
-"???" "..."
+"??? ..."
 ms "Pada akhirnya, penjual menghela nafas dan tersenyum sedih"
 d "Ok. {w} Semuanya diselesaikan"
 scene 132_mila_store_clerk_6 with dissolve
@@ -1521,31 +1521,31 @@ d "Diam"
 scene 132_mila_store_undress_1 with fade
 ms "Pria itu keluar dari balik meja dan aku tampak berakar ke lantai."
 ms "Seolah -olah lumpuh, saya menyaksikan ketika dia mendekati saya dan berlari di atas bahu saya."
-"???" "Kamu sangat imut dan ramping"
-"???" "Saya tidak percaya Anda 32"
+"??? Kamu sangat imut dan ramping"
+"??? Saya tidak percaya Anda 32"
 ms "Mengapa Dick bahkan menceritakan segalanya tentang saya?"
-"???" "Saya suka bintik -bintik Anda"
+"??? Saya suka bintik -bintik Anda"
 scene 132_mila_store_undress_2 with dissolve
-"???" "Tunjukkan lidah Anda, Anda jahe jahe"
+"??? Tunjukkan lidah Anda, Anda jahe jahe"
 d "Katakan padanya harganya ekstra"
 ms "Kata -kata Dick membawaku sedikit ke akal sehatku."
 ms "Sebelum itu, saya merasa seolah dihipnotis dan sudah mulai membuka mulut untuk menunjukkannya lidah saya"
 scene 132_mila_store_undress_3 with dissolve
 m "Biayanya ekstra ..."
 ms "Saya tidak mengenali suara saya"
-"???" "Tsk ..."
-"???" "Angkat tangan Anda"
+"??? Tsk ..."
+"??? Angkat tangan Anda"
 scene 132_mila_store_undress_4 with fade
 ms "Dick tetap diam dan saya menyadari bahwa saya harus mematuhi kali ini"
 ms "Mengapa pria ini begitu besar?"
-"???" "Dick, bisakah aku pergi dulu?"
+"??? Dick, bisakah aku pergi dulu?"
 scene 132_mila_store_undress_5 with dissolve
 ms "Pertama? {w} tidak berarti ..."
 d "Katakan padanya, bahwa dia tahu kebijakan kita."
 ms "Apa yang mereka bicarakan?"
 scene 132_mila_store_undress_6 with dissolve
 m "Anda tahu kebijakannya ..."
-"???" "Tsk ..."
+"??? Tsk ..."
 ms "Tangannya semakin rendah"
 scene 132_mila_store_undress_7 with dissolve
 ms "Pria itu menarik gaun itu dan meluncur ke pinggulku."
@@ -1555,7 +1555,7 @@ ms "Tapi rasa malu saya sepertinya lebih menggairahkannya."
 ms "Dia membelai pinggangku dan menjatuhkan gaun itu ke kakiku"
 scene 132_mila_store_undress_9a with fade
 ms "Saya juga mencoba menutupi diri saya dari bawah"
-"???" "Sialan dia karya seni"
+"??? Sialan dia karya seni"
 ms "Terlepas dari rasa takut dan kesalahpahaman tentang apa yang terjadi"
 ms "Kekagumannya yang terbuka dan tatapan penuh nafsu membuat saya bersemangat"
 ms "Untuk beberapa alasan yang tidak diketahui, saya menyukai perasaan berada di tempat ini"
@@ -1567,18 +1567,18 @@ ms "Tapi saya tidak malu menunjukkan tubuh saya"
 scene 132_mila_store_undress_11 with dissolve
 ms "Saya tidak perlu malu"
 ms "Tubuh saya adalah karya seni"
-"???" "Ohhh ..."
-"???" "Bisakah Anda berbalik? Saya ingin melihat pantat Anda"
+"??? Ohhh ..."
+"??? Bisakah Anda berbalik? Saya ingin melihat pantat Anda"
 scene 132_mila_store_undress_12 with dissolve
 ms "Saya patuh"
-"???" "Oh ya ..."
-"???" "Apakah Anda sudah mulai meregangkan pantat Anda?"
+"??? Oh ya ..."
+"??? Apakah Anda sudah mulai meregangkan pantat Anda?"
 scene 132_mila_store_undress_13 with hpunch
 play audio "slap1.mp3"
 "TAMPARAN!"
 scene 132_mila_store_undress_14 with dissolve
 m "Aduh!"
-"???" "Sialan, Dick ... {w} Aku akan memberikan lenganku untuk bercinta dengan pantat ini"
+"??? Sialan, Dick ... {w} Aku akan memberikan lenganku untuk bercinta dengan pantat ini"
 ms "Rasa sakit di pantatku terbakar karena tamparan."
 ms "Dan setetes jus vagina mengalir ke bawah paha bagian dalam"
 play sound "Egg.mp3" loop
@@ -1589,7 +1589,7 @@ play audio "slap1.mp3"
 "TAMPARAN!"
 scene 132_mila_store_undress_17 with dissolve
 m "Aduh!"
-"???" "Anda mengerang begitu menggoda, gadis"
+"??? Anda mengerang begitu menggoda, gadis"
 ms "Tangannya menyentuh punggungku, paha dan dadaku"
 ms "Setiap sentuhan sepertinya menodai saya"
 ms "Dan perawatan kotor ini semakin membangkitkan saya"
@@ -1602,7 +1602,7 @@ play audio "slap1.mp3"
 "TAMPARAN!"
 scene 132_mila_store_undress_18 with dissolve
 m "Ah!"
-"???" "Anda pelacur jahe ..."
+"??? Anda pelacur jahe ..."
 scene 132_mila_store_undress_19 with dissolve
 m "Mmm ..."
 ms "Rasa sakit dan penghinaan hanya membawa saya lebih dekat ke orgasme"
@@ -1644,29 +1644,29 @@ m "Ahhh ..."
 ms "Saya merasakan orgasme saya mendekat"
 ms "Tapi stimulasinya tidak cukup kuat"
 ms "Dan dia sepertinya menggodaku dan tidak menyentuh tempat yang paling sensitif"
-"???" "Maukah kamu menciumku gadis?"
+"??? Maukah kamu menciumku gadis?"
 scene 132_mila_store_undress_26 with dissolve
 m "Apa? {w} tidak ... {w} ah ... {w}"
 scene 132_mila_store_undress_29 with dissolve
 m "Saya tidak bisa ... {w} Saya wanita yang sudah menikah ..."
-"???" "Anda baik -baik saja dengan membiarkan saya memukul Anda dan memeluk Anda sambil telanjang, tetapi ciuman terlarang?"
-"???" "Dimana logika itu?"
+"??? Anda baik -baik saja dengan membiarkan saya memukul Anda dan memeluk Anda sambil telanjang, tetapi ciuman terlarang?"
+"??? Dimana logika itu?"
 scene 132_mila_store_undress_25 with dissolve
 ms "Dia ada benarnya ..."
 ms "Saya tidak bisa berpikir jernih"
 ms "Semua indra saya berteriak"
 ms "Saya ingin cum, saya ingin cum, saya ingin cum!"
-"???" "Gadis biasa, cium aku"
+"??? Gadis biasa, cium aku"
 m "..."
 scene 132_mila_store_undress_27 with dissolve
 play audio "slap1.mp3"
 "TAMPARAN!"
 m "Ahh!"
 scene 132_mila_store_undress_26 with dissolve
-"???" "Lagi nga?"
+"??? Lagi nga?"
 m "..."
 scene 132_mila_store_undress_28 with dissolve
-"???" "Katakan"
+"??? Katakan"
 m "..."
 ms "Pantatku terbakar dari tamparannya"
 ms "Tetapi dengan setiap pukulan, colokan pantat saya bergerak sedikit"
@@ -1675,16 +1675,16 @@ ms "Tapi tidak cukup untuk membuatku cum"
 scene 132_mila_store_undress_29 with dissolve
 m "Silakan..."
 m "..."
-"???" "Tolong, apa?"
+"??? Tolong, apa?"
 scene 132_mila_store_undress_28 with dissolve
 m "Tolong ... {size=-10} memukul pantatku ..."
 ms "Sangat memalukan untuk menanyakannya"
 ms "Dan bejat"
-"???" "Ugh ... {w} Saya berharap Anda akan meminta untuk meniduri Anda."
+"??? Ugh ... {w} Saya berharap Anda akan meminta untuk meniduri Anda."
 scene 132_mila_store_undress_29 with dissolve
 ms "Itu ... {w} tidak akan pernah terjadi ..."
 ms "Pikiran ini terdengar tidak masuk akal bahkan di kepalaku."
-"???" "Cium aku dan aku akan membiarkanmu cum, pelacur"
+"??? Cium aku dan aku akan membiarkanmu cum, pelacur"
 scene 132_mila_store_undress_26 with dissolve
 ms "Tidak ... {w} Paul ... {w} I ..."
 ms "..."
@@ -1725,13 +1725,13 @@ scene 132_mila_store_undress_32 with hpunch
 play audio "slap1.mp3"
 "TAMPARAN!"
 ms "Saya pikir saya menjerit kesakitan atau sukacita"
-"???" "Itu saja, Anda melukis, ya!"
-"???" "Cum untukku!"
+"??? Itu saja, Anda melukis, ya!"
+"??? Cum untukku!"
 stop sound
 scene 132_mila_store_undress_33 with dissolve
 m "Haaa ... {w} haaa ... {w} haa ..."
-"???" "Sayang, Anda adalah seorang masokis sejati."
-"???" "Apakah kamu baik -baik saja?"
+"??? Sayang, Anda adalah seorang masokis sejati."
+"??? Apakah kamu baik -baik saja?"
 scene 132_mila_store_undress_34 with dissolve
 m "Ya, saya kira begitu ..."
 ms "Saya menyadari bahwa saya masih bergantung padanya."
@@ -1744,7 +1744,7 @@ m "..."
 m "Saya ... {w} Saya harus pergi ..."
 scene 132_mila_store_after_2 with dissolve
 m "Terima kasih..."
-"???" "Ahah. {w} Terima kasih, Girl."
+"??? Ahah. {w} Terima kasih, Girl."
 m "..."
 ms "Aku merasakan tatapannya di sekujur tubuhku."
 ms "Dia hanya menatapku dengan tonjolan besar di celananya"
@@ -1753,7 +1753,7 @@ ms "Saya mungkin harus memberinya sedikit pertunjukan, {w} Anda tahu, {w} dengan
 scene 132_mila_store_after_3 with dissolve
 m "..."
 play sound "whistle.mp3"
-"???" "..."
+"??? ..."
 scene 132_mila_store_after_4 with dissolve
 m "Hehe"
 m "Semoga harimu menyenangkan!"
@@ -2149,7 +2149,7 @@ play music "people_talk.mp3" loop
 pause 2
 scene 133_liz_rest_1 with fade
 "..."
-"???" "Kami sangat yakin mengakhiri kemitraan kami akan menjadi yang terbaik."
+"??? Kami sangat yakin mengakhiri kemitraan kami akan menjadi yang terbaik."
 ls "Ugh. Gaun bodoh."
 ls "Garis lehernya sangat rendah, tidak ada yang bisa mempertahankan kontak mata dengan saya."
 ls "Aku benci memamerkan diriku tetapi terbukti bermanfaat di masa lalu ..."
@@ -2164,18 +2164,18 @@ l "Kami berdua tahu Anda tidak punya pilihan lain."
 l "Siapa lagi yang dapat mengirimkan peralatan Anda dengan cepat, hampir tanpa kehilangan, di seluruh dunia?"
 l "Katakan padaku, berapa banyak yang kalah dari suatu kali kamu mencoba bekerja dengan gojo?"
 ls "Pria itu meringis."
-"???" "Dengan mereka? Enam belas juta."
+"??? Dengan mereka? Enam belas juta."
 scene 133_liz_rest_3 with dissolve
 l "Enam belas ?!? {w} betapa disayangkan!"
 scene 133_liz_rest_4 with dissolve
 l "Bukankah itu sama dengan lebih dari tujuh ... {w} tidak, lebih dari sembilan tahun bekerja dengan kita?"
 scene 133_liz_rest_1 with dissolve
-"???" "... {w} masih, saya tidak bisa ..."
-"???" "loyal"pemasok."
+"??? ... {w} masih, saya tidak bisa ..."
+"??? loyal"pemasok."
 scene 133_liz_rest_2 with dissolve
 l "pressure"punya nama?"
 ls "Pria itu melihat sekeliling dengan gugup."
-"???" "I ... {w} saya tidak bisa ..."
+"??? I ... {w} saya tidak bisa ..."
 scene 133_liz_rest_5 with dissolve
 ls "Aku berjalan sedikit lebih dekat dan mengusap bahunya."
 ls "Pria ... {w} makhluk sederhana."
@@ -2189,16 +2189,16 @@ ls "Sepertinya saya sejauh ini yang bisa saya ingat ..."
 nobody_translation1 "{font=malgun.ttf} 어린 양 {/font}." (multiple=2)
 nobody_translation2 "{i} onyeong {/i} (wanita muda)." (multiple=2)
 ls "Orang asing membungkuk padaku."
-"???" "Terima kasih atas waktu Anda, Onyeong."
+"??? Terima kasih atas waktu Anda, Onyeong."
 ls "Saya membalas secara otomatis, tidak tahu apa yang saya katakan."
-"???" "Terima kasih saya."
+"??? Terima kasih saya."
 scene 133_liz_rest_7 with dissolve
 ls "Aku bahkan tidak tahu setengahnya ..."
-"???" "Silakan datang lagi, onyeong."
+"??? Silakan datang lagi, onyeong."
 ls "Senyum palsu, lelucon palsu, rasa terima kasih palsu ..."
-"???" "Nyonya..."
+"??? Nyonya..."
 ls "Hanya ada satu hal yang nyata di sini ..."
-"???" "Saya senang Anda datang, Nona Lizbeth."
+"??? Saya senang Anda datang, Nona Lizbeth."
 ls "Takut."
 ls "Tanpa rasa takut, tidak ada kendali."
 ls "Dan tanpa kontrol ... {w} tidak ada saya."
@@ -2208,8 +2208,8 @@ l_translation1 "{font=malgun.ttf} 김 기사님 {/font}" (multiple=2)
 l_translation2 "Kim {i} Kisanim {/i} (Tn. Kim)" (multiple=2)
 l "Mengapa Anda tidak menunggu saya di ruang staf?"
 l "Anda tahu Anda tidak harus berdiri di dekat pintu."
-"Kim" "Saya seharusnya tidak beristirahat saat Anda bekerja, onyeong."
-l "{i}*menghela nafas*"
+"Kim Saya seharusnya tidak beristirahat saat Anda bekerja, onyeong."
+l "{i}*menghela nafas*{/i}"
 l "Ayo pergi."
 scene 133_liz_rest_9 with fade
 play sound "car_door.mp3"
@@ -2219,7 +2219,7 @@ ls "Kami pergi dari gedung hotel tempat perjamuan itu berlangsung."
 ls "Paman Kim melaju diam dan perlahan."
 ls "Mobil itu telah dihangatkan sebelumnya. Istirahat dari malam yang dingin"
 ls "Dia selalu memastikan untuk membuatnya nyaman di sini daripada di tempat lain."
-"Kim" "Bagaimana hasilnya?"
+"Kim Bagaimana hasilnya?"
 scene 133_liz_rest_10 with dissolve
 ls "Aku menghela nafas lagi."
 l "Seperti biasanya."
@@ -2235,11 +2235,11 @@ Kim_translation1 "Ya, {font=malgun.ttf} 아가씨 {/font}?" (multiple=2)
 Kim_translation2 "Ya, Agashi (wanita kecil)?" (multiple=2)
 scene 133_liz_rest_13 with dissolve
 l "that"Tempatkan lagi?"
-"Kim" "..."
-"Kim" "Kami diharapkan di perkebunan, ayahmu akan menunggumu."
+"Kim ..."
+"Kim Kami diharapkan di perkebunan, ayahmu akan menunggumu."
 scene 133_liz_rest_14 with dissolve
 l "Benar..."
-"Kim" "..."
+"Kim ..."
 scene 133_liz_rest_15 with dissolve
 l "..."
 l "Bisakah Anda mampir ke jembatan? Saya sedikit sakit."
@@ -2247,31 +2247,31 @@ scene 133_liz_rest_16 with fade
 play sound "car_door.mp3"
 play music "wind.mp3"
 "..."
-"Kim" "Kami tidak bisa berhenti di sini ..."
+"Kim Kami tidak bisa berhenti di sini ..."
 l "... {w} ya ..."
 scene 133_liz_rest_17 with fade
 play sound "Zippo.mp3"
-"Kim" "Juga agak dingin di luar, Anda harus memakai sesuatu atau Anda sedang dingin ..."
+"Kim Juga agak dingin di luar, Anda harus memakai sesuatu atau Anda sedang dingin ..."
 l "Uh-huh."
 scene 133_liz_rest_18 with dissolve
-play sound ["zippo2.mp3", "SmokeOut.mp3"]
+play sound ["zippo2.mp3, SmokeOut.mp3"]
 l "..."
-"Kim" "Anda meminta saya untuk memberi tahu Anda bahwa Anda ingin berhenti merokok."
+"Kim Anda meminta saya untuk memberi tahu Anda bahwa Anda ingin berhenti merokok."
 scene 133_liz_rest_19 with dissolve
 l "Ya..."
 l "..."
 scene 133_liz_rest_20 with dissolve
-"Kim" "..."
+"Kim ..."
 scene 133_liz_rest_21 with dissolve
 play sound "Smokeout.mp3"
 l "Apakah akan berakhir?"
-"Kim" "Tidak ... {w} tidak pernah."
+"Kim Tidak ... {w} tidak pernah."
 ls "Trust"
 ls "Saya benci kata ini."
-"Kim" "Tapi Anda bisa berhenti."
+"Kim Tapi Anda bisa berhenti."
 scene 133_liz_rest_22 with dissolve
 l "Bisakah saya benar -benar?"
-"Kim" "Anda tidak harus mencari persetujuannya."
+"Kim Anda tidak harus mencari persetujuannya."
 scene 133_liz_rest_20 with dissolve
 l "Ya..."
 scene 133_liz_rest_21 with dissolve
@@ -2319,7 +2319,7 @@ ls "Satu hal lagi yang harus saya lakukan untuk hari itu."
 scene 133_liz_and_mila_1 with fade
 play music ["birds.mp3"]
 "..."
-"???" "Anda memiliki pengunjung, {i} onyeong {/i}."
+"??? Anda memiliki pengunjung, {i} onyeong {/i}."
 l "Biarkan dia masuk."
 ls "Pelayan itu membungkuk dan pergi."
 scene 133_liz_and_mila_2 with dissolve
@@ -2439,7 +2439,7 @@ ls "Menarik. {w} Jadi, sebenarnya ada beberapa tulang punggung di tubuh kecil ya
 scene 134_mila_and_liz_talking_7 with dissolve
 ls "Sesuatu diklik di dalam diri saya. {w} Kesadaran yang meresahkan, pemikiran tepat di luar jangkauan saya, seperti bisikan yang tidak bisa saya pahami sepenuhnya."
 ls "Saya mencoba mengusirnya, tetapi itu terus tumbuh di dada saya."
-play sound ["<silence 1>", "zippo3.mp3"] loop
+play sound ["<silence 1>, zippo3.mp3"] loop
 scene 134_liz_lighting_cigarette with dissolve
 l "..."
 ls "Percakapan ini tidak berjalan dengan baik."
@@ -2504,7 +2504,7 @@ ls "Saya merasa berpegang pada sepersekian detik."
 scene 134_mila_and_liz_talking_19 with dissolve
 ls "Saya dengan cepat mendapatkan kembali ketenangan saya, tetapi sekarang, setelah itu ... {w} {i} Nightmare {/i} {w} ... Saya mulai memahami apa yang mungkin dia rasakan ..."
 ls "I {/i} ingin mendengar {b} {i} if {/i} {/b} Saya pernah berada di posisinya."
-play music ["music/dom.mp3", "music/menu_hw2.mp3"] loop
+play music ["music/dom.mp3, music/menu_hw2.mp3"] loop
 l "Anda ... {w} Miss Passion, bukan?"
 scene 134_mila_and_liz_talking_20 with dissolve
 m "..."
@@ -2708,16 +2708,16 @@ pause 1.0
 label hscene_ntr_liz_1:
     scene 134_liz_sex_with_patron with dissolve
     l "Jangan berani -berani cum, babi."
-    "???" "Aku di tepi, Bu!"
+    "??? Aku di tepi, Bu!"
     l "Bersabarlah, sial."
-    "???" "Aaahh ..."
+    "??? Aaahh ..."
     l "Anda bajingan yang menyedihkan, jangan ..."
     scene 134_liz_with_patron_3 with dissolve
     l "Argh! {w} sialan."
-    "???" "Sial ya! Yoohoo ..."
+    "??? Sial ya! Yoohoo ..."
     scene 134_liz_with_patron_4 with dissolve
     l "..."
-    "???" "Saya sangat menyesal, Bu ..."
+    "??? Saya sangat menyesal, Bu ..."
     ls "Tidak ada yang membantu."
     scene 134_liz_with_patron_5 with dissolve
     ls "Saya tidak bisa menyingkirkan gatal -gatal."
@@ -2729,16 +2729,16 @@ label hscene_ntr_liz_1:
     ls "Palsu."
     scene 134_liz_with_patron_6 with dissolve
     l "Cacing yang tidak berguna."
-    "???" "Maaf, Bu. {w} Maukah Anda menghukum saya?"
+    "??? Maaf, Bu. {w} Maukah Anda menghukum saya?"
     ls "Itu semua palsu."
     scene 134_liz_with_patron_5 with dissolve
-    "???" "Um ... {w} semuanya baik -baik saja?"
+    "??? Um ... {w} semuanya baik -baik saja?"
     l "..."
     scene hotel_corridor with fade
     play sound "Door-Open-Close.mp3"
     ls "Aku dengan cepat berpakaian dan pergi."
-    "???" "{size=-10} Setidaknya lepaskan aku!"
-    "???" "{size=-6} Liz!"
+    "??? {size=-10} Setidaknya lepaskan aku!"
+    "??? {size=-6} Liz!"
     scene 134_liz_walking_hotel_corridor with dissolve
     ls "Saya mendidih dengan kemarahan dan energi."
     ls "Pikiran melompat dari satu hal ke hal lain."
@@ -2747,7 +2747,7 @@ label hscene_ntr_liz_1:
     scene 134_liz_walking_hotel_corridor_2 with dissolve
     l "Anda!"
     scene 134_liz_walking_hotel_corridor_3 with dissolve
-    "???" "Ya, Nona Pak?"
+    "??? Ya, Nona Pak?"
     ls "Saya tidak pernah menyukai pria seperti anak ini."
     ls "Saya lebih suka pria yang lebih tua, kuat dan percaya diri."
     ls "Saya suka bagaimana mereka pecah di bawah tekanan."
@@ -2765,11 +2765,11 @@ label hscene_ntr_liz_1:
     scene 134_liz_walking_hotel_corridor_3 with dissolve
     l "Apakah Anda ingin bercinta dengan saya?"
     scene 134_liz_walking_hotel_corridor_7 with dissolve
-    "???" "Erm ... {w} permisi?"
+    "??? Erm ... {w} permisi?"
     scene 134_liz_walking_hotel_corridor_8 with dissolve
     l "Do. {w} Anda. {w} ingin. {w} bercinta. {w} saya?"
-    "???" "..."
-    "???" "I ... {w} ahem ..."
+    "??? ..."
+    "??? I ... {w} ahem ..."
     l "Mari ikut saya."
     scene 134_liz_with_bellboy_1 with fade
     ls "Kami bergegas ke ruang belakang."
@@ -2792,24 +2792,24 @@ label hscene_ntr_liz_1:
     ls "Tapi aku bosan dengan omong kosong ini."
     scene 134_liz_with_bellboy_5 with dissolve
     l "Ada apa?"
-    "???" "Maaf, Bu ... {w} Saya hampir ..."
+    "??? Maaf, Bu ... {w} Saya hampir ..."
     scene 134_liz_with_bellboy_3 with dissolve
     ls "Saya merasakan sesuatu yang lembut dan hangat sentuh pantat saya."
     ls "Kegembiraan dan ketakutan tercampur menjadi satu. {w} Saya ingin muntah dan mengeluh pada saat yang sama."
     ls "Bocah itu berjuang untuk menggunakan kemaluannya"
-    "???" "Saya butuh detik ..."
+    "??? Saya butuh detik ..."
     scene 134_liz_with_bellboy_5 with dissolve
     l "Apakah Anda seorang perawan, atau apa?"
-    "???" "Maaf, Bu ..."
+    "??? Maaf, Bu ..."
     ls "Pria itu hancur."
     ls "Lebih banyak tekanan hanya akan menghancurkannya."
     scene 134_liz_with_bellboy_6 with dissolve
     l "ARGH!"
     ls "Saya mengutuk lidah saya sendiri."
-    "???" "Maaf ... {w} saya hanya ..."
+    "??? Maaf ... {w} saya hanya ..."
     scene 134_liz_with_bellboy_7 with dissolve
     l "Duduk."
-    "???" "... {w} apa?"
+    "??? ... {w} apa?"
     l"sit down."
     ls "Saya mencoba berbicara dengan lembut, tetapi nada yang memerintah masih tergelincir."
     ls "Aku benci mengulangi diriku sendiri."
@@ -2839,7 +2839,7 @@ label hscene_ntr_liz_1:
     ls "Dia jelas menyukai reaksi saya. {w} jadi saya menambahkan sedikit bahan bakar ke api itu."
     scene 134_liz_with_bellboy_suck_8 with dissolve
     l "Tidak hanya tebal - Anda sangat besar."
-    "???" "Heh ..."
+    "??? Heh ..."
     scene 134_liz_with_bellboy_suck_9 with dissolve
     ls "Senyumnya membuatku kesal, dan sejenak aku ingin berdiri dan pergi."
     ls "Tapi pada akhirnya ..."
@@ -2862,10 +2862,10 @@ label hscene_ntr_liz_1:
     scene 134_liz_with_bellboy_suck_16 with dissolve
     l "..."
     l "Apakah kamu siap?"
-    "???" "Belum ..."
+    "??? Belum ..."
     scene 134_liz_with_bellboy_suck_17 with dissolve
     l "Anda terlihat siap untuk saya."
-    "???" "Saya suka cara Anda melakukannya."
+    "??? Saya suka cara Anda melakukannya."
     scene 134_liz_with_bellboy_suck_18 with dissolve
     ls "Kata -katanya membuat saya jengkel, dan pada awalnya, saya ingin mengatakan kepadanya untuk memegang kudanya."
     ls "Tapi kemudian ..."
@@ -2878,13 +2878,13 @@ label hscene_ntr_liz_1:
     l "..."
     scene 134_liz_suck with dissolve
     "{i} payah {/i} {w} {i} payah {/i} {w} {i} payah {/i}"
-    "???" "Ya, sayang."
-    "???" "Bisakah Anda masuk lebih dalam?"
+    "??? Ya, sayang."
+    "??? Bisakah Anda masuk lebih dalam?"
     scene 134_liz_with_bellboy_suck_18 with dissolve
     ls "Dia menjadi sombong"
     l "Tidak. {w} Itu sudah cukup."
     l "Sekarang giliran Anda untuk membuat saya merasa baik."
-    "???" "Oh. {w} Ya, {w} tentu saja."
+    "??? Oh. {w} Ya, {w} tentu saja."
     scene 134_liz_with_bellboy_5 with fade
     l "..."
     ls "Udara terasa listrik."
@@ -2912,7 +2912,7 @@ label hscene_ntr_liz_1:
     ls "Setelah beberapa menit, saya sudah menjadi gila dengan keinginan."
     scene 134_liz_with_bellboy_12 with dissolve
     l "Persetan denganku!"
-    "???" "Hehe."
+    "??? Hehe."
     ls "Saya ingin meninju dia untuk senyum sombong itu."
     ls "Tapi entah bagaimana, saya menahan diri."
     scene 134_liz_with_bellboy_fuck_1 with fade
@@ -2923,13 +2923,13 @@ label hscene_ntr_liz_1:
     l "..."
     scene 134_liz_with_bellboy_fuck_2 with dissolve
     l "Ayo..."
-    "???" "Tunggu, tunggu, tunggu ..."
-    "???" "Saya akan cum jika Anda pindah ..."
+    "??? Tunggu, tunggu, tunggu ..."
+    "??? Saya akan cum jika Anda pindah ..."
     ls "Heh. {w} yah, tidak, saya tidak ingin dia menyelamatkan saya lagi."
     ls "Saya menunggu dengan sabar untuk sedikit tenang."
     ls "Kemudian dia mulai bergerak perlahan."
     scene 134_liz_fuck with dissolve
-    "???" "Maaf, saya tidak bisa pergi lebih cepat."
+    "??? Maaf, saya tidak bisa pergi lebih cepat."
     l "Hmm..."
     ls "Saya membuat beberapa suara yang tidak jelas karena apa yang dia lakukan terasa luar biasa."
     ls "Saya menahan diri dengan seluruh kekuatan saya untuk menahan erangan dan menjaga diri agar tidak bergerak ke arahnya."
@@ -2940,21 +2940,21 @@ label hscene_ntr_liz_1:
     scene 134_liz_with_bellboy_fuck_2a with hpunch
     l "Mmm ..."
     scene 134_liz_cum
-    "???" "Oh fuck! {w} ya!"
+    "??? Oh fuck! {w} ya!"
     scene 134_liz_with_bellboy_fuck_5 with dissolve
     l "..."
     ls "Segera setelah kami selesai, seluruh situasi menjadi canggung."
     scene 134_liz_with_bellboy_after_sex_1 with fade
     ls "Saya dengan cepat meluruskan pakaian saya dan menuju pintu."
     l "Ahem ... {w} Terima kasih."
-    "???" "Ya ... {w} Terima kasih {b} Anda {/b}."
+    "??? Ya ... {w} Terima kasih {b} Anda {/b}."
     scene 134_liz_with_bellboy_after_sex_2 with dissolve
     l "..."
-    "???" "..."
+    "??? ..."
     scene 134_liz_with_bellboy_after_sex_3 with dissolve
     l "Ingin pergi untuk putaran lain?"
-    "???" "..."
-    "???" "Neraka ya!"
+    "??? ..."
+    "??? Neraka ya!"
     scene 134_liz_with_bellboy_after_sex_4 with dissolve
     l "Hah."
     l "Tapi kali ini saya akan berada di atas."
@@ -3120,7 +3120,7 @@ ms "Kita akan menghabiskan waktu bersama, pantatku"
 scene 135_dinner_1a with dissolve
 m "..."
 scene 135_dinner_1b with dissolve
-"Pelayan" "Lebih banyak anggur?"
+"Pelayan Lebih banyak anggur?"
 m "Oh, Tuhan, ya!"
 scene 135_dinner_1 with dissolve
 m "..."
@@ -3141,7 +3141,7 @@ l "..."
 l "Gadis, kamu sia -sia!"
 m "Hic ... {w} ya. {w} saya."
 scene 135_dinner_3c with dissolve
-"???" "Hai, Liz. {w} Mila."
+"??? Hai, Liz. {w} Mila."
 l "..."
 m "Hai ... {w} hic ..."
 scene 135_dinner_3d with dissolve
@@ -3201,11 +3201,11 @@ l "Anda benar -benar harus pulang."
 m "Saya khawatir saya tidak akan berhasil ... {w} hic ..."
 l "..."
 scene 135_dinner_4l with dissolve
-"???" "Saya tidak sengaja mendengar percakapan Anda. {w} Jika Anda tidak enak badan, saya bisa memberi Anda tumpangan. {w} Driver saya akan berhenti jika diperlukan."
+"??? Saya tidak sengaja mendengar percakapan Anda. {w} Jika Anda tidak enak badan, saya bisa memberi Anda tumpangan. {w} Driver saya akan berhenti jika diperlukan."
 scene 135_dinner_4m with dissolve
 p "Tuan Ketua, saya merasa canggung meminta Anda untuk sesuatu seperti ini ..."
 scene 135_dinner_4m1 with dissolve
-"Ketua" "Jangan berkeringat. {w} Saya akan merasa terhormat untuk membantu istri Anda yang berharga."
+"Ketua Jangan berkeringat. {w} Saya akan merasa terhormat untuk membantu istri Anda yang berharga."
 
 menu:
     "Setuju ({color=#e90e3f} Sugar Daddy Route {/color})":
@@ -3213,7 +3213,7 @@ menu:
     "Tolak ({color=#300f0f} bbc {/color} dan {color=#e90eaf} camgirl {/color} rute)":
         m "Tidak ... hic ... {w} Terima kasih."
 
-"Ketua" "Saya bersikeras."
+"Ketua Saya bersikeras."
 ms "Suaranya yang dalam menenangkan."
 ms "Sulit untuk mengatakan tidak padanya."
 scene 135_dinner_4m2 with dissolve
@@ -3226,9 +3226,9 @@ pause 0.3
 scene 135_dinner_4m5 with dissolve
 l "Dia bilang tidak."
 scene 135_dinner_4m6 with dissolve
-"Ketua" "..."
+"Ketua ..."
 l "..."
-"Ketua" "Seperti yang Anda inginkan. {w} Miss Pak. {w} Paul."
+"Ketua Seperti yang Anda inginkan. {w} Miss Pak. {w} Paul."
 scene 135_dinner_5 with dissolve
 ms "Dia membungkuk dan pergi."
 m "..."
@@ -3247,11 +3247,11 @@ define audio.raincar = "Raincar.ogg"
 play music raincar loop
 scene 135_mila_in_taxi_1 with fade
 ms "Saya meninggalkan aula dan naik ke taksi."
-"Pengemudi" "Ke Maplewood Avenue?"
+"Pengemudi Ke Maplewood Avenue?"
 ms "Alkohol membuatnya sulit untuk berpikir dengan jelas."
 ms "Kepahitan membakar tenggorokanku."
 ms "Saya merasa ingin menangis."
-"Pengemudi" "Merindukan?"
+"Pengemudi Merindukan?"
 scene 135_mila_in_taxi_2 with dissolve
 m "Tidak, saya ingin mengubah alamatnya."
 nvl clear
@@ -3266,7 +3266,7 @@ ms "Dick ragu -ragu, tetapi setelah beberapa detik, dia mengirimi saya lokasi."
 scene 135_mila_in_taxi_2 with dissolve
 m "Di sana."
 ms "Saya menunjukkan alamat pengemudi."
-"Pengemudi" "Seperti yang Anda inginkan, Nona."
+"Pengemudi Seperti yang Anda inginkan, Nona."
 scene 135_mila_in_taxi_4 with dissolve
 play sound inside_car loop volume 0.5
 ms "Mobil mulai bergerak."
@@ -3284,14 +3284,14 @@ ms "Belum terlambat untuk kembali dan ..."
 scene 135_mila_in_taxi_4 with dissolve
 ms "Dan apa?"
 m "..."
-"Pengemudi" "Kami di sini."
+"Pengemudi Kami di sini."
 stop audio
 play sound "car_door.mp3"
 play music "Rain.mp3"
 scene 135_mila_in_taxi_5 with dissolve
 ms "Hujan benar -benar menyedihkan saya. {w} Saya berdiri di bawah hujan dan tidak bisa memaksa diri saya untuk membuat langkah maju atau mundur."
 ms "Saya baru saja membeku di sana."
-"???" "Lantai Twelfth. {w} Dick mengharapkan Anda."
+"??? Lantai Twelfth. {w} Dick mengharapkan Anda."
 ms "Doorman besar itu mendekati saya, dan saya tidak bisa memikirkan apa pun untuk dikatakan kembali."
 ms "Kehadirannya menenangkan. {w} Ini membantu saya membuat keputusan."
 m "Uh ... {w} oke, terima kasih."
@@ -3309,27 +3309,27 @@ m "..."
 play sound "Elevator_door.mp3"
 scene 135_mila_elevator_2a with dissolve
 "..."
-"???" "Oh, hei, manis!"
-"???" "Ke atas?"
+"??? Oh, hei, manis!"
+"??? Ke atas?"
 m "... Maaf apa?"
-"???" "Apakah Anda akan naik? {w} ke lantai atas?"
+"??? Apakah Anda akan naik? {w} ke lantai atas?"
 m "Ah ... {w} ya. {w} Ya."
 play sound "Elevator_door.mp3"
 scene 135_mila_elevator_2b with dissolve
 m "..."
-"???" "Fiuh ... {w} Saya perlu menyegarkan diri."
-"???" "Anda baru di sini? {w} Saya belum melihat Anda."
+"??? Fiuh ... {w} Saya perlu menyegarkan diri."
+"??? Anda baru di sini? {w} Saya belum melihat Anda."
 m "Um ... {w} Ini adalah pertama kalinya saya di sini, ya. {w} Saya Mila."
-"???" "Sukhi."
+"??? Sukhi."
 scene 135_mila_elevator_2c with dissolve
 play sound "ding.mp3"
 ms "Saya tidak tahu ke mana harus mencari."
 ms "Sukhi sepertinya menikmati kebingungan dan rasa malu saya."
-"Sukhi" "Berharap untuk melihat Anda di lantai empat suatu hari nanti."
-"Sukhi" "Selalu ada kekurangan gadis di sana."
+"Sukhi Berharap untuk melihat Anda di lantai empat suatu hari nanti."
+"Sukhi Selalu ada kekurangan gadis di sana."
 scene 135_mila_elevator_2d with dissolve
 play sound "Elevator_door.mp3"
-"Sukhi" "Lihat ya."
+"Sukhi Lihat ya."
 scene 135_mila_elevator_2e with dissolve
 m "..."
 ms "Apa itu?"
@@ -3399,8 +3399,8 @@ label outfit_choice_intro:
     ms "Hm, apa yang harus saya pakai?"
     window hide
     show screen image_choice(
-        ImageChoice("gambar/pilihan/outfit_choice_1_cute.webp", Jump("outfit_choice_left"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
-        ImageChoice("gambar/pilihan/outfit_choice_1_slutty.webp", Jump("outfit_choice_right"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
+        ImageChoice("gambar/pilihan/outfit_choice_1_cute.webp, Jump(outfit_choice_left"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
+        ImageChoice("gambar/pilihan/outfit_choice_1_slutty.webp, Jump(outfit_choice_right"), start_crop=ImageChoiceCrop((960,1080),zoom=1.35,location="dasar")),
         alpha_mask="gambar/pilihan/gambar_choice_mask.webp"
     ) with fade
     $ renpy.pause(hard=True)
@@ -4261,7 +4261,7 @@ label after_the_first_sex_with_dick:
     scene 136_morning_after_12 with dissolve
     ms "Semuanya masih bisa diperbaiki. {w} Ini bukan masalah besar."
     ms "Saya tidak bersalah kecuali terbukti bersalah, bukan?"
-    scene 136_morning_after_13 with Fade (2, 0, 1)
+    scene 136_morning_after_13 with Fade(2, 0, 1)
     stop music
     m "..."
     ms "Liz tidak mengangkat telepon untuk waktu yang lama."
@@ -4548,11 +4548,11 @@ label a137_mila_and_paul_after_mila_irritated:
     ms "Sudah?!"
     scene 137_in_bed_10 with dissolve
     play voice_bg1 cough noloop
-    "{i} batuk."
+    "{i} batuk.{/i}"
     play voice_bg1 swallow noloop
-    "{i} menelan."
+    "{i} menelan.{/i}"
     play voice_bg1 swallow noloop
-    "{i} menelan."
+    "{i} menelan.{/i}"
     ms "Hampir segera penisnya lemas dan menjadi lebih kecil."
     scene 137_in_bed_13 with dissolve
     ms "Tidak sulit untuk membiarkannya beristirahat di mulut saya - bahkan tidak menyentuh tenggorokan saya di negara bagian ini"
@@ -4662,7 +4662,7 @@ label a137_mila_gangbang:
     ms "Aku bisa mendengar napas Dick yang tenang. {w} dan gemerisik pakaiannya. {w} Seperti seseorang sedang menanggalkan ..."
     ms "Kain gaun saya menjadi berduri karena semua kulit ditutupi dengan merinding dan terlalu sensitif."
     scene 137_mila_blindfolded_2 with dissolve
-    m "{i} terkesiap"
+    m "{i} terkesiap{/i}"
     ms "Saya berpikir bahwa Dick berdiri beberapa langkah dari saya, jadi saya tersentak ketika saya merasakan tangannya di pundak saya."
     scene 137_mila_blindfolded_3 with dissolve
     ms "Dia dengan lembut berlari di tanganku dan aku menggigil dengan manis di lengannya."
@@ -4873,18 +4873,18 @@ label a137_mila_gangbang:
     play voice_fg1 dickGroup_23
     stop voice_bg1
     stop sound
-    "Keparat a" "Saya suka bagaimana dia menekan saya saat dia cums."
-    "Bajingan b" "Dia mengencingi perutku."
-    "Keparat a" "Dia hanya menyemprotkan, itu bukan urin."
-    "Bajingan b" "Apa ini, nektar para dewa?"
+    "Keparat a Saya suka bagaimana dia menekan saya saat dia cums."
+    "Bajingan b Dia mengencingi perutku."
+    "Keparat a Dia hanya menyemprotkan, itu bukan urin."
+    "Bajingan b Apa ini, nektar para dewa?"
     d "Apakah Anda ingin melakukan diskusi ilmiah di sini atau apa?"
-    "Keparat a" "Ahahah."
-    "Bajingan b" "Ughh fuck, betapa ketatnya dia."
+    "Keparat a Ahahah."
+    "Bajingan b Ughh fuck, betapa ketatnya dia."
     scene 137_gangbang_fuck_1 with dissolve
     play voice_fg1 dickGroup_24 loop
     play voice_bg1 [thrust_once, "<silence 0.8>"] loop
     play sound masturbating loop
-    "{i}*tersedak*"
+    "{i}*tersedak*{/i}"
     m "Mmm ... {w} mmm ..."
     ms "Ketika pandangan saya sedikit fokus, saya menyadari bahwa Dick's Dick ada di tenggorokan saya."
     ms "Saya tidak tahu siapa yang meniduri pantat dan vagina saya."
@@ -4909,8 +4909,8 @@ label a137_mila_gangbang:
     ms "Dan getaran mengalir melalui otot -otot saya, seolah -olah dari orgasme kecil."
     scene 137_mila_gangbang_1g with dissolve
     play voice_fg1 dickGroup_28
-    "Bajingan b" "Ugh ..."
-    "Bajingan b" "Apakah Anda ingin menidurinya di pantat? {w} Saya ingin dia membersihkan penis saya."
+    "Bajingan b Ugh ..."
+    "Bajingan b Apakah Anda ingin menidurinya di pantat? {w} Saya ingin dia membersihkan penis saya."
     ms "Dick menyeringai."
     d "Ya, dengan senang hati."
     scene 137_mila_gangbang_1h with dissolve
@@ -4920,7 +4920,7 @@ label a137_mila_gangbang:
     ms "Kepalaku berputar dari banyaknya sensasi atau kurangnya udara."
     ms "Tetapi bahkan beberapa saat yang berlalu sebelum penis melengkung yang ditutupi sperma dan pelumas didorong di wajah saya."
     scene 137_mila_fellatio_1 with dissolve
-    "Bajingan b" "Apakah saya memberi tahu Anda bahwa saya akan bercinta dengan Anda suatu hari nanti?"
+    "Bajingan b Apakah saya memberi tahu Anda bahwa saya akan bercinta dengan Anda suatu hari nanti?"
     ms "Saya mendongak dan mengenali pemilik toko barang antik."
     scene 137_mila_fellatio_2 with dissolve
     m "..."
@@ -4929,25 +4929,25 @@ label a137_mila_gangbang:
     play voice_fg1 dickGroup_30
     m "Haaa ..."
     ms "Seringai merayap ke wajahnya."
-    "Bajingan b" "Anak yang baik!"
+    "Bajingan b Anak yang baik!"
     play voice_fg1 dickGroup_31
     scene 137_fellatio_putin_1 with dissolve
     ms "Saya membawa penisnya ke mulut saya."
-    "Bajingan b" "Oh ya, jalang. {w} seperti ini ..."
+    "Bajingan b Oh ya, jalang. {w} seperti ini ..."
     scene 137_mila_fellatio_7 with dissolve
     ms "Itu sangat licin dan tipis, dibandingkan dengan penis dan ayam pria lain, jadi saya dengan mudah mendorongnya ke dalam tenggorokan saya."
-    "Bajingan b" "Ufff ... {w} fffuck ..."
+    "Bajingan b Ufff ... {w} fffuck ..."
     scene 137_mila_fellatio_8 with dissolve
     m "Hehe ..."
     d "Entah bagaimana bagi saya bahwa Mark tidak terlalu beruntung."
-    "{s} fucker a {/s} tanda" "Agak membosankan di sana, ya."
-    "Bajingan b" "Dia punya waktu sebelumnya."
-    "Tanda" "Ya, tapi saya tidak berhasil menyelesaikannya."
-    "Bajingan b" "Ugh ... {w} Baiklah itu sudah cukup, pelacur."
+    "{s} fucker a {/s} tanda Agak membosankan di sana, ya."
+    "Bajingan b Dia punya waktu sebelumnya."
+    "Tanda Ya, tapi saya tidak berhasil menyelesaikannya."
+    "Bajingan b Ugh ... {w} Baiklah itu sudah cukup, pelacur."
     play voice_fg1 dickGroup_32
     scene 137_mila_fellatio_3a with dissolve
     m "Haaa ... haaa ..."
-    "Bajingan b" "Saya perlu mengambil kebocoran. {w} dan istirahat."
+    "Bajingan b Saya perlu mengambil kebocoran. {w} dan istirahat."
     d "Oh hebat, sekarang saat kami tidak membutuhkan mulut Anda, lepas gaun itu dan berbaring di sisi Anda."
     scene 137_mila_gangbang_2 with dissolve
     ms "Saya merasa aneh."
@@ -4963,7 +4963,7 @@ label a137_mila_gangbang:
     play voice_fg1 dickGroup_35
     play voice_bg1 thrust_once noloop
     m "Uuufff ..."
-    "Tanda" "Sial, sihir macam apa ini - lubangnya sangat kecil dan ketat, tapi sangat dalam."
+    "Tanda Sial, sihir macam apa ini - lubangnya sangat kecil dan ketat, tapi sangat dalam."
     scene 137_mila_gangbang_2c with dissolve
     m "Ahah."
     play voice_fg1 dickGroup_36
@@ -4974,7 +4974,7 @@ label a137_mila_gangbang:
     play sound masturbating loop
     m "Ahh ... {w} oh my god ..."
     "{i}*Slap {w} Slap {w} Slap"
-    "Tanda" "Apakah kamu suka sayang?"
+    "Tanda Apakah kamu suka sayang?"
     play voice_fg1 dickGroup_38
     m "Yeahhh ..."
     ms "Setiap gerakan mereka menyebabkan seluruh badai emosi dan sensasi."
@@ -4999,10 +4999,10 @@ label a137_mila_gangbang:
     play voice_fg1 dickGroup_41
     m "Ahaha ... {w} mmm ..."
     scene 137_mila_gangbang_2i with dissolve
-    "Tanda" "Uff ..."
+    "Tanda Uff ..."
     scene 137_mila_gangbang_2k with dissolve
     ms "Mark mengendarai bautnya jauh di dalam vaginaku ke bola dan mulai cum mengejarnya."
-    "Tanda" "Sial, Pussy yang sangat ketat ..."
+    "Tanda Sial, Pussy yang sangat ketat ..."
     scene 137_mila_gangbang_2l with dissolve
     m "Ahaha ..."
     scene 137_mila_gangbang_2m with dissolve
@@ -5018,17 +5018,17 @@ label a137_mila_gangbang:
     play voice_fg1 dickGroup_42
     ms "Orang -orang pergi untuk beristirahat sebentar, {w} pemilik toko mendekat dan memberi saya sebotol air."
     stop music
-    "???" "Apa kabarmu?"
+    "??? Apa kabarmu?"
     scene 137_mila_after_1a with dissolve
     m "Luar biasa!"
-    "???" "Ahah."
+    "??? Ahah."
     scene 137_mila_after_2 with dissolve
     m "Siapa namamu?"
-    "???" "Apakah Anda selalu meminta nama setelah berhubungan seks?"
+    "??? Apakah Anda selalu meminta nama setelah berhubungan seks?"
     scene 137_mila_after_2a with dissolve
     m "Tidak, hanya setelah gangbang."
-    "???" "Hah."
-    "???" "Anda bisa menelepon saya ayah."
+    "??? Hah."
+    "??? Anda bisa menelepon saya ayah."
     scene 137_mila_after_1a with dissolve
     m "Mustahil."
     "K."
@@ -5052,11 +5052,11 @@ label a137_mila_gangbang:
     ms "Saya ingin melakukan apa yang dia katakan."
     scene 137_mila_after_6 with dissolve
     m "..."
-    "K" "Anda meregangkannya dengan baik."
-    "Tanda" "Ya, dia terlihat seperti pelacur nyata sekarang."
+    "K Anda meregangkannya dengan baik."
+    "Tanda Ya, dia terlihat seperti pelacur nyata sekarang."
     play voice_fg1 giggle
     m "Hihihi."
-    "Tanda" "Saya pikir pantatnya bisa lebih banyak diregangkan."
+    "Tanda Saya pikir pantatnya bisa lebih banyak diregangkan."
     scene 137_mila_after_7 with dissolve
     ms "Mark muncul di belakangku dan meletakkan tangannya di pantatku."
     ms "Vagina saya mulai basah lagi untuk mengantisipasi."
@@ -5066,12 +5066,12 @@ label a137_mila_gangbang:
     play sound slap
     play voice_fg1 hihi
     m "Mmm ... {w} hihihi ..."
-    "Tanda" "Akan sulit untuk bercinta denganmu seperti itu, berdiri dan membungkuk."
+    "Tanda Akan sulit untuk bercinta denganmu seperti itu, berdiri dan membungkuk."
     scene 137_mila_after_8 with dissolve
     ms "Saya mematuhi tanpa ragu -ragu. {w} ternyata saya tidak peduli siapa yang memberi perintah ..."
     ms "Saya hanya ingin mengirimkan dan bercinta."
     m "Seperti ini?"
-    "Tanda" "Di jinjit Anda. {w} Dapatkan pantat Anda lebih tinggi, itu akan membuat saya lebih mudah untuk bercinta dengan Anda."
+    "Tanda Di jinjit Anda. {w} Dapatkan pantat Anda lebih tinggi, itu akan membuat saya lebih mudah untuk bercinta dengan Anda."
     scene 137_mila_after_9 with dissolve
     play voice_fg1 dickGroup_43
     ms "Sulit untuk menjaga keseimbangan pada berjinjit. {w} Tapi saya berharap, itu bertanda akan meraih pantat saya untuk menahan saya di tempat."
@@ -5079,8 +5079,8 @@ label a137_mila_gangbang:
     scene 137_mila_after_10 with dissolve
     ms "Mark meletakkan kepala penisnya yang tebal di pantatku."
     scene 137_mila_after_11 with dissolve
-    "Tanda" "Apakah kamu takut, gadis? Pantat Anda terkepal begitu kencang sehingga saya tidak bisa mendorongnya."
-    "Tanda" "Ayo, sayang, bantu aku."
+    "Tanda Apakah kamu takut, gadis? Pantat Anda terkepal begitu kencang sehingga saya tidak bisa mendorongnya."
+    "Tanda Ayo, sayang, bantu aku."
     ms "Itu menakutkan dengan seberapa besar penisnya. {w} Meskipun itu mendebarkan pada saat yang sama."
     scene 137_mila_after_12 with dissolve
     ms "Saya menyebarkan pantat saya dan santai."
@@ -5091,25 +5091,25 @@ label a137_mila_gangbang:
     scene 137_mila_after_13 with dissolve
     ms "Tapi saya sangat terangsang sehingga saya menyukai rasa sakit ini."
     ms "Ditambah lagi, baik keledai dan vagina begitu banyak ditutupi dengan jus dan sperma saya sehingga kami tidak kekurangan pelumasan."
-    "Tanda" "Apakah kamu siap?"
+    "Tanda Apakah kamu siap?"
     play voice_fg1 yesSir
     m "Ya..."
     scene 137_mila_after_14 with hpunch
     play voice_fg1 dickGroup_45
     play voice_bg1 thrust_once noloop
     m "Argha ..."
-    "Tanda" "Fuck ... {w} Nah, itulah yang saya sebut pantat ketat."
+    "Tanda Fuck ... {w} Nah, itulah yang saya sebut pantat ketat."
     scene 137_gangbang_fuck_4 with dissolve
     play voice_fg1 dickGroup_46
     play voice_bg1 [thrust_once, "<silence 0.6>"] loop
     play sound masturbating loop
     "{i} slap {w} slap {w} slap"
     m "Mmm ... {w} mhm ... {size=-10} fuck ..."
-    "Tanda" "Apakah Anda menyukainya, sayang?"
+    "Tanda Apakah Anda menyukainya, sayang?"
     scene 137_gangbang_fuck_5 with dissolve
     play voice_fg1 dickGroup_47
     m "Persetan ya! {w} lebih keras, buat lebih sulit!"
-    "Tanda" "Ahah. {w} Anda tidak perlu bertanya dua kali."
+    "Tanda Ahah. {w} Anda tidak perlu bertanya dua kali."
     scene 137_gangbang_fuck_5a with dissolve
     play voice_fg1 dickGroup_48
     play voice_bg1 [thrust_once] loop
@@ -5123,19 +5123,19 @@ label a137_mila_gangbang:
     play voice_bg1 [thrust_once] loop
     play sound masturbating loop
     m "Ya, {w} {size=+5} Ya, {w} {size=+10} Ya!"
-    "K" "Saya suka menontonnya cum."
+    "K Saya suka menontonnya cum."
     d "Ya, sungguh menyenangkan untuk ditonton."
-    "Tanda" "Biarkan saya menunjukkan kepada Anda lebih baik."
+    "Tanda Biarkan saya menunjukkan kepada Anda lebih baik."
     scene 137_mila_gangbang_3 with hpunch
     stop sound
     stop voice_bg1
-    "Tanda" "Hey hop"
+    "Tanda Hey hop"
     scene 137_gangbang_fuck_6 with dissolve
     play voice_bg1 [thrust_once, "<silence 0.6>"] loop
     play sound masturbating loop
     play voice_fg1 dickGroup_50
-    "Tanda" "Dia sangat ringan! {w} seperti mainan seks."
-    "K" "Ahah"
+    "Tanda Dia sangat ringan! {w} seperti mainan seks."
+    "K Ahah"
     d "Wajah yang bodoh."
     "{i} slap {w} slap {w} slap"
     ms "Saya tidak peduli apa yang mereka katakan."
@@ -5238,7 +5238,7 @@ label a137_mila_gangbang:
     m "Ya ... {w} saya juga ..."
     m "..."
     d "..."
-    "Tanda" "..."
+    "Tanda ..."
     scene 137_mila_gangbang_3q with dissolve
     play voice_fg1 dickGroup_61
     m "Bisakah kamu bercinta denganku sehingga aku lupa namaku?"
@@ -5383,7 +5383,7 @@ label a138_mila_and_liz:
     scene 138_liz_6 with dissolve
     l "Gangba ..."
     scene 138_liz_6a with hpunch
-    l "Another"another"{/i}?!"
+    l "Anotheranother{/i}?!"
     scene 138_mila_3 with dissolve
     play voice_fg1 ehehe1
     m "Hehe ..."
@@ -5544,8 +5544,8 @@ label a138_brief:
     ms "Apa yang harus saya lakukan?"
     window hide
     show screen image_choice(
-        ImageChoice("gambar/pilihan/bbc_ending_choice_liz.webp", Jump("bbc_ending_choice_liz"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
-        ImageChoice("gambar/pilihan/bbc_ending_choice_slut.webp", Jump("bbc_ending_choice_slut"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
+        ImageChoice("gambar/pilihan/bbc_ending_choice_liz.webp, Jump(bbc_ending_choice_liz"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
+        ImageChoice("gambar/pilihan/bbc_ending_choice_slut.webp, Jump(bbc_ending_choice_slut"), start_crop=ImageChoiceCrop((960,1080),zoom=1,location="dasar")),
         alpha_mask="gambar/pilihan/gambar_choice_mask.webp"
     ) with fade
     $ renpy.pause(hard=True)
@@ -5757,18 +5757,18 @@ label a138_brief:
                 ms "Saya merasa sangat kecil dan lemah dalam bayangan ini ..."
                 scene 138_porn_surrounded_3 with dissolve
                 ms "Aku ... {w} sangat suka perasaan ini!"
-                "???" "Ayo sayang, tunggu apa lagi?"
-                "???" "Ya, jalang, mulai bekerja."
+                "??? Ayo sayang, tunggu apa lagi?"
+                "??? Ya, jalang, mulai bekerja."
                 scene 138_porn_surrounded_4 with dissolve
-                "???" "Ya, sayang, itu saja."
-                "???" "Woohoo!"
-                "???" "Dia terlihat sangat polos ..."
-                "???" "Ayo, dia hanya pelacur kotor."
-                "???" "Jangan katakan itu. {w} Cutie seperti itu tidak bisa menjadi pelacur, kan?"
+                "??? Ya, sayang, itu saja."
+                "??? Woohoo!"
+                "??? Dia terlihat sangat polos ..."
+                "??? Ayo, dia hanya pelacur kotor."
+                "??? Jangan katakan itu. {w} Cutie seperti itu tidak bisa menjadi pelacur, kan?"
                 scene 138_porn_surrounded_5 with dissolve
                 m "Hmmm ..."
                 scene 138_surrounded_blowjob_1 with dissolve
-                "???" "Oh, bercinta ..."
+                "??? Oh, bercinta ..."
                 ms "Kata -kata mereka menghantam martabat saya seperti menampar wajah."
                 ms "Saya akan merasa tidak enak jika saya tidak terbiasa dengan penghinaan ini."
                 ms "Ada kesenangan yang hanya bisa diperoleh dengan meninggalkan martabat seseorang."
@@ -5777,7 +5777,7 @@ label a138_brief:
                 ms "Inilah yang seharusnya saya lakukan."
                 ms "Di sinilah saya seharusnya berada."
                 ms "Ini panggilan saya."
-                "???" "Ini akan memakan waktu selamanya jadi mari kita bantu sedikit."
+                "??? Ini akan memakan waktu selamanya jadi mari kita bantu sedikit."
                 scene 138_porn_surrounded_7 with dissolve
                 ms "Lengan berotot mereka mengangkat saya seperti bulu."
                 ms "Kacamata saya jatuh pada suatu saat."
@@ -5797,55 +5797,55 @@ label a138_brief:
                 ms "Sorotnya menyala dengan cerah setiap inci tubuh saya."
                 ms "Dan bagi saya tampaknya tubuh saya yang pertama diingat bahwa saya lebih nyaman tanpa pakaian daripada dengan mereka."
                 scene 138_porn_surrounded_10 with dissolve
-                "???" "Oh, Anda memiliki tindikan intim."
-                "???" "Gadis Kotor."
-                "???" "Ahaha."
-                "???" "Saya suka tato Anda, pelacur."
-                "???" "Jadi, apakah Anda suka bercinta dengan ayam hitam, ya, sayang?"
+                "??? Oh, Anda memiliki tindikan intim."
+                "??? Gadis Kotor."
+                "??? Ahaha."
+                "??? Saya suka tato Anda, pelacur."
+                "??? Jadi, apakah Anda suka bercinta dengan ayam hitam, ya, sayang?"
                 m "..."
-                "???" "Kenapa kamu diam, beri tahu kami."
+                "??? Kenapa kamu diam, beri tahu kami."
                 scene 138_porn_surrounded_11 with dissolve
                 m "Ya ... {w} Saya suka ayam hitam besar."
-                "???" "Ahah. {w} Pelacur."
+                "??? Ahah. {w} Pelacur."
                 m "Ehehe."
-                "???" "Persetan itu bocor."
-                "???" "Apakah Anda ingin kacau?"
+                "??? Persetan itu bocor."
+                "??? Apakah Anda ingin kacau?"
                 scene 138_porn_surrounded_10 with dissolve
                 m "Ya..."
-                "???" "Beri tahu kami, bahwa Anda adalah pelacur yang bodoh."
-                "???" "Ahah kamu sangat kejam."
+                "??? Beri tahu kami, bahwa Anda adalah pelacur yang bodoh."
+                "??? Ahah kamu sangat kejam."
                 m "..."
-                "???" "Ayo sayang, katakan itu."
+                "??? Ayo sayang, katakan itu."
                 scene 138_porn_surrounded_12 with dissolve
                 m "Saya pelacur yang bodoh."
                 m "Tolong persetan denganku."
-                "???" "Aww dia sangat imut saat dia memohon."
-                "???" "Aku ingin bercinta dengannya."
+                "??? Aww dia sangat imut saat dia memohon."
+                "??? Aku ingin bercinta dengannya."
                 scene 138_lifted_1a with dissolve
-                "???" "Sial, mulutnya akan tetap menganggur ... {w} dan aku selalu ingin bercinta dengan kepala kecil yang cantik ini."
-                "???" "Anda bisa melakukannya nanti. Gunakan pantatnya sebagai gantinya."
+                "??? Sial, mulutnya akan tetap menganggur ... {w} dan aku selalu ingin bercinta dengan kepala kecil yang cantik ini."
+                "??? Anda bisa melakukannya nanti. Gunakan pantatnya sebagai gantinya."
                 scene 138_lifted_1 with dissolve
-                "???" "Huh, dengan senang hati!"
+                "??? Huh, dengan senang hati!"
                 m "Mgm!"
                 ms "Hal yang baik tentang poni geng adalah tidak ada yang meminta izin saya."
                 ms "Cukup untuk hanya mengikuti arus."
                 ms "Santai dan bersenang -senang."
                 ms "Dan merasakan sakit."
                 scene 138_lifted_2 with dissolve
-                "???" "Dia meraihku dari atas dan di bawah."
-                "???" "Itu selalu membuat saya takjub bagaimana dia berhasil tetap ketat."
-                "???" "Sialan pantatnya luar biasa, sepertinya dia memerah susu saya."
+                "??? Dia meraihku dari atas dan di bawah."
+                "??? Itu selalu membuat saya takjub bagaimana dia berhasil tetap ketat."
+                "??? Sialan pantatnya luar biasa, sepertinya dia memerah susu saya."
                 scene 138_lifted_3 with dissolve
                 m "Mgm!"
                 ms "Saya sudah mulai terbiasa dengan fakta bahwa saya terus -menerus gelisah."
                 ms "Saya bisa cum di mana saja, dalam posisi apa pun."
                 ms "Saya tidak lagi merasa kosong setelah orgasme."
                 ms "Sebaliknya, saya mendapatkan kekuatan. Seperti saya semacam succubi."
-                "???" "Ugh dia sangat berkontraksi saat dia cums."
-                "???" "Saya akan cum juga."
-                "???" "Cepatlah, ada garis di sini."
-                "???" "Ufff ..."
-                "???" "Yeees!"
+                "??? Ugh dia sangat berkontraksi saat dia cums."
+                "??? Saya akan cum juga."
+                "??? Cepatlah, ada garis di sini."
+                "??? Ufff ..."
+                "??? Yeees!"
                 scene 138_lifted_4 with dissolve
                 m "Mmm!"
                 ms "Aku merasakan ayam mereka berdenyut di dalam diriku."
@@ -5855,8 +5855,8 @@ label a138_brief:
                 ms "Dan ketika saya merasakan jet sperma di dalam."
                 ms "Dan ketika saya merasakannya mengalir keluar."
                 ms "Dan saat menutupi tubuh saya dari kepala ke kaki."
-                "???" "Siapa selanjutnya?"
-                "???" "Letakkan dia berlutut, aku ingin bercinta dengan doggystyle -nya."
+                "??? Siapa selanjutnya?"
+                "??? Letakkan dia berlutut, aku ingin bercinta dengan doggystyle -nya."
                 scene 138_doggy_1 with hpunch
                 m "Aahh!"
                 ms "Kepalaku berputar dari semua sensasi yang gemetar dan intens ini."
@@ -5864,53 +5864,53 @@ label a138_brief:
                 ms "Saya suka fakta bahwa saya tidak perlu memikirkan apa pun."
                 ms "Saya hanya bisa menikmati kesenangan mentah."
                 ms "Kesenangan murni, tanpa clouded."
-                "???" "Sial, kau memukul penismu ke dalam dirinya yang keras, bung."
-                "???" "Dia mengepal saat aku menekan uretra."
-                "???" "Ahhh, saya tidak sabar untuk mencobanya."
+                "??? Sial, kau memukul penismu ke dalam dirinya yang keras, bung."
+                "??? Dia mengepal saat aku menekan uretra."
+                "??? Ahhh, saya tidak sabar untuk mencobanya."
                 scene 138_doggy_2 with hpunch
                 ms "Salah satu dari mereka berdiri di depanku dan memasukkan penisnya di mulutku."
                 m "Mgm!"
-                "???" "Saya akhirnya bisa menggunakan mulutnya."
-                "???" "Nikmati, ahah!"
-                "???" "Ugh ... aku hampir ..."
+                "??? Saya akhirnya bisa menggunakan mulutnya."
+                "??? Nikmati, ahah!"
+                "??? Ugh ... aku hampir ..."
                 scene 138_doggy_3 with hpunch
-                "???" "Selesai!"
-                "???" "Ambillah, jalang!"
-                "???" "Seperti ini! {w} Ambil ini, pelacur."
+                "??? Selesai!"
+                "??? Ambillah, jalang!"
+                "??? Seperti ini! {w} Ambil ini, pelacur."
                 scene 138_doggy_4 with hpunch
                 m "Mmmmmm!"
-                "???" "Ahah, dia berasal dari ini!"
-                "???" "Bagaimana ayam besar seperti itu masuk ke dalam lubang sekecil itu?"
-                "???" "Saya pikir sihir dilarang di luar hogwarts ..."
-                "???" "Bung, apakah kamu sudah selesai? Biarkan aku menidurinya di Doggie juga. Saya suka melihat pantatnya."
+                "??? Ahah, dia berasal dari ini!"
+                "??? Bagaimana ayam besar seperti itu masuk ke dalam lubang sekecil itu?"
+                "??? Saya pikir sihir dilarang di luar hogwarts ..."
+                "??? Bung, apakah kamu sudah selesai? Biarkan aku menidurinya di Doggie juga. Saya suka melihat pantatnya."
                 scene 138_doggy_5 with hpunch
                 m "Mmm!"
-                "???" "Sial, semuanya di sini ada di sperma Anda."
-                "???" "Jangan khawatir, dia akan membersihkan semuanya dengan lidahnya nanti."
-                "???" "Benar, jalang?"
+                "??? Sial, semuanya di sini ada di sperma Anda."
+                "??? Jangan khawatir, dia akan membersihkan semuanya dengan lidahnya nanti."
+                "??? Benar, jalang?"
                 scene 138_doggy_6 with hpunch
                 "Tamparan!"
                 m "Ah!"
                 scene 138_doggy_7 with hpunch
-                "???" "Ahah."
-                "???" "Ugh ... dia sangat menyusut saat kamu memukulnya."
+                "??? Ahah."
+                "??? Ugh ... dia sangat menyusut saat kamu memukulnya."
                 scene 138_doggy_6 with hpunch
                 "Tamparan!!"
                 m "Aaah!"
-                "???" "Oh fuck."
-                "???" "Ya, lebih baik seperti itu, kalau tidak lubangnya sudah cukup longgar."
-                "???" "Bisakah Anda mengisi mulutnya dengan penis, saya sakit kepala karena rengekannya."
-                "???" "Ahah, dengan senang hati!"
+                "??? Oh fuck."
+                "??? Ya, lebih baik seperti itu, kalau tidak lubangnya sudah cukup longgar."
+                "??? Bisakah Anda mengisi mulutnya dengan penis, saya sakit kepala karena rengekannya."
+                "??? Ahah, dengan senang hati!"
                 scene 138_doggy_8 with hpunch
                 "Tamparan! Tampan Tampan!"
                 m "Mmm! Mmm!"
-                "???" "Itu saja pelacur, itu saja!"
+                "??? Itu saja pelacur, itu saja!"
                 scene 138_doggy_9 with hpunch
                 m "Mmm !!"
-                "???" "Dia cums seperti senapan mesin!"
-                "???" "Sial, dia meremasku begitu keras ..."
-                "???" "FUCK! {w} Cumming!"
-                "???" "ARGH!"
+                "??? Dia cums seperti senapan mesin!"
+                "??? Sial, dia meremasku begitu keras ..."
+                "??? FUCK! {w} Cumming!"
+                "??? ARGH!"
                 scene 138_doggy_10 with hpunch
                 m "Mmm !!"
                 scene 138_after_doggy_1 with dissolve
@@ -5922,9 +5922,9 @@ label a138_brief:
                 ms "Mereka hanya menatapku."
                 ms "Mereka semua milikku."
                 scene 138_mila_close-up_dazed with dissolve
-                "???" "Hei jalang, apakah kamu hidup di sana?"
-                "???" "Bumi ke pelacur, jawab."
-                "???" "Ahaha."
+                "??? Hei jalang, apakah kamu hidup di sana?"
+                "??? Bumi ke pelacur, jawab."
+                "??? Ahaha."
                 d "Masih terlalu dini untuk beristirahat, pelacur, berbaring di atasnya."
                 ms "Kata -kata mereka datang kepada saya seolah -olah melalui kabut."
                 ms "Dan hanya pesanan langsung Dick yang mudah dimengerti."
@@ -5940,51 +5940,51 @@ label a138_brief:
                 ms "Tetapi keuntungan dari seks kelompok adalah bahwa anak laki -laki memiliki banyak energi untuk disisihkan."
                 ms "Dan segera saya mulai merasa tumbuh gairah lagi."
                 ms "Seolah -olah saya didakwa dengan energi mereka."
-                "???" "Sial, aku menidurinya dan aku hampir tidak merasakan apa -apa."
-                "???" "Anda hanya perlu mengisi lubang lain dengan sesuatu. {w} tunggu sebentar."
+                "??? Sial, aku menidurinya dan aku hampir tidak merasakan apa -apa."
+                "??? Anda hanya perlu mengisi lubang lain dengan sesuatu. {w} tunggu sebentar."
                 scene 138_lying_dp_3 with hpunch
                 m "Aaah!"
-                "???" "Seperti ini."
-                "???" "Ufff, sekarang saya bisa merasakannya - dia sedikit menyusut."
-                "???" "Maukah kamu merobeknya? Dia sepertinya kesakitan ..."
-                "???" "Anda pikir begitu?"
+                "??? Seperti ini."
+                "??? Ufff, sekarang saya bisa merasakannya - dia sedikit menyusut."
+                "??? Maukah kamu merobeknya? Dia sepertinya kesakitan ..."
+                "??? Anda pikir begitu?"
                 scene 138_lying_dp_4 with hpunch
                 m "Aaah!"
-                "???" "Ahah. {w} Saya pikir, dia tidak kesakitan."
+                "??? Ahah. {w} Saya pikir, dia tidak kesakitan."
                 ms "Terap di antara dua tubuh panas dan panas, saya mencoba menarik napas."
                 ms "Tapi anak laki -laki tidak memperhatikan saya. Mereka meniduriku seperti yang mereka inginkan, terkadang mempercepat, terkadang melambat."
                 ms "Kepala saya berputar begitu banyak sehingga saya takut akan kehilangan kesadaran."
                 scene 138_lying_dp_3 with dissolve
-                "???" "Entah bagaimana dia menjadi lesu lagi setelah dia selesai."
-                "???" "Ya, vaginanya sangat longgar sehingga saya hanya bisa merasakannya seperti saya menggosok penis Anda dan itu perasaan yang aneh."
-                "???" "Ahah, ya."
-                "???" "Orang -orang mengatakan bahwa mereka telah melakukan ini, tetapi melihat keledai kecilnya sepertinya bagi saya ini tidak mungkin."
-                "???" "Saya akan tetap mencoba tetap saja."
+                "??? Entah bagaimana dia menjadi lesu lagi setelah dia selesai."
+                "??? Ya, vaginanya sangat longgar sehingga saya hanya bisa merasakannya seperti saya menggosok penis Anda dan itu perasaan yang aneh."
+                "??? Ahah, ya."
+                "??? Orang -orang mengatakan bahwa mereka telah melakukan ini, tetapi melihat keledai kecilnya sepertinya bagi saya ini tidak mungkin."
+                "??? Saya akan tetap mencoba tetap saja."
                 scene 138_lying_dp_5 with hpunch
                 m "Aaaah!"
                 ms "Dia meremas penisnya yang besar di dalam pantatku. {w} Itu sangat meregangkannya, sehingga kupikir itu akan robek."
                 ms "Tapi rasa sakitnya dengan cepat menghilang."
-                "???" "Oh. {w} dia hidup! {w} hidup!"
-                "???" "Ahaha."
+                "??? Oh. {w} dia hidup! {w} hidup!"
+                "??? Ahaha."
                 m "Fiuh ..."
-                "???" "Tapi menidurinya seperti ini sangat tidak nyaman."
-                "???" "Pemandangannya luar biasa. {w} Ayo sayang, tunjukkan lubang menganga Anda."
+                "??? Tapi menidurinya seperti ini sangat tidak nyaman."
+                "??? Pemandangannya luar biasa. {w} Ayo sayang, tunjukkan lubang menganga Anda."
                 scene 138_lying_after_1 with dissolve
                 ms "Kilatan rasa sakit dari peregangan membawa saya kembali ke akal sehat saya sedikit."
                 ms "Dan komentar mereka membuat saya bersemangat."
                 ms "Saya dengan senang hati memenuhi permintaan mereka."
                 scene 138_lying_after_2 with dissolve
-                "???" "Lihat."
-                "???" "Tinju saya pas dengan mudah ke pantatnya."
-                "???" "Ahah."
-                "???" "Ada begitu banyak sperma di sana ..."
-                "???" "Sial, dia adalah pelacur tingkat atas!"
+                "??? Lihat."
+                "??? Tinju saya pas dengan mudah ke pantatnya."
+                "??? Ahah."
+                "??? Ada begitu banyak sperma di sana ..."
+                "??? Sial, dia adalah pelacur tingkat atas!"
                 m "Hehe."
                 d "Dia juga super fleksibel. {w} Tunjukkan apa yang dapat Anda lakukan di kamera, cewek."
                 scene 138_split_roasted_1 with dissolve
-                "???" "Ohhoho. {w} keren!"
-                "???" "Sial, dia sangat ringan."
-                "???" "Ayo sayang bersih penisku."
+                "??? Ohhoho. {w} keren!"
+                "??? Sial, dia sangat ringan."
+                "??? Ayo sayang bersih penisku."
                 scene 138_split_roasted_2 with hpunch
                 ms "Saya tidak ingat apakah saya sudah bercinta dengan orang ini atau tidak."
                 ms "Mungkin kontol ini sudah ada di vagina atau pantat saya."
@@ -5999,17 +5999,17 @@ label a138_brief:
                 ms "Saya merasa lebih baik dan lebih buruk pada saat yang sama."
                 ms "Sulit untuk berkonsentrasi pada kesenangan."
                 ms "Jadi saya fokus membuat mereka cum lebih cepat."
-                "???" "Ugh fuck aku akan segera cum."
-                "???" "Dia memiliki beberapa keterampilan yang tidak nyata dalam memberi kepala."
-                "???" "Saya tidak tahu siapa yang mengatakan bahwa vaginanya longgar. {w} Dia meremas saya begitu keras sehingga saya hampir tidak bisa menahan diri."
+                "??? Ugh fuck aku akan segera cum."
+                "??? Dia memiliki beberapa keterampilan yang tidak nyata dalam memberi kepala."
+                "??? Saya tidak tahu siapa yang mengatakan bahwa vaginanya longgar. {w} Dia meremas saya begitu keras sehingga saya hampir tidak bisa menahan diri."
                 ms "Pussy dipenuhi dengan otot. {w} rasanya lamban jika mereka santai atau sama sekali tidak terlatih. {w} Inilah sebabnya mengapa pelacur memiliki pussies terbaik."
                 scene 138_split_roasted_3 with hpunch
-                "???" "Hg!"
-                "???" "Sungguh!"
-                "???" "Ohh ... {w} Saya pikir saya akan pingsan sekarang."
-                "???" "Hebat, biarkan orang lain menikmati wanita jalang ini."
+                "??? Hg!"
+                "??? Sungguh!"
+                "??? Ohh ... {w} Saya pikir saya akan pingsan sekarang."
+                "??? Hebat, biarkan orang lain menikmati wanita jalang ini."
                 scene 138_split_cowgirl_1 with dissolve
-                "???" "Wow sayang, Anda tahu cara membuat orang tertarik!"
+                "??? Wow sayang, Anda tahu cara membuat orang tertarik!"
                 m "Hihi."
                 ms "Saya merasa lelah, tetapi kegembiraan itu melebihi itu."
                 ms "Saya ingin bersantai dan menikmati bagaimana mereka akan meniduri saya."
@@ -6019,19 +6019,19 @@ label a138_brief:
                 ms "Jadi saya harus memaksakan diri untuk bersantai, membiarkannya masuk."
                 scene 138_split_cowgirl_2 with dissolve
                 m "Aaah ..."
-                "???" "Wow ... {w} kamu sangat ketat!"
+                "??? Wow ... {w} kamu sangat ketat!"
                 ms "Dalam posisi ini, saya juga tidak bisa bersantai, dan itu sangat sulit untuk bergerak."
                 ms "Tapi vaginaku terus -menerus terjepit di sekitar kemaluannya."
                 ms "Jadi saya menyukai sensasi. {w} dan kontrol."
                 scene 138_split_cowgirl_1a with dissolve
                 m "Aaah ... {w} aah ..."
-                "???" "Sialan aku tidak tahan lagi!"
+                "??? Sialan aku tidak tahan lagi!"
                 scene 138_split_cowgirl_3 with hpunch
-                "???" "Ya!"
-                "???" "Bung, Anda tidak tahan bahkan selama beberapa menit."
-                "???" "Persetan denganmu! Cobalah sendiri."
-                "???" "Sekarang saya akan menunjukkan kepada Anda betapa sejati pria melakukannya."
-                "???" "Persetan denganmu."
+                "??? Ya!"
+                "??? Bung, Anda tidak tahan bahkan selama beberapa menit."
+                "??? Persetan denganmu! Cobalah sendiri."
+                "??? Sekarang saya akan menunjukkan kepada Anda betapa sejati pria melakukannya."
+                "??? Persetan denganmu."
                 scene 138_close-up_anal_feet_1 with dissolve
                 ms "Yang berikutnya menempatkan saya dalam doggy dan kemudian meletakkan penisnya di pantat saya."
                 scene 138_close-up_anal_feet_2 with dissolve
@@ -6051,13 +6051,13 @@ label a138_brief:
                 m "Aaahhh! Yesss!"
                 "Tampan tamparan!"
                 m "Aaaah !!"
-                "???" "Ya, pelacur, itu saja!"
+                "??? Ya, pelacur, itu saja!"
                 scene 138_close-up_anal_feet_4 with hpunch
-                "???" "Cum di penisku!"
+                "??? Cum di penisku!"
                 scene 138_close-up_anal_feet_6 with hpunch
-                "???" "Hg!"
+                "??? Hg!"
                 scene 138_close-up_anal_feet_7 with hpunch
-                "???" "Yesss!"
+                "??? Yesss!"
                 scene 138_taking_turns_1 with hpunch
                 ms "Orang -orang bergantian pada saya."
                 scene 138_taking_turns_2 with hpunch
