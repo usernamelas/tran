@@ -1477,7 +1477,7 @@ scene 132_mila_store_clerk_3 with dissolve
 ms "Membayar?"
 ms "Apa yang terjadi?"
 scene 132_mila_store_clerk_1 with dissolve
-m "Double"?"
+m "Double ?"
 "???" "..."
 "???" "Itu adil. Kesepakatan."
 d "Lepaskan gaun Anda"
