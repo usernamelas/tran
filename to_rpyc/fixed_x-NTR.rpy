@@ -583,7 +583,7 @@ ms "Saya dapat memberi tahu Paul bahwa saya tidak enak badan."
 show mila sport_suit_naughty2
 ms "Aku akan menjadi gadis yang buruk sekali"
 ms "Saya akan memesan beberapa makanan daripada memasak ... {w} dengan cara ini saya akan memiliki lebih banyak waktu untuk ..."
-ms "Free"waktu..."
+ms "waktu... luang"
 ms "..."
 show mila sport_suit_naughty
 ma "Halo!"
