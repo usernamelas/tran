@@ -3116,7 +3116,7 @@ m "..."
 ms "Apa yang bahkan saya harapkan?"
 scene 135_dinner_2 with dissolve
 m "..."
-ms "We'll spend some time together", pantatku"
+ms "Kita akan menghabiskan waktu bersama, pantatku"
 scene 135_dinner_1a with dissolve
 m "..."
 scene 135_dinner_1b with dissolve

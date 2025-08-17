@@ -2419,7 +2419,7 @@ label Loyal:
         m "*Tertawa"
         p "Maaf, apakah kamu baik -baik saja?"
         scene 143_mila_and_paul_throating_10 with dissolve
-        m "train"saya, bukan?"
+        m "train saya, bukan?"
         m "Teruskan."
         scene 143_mila_and_paul_throating_11 with dissolve
         p "..."
