@@ -1954,7 +1954,7 @@ d "Secara fisik - mungkin. Tapi itu tidak selalu terjadi."
 d "Pelacur akan membuatmu kecewa"
 d "Setiap kata -katanya, setiap tindakan, adalah semua tindakan - hanya untuk mendapat untung."
 d "Itulah mengapa saya membuat situs web"
-d "recruit"Nymphomaniacs seperti Anda"
+d "recruit Nymphomaniacs seperti Anda"
 scene 133_mila_computer_5 with dissolve
 ms "Apa yang dia katakan mengejutkan saya."
 m "Apa maksudmu?"
@@ -2018,7 +2018,7 @@ d "community"
 d "Politisi, pengusaha, selebriti, pria kaya, dan gangster ..."
 d "Butuh banyak upaya untuk menjaga hal itu untuk diri saya sendiri."
 d "Pada akhirnya, semua klien saya tahu bahwa ini bukan rumah bordil."
-d "buy"seorang gadis di sini"
+d "beli seorang gadis di sini"
 d "Anda tidak bisa memaksanya untuk melakukan sesuatu"
 d "big shots"Klien"
 d "Hampir setiap saat, mereka dengan senang hati membantu"
@@ -2032,7 +2032,7 @@ d "Kami akan mewujudkan semua fantasi Anda"
 scene 133_mila_deepthroat_training_9 with dissolve
 m "Haaa ... {w} haaaa ... {w} haaa ..."
 ms "Sulit untuk merasa diberdayakan dengan dildo di tenggorokan Anda"
-ms "free"Keju di perangkap tikus"
+ms "gratis Keju di perangkap tikus"
 ms "Saya tidak benar -benar mendengarkan hal -hal yang dia katakan"
 ms "Saya tidak akan menjadi pelacur diskon, itu sudah pasti"
 ms "Saya melakukannya karena itu menyenangkan ... {w} dan saya akan melakukannya sampai tidak lagi."
@@ -2361,7 +2361,7 @@ scene 133_liz_and_mila_4 with dissolve
 l "Ada lebih banyak dari mereka?"
 d "..."
 scene 133_liz_and_mila_3 with dissolve
-l "wall"dianggap rusak saat apa? {w} Ketika dia setuju untuk bercinta dengan siapa pun?"
+l "dinding dianggap rusak saat apa? {w} Ketika dia setuju untuk bercinta dengan siapa pun?"
 d "Ya."
 scene 133_liz_and_mila_7 with dissolve
 l "Saya melakukan ini dan kami bahkan?"
@@ -2381,7 +2381,7 @@ d "Anda palsu ... {w} Saya tidak bercinta palsu."
 d "Setelah Anda menyingkirkan façade bodoh ini ..."
 d "Kemudian dan hanya dengan begitu kita bisa bercinta."
 scene 133_liz_and_mila_5 with dissolve
-l "façade"Anda terus membicarakan karena {w} bukan {w} di sana."
+l "façade Anda terus membicarakan karena {w} bukan {w} di sana."
 d "Maka itu tidak akan pernah terjadi."
 scene 133_liz_and_mila_6 with dissolve
 l "..."
@@ -2503,7 +2503,7 @@ ls "Tanganku gemetar. {w} Aku membungkuk rokok untuk menyembunyikan goyang, {w} 
 ls "Saya merasa berpegang pada sepersekian detik."
 scene 134_mila_and_liz_talking_19 with dissolve
 ls "Saya dengan cepat mendapatkan kembali ketenangan saya, tetapi sekarang, setelah itu ... {w} {i} Nightmare {/i} {w} ... Saya mulai memahami apa yang mungkin dia rasakan ..."
-ls "I"{/i} ingin mendengar {b} {i} if {/i} {/b} Saya pernah berada di posisinya."
+ls "I {/i} ingin mendengar {b} {i} if {/i} {/b} Saya pernah berada di posisinya."
 play music ["music/dom.mp3", "music/menu_hw2.mp3"] loop
 l "Anda ... {w} Miss Passion, bukan?"
 scene 134_mila_and_liz_talking_20 with dissolve
@@ -2533,7 +2533,7 @@ play sound "heart.mp3"
 ls "Setiap kata seperti pukulan, beresonansi dengan hatiku, {w} berdebar begitu keras sehingga terasa seperti itu akan keluar dari dadaku."
 scene 134_mila_and_liz_talking_27 with dissolve
 ls "Saya menyembunyikan wajah saya di dalam cangkir kopi yang dingin dan pahit. {w} Saya tidak memiliki kekuatan untuk memanggil seorang pelayan untuk menyuruhnya membuat yang baru."
-ls "I"I"tidak ingin ada yang melihat saya."
+ls "aku tidak ingin ada yang melihat saya."
 ls "Namun, saya mulai berbicara."
 ls "Kata -kata itu tumpah dari bibirku, seolah -olah aku akan menahannya sepanjang hidupku, {w} seolah -olah aku selalu ingin mengatakannya tetapi tetap diam."
 scene 134_mila_and_liz_talking_28 with dissolve
@@ -2561,7 +2561,7 @@ ls "Aku menjilat bibirku yang tiba -tiba kering."
 ls "her"keinginan ... {w} untuk mengirimkan."
 scene 134_mila_and_liz_talking_33a with dissolve
 ls "Saya tidak pernah tertarik pada wanita. {w} tetapi pada saat ini, dalam pengaturan ini ..."
-ls "façade"{/i}."
+ls "façade {/i}."
 ls "Saya ingin melahapnya. {w} karena dia ingin melahap."
 scene 134_mila_and_liz_talking_34 with dissolve
 l "Lihat aku."
@@ -2613,7 +2613,7 @@ scene 134_mila_and_liz_talking_45 with dissolve
 l "{size=-6} Jangan sembunyikan."
 l "{size=-10} rileks. {w} percayalah."
 scene 134_mila_and_liz_talking_46 with dissolve
-ls "trust"meninggalkan rasa yang tidak menyenangkan di mulutku."
+ls "trust meninggalkan rasa yang tidak menyenangkan di mulutku."
 ls "{i} Trust {/i} adalah kemewahan bagi orang miskin - saya tahu itu lebih baik daripada orang lain."
 ls "Namun, kata yang terlepas dari lidah saya."
 ls "Itu bergema di kepalaku, memabukkannya."
@@ -3662,7 +3662,7 @@ label hscene_ntr_bbc_1_slutty:
     play voice_fg1 dickSlutty8_1
     ms "Saya melepas celana dalam saya dan melemparkan kaki saya di atas penis."
     ms "Aku bahkan tidak memikirkan pesanannya."
-    ms "me"..."
+    ms "me..."
     scene 135_sex2_2 with dissolve
     play voice_fg1 dickSlutty8_2
     ms "Penisnya menekan vaginaku dan dengan mudah menyelinap ke dalam."
