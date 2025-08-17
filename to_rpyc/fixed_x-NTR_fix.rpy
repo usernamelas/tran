@@ -2657,7 +2657,7 @@ scene 134_mila_and_liz_talking_53 with dissolve
 play sound "heart.mp3"
 l "..."
 ls "Saya tidak tahu bahwa seseorang dapat melihat Anda seperti itu. {w} tidak memahami sikap semacam ini."
-ls "Hurt me". {w} Tidak, dia tidak ingin rasa sakit, tidak ingin penghinaan."
+ls "menyakitiku. {w} Tidak, dia tidak ingin rasa sakit, tidak ingin penghinaan."
 ls "Dia menginginkan hal yang berbeda ..."
 ls "Dia menuntut panduan. {w} untuk kesenangan ... {w} bahkan melalui rasa sakit dan penghinaan."
 ls "Dia menatapku seperti aku adalah dewa. {w} Iman mutlak di matanya. {w} Dia ingin melayani, untuk menemukan sukacita dalam menyerah, dalam kelemahan."

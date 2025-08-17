@@ -5775,7 +5775,7 @@ label Loyal:
         show paul 145_club_viewer_expressionless with dissolve
         p "..."
         show mila 145_club_annoyed with dissolve
-        m"Cute and pretty"? Pujian lemas macam apa itu?"
+        m"Lucu dan cantik? Pujian lemas macam apa itu?"
         show paul 145_club_surprised
         show mila 145_club_naughty
         with dissolve
