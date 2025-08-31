@@ -1,0 +1,41 @@
+name: Compile 👿👿👿
+on:
+  workflow_dispatch:  # Hanya manual trigger
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Project Structure
+        run: |
+          mkdir -p game
+          cp to_rpyc/*.rpy game/
+          echo "File yang akan dikompilasi:"
+          ls -l game/
+          
+      - name: Install Ren'Py SDK 7.3.5
+        run: |
+          wget -q https://www.renpy.org/dl/7.3.5/renpy-7.3.5-sdk.tar.bz2
+          tar -xf renpy-7.3.5-sdk.tar.bz2
+          echo "Ren'Py SDK versi (matching game):"
+          ./renpy-7.3.5-sdk/renpy.sh --version
+          
+      - name: Compile Scripts
+        run: |
+          ./renpy-7.3.5-sdk/renpy.sh ./game compile
+          echo "Hasil kompilasi:"
+          ls -l game/*.rpyc
+          
+      - name: Move Results
+        run: |
+          mkdir -p to_rpyc_compiled
+          mv game/*.rpyc to_rpyc_compiled/
+          echo "File hasil kompilasi:"
+          ls -l to_rpyc_compiled/
+          
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Compiled-RPYC-Files
+          path: to_rpyc_compiled/*.rpyc
