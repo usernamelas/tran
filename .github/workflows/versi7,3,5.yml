@@ -24,7 +24,7 @@ jobs:
           
       - name: Compile Scripts
         run: |
-          ./renpy-7.3.5-sdk/renpy.sh ./game compile
+          ./renpy-7.3.5-sdk/renpy.sh ./game compile --sound False
           echo "Hasil kompilasi:"
           ls -l game/*.rpyc
           
