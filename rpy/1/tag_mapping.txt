@@ -1,0 +1,27 @@
+=== TAG MAPPING ===
+{1} = {/color}
+{2} = {i}
+{3} = {color=#FDCA6E}
+{4} = {size=12}
+{5} = {/size}
+{6} = {/i}
+
+=== VARIABLE MAPPING ===
+[1] = [mom!c]
+[2] = [mom]
+[3] = [sis]
+[4] = [brother]
+[5] = [son]
+[6] = [parents]
+[7] = [kids]
+[8] = [father]
+[9] = [sister]
+[10] = [family]
+[11] = [daughter]
+[12] = [mom!u]
+[13] = [dad]
+[14] = [JGR]
+[15] = [children]
+[16] = [toby!c]
+[17] = [mommy]
+[18] = [mother]

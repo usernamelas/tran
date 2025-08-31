@@ -21,8 +21,8 @@ from datetime import datetime
 from typing import Tuple, Dict, List, Optional
 
 # ================= CONFIGURASI =================
-INPUT_FILE = "x-ep2.rpy"            # File input
-OUTPUT_FILE = "x-ep2_id.rpy"        # File output
+INPUT_FILE = "x-episode1.rpy"            # File input
+OUTPUT_FILE = "x-episode1.rpy"        # File output
 LOG_TXT = "tl_log.txt"                     # Log readable
 LOG_JSON = "tl_log.json"                   # Log terstruktur
 BAHASA_ASAL = "en"                         # Bahasa sumber

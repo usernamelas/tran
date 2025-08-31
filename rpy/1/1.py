@@ -16,7 +16,7 @@ import subprocess
 from collections import defaultdict
 
 # ================ CONFIG ================
-INPUT_FILE = "x-NTR_part1.rpy"    # File input
+INPUT_FILE = "x-episode1.rpy"    # File input
 BAHASA_ASAL = "en"          # Bahasa sumber
 BAHASA_TUJUAN = "id"        # Bahasa target
 JEDA_TERJEMAH = 0.3         # Delay antar terjemahan (detik)
