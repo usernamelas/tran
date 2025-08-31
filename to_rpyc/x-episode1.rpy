@@ -48,61 +48,61 @@ label episode1:
         toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Says the guy who is getting sucked by a beautiful blond babe. I'm still spoiled.{/i}"
         toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}At least till she finds out that my [dad]'s company went bankrupt and that's the real reason why we're leaving.{/i}"
         scene expression ("images/episode1/006.webp") with dissolve
-        emma "Sayang, apakah semuanya baik -baik saja? Anda tampak sedikit libur hari ini."
-        toby "Jangan khawatir, sayang. Saya baik-baik saja. Hanya saja besok adalah hari kita meninggalkan kota dan siapa yang tahu kapan kita akan bertemu satu sama lain."
-        emma "Awww. Anda sangat manis. Anda tidak ingin meninggalkan saya?"
-        toby "Tentu saja tidak. Anda adalah hal terbaik yang pernah terjadi pada saya."
+        emma "Dear, is everything all right? You seem a little bit off today."
+        toby "Don't worry, sweetie. I'm fine. it's just that tomorrow is the day we leave the city and who knows when we'll see each other."
+        emma "Awww. You're so sweet. You don't want to leave me?"
+        toby "Of course not. You're the best thing that's ever happened to me."
         scene expression ("images/episode1/007.webp") with dissolve
-        emma "Anda selalu dapat mengunjungi saya, atau lebih baik lagi, saya bisa mengunjungi Anda. Saya yakin ada banyak hotel bintang 5 di kota itu, dan kita bisa menghabiskan beberapa malam seperti ini."
-        toby "Ya ... Anda benar!"
-        emma "Tentu saja saya. Tidak ada yang bisa membuat kita terpisah."
+        emma "You can always come visit me, or better yet, I can come visit you. I'm sure there are plenty of 5 star hotels in that city, and we can spend a few nights like this."
+        toby "Yeah... You're right!"
+        emma "Of course I am. Nothing can keep us apart."
         menu:
-            "{i} [JGR] Cium dia {/i}"(csq="Emma +1"):
+            "{i}[JGR]kiss her{/i}"(csq="Emma +1"):
                 scene expression ("images/episode1/008.webp") with dissolve
                 $ emma_rel += 1
                 toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{/i}"
                 scene expression ("images/episode1/007.webp") with dissolve
-            "{i} don \ 'T cium dia {/i}":
+            "{i}don't kiss her{/i}":
                 toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{/i}"
-        emma "Jadi, apa yang kamu katakan? Ingin bercinta denganku seperti ini adalah hari terakhirmu di bumi?"
-        toby "Apakah itu pertanyaan?"
+        emma "So, what do you say? Wanna fuck me like this is your last day on earth?"
+        toby "Is that even a question?"
         scene expression ("images/episode1/009.webp") with dissolve
-        emma "Sama sekali tidak."
-        toby "Sial, kamu sudah sangat basah."
+        emma "Not at all."
+        toby "Shit, you're so wet already."
         scene expression ("images/episode1/010.webp") with dissolve
-        emma "Dengan pacar sepertimu, aku selalu basah."
-        emma "Dan Anda selalu sulit."
+        emma "With a boyfriend like you, I'm always wet."
+        emma "And you're always hard."
         menu:
-            "{i} [JGR] Dirty Talk {/i}"(csq="Emma +1 & Galeri Gambar"):
+            "{i}[JGR]dirty talk{/i}"(csq="Emma +1 & Gallery Image"):
                 $ unlockImage(persistent.emma_01)
                 $ ep1_emma_dirtyTalk = True
                 $ emma_rel += 1
-                toby "Diam dan mengendarai saya seperti pelacur Anda. Aku akan mengisimu dengan buruk."
-                emma "Saya suka saat Anda berbicara kotor dengan saya."
-            "{i} Clean Talk {/i}"(csq="Emma +1"):
+                toby "Shut up and ride me like the whore you are. I'm gonna fill you up bad."
+                emma "I love it when you talk dirty to me."
+            "{i}clean talk{/i}"(csq="Emma +1"):
                 $ emma_rel += 1
-                toby "Apa yang telah saya lakukan untuk pantas mendapatkan seorang gadis seperti Anda?"
-                emma "Anda membuat saya tersenyum ketika saya turun, jadi saya hanya membayar Anda untuk bulan -bulan terbaik dalam hidup saya."
+                toby "What have I done to deserve a girl like you?"
+                emma "You made me smile when I was down, so I'm just repaying you for the best months of my life."
         scene expression ("images/episode1/011.webp") with dissolve
         show ep1_011
-        emma "Ya, ya, ya. Berikan padaku sayang."
+        emma "Yes, yes, yes. Give it to me baby."
         if ep1_emma_dirtyTalk == True:
-            toby "Itu saja. Naik penisku kamu jalang kotor."
+            toby "That's it. Ride my cock you dirty bitch."
         else:
-            toby "Aku sangat mencintaimu!"
+            toby "I love you so much!"
             emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nMe too!"
         scene expression ("images/episode1/012.webp") with dissolve
         show ep1_012
         hide ep1_011
         if ep1_emma_dirtyTalk == True:
-            toby "Anda suka berteriak?"
+            toby "You like to scream?"
             emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYes, yessss I do."
-            toby "Kemudian berteriak bahwa Anda adalah pelacur."
+            toby "Then scream that you're a whore."
             emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nI'm a WHORE."
-            toby "Siapa pelacur Anda?"
+            toby "Who's whore are you?"
             emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nI'm YOUUURS!"
         else:
-            toby "Anda sangat sempurna."
+            toby "You're so perfect."
             emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYes, yes, YESSSS."
             emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nDon't stop."
         scene expression ("images/episode1/013.webp") with dissolve
@@ -110,67 +110,67 @@ label episode1:
         hide ep1_012
         emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYour dick is so big, I'll never get used to it."
         if ep1_emma_dirtyTalk == True:
-            toby "Anda suka penis besar, Anda jalang lapar?"
+            toby "You like big dicks, you hungry bitch?"
             emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nI only love your big dick."
-            toby "Kamu bermimpi tentang penisku?"
+            toby "You dream about my dick?"
             emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYes, I DO!"
         else:
-            toby "Apakah aku menyakitimu?"
+            toby "Am I hurting you?"
             emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nNo, your dick is perfect. I'm so gonna miss it!"
-            toby "Aku akan merindukan payudaramu yang indah."
+            toby "I'll miss your beautiful breasts."
         scene expression ("images/episode1/014.webp") with dissolve
         show ep1_014
         hide ep1_013
         emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYES, YES, yesss... Fuck me hard, baby."
-        toby "Biarkan posisi mengubah posisi."
+        toby "Let's change positions."
         scene expression ("images/episode1/015.webp") with dissolve
         show ep1_015
         hide ep1_014
         if ep1_emma_dirtyTalk == True:
             emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nYes, yes. Fuck me from behind like you fuck a dirty whore."
-            toby "Apakah Anda pelacur kotor?"
+            toby "Are you a dirty whore?"
             emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYES I AM."
         else:
             emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nI'm gonna cum soon. I always do when you fuck me from behind."
-            toby "Saya sangat dekat dengan."
+            toby "I'm so close too."
         scene expression ("images/episode1/016.webp") with dissolve
         show ep1_016
         hide ep1_015
         emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYes, yes. Right there!"
         emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nDon't stop!"
-        toby "Saya akan cum!"
+        toby "I'm about to cum!"
         if ep1_emma_dirtyTalk == True:
-            emma "Saya sedang minum pil! Isi aku!"
+            emma "I'm on the pill! Fill me up!"
         else:
-            emma "Jangan khawatir, aku sedang minum pil!"
+            emma "Don't worry, I'm on the pill!"
         scene expression ("images/episode1/017.webp") with dissolve
         hide ep1_016
         with flash
         with flash
         emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nGosh, this was so good!"
-        toby "Sial ... sangat bagus."
+        toby "Shit... It was so, so good."
         scene expression ("images/episode1/018.webp") with dissolve
-        emma "Aku sangat mencintaimu."
-        toby "Saya juga!"
+        emma "I love you so much."
+        toby "Me too!"
 
         $ unlockMemory(persistent.memory_01)
         $ renpy.end_replay()
 
-    emma "Aku tidak tahu apa yang aku lakukan tanpamu di sini."
-    toby "Anda masih memiliki [sister] Anda."
+    emma "I don't know what I'll do without you here."
+    toby "You still have your [sister]."
     emma "Cindy?"
-    emma "Dia tidak pernah pulang, sejak dia terhubung dengan pria itu."
+    emma "She's never home, ever since she hooked up with that guy."
     scene expression ("images/episode1/019.webp") with dissolve
-    toby "Nah, seperti yang Anda katakan, saya bisa datang mengunjungi Anda dari waktu ke waktu."
+    toby "Well, as you said, I can come to visit you from time to time."
     emma "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}\nAnd I'll send you nudes so that you won't forget me."
-    toby "Bagaimana saya bisa melupakan gadis cantik seperti Anda."
-    emma "Anda memanjakan saya."
-    toby "Anda pantas mendapatkan yang terbaik. Benar?"
+    toby "How could I forget a beautiful girl like you."
+    emma "You're spoiling me."
+    toby "You deserve the best. Right?"
     scene expression ("images/episode1/020.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
     scene expression ("images/episode1/021.webp") with dissolve
-    emma "Jika Anda mengatakannya, saya percaya Anda."
+    emma "If you say so, I believe you."
 
 
     show screen ui_message("Sunday") with long_dissolve
@@ -192,28 +192,28 @@ label episode1:
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}What if she's actually with me only for the money. I mean, I'm not the best looking guy.{/i}"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}The sex is good, but I feel like I should be able to talk about everything with my girlfriend.{/i}"
     scene expression ("images/episode1/026.webp") with dissolve
-    emma "Pagi seksi."
-    toby "Selamat pagi cantik."
+    emma "Morning sexy."
+    toby "Good morning, beautiful."
     scene expression ("images/episode1/027.webp") with dissolve
-    emma "Seseorang senang melihat saya."
-    toby "Dia selalu senang melihatmu."
+    emma "Somebody is happy to see me."
+    toby "He's always happy to see you."
     scene expression ("images/episode1/028.webp") with dissolve
     $ unlockImage(persistent.emma_02)
-    emma "Tidak hari ini, sayang. Kami bersenang -senang tadi malam, dan kami akan bersenang -senang ketika ayah Anda datang mengunjungi saya. Oke?"
+    emma "Not today, dear. We had fun last night, and we'll have more fun when your daddy comes to visit me. Okay?"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}She's so crazy and fun when she talks to my dick!{/i}"
-    emma "Di sini ... biarkan aku memberimu ciuman malam yang baik!"
-    emma "Tapi sebaiknya Anda tidur sesudahnya."
+    emma "Here... Let me give you a good night kiss!"
+    emma "But you better go to sleep afterward."
     scene expression ("images/episode1/029.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
     scene expression ("images/episode1/030.webp") with dissolve
-    emma "Saya menyuruhnya tidur!"
-    toby "Saya melihat."
-    emma "Aku mencintaimu."
-    toby "Aku pun mencintaimu!"
+    emma "I told him to go to sleep!"
+    toby "I saw."
+    emma "I love you."
+    toby "I love you too!"
     scene expression ("images/episode1/031.webp") with dissolve
-    emma "Bisakah Anda mencuci punggung saya?"
-    toby "Tentu."
+    emma "Can you please wash my back?"
+    toby "Sure."
 
 
     scene expression ("images/episode1/032.webp") with long_dissolve
@@ -229,53 +229,53 @@ label episode1:
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHere we go. After spending my whole life in one city I'm finally moving to a different one.{/i}"
     scene expression ("images/episode1/035.webp") with dissolve
     play sound "audio/fx/notification_5.mp3"
-    "*Notification Sound*"
+    "*notification sound*"
     scene expression ("images/episode1/034.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI can't say that I wanted to stay there forever, but I always imagined myself moving out on my own at this age, not like this.{/i}"
     scene expression ("images/episode1/035.webp") with dissolve
     play sound "audio/fx/notification_5.mp3"
-    "*Notification Sound*"
+    "*notification sound*"
     scene expression ("images/episode1/034.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'm 20 already. My life is going nowhere. I always planned to get my [father]'s company one day, but after what happened, now I don't know what to do with my life.{/i}"
     scene expression ("images/episode1/035.webp") with dissolve
     play sound "audio/fx/notification_5.mp3"
-    "*Notification Sound*"
+    "*notification sound*"
     scene expression ("images/episode1/034.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWe went bankrupt. We lost everything and now we're moving to a city where my [father]'s partners are. A friend of his will let us stay there, but who knows for how long.{/i}"
     scene expression ("images/episode1/035.webp") with dissolve
     play sound "audio/fx/notification_5.mp3"
-    "*Notification Sound*"
+    "*notification sound*"
     scene expression ("images/episode1/036.webp") with dissolve
-    toby "Apakah Anda keberatan? Cukup letakkan ponsel Anda diam."
+    toby "Do you mind? Just put your phone on silent already."
     scene expression ("images/episode1/037.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's Patricia, or Tris as people call her. She's my younger [sister]. Always acting like she deserves everything. Just like now. \nI'm talking, and she doesn't even bother answering me.{/i}"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWe used to get along quite well, but for the past few months it's like she went mad. I don't know what's gotten into her, but I can't even have a normal conversation with her.{/i}"
     scene expression ("images/episode1/036.webp") with dissolve
-    toby "Aku berbicara denganmu, idiot. Letakkan ponsel Anda diam!"
+    toby "I'm talking to you, idiot. Put your phone on silent!"
     scene expression ("images/episode1/038.webp") with dissolve
-    patricia "Anda selesai?"
-    toby "Saya belum selesai! Kataku, letakkan ponselmu diam seperti orang normal!"
-    patricia "Tahan pikiran itu."
+    patricia "You done?"
+    toby "I'm not done! I said, put your phone on silent like a normal person!"
+    patricia "Hold that thought."
     scene expression ("images/episode1/039.webp") with dissolve
-    toby "Benar-benar?"
-    toby "Singkirkan kakimu dari pangkuanku!"
+    toby "Really?"
+    toby "Get your feet off my lap!"
     scene expression ("images/episode1/040.webp") with dissolve
     patricia "Umm... Nah! \nI'm comfortable."
     scene expression ("images/episode1/041.webp") with dissolve
-    toby "Aku bilang pindahkan kakimu!"
+    toby "I said MOVE YOUR LEGS!"
     scene expression ("images/episode1/042.webp") with dissolve
-    erwin "Hentikan, kalian berdua! Anda berdua dewasa muda. Bertindak seperti itu!"
+    erwin "Stop it, you two! You're both young adults. Act like it!"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's my [dad]. The guy who lost everything. He says that we're young adults, but he never told us how he managed to lose everything.{/i}"
-    toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIt was just \"Kids, we're bankrupt and we have to move!\". Tidak ada penjelasan, tidak ada apa -apa. Dia tidak menghormati kita dan tidak pernah, tetapi sekarang dia mengharapkan kita untuk berperilaku seperti orang dewasa muda! {/i}"
+    toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIt was just \"Kids, we're bankrupt and we have to move!\". No explanation, no nothing. He doesn't respect us and never has, but now he expects us to behave like young adults!{/i}"
     scene expression ("images/episode1/043.webp") with dissolve
-    charlotte "Biarkan anak -anak menjadi. Mereka baru saja bosan. Ini perjalanan panjang. Anda tidak dapat mengharapkan mereka tetap diam!"
+    charlotte "Let the kids be. They are just getting bored. It's a long drive. You can't expect them to stay still!"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnd that's my [mom]. She's the only normal person in this [family]. She used to be a simple country girl, but then she married [dad], and he kinda gave her everything she wanted.{/i}"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nSo she might be a bit spoiled, but even so she took the whole bankruptcy pretty well. I guess the fact that she was not always wealthy made her a bit stronger, unlike [dad] and [sis], maybe even myself.{/i}"
     scene expression ("images/episode1/044.webp") with dissolve
-    erwin "Mereka hanya anak -anak. Itu semua yang bisa Anda katakan. Itu alasan Anda untuk memelihara dua anak nakal manja."
-    charlotte "Anda tidak hanya mengatakan itu tentang [kids] kami. Saya membesarkannya dengan baik. Anda yang mengacau dan ingin menemukan seseorang untuk disalahkan!"
-    erwin "Oh, tapi saya harus disalahkan seseorang atas situasi ini."
-    charlotte "Bahkan jangan coba -coba!"
+    erwin "They are just kids. That's all you can say. That's your excuse for raising two spoiled brats."
+    charlotte "You did not just say that about our [kids]. I raised them well. It's you who screwed up and want to find someone to blame!"
+    erwin "Oh, but I have someone to blame for this situation."
+    charlotte "Don't even try!"
     scene expression ("images/episode1/045.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
@@ -292,35 +292,35 @@ label episode1:
     $ progress = 4
 
     scene expression ("images/episode1/047.webp") with long_dissolve
-    erwin "Di sinilah kita. Rumah manis rumah."
-    patricia "Ini terlihat sangat ramai dan kecil!"
-    erwin "Biasakan itu untuk saat ini. Anda tidak lagi seorang putri!"
-    charlotte "Hentikan, tolong!"
-    charlotte "Lihat, sayang, memang lebih kecil dari rumah kita sebelumnya, tapi selama kita senang, itu cukup!"
+    erwin "Here we are. Home sweet home."
+    patricia "It's looking very crowded and small!"
+    erwin "Get used to it for now. You're no longer a princess!"
+    charlotte "Stop it, please!"
+    charlotte "Look, honey, it is indeed smaller than our previous house, but as long as we're happy, it's enough!"
     scene expression ("images/episode1/048.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nGood thing we're happy.{/i}"
     scene expression ("images/episode1/049.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nMy back hurts already just thinking about how many boxes we'll have to carry inside.{/i}"
     scene expression ("images/episode1/050.webp") with dissolve
-    charlotte "Ayo sayang. Mari kita lihat kamar Anda! Anak laki -laki dapat menangani kotak!"
-    patricia "Apakah saya bisa memilih kamar saya?"
-    charlotte "Tentu! Biarkan masuk ke dalam."
+    charlotte "Come on sweetie. Let's see your room! The boys can handle the boxes!"
+    patricia "Do I get to choose my room?"
+    charlotte "Sure! Let's go inside."
     scene expression ("images/episode1/051.webp") with dissolve
-    erwin "Dia sangat manja.Pilih kamarnya sendiri. Lelucon yang luar biasa. Hanya ada dua kamar."
-    toby "Lihat [dad]. Saya mengerti Anda kesal karena kehilangan segalanya, tetapi berhenti mengeluarkan masalah Anda pada mereka, terutama pada [mom]."
-    toby "Jika Anda ingin melepaskan sedikit uap, kami dapat pergi ke gym dan menabrak setiap pukulan yang ada, tetapi [mom] dan [sis] tidak pantas mendapatkan ini."
+    erwin "Choose her own room. What a joke. There are only two rooms. She's so spoiled."
+    toby "Look [dad]. I understand you're pissed about losing everything, but stop taking out your problems on them, especially on [mom]."
+    toby "If you want to let off some steam, we can go to a gym and hit every punchbag there is, but [mom] and [sis] don't deserve this."
     scene expression ("images/episode1/052.webp") with dissolve
     erwin "..."
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's what I thought. He never liked listening to anybody!{/i}"
-    erwin "Apakah Anda akan membantu saya dengan kotak -kotak ini, atau Anda hanya akan berdiri di sana marah tentang apa yang saya lakukan salah?"
-    toby "Saya datang karena saya tidak mencari seseorang untuk meletakkan masalah saya!"
-    erwin "Baik, Anda benar, saya diliputi."
+    erwin "Are you gonna help me with these boxes, or are you just going to stand there fuming about what I've done wrong?"
+    toby "I'm coming because I'm not looking for someone to lay my problems on!"
+    erwin "Fine, you're right, I overstepped."
     scene expression ("images/episode1/053.webp") with dissolve
-    toby "Dan Anda menyesal?"
-    erwin "Tidak menyesal seperti Anda setelah kami selesai dengan semua kotak!"
+    toby "And you're sorry?"
+    erwin "Not as sorry as you'll be once we finish with all the boxes!"
     scene expression ("images/episode1/054.webp") with dissolve
-    erwin "Di sini ... mari kita lihat apakah saya telah membuang -buang uang saya untuk membayar keanggotaan gym Anda selama ini!"
-    toby "Haha, sangat lucu!"
+    erwin "Here... Let's see if I've wasted my money paying for your gym membership all these years!"
+    toby "Haha, very funny!"
     scene expression ("images/episode1/055.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
@@ -342,58 +342,58 @@ label episode1:
     $ ui.interact()
     scene expression ("images/episode1/057.webp") with dissolve
     hide screen ui_message
-    patricia "Pizza ada di sini!"
-    toby "Akhirnya, saya kelaparan!"
+    patricia "Pizza is here!"
+    toby "Finally, I'm starving!"
     scene expression ("images/episode1/058.webp") with dissolve
-    erwin "Saya bertanya apakah Anda ingin saya berhenti di restoran, dan Anda semua bilang tidak."
-    charlotte "Itu 7 jam yang lalu."
+    erwin "I asked you if you wanted me to stop at a restaurant, and you all said no."
+    charlotte "That was 7 hours ago."
     scene expression ("images/episode1/059.webp") with dissolve
-    erwin "Berbicara tentang 7 jam yang lalu ..."
-    erwin "Seseorang di ruangan ini memberi tahu saya bahwa saya bertindak seperti keledai dengan Anda. Aku tidak akan mengatakan siapa, tapi dia benar!"
-    erwin "Saya menyesal Charlotte, karena berteriak pada Anda dan Tris. Saya maafkan kami dalam situasi ini!"
-    erwin "Anda tetap menjadi favorit saya [daughter]."
+    erwin "Speaking of 7 hours ago..."
+    erwin "Someone in this room told me that I acted like an ass with you. I won't say who, but he's right!"
+    erwin "I'm sorry Charlotte, for yelling at you and Tris. I'm sorry we're in this situation!"
+    erwin "You're still my favorite [daughter]."
     scene expression ("images/episode1/060.webp") with dissolve
     toby "*cough*\nOnly [daughter]!"
     scene expression ("images/episode1/059.webp") with dissolve
-    erwin "Terserah, Anda adalah [children] saya, dan Anda pantas mendapatkan yang terbaik. Itulah alasan saya bekerja sangat keras."
-    erwin "Untukmu dan untuk istriku yang cantik."
-    erwin "Saya minta maaf karena kalian berdua harus berbagi kamar. Setelah kami memiliki lebih banyak uang, saya akan mempekerjakan seseorang untuk memperbaiki loteng untuk [toby!c]!"
-    toby "Mengapa saya harus pindah ke loteng?"
-    erwin "Karena Anda sangat bijak dan membuka mata saya untuk kesalahan saya, mungkin dari atas sana Anda akan memiliki lebih banyak wahyu seperti itu."
+    erwin "Whatever, you're both my [children], and you deserve the best. That's the reason I work so hard."
+    erwin "For you and for my beautiful wife."
+    erwin "I'm sorry that you two have to share a room. Once we have more money, I'll hire someone to fix up the attic for [toby!c]!"
+    toby "Why do I have to move into the attic?"
+    erwin "Because you're so wise and opened my eyes to my mistakes, maybe from up there you'll have more revelations like that."
     scene expression ("images/episode1/061.webp") with dissolve
-    patricia "Jadi dia harus tidur di lantai agar terlihat seperti peningkatan ketika dia pindah dari kamarku ke loteng?"
-    charlotte "Itu gadisku! Saya suka cara Anda berpikir!"
+    patricia "So he'll have to sleep on the floor to make it look like an upgrade when he moves from my room to the attic?"
+    charlotte "That's my girl! I like the way you think!"
     scene expression ("images/episode1/062.webp") with dissolve
-    toby "Saya minta maaf, tapi saya akan makan. Saya tidak mendengar dengan baik ketika saya lapar. Saya baru saja mendengar sesuatu seperti loteng dan tidur di lantai!"
-    charlotte "Bon appétit."
+    toby "I'm sorry, but I'm gonna eat. I don't hear well when I'm hungry. I just heard something like the attic and sleep on the floor!"
+    charlotte "Bon Appétit."
     scene expression ("images/episode1/063.webp") with long_dissolve
-    toby "Entah pizza ini sangat enak, atau kami kelaparan!"
+    toby "Either this pizza was really good, or we were starving!"
     scene expression ("images/episode1/066.webp") with dissolve
-    charlotte "Pizza itu sangat enak! Saya mendengar banyak hal baik tentang makanan di kota ini!"
+    charlotte "The pizza was really good! I heard a lot of good things about food in this city!"
     scene expression ("images/episode1/067.webp") with dissolve
-    patricia "Saya mendengar bahwa mereka memiliki pantai yang indah!"
+    patricia "I heard that they have a beautiful beach!"
     scene expression ("images/episode1/064.webp") with dissolve
-    erwin "Pada perjalanan bisnis terakhir saya di sini, saya tinggal di sebuah hotel dekat pantai. Saya pergi ke sana setiap pagi untuk jogging, dan saya bisa mengatakan, itu cantik!"
+    erwin "On my last business trip here, I stayed in a hotel near the beach. I went there every morning for a jog, and I can say, it's gorgeous!"
     scene expression ("images/episode1/065.webp") with dissolve
-    toby "Kita harus pergi ke sana besok."
+    toby "We should go there tomorrow."
     scene expression ("images/episode1/068.webp") with dissolve
-    patricia "Saya bisa \ 't. Saya harus mendaftar di sekolah menengah setempat!"
+    patricia "I can't. I have to register at the local High School!"
     scene expression ("images/episode1/065.webp") with dissolve
-    toby "Sucks to Be You!"
+    toby "Sucks to be you!"
     scene expression ("images/episode1/068.webp") with dissolve
-    patricia "Setidaknya sekali saya menyelesaikan sekolah menengah, saya akan kuliah, tidak seperti orang lain di meja ini."
+    patricia "At least once I finish High School, I'll go to college, unlike someone else at this table."
     scene expression ("images/episode1/065.webp") with dissolve
-    toby "Saya ingin lebih fokus menghasilkan uang daripada belajar."
+    toby "I wanted to focus more on making money than studying."
     scene expression ("images/episode1/066.webp") with dissolve
-    charlotte "Dan bagaimana kabarmu?"
+    charlotte "And how is that going?"
     scene expression ("images/episode1/064.webp") with dissolve
-    erwin "Jika dia seperti [father], dia akan baik -baik saja!"
+    erwin "If he's anything like his [father], he'll be just fine!"
     scene expression ("images/episode1/069.webp") with dissolve
-    erwin "Sebenarnya, saya tidak berpikir saya adalah contoh terbaik saat ini, tetapi jika dia seperti saya beberapa tahun yang lalu, dia akan baik -baik saja!"
+    erwin "Actually, I don't think I'm the best example at the moment, but if he's like I was a few years ago, he'll be just fine!"
     scene expression ("images/episode1/070.webp") with dissolve
-    patricia "Saya lelah. Aku akan mandi."
-    patricia "Ngomong -ngomong [toby!c], cobalah untuk tidak terlalu nyaman di tempat tidurku!"
-    toby "Ya, ya!"
+    patricia "I'm tired. I'll go take a shower."
+    patricia "By the way [toby!c], try not to get too comfortable in my bed!"
+    toby "Yeah, yeah!"
 
 
     $ progress = 6
@@ -423,15 +423,15 @@ label episode1:
     scene expression ("images/episode1/085.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIf the lady wants, the lady wants. You can't argue with that.{/i}"
     scene expression ("images/episode1/086.webp") with dissolve
-    toby "Kotoran!"
-    patricia "Astaga! Anda Perv. Anda mengambil foto kontol di tempat tidur saya?"
-    toby "TIDAK?"
+    toby "Shit!"
+    patricia "Oh my God! You perv. You're taking dick pics in my bed?"
+    toby "No?"
     scene expression ("images/episode1/087.webp") with dissolve
-    patricia "Pergi saja, tolong mandi air dingin."
-    toby "Maaf Anda harus melihat itu!"
-    patricia "Anda menjijikkan, dan pastikan untuk mencuci tangan kotor Anda!"
+    patricia "Just go, please take a cold shower."
+    toby "Sorry you had to see that!"
+    patricia "You're gross, and make sure to wash your dirty hands!"
     scene expression ("images/episode1/088.webp") with dissolve
-    toby "Umm ... ya. Sampai jumpa lagi!"
+    toby "Umm... Yeah. See you later!"
     scene expression ("images/episode1/089.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
@@ -442,21 +442,21 @@ label episode1:
     scene expression ("images/episode1/092.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nUmm. Where should I put my blanket? This room is so small.{/i}"
     scene expression ("images/episode1/093.webp") with dissolve
-    patricia "Anda dapat tidur di tempat tidur, tetapi pastikan Anda menjaga tangan Anda sendiri, Anda sudah!"
-    toby "Saya bukan orang cabul. Saya hanya merindukan pacar saya."
-    patricia "Maka Anda bisa tidur di lantai!"
+    patricia "You can sleep in the bed, but make sure you keep your hands to yourself, you perv!"
+    toby "I'm not a pervert. I just miss my girlfriend."
+    patricia "Then you can sleep on the floor!"
     scene expression ("images/episode1/094.webp") with dissolve
-    toby "Jangan seperti itu, dia tidak seburuk itu!"
+    toby "Don't be like that, she's not that bad!"
     scene expression ("images/episode1/095.webp") with dissolve
-    patricia "Dia seorang penggali emas!"
-    toby "Dia tidak! Lihatlah kami, kami tidak punya uang yang tersisa, dan dia masih mencintaiku!"
-    patricia "Apakah dia tahu bahwa kita bangkrut?"
-    toby "Umm ..."
-    toby "Mungkin?"
-    patricia "Ya, benar! Anda melakukannya, tetapi tidak datang kepada saya menangis ketika dia meninggalkan Anda."
-    toby "Jangan khawatir tentang saya! Aku akan baik -baik saja."
+    patricia "She's a gold digger!"
+    toby "She's not! Look at us, we have no money left, and she still loves me!"
+    patricia "Does she know that we're broke?"
+    toby "Umm..."
+    toby "Maybe?"
+    patricia "Yeah, right! You do you, but don't come to me crying when she leaves you."
+    toby "Don't worry about me! I'll be just fine."
     scene expression ("images/episode1/096.webp") with dissolve
-    patricia "Apa pun!"
+    patricia "Whatever!"
 
 
     $ progress = 7
@@ -469,7 +469,7 @@ label episode1:
     scene expression ("images/episode1/098.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShit, Tris is getting ready for school. What should I do?{/i}"
     menu:
-        "{i} [JGR] Ambil mengintip {/i}"(csq="Tris +1 & Galeri Gambar"):
+        "{i}[JGR]take a peek{/i}"(csq="Tris +1 & Gallery Image"):
             $ ep1_peek_on_patricia = True
             $ patricia_rel += 1
             $ unlockImage(persistent.patricia_01)
@@ -481,7 +481,7 @@ label episode1:
             toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nDamn it [toby!c]. She's your [sister], stupid. You can't look at your [sister] like that.{/i}"
             scene expression ("images/episode1/102.webp") with dissolve
             toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nEven though she's hot as hell.{/i}"
-        "{i} menjadi baik [brother] {/i}":
+        "{i}be a good [brother]{/i}":
             scene expression ("images/episode1/101.webp") with dissolve
             toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nNope. Not today. Today I'm a good [brother].{/i}"
     scene expression ("images/episode1/103.webp") with dissolve
@@ -491,126 +491,126 @@ label episode1:
     scene expression ("images/episode1/104.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnyway, I'm starving. Let's see what we have in the fridge, if anything.{/i}"
     scene expression ("images/episode1/105.webp") with dissolve
-    toby "Pagi [mom]!"
+    toby "Morning [mom]!"
     scene expression ("images/episode1/106.webp") with dissolve
-    charlotte "Sayang pagi. Bagaimana Anda tidur?"
+    charlotte "Morning sweetie. How did you sleep?"
     scene expression ("images/episode1/107.webp") with dissolve
-    toby "Sangat buruk. Lantainya cukup keras."
-    charlotte "Bayi yang malang. Apakah itu benar -benar sulit?"
-    toby "Ya. [sister] saya sangat buruk. Saya memintanya seperti seribu kali untuk membiarkan saya tidur di tempat tidurnya, tetapi dia tidak akan membiarkan saya."
+    toby "Very bad. The floor was quite hard."
+    charlotte "Poor baby. Was it really, really hard?"
+    toby "Yes. My [sister] is so bad. I asked her like a thousand times to let me sleep in her bed, but she wouldn't let me."
     scene expression ("images/episode1/108.webp") with dissolve
-    charlotte "Oh, sayang. Datang ke [mommy]. Biarkan dia memberimu ciuman!"
+    charlotte "Oh, poor baby. Come to [mommy]. Let her give you a kiss!"
     menu:
-        "{i} [JGR] Biarkan dia menciummu {/i}"(csq="Charlotte +1 & Galeri Gambar"):
+        "{i}[JGR]let her kiss you{/i}"(csq="Charlotte +1 & Gallery Image"):
             $ unlockImage(persistent.charlotte_01)
             $ charlotte_rel += 1
             scene expression ("images/episode1/109.webp") with dissolve
             $ ui.saybehavior()
             $ ui.interact()
             scene expression ("images/episode1/110.webp") with dissolve
-            charlotte "Lebih baik?"
-            toby "Jauh lebih baik!"
-            charlotte "Anda tahu apa yang menurut saya lucu?"
-            toby "Tidak. Apa?"
-            charlotte "Tris hanya memberi tahu saya bahwa dia membiarkan Anda tidur di tempat tidur, dan di atas itu, saya datang tadi malam untuk mengucapkan selamat malam, dan melihatnya dengan mata sendiri."
-            toby "Oh. Mungkin aku berbohong hanya untuk mendapatkan ciuman?"
-            charlotte "Tentu saja. Lain kali ketika Anda ingin [mommy] mencium Anda, tanyakan saja!"
-            toby "Akan lakukan!"
-        "{i} Katakan padanya bahwa Anda berbohong {/i}":
+            charlotte "Better?"
+            toby "Much better!"
+            charlotte "You know what I find funny?"
+            toby "No. What?"
+            charlotte "Tris just told me that she let you sleep in the bed, and on top of that, I came by last night to say good night, and saw it with my own eyes."
+            toby "Oh. Maybe I lied just to get a kiss?"
+            charlotte "Of course. Next time when you want [mommy] to kiss you, just ask!"
+            toby "Will do!"
+        "{i}tell her you lied{/i}":
             scene expression ("images/episode1/110.webp") with dissolve
-            toby "Saya bercanda. Dia membiarkan saya tidur di tempat tidur tadi malam."
-            charlotte "Aku tahu. Dia membual tentang itu pagi ini, di atas itu, saya datang tadi malam untuk mengucapkan selamat malam, dan Anda berdua tidur seperti bayi."
-            toby "Oh, jadi semua akting ini tidak ada gunanya?"
-            charlotte "Agak!"
+            toby "I was joking. She let me sleep in the bed last night."
+            charlotte "I know. She bragged about that this morning, on top of that, I came by last night to say good night, and you both were sleeping like babies."
+            toby "Oh, so all this acting was pointless?"
+            charlotte "Kind of!"
     scene expression ("images/episode1/111.webp") with dissolve
-    toby "Ngomong -ngomong, apakah kita punya sesuatu untuk dimakan?"
-    charlotte "Saya belum punya waktu untuk pergi ke toko dulu, jadi kami hanya memiliki susu dan sereal untuk saat ini."
-    toby "Cukup bagus!"
+    toby "By the way, do we have anything to eat?"
+    charlotte "I haven't had time to go to the store just yet, so we only have milk and cereal for now."
+    toby "Good enough!"
     scene expression ("images/episode1/112.webp") with dissolve
-    toby "Apa yang kamu lihat?"
-    charlotte "Tidak banyak, hanya beberapa pekerjaan di sekitar kota."
-    toby "Untuk?"
-    charlotte "Bagi saya, jelas. Kami benar -benar membutuhkan uang."
+    toby "What are you looking at?"
+    charlotte "Nothing much, just some jobs around town."
+    toby "For?"
+    charlotte "For me, obviously. We really need the money."
     scene expression ("images/episode1/113.webp") with dissolve
-    toby "Ada yang menarik bagi saya?"
-    charlotte "Anda tidak harus bekerja, sayang!"
-    toby "Tapi saya lakukan. Sekarang saya 20 dan tidak pernah bekerja sehari pun dalam hidup saya."
-    toby "Saya merasa terlalu manja. Saya perlu melakukan sesuatu dengan hidup saya!"
-    charlotte "Nah pekerjaan paling menarik yang saya temukan sejauh ini adalah ini untuk agen real estat."
-    toby "Biarkan saya melihat!"
+    toby "Anything interesting for me?"
+    charlotte "You don't have to work, honey!"
+    toby "But I do. I'm 20 now and have never worked a day in my life."
+    toby "I feel too spoiled. I need to do something with my life!"
+    charlotte "Well the most interesting job I found so far is this one for a real estate agent."
+    toby "Let me see!"
     scene expression ("images/episode1/114.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\n[mom!c]'s cleavage is huge!{/i}"
     menu:
-        "{i} [JGR] Perhatikan lebih baik {/i}"(csq="Charlotte +1 & Galeri Gambar"):
+        "{i}[JGR]take a better look{/i}"(csq="Charlotte +1 & Gallery Image"):
             $ charlotte_rel += 1
             $ unlockImage(persistent.charlotte_02)
             scene expression ("images/episode1/115.webp") with dissolve
             toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI can't believe how good she looks for a woman her age.{/i}"
             scene expression ("images/episode1/116.webp") with dissolve
-            charlotte "Jadi? Bagaimana menurutmu?"
+            charlotte "So? What do you think?"
             scene expression ("images/episode1/117.webp") with dissolve
-            toby "Umm ..."
+            toby "Umm..."
             scene expression ("images/episode1/118.webp") with dissolve
-        "{i} saya seharusnya tidak mengambil risiko {/i}":
+        "{i}I shouldn't risk it{/i}":
             scene expression ("images/episode1/118.webp") with dissolve
-            charlotte "Jadi? Bagaimana menurutmu?"
-    toby "Ya. Maksudku, pekerjaan itu terlihat menarik, dan di atas itu, aku cukup pandai meyakinkan orang, jadi aku bisa mencobanya."
-    charlotte "Apakah Anda yakin ingin bekerja begitu cepat?"
-    toby "Ini tidak seperti saya menjadi lebih muda. Cepat atau lambat, saya harus mulai bekerja. Sekarang lebih baik."
+            charlotte "So? What do you think?"
+    toby "Yeah. I mean, the job looks interesting, and on top of that, I'm pretty good at convincing people, so I could give it a try."
+    charlotte "Are you sure you want to work so soon?"
+    toby "It's not like I'm getting any younger. Sooner or later, I'll need to start working. Now is better."
     scene expression ("images/episode1/119.webp") with dissolve
-    charlotte "Tapi apa yang akan terjadi saat Anda kuliah? Atau apakah Anda masih berpikir itu tidak ada gunanya?"
-    toby "Saya masih berpikir untuk kuliah. Saya tahu bahwa ada perguruan tinggi yang bagus di sini. Emma mengatakan bahwa akan menyenangkan untuk bergabung tahun depan bersamanya karena dia juga akan datang ke sini."
-    charlotte "Oh. Jadi begitu. Kalau begitu, aku bahagia."
-    charlotte "Ngomong -ngomong, bagaimana dia mengambil semua ini? Langkah Anda, fakta bahwa Anda tidak akan dapat membeli anting -anting berliannya dan sebagainya?"
+    charlotte "But what will happen when you go to college? Or do you still think it's pointless?"
+    toby "I'm still thinking about going to college. I know that there is a good college here. Emma said that it would be nice to join next year with her because she also was going to come here."
+    charlotte "Oh. I see. I'm happy for you then."
+    charlotte "By the way, how is she taking all this? Your move, the fact that you won't be able to buy her diamond earrings and so on?"
     scene expression ("images/episode1/120.webp") with dissolve
-    toby "Uhm ... Bagus, kurasa!"
-    charlotte "Anda belum memberi tahu dia alasan sebenarnya mengapa kami harus pergi, bukan?"
-    toby "Tidak, dia tahu, kurang lebih!"
+    toby "Uhm... Good, I guess!"
+    charlotte "You haven't told her the real reason why we had to leave, have you?"
+    toby "No, she knows, more or less!"
     scene expression ("images/episode1/119.webp") with dissolve
-    charlotte "Anda harus berbicara dengannya. Saya yakin dia akan memahami situasinya."
-    toby "Bagaimana jika dia meninggalkan saya ketika dia tahu bahwa saya bangkrut?"
-    charlotte "Dia menang, karena apa pun yang dipikirkan orang lain, dia benar -benar menyukai Anda, dan jika Anda dibuang, yah, maka dia bukan orang yang tepat untuk Anda."
-    toby "Saya tahu, tapi ..."
+    charlotte "You should talk to her. I'm sure she'll understand the situation."
+    toby "What if she leaves me when she finds out that I'm broke?"
+    charlotte "She won't, because no matter what others think, she really likes you, and if you do get dumped, well, then she was not the right one for you."
+    toby "I know, but..."
     scene expression ("images/episode1/121.webp") with dissolve
-    charlotte "Ya, saya tahu. Dia memiliki pantat besar, payudara besar untuk usianya, wajahnya cantik, dan dia mungkin sangat baik di tempat tidur, tapi itu tidak semua yang penting dalam suatu hubungan!"
-    toby "Itu sangat spesifik."
-    charlotte "Ini tidak seperti Anda \ 're 16. Anda adalah orang dewasa. Aku tahu kamu bukan perawan lagi!"
+    charlotte "Yeah, I know. She has a great ass, huge boobs for her age, her face is beautiful, and she's probably excellent in bed, but that's not all that matters in a relationship!"
+    toby "That was very specific."
+    charlotte "It's not like you're 16. You're a grown man. I know you're not a virgin anymore!"
     toby "[mom!u]!"
     scene expression ("images/episode1/119.webp") with dissolve
-    charlotte "Bagaimanapun. Seperti yang saya katakan, lebih baik agar dia tahu apa yang terjadi daripada membiarkannya berpikir bahwa Anda tidak mencintainya lagi. Dan itulah mengapa hadiah menjadi lebih murah."
-    toby "Anda pikir begitu?"
-    charlotte "Tentu saja!"
-    toby "Atau saya bisa bekerja keras dan terus membeli barang -barang mahalnya, dan dia tidak akan tahu!"
-    charlotte "Saya menyukai gagasan melatih pantat Anda, tetapi bagian yang mahal dan kebohongan tidak terlalu banyak. Bukan itu bagaimana Anda dibesarkan."
+    charlotte "Anyway. Like I was saying, it's better to let her know what happened than letting her think that you don't love her anymore. And that's why the gifts are getting cheaper."
+    toby "You think so?"
+    charlotte "Of course!"
+    toby "Or I could work my ass off and keep on buying her expensive things, and she won't know!"
+    charlotte "I like the idea of working your ass off, but the expensive part and the lies not so much. That's not how you were raised."
     scene expression ("images/episode1/121.webp") with dissolve
-    toby "Ya, Anda mungkin benar!"
+    toby "Yeah, you're probably right!"
     scene expression ("images/episode1/122.webp") with dissolve
-    charlotte "Bagaimanapun. Saya harus berpakaian dan mendapatkan bahan makanan. Nomor telepon untuk pekerjaan itu ada di laptop saya jika Anda benar -benar menginginkannya."
-    toby "Terima kasih, [mom]."
-    charlotte "Tidak, terima kasih telah menjadi yang baik [son]."
-    charlotte "Sampai jumpa lagi!"
+    charlotte "Anyway. I should get dressed and get the groceries. The phone number for that job is on my laptop if you really want it."
+    toby "Thanks, [mom]."
+    charlotte "No, thank you for being such a good [son]."
+    charlotte "See you later!"
     scene expression ("images/episode1/123.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\n[mom!c] is right. I should talk to Emma about what really happened. Maybe when she comes to visit me I'll tell her the truth.{/i}"
     scene expression ("images/episode1/124.webp") with long_dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLet's see what's up with this job?{/i}"
     scene expression ("images/episode1/125.webp") with dissolve
-    toby "Selamat pagi. Saya melihat iklan tentang pekerjaan sebagai agen real estat. Saya bertanya -tanya apakah pekerjaan itu masih tersedia?"
+    toby "Good morning. I saw an ad about a job as a real estate agent. I was wondering if the job is still available?"
     $ progress = 8
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nGood morning. Yes, the job is still available. \nHave you ever worked as a real estate agent before?"
-    toby "Tidak. Sebenarnya, ini akan menjadi pekerjaan pertama saya."
+    toby "No. Actually, this would be my first job."
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nHow old are you?"
-    toby "Saya berumur 20 tahun. Saya baru saja pindah ke kota dan sedang mencari pekerjaan."
+    toby "I'm 20 years old. I just moved to town and am looking for a job."
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nI understand. Are you available today at 11 AM for an interview?"
-    toby "Tentu saja!"
+    toby "Of course!"
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nI'm glad to hear it. I'll text you the details."
-    toby "Terima kasih banyak!"
+    toby "Thank you very much!"
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nWhat was your name?"
-    toby "Maaf, saya lupa memperkenalkan diri."
-    toby "Nama saya [toby!c]."
+    toby "Sorry, I forgot to introduce myself."
+    toby "My name is [toby!c]."
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nOkay [toby!c]. See you later!"
-    toby "Ya, tentu!"
+    toby "Yes, sure!"
     woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nHave a good day!"
-    toby "Semoga harimu menyenangkan!"
+    toby "Have a good day!"
     scene expression ("images/episode1/126.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWell, that was easy. I never knew it was this easy to get a job!{/i}"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOr maybe I'm just a lucky guy.{/i}"
@@ -621,109 +621,109 @@ label episode1:
     $ ui.interact()
     scene expression ("images/episode1/128.webp") with dissolve
     hide screen ui_message
-    charlotte "Sayang, bisakah kamu datang dan bantu aku dengan tas?"
-    toby "Tentu [mom]."
+    charlotte "Sweetie, can you please come and help me with the bags?"
+    toby "Sure [mom]."
     scene expression ("images/episode1/129.webp") with dissolve
-    toby "Di mana Anda menginginkannya?"
-    charlotte "Di sana. Saya akan menyelesaikannya!"
+    toby "Where do you want them?"
+    charlotte "Over there. I'll sort them out!"
     scene expression ("images/episode1/130.webp") with dissolve
-    charlotte "Apakah Anda menelepon agen real estat?"
-    toby "Ya, dan saya memiliki wawancara pada pukul 11:00."
-    charlotte "Hari ini?"
-    toby "Ya! Saya harus segera bersiap -siap."
-    charlotte "Itu cepat. Mereka pasti benar -benar membutuhkan orang."
-    toby "Atau saya hanya pria yang beruntung?"
-    charlotte "Anda hanya beruntung!"
+    charlotte "Did you call the real estate agency?"
+    toby "Yes, and I have an interview at 11:00."
+    charlotte "Today?"
+    toby "Yes! I should get ready soon."
+    charlotte "That was fast. They must really need people."
+    toby "Or I'm just a lucky guy?"
+    charlotte "You're just lucky!"
     scene expression ("images/episode1/131.webp") with dissolve
-    charlotte "Maksud saya, lihat [mom] Anda, Anda harus benar -benar beruntung memiliki [mom] seperti saya!"
-    toby "Sekarang saya tahu siapa yang dilakukan Tris."
-    charlotte "Anda sangat lucu!"
+    charlotte "I mean, look at your [mom], you have to be really lucky to have [mom] like me!"
+    toby "Now I know who Tris takes after."
+    charlotte "You're hilarious!"
     scene expression ("images/episode1/132.webp") with dissolve
-    toby "Saya akan berubah untuk wawancara."
+    toby "I'm going to get changed for the interview."
     scene expression ("images/episode1/133.webp") with long_dissolve
-    charlotte "Ya ampun ... siapa pria tampan itu?"
-    charlotte "Jika Anda berpakaian seperti itu, mereka akan mempekerjakan Anda di tempat!"
-    toby "Saya hanya bisa berharap begitu!"
+    charlotte "Oh my... Who is that handsome guy?"
+    charlotte "If you go dressed like that, they will hire you on the spot!"
+    toby "I can only hope so!"
     scene expression ("images/episode1/134.webp") with dissolve
-    charlotte "Di sini ... biarkan aku memperbaikinya!"
-    toby "Terima kasih [mom]."
-    charlotte "Anda dapat mengambil mobil saya dan mengambil Patricia dari sekolah saat Anda selesai."
-    toby "Tentu. Aku akan melakukan itu, lalu aku akan datang menjemputmu, dan kita semua akan pergi ke pantai!"
-    charlotte "Jika itu yang Anda inginkan, bagaimana saya bisa mengatakan tidak kepada Anda!"
+    charlotte "Here... Let me fix this!"
+    toby "Thanks [mom]."
+    charlotte "You can take my car and pick up Patricia from school when you're done."
+    toby "Sure. I'll do that, then I'll come pick you up, and we'll all go to the beach!"
+    charlotte "If that's what you want, how can I say no to you!"
     scene expression ("images/episode1/135.webp") with dissolve
-    charlotte "Semoga Sukses Sayang."
-    toby "Terima kasih [mom]!"
+    charlotte "Good luck sweetie."
+    toby "Thanks [mom]!"
 
 
     $ progress = 9
 
     scene expression ("images/episode1/136.webp") with long_dissolve
-    toby "Halo, saya di sini untuk wawancara kerja."
+    toby "Hello, I'm here for the job interview."
     window hide
     show ep1_137 with dissolve
     $ ui.saybehavior()
     $ ui.interact()
     scene expression ("images/episode1/137.webp") with dissolve
     hide ep1_137
-    woman "Anda harus [toby!c], kan?"
-    toby "Ya ma \ 'am."
-    katrina "Anda bisa memanggil saya Katrina."
+    woman "You must be [toby!c], right?"
+    toby "Yes ma'am."
+    katrina "You can call me Katrina."
     scene expression ("images/episode1/138.webp") with dissolve
-    katrina "Tolong duduklah."
-    toby "Terima kasih, ma \ 'am."
-    toby "Maksudku, Katrina."
+    katrina "Take a seat please."
+    toby "Thank you, ma'am."
+    toby "I mean, Katrina."
     scene expression ("images/episode1/139.webp") with dissolve
-    katrina "Jadi? Siapa [toby!c]? Ceritakan lebih banyak tentang diri Anda!"
+    katrina "So? Who is [toby!c]? Tell me more about yourself!"
     scene expression ("images/episode1/140.webp") with dissolve
-    toby "Nah, saya berumur 20 tahun. Saya baru saja pindah ke kota ini, dan saya pikir saya harus mendapatkan pekerjaan untuk membantu [family]."
+    toby "Well, I'm 20 years old. I just moved to this city, and I thought that I should get a job to help my [family]."
     scene expression ("images/episode1/139.webp") with dissolve
-    katrina "Di mana Anda tinggal sebelum pindah ke sini?"
+    katrina "Where did you live before moving here?"
     scene expression ("images/episode1/140.webp") with dissolve
     toby "Uhm, Rictown."
     scene expression ("images/episode1/139.webp") with dissolve
-    katrina "Oh, menarik. Saya juga dulu tinggal di sana. Di bagian kota mana Anda tinggal?"
+    katrina "Oh, interesting. I also used to live there. Which part of the city did you live in?"
     scene expression ("images/episode1/140.webp") with dissolve
-    toby "Saya lebih suka tidak mengatakan, jika itu baik -baik saja?"
+    toby "I prefer not to say, if that's okay?"
     scene expression ("images/episode1/141.webp") with dissolve
-    katrina "Tidak, nak. Tidak apa -apa. Saya bertanya, Anda menjawab!"
-    toby "Uhm. Saya tinggal di bagian atas."
-    katrina "Maksudmu bagian yang kaya?"
-    toby "Ya."
+    katrina "No, boy. It's not okay. I ask, you answer!"
+    toby "Uhm. I lived in the upper part."
+    katrina "You mean the rich part?"
+    toby "Yes."
     scene expression ("images/episode1/139.webp") with dissolve
-    katrina "[parents] Anda bekerja untuk beberapa keledai kaya di sana?"
+    katrina "Your [parents] worked for some rich ass there?"
     scene expression ("images/episode1/140.webp") with dissolve
-    toby "Uhm, tidak juga."
+    toby "Uhm, not really."
     scene expression ("images/episode1/142.webp") with dissolve
-    katrina "Menarik ... jadi Anda berasal dari orang kaya [family]."
+    katrina "Interesting... So you come from a wealthy [family]."
     scene expression ("images/episode1/143.webp") with dissolve
-    katrina "Dan kenapa Anda ingin bekerja di sini jika Anda berasal dari orang kaya [family]?"
-    toby "Mengapa ada yang menginginkan pekerjaan?"
-    katrina "Saya mengerti. Anda bangkrut."
+    katrina "And how come you want to work here if you come from a wealthy [family]?"
+    toby "Why does anyone want a job?"
+    katrina "I understand. You're broke."
     scene expression ("images/episode1/144.webp") with dissolve
-    katrina "Jadi, apakah Anda pikir Anda mendapatkan apa yang diperlukan untuk memuaskan saya?"
+    katrina "So, do you think you've got what it takes to satisfy me?"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThis woman is crazy.{/i}"
     menu:
-        "Uhm, memuaskanmu?":
-            katrina "Ya sayang, untuk bekerja keras sampai aku puas."
-            katrina "Apa lagi?"
-            toby "Tidak ada apa-apa. Ya, saya benar -benar berpikir saya bisa bekerja sampai Anda puas."
+        "Uhm, satisfy you?":
+            katrina "Yes sweetie, to work your ass off till I'm satisfied."
+            katrina "What else?"
+            toby "Nothing. Yes, I really do think I can work till you're satisfied."
             scene expression ("images/episode1/145.webp") with dissolve
-            katrina "Tidak, saya tidak suka bagaimana kedengarannya. Saya akan mengatakannya lagi."
-            katrina "Apakah Anda pikir Anda dapat memuaskan saya?"
-        "[JGR] Saya bisa memuaskan wanita mana pun, jadi mengapa Anda berbeda?"(csq="Katrina +1 & Gambar Galeri"):
+            katrina "No, I don't like how that sounds. I'll say it again."
+            katrina "Do you think you can satisfy me?"
+        "[JGR]I can satisfy any woman, so why would you be any different?"(csq="Katrina +1 & Gallery Image"):
             $ katrina_rel += 1
             $ unlockImage(persistent.katrina_01)
-            katrina "Berani! Saya menyukainya, tetapi saya lebih berpikir seperti, dapatkah Anda bekerja sampai saya puas?"
-            toby "Oh, ya. Saya benar -benar berpikir saya bisa bekerja sampai Anda puas."
+            katrina "Bold! I like it, but I was thinking more like, can you work your ass off till I'm satisfied?"
+            toby "Oh, yes. I really do think I can work till you're satisfied."
             scene expression ("images/episode1/145.webp") with dissolve
-            katrina "Sebenarnya, saya lebih menyukai jawaban pertama Anda."
-            katrina "Apakah Anda pikir Anda dapat memuaskan saya?"
+            katrina "Actually, I liked your first answer better."
+            katrina "Do you think you can satisfy me?"
 
     scene expression ("images/episode1/146.webp") with dissolve
-    toby "Ya, ma \ 'am. Aku bisa memuaskanmu!"
+    toby "Yes, ma'am. I can satisfy you!"
     scene expression ("images/episode1/147.webp") with dissolve
-    katrina "Jadi jika Anda benar -benar ingin mendapatkan uang mengapa Anda tidak menjual obat seperti orang normal? Anda benar -benar ingin memasuki sistem yang rusak seperti ini, di mana ikan besar mengambil segalanya, dan Anda hanya mendapatkan apa yang mereka berikan kepada Anda?"
-    katrina "Mengapa menjadi budak saat Anda bisa menjadi raja?"
+    katrina "So if you really want to earn money why don't you sell drugs like a normal person? You really want to enter a broken system like this, where the big fish takes everything, and you get only what they give you?"
+    katrina "Why be a slave when you can be a king?"
     scene expression ("images/episode1/148.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIs she really asking me this? What kind of interview is this?{/i}"
     scene expression ("images/episode1/149.webp") with dissolve:
@@ -734,27 +734,27 @@ label episode1:
     $ ui.saybehavior()
     $ ui.interact()
     $ progress = 10
-    woman "Uhum, uhum. Permisi!"
+    woman "Uhum, uhum. Excuse me!"
     scene expression ("images/episode1/150.webp") with dissolve
-    katrina "Halo, Sayang. Saya menguji karyawan masa depan Anda."
-    woman "Saya yakin."
+    katrina "Hi there, darling. I was testing your future employee."
+    woman "I'm sure."
     scene expression ("images/episode1/151.webp") with dissolve
-    woman "Anda harus [toby!c] kan?"
-    toby "Ya, ma \ 'am."
+    woman "You must be [toby!c] right?"
+    toby "Yes, ma'am."
     scene expression ("images/episode1/152.webp") with dissolve
-    darlene "Nama saya Darlene. Kami berbicara pagi ini di telepon."
-    toby "Senang berkenalan dengan Anda!"
+    darlene "My name is Darlene. We talked this morning on the phone."
+    toby "Nice to meet you!"
     scene expression ("images/episode1/153.webp") with dissolve
-    darlene "Maaf, saya terlambat. Saya memiliki beberapa bisnis yang belum selesai dengan beberapa apartemen."
+    darlene "Sorry, I'm late. I had some unfinished business with a few apartments."
     scene expression ("images/episode1/154.webp") with dissolve
-    toby "Tidak masalah."
-    darlene "Saya berharap pacar saya tidak memberi Anda terlalu banyak masalah."
+    toby "No problem."
+    darlene "I hope my girlfriend didn't give you too much trouble."
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nGirlfriend? My future boss is a lesbian? Wow!{/i}"
-    toby "Sama sekali tidak."
-    darlene "Saya senang mendengarnya."
+    toby "Not at all."
+    darlene "I'm glad to hear it."
     scene expression ("images/episode1/155.webp") with dissolve
-    darlene "Sayang, bisakah kamu meninggalkan kami? Saya ingin mengenal [toby!c] sedikit lebih baik!"
-    katrina "Tentu saja, cintaku."
+    darlene "Sweetheart, could you leave us, please? I want to get to know [toby!c] a little bit better!"
+    katrina "Of course, my love."
     scene expression ("images/episode1/156.webp") with dissolve
     $ ui.saybehavior()
     $ ui.interact()
@@ -764,67 +764,67 @@ label episode1:
     scene expression ("images/episode1/158.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOkay... That was very suspicious.{/i}"
     scene expression ("images/episode1/159.webp") with dissolve
-    darlene "Jadi, di telepon Anda menyebutkan bahwa Anda baru saja pindah ke kota dan Anda sudah mencari pekerjaan. Saya suka ini pada seseorang."
-    darlene "Itu berarti mereka bekerja keras. Namun, Anda juga menyebutkan bahwa ini akan menjadi pekerjaan pertama Anda. Kenapa begitu?"
-    toby "Nah, ini akan menjadi pekerjaan nyata pertama saya. Saya sering membantu di perusahaan [dad] saya, tetapi segalanya tidak berjalan dengan baik bagi kami, dan sekarang kami telah pindah ke sini."
-    darlene "Apakah Anda tahu sesuatu tentang rumah?"
-    toby "Saya tahu sedikit bagian struktural rumah, dan saya sangat pandai membaca orang, jadi saya dapat membujuk mereka untuk membeli atau menyewa rumah."
+    darlene "So, on the phone you mentioned that you just moved to town and you're already looking for a job. I like this in a person."
+    darlene "It means they are hard-working. However, you also mentioned that this would be your first job. Why is that?"
+    toby "Well, this would be my first real job. I used to help out at my [dad]'s company a lot, but things didn't work out so well for us, and now we've moved here."
+    darlene "Do you know anything about houses?"
+    toby "I do know a bit of the structural parts of a house, and I'm very good at reading people, so I can persuade them to buy or rent a house."
     scene expression ("images/episode1/160.webp") with dissolve
-    darlene "Begitu? Lalu mari kita dengar apa yang Anda katakan tentang saya?"
-    toby "Uhm? Itu tidak sesuai."
-    darlene "Anda dapat membuatnya terdengar sesuai atau hanya mengatakan apa pun yang Anda inginkan, dan kami akan memutuskan apa yang harus dilakukan dengan informasi tersebut."
+    darlene "Is that so? Then let's hear what you have to say about me?"
+    toby "Uhm? That would not be appropriate."
+    darlene "You can make it sound appropriate or just say whatever you want, and we'll decide what to do with those pieces of information."
     scene expression ("images/episode1/161.webp") with dissolve
     $ progress = 11
     menu:
-        "{i} [JGR] Go Personal {/i}"(csq="Darlene +1 & Galeri Gambar"):
+        "{i}[JGR]go personal{/i}"(csq="Darlene +1 & Gallery Image"):
             $ darlene_rel += 1
             $ unlockImage(persistent.darlene_01)
             scene expression ("images/episode1/162.webp") with dissolve
-            toby "Anda menjalin hubungan dengan wanita lain meskipun Anda tidak 100 %% yakin Anda seorang lesbian. Kemungkinan besar Anda memiliki beberapa hubungan yang gagal dan hati Anda sangat hancur, sehingga Anda kehilangan kepercayaan pada pria."
-            toby "Meskipun Anda adalah bos perusahaan Anda sendiri dan Anda terbiasa dihormati, Anda bosan dengan itu."
-            toby "Anda suka ketika orang lain yang bertanggung jawab, itu sebabnya pacar Anda sangat suka memerintah karena Anda menyukainya, dan Anda menyukai gagasan untuk tunduk di luar pekerjaan."
-            toby "Ketika Anda meminta saya untuk mengatakan sesuatu tentang Anda, Anda mengharapkan sesuatu yang lebih seperti, Anda adalah tipe wanita yang bekerja keras untuk mencapai tempat Anda sekarang."
-            toby "Itu karena saya menjadi orang yang diwawancarai seharusnya tidak mendapatkan pribadi ini. Tetapi fakta bahwa saya berbicara kepada Anda meskipun Anda bisa menjadi bos masa depan saya membuat Anda sangat bersemangat."
-            toby "Karena jauh di lubuk hati apa yang benar -benar Anda inginkan."
+            toby "You're in a relationship with another woman even though you're not 100%% sure you're a lesbian. Most likely you had some failed relationships and your heart got broken so badly, that you lost trust in men."
+            toby "Even though you're the boss of your own company and you're used to being respected, you're tired of it."
+            toby "You like it when someone else is in charge, that's why your girlfriend is so bossy because you like it, and you love the idea of being submissive outside work."
+            toby "When you asked me to say something about you, you were expecting something more like, you're the type of woman who worked hard to get where you are right now."
+            toby "That's because me being the interviewee should have not gotten this personal. But the fact that I'm talking down to you even though you could be my future boss makes you very excited."
+            toby "Because deep down that's what you really want."
             scene expression ("images/episode1/163.webp") with dissolve
-            darlene "Uhm ... ya, jadi."
+            darlene "Uhm... Yes, so."
             scene expression ("images/episode1/164.webp") with dissolve
-            darlene "Maaf, saya tidak mengharapkan itu, jadi saya tidak yakin harus berkata apa."
-            toby "Saya harap saya tidak berlebihan."
-            darlene "Mungkin sedikit, tapi yang mengejutkan itu tidak mengganggu saya."
-        "{i} tetap aman {/i}":
+            darlene "Sorry, I was not expecting that, so I'm not sure what to say."
+            toby "I hope I didn't go overboard."
+            darlene "Maybe a bit, but surprisingly it didn't bother me."
+        "{i}stay safe{/i}":
 
             scene expression ("images/episode1/162.webp") with dissolve
-            toby "Anda adalah tipe wanita yang bekerja sangat keras untuk berada di tempat dia sekarang, dan perusahaan ini seperti bayi Anda."
-            toby "Dengan ukuran kantor, saya dapat mengatakan bahwa tidak ada banyak orang yang bekerja di sini karena Anda ingin dapat mengetahui semua yang terjadi."
-            toby "Anda suka memegang kendali sehingga jika terjadi kesalahan, Anda tidak dapat menyalahkan orang lain selain diri Anda sendiri."
-            toby "Ketika Anda mendengar bahwa saya berusia 20 tahun, Anda mengatakan pada diri sendiri bahwa Anda dapat mengajari saya semua yang Anda ketahui karena Anda sedikit lelah bekerja dengan orang lain."
-            toby "Jadi Anda memutuskan untuk mempekerjakan seseorang yang muda yang bisa Anda persiapkan dan akhirnya percaya."
+            toby "You're the kind of woman who worked very hard to be where she is right now, and this company is like your baby."
+            toby "By the size of the office, I can say that there aren't many people working here because you want to be able to know everything that goes on."
+            toby "You like to be in control so that if something goes wrong, you can't blame anyone else but yourself."
+            toby "When you heard that I'm 20 years old, you told yourself that you could teach me everything you know because you're a bit tired of working with people."
+            toby "So you decided to hire someone young that you'll be able to groom and eventually trust."
             scene expression ("images/episode1/163.webp") with dissolve
-            darlene "Ini sebenarnya benar -benar bagus!"
-            darlene "Saya suka kemana perginya."
+            darlene "This was really, really good actually!"
+            darlene "I like where this is going."
 
     scene expression ("images/episode1/165.webp") with dissolve
-    darlene "Aku akan jujur padamu. Aku menyukaimu, mungkin kamu sedikit berani, tapi aku suka itu."
-    darlene "Saya yakin Kat memberi Anda nomornya untuk meneleponnya karena dia suka mempekerjakan pria tampan di klubnya untuk menarik wanita muda."
-    darlene "Dan jika di klub ada wanita muda, akan ada juga pria untuk membayar banyak uang untuk mengesankan mereka, jadi semua orang mendapat untung dari itu."
-    darlene "Saya tidak bisa menawarkan kepada Anda pesta dan kesenangan yang dia bisa, tetapi saya dapat menawarkan Anda penghasilan yang sangat stabil dan kehidupan yang baik."
-    darlene "Besok saya bertemu dengan klien untuk sebuah apartemen. Anda akan bergabung dengan saya, dan saya akan membiarkan Anda melakukan pekerjaan Anda."
-    darlene "Saya ingin melihat apakah Anda benar -benar dapat membaca orang sebaik yang Anda katakan dan meyakinkan mereka untuk membeli."
-    darlene "Saya biasanya tidak melakukan hal -hal seperti ini, tetapi saya benar -benar menyukai Anda."
-    darlene "Jadi saya akan memberi Anda kesempatan. Jika Anda berhasil menjual apartemen, Anda mendapatkan 20 %% dari laba."
+    darlene "I'll be honest with you. I like you, perhaps you're a little bit bold, but I like that."
+    darlene "I'm sure that Kat gave you her number to call her because she likes to hire good looking guys at her club to attract young women."
+    darlene "And if in a club there are young ladies, there will also be men to pay lots of money to impress them, so everybody gets to profit from that."
+    darlene "I can't offer you the parties and fun she can, but I can offer you a very stable income and good life."
+    darlene "Tomorrow I'm meeting with a client for an apartment. You will join me, and I'll let you do your thing."
+    darlene "I want to see if you're really able to read people as good as you say and convince them to buy."
+    darlene "I don't normally do things like this, but I really, really like you."
+    darlene "So I'll give you a chance. If you manage to sell the apartment, you get 20%% of the profit."
     scene expression ("images/episode1/166.webp") with dissolve
-    toby "Saya tidak tahu harus berkata apa. Saya tidak mengharapkan ini."
+    toby "I don't know what to say. I was not expecting this."
     scene expression ("images/episode1/167.webp") with dissolve
-    darlene "Anda tidak perlu mengatakan apa -apa sekarang, pikirkan saja siapa yang akan Anda hubungi besok. Saya atau Kat."
-    toby "Terima kasih atas kesempatannya. Saya akan tidur di atasnya dan memanggil Anda hal pertama di pagi hari."
+    darlene "You don't have to say anything now, just think about who you're gonna call tomorrow. Me or Kat."
+    toby "Thank you for the opportunity. I'll sleep on it and call you first thing in the morning."
     scene expression ("images/episode1/168.webp") with dissolve
-    darlene "Saya harap Anda akan membuat pilihan yang tepat."
-    toby "Terima kasih untuk ini!"
+    darlene "I hope you'll make the right choice."
+    toby "Thank you for this!"
     scene expression ("images/episode1/169.webp") with dissolve
-    darlene "Tidak terima kasih! Saya sangat menikmati wawancara ini."
-    toby "Semoga harimu menyenangkan."
-    darlene "Tolong hubungi saya Darlene!"
+    darlene "No, thank you! I really enjoyed this interview."
+    toby "Have a great day ma'am."
+    darlene "Please call me Darlene!"
     toby "Bye Darlene."
     darlene "Bye [toby!c]."
 
@@ -843,31 +843,31 @@ label episode1:
     scene expression ("images/episode1/173.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHere comes the school girl.{/i}"
     scene expression ("images/episode1/174.webp") with dissolve
-    toby "Jadi bagaimana sekolah baru?"
-    patricia "Sekolah terlihat membosankan, tetapi gosip adalah sesuatu yang lain di sini."
-    toby "Kenapa?"
-    patricia "Sebagai permulaan, beberapa bulan yang lalu, kepala sekolah ini ditangkap karena kejahatan yang melibatkan semacam pengedar narkoba."
-    toby "Kota ini adalah tempat yang aneh!"
-    patricia "Anda memberi tahu saya? Tapi jujur saja, saya pikir kita akan sangat cocok di sini. Ini tidak seperti kita terlalu normal."
+    toby "So how is the new school?"
+    patricia "The school looks boring, but the gossip is something else here."
+    toby "How come?"
+    patricia "Well, for starters, a few months ago, the principal of this school got arrested for crimes involving a drug dealer of some sort."
+    toby "This city is a strange place!"
+    patricia "You're telling me? But to be honest, I think we'll fit in really well here. It's not like we're too normal."
     scene expression ("images/episode1/175.webp") with dissolve
-    toby "Bagaimanapun, kita harus pergi. [mom!c] sedang menunggu kami pergi ke pantai!"
-    patricia "Ya! Saya sudah menunggu ini sepanjang hari!"
-    patricia "Ngomong -ngomong, kenapa kamu begitu berpakaian?"
-    toby "Saya memiliki wawancara kerja."
-    patricia "Anda? Bekerja?"
+    toby "Anyway, we should leave. [mom!c] is waiting for us to go to the beach!"
+    patricia "Yes! I've been waiting for this the whole day!"
+    patricia "By the way, why are you so dressed up?"
+    toby "I had a job interview."
+    patricia "You? Working?"
     scene expression ("images/episode1/176.webp") with dissolve
-    toby "Ya. Apa yang begitu aneh tentang itu?"
-    patricia "Anda tidak pernah bekerja sehari pun dalam hidup Anda."
-    toby "Saya membantu [dad] di perusahaannya."
-    patricia "Ya. Seperti yang saya katakan, Anda tidak pernah bekerja sehari pun dalam hidup Anda."
-    patricia "Tapi bagaimanapun juga. Bagaimana wawancara berjalan?"
-    toby "Aku akan memberitahumu nanti setelah kita mengambil [mom]. Saya benar -benar tidak ingin menceritakan kisah yang sama dua kali."
+    toby "Yes. What's so strange about that?"
+    patricia "You've never worked a day in your life."
+    toby "I helped [dad] at his company."
+    patricia "Yeah. Like I said, you've never worked a day in your life."
+    patricia "But anyway. How did the interview go?"
+    toby "I'll tell you later after we pick [mom] up. I really don't want to tell the same story twice."
     scene expression ("images/episode1/177.webp") with long_dissolve
     $ ui.saybehavior()
     $ ui.interact()
     scene expression ("images/episode1/178.webp") with dissolve
-    toby "Mengapa terburu -buru?"
-    patricia "Apakah Anda bercanda? Saya belum melihat pantai dalam hampir 7 bulan."
+    toby "Why the rush?"
+    patricia "Are you kidding me? I haven't seen a beach in almost 7 months."
     scene expression ("images/episode1/179.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nBoth [mom] and Tris take a long time to get ready.{/i}"
     scene expression ("images/episode1/180.webp") with dissolve:
@@ -878,9 +878,9 @@ label episode1:
     $ ui.saybehavior()
     $ ui.interact()
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWow. [mom] looks gorgeous.{/i}"
-    charlotte "Apakah Tris siap?"
-    toby "Belum."
-    patricia "Saya! Aku sedang turun sekarang!"
+    charlotte "Is Tris ready?"
+    toby "Not yet."
+    patricia "I am! I'm coming down now!"
     scene expression ("images/episode1/181.webp") with dissolve:
         yalign 1.0
         linear 10.0 yalign 0.0
@@ -890,148 +890,148 @@ label episode1:
     $ ui.interact()
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLike [mother], like [daughter].{/i}"
     scene expression ("images/episode1/182.webp") with dissolve
-    toby "Biarkan saja pergi!"
+    toby "Let's go then!"
 
 
     $ progress = 13
 
     scene expression ("images/episode1/183.webp") with long_dissolve
-    patricia "Pantai ini terlihat sangat keren. Tidak bisa menunggu untuk berenang."
-    charlotte "Saya tidak bisa menunggu untuk tidur di kursi -kursi itu. Mereka terlihat nyaman!"
-    toby "Banyak lelah?"
+    patricia "This beach looks so cool. Can't wait to swim."
+    charlotte "I can't wait to sleep on those loungers. They look comfy!"
+    toby "Tired much?"
     scene expression ("images/episode1/184.webp") with dissolve
-    charlotte "Sedikit. Bergerak adalah masalah yang cukup besar."
+    charlotte "A little bit. Moving was a pretty big deal."
     scene expression ("images/episode1/185.webp") with dissolve
-    patricia "Wow ... mereka memiliki jaring bola voli. Kami benar -benar harus bermain [toby!c]."
-    toby "Apakah kita?"
+    patricia "Wow... They have a volleyball net. We really have to play [toby!c]."
+    toby "Do we?"
     scene expression ("images/episode1/186.webp") with dissolve
     patricia "Yesss!"
-    toby "Bagus!"
+    toby "Fine!"
     scene expression ("images/episode1/187.webp") with dissolve
-    charlotte "Jadi? Bagaimana wawancara?"
-    toby "Sebenarnya sangat baik. Ada dua wanita yang menawari saya pekerjaan."
-    patricia "Anda belum bekerja satu hari dalam hidup Anda dan mendapat dua tawaran pekerjaan dari satu wawancara?"
-    toby "Ya, itu aneh."
+    charlotte "So? How was the interview?"
+    toby "It was excellent actually. There were there two women who offered me a job."
+    patricia "You haven't worked a single day in your life and got two job offers from one interview?"
+    toby "Yeah, it was strange."
     scene expression ("images/episode1/188.webp") with dissolve
-    toby "Jadi ada wanita ini bernama Darlene. Dia yang saya ajak bicara di telepon pagi ini."
-    toby "Dan pacarnya, Katrina. Dia adalah pemilik klub sejauh yang saya mengerti."
-    toby "Ketika saya pergi ke sana, Katrina ada di kantornya, dan dia mengolok -olok saya sedikit!"
+    toby "So there is this woman named Darlene. She's the one I talked to on the phone this morning."
+    toby "And her girlfriend, Katrina. She's the owner of a club as far as I understood."
+    toby "When I went there, Katrina was in her office, and she made fun of me a little bit!"
     scene expression ("images/episode1/189.webp") with dissolve
-    patricia "Nah, wajah Anda memohon untuk diolok -olok!"
+    patricia "Well, your face begs to be made fun of!"
     scene expression ("images/episode1/190.webp") with dissolve
-    charlotte "Jangan bersikap kasar kepada [brother] Anda."
+    charlotte "Don't be rude to your [brother]."
     scene expression ("images/episode1/188.webp") with dissolve
-    toby "Ngomong -ngomong, jadi dia agak menawari saya pekerjaan di klubnya, tapi saya belum yakin apa, karena itu ketika Darlene masuk."
+    toby "Anyway, so she kinda offered me a job at her club, but I'm not sure what yet, because that's when Darlene entered."
     scene expression ("images/episode1/191.webp") with dissolve
-    charlotte "Jadi pada dasarnya dia mencuri karyawan pacarnya?"
-    toby "Anda bisa mengatakan mereka sedang memperebutkan saya."
+    charlotte "So basically she was stealing her girlfriend's employee?"
+    toby "You could say they were fighting over me."
     scene expression ("images/episode1/192.webp") with dissolve
-    patricia "Itu akan menjadi yang pertama dan terakhir kali dua gadis akan memperebutkan Anda."
+    patricia "That will be the first and last time two girls will fight over you."
     scene expression ("images/episode1/193.webp") with dissolve
-    toby "Sangat lucu."
+    toby "Very funny."
     scene expression ("images/episode1/188.webp") with dissolve
-    toby "Ngomong -ngomong, Darlene tahu apa yang Katrina lakukan, jadi dia mengatakan bahwa aku punya sampai besok untuk memutuskan untuk siapa bekerja."
-    toby "Besok saya akan menelepon Darlene atau Katrina."
+    toby "Anyway, Darlene knew what Katrina did, so she said that I have until tomorrow to decide who to work for."
+    toby "Tomorrow I'll either call Darlene or Katrina."
     scene expression ("images/episode1/194.webp") with dissolve
-    charlotte "Saya pikir bekerja untuk Darlene akan menjadi yang terbaik. Ini pekerjaan yang bagus. Anda bahkan tidak tahu apa yang harus Anda lakukan di klub."
+    charlotte "I think working for Darlene would be the best. It's a good job. You don't even know what you'll have to do at the club."
     scene expression ("images/episode1/195.webp") with dissolve
-    patricia "Saya tidak setuju dengan [mom]. Saya pikir bekerja di klub bisa lebih menarik dan di atas itu, siapa tahu. Mungkin Anda akan bertemu pacar baru."
-    toby "Saya punya pacar."
+    patricia "I disagree with [mom]. I think working in the club could be more interesting and on top of that, who knows. Maybe you'll meet a new girlfriend."
+    toby "I have a girlfriend."
     scene expression ("images/episode1/196.webp") with dissolve
-    patricia "Mungkin, tapi dia menyebalkan."
-    charlotte "Perhatikan lidah Anda, wanita muda. Dia bukan wanita jalang, dan selama mereka saling mencintai, itu yang penting."
+    patricia "Maybe, but she's a bitch."
+    charlotte "Watch your tongue, young lady. She's not a bitch, and as long as they love each other, that's all that matters."
     scene expression ("images/episode1/197.webp") with dissolve
-    patricia "Dia bahkan tidak memberitahunya mengapa kami harus pergi."
-    charlotte "Itu bisnis mereka, bukan milikmu."
-    patricia "Dia seorang penggali emas!"
+    patricia "He didn't even tell her why we had to leave."
+    charlotte "That's their business, not yours."
+    patricia "She's a gold digger!"
     scene expression ("images/episode1/198.webp") with dissolve
     toby "Whatever!\nI'll go grab something to drink from the bar. Want anything?"
-    patricia "Saya ingin limun."
-    toby "Saya akan membelikan Anda satu jika Anda mengambil kembali apa yang Anda katakan tentang Emma."
+    patricia "I want a lemonade."
+    toby "I'll buy you one if you take back what you said about Emma."
     scene expression ("images/episode1/199.webp") with dissolve
-    patricia "Lalu aku akan membeli sendiri."
+    patricia "Then I'll just go buy one myself."
     scene expression ("images/episode1/200.webp") with dissolve
-    charlotte "Jangan mengambilnya secara pribadi. Saya tidak tahu di mana saya salah dengannya."
-    toby "Jangan khawatir [mom]. Jadi? Apa yang bisa saya dapatkan dari Anda?"
-    charlotte "Kejutkan aku!"
+    charlotte "Don't take it personally. I don't know where I went wrong with her."
+    toby "Don't worry [mom]. So? What can I get you?"
+    charlotte "Surprise me!"
     scene expression ("images/episode1/201.webp") with dissolve
-    toby "Saya akan!"
+    toby "I will!"
     scene expression ("images/episode1/202.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI hate the idea that maybe Tris is right, but it hurts when she talks like that about my girlfriend.{/i}"
     scene expression ("images/episode1/203.webp") with dissolve
-    patricia "Bagaimana rasanya?"
-    toby "Merasa apa?"
-    patricia "Rasa sakit ketika Anda menyadari bahwa [sister] Anda selalu benar?"
-    toby "Persetan!"
+    patricia "How does it feel?"
+    toby "Feel what?"
+    patricia "The pain when you realize that your [sister] is always right?"
+    toby "Fuck off!"
     scene expression ("images/episode1/204.webp") with dissolve
-    barman "Itu akan menjadi 0,50."
+    barman "That will be $10.50."
     $ progress = 14
     menu:
-        "{i} [JGR] Bayar minumannya {/i}"(csq="Tris +1 & Galeri Gambar"):
+        "{i}[JGR]pay for her drink{/i}"(csq="Tris +1 & Gallery Image"):
             $ patricia_rel += 1
             $ unlockImage(persistent.patricia_02)
             scene expression ("images/episode1/205.webp") with dissolve
-            toby "Izinkan saya!"
+            toby "Allow me!"
             scene expression ("images/episode1/206.webp") with dissolve
             $ ui.saybehavior()
             $ ui.interact()
             scene expression ("images/episode1/207.webp") with dissolve
-            patricia "Aku tahu aku bisa mengandalkanmu!"
-            toby "Ya, ya. Apa pun!"
+            patricia "I knew I could count on you!"
+            toby "Yeah, yeah. Whatever!"
             scene expression ("images/episode1/208.webp") with dissolve
             toby "..."
             toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nDude... She's your [sister]. You can't look at her ass.{/i}"
             scene expression ("images/episode1/209.webp") with dissolve
-            barman "Pak?"
-            toby "Maaf?"
-        "{i} dia tidak pantas mendapatkannya {/i}":
+            barman "Sir?"
+            toby "Sorry?"
+        "{i}she doesn't deserve it{/i}":
             scene expression ("images/episode1/210.webp") with dissolve
-            patricia "Apakah Anda malu membiarkan seorang wanita membayar minumannya sendiri?"
-            toby "Biarkan saya memikirkannya sebentar."
+            patricia "Aren't you ashamed to let a lady pay for her own drink?"
+            toby "Let me think about that for a bit."
             scene expression ("images/episode1/207.webp") with dissolve
-            toby "Tidak. Tidak sama sekali!"
+            toby "No. Not at all!"
             scene expression ("images/episode1/209.webp") with dissolve
-    barman "Apa yang bisa saya dapatkan dari Anda, Pak?"
-    toby "Oh, benar. Beri saya koktail beralkohol terbaik Anda dan yang terbaik tanpa alkohol di dalamnya."
-    barman "Tentu. Beri aku sesaat!"
+    barman "What can I get you, sir?"
+    toby "Oh, right. Give me your best alcoholic cocktail and the best one with no alcohol in it."
+    barman "Sure. Give me a second!"
     scene expression ("images/episode1/211.webp") with dissolve
-    toby "Harus jujur. Tempat ini sangat bagus, terlalu buruk itu agak kosong. Saya kira tidak banyak orang datang ke pantai pada hari Senin."
-    barman "Pertama kali di sini?"
-    toby "Ya, saya baru saja pindah ke kota."
-    barman "Anda akan suka di sini. Ada banyak hal yang harus dilakukan."
-    barman "Anda harus kembali ke pantai pada akhir pekan. Ada banyak wanita cantik di sini."
-    toby "Ya ... saya pasti harus datang!"
+    toby "Got to be honest. This place is really nice, too bad it's kinda empty. I suppose not a lot of people come to the beach on a Monday."
+    barman "First time here?"
+    toby "Yeah, I just moved to the city."
+    barman "You'll like it here. There are plenty of things to do."
+    barman "You should come back to the beach on the weekend. There are plenty of gorgeous ladies here."
+    toby "Yeah... I should definitely come by!"
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI have a gorgeous lady at home, but he doesn't need to know that.{/i}"
     scene expression ("images/episode1/212.webp") with dissolve
-    barman "Ini dia Pak. Itu akan menjadi 5"
+    barman "Here you go sir. That will be $25"
     scene expression ("images/episode1/213.webp") with dissolve
-    toby "Terima kasih kawan!"
+    toby "Thanks man!"
     scene expression ("images/episode1/214.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhich one should I give [mom]?{/i}"
     menu:
-        "{i} [JGR] Yang dengan alkohol di dalamnya {/i}"(csq="Charlotte +1"):
+        "{i}[JGR]the one with alcohol in it{/i}"(csq="Charlotte +1"):
             $ charlotte_rel += 1
             $ ep1_get_charlotte_drunk = True
-        "{i} yang tanpa alkohol di dalamnya {/i}":
+        "{i}the one without alcohol in it{/i}":
             pass
     scene expression ("images/episode1/215.webp") with dissolve
-    toby "Ini dia [mom]."
-    charlotte "Terima kasih, Sayang."
+    toby "Here you go [mom]."
+    charlotte "Thank you, darling."
     scene expression ("images/episode1/216.webp") with long_dissolve
-    patricia "Saya punya ide!"
-    toby "Membuatku takjub!"
-    patricia "Jika Anda berhasil mengalahkan saya di bola voli, saya akan meminta maaf atas semua yang saya katakan tentang Emma!"
+    patricia "I have an idea!"
+    toby "Amaze me!"
+    patricia "If you manage to beat me at volleyball, I'll apologize for everything I said about Emma!"
     scene expression ("images/episode1/217.webp") with dissolve
-    toby "Dan Anda juga tidak akan mengatakan hal buruk tentang dia di masa depan?"
-    toby "Kesepakatan."
+    toby "And you won't say anything bad about her in the future either?"
+    toby "Deal."
     scene expression ("images/episode1/218.webp") with dissolve
-    patricia "Mari kita lihat Anda mencoba dulu."
+    patricia "Let's see you try first."
     scene expression ("images/episode1/219.webp") with dissolve
-    toby "Anda memintanya!"
+    toby "You asked for it!"
     scene expression ("images/episode1/220.webp") with long_dissolve
     $ progress = 15
     menu:
-        "{i} [JGR] Biarkan dia menang {/i}"(csq="Tris +1 & Galeri Gambar & Penting untuk Tris \ 'Path"):
+        "{i}[JGR]let her win{/i}"(csq="Tris +1 & Gallery Image & Important for Tris' path"):
             $ patricia_rel += 1
             $ ep1_let_patricia_win = True
             $ unlockImage(persistent.patricia_03)
@@ -1039,86 +1039,86 @@ label episode1:
             $ ui.saybehavior()
             $ ui.interact()
             scene expression ("images/episode1/222.webp") with dissolve
-            patricia "Memperdaya!"
-            toby "Aku membiarkanmu menang!"
+            patricia "Sucker!"
+            toby "I let you win!"
             scene expression ("images/episode1/223.webp") with dissolve
-            patricia "Saya yakin ... Anda ayam!"
-            toby "Itu saja!"
-        "{i} Cobalah menang {/i}":
+            patricia "I'm sure... You chicken!"
+            toby "That's it!"
+        "{i}try to win{/i}":
             scene expression ("images/episode1/221.webp") with dissolve
             $ ui.saybehavior()
             $ ui.interact()
             scene expression ("images/episode1/224.webp") with dissolve
-            patricia "Aku membiarkanmu menang. Saya bosan berbicara tentang pacar Anda!"
-            toby "Ya, benar!"
+            patricia "I let you win. I was getting tired of talking about your girlfriend!"
+            toby "Yeah, right!"
             scene expression ("images/episode1/225.webp") with dissolve
-            patricia "Maksudku, aku bosan membicarakan pelacurmu!"
-            toby "Itu saja ... Anda akan mendapatkannya untuk itu!"
+            patricia "I meant, I was getting tired of talking about your bitch!"
+            toby "That's it... You're gonna get it for that!"
 
     scene expression ("images/episode1/226.webp") with dissolve
-    patricia "Membantu!"
-    toby "Tidak ada orang di sini kecuali kami!"
-    patricia "Dia mencoba memperkosa saya!"
+    patricia "Help!"
+    toby "No one's here except for us!"
+    patricia "He's trying to rape me!"
     scene expression ("images/episode1/227_1.webp") with dissolve
-    toby "Apakah kamu gila!? Bagaimana jika seseorang mendengar Anda?"
+    toby "Are you crazy!? What if someone hears you?"
     scene expression ("images/episode1/227_2.webp") with dissolve
-    patricia "Saya pikir Anda mengatakan bahwa tidak ada orang di sini!"
+    patricia "I thought you said that nobody is here!"
     scene expression ("images/episode1/228.webp") with dissolve
-    toby "Banyak ayam?"
+    toby "Chicken much?"
     scene expression ("images/episode1/229.webp") with dissolve
     patricia "Aaaa!"
     scene expression ("images/episode1/230.webp") with dissolve
-    toby "Jadi? Mari kita dengar. Apakah ada sesuatu yang ingin Anda katakan?"
+    toby "So? Let's hear it. Was there something you wanted to say?"
     scene expression ("images/episode1/231.webp") with dissolve
-    patricia "Apa yang akan kamu lakukan padaku sekarang?"
+    patricia "What are you going to do to me now?"
     scene expression ("images/episode1/232.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShit the way she looks at me made me so horny and now I have a boner!{/i}"
     scene expression ("images/episode1/233.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShe noticed. Fuck, fuck, fuck my life.{/i}"
     if patricia_rel == 3:
         scene expression ("images/episode1/234.webp") with dissolve
-        patricia "Apakah Anda tertarik kepada saya bahwa Anda mendapat boner hanya dari saya bertingkah tak berdaya?"
-        toby "TIDAK!"
+        patricia "Are you that attracted to me that you got a boner just from me acting helpless?"
+        toby "No!"
         scene expression ("images/episode1/235.webp") with dissolve
-        patricia "Ya Tuhan ... ini sangat lucu! Haha, pengisap!"
+        patricia "Oh my God... This is so funny! Haha, sucker!"
         scene expression ("images/episode1/237.webp") with dissolve
-        patricia "Malam ini, kamu tidur di lantai, kau tanduk anjing!"
+        patricia "Tonight, you're sleeping on the floor, you horn dog!"
     else:
         scene expression ("images/episode1/236.webp") with dissolve
-        patricia "Ewww. Apa yang salah denganmu? I \ 'M Anda [sister]!"
-        toby "Maaf, ini bukan karena Anda!"
-        patricia "Saya tidak peduli, lepas dari saya!"
+        patricia "Ewww. What's wrong with you? I'm your [sister]!"
+        toby "Sorry, it's not because of you!"
+        patricia "I don't care, get off me!"
         scene expression ("images/episode1/238.webp") with dissolve
-        patricia "Malam ini Anda sedang tidur di lantai."
+        patricia "Tonight you're sleeping on the floor."
     scene expression ("images/episode1/239.webp") with dissolve
     toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nReally? Are you going to do me like that?{/i}"
     scene expression ("images/episode1/240.webp") with long_dissolve
-    toby "Apakah Anda membutuhkan bantuan dengan itu?"
+    toby "Do you need help with that?"
     $ progress = 16
     if charlotte_rel < 2:
-        charlotte "Jangan khawatir. Saya bisa melakukannya sendiri!"
-        toby "Mau mu!"
+        charlotte "Don't worry. I can do it myself!"
+        toby "As you wish!"
         pass
     else:
 
         scene expression ("images/episode1/241.webp") with dissolve
-        charlotte "Bagaimana saya bisa mengatakan tidak kepada Anda?"
+        charlotte "How can I say no to you?"
         scene expression ("images/episode1/242.webp") with dissolve
-        toby "Ingin beberapa juga setelahnya?"
+        toby "Want some too after?"
         scene expression ("images/episode1/243.webp") with dissolve
         patricia "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}{i}\nYou're too horny right now. Maybe some other time.{/i}"
         scene expression ("images/episode1/244.webp") with dissolve
         $ ui.saybehavior()
         $ ui.interact()
         scene expression ("images/episode1/245.webp") with dissolve
-        charlotte "Apa yang dia katakan?"
-        toby "Sesuatu seperti dia tidak pantas mendapatkan tabir surya karena dia kalah di bola voli!"
+        charlotte "What did she say?"
+        toby "Something like she doesn't deserve any sunscreen because she lost at volleyball!"
         scene expression ("images/episode1/246.webp") with dissolve
         if ep1_let_patricia_win == True:
             patricia "Idiot."
         else:
-            patricia "Saya mengatakan bahwa saya bahkan tidak pantas pulang dengan Anda dengan mobil yang sama."
-            toby "Jangan khawatir, aku akan menutup mata kali ini!"
+            patricia "I said that I don't even deserve to go home with you in the same car."
+            toby "Don't worry, I'll close an eye this time!"
 
         label memory_02:
 
@@ -1127,22 +1127,22 @@ label episode1:
                 $ ep1_get_charlotte_drunk=True
 
             scene expression ("images/episode1/247.webp") with dissolve
-            charlotte "Jika tidak satu pun dari kedua wanita itu mempekerjakan Anda, saya pikir Anda akan melakukannya dengan cukup baik sebagai tukang pijat."
-            toby "Dan saya hanya menerapkan tabir surya. Bayangkan jika saya benar -benar memberi Anda pijatan."
+            charlotte "If neither of those two ladies hire you, I think you'd do pretty well as a masseur."
+            toby "And I'm just applying sunscreen. Imagine if I was really giving you a massage."
             scene expression ("images/episode1/248.webp") with dissolve
-            charlotte "Karena kami bangkrut, saya pikir saya akan membiarkan Anda memijat saya suatu hari nanti."
-            toby "Apakah punggung Anda masih sakit?"
-            charlotte "Terkadang, setelah berdiri terlalu banyak."
+            charlotte "Well, since we're broke, I think I'll let you massage my back one day."
+            toby "Does your back still hurt?"
+            charlotte "Sometimes, after standing too much."
             if ep1_get_charlotte_drunk == False:
                 scene expression ("images/episode1/249.webp") with dissolve
-                charlotte "Terima kasih atas tabir surya!"
-                toby "Tidak ada masalah [mom]."
+                charlotte "Thank you for the sunscreen!"
+                toby "No problem [mom]."
             else:
                 scene expression ("images/episode1/250.webp") with dissolve
                 toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhat is [mom] doing?{/i}"
-                charlotte "Saya tidak menginginkan garis tan!"
+                charlotte "I don't want any tan lines!"
                 scene expression ("images/episode1/251.webp") with dissolve
-                toby "Ya, tentu [mom]!"
+                toby "Yeah, sure [mom]!"
                 scene expression ("images/episode1/252.webp") with dissolve
                 charlotte "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}{i}\nMake sure you don't miss a spot!{/i}"
                 scene expression ("images/episode1/253.webp") with dissolve
@@ -1155,7 +1155,7 @@ label episode1:
                 toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI feel kinda dirty and aroused at the same time. I'm touching my [mom]'s firm ass.{/i}"
                 toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThis is not what I was thought was going to happen at the beach.{/i}"
                 menu:
-                    "{i} [JGR] maju {/i}"(csq="Charlotte +1 & Galeri Gambar"):
+                    "{i}[JGR]go forward{/i}"(csq="Charlotte +1 & Gallery Image"):
                         $ charlotte_rel += 1
                         $ ep1_groping_charlotte = True
                         $ unlockImage(persistent.charlotte_03)
@@ -1171,11 +1171,11 @@ label episode1:
                         charlotte "{size=12}{color=#FDCA6E}* moaning slightly *{/color}{/size}\n{i}Mhmmm.{/i}"
                         scene expression ("images/episode1/260.webp") with dissolve
                         toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI should stop before Tris turns over.{/i}"
-                    "{i} stop {/i}" if not _in_replay:
+                    "{i}stop{/i}" if not _in_replay:
                         pass
                 scene expression ("images/episode1/261.webp") with dissolve
-                charlotte "Terima kasih sayang!"
-                toby "Tidak ada masalah [mom]."
+                charlotte "Thank you honey!"
+                toby "No problem [mom]."
                 $ unlockMemory(persistent.memory_02)
 
             $ renpy.end_replay()
