@@ -1,0 +1,2371 @@
+=== REN'PY TRANSLATION LOG v5.3 ===
+Tanggal: 2025-09-01 01:14:33
+Input: x-episode1.rpy
+Output: x-episode1_id.rpy
+Bahasa: en -> id
+Log Level: ERROR
+==================================================
+
+BARIS 1 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_004 = Movie(play="video/episode1/004.webm", loop=True)
+ASLI   : 'video/episode1/004.webm'
+----------------------------------------
+
+BARIS 2 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_005 = Movie(play="video/episode1/005.webm", loop=True)
+ASLI   : 'video/episode1/005.webm'
+----------------------------------------
+
+BARIS 3 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_011 = Movie(play="video/episode1/011.webm", loop=True)
+ASLI   : 'video/episode1/011.webm'
+----------------------------------------
+
+BARIS 4 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_012 = Movie(play="video/episode1/012.webm", loop=True)
+ASLI   : 'video/episode1/012.webm'
+----------------------------------------
+
+BARIS 5 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_013 = Movie(play="video/episode1/013.webm", loop=True)
+ASLI   : 'video/episode1/013.webm'
+----------------------------------------
+
+BARIS 6 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_014 = Movie(play="video/episode1/014.webm", loop=True)
+ASLI   : 'video/episode1/014.webm'
+----------------------------------------
+
+BARIS 7 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_015 = Movie(play="video/episode1/015.webm", loop=True)
+ASLI   : 'video/episode1/015.webm'
+----------------------------------------
+
+BARIS 8 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_016 = Movie(play="video/episode1/016.webm", loop=True)
+ASLI   : 'video/episode1/016.webm'
+----------------------------------------
+
+BARIS 9 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_137 = Movie(play="video/episode1/137.webm", image="images/episode1/137.webp", loop = False)
+ASLI   : 'video/episode1/137.webm'
+----------------------------------------
+
+BARIS 9 | STATUS: SKIPPED_CODE
+CONTEXT: image ep1_137 = Movie(play="video/episode1/137.webm", image="images/episode1/137.webp", loop = False)
+ASLI   : 'images/episode1/137.webp'
+----------------------------------------
+
+BARIS 16 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/utils/black.png") with Dissolve(5)
+ASLI   : 'images/utils/black.png'
+----------------------------------------
+
+BARIS 23 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/001.webp") with dissolve
+ASLI   : 'images/episode1/001.webp'
+----------------------------------------
+
+BARIS 25 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Life is a lot more fragile than we think.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}Life is a lot more fragile than we think.{3}'
+----------------------------------------
+
+BARIS 26 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}How quickly things can change forever.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}How quickly things can change forever.{3}'
+----------------------------------------
+
+BARIS 27 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}One day you're up and the next day you're down.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}One day you're up and the next day you're down.{3}'
+----------------------------------------
+
+BARIS 28 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/002.webp") with dissolve
+ASLI   : 'images/episode1/002.webp'
+----------------------------------------
+
+BARIS 29 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I can't believe that my [dad]'s company went bankrupt and now we have to move.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I can't believe that my [1]'s company went bankrupt and now we have to move.{3}'
+----------------------------------------
+
+BARIS 30 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I was so used to having everything I wanted and now all of a sudden everything is gone.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I was so used to having everything I wanted and now all of a sudden everything is gone.{3}'
+----------------------------------------
+
+BARIS 31 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}We just lost our house, the one with a pool, a sauna, 10 rooms, an indoor cinema, 8 bathrooms and ... Shit, it's so hard to say goodbye to all this.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}We just lost our house, the one with a pool, a sauna, 10 rooms, an indoor cinema, 8 bathrooms and ... Shit, it's so hard to say goodbye to all this.{3}'
+----------------------------------------
+
+BARIS 32 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I still hope this is just a bad dream and in the morning when I wake up, I'll still have my sports car out front, the one I got for my 18th birthday.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I still hope this is just a bad dream and in the morning when I wake up, I'll still have my sports car out front, the one I got for my 18th birthday.{3}'
+----------------------------------------
+
+BARIS 33 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/003.webp") with dissolve
+ASLI   : 'images/episode1/003.webp'
+----------------------------------------
+
+BARIS 34 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}My [father] had a saying, \"When you reached the top of the mountain you should take a break and look down for a bit.\"{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}My [15] had a saying, \'
+----------------------------------------
+
+BARIS 37 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/004.webp") with dissolve
+ASLI   : 'images/episode1/004.webp'
+----------------------------------------
+
+BARIS 41 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Speaking of down. That's Emma. She's my girlfriend. We just hooked up a few months ago.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}Speaking of down. That's Emma. She's my girlfriend. We just hooked up a few months ago.{3}'
+----------------------------------------
+
+BARIS 42 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I used to be in the same class as her [sister], Cindy. That's how we met.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I used to be in the same class as her [17], Cindy. That's how we met.{3}'
+----------------------------------------
+
+BARIS 43 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I was paying Cindy to help me with my homework. By help, I mean she was doing it all for me.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I was paying Cindy to help me with my homework. By help, I mean she was doing it all for me.{3}'
+----------------------------------------
+
+BARIS 44 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I think I was a little bit too spoiled.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I think I was a little bit too spoiled.{3}'
+----------------------------------------
+
+BARIS 45 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/005.webp") with dissolve
+ASLI   : 'images/episode1/005.webp'
+----------------------------------------
+
+BARIS 48 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Says the guy who is getting sucked by a beautiful blond babe. I'm still spoiled.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}Says the guy who is getting sucked by a beautiful blond babe. I'm still spoiled.{3}'
+----------------------------------------
+
+BARIS 49 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}At least till she finds out that my [dad]'s company went bankrupt and that's the real reason why we're leaving.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}At least till she finds out that my [1]'s company went bankrupt and that's the real reason why we're leaving.{3}'
+----------------------------------------
+
+BARIS 50 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/006.webp") with dissolve
+ASLI   : 'images/episode1/006.webp'
+----------------------------------------
+
+BARIS 55 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/007.webp") with dissolve
+ASLI   : 'images/episode1/007.webp'
+----------------------------------------
+
+BARIS 61 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/008.webp") with dissolve
+ASLI   : 'images/episode1/008.webp'
+----------------------------------------
+
+BARIS 63 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{3}'
+----------------------------------------
+
+BARIS 64 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/007.webp") with dissolve
+ASLI   : 'images/episode1/007.webp'
+----------------------------------------
+
+BARIS 66 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}5 star hotels my ass. I have to tell her sooner or later that I'm broke.{3}'
+----------------------------------------
+
+BARIS 69 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/009.webp") with dissolve
+ASLI   : 'images/episode1/009.webp'
+----------------------------------------
+
+BARIS 72 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/010.webp") with dissolve
+ASLI   : 'images/episode1/010.webp'
+----------------------------------------
+
+BARIS 86 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/011.webp") with dissolve
+ASLI   : 'images/episode1/011.webp'
+----------------------------------------
+
+BARIS 93 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nMe too!"
+ASLI   : '{2}{6}* moaning *{5}{1}\nMe too!'
+----------------------------------------
+
+BARIS 94 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/012.webp") with dissolve
+ASLI   : 'images/episode1/012.webp'
+----------------------------------------
+
+BARIS 99 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYes, yessss I do."
+ASLI   : '{2}{6}* panting *{5}{1}\nYes, yessss I do.'
+----------------------------------------
+
+BARIS 101 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nI'm a WHORE."
+ASLI   : '{2}{6}* loud *{5}{1}\nI'm a WHORE.'
+----------------------------------------
+
+BARIS 103 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nI'm YOUUURS!"
+ASLI   : '{2}{6}* moaning *{5}{1}\nI'm YOUUURS!'
+----------------------------------------
+
+BARIS 106 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYes, yes, YESSSS."
+ASLI   : '{2}{6}* loud *{5}{1}\nYes, yes, YESSSS.'
+----------------------------------------
+
+BARIS 107 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nDon't stop."
+ASLI   : '{2}{6}* gasping *{5}{1}\nDon't stop.'
+----------------------------------------
+
+BARIS 108 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/013.webp") with dissolve
+ASLI   : 'images/episode1/013.webp'
+----------------------------------------
+
+BARIS 111 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYour dick is so big, I'll never get used to it."
+ASLI   : '{2}{6}* panting *{5}{1}\nYour dick is so big, I'll never get used to it.'
+----------------------------------------
+
+BARIS 114 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nI only love your big dick."
+ASLI   : '{2}{6}* moaning *{5}{1}\nI only love your big dick.'
+----------------------------------------
+
+BARIS 116 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYes, I DO!"
+ASLI   : '{2}{6}* loud *{5}{1}\nYes, I DO!'
+----------------------------------------
+
+BARIS 119 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nNo, your dick is perfect. I'm so gonna miss it!"
+ASLI   : '{2}{6}* moaning *{5}{1}\nNo, your dick is perfect. I'm so gonna miss it!'
+----------------------------------------
+
+BARIS 121 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/014.webp") with dissolve
+ASLI   : 'images/episode1/014.webp'
+----------------------------------------
+
+BARIS 124 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYES, YES, yesss... Fuck me hard, baby."
+ASLI   : '{2}{6}* loud *{5}{1}\nYES, YES, yesss... Fuck me hard, baby.'
+----------------------------------------
+
+BARIS 126 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/015.webp") with dissolve
+ASLI   : 'images/episode1/015.webp'
+----------------------------------------
+
+BARIS 130 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* moaning *{/color}{/size}\nYes, yes. Fuck me from behind like you fuck a dirty whore."
+ASLI   : '{2}{6}* moaning *{5}{1}\nYes, yes. Fuck me from behind like you fuck a dirty whore.'
+----------------------------------------
+
+BARIS 132 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* loud *{/color}{/size}\nYES I AM."
+ASLI   : '{2}{6}* loud *{5}{1}\nYES I AM.'
+----------------------------------------
+
+BARIS 134 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nI'm gonna cum soon. I always do when you fuck me from behind."
+ASLI   : '{2}{6}* gasping *{5}{1}\nI'm gonna cum soon. I always do when you fuck me from behind.'
+----------------------------------------
+
+BARIS 136 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/016.webp") with dissolve
+ASLI   : 'images/episode1/016.webp'
+----------------------------------------
+
+BARIS 139 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nYes, yes. Right there!"
+ASLI   : '{2}{6}* panting *{5}{1}\nYes, yes. Right there!'
+----------------------------------------
+
+BARIS 140 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* gasping *{/color}{/size}\nDon't stop!"
+ASLI   : '{2}{6}* gasping *{5}{1}\nDon't stop!'
+----------------------------------------
+
+BARIS 146 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/017.webp") with dissolve
+ASLI   : 'images/episode1/017.webp'
+----------------------------------------
+
+BARIS 150 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* panting *{/color}{/size}\nGosh, this was so good!"
+ASLI   : '{2}{6}* panting *{5}{1}\nGosh, this was so good!'
+----------------------------------------
+
+BARIS 152 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/018.webp") with dissolve
+ASLI   : 'images/episode1/018.webp'
+----------------------------------------
+
+BARIS 163 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/019.webp") with dissolve
+ASLI   : 'images/episode1/019.webp'
+----------------------------------------
+
+BARIS 165 | STATUS: SKIPPED_CODE
+CONTEXT: emma "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}\nAnd I'll send you nudes so that you won't forget me."
+ASLI   : '{2}{6}* whispering *{5}{1}\nAnd I'll send you nudes so that you won't forget me.'
+----------------------------------------
+
+BARIS 169 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/020.webp") with dissolve
+ASLI   : 'images/episode1/020.webp'
+----------------------------------------
+
+BARIS 172 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/021.webp") with dissolve
+ASLI   : 'images/episode1/021.webp'
+----------------------------------------
+
+BARIS 176 | STATUS: SKIPPED_CODE
+CONTEXT: show screen ui_message("Sunday") with long_dissolve
+ASLI   : 'Sunday'
+----------------------------------------
+
+BARIS 181 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/022.webp") with dissolve
+ASLI   : 'images/episode1/022.webp'
+----------------------------------------
+
+BARIS 183 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I slept like a log. Last night was crazy.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I slept like a log. Last night was crazy.{3}'
+----------------------------------------
+
+BARIS 184 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/023.webp") with dissolve
+ASLI   : 'images/episode1/023.webp'
+----------------------------------------
+
+BARIS 185 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}She's so beautiful when she's sleeping. I'm gonna miss spending time with her.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}She's so beautiful when she's sleeping. I'm gonna miss spending time with her.{3}'
+----------------------------------------
+
+BARIS 186 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Spending time? Who am I kidding? I'm gonna miss fucking her.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}Spending time? Who am I kidding? I'm gonna miss fucking her.{3}'
+----------------------------------------
+
+BARIS 187 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I should go take a shower.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I should go take a shower.{3}'
+----------------------------------------
+
+BARIS 188 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/024.webp") with dissolve
+ASLI   : 'images/episode1/024.webp'
+----------------------------------------
+
+BARIS 189 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}I should tell Emma the real reason why we're leaving.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}I should tell Emma the real reason why we're leaving.{3}'
+----------------------------------------
+
+BARIS 190 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}But what if she's really like my [sister] says?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}But what if she's really like my [17] says?{3}'
+----------------------------------------
+
+BARIS 191 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/025.webp") with dissolve
+ASLI   : 'images/episode1/025.webp'
+----------------------------------------
+
+BARIS 192 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}What if she's actually with me only for the money. I mean, I'm not the best looking guy.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}What if she's actually with me only for the money. I mean, I'm not the best looking guy.{3}'
+----------------------------------------
+
+BARIS 193 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}The sex is good, but I feel like I should be able to talk about everything with my girlfriend.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}The sex is good, but I feel like I should be able to talk about everything with my girlfriend.{3}'
+----------------------------------------
+
+BARIS 194 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/026.webp") with dissolve
+ASLI   : 'images/episode1/026.webp'
+----------------------------------------
+
+BARIS 197 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/027.webp") with dissolve
+ASLI   : 'images/episode1/027.webp'
+----------------------------------------
+
+BARIS 200 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/028.webp") with dissolve
+ASLI   : 'images/episode1/028.webp'
+----------------------------------------
+
+BARIS 203 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}She's so crazy and fun when she talks to my dick!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}\n{4}She's so crazy and fun when she talks to my dick!{3}'
+----------------------------------------
+
+BARIS 206 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/029.webp") with dissolve
+ASLI   : 'images/episode1/029.webp'
+----------------------------------------
+
+BARIS 209 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/030.webp") with dissolve
+ASLI   : 'images/episode1/030.webp'
+----------------------------------------
+
+BARIS 214 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/031.webp") with dissolve
+ASLI   : 'images/episode1/031.webp'
+----------------------------------------
+
+BARIS 219 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/032.webp") with long_dissolve
+ASLI   : 'images/episode1/032.webp'
+----------------------------------------
+
+BARIS 222 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/033.webp") with dissolve
+ASLI   : 'images/episode1/033.webp'
+----------------------------------------
+
+BARIS 228 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/034.webp") with long_dissolve
+ASLI   : 'images/episode1/034.webp'
+----------------------------------------
+
+BARIS 229 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHere we go. After spending my whole life in one city I'm finally moving to a different one.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nHere we go. After spending my whole life in one city I'm finally moving to a different one.{3}'
+----------------------------------------
+
+BARIS 230 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/035.webp") with dissolve
+ASLI   : 'images/episode1/035.webp'
+----------------------------------------
+
+BARIS 231 | STATUS: SKIPPED_CODE
+CONTEXT: play sound "audio/fx/notification_5.mp3"
+ASLI   : 'audio/fx/notification_5.mp3'
+----------------------------------------
+
+BARIS 233 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/034.webp") with dissolve
+ASLI   : 'images/episode1/034.webp'
+----------------------------------------
+
+BARIS 234 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI can't say that I wanted to stay there forever, but I always imagined myself moving out on my own at this age, not like this.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI can't say that I wanted to stay there forever, but I always imagined myself moving out on my own at this age, not like this.{3}'
+----------------------------------------
+
+BARIS 235 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/035.webp") with dissolve
+ASLI   : 'images/episode1/035.webp'
+----------------------------------------
+
+BARIS 236 | STATUS: SKIPPED_CODE
+CONTEXT: play sound "audio/fx/notification_5.mp3"
+ASLI   : 'audio/fx/notification_5.mp3'
+----------------------------------------
+
+BARIS 238 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/034.webp") with dissolve
+ASLI   : 'images/episode1/034.webp'
+----------------------------------------
+
+BARIS 239 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'm 20 already. My life is going nowhere. I always planned to get my [father]'s company one day, but after what happened, now I don't know what to do with my life.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI'm 20 already. My life is going nowhere. I always planned to get my [15]'s company one day, but after what happened, now I don't know what to do with my life.{3}'
+----------------------------------------
+
+BARIS 240 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/035.webp") with dissolve
+ASLI   : 'images/episode1/035.webp'
+----------------------------------------
+
+BARIS 241 | STATUS: SKIPPED_CODE
+CONTEXT: play sound "audio/fx/notification_5.mp3"
+ASLI   : 'audio/fx/notification_5.mp3'
+----------------------------------------
+
+BARIS 243 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/034.webp") with dissolve
+ASLI   : 'images/episode1/034.webp'
+----------------------------------------
+
+BARIS 244 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWe went bankrupt. We lost everything and now we're moving to a city where my [father]'s partners are. A friend of his will let us stay there, but who knows for how long.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWe went bankrupt. We lost everything and now we're moving to a city where my [15]'s partners are. A friend of his will let us stay there, but who knows for how long.{3}'
+----------------------------------------
+
+BARIS 245 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/035.webp") with dissolve
+ASLI   : 'images/episode1/035.webp'
+----------------------------------------
+
+BARIS 246 | STATUS: SKIPPED_CODE
+CONTEXT: play sound "audio/fx/notification_5.mp3"
+ASLI   : 'audio/fx/notification_5.mp3'
+----------------------------------------
+
+BARIS 248 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/036.webp") with dissolve
+ASLI   : 'images/episode1/036.webp'
+----------------------------------------
+
+BARIS 250 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/037.webp") with dissolve
+ASLI   : 'images/episode1/037.webp'
+----------------------------------------
+
+BARIS 251 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's Patricia, or Tris as people call her. She's my younger [sister]. Always acting like she deserves everything. Just like now. \nI'm talking, and she doesn't even bother answering me.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThat's Patricia, or Tris as people call her. She's my younger [17]. Always acting like she deserves everything. Just like now. \nI'm talking, and she doesn't even bother answering me.{3}'
+----------------------------------------
+
+BARIS 252 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWe used to get along quite well, but for the past few months it's like she went mad. I don't know what's gotten into her, but I can't even have a normal conversation with her.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWe used to get along quite well, but for the past few months it's like she went mad. I don't know what's gotten into her, but I can't even have a normal conversation with her.{3}'
+----------------------------------------
+
+BARIS 253 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/036.webp") with dissolve
+ASLI   : 'images/episode1/036.webp'
+----------------------------------------
+
+BARIS 255 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/038.webp") with dissolve
+ASLI   : 'images/episode1/038.webp'
+----------------------------------------
+
+BARIS 259 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/039.webp") with dissolve
+ASLI   : 'images/episode1/039.webp'
+----------------------------------------
+
+BARIS 262 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/040.webp") with dissolve
+ASLI   : 'images/episode1/040.webp'
+----------------------------------------
+
+BARIS 263 | STATUS: SKIPPED_CODE
+CONTEXT: patricia "Umm... Nah! \nI'm comfortable."
+ASLI   : 'Umm... Nah! \nI'm comfortable.'
+----------------------------------------
+
+BARIS 264 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/041.webp") with dissolve
+ASLI   : 'images/episode1/041.webp'
+----------------------------------------
+
+BARIS 266 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/042.webp") with dissolve
+ASLI   : 'images/episode1/042.webp'
+----------------------------------------
+
+BARIS 268 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's my [dad]. The guy who lost everything. He says that we're young adults, but he never told us how he managed to lose everything.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThat's my [1]. The guy who lost everything. He says that we're young adults, but he never told us how he managed to lose everything.{3}'
+----------------------------------------
+
+BARIS 269 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIt was just \"Kids, we're bankrupt and we have to move!\". No explanation, no nothing. He doesn't respect us and never has, but now he expects us to behave like young adults!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nIt was just \'
+----------------------------------------
+
+BARIS 270 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/043.webp") with dissolve
+ASLI   : 'images/episode1/043.webp'
+----------------------------------------
+
+BARIS 272 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnd that's my [mom]. She's the only normal person in this [family]. She used to be a simple country girl, but then she married [dad], and he kinda gave her everything she wanted.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nAnd that's my [6]. She's the only normal person in this [16]. She used to be a simple country girl, but then she married [1], and he kinda gave her everything she wanted.{3}'
+----------------------------------------
+
+BARIS 273 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nSo she might be a bit spoiled, but even so she took the whole bankruptcy pretty well. I guess the fact that she was not always wealthy made her a bit stronger, unlike [dad] and [sis], maybe even myself.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nSo she might be a bit spoiled, but even so she took the whole bankruptcy pretty well. I guess the fact that she was not always wealthy made her a bit stronger, unlike [1] and [10], maybe even myself.{3}'
+----------------------------------------
+
+BARIS 274 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/044.webp") with dissolve
+ASLI   : 'images/episode1/044.webp'
+----------------------------------------
+
+BARIS 279 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/045.webp") with dissolve
+ASLI   : 'images/episode1/045.webp'
+----------------------------------------
+
+BARIS 283 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/046.webp") with dissolve
+ASLI   : 'images/episode1/046.webp'
+----------------------------------------
+
+BARIS 284 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWe had it coming.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWe had it coming.{3}'
+----------------------------------------
+
+BARIS 285 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLately [mom] and [dad] argue a lot. I think this whole situation had an impact on their relationship.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nLately [6] and [1] argue a lot. I think this whole situation had an impact on their relationship.{3}'
+----------------------------------------
+
+BARIS 286 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nNow I feel bad for causing this situation. I should have just left Tris alone.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nNow I feel bad for causing this situation. I should have just left Tris alone.{3}'
+----------------------------------------
+
+BARIS 287 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI hate it when these two argue. It feels like forever since we've been happy. I can't believe how going broke can ruin a [family].{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI hate it when these two argue. It feels like forever since we've been happy. I can't believe how going broke can ruin a [16].{3}'
+----------------------------------------
+
+BARIS 288 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI just hope they won't get divorced. I'd hate that, but knowing [dad] he'll do everything he can to not lose [mom] and get his company back.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI just hope they won't get divorced. I'd hate that, but knowing [1] he'll do everything he can to not lose [6] and get his company back.{3}'
+----------------------------------------
+
+BARIS 289 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHe was always like that and he constantly tried to make me be like him. Thanks to him, I'm no quitter either.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nHe was always like that and he constantly tried to make me be like him. Thanks to him, I'm no quitter either.{3}'
+----------------------------------------
+
+BARIS 294 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/047.webp") with long_dissolve
+ASLI   : 'images/episode1/047.webp'
+----------------------------------------
+
+BARIS 300 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/048.webp") with dissolve
+ASLI   : 'images/episode1/048.webp'
+----------------------------------------
+
+BARIS 301 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nGood thing we're happy.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nGood thing we're happy.{3}'
+----------------------------------------
+
+BARIS 302 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/049.webp") with dissolve
+ASLI   : 'images/episode1/049.webp'
+----------------------------------------
+
+BARIS 303 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nMy back hurts already just thinking about how many boxes we'll have to carry inside.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nMy back hurts already just thinking about how many boxes we'll have to carry inside.{3}'
+----------------------------------------
+
+BARIS 304 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/050.webp") with dissolve
+ASLI   : 'images/episode1/050.webp'
+----------------------------------------
+
+BARIS 308 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/051.webp") with dissolve
+ASLI   : 'images/episode1/051.webp'
+----------------------------------------
+
+BARIS 312 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/052.webp") with dissolve
+ASLI   : 'images/episode1/052.webp'
+----------------------------------------
+
+BARIS 314 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat's what I thought. He never liked listening to anybody!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThat's what I thought. He never liked listening to anybody!{3}'
+----------------------------------------
+
+BARIS 318 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/053.webp") with dissolve
+ASLI   : 'images/episode1/053.webp'
+----------------------------------------
+
+BARIS 321 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/054.webp") with dissolve
+ASLI   : 'images/episode1/054.webp'
+----------------------------------------
+
+BARIS 324 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/055.webp") with dissolve
+ASLI   : 'images/episode1/055.webp'
+----------------------------------------
+
+BARIS 327 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/056.webp") with dissolve
+ASLI   : 'images/episode1/056.webp'
+----------------------------------------
+
+BARIS 330 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/055.webp") with dissolve
+ASLI   : 'images/episode1/055.webp'
+----------------------------------------
+
+BARIS 333 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/056.webp") with dissolve
+ASLI   : 'images/episode1/056.webp'
+----------------------------------------
+
+BARIS 340 | STATUS: SKIPPED_CODE
+CONTEXT: show screen ui_message("A few hours later") with fade
+ASLI   : 'A few hours later'
+----------------------------------------
+
+BARIS 343 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/057.webp") with dissolve
+ASLI   : 'images/episode1/057.webp'
+----------------------------------------
+
+BARIS 347 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/058.webp") with dissolve
+ASLI   : 'images/episode1/058.webp'
+----------------------------------------
+
+BARIS 350 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/059.webp") with dissolve
+ASLI   : 'images/episode1/059.webp'
+----------------------------------------
+
+BARIS 355 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/060.webp") with dissolve
+ASLI   : 'images/episode1/060.webp'
+----------------------------------------
+
+BARIS 356 | STATUS: SKIPPED_CODE
+CONTEXT: toby "*cough*\nOnly [daughter]!"
+ASLI   : '*cough*\nOnly [11]!'
+----------------------------------------
+
+BARIS 357 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/059.webp") with dissolve
+ASLI   : 'images/episode1/059.webp'
+----------------------------------------
+
+BARIS 363 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/061.webp") with dissolve
+ASLI   : 'images/episode1/061.webp'
+----------------------------------------
+
+BARIS 366 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/062.webp") with dissolve
+ASLI   : 'images/episode1/062.webp'
+----------------------------------------
+
+BARIS 369 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/063.webp") with long_dissolve
+ASLI   : 'images/episode1/063.webp'
+----------------------------------------
+
+BARIS 371 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/066.webp") with dissolve
+ASLI   : 'images/episode1/066.webp'
+----------------------------------------
+
+BARIS 373 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/067.webp") with dissolve
+ASLI   : 'images/episode1/067.webp'
+----------------------------------------
+
+BARIS 375 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/064.webp") with dissolve
+ASLI   : 'images/episode1/064.webp'
+----------------------------------------
+
+BARIS 377 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/065.webp") with dissolve
+ASLI   : 'images/episode1/065.webp'
+----------------------------------------
+
+BARIS 379 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/068.webp") with dissolve
+ASLI   : 'images/episode1/068.webp'
+----------------------------------------
+
+BARIS 381 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/065.webp") with dissolve
+ASLI   : 'images/episode1/065.webp'
+----------------------------------------
+
+BARIS 383 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/068.webp") with dissolve
+ASLI   : 'images/episode1/068.webp'
+----------------------------------------
+
+BARIS 385 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/065.webp") with dissolve
+ASLI   : 'images/episode1/065.webp'
+----------------------------------------
+
+BARIS 387 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/066.webp") with dissolve
+ASLI   : 'images/episode1/066.webp'
+----------------------------------------
+
+BARIS 389 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/064.webp") with dissolve
+ASLI   : 'images/episode1/064.webp'
+----------------------------------------
+
+BARIS 391 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/069.webp") with dissolve
+ASLI   : 'images/episode1/069.webp'
+----------------------------------------
+
+BARIS 393 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/070.webp") with dissolve
+ASLI   : 'images/episode1/070.webp'
+----------------------------------------
+
+BARIS 401 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/071.webp") with long_dissolve
+ASLI   : 'images/episode1/071.webp'
+----------------------------------------
+
+BARIS 402 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI should let Emma know that we have settled in and see what she's doing.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI should let Emma know that we have settled in and see what she's doing.{3}'
+----------------------------------------
+
+BARIS 404 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/072_texting.webp") with dissolve
+ASLI   : 'images/episode1/072_texting.webp'
+----------------------------------------
+
+BARIS 405 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Hey sexy. I have arrived at my new home.\nHow are you?") from _call_sms_sent_4
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 405 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Hey sexy. I have arrived at my new home.\nHow are you?") from _call_sms_sent_4
+ASLI   : 'Hey sexy. I have arrived at my new home.\nHow are you?'
+----------------------------------------
+
+BARIS 406 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Hi sexy!\n I just got out of the shower. How is the new place?") from _call_sms_incoming_5
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 406 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Hi sexy!\n I just got out of the shower. How is the new place?") from _call_sms_incoming_5
+ASLI   : 'Hi sexy!\n I just got out of the shower. How is the new place?'
+----------------------------------------
+
+BARIS 407 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Not as big as the other one, but it's fine.") from _call_sms_sent_5
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 407 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Not as big as the other one, but it's fine.") from _call_sms_sent_5
+ASLI   : 'Not as big as the other one, but it's fine.'
+----------------------------------------
+
+BARIS 408 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Speaking of big. Is it me or did my boobs get a little bit bigger?", img_icon="images/episode1/077_icon.webp", img="images/episode1/077.webp") from _call_sms_incoming_6
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 408 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Speaking of big. Is it me or did my boobs get a little bit bigger?", img_icon="images/episode1/077_icon.webp", img="images/episode1/077.webp") from _call_sms_incoming_6
+ASLI   : 'Speaking of big. Is it me or did my boobs get a little bit bigger?'
+----------------------------------------
+
+BARIS 408 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Speaking of big. Is it me or did my boobs get a little bit bigger?", img_icon="images/episode1/077_icon.webp", img="images/episode1/077.webp") from _call_sms_incoming_6
+ASLI   : 'images/episode1/077_icon.webp'
+----------------------------------------
+
+BARIS 408 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "Speaking of big. Is it me or did my boobs get a little bit bigger?", img_icon="images/episode1/077_icon.webp", img="images/episode1/077.webp") from _call_sms_incoming_6
+ASLI   : 'images/episode1/077.webp'
+----------------------------------------
+
+BARIS 409 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "I need a picture with both your ass and boobs so I can compare them.") from _call_sms_sent_6
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 409 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "I need a picture with both your ass and boobs so I can compare them.") from _call_sms_sent_6
+ASLI   : 'I need a picture with both your ass and boobs so I can compare them.'
+----------------------------------------
+
+BARIS 410 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "You dirty hog.") from _call_sms_incoming_7
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 410 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "You dirty hog.") from _call_sms_incoming_7
+ASLI   : 'You dirty hog.'
+----------------------------------------
+
+BARIS 411 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "So? What do you think?", img_icon="images/episode1/081_icon.webp", img="images/episode1/081.webp") from _call_sms_incoming_8
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 411 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "So? What do you think?", img_icon="images/episode1/081_icon.webp", img="images/episode1/081.webp") from _call_sms_incoming_8
+ASLI   : 'So? What do you think?'
+----------------------------------------
+
+BARIS 411 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "So? What do you think?", img_icon="images/episode1/081_icon.webp", img="images/episode1/081.webp") from _call_sms_incoming_8
+ASLI   : 'images/episode1/081_icon.webp'
+----------------------------------------
+
+BARIS 411 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "So? What do you think?", img_icon="images/episode1/081_icon.webp", img="images/episode1/081.webp") from _call_sms_incoming_8
+ASLI   : 'images/episode1/081.webp'
+----------------------------------------
+
+BARIS 412 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShe's so hot! I can't believe she's my girlfriend.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nShe's so hot! I can't believe she's my girlfriend.{3}'
+----------------------------------------
+
+BARIS 415 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Yeah, you're right, your boobs got a little bit bigger.") from _call_sms_sent_7
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 415 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_sent ("emma", "Yeah, you're right, your boobs got a little bit bigger.") from _call_sms_sent_7
+ASLI   : 'Yeah, you're right, your boobs got a little bit bigger.'
+----------------------------------------
+
+BARIS 416 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "How big? I need a dick pic, so I can compare.") from _call_sms_incoming_9
+ASLI   : 'emma'
+----------------------------------------
+
+BARIS 416 | STATUS: SKIPPED_CODE
+CONTEXT: call sms_incoming ("emma", "How big? I need a dick pic, so I can compare.") from _call_sms_incoming_9
+ASLI   : 'How big? I need a dick pic, so I can compare.'
+----------------------------------------
+
+BARIS 420 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/084.webp") with dissolve
+ASLI   : 'images/episode1/084.webp'
+----------------------------------------
+
+BARIS 423 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/085.webp") with dissolve
+ASLI   : 'images/episode1/085.webp'
+----------------------------------------
+
+BARIS 424 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIf the lady wants, the lady wants. You can't argue with that.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nIf the lady wants, the lady wants. You can't argue with that.{3}'
+----------------------------------------
+
+BARIS 425 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/086.webp") with dissolve
+ASLI   : 'images/episode1/086.webp'
+----------------------------------------
+
+BARIS 429 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/087.webp") with dissolve
+ASLI   : 'images/episode1/087.webp'
+----------------------------------------
+
+BARIS 433 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/088.webp") with dissolve
+ASLI   : 'images/episode1/088.webp'
+----------------------------------------
+
+BARIS 435 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/089.webp") with dissolve
+ASLI   : 'images/episode1/089.webp'
+----------------------------------------
+
+BARIS 438 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/090.webp") with dissolve
+ASLI   : 'images/episode1/090.webp'
+----------------------------------------
+
+BARIS 439 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThis was so good. It's nice to release some stress after such a day.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThis was so good. It's nice to release some stress after such a day.{3}'
+----------------------------------------
+
+BARIS 440 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/091.webp") with dissolve
+ASLI   : 'images/episode1/091.webp'
+----------------------------------------
+
+BARIS 441 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI should take a shower now.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI should take a shower now.{3}'
+----------------------------------------
+
+BARIS 442 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/092.webp") with dissolve
+ASLI   : 'images/episode1/092.webp'
+----------------------------------------
+
+BARIS 443 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nUmm. Where should I put my blanket? This room is so small.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nUmm. Where should I put my blanket? This room is so small.{3}'
+----------------------------------------
+
+BARIS 444 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/093.webp") with dissolve
+ASLI   : 'images/episode1/093.webp'
+----------------------------------------
+
+BARIS 448 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/094.webp") with dissolve
+ASLI   : 'images/episode1/094.webp'
+----------------------------------------
+
+BARIS 450 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/095.webp") with dissolve
+ASLI   : 'images/episode1/095.webp'
+----------------------------------------
+
+BARIS 458 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/096.webp") with dissolve
+ASLI   : 'images/episode1/096.webp'
+----------------------------------------
+
+BARIS 463 | STATUS: SKIPPED_CODE
+CONTEXT: show screen ui_message("Monday") with dissolve
+ASLI   : 'Monday'
+----------------------------------------
+
+BARIS 466 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/097.webp") with dissolve
+ASLI   : 'images/episode1/097.webp'
+----------------------------------------
+
+BARIS 468 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nMan, I slept like a log. I wonder what time it is.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nMan, I slept like a log. I wonder what time it is.{3}'
+----------------------------------------
+
+BARIS 469 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/098.webp") with dissolve
+ASLI   : 'images/episode1/098.webp'
+----------------------------------------
+
+BARIS 470 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShit, Tris is getting ready for school. What should I do?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nShit, Tris is getting ready for school. What should I do?{3}'
+----------------------------------------
+
+BARIS 476 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/099.webp") with dissolve
+ASLI   : 'images/episode1/099.webp'
+----------------------------------------
+
+BARIS 477 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'll be damned. Look at those perky boobs. She looks so good!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI'll be damned. Look at those perky boobs. She looks so good!{3}'
+----------------------------------------
+
+BARIS 478 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/100.webp") with dissolve
+ASLI   : 'images/episode1/100.webp'
+----------------------------------------
+
+BARIS 479 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nToo bad I have a girlfriend.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nToo bad I have a girlfriend.{3}'
+----------------------------------------
+
+BARIS 480 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/101.webp") with dissolve
+ASLI   : 'images/episode1/101.webp'
+----------------------------------------
+
+BARIS 481 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nDamn it [toby!c]. She's your [sister], stupid. You can't look at your [sister] like that.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nDamn it [4]. She's your [17], stupid. You can't look at your [17] like that.{3}'
+----------------------------------------
+
+BARIS 482 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/102.webp") with dissolve
+ASLI   : 'images/episode1/102.webp'
+----------------------------------------
+
+BARIS 483 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nEven though she's hot as hell.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nEven though she's hot as hell.{3}'
+----------------------------------------
+
+BARIS 485 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/101.webp") with dissolve
+ASLI   : 'images/episode1/101.webp'
+----------------------------------------
+
+BARIS 486 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nNope. Not today. Today I'm a good [brother].{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nNope. Not today. Today I'm a good [5].{3}'
+----------------------------------------
+
+BARIS 487 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/103.webp") with dissolve
+ASLI   : 'images/episode1/103.webp'
+----------------------------------------
+
+BARIS 488 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nNew day, new city. I feel like I should help [dad] with money, but I'm not sure what I could do to earn it.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nNew day, new city. I feel like I should help [1] with money, but I'm not sure what I could do to earn it.{3}'
+----------------------------------------
+
+BARIS 489 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI could always go job hunting, but the only job I ever had was in my [dad]'s company and let's be honest, I was kinda spoiled.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI could always go job hunting, but the only job I ever had was in my [1]'s company and let's be honest, I was kinda spoiled.{3}'
+----------------------------------------
+
+BARIS 490 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nNobody really expected me to do anything anyway, so it's really still like I've never worked a day in my whole life.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nNobody really expected me to do anything anyway, so it's really still like I've never worked a day in my whole life.{3}'
+----------------------------------------
+
+BARIS 491 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/104.webp") with dissolve
+ASLI   : 'images/episode1/104.webp'
+----------------------------------------
+
+BARIS 492 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnyway, I'm starving. Let's see what we have in the fridge, if anything.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nAnyway, I'm starving. Let's see what we have in the fridge, if anything.{3}'
+----------------------------------------
+
+BARIS 493 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/105.webp") with dissolve
+ASLI   : 'images/episode1/105.webp'
+----------------------------------------
+
+BARIS 495 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/106.webp") with dissolve
+ASLI   : 'images/episode1/106.webp'
+----------------------------------------
+
+BARIS 497 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/107.webp") with dissolve
+ASLI   : 'images/episode1/107.webp'
+----------------------------------------
+
+BARIS 501 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/108.webp") with dissolve
+ASLI   : 'images/episode1/108.webp'
+----------------------------------------
+
+BARIS 507 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/109.webp") with dissolve
+ASLI   : 'images/episode1/109.webp'
+----------------------------------------
+
+BARIS 510 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/110.webp") with dissolve
+ASLI   : 'images/episode1/110.webp'
+----------------------------------------
+
+BARIS 520 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/110.webp") with dissolve
+ASLI   : 'images/episode1/110.webp'
+----------------------------------------
+
+BARIS 525 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/111.webp") with dissolve
+ASLI   : 'images/episode1/111.webp'
+----------------------------------------
+
+BARIS 529 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/112.webp") with dissolve
+ASLI   : 'images/episode1/112.webp'
+----------------------------------------
+
+BARIS 534 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/113.webp") with dissolve
+ASLI   : 'images/episode1/113.webp'
+----------------------------------------
+
+BARIS 541 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/114.webp") with dissolve
+ASLI   : 'images/episode1/114.webp'
+----------------------------------------
+
+BARIS 542 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\n[mom!c]'s cleavage is huge!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\n[12]'s cleavage is huge!{3}'
+----------------------------------------
+
+BARIS 547 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/115.webp") with dissolve
+ASLI   : 'images/episode1/115.webp'
+----------------------------------------
+
+BARIS 548 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI can't believe how good she looks for a woman her age.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI can't believe how good she looks for a woman her age.{3}'
+----------------------------------------
+
+BARIS 549 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/116.webp") with dissolve
+ASLI   : 'images/episode1/116.webp'
+----------------------------------------
+
+BARIS 551 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/117.webp") with dissolve
+ASLI   : 'images/episode1/117.webp'
+----------------------------------------
+
+BARIS 553 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/118.webp") with dissolve
+ASLI   : 'images/episode1/118.webp'
+----------------------------------------
+
+BARIS 555 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/118.webp") with dissolve
+ASLI   : 'images/episode1/118.webp'
+----------------------------------------
+
+BARIS 560 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/119.webp") with dissolve
+ASLI   : 'images/episode1/119.webp'
+----------------------------------------
+
+BARIS 565 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/120.webp") with dissolve
+ASLI   : 'images/episode1/120.webp'
+----------------------------------------
+
+BARIS 569 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/119.webp") with dissolve
+ASLI   : 'images/episode1/119.webp'
+----------------------------------------
+
+BARIS 574 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/121.webp") with dissolve
+ASLI   : 'images/episode1/121.webp'
+----------------------------------------
+
+BARIS 579 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/119.webp") with dissolve
+ASLI   : 'images/episode1/119.webp'
+----------------------------------------
+
+BARIS 585 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/121.webp") with dissolve
+ASLI   : 'images/episode1/121.webp'
+----------------------------------------
+
+BARIS 587 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/122.webp") with dissolve
+ASLI   : 'images/episode1/122.webp'
+----------------------------------------
+
+BARIS 592 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/123.webp") with dissolve
+ASLI   : 'images/episode1/123.webp'
+----------------------------------------
+
+BARIS 593 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\n[mom!c] is right. I should talk to Emma about what really happened. Maybe when she comes to visit me I'll tell her the truth.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\n[12] is right. I should talk to Emma about what really happened. Maybe when she comes to visit me I'll tell her the truth.{3}'
+----------------------------------------
+
+BARIS 594 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/124.webp") with long_dissolve
+ASLI   : 'images/episode1/124.webp'
+----------------------------------------
+
+BARIS 595 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLet's see what's up with this job?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nLet's see what's up with this job?{3}'
+----------------------------------------
+
+BARIS 596 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/125.webp") with dissolve
+ASLI   : 'images/episode1/125.webp'
+----------------------------------------
+
+BARIS 599 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nGood morning. Yes, the job is still available. \nHave you ever worked as a real estate agent before?"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nGood morning. Yes, the job is still available. \nHave you ever worked as a real estate agent before?'
+----------------------------------------
+
+BARIS 601 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nHow old are you?"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nHow old are you?'
+----------------------------------------
+
+BARIS 603 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nI understand. Are you available today at 11 AM for an interview?"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nI understand. Are you available today at 11 AM for an interview?'
+----------------------------------------
+
+BARIS 605 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nI'm glad to hear it. I'll text you the details."
+ASLI   : '{2}{6}* on the phone *{5}{1}\nI'm glad to hear it. I'll text you the details.'
+----------------------------------------
+
+BARIS 607 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nWhat was your name?"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nWhat was your name?'
+----------------------------------------
+
+BARIS 610 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nOkay [toby!c]. See you later!"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nOkay [4]. See you later!'
+----------------------------------------
+
+BARIS 612 | STATUS: SKIPPED_CODE
+CONTEXT: woman "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nHave a good day!"
+ASLI   : '{2}{6}* on the phone *{5}{1}\nHave a good day!'
+----------------------------------------
+
+BARIS 614 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/126.webp") with dissolve
+ASLI   : 'images/episode1/126.webp'
+----------------------------------------
+
+BARIS 615 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWell, that was easy. I never knew it was this easy to get a job!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWell, that was easy. I never knew it was this easy to get a job!{3}'
+----------------------------------------
+
+BARIS 616 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOr maybe I'm just a lucky guy.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nOr maybe I'm just a lucky guy.{3}'
+----------------------------------------
+
+BARIS 617 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/127.webp") with dissolve
+ASLI   : 'images/episode1/127.webp'
+----------------------------------------
+
+BARIS 618 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLet's see what's on TV.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nLet's see what's on TV.{3}'
+----------------------------------------
+
+BARIS 619 | STATUS: SKIPPED_CODE
+CONTEXT: show screen ui_message("A short time later") with dissolve
+ASLI   : 'A short time later'
+----------------------------------------
+
+BARIS 622 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/128.webp") with dissolve
+ASLI   : 'images/episode1/128.webp'
+----------------------------------------
+
+BARIS 626 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/129.webp") with dissolve
+ASLI   : 'images/episode1/129.webp'
+----------------------------------------
+
+BARIS 629 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/130.webp") with dissolve
+ASLI   : 'images/episode1/130.webp'
+----------------------------------------
+
+BARIS 637 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/131.webp") with dissolve
+ASLI   : 'images/episode1/131.webp'
+----------------------------------------
+
+BARIS 641 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/132.webp") with dissolve
+ASLI   : 'images/episode1/132.webp'
+----------------------------------------
+
+BARIS 643 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/133.webp") with long_dissolve
+ASLI   : 'images/episode1/133.webp'
+----------------------------------------
+
+BARIS 647 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/134.webp") with dissolve
+ASLI   : 'images/episode1/134.webp'
+----------------------------------------
+
+BARIS 653 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/135.webp") with dissolve
+ASLI   : 'images/episode1/135.webp'
+----------------------------------------
+
+BARIS 660 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/136.webp") with long_dissolve
+ASLI   : 'images/episode1/136.webp'
+----------------------------------------
+
+BARIS 666 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/137.webp") with dissolve
+ASLI   : 'images/episode1/137.webp'
+----------------------------------------
+
+BARIS 671 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/138.webp") with dissolve
+ASLI   : 'images/episode1/138.webp'
+----------------------------------------
+
+BARIS 675 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/139.webp") with dissolve
+ASLI   : 'images/episode1/139.webp'
+----------------------------------------
+
+BARIS 677 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/140.webp") with dissolve
+ASLI   : 'images/episode1/140.webp'
+----------------------------------------
+
+BARIS 679 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/139.webp") with dissolve
+ASLI   : 'images/episode1/139.webp'
+----------------------------------------
+
+BARIS 681 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/140.webp") with dissolve
+ASLI   : 'images/episode1/140.webp'
+----------------------------------------
+
+BARIS 683 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/139.webp") with dissolve
+ASLI   : 'images/episode1/139.webp'
+----------------------------------------
+
+BARIS 685 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/140.webp") with dissolve
+ASLI   : 'images/episode1/140.webp'
+----------------------------------------
+
+BARIS 687 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/141.webp") with dissolve
+ASLI   : 'images/episode1/141.webp'
+----------------------------------------
+
+BARIS 692 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/139.webp") with dissolve
+ASLI   : 'images/episode1/139.webp'
+----------------------------------------
+
+BARIS 694 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/140.webp") with dissolve
+ASLI   : 'images/episode1/140.webp'
+----------------------------------------
+
+BARIS 696 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/142.webp") with dissolve
+ASLI   : 'images/episode1/142.webp'
+----------------------------------------
+
+BARIS 698 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/143.webp") with dissolve
+ASLI   : 'images/episode1/143.webp'
+----------------------------------------
+
+BARIS 702 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/144.webp") with dissolve
+ASLI   : 'images/episode1/144.webp'
+----------------------------------------
+
+BARIS 704 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThis woman is crazy.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThis woman is crazy.{3}'
+----------------------------------------
+
+BARIS 710 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/145.webp") with dissolve
+ASLI   : 'images/episode1/145.webp'
+----------------------------------------
+
+BARIS 718 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/145.webp") with dissolve
+ASLI   : 'images/episode1/145.webp'
+----------------------------------------
+
+BARIS 722 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/146.webp") with dissolve
+ASLI   : 'images/episode1/146.webp'
+----------------------------------------
+
+BARIS 724 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/147.webp") with dissolve
+ASLI   : 'images/episode1/147.webp'
+----------------------------------------
+
+BARIS 727 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/148.webp") with dissolve
+ASLI   : 'images/episode1/148.webp'
+----------------------------------------
+
+BARIS 728 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIs she really asking me this? What kind of interview is this?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nIs she really asking me this? What kind of interview is this?{3}'
+----------------------------------------
+
+BARIS 729 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/149.webp") with dissolve:
+ASLI   : 'images/episode1/149.webp'
+----------------------------------------
+
+BARIS 738 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/150.webp") with dissolve
+ASLI   : 'images/episode1/150.webp'
+----------------------------------------
+
+BARIS 741 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/151.webp") with dissolve
+ASLI   : 'images/episode1/151.webp'
+----------------------------------------
+
+BARIS 744 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/152.webp") with dissolve
+ASLI   : 'images/episode1/152.webp'
+----------------------------------------
+
+BARIS 747 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/153.webp") with dissolve
+ASLI   : 'images/episode1/153.webp'
+----------------------------------------
+
+BARIS 749 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/154.webp") with dissolve
+ASLI   : 'images/episode1/154.webp'
+----------------------------------------
+
+BARIS 752 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nGirlfriend? My future boss is a lesbian? Wow!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nGirlfriend? My future boss is a lesbian? Wow!{3}'
+----------------------------------------
+
+BARIS 755 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/155.webp") with dissolve
+ASLI   : 'images/episode1/155.webp'
+----------------------------------------
+
+BARIS 758 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/156.webp") with dissolve
+ASLI   : 'images/episode1/156.webp'
+----------------------------------------
+
+BARIS 761 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/157.webp") with dissolve
+ASLI   : 'images/episode1/157.webp'
+----------------------------------------
+
+BARIS 764 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/158.webp") with dissolve
+ASLI   : 'images/episode1/158.webp'
+----------------------------------------
+
+BARIS 765 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOkay... That was very suspicious.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nOkay... That was very suspicious.{3}'
+----------------------------------------
+
+BARIS 766 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/159.webp") with dissolve
+ASLI   : 'images/episode1/159.webp'
+----------------------------------------
+
+BARIS 772 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/160.webp") with dissolve
+ASLI   : 'images/episode1/160.webp'
+----------------------------------------
+
+BARIS 776 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/161.webp") with dissolve
+ASLI   : 'images/episode1/161.webp'
+----------------------------------------
+
+BARIS 782 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/162.webp") with dissolve
+ASLI   : 'images/episode1/162.webp'
+----------------------------------------
+
+BARIS 789 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/163.webp") with dissolve
+ASLI   : 'images/episode1/163.webp'
+----------------------------------------
+
+BARIS 791 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/164.webp") with dissolve
+ASLI   : 'images/episode1/164.webp'
+----------------------------------------
+
+BARIS 797 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/162.webp") with dissolve
+ASLI   : 'images/episode1/162.webp'
+----------------------------------------
+
+BARIS 803 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/163.webp") with dissolve
+ASLI   : 'images/episode1/163.webp'
+----------------------------------------
+
+BARIS 807 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/165.webp") with dissolve
+ASLI   : 'images/episode1/165.webp'
+----------------------------------------
+
+BARIS 816 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/166.webp") with dissolve
+ASLI   : 'images/episode1/166.webp'
+----------------------------------------
+
+BARIS 818 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/167.webp") with dissolve
+ASLI   : 'images/episode1/167.webp'
+----------------------------------------
+
+BARIS 821 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/168.webp") with dissolve
+ASLI   : 'images/episode1/168.webp'
+----------------------------------------
+
+BARIS 824 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/169.webp") with dissolve
+ASLI   : 'images/episode1/169.webp'
+----------------------------------------
+
+BARIS 834 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/170.webp") with long_dissolve
+ASLI   : 'images/episode1/170.webp'
+----------------------------------------
+
+BARIS 835 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThat interview was really something. It wasn't what I expected, but both Darlene and Katrina were really interesting women.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThat interview was really something. It wasn't what I expected, but both Darlene and Katrina were really interesting women.{3}'
+----------------------------------------
+
+BARIS 836 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI wonder who I should call. On one hand working as a real estate agent would be stable income and a safe job.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI wonder who I should call. On one hand working as a real estate agent would be stable income and a safe job.{3}'
+----------------------------------------
+
+BARIS 837 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/171.webp") with dissolve
+ASLI   : 'images/episode1/171.webp'
+----------------------------------------
+
+BARIS 838 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOn the other hand Katrina's life sounds interesting. I'm not so sure about the drugs thing, but from what Darlene said it does sound interesting.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nOn the other hand Katrina's life sounds interesting. I'm not so sure about the drugs thing, but from what Darlene said it does sound interesting.{3}'
+----------------------------------------
+
+BARIS 839 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI don't know what to do. I'll have to think more about it.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI don't know what to do. I'll have to think more about it.{3}'
+----------------------------------------
+
+BARIS 840 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnyway, let's go pick up Tris from school.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nAnyway, let's go pick up Tris from school.{3}'
+----------------------------------------
+
+BARIS 841 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/172.webp") with dissolve
+ASLI   : 'images/episode1/172.webp'
+----------------------------------------
+
+BARIS 842 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI should text Tris that I'm here.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI should text Tris that I'm here.{3}'
+----------------------------------------
+
+BARIS 843 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/173.webp") with dissolve
+ASLI   : 'images/episode1/173.webp'
+----------------------------------------
+
+BARIS 844 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHere comes the school girl.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nHere comes the school girl.{3}'
+----------------------------------------
+
+BARIS 845 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/174.webp") with dissolve
+ASLI   : 'images/episode1/174.webp'
+----------------------------------------
+
+BARIS 852 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/175.webp") with dissolve
+ASLI   : 'images/episode1/175.webp'
+----------------------------------------
+
+BARIS 858 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/176.webp") with dissolve
+ASLI   : 'images/episode1/176.webp'
+----------------------------------------
+
+BARIS 865 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/177.webp") with long_dissolve
+ASLI   : 'images/episode1/177.webp'
+----------------------------------------
+
+BARIS 868 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/178.webp") with dissolve
+ASLI   : 'images/episode1/178.webp'
+----------------------------------------
+
+BARIS 871 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/179.webp") with dissolve
+ASLI   : 'images/episode1/179.webp'
+----------------------------------------
+
+BARIS 872 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nBoth [mom] and Tris take a long time to get ready.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nBoth [6] and Tris take a long time to get ready.{3}'
+----------------------------------------
+
+BARIS 873 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/180.webp") with dissolve:
+ASLI   : 'images/episode1/180.webp'
+----------------------------------------
+
+BARIS 880 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWow. [mom] looks gorgeous.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWow. [6] looks gorgeous.{3}'
+----------------------------------------
+
+BARIS 884 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/181.webp") with dissolve:
+ASLI   : 'images/episode1/181.webp'
+----------------------------------------
+
+BARIS 891 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nLike [mother], like [daughter].{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nLike [14], like [11].{3}'
+----------------------------------------
+
+BARIS 892 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/182.webp") with dissolve
+ASLI   : 'images/episode1/182.webp'
+----------------------------------------
+
+BARIS 898 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/183.webp") with long_dissolve
+ASLI   : 'images/episode1/183.webp'
+----------------------------------------
+
+BARIS 902 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/184.webp") with dissolve
+ASLI   : 'images/episode1/184.webp'
+----------------------------------------
+
+BARIS 904 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/185.webp") with dissolve
+ASLI   : 'images/episode1/185.webp'
+----------------------------------------
+
+BARIS 907 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/186.webp") with dissolve
+ASLI   : 'images/episode1/186.webp'
+----------------------------------------
+
+BARIS 910 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/187.webp") with dissolve
+ASLI   : 'images/episode1/187.webp'
+----------------------------------------
+
+BARIS 915 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/188.webp") with dissolve
+ASLI   : 'images/episode1/188.webp'
+----------------------------------------
+
+BARIS 919 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/189.webp") with dissolve
+ASLI   : 'images/episode1/189.webp'
+----------------------------------------
+
+BARIS 921 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/190.webp") with dissolve
+ASLI   : 'images/episode1/190.webp'
+----------------------------------------
+
+BARIS 923 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/188.webp") with dissolve
+ASLI   : 'images/episode1/188.webp'
+----------------------------------------
+
+BARIS 925 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/191.webp") with dissolve
+ASLI   : 'images/episode1/191.webp'
+----------------------------------------
+
+BARIS 928 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/192.webp") with dissolve
+ASLI   : 'images/episode1/192.webp'
+----------------------------------------
+
+BARIS 930 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/193.webp") with dissolve
+ASLI   : 'images/episode1/193.webp'
+----------------------------------------
+
+BARIS 932 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/188.webp") with dissolve
+ASLI   : 'images/episode1/188.webp'
+----------------------------------------
+
+BARIS 935 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/194.webp") with dissolve
+ASLI   : 'images/episode1/194.webp'
+----------------------------------------
+
+BARIS 937 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/195.webp") with dissolve
+ASLI   : 'images/episode1/195.webp'
+----------------------------------------
+
+BARIS 940 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/196.webp") with dissolve
+ASLI   : 'images/episode1/196.webp'
+----------------------------------------
+
+BARIS 943 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/197.webp") with dissolve
+ASLI   : 'images/episode1/197.webp'
+----------------------------------------
+
+BARIS 947 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/198.webp") with dissolve
+ASLI   : 'images/episode1/198.webp'
+----------------------------------------
+
+BARIS 948 | STATUS: SKIPPED_CODE
+CONTEXT: toby "Whatever!\nI'll go grab something to drink from the bar. Want anything?"
+ASLI   : 'Whatever!\nI'll go grab something to drink from the bar. Want anything?'
+----------------------------------------
+
+BARIS 951 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/199.webp") with dissolve
+ASLI   : 'images/episode1/199.webp'
+----------------------------------------
+
+BARIS 953 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/200.webp") with dissolve
+ASLI   : 'images/episode1/200.webp'
+----------------------------------------
+
+BARIS 957 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/201.webp") with dissolve
+ASLI   : 'images/episode1/201.webp'
+----------------------------------------
+
+BARIS 959 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/202.webp") with dissolve
+ASLI   : 'images/episode1/202.webp'
+----------------------------------------
+
+BARIS 960 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI hate the idea that maybe Tris is right, but it hurts when she talks like that about my girlfriend.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI hate the idea that maybe Tris is right, but it hurts when she talks like that about my girlfriend.{3}'
+----------------------------------------
+
+BARIS 961 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/203.webp") with dissolve
+ASLI   : 'images/episode1/203.webp'
+----------------------------------------
+
+BARIS 966 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/204.webp") with dissolve
+ASLI   : 'images/episode1/204.webp'
+----------------------------------------
+
+BARIS 973 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/205.webp") with dissolve
+ASLI   : 'images/episode1/205.webp'
+----------------------------------------
+
+BARIS 975 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/206.webp") with dissolve
+ASLI   : 'images/episode1/206.webp'
+----------------------------------------
+
+BARIS 978 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/207.webp") with dissolve
+ASLI   : 'images/episode1/207.webp'
+----------------------------------------
+
+BARIS 981 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/208.webp") with dissolve
+ASLI   : 'images/episode1/208.webp'
+----------------------------------------
+
+BARIS 983 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nDude... She's your [sister]. You can't look at her ass.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nDude... She's your [17]. You can't look at her ass.{3}'
+----------------------------------------
+
+BARIS 984 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/209.webp") with dissolve
+ASLI   : 'images/episode1/209.webp'
+----------------------------------------
+
+BARIS 988 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/210.webp") with dissolve
+ASLI   : 'images/episode1/210.webp'
+----------------------------------------
+
+BARIS 991 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/207.webp") with dissolve
+ASLI   : 'images/episode1/207.webp'
+----------------------------------------
+
+BARIS 993 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/209.webp") with dissolve
+ASLI   : 'images/episode1/209.webp'
+----------------------------------------
+
+BARIS 997 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/211.webp") with dissolve
+ASLI   : 'images/episode1/211.webp'
+----------------------------------------
+
+BARIS 1004 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI have a gorgeous lady at home, but he doesn't need to know that.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI have a gorgeous lady at home, but he doesn't need to know that.{3}'
+----------------------------------------
+
+BARIS 1005 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/212.webp") with dissolve
+ASLI   : 'images/episode1/212.webp'
+----------------------------------------
+
+BARIS 1007 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/213.webp") with dissolve
+ASLI   : 'images/episode1/213.webp'
+----------------------------------------
+
+BARIS 1009 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/214.webp") with dissolve
+ASLI   : 'images/episode1/214.webp'
+----------------------------------------
+
+BARIS 1010 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhich one should I give [mom]?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWhich one should I give [6]?{3}'
+----------------------------------------
+
+BARIS 1017 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/215.webp") with dissolve
+ASLI   : 'images/episode1/215.webp'
+----------------------------------------
+
+BARIS 1020 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/216.webp") with long_dissolve
+ASLI   : 'images/episode1/216.webp'
+----------------------------------------
+
+BARIS 1024 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/217.webp") with dissolve
+ASLI   : 'images/episode1/217.webp'
+----------------------------------------
+
+BARIS 1027 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/218.webp") with dissolve
+ASLI   : 'images/episode1/218.webp'
+----------------------------------------
+
+BARIS 1029 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/219.webp") with dissolve
+ASLI   : 'images/episode1/219.webp'
+----------------------------------------
+
+BARIS 1031 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/220.webp") with long_dissolve
+ASLI   : 'images/episode1/220.webp'
+----------------------------------------
+
+BARIS 1038 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/221.webp") with dissolve
+ASLI   : 'images/episode1/221.webp'
+----------------------------------------
+
+BARIS 1041 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/222.webp") with dissolve
+ASLI   : 'images/episode1/222.webp'
+----------------------------------------
+
+BARIS 1044 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/223.webp") with dissolve
+ASLI   : 'images/episode1/223.webp'
+----------------------------------------
+
+BARIS 1048 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/221.webp") with dissolve
+ASLI   : 'images/episode1/221.webp'
+----------------------------------------
+
+BARIS 1051 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/224.webp") with dissolve
+ASLI   : 'images/episode1/224.webp'
+----------------------------------------
+
+BARIS 1054 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/225.webp") with dissolve
+ASLI   : 'images/episode1/225.webp'
+----------------------------------------
+
+BARIS 1058 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/226.webp") with dissolve
+ASLI   : 'images/episode1/226.webp'
+----------------------------------------
+
+BARIS 1062 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/227_1.webp") with dissolve
+ASLI   : 'images/episode1/227_1.webp'
+----------------------------------------
+
+BARIS 1064 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/227_2.webp") with dissolve
+ASLI   : 'images/episode1/227_2.webp'
+----------------------------------------
+
+BARIS 1066 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/228.webp") with dissolve
+ASLI   : 'images/episode1/228.webp'
+----------------------------------------
+
+BARIS 1068 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/229.webp") with dissolve
+ASLI   : 'images/episode1/229.webp'
+----------------------------------------
+
+BARIS 1070 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/230.webp") with dissolve
+ASLI   : 'images/episode1/230.webp'
+----------------------------------------
+
+BARIS 1072 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/231.webp") with dissolve
+ASLI   : 'images/episode1/231.webp'
+----------------------------------------
+
+BARIS 1074 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/232.webp") with dissolve
+ASLI   : 'images/episode1/232.webp'
+----------------------------------------
+
+BARIS 1075 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShit the way she looks at me made me so horny and now I have a boner!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nShit the way she looks at me made me so horny and now I have a boner!{3}'
+----------------------------------------
+
+BARIS 1076 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/233.webp") with dissolve
+ASLI   : 'images/episode1/233.webp'
+----------------------------------------
+
+BARIS 1077 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nShe noticed. Fuck, fuck, fuck my life.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nShe noticed. Fuck, fuck, fuck my life.{3}'
+----------------------------------------
+
+BARIS 1079 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/234.webp") with dissolve
+ASLI   : 'images/episode1/234.webp'
+----------------------------------------
+
+BARIS 1082 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/235.webp") with dissolve
+ASLI   : 'images/episode1/235.webp'
+----------------------------------------
+
+BARIS 1084 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/237.webp") with dissolve
+ASLI   : 'images/episode1/237.webp'
+----------------------------------------
+
+BARIS 1087 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/236.webp") with dissolve
+ASLI   : 'images/episode1/236.webp'
+----------------------------------------
+
+BARIS 1091 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/238.webp") with dissolve
+ASLI   : 'images/episode1/238.webp'
+----------------------------------------
+
+BARIS 1093 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/239.webp") with dissolve
+ASLI   : 'images/episode1/239.webp'
+----------------------------------------
+
+BARIS 1094 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nReally? Are you going to do me like that?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nReally? Are you going to do me like that?{3}'
+----------------------------------------
+
+BARIS 1095 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/240.webp") with long_dissolve
+ASLI   : 'images/episode1/240.webp'
+----------------------------------------
+
+BARIS 1104 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/241.webp") with dissolve
+ASLI   : 'images/episode1/241.webp'
+----------------------------------------
+
+BARIS 1106 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/242.webp") with dissolve
+ASLI   : 'images/episode1/242.webp'
+----------------------------------------
+
+BARIS 1108 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/243.webp") with dissolve
+ASLI   : 'images/episode1/243.webp'
+----------------------------------------
+
+BARIS 1109 | STATUS: SKIPPED_CODE
+CONTEXT: patricia "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}{i}\nYou're too horny right now. Maybe some other time.{/i}"
+ASLI   : '{2}{6}* whispering *{5}{1}{4}\nYou're too horny right now. Maybe some other time.{3}'
+----------------------------------------
+
+BARIS 1110 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/244.webp") with dissolve
+ASLI   : 'images/episode1/244.webp'
+----------------------------------------
+
+BARIS 1113 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/245.webp") with dissolve
+ASLI   : 'images/episode1/245.webp'
+----------------------------------------
+
+BARIS 1116 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/246.webp") with dissolve
+ASLI   : 'images/episode1/246.webp'
+----------------------------------------
+
+BARIS 1129 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/247.webp") with dissolve
+ASLI   : 'images/episode1/247.webp'
+----------------------------------------
+
+BARIS 1132 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/248.webp") with dissolve
+ASLI   : 'images/episode1/248.webp'
+----------------------------------------
+
+BARIS 1137 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/249.webp") with dissolve
+ASLI   : 'images/episode1/249.webp'
+----------------------------------------
+
+BARIS 1141 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/250.webp") with dissolve
+ASLI   : 'images/episode1/250.webp'
+----------------------------------------
+
+BARIS 1142 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhat is [mom] doing?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWhat is [6] doing?{3}'
+----------------------------------------
+
+BARIS 1144 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/251.webp") with dissolve
+ASLI   : 'images/episode1/251.webp'
+----------------------------------------
+
+BARIS 1146 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/252.webp") with dissolve
+ASLI   : 'images/episode1/252.webp'
+----------------------------------------
+
+BARIS 1147 | STATUS: SKIPPED_CODE
+CONTEXT: charlotte "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}{i}\nMake sure you don't miss a spot!{/i}"
+ASLI   : '{2}{6}* whispering *{5}{1}{4}\nMake sure you don't miss a spot!{3}'
+----------------------------------------
+
+BARIS 1148 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/253.webp") with dissolve
+ASLI   : 'images/episode1/253.webp'
+----------------------------------------
+
+BARIS 1149 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nIs she serious right now?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nIs she serious right now?{3}'
+----------------------------------------
+
+BARIS 1150 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nHer ass is huge!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nHer ass is huge!{3}'
+----------------------------------------
+
+BARIS 1151 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/254.webp") with dissolve
+ASLI   : 'images/episode1/254.webp'
+----------------------------------------
+
+BARIS 1152 | STATUS: SKIPPED_CODE
+CONTEXT: charlotte "{size=12}{color=#FDCA6E}* whispering *{/color}{/size}{i}\nGood boy.{/i}"
+ASLI   : '{2}{6}* whispering *{5}{1}{4}\nGood boy.{3}'
+----------------------------------------
+
+BARIS 1153 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'm not sure what was in that cocktail, but I think was really strong.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI'm not sure what was in that cocktail, but I think was really strong.{3}'
+----------------------------------------
+
+BARIS 1154 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/255.webp") with dissolve
+ASLI   : 'images/episode1/255.webp'
+----------------------------------------
+
+BARIS 1155 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI feel kinda dirty and aroused at the same time. I'm touching my [mom]'s firm ass.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI feel kinda dirty and aroused at the same time. I'm touching my [6]'s firm ass.{3}'
+----------------------------------------
+
+BARIS 1156 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nThis is not what I was thought was going to happen at the beach.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nThis is not what I was thought was going to happen at the beach.{3}'
+----------------------------------------
+
+BARIS 1162 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/256.webp") with dissolve
+ASLI   : 'images/episode1/256.webp'
+----------------------------------------
+
+BARIS 1163 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhat the hell... You only live once.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWhat the hell... You only live once.{3}'
+----------------------------------------
+
+BARIS 1164 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/257.webp") with dissolve
+ASLI   : 'images/episode1/257.webp'
+----------------------------------------
+
+BARIS 1165 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'm touching my [mom]'s breast!{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI'm touching my [6]'s breast!{3}'
+----------------------------------------
+
+BARIS 1166 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnd it doesn't seem like she's bothered by that.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nAnd it doesn't seem like she's bothered by that.{3}'
+----------------------------------------
+
+BARIS 1167 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/258.webp") with dissolve
+ASLI   : 'images/episode1/258.webp'
+----------------------------------------
+
+BARIS 1168 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOkay... I know where this is going.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nOkay... I know where this is going.{3}'
+----------------------------------------
+
+BARIS 1169 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/259.webp") with dissolve
+ASLI   : 'images/episode1/259.webp'
+----------------------------------------
+
+BARIS 1170 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI can't believe how big and soft her boobs are.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI can't believe how big and soft her boobs are.{3}'
+----------------------------------------
+
+BARIS 1171 | STATUS: SKIPPED_CODE
+CONTEXT: charlotte "{size=12}{color=#FDCA6E}* moaning slightly *{/color}{/size}\n{i}Mhmmm.{/i}"
+ASLI   : '{2}{6}* moaning slightly *{5}{1}\n{4}Mhmmm.{3}'
+----------------------------------------
+
+BARIS 1172 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/260.webp") with dissolve
+ASLI   : 'images/episode1/260.webp'
+----------------------------------------
+
+BARIS 1173 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI should stop before Tris turns over.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI should stop before Tris turns over.{3}'
+----------------------------------------
+
+BARIS 1176 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/261.webp") with dissolve
+ASLI   : 'images/episode1/261.webp'
+----------------------------------------
+
+BARIS 1183 | STATUS: SKIPPED_CODE
+CONTEXT: scene expression ("images/episode1/262.webp") with dissolve
+ASLI   : 'images/episode1/262.webp'
+----------------------------------------
+
+BARIS 1184 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhat a day. I feel like this city has had a big impact on me.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWhat a day. I feel like this city has had a big impact on me.{3}'
+----------------------------------------
+
+BARIS 1185 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nAnyway, I wonder which job I should choose tomorrow.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nAnyway, I wonder which job I should choose tomorrow.{3}'
+----------------------------------------
+
+BARIS 1186 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nOn one hand having a more stable income would be great and on top of that I'll have a career.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nOn one hand having a more stable income would be great and on top of that I'll have a career.{3}'
+----------------------------------------
+
+BARIS 1187 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nBut Katrina's words keep popping in my head. She did promise me plenty of money. But at what cost?{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nBut Katrina's words keep popping in my head. She did promise me plenty of money. But at what cost?{3}'
+----------------------------------------
+
+BARIS 1188 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI mean, look at [dad], when his business was good he behaved differently than now. So it's safe to say that my job will have an impact on my attiude.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI mean, look at [1], when his business was good he behaved differently than now. So it's safe to say that my job will have an impact on my attiude.{3}'
+----------------------------------------
+
+BARIS 1189 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nWhat if after spending so much time in the club, with whores and drunk ladies I'll start to treat the girls at home the same way or even Emma.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nWhat if after spending so much time in the club, with whores and drunk ladies I'll start to treat the girls at home the same way or even Emma.{3}'
+----------------------------------------
+
+BARIS 1190 | STATUS: SKIPPED_CODE
+CONTEXT: toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}{i}\nI'm not sure what to choose. I mean, both jobs look promising enough. I'll figure it out tomorrow.{/i}"
+ASLI   : '{2}{6}* thinking *{5}{1}{4}\nI'm not sure what to choose. I mean, both jobs look promising enough. I'll figure it out tomorrow.{3}'
+----------------------------------------
+
+
+============================================================
+RINGKASAN TERJEMAHAN v5.3
+============================================================
+✅ Berhasil ditranslate : 514
+⏩ Skip (Ren'Py code)   : 469
+❌ Gagal/Error         : 0
+📝 Input kosong         : 0
+📄 Output kosong        : 0
+📊 Total diproses       : 514
+📋 Total baris file     : 1193
+🎯 Success Rate         : 100.0%
+
+NEXT STEPS:
+1. Copy file x-episode1_id.rpy ke folder to_rpyc/
+2. Run GitHub Actions workflow untuk compile .rpyc
+3. Download hasil compile
+4. Inject ke game folder story/
