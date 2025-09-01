@@ -2477,7 +2477,7 @@ label episode14_kidnapping_job_1:
                 scene expression ("images/episode14/311.webp") with dissolve
                 toby "Bisakah saya pergi sekarang?"
                 scene expression ("images/episode14/262.webp") with dissolve
-        katrina "Belum. Kita masih perlu main game. Namanya "Truth or Get Hurt""
+        katrina "Belum. Kita masih perlu main game. Namanya \"Truth or Get Hurt\""
         scene expression ("images/episode14/263.webp") with dissolve
         toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Shit! This isn't over?{/i}"
     else:

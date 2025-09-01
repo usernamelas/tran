@@ -1437,7 +1437,7 @@ label episode13_gym_sheila:
             scene expression ("images/episode13/240.webp") with dissolve
             charlotte "Sebenarnya saya ingin tahu."
             scene expression ("images/episode13/239.webp") with dissolve
-            toby "Apa yang terjadi pada \"Aku sangat menyukainya dan aku tidak ingin mengubah pendapatku tentangnya.\"
+            toby "Apa yang terjadi pada \"Aku sangat menyukainya dan aku tidak ingin mengubah pendapatku tentangnya.\""
             scene expression ("images/episode13/240.webp") with dissolve
             charlotte "Nah, saya tidak ingin terlihat bodoh jika dia berbicara tentang Anda seperti Anda adalah pacarnya."
             scene expression ("images/episode13/238.webp") with dissolve
