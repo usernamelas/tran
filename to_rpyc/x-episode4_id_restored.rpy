@@ -164,7 +164,7 @@ label episode4_friday_morning_erwin:
     toby "Wanita yang berada di sisi Anda selama yang Anda ingat. Anda bilang dia pelacur!"
     scene expression ("images/episode4/028.webp") with dissolve
     erwin "Tidak seperti itu. Saya menghormati [mother] Anda dan saya tidak akan mengatakan hal seperti itu tentang dia!"
-    toby "Baiklah... Kau benar! Kau mengatakan itu \"Begitulah para jalang itu. Asal kamu beri mereka uang, mereka akan melakukan apa saja untukmu..\"
+    toby "Baiklah... Kau benar! Kau mengatakan itu \"Begitulah para jalang itu. Asal kamu beri mereka uang, mereka akan melakukan apa saja untukmu..\""
     erwin "Mungkin saya mabuk. Anda tahu bahwa saya tidak baik dengan alkohol."
     toby "Itu masih belum ada alasan untuk memperlakukannya seperti kotoran! Dia istrimu demi bercinta!"
     scene expression ("images/episode4/029.webp") with dissolve

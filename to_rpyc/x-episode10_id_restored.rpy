@@ -1322,7 +1322,7 @@ label episode10_trisChores:
     scene expression ("images/episode10/156_curious.webp") with dissolve
     toby "Apa yang membuatmu mengatakan itu?"
     scene expression ("images/episode10/157_reading.webp") with dissolve
-    patricia "\"Tentu saja, kalau dia mengelus lututmu, tak perlu bertanya lebih lanjut. Tapi kalau dia mengelus lututnya, mungkin ini keinginan bawah sadar untuk mengelus lututmu.\"
+    patricia "\"Tentu saja, kalau dia mengelus lututmu, tak perlu bertanya lebih lanjut. Tapi kalau dia mengelus lututnya, mungkin ini keinginan bawah sadar untuk mengelus lututmu.\""
     scene expression ("images/episode10/157_curious.webp") with dissolve
     patricia "Benar-benar? Apakah ada gadis yang Anda kencani pernah membelai lutut Anda?"
     scene expression ("images/episode10/156_normal.webp") with dissolve

@@ -2425,7 +2425,7 @@ label episode11_dateTris:
     scene expression ("images/episode11/360_normal.webp") with dissolve
     patricia "Itu tidak benar. Saya suka mengemudi, tetapi biasanya ketika saya mengendarainya dengan [mom] atau [dad] di kursi penumpang dan mereka membuat saya gila."
     scene expression ("images/episode11/360_angry.webp") with dissolve
-    patricia "\"Hati-hati. Itu persimpangan jalan.\", \"Warnanya merah!\", \"Rem, rem, rem, sialan!\", \"Jangan ngebut!\", \"Kamu tidak perlu secepat ini. Kita tidak terburu-buru.\"
+    patricia "\"Hati-hati. Itu persimpangan jalan.\", \"Warnanya merah!\", \"Rem, rem, rem, sialan!\", \"Jangan ngebut!\", \"Kamu tidak perlu secepat ini. Kita tidak terburu-buru.\""
     scene expression ("images/episode11/361_laugh.webp") with dissolve
     toby "Malang kamu!"
     scene expression ("images/episode11/360_meh.webp") with dissolve
