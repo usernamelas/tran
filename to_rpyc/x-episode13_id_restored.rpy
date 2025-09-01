@@ -2199,7 +2199,7 @@ label episode13_work_1_2:
             katrina "Ya!"
             $ unlockImage(persistent.katrina_08)
             scene expression ("images/episode13/321.webp") with dissolve
-            toby "Sayang sekali kamu tidak tahu bagaimana menjawab pertanyaan itu. Ketika aku bertanya padamu, \"Apa yang kamu ingin aku lakukan?\", kamu menjawab, \"Terserah Anda mau yang mana, Tuan!\"
+            toby "Sayang sekali kamu tidak tahu bagaimana menjawab pertanyaan itu. Ketika aku bertanya padamu, \"Apa yang kamu ingin aku lakukan?\", kamu menjawab, \"Terserah Anda mau yang mana, Tuan!\""
             toby "Bisnis adalah bisnis dan kesenangan adalah kesenangan. Anda adalah bos ketika kami melakukan bisnis dan saya menghormatinya."
             toby "Tetapi ketika kami bersenang -senang, saya bertanggung jawab sehingga Anda harus menghormati saya. Hubungan ini atau apa pun itu, hanya bisa bekerja seperti ini. Dipahami?"
             scene expression ("images/episode13/322.webp") with dissolve
