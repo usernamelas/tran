@@ -235,7 +235,7 @@ label episode14_backHome:
     scene expression ("images/episode14/029.webp") with fade
     toby "Jadi? Bagaimana filmnya?"
     scene expression ("images/episode14/030.webp") with dissolve
-    patricia "Salah! \"{i}Bagaimana filmnya, sayang?{/i}\"
+    patricia "Salah! \"{i}Bagaimana filmnya, sayang?{/i}\""
     scene expression ("images/episode14/029.webp") with dissolve
     toby "Bagus. Jadi? Bagaimana filmnya, bayi perempuan?"
     scene expression ("images/episode14/031.webp") with dissolve

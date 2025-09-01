@@ -1052,7 +1052,7 @@ label episode12_lauren_main:
     scene expression ("images/episode12/106_2.webp") with dissolve
     $ unlockImage(persistent.lauren_11)
     lauren "Oh benar ..."
-    lauren "Salahku. Maksudku, \"Hai, kuda jantan seksi.\"
+    lauren "Salahku. Maksudku, \"Hai, kuda jantan seksi.\""
     toby "Saya bisa hidup dengan itu."
     lauren "Dan aku bisa mencium."
     show ep12_107

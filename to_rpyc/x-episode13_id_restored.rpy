@@ -290,7 +290,7 @@ label episode13_breakfast:
         charlotte "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\nFine, I'll tell him."
         charlotte "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\n{i}...{/i}"
         scene expression ("images/episode13/029.webp") with dissolve
-        charlotte "[aunt] milikmu mengatakan \"Berhentilah memanjakan semua wanita di sekitarmu.\"
+        charlotte "[aunt] milikmu mengatakan \"Berhentilah memanjakan semua wanita di sekitarmu.\""
         scene expression ("images/episode13/030.webp") with dissolve
         toby "Katakan itu padanya \"I'm only memanjakan wanita yang pantas mendapatkannya.\"
         scene expression ("images/episode13/028.webp") with dissolve
