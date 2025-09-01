@@ -1468,7 +1468,7 @@ label episode2_trisNight:
         scene expression ("images/episode2/310.webp") with dissolve
         toby "Sebenarnya sangat bagus. Bos saya sangat terkesan dengan saya. Kami pergi ke sebuah apartemen dan dia menunjukkan kepada saya. Ketika klien sampai di sana, dia hanya meninggalkan saya bersama mereka."
         scene expression ("images/episode2/314.webp") with dissolve
-        patricia "Just like that? No prep talk, no nothing? Just" \"Sell this apartment for me?\"
+        Patricia "Begitu saja? Tanpa bicara persiapan, tanpa apa pun? Hanya \"Jual apartemen ini untukku?\""
         scene expression ("images/episode2/315.webp") with dissolve
         toby "Ya. Dia mengatakan kepada saya bahwa saya tidak boleh lebih rendah dari 100 ribu dan menyuruh saya bernegosiasi dengan salah satu gadis karena dia yang memiliki uang!"
         scene expression ("images/episode2/314.webp") with dissolve
