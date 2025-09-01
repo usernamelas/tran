@@ -2497,7 +2497,7 @@ label episode14_kidnapping_job_1:
         toby "{size=12}{color=#FDCA6E}* thinking *{/color}{/size}\n{i}Fuck! Does she know about my involvement in the investigation into her?{/i}"
         toby "Apa yang kamu bicarakan?"
         scene expression ("images/episode14/257.webp") with dissolve
-        katrina "Ayo main game. \"Kebenaran atau Terluka\"
+        katrina "Ayo main game. \"Kebenaran atau Terluka\""
         scene expression ("images/episode14/262.webp") with dissolve
         katrina "Saya mengajukan pertanyaan. Jika saya tidak menyukai jawaban Anda, saya menusuk Anda. Sederhana, bukan?"
         scene expression ("images/episode14/262.webp") with dissolve

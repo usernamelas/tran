@@ -298,7 +298,7 @@ label episode13_breakfast:
         charlotte "{size=12}{color=#FDCA6E}* on the phone *{/color}{/size}\n{i}...{/i}"
     else:
         scene expression ("images/episode13/029.webp") with dissolve
-        charlotte "Anda [aunt] mengatakan \"Hai.\"
+        charlotte "Anda [aunt] mengatakan \"Hai.\""
         scene expression ("images/episode13/030.webp") with dissolve
         toby "Hai [auntie]."
         scene expression ("images/episode13/028.webp") with dissolve
