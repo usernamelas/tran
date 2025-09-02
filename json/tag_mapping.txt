@@ -1,0 +1,32 @@
+=== TAG MAPPING ===
+{1} = {#month}
+{2} = {/b}
+{3} = {/a}
+{4} = {color=#cfc}
+{5} = {/color}
+{6} = {color=#fff}
+{7} = {#weekday}
+{8} = {#weekday_short}
+{9} = {b}
+{10} = {#month_short}
+{11} = {color=#fcc}
+{12} = {a=https://www.renpy.org/l/license}
+
+=== VARIABLE MAPPING ===
+[1] = [cache_size_mb:.1f]
+[2] = [text]
+[3] = [tex_size_mb:.1f]
+[4] = [attributes]
+[5] = [i]
+[6] = [name]
+[7] = [tex_count]
+[8] = [index]
+[9] = [count]
+[10] = [displayable_name!q]
+[11] = [kind]
+[12] = [u.version]
+[13] = [total]
+[14] = [problem]
+[15] = [cache_pct:.1f]
+[16] = [renpy.display.tts.last]
+[17] = [control!r]

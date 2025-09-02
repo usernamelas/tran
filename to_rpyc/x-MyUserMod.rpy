@@ -17,12 +17,13 @@ screen my_cheat_mod():
     tag menu
     modal True
     
-    # Background
+    # Background - Disesuaikan dengan struktur folder Anda
     add "#000000" alpha 0.8
-    add Transform("gui/overlay/game_menu.png", zoom=1.0) alpha 0.7 xalign 0.5 yalign 0.5
+    # Asumsi: file game_menu.png ada di folder x-images
+    add Transform("x-images/game_menu.png", zoom=1.0) alpha 0.7 xalign 0.5 yalign 0.5
     
-    # Title
-    text "{size=80}Enhanced Joker Mod" color "#FFD700" font "gui/font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 20 outlines [(3, "#000", 0, 5)]
+    # Title - Path font disesuaikan
+    text "{size=80}Enhanced Joker Mod" color "#FFD700" font "x-font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 20 outlines [(3, "#000", 0, 5)]
     
     # Close Button
     textbutton "{size=40}Close{/size}" action Return() xpos 50 ypos 50 text_color "#FFFFFF"
@@ -46,7 +47,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}RELATIONSHIP MANAGER{/color}" font "gui/font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}RELATIONSHIP MANAGER{/color}" font "x-font/x-Montserrat-Light.ttf"
                 
                 hbox:
                     spacing 50
@@ -161,7 +162,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}MONEY MANAGER{/color}" font "gui/font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}MONEY MANAGER{/color}" font "x-font/x-Montserrat-Light.ttf"
                 
                 hbox:
                     spacing 50
@@ -215,7 +216,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}GALLERY UNLOCKER{/color}" font "gui/font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}GALLERY UNLOCKER{/color}" font "x-font/x-Montserrat-Light.ttf"
                 
                 text "{size=30}{color=#FFFF00}Unlock all gallery images and scenes{/color}"
                 
@@ -307,7 +308,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}BONUS FEATURES{/color}" font "gui/font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}BONUS FEATURES{/color}" font "x-font/x-Montserrat-Light.ttf"
                 
                 hbox:
                     spacing 50

@@ -1,0 +1,1171 @@
+﻿
+translate None strings:
+
+    # 00action_file.rpy:26
+    old "{7}Monday"
+    new "{7}Monday"
+
+    # 00action_file.rpy:26
+    old "{7}Tuesday"
+    new "{7}Tuesday"
+
+    # 00action_file.rpy:26
+    old "{7}Wednesday"
+    new "{7}Wednesday"
+
+    # 00action_file.rpy:26
+    old "{7}Thursday"
+    new "{7}Thursday"
+
+    # 00action_file.rpy:26
+    old "{7}Friday"
+    new "{7}Friday"
+
+    # 00action_file.rpy:26
+    old "{7}Saturday"
+    new "{7}Saturday"
+
+    # 00action_file.rpy:26
+    old "{7}Sunday"
+    new "{7}Sunday"
+
+    # 00action_file.rpy:37
+    old "{8}Mon"
+    new "{8}Mon"
+
+    # 00action_file.rpy:37
+    old "{8}Tue"
+    new "{8}Tue"
+
+    # 00action_file.rpy:37
+    old "{8}Wed"
+    new "{8}Wed"
+
+    # 00action_file.rpy:37
+    old "{8}Thu"
+    new "{8}Thu"
+
+    # 00action_file.rpy:37
+    old "{8}Fri"
+    new "{8}Fri"
+
+    # 00action_file.rpy:37
+    old "{8}Sat"
+    new "{8}Sat"
+
+    # 00action_file.rpy:37
+    old "{8}Sun"
+    new "{8}Sun"
+
+    # 00action_file.rpy:47
+    old "{1}January"
+    new "{1}January"
+
+    # 00action_file.rpy:47
+    old "{1}February"
+    new "{1}February"
+
+    # 00action_file.rpy:47
+    old "{1}March"
+    new "{1}March"
+
+    # 00action_file.rpy:47
+    old "{1}April"
+    new "{1}April"
+
+    # 00action_file.rpy:47
+    old "{1}May"
+    new "{1}May"
+
+    # 00action_file.rpy:47
+    old "{1}June"
+    new "{1}June"
+
+    # 00action_file.rpy:47
+    old "{1}July"
+    new "{1}July"
+
+    # 00action_file.rpy:47
+    old "{1}August"
+    new "{1}August"
+
+    # 00action_file.rpy:47
+    old "{1}September"
+    new "{1}September"
+
+    # 00action_file.rpy:47
+    old "{1}October"
+    new "{1}October"
+
+    # 00action_file.rpy:47
+    old "{1}November"
+    new "{1}November"
+
+    # 00action_file.rpy:47
+    old "{1}December"
+    new "{1}December"
+
+    # 00action_file.rpy:63
+    old "{10}Jan"
+    new "{10}Jan"
+
+    # 00action_file.rpy:63
+    old "{10}Feb"
+    new "{10}Feb"
+
+    # 00action_file.rpy:63
+    old "{10}Mar"
+    new "{10}Mar"
+
+    # 00action_file.rpy:63
+    old "{10}Apr"
+    new "{10}Apr"
+
+    # 00action_file.rpy:63
+    old "{10}May"
+    new "{10}May"
+
+    # 00action_file.rpy:63
+    old "{10}Jun"
+    new "{10}Jun"
+
+    # 00action_file.rpy:63
+    old "{10}Jul"
+    new "{10}Jul"
+
+    # 00action_file.rpy:63
+    old "{10}Aug"
+    new "{10}Aug"
+
+    # 00action_file.rpy:63
+    old "{10}Sep"
+    new "{10}Sep"
+
+    # 00action_file.rpy:63
+    old "{10}Oct"
+    new "{10}Oct"
+
+    # 00action_file.rpy:63
+    old "{10}Nov"
+    new "{10}Nov"
+
+    # 00action_file.rpy:63
+    old "{10}Dec"
+    new "{10}Dec"
+
+    # 00action_file.rpy:240
+    old "%B %d, %h: %m"
+    new "%B %d, %h: %m"
+
+    # 00action_file.rpy:353
+    old "Simpan Slot %S: [2]"
+    new "Simpan Slot %S: [2]"
+
+    # 00action_file.rpy:434
+    old "Load Slot %S: [2]"
+    new "Load Slot %S: [2]"
+
+    # 00action_file.rpy:487
+    old "Hapus slot [2]"
+    new "Hapus slot [2]"
+
+    # 00action_file.rpy:569
+    old "Auto Halaman File"
+    new "Auto Halaman File"
+
+    # 00action_file.rpy:571
+    old "Halaman file cepat"
+    new "Halaman file cepat"
+
+    # 00action_file.rpy:573
+    old "Halaman file [2]"
+    new "Halaman file [2]"
+
+    # 00action_file.rpy:631
+    old "Page {}"
+    new "Page {}"
+
+    # 00action_file.rpy:631
+    old "Automatic saves"
+    new "Automatic saves"
+
+    # 00action_file.rpy:631
+    old "Quick saves"
+    new "Quick saves"
+
+    # 00action_file.rpy:772
+    old "Halaman file berikutnya."
+    new "Halaman file berikutnya."
+
+    # 00action_file.rpy:845
+    old "Halaman file sebelumnya."
+    new "Halaman file sebelumnya."
+
+    # 00action_file.rpy:906
+    old "Simpan Cepat Lengkapi."
+    new "Simpan Cepat Lengkapi."
+
+    # 00action_file.rpy:924
+    old "Simpan cepat."
+    new "Simpan cepat."
+
+    # 00action_file.rpy:943
+    old "Beban cepat."
+    new "Beban cepat."
+
+    # 00action_other.rpy:355
+    old "Language [2]"
+    new "Language [2]"
+
+    # 00director.rpy:708
+    old "Direktur interaktif tidak diaktifkan di sini."
+    new "Direktur interaktif tidak diaktifkan di sini."
+
+    # 00director.rpy:1481
+    old "⬆"
+    new "⬆"
+
+    # 00director.rpy:1487
+    old "⬇"
+    new "⬇"
+
+    # 00director.rpy:1551
+    old "Done"
+    new "Done"
+
+    # 00director.rpy:1561
+    old "(statement)"
+    new "(statement)"
+
+    # 00director.rpy:1562
+    old "(tag)"
+    new "(tag)"
+
+    # 00director.rpy:1563
+    old "(attributes)"
+    new "(attributes)"
+
+    # 00director.rpy:1564
+    old "(transform)"
+    new "(transform)"
+
+    # 00director.rpy:1589
+    old "(transition)"
+    new "(transition)"
+
+    # 00director.rpy:1601
+    old "(channel)"
+    new "(channel)"
+
+    # 00director.rpy:1602
+    old "(filename)"
+    new "(filename)"
+
+    # 00director.rpy:1631
+    old "Change"
+    new "Change"
+
+    # 00director.rpy:1633
+    old "Add"
+    new "Add"
+
+    # 00director.rpy:1636
+    old "Cancel"
+    new "Cancel"
+
+    # 00director.rpy:1639
+    old "Remove"
+    new "Remove"
+
+    # 00director.rpy:1674
+    old "Penyataan:"
+    new "Statement:"
+
+    # 00director.rpy:1695
+    old "Tag:"
+    new "Tag:"
+
+    # 00director.rpy:1711
+    old "Atribut:"
+    new "Atribut:"
+
+    # 00director.rpy:1729
+    old "Transformasi:"
+    new "Transformasi:"
+
+    # 00director.rpy:1748
+    old "Di belakang:"
+    new "Di belakang:"
+
+    # 00director.rpy:1767
+    old "Transisi:"
+    new "Transisi:"
+
+    # 00director.rpy:1785
+    old "Saluran:"
+    new "Saluran:"
+
+    # 00director.rpy:1803
+    old "Nama file audio:"
+    new "Nama file audio:"
+
+    # 00gui.rpy:371
+    old "Apa kamu yakin?"
+    new "Apa kamu yakin?"
+
+    # 00gui.rpy:372
+    old "Anda yakin ingin menghapus simpan ini?"
+    new "Anda yakin ingin menghapus simpan ini?"
+
+    # 00gui.rpy:373
+    old "Apakah Anda yakin ingin menimpa penyimpanan Anda?"
+    new "Apakah Anda yakin ingin menimpa penyimpanan Anda?"
+
+    # 00gui.rpy:374
+    old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+
+    # 00gui.rpy:375
+    old "Apakah Anda yakin ingin berhenti?"
+    new "Apakah Anda yakin ingin berhenti?"
+
+    # 00gui.rpy:376
+    old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+
+    # 00gui.rpy:377
+    old "Apakah Anda yakin ingin mengakhiri replay?"
+    new "Apakah Anda yakin ingin mengakhiri replay?"
+
+    # 00gui.rpy:378
+    old "Apakah Anda yakin ingin mulai melewatkan?"
+    new "Apakah Anda yakin ingin mulai melewatkan?"
+
+    # 00gui.rpy:379
+    old "Apakah Anda yakin ingin melompat ke pilihan berikutnya?"
+    new "Apakah Anda yakin ingin melompat ke pilihan berikutnya?"
+
+    # 00gui.rpy:380
+    old "Apakah Anda yakin ingin melewatkan dialog yang tidak terlihat ke pilihan berikutnya?"
+    new "Apakah Anda yakin ingin melewatkan dialog yang tidak terlihat ke pilihan berikutnya?"
+
+    # 00keymap.rpy:260
+    old "Gagal menyimpan tangkapan layar sebagai %s."
+    new "Gagal menyimpan tangkapan layar sebagai %s."
+
+    # 00keymap.rpy:272
+    old "Tangkapan layar yang disimpan sebagai %s."
+    new "Saved screenshot as %s."
+
+    # 00library.rpy:175
+    old "Penyunan-Demek dinonaktifkan."
+    new "Penyunan-Demek dinonaktifkan."
+
+    # 00library.rpy:176
+    old "Clipboard menyuarakan diaktifkan."
+    new "Clipboard menyuarakan diaktifkan."
+
+    # 00library.rpy:177
+    old "Diaktifkan oleh voicing diri."
+    new "Diaktifkan oleh voicing diri."
+
+    # 00library.rpy:179
+    old "bar"
+    new "bar"
+
+    # 00library.rpy:180
+    old "selected"
+    new "selected"
+
+    # 00library.rpy:181
+    old "viewport"
+    new "viewport"
+
+    # 00library.rpy:182
+    old "horizontal scroll"
+    new "horizontal scroll"
+
+    # 00library.rpy:183
+    old "vertical scroll"
+    new "vertical scroll"
+
+    # 00library.rpy:184
+    old "activate"
+    new "activate"
+
+    # 00library.rpy:185
+    old "deactivate"
+    new "deactivate"
+
+    # 00library.rpy:186
+    old "increase"
+    new "increase"
+
+    # 00library.rpy:187
+    old "decrease"
+    new "decrease"
+
+    # 00library.rpy:222
+    old "Skip Mode"
+    new "Skip Mode"
+
+    # 00library.rpy:308
+    old "Program ini berisi perangkat lunak gratis di bawah sejumlah lisensi, termasuk lisensi MIT dan lisensi publik umum GNU yang lebih rendah. Daftar lengkap perangkat lunak, termasuk tautan ke kode sumber lengkap, dapat ditemukan {12} di sini {3}."
+    new "Program ini berisi perangkat lunak gratis di bawah sejumlah lisensi, termasuk lisensi MIT dan lisensi publik umum GNU yang lebih rendah. Daftar lengkap perangkat lunak, termasuk tautan ke kode sumber lengkap, dapat ditemukan {12} di sini {3}."
+
+    # 00preferences.rpy:223
+    old "display"
+    new "display"
+
+    # 00preferences.rpy:235
+    old "transitions"
+    new "transitions"
+
+    # 00preferences.rpy:244
+    old "skip transitions"
+    new "skip transitions"
+
+    # 00preferences.rpy:246
+    old "video sprites"
+    new "video sprites"
+
+    # 00preferences.rpy:255
+    old "Tampilkan jendela kosong"
+    new "Tampilkan jendela kosong"
+
+    # 00preferences.rpy:264
+    old "text speed"
+    new "text speed"
+
+    # 00preferences.rpy:272
+    old "joystick"
+    new "joystick"
+
+    # 00preferences.rpy:272
+    old "Joystick ..."
+    new "Joystick ..."
+
+    # 00preferences.rpy:279
+    old "skip"
+    new "skip"
+
+    # 00preferences.rpy:282
+    old "Lewati Unseen [2]"
+    new "Lewati Unseen [2]"
+
+    # 00preferences.rpy:287
+    old "Lewati teks yang tidak terlihat"
+    new "Lewati teks yang tidak terlihat"
+
+    # 00preferences.rpy:289
+    old "begin skipping"
+    new "begin skipping"
+
+    # 00preferences.rpy:293
+    old "after choices"
+    new "after choices"
+
+    # 00preferences.rpy:300
+    old "Lewati pilihan"
+    new "Lewati pilihan"
+
+    # 00preferences.rpy:302
+    old "auto-forward time"
+    new "auto-forward time"
+
+    # 00preferences.rpy:316
+    old "auto-forward"
+    new "auto-forward"
+
+    # 00preferences.rpy:323
+    old "Auto forward"
+    new "Auto forward"
+
+    # 00preferences.rpy:326
+    old "Maju otomatis setelah klik"
+    new "Maju otomatis setelah klik"
+
+    # 00preferences.rpy:335
+    old "automatic move"
+    new "automatic move"
+
+    # 00preferences.rpy:344
+    old "Tunggu suara"
+    new "Tunggu suara"
+
+    # 00preferences.rpy:353
+    old "voice sustain"
+    new "voice sustain"
+
+    # 00preferences.rpy:362
+    old "self voicing"
+    new "self voicing"
+
+    # 00preferences.rpy:371
+    old "clipboard voicing"
+    new "clipboard voicing"
+
+    # 00preferences.rpy:380
+    old "debug voicing"
+    new "debug voicing"
+
+    # 00preferences.rpy:389
+    old "emphasize audio"
+    new "emphasize audio"
+
+    # 00preferences.rpy:398
+    old "rollback side"
+    new "rollback side"
+
+    # 00preferences.rpy:408
+    old "gl powersave"
+    new "gl powersave"
+
+    # 00preferences.rpy:414
+    old "gl framerate"
+    new "gl framerate"
+
+    # 00preferences.rpy:417
+    old "gl tearing"
+    new "gl tearing"
+
+    # 00preferences.rpy:429
+    old "music volume"
+    new "music volume"
+
+    # 00preferences.rpy:430
+    old "sound volume"
+    new "sound volume"
+
+    # 00preferences.rpy:431
+    old "voice volume"
+    new "voice volume"
+
+    # 00preferences.rpy:432
+    old "mute music"
+    new "mute music"
+
+    # 00preferences.rpy:433
+    old "mute sound"
+    new "mute sound"
+
+    # 00preferences.rpy:434
+    old "mute voice"
+    new "mute voice"
+
+    # 00preferences.rpy:435
+    old "mute all"
+    new "mute all"
+
+    # 00preferences.rpy:516
+    old "Clipboard menyuarakan diaktifkan. Tekan \ 'shift+c \' untuk menonaktifkan."
+    new "Clipboard menyuarakan diaktifkan. Tekan \ 'shift+c \' untuk menonaktifkan."
+
+    # 00preferences.rpy:518
+    old "Self-voicing would say \"[16]\". Tekan \ 'alt+shift+v \' untuk menonaktifkan."
+    new "Self-voicing would say \"[16]\". Tekan \ 'alt+shift+v \' untuk menonaktifkan."
+
+    # 00preferences.rpy:520
+    old "Diaktifkan oleh voicing diri. Tekan \ 'v \' untuk menonaktifkan."
+    new "Diaktifkan oleh voicing diri. Tekan \ 'v \' untuk menonaktifkan."
+
+    # _compat\gamemenu.rpym:198
+    old "Slot kosong."
+    new "Slot kosong."
+
+    # _compat\gamemenu.rpym:355
+    old "Previous"
+    new "Previous"
+
+    # _compat\gamemenu.rpym:362
+    old "Next"
+    new "Next"
+
+    # _compat\preferences.rpym:428
+    old "Joystick Mapping"
+    new "Joystick Mapping"
+
+    # _developer\developer.rpym:38
+    old "Developer Menu"
+    new "Developer Menu"
+
+    # _developer\developer.rpym:43
+    old "Direktur Interaktif (D)"
+    new "Direktur Interaktif (D)"
+
+    # _developer\developer.rpym:45
+    old "Reload Game (Shift+R)"
+    new "Reload Game (Shift+R)"
+
+    # _developer\developer.rpym:47
+    old "Console (Shift+O)"
+    new "Console (Shift+O)"
+
+    # _developer\developer.rpym:49
+    old "Variable Viewer"
+    new "Variable Viewer"
+
+    # _developer\developer.rpym:51
+    old "Pemetik lokasi gambar"
+    new "Pemetik lokasi gambar"
+
+    # _developer\developer.rpym:53
+    old "Filename List"
+    new "Filename List"
+
+    # _developer\developer.rpym:57
+    old "Tampilkan Log Load Image (F4)"
+    new "Tampilkan Log Load Image (F4)"
+
+    # _developer\developer.rpym:60
+    old "Sembunyikan Log Load Image (F4)"
+    new "Sembunyikan Log Load Image (F4)"
+
+    # _developer\developer.rpym:63
+    old "Image Attributes"
+    new "Image Attributes"
+
+    # _developer\developer.rpym:69
+    old "Return"
+    new "Return"
+
+    # _developer\developer.rpym:90
+    old "[6] [4] (tersembunyi)"
+    new "[6] [4] (tersembunyi)"
+
+    # _developer\developer.rpym:94
+    old "[6] [4]"
+    new "[6] [4]"
+
+    # _developer\developer.rpym:143
+    old "Tidak ada yang perlu diperiksa."
+    new "Tidak ada yang perlu diperiksa."
+
+    # _developer\developer.rpym:154
+    old "Hide deleted"
+    new "Hide deleted"
+
+    # _developer\developer.rpym:154
+    old "Show deleted"
+    new "Show deleted"
+
+    # _developer\developer.rpym:278
+    old "Kembali ke menu pengembang"
+    new "Kembali ke menu pengembang"
+
+    # _developer\developer.rpym:443
+    old "Persegi Panjang: %r"
+    new "Persegi Panjang: %r"
+
+    # _developer\developer.rpym:448
+    old "Posisi tikus: %r"
+    new "Posisi tikus: %r"
+
+    # _developer\developer.rpym:453
+    old "Klik kanan atau melarikan diri untuk berhenti."
+    new "Klik kanan atau melarikan diri untuk berhenti."
+
+    # _developer\developer.rpym:485
+    old "Persegi panjang disalin ke clipboard."
+    new "Persegi panjang disalin ke clipboard."
+
+    # _developer\developer.rpym:488
+    old "Posisi disalin ke clipboard."
+    new "Posisi disalin ke clipboard."
+
+    # _developer\developer.rpym:507
+    old "Ketik untuk Filter:"
+    new "Ketik untuk Filter:"
+
+    # _developer\developer.rpym:635
+    old "Tekstur: [7] ([3] MB)"
+    new "Tekstur: [7] ([3] MB)"
+
+    # _developer\developer.rpym:639
+    old "Gambar cache: [15]% ([1] MB)"
+    new "Gambar cache: [15]% ([1] MB)"
+
+    # _developer\developer.rpym:649
+    old "✔ "
+    new "✔ "
+
+    # _developer\developer.rpym:652
+    old "✘ "
+    new "✘ "
+
+    # _developer\developer.rpym:657
+    old "\n{4}✔ predicted image (good){5}\n{11}✘ unpredicted image (bad){5}\n{6}Drag to move.{5}"
+    new "\n{4}✔ predicted image (good){5}\n{11}✘ unpredicted image (bad){5}\n{6}Drag to move.{5}"
+
+    # _developer\inspector.rpym:38
+    old "Inspektur yang dapat ditampilkan"
+    new "Inspektur yang dapat ditampilkan"
+
+    # _developer\inspector.rpym:61
+    old "Size"
+    new "Size"
+
+    # _developer\inspector.rpym:65
+    old "Style"
+    new "Style"
+
+    # _developer\inspector.rpym:71
+    old "Location"
+    new "Location"
+
+    # _developer\inspector.rpym:122
+    old "Memeriksa gaya [10]"
+    new "Memeriksa gaya [10]"
+
+    # _developer\inspector.rpym:139
+    old "dapat ditampilkan:"
+    new "dapat ditampilkan:"
+
+    # _developer\inspector.rpym:145
+    old "(Tidak ada properti yang mempengaruhi yang dapat ditampilkan)"
+    new "(Tidak ada properti yang mempengaruhi yang dapat ditampilkan)"
+
+    # _developer\inspector.rpym:147
+    old "(Properti default dihilangkan)"
+    new "(Properti default dihilangkan)"
+
+    # _developer\inspector.rpym:185
+    old "<repr() failed>"
+    new "<repr() failed>"
+
+    # _layout\classic_load_save.rpym:170
+    old "a"
+    new "a"
+
+    # _layout\classic_load_save.rpym:179
+    old "q"
+    new "q"
+
+    # 00iap.rpy:217
+    old "Contacting App Store\nPlease Wait..."
+    new "Contacting App Store\nPlease Wait..."
+
+    # 00updater.rpy:375
+    old "Ren \ py updater tidak didukung pada perangkat seluler."
+    new "Ren \ py updater tidak didukung pada perangkat seluler."
+
+    # 00updater.rpy:494
+    old "Kesalahan sedang disimulasikan."
+    new "Kesalahan sedang disimulasikan."
+
+    # 00updater.rpy:678
+    old "Entah proyek ini tidak mendukung pembaruan, atau file status pembaruan dihapus."
+    new "Entah proyek ini tidak mendukung pembaruan, atau file status pembaruan dihapus."
+
+    # 00updater.rpy:692
+    old "Akun ini tidak memiliki izin untuk melakukan pembaruan."
+    new "Akun ini tidak memiliki izin untuk melakukan pembaruan."
+
+    # 00updater.rpy:695
+    old "Akun ini tidak memiliki izin untuk menulis log pembaruan."
+    new "Akun ini tidak memiliki izin untuk menulis log pembaruan."
+
+    # 00updater.rpy:722
+    old "Tidak dapat memverifikasi tanda tangan pembaruan."
+    new "Tidak dapat memverifikasi tanda tangan pembaruan."
+
+    # 00updater.rpy:997
+    old "File pembaruan tidak diunduh."
+    new "File pembaruan tidak diunduh."
+
+    # 00updater.rpy:1015
+    old "File pembaruan tidak memiliki pencernaan yang benar - mungkin sudah rusak."
+    new "File pembaruan tidak memiliki pencernaan yang benar - mungkin sudah rusak."
+
+    # 00updater.rpy:1071
+    old "Saat membongkar {}, tipe yang tidak diketahui {}."
+    new "Saat membongkar {}, tipe yang tidak diketahui {}."
+
+    # 00updater.rpy:1439
+    old "Updater"
+    new "Updater"
+
+    # 00updater.rpy:1446
+    old "Kesalahan telah terjadi:"
+    new "Kesalahan telah terjadi:"
+
+    # 00updater.rpy:1448
+    old "Memeriksa pembaruan."
+    new "Memeriksa pembaruan."
+
+    # 00updater.rpy:1450
+    old "Program ini up to date."
+    new "Program ini up to date."
+
+    # 00updater.rpy:1452
+    old "[12] tersedia. Apakah Anda ingin menginstalnya?"
+    new "[12] tersedia. Apakah Anda ingin menginstalnya?"
+
+    # 00updater.rpy:1454
+    old "Bersiap untuk mengunduh pembaruan."
+    new "Bersiap untuk mengunduh pembaruan."
+
+    # 00updater.rpy:1456
+    old "Mengunduh pembaruan."
+    new "Mengunduh pembaruan."
+
+    # 00updater.rpy:1458
+    old "Membongkar pembaruan."
+    new "Membongkar pembaruan."
+
+    # 00updater.rpy:1460
+    old "Menyelesaikan."
+    new "Menyelesaikan."
+
+    # 00updater.rpy:1462
+    old "Pembaruan telah diinstal. Program akan restart."
+    new "Pembaruan telah diinstal. Program akan restart."
+
+    # 00updater.rpy:1464
+    old "Pembaruan telah diinstal."
+    new "Pembaruan telah diinstal."
+
+    # 00updater.rpy:1466
+    old "Pembaruan dibatalkan."
+    new "Pembaruan dibatalkan."
+
+    # 00updater.rpy:1481
+    old "Proceed"
+    new "Proceed"
+
+    # 00compat.rpy:264
+    old "Fullscreen"
+    new "Fullscreen"
+
+    # 00gallery.rpy:587
+    old "Gambar [8] dari [9] terkunci."
+    new "Gambar [8] dari [9] terkunci."
+
+    # 00gallery.rpy:607
+    old "prev"
+    new "prev"
+
+    # 00gallery.rpy:608
+    old "next"
+    new "next"
+
+    # 00gallery.rpy:609
+    old "slideshow"
+    new "slideshow"
+
+    # 00gallery.rpy:610
+    old "return"
+    new "return"
+
+    # 00gltest.rpy:70
+    old "Renderer"
+    new "Renderer"
+
+    # 00gltest.rpy:74
+    old "Secara otomatis memilih"
+    new "Secara otomatis memilih"
+
+    # 00gltest.rpy:79
+    old "Force Angle/DirectX Renderer"
+    new "Force Angle/DirectX Renderer"
+
+    # 00gltest.rpy:83
+    old "Force OpenGL Renderer"
+    new "Force OpenGL Renderer"
+
+    # 00gltest.rpy:87
+    old "Force Software Renderer"
+    new "Force Software Renderer"
+
+    # 00gltest.rpy:93
+    old "NPOT"
+    new "NPOT"
+
+    # 00gltest.rpy:97
+    old "Enable"
+    new "Enable"
+
+    # 00gltest.rpy:101
+    old "Disable"
+    new "Disable"
+
+    # 00gltest.rpy:108
+    old "Gamepad"
+    new "Gamepad"
+
+    # 00gltest.rpy:122
+    old "Calibrate"
+    new "Calibrate"
+
+    # 00gltest.rpy:131
+    old "Powersave"
+    new "Powersave"
+
+    # 00gltest.rpy:145
+    old "Framerate"
+    new "Framerate"
+
+    # 00gltest.rpy:149
+    old "Screen"
+    new "Screen"
+
+    # 00gltest.rpy:153
+    old "60"
+    new "60"
+
+    # 00gltest.rpy:157
+    old "30"
+    new "30"
+
+    # 00gltest.rpy:163
+    old "Tearing"
+    new "Tearing"
+
+    # 00gltest.rpy:179
+    old "Perubahan akan mulai berlaku saat program ini dijalankan."
+    new "Perubahan akan mulai berlaku saat program ini dijalankan."
+
+    # 00gltest.rpy:186
+    old "Quit"
+    new "Quit"
+
+    # 00gltest.rpy:213
+    old "Performance Warning"
+    new "Performance Warning"
+
+    # 00gltest.rpy:218
+    old "Komputer ini menggunakan rendering perangkat lunak."
+    new "Komputer ini menggunakan rendering perangkat lunak."
+
+    # 00gltest.rpy:220
+    old "Komputer ini tidak menggunakan shader."
+    new "Komputer ini tidak menggunakan shader."
+
+    # 00gltest.rpy:222
+    old "Komputer ini menampilkan grafik secara perlahan."
+    new "Komputer ini menampilkan grafik secara perlahan."
+
+    # 00gltest.rpy:224
+    old "Komputer ini memiliki masalah yang menampilkan grafik: [14]."
+    new "Komputer ini memiliki masalah yang menampilkan grafik: [14]."
+
+    # 00gltest.rpy:229
+    old "Driver grafisnya mungkin ketinggalan zaman atau tidak beroperasi dengan benar. Ini dapat menyebabkan tampilan grafik yang lambat atau salah. Memperbarui DirectX dapat memperbaiki masalah ini."
+    new "Driver grafisnya mungkin ketinggalan zaman atau tidak beroperasi dengan benar. Ini dapat menyebabkan tampilan grafik yang lambat atau salah. Memperbarui DirectX dapat memperbaiki masalah ini."
+
+    # 00gltest.rpy:231
+    old "Driver grafisnya mungkin ketinggalan zaman atau tidak beroperasi dengan benar. Ini dapat menyebabkan tampilan grafik yang lambat atau salah."
+    new "Driver grafisnya mungkin ketinggalan zaman atau tidak beroperasi dengan benar. Ini dapat menyebabkan tampilan grafik yang lambat atau salah."
+
+    # 00gltest.rpy:236
+    old "Update DirectX"
+    new "Update DirectX"
+
+    # 00gltest.rpy:242
+    old "Lanjutkan, tunjukkan peringatan ini lagi"
+    new "Lanjutkan, tunjukkan peringatan ini lagi"
+
+    # 00gltest.rpy:246
+    old "Lanjutkan, jangan tunjukkan peringatan lagi"
+    new "Lanjutkan, jangan tunjukkan peringatan lagi"
+
+    # 00gltest.rpy:264
+    old "Memperbarui DirectX."
+    new "Memperbarui DirectX."
+
+    # 00gltest.rpy:268
+    old "Pengaturan Web DirectX telah dimulai. Ini mungkin mulai diminimalkan di bilah tugas. Harap ikuti petunjuk untuk menginstal DirectX."
+    new "Pengaturan Web DirectX telah dimulai. Ini mungkin mulai diminimalkan di bilah tugas. Harap ikuti petunjuk untuk menginstal DirectX."
+
+    # 00gltest.rpy:272
+    old "{9} Catatan: {2} Program Pengaturan Web DirectX Microsoft \ akan, secara default, instal Bing Toolbar. Jika Anda tidak menginginkan bilah alat ini, hapus centang kotak yang sesuai."
+    new "{9} Catatan: {2} Program Pengaturan Web DirectX Microsoft \ akan, secara default, instal Bing Toolbar. Jika Anda tidak menginginkan bilah alat ini, hapus centang kotak yang sesuai."
+
+    # 00gltest.rpy:276
+    old "Saat menyiapkan selesai, silakan klik di bawah ini untuk memulai kembali program ini."
+    new "Saat menyiapkan selesai, silakan klik di bawah ini untuk memulai kembali program ini."
+
+    # 00gltest.rpy:278
+    old "Restart"
+    new "Restart"
+
+    # 00gamepad.rpy:32
+    old "Pilih GamePad untuk mengkalibrasi"
+    new "Pilih GamePad untuk mengkalibrasi"
+
+    # 00gamepad.rpy:35
+    old "Tidak ada gamepad yang tersedia"
+    new "Tidak ada gamepad yang tersedia"
+
+    # 00gamepad.rpy:54
+    old "Calibrating [6] ([5]/[13])"
+    new "Calibrating [6] ([5]/[13])"
+
+    # 00gamepad.rpy:58
+    old "Tekan atau pindahkan [17] [11]."
+    new "Tekan atau pindahkan [17] [11]."
+
+    # 00gamepad.rpy:66
+    old "Skip (A)"
+    new "Skip (A)"
+
+    # 00gamepad.rpy:69
+    old "Back (B)"
+    new "Back (B)"
+
+    # _errorhandling.rpym:536
+    old "Open"
+    new "Open"
+
+    # _errorhandling.rpym:538
+    old "Membuka file traceback.txt di editor teks."
+    new "Membuka file traceback.txt di editor teks."
+
+    # _errorhandling.rpym:540
+    old "Copy BBCode"
+    new "Copy BBCode"
+
+    # _errorhandling.rpym:542
+    old "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+    new "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+
+    # _errorhandling.rpym:544
+    old "Copy Markdown"
+    new "Copy Markdown"
+
+    # _errorhandling.rpym:546
+    old "Menyalin file traceback.txt ke clipboard sebagai markdown untuk perselisihan."
+    new "Menyalin file traceback.txt ke clipboard sebagai markdown untuk perselisihan."
+
+    # _errorhandling.rpym:575
+    old "Pengecualian telah terjadi."
+    new "Pengecualian telah terjadi."
+
+    # _errorhandling.rpym:595
+    old "Rollback"
+    new "Rollback"
+
+    # _errorhandling.rpym:597
+    old "Mencoba kembali ke waktu sebelumnya, memungkinkan Anda untuk menyimpan atau memilih pilihan yang berbeda."
+    new "Mencoba kembali ke waktu sebelumnya, memungkinkan Anda untuk menyimpan atau memilih pilihan yang berbeda."
+
+    # _errorhandling.rpym:600
+    old "Ignore"
+    new "Ignore"
+
+    # _errorhandling.rpym:604
+    old "Mengabaikan pengecualian, memungkinkan Anda untuk melanjutkan."
+    new "Mengabaikan pengecualian, memungkinkan Anda untuk melanjutkan."
+
+    # _errorhandling.rpym:606
+    old "Mengabaikan pengecualian, memungkinkan Anda untuk melanjutkan. Ini sering menyebabkan kesalahan tambahan."
+    new "Mengabaikan pengecualian, memungkinkan Anda untuk melanjutkan. Ini sering menyebabkan kesalahan tambahan."
+
+    # _errorhandling.rpym:610
+    old "Reload"
+    new "Reload"
+
+    # _errorhandling.rpym:612
+    old "Muat ulang game dari disk, menyimpan dan memulihkan status game jika memungkinkan."
+    new "Muat ulang game dari disk, menyimpan dan memulihkan status game jika memungkinkan."
+
+    # _errorhandling.rpym:615
+    old "Console"
+    new "Console"
+
+    # _errorhandling.rpym:617
+    old "Membuka konsol untuk memungkinkan debugging masalah."
+    new "Membuka konsol untuk memungkinkan debugging masalah."
+
+    # _errorhandling.rpym:627
+    old "Berhenti dari permainan."
+    new "Berhenti dari permainan."
+
+    # _errorhandling.rpym:651
+    old "Parsing skrip gagal."
+    new "Parsing skrip gagal."
+
+    # _errorhandling.rpym:677
+    old "Membuka file errors.txt di editor teks."
+    new "Membuka file errors.txt di editor teks."
+
+    # _errorhandling.rpym:681
+    old "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+    new "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+
+    # _errorhandling.rpym:685
+    old "Menyalin file errors.txt ke clipboard sebagai markdown untuk perselisihan."
+    new "Menyalin file errors.txt ke clipboard sebagai markdown untuk perselisihan."
+
+    # 00console.rpy:271
+    old "Press <esc> to exit console. Type help for help.\n"
+    new "Press <esc> to exit console. Type help for help.\n"
+
+    # 00console.rpy:275
+    old "Ren \ py Script diaktifkan."
+    new "Ren \ py Script diaktifkan."
+
+    # 00console.rpy:277
+    old "Ren \ py Script dinonaktifkan."
+    new "Ren \ py Script dinonaktifkan."
+
+    # 00console.rpy:524
+    old "Bantuan: Tunjukkan Bantuan Ini"
+    new "Bantuan: Tunjukkan Bantuan Ini"
+
+    # 00console.rpy:529
+    old "commands:\n"
+    new "commands:\n"
+
+    # 00console.rpy:539
+    old " <renpy script statement>: run the statement\n"
+    new " <renpy script statement>: run the statement\n"
+
+    # 00console.rpy:541
+    old "<Ekspresi atau Pernyataan Python>: Jalankan ekspresi atau pernyataan"
+    new "<Ekspresi atau Pernyataan Python>: Jalankan ekspresi atau pernyataan"
+
+    # 00console.rpy:549
+    old "Hapus: Hapus Sejarah Konsol"
+    new "Hapus: Hapus Sejarah Konsol"
+
+    # 00console.rpy:553
+    old "Keluar: Keluar dari konsol"
+    new "Keluar: Keluar dari konsol"
+
+    # 00console.rpy:561
+    old "Muat <Slot>: Memuat game dari slot"
+    new "Muat <Slot>: Memuat game dari slot"
+
+    # 00console.rpy:574
+    old "Simpan <Slot>: Menyimpan game dalam slot"
+    new "Simpan <Slot>: Menyimpan game dalam slot"
+
+    # 00console.rpy:585
+    old "Muat ulang: Muat ulang permainan, menyegarkan skrip"
+    new "Muat ulang: Muat ulang permainan, menyegarkan skrip"
+
+    # 00console.rpy:593
+    old "Tonton <pekspresi>: Tonton ekspresi Python"
+    new "Tonton <pekspresi>: Tonton ekspresi Python"
+
+    # 00console.rpy:619
+    old "ADACHT <Expression>: Berhentilah menonton ekspresi"
+    new "ADACHT <Expression>: Berhentilah menonton ekspresi"
+
+    # 00console.rpy:650
+    old "Awakchall: Berhenti menonton semua ekspresi"
+    new "Awakchall: Berhenti menonton semua ekspresi"
+
+    # 00console.rpy:667
+    old "Lompat <LABEL>: Lompat ke label"
+    new "Lompat <LABEL>: Lompat ke label"
+
+    # 00console.rpy:680
+    old "Pendek: Perpendek representasi objek pada konsol (default)."
+    new "Pendek: Perpendek representasi objek pada konsol (default)."
+
+    # 00console.rpy:685
+    old "Long: Cetak representasi lengkap objek di konsol."
+    new "Long: Cetak representasi lengkap objek di konsol."
+

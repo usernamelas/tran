@@ -1,0 +1,1640 @@
+=== REN'PY TRANSLATION LOG v5.3 ===
+Tanggal: 2025-09-02 19:58:00
+Input: x-common.rpym
+Output: x-common_id.rpym
+Bahasa: en -> id
+Log Level: ERROR
+==================================================
+
+BARIS 5 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Monday"
+ASLI   : '{7}Monday'
+----------------------------------------
+
+BARIS 6 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Monday"
+ASLI   : '{7}Monday'
+----------------------------------------
+
+BARIS 9 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Tuesday"
+ASLI   : '{7}Tuesday'
+----------------------------------------
+
+BARIS 10 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Tuesday"
+ASLI   : '{7}Tuesday'
+----------------------------------------
+
+BARIS 13 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Wednesday"
+ASLI   : '{7}Wednesday'
+----------------------------------------
+
+BARIS 14 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Wednesday"
+ASLI   : '{7}Wednesday'
+----------------------------------------
+
+BARIS 17 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Thursday"
+ASLI   : '{7}Thursday'
+----------------------------------------
+
+BARIS 18 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Thursday"
+ASLI   : '{7}Thursday'
+----------------------------------------
+
+BARIS 21 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Friday"
+ASLI   : '{7}Friday'
+----------------------------------------
+
+BARIS 22 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Friday"
+ASLI   : '{7}Friday'
+----------------------------------------
+
+BARIS 25 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Saturday"
+ASLI   : '{7}Saturday'
+----------------------------------------
+
+BARIS 26 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Saturday"
+ASLI   : '{7}Saturday'
+----------------------------------------
+
+BARIS 29 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday}Sunday"
+ASLI   : '{7}Sunday'
+----------------------------------------
+
+BARIS 30 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday}Sunday"
+ASLI   : '{7}Sunday'
+----------------------------------------
+
+BARIS 33 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Mon"
+ASLI   : '{8}Mon'
+----------------------------------------
+
+BARIS 34 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Mon"
+ASLI   : '{8}Mon'
+----------------------------------------
+
+BARIS 37 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Tue"
+ASLI   : '{8}Tue'
+----------------------------------------
+
+BARIS 38 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Tue"
+ASLI   : '{8}Tue'
+----------------------------------------
+
+BARIS 41 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Wed"
+ASLI   : '{8}Wed'
+----------------------------------------
+
+BARIS 42 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Wed"
+ASLI   : '{8}Wed'
+----------------------------------------
+
+BARIS 45 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Thu"
+ASLI   : '{8}Thu'
+----------------------------------------
+
+BARIS 46 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Thu"
+ASLI   : '{8}Thu'
+----------------------------------------
+
+BARIS 49 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Fri"
+ASLI   : '{8}Fri'
+----------------------------------------
+
+BARIS 50 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Fri"
+ASLI   : '{8}Fri'
+----------------------------------------
+
+BARIS 53 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Sat"
+ASLI   : '{8}Sat'
+----------------------------------------
+
+BARIS 54 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Sat"
+ASLI   : '{8}Sat'
+----------------------------------------
+
+BARIS 57 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#weekday_short}Sun"
+ASLI   : '{8}Sun'
+----------------------------------------
+
+BARIS 58 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#weekday_short}Sun"
+ASLI   : '{8}Sun'
+----------------------------------------
+
+BARIS 61 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}January"
+ASLI   : '{1}January'
+----------------------------------------
+
+BARIS 62 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}January"
+ASLI   : '{1}January'
+----------------------------------------
+
+BARIS 65 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}February"
+ASLI   : '{1}February'
+----------------------------------------
+
+BARIS 66 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}February"
+ASLI   : '{1}February'
+----------------------------------------
+
+BARIS 69 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}March"
+ASLI   : '{1}March'
+----------------------------------------
+
+BARIS 70 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}March"
+ASLI   : '{1}March'
+----------------------------------------
+
+BARIS 73 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}April"
+ASLI   : '{1}April'
+----------------------------------------
+
+BARIS 74 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}April"
+ASLI   : '{1}April'
+----------------------------------------
+
+BARIS 77 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}May"
+ASLI   : '{1}May'
+----------------------------------------
+
+BARIS 78 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}May"
+ASLI   : '{1}May'
+----------------------------------------
+
+BARIS 81 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}June"
+ASLI   : '{1}June'
+----------------------------------------
+
+BARIS 82 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}June"
+ASLI   : '{1}June'
+----------------------------------------
+
+BARIS 85 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}July"
+ASLI   : '{1}July'
+----------------------------------------
+
+BARIS 86 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}July"
+ASLI   : '{1}July'
+----------------------------------------
+
+BARIS 89 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}August"
+ASLI   : '{1}August'
+----------------------------------------
+
+BARIS 90 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}August"
+ASLI   : '{1}August'
+----------------------------------------
+
+BARIS 93 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}September"
+ASLI   : '{1}September'
+----------------------------------------
+
+BARIS 94 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}September"
+ASLI   : '{1}September'
+----------------------------------------
+
+BARIS 97 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}October"
+ASLI   : '{1}October'
+----------------------------------------
+
+BARIS 98 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}October"
+ASLI   : '{1}October'
+----------------------------------------
+
+BARIS 101 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}November"
+ASLI   : '{1}November'
+----------------------------------------
+
+BARIS 102 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}November"
+ASLI   : '{1}November'
+----------------------------------------
+
+BARIS 105 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month}December"
+ASLI   : '{1}December'
+----------------------------------------
+
+BARIS 106 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month}December"
+ASLI   : '{1}December'
+----------------------------------------
+
+BARIS 109 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Jan"
+ASLI   : '{10}Jan'
+----------------------------------------
+
+BARIS 110 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Jan"
+ASLI   : '{10}Jan'
+----------------------------------------
+
+BARIS 113 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Feb"
+ASLI   : '{10}Feb'
+----------------------------------------
+
+BARIS 114 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Feb"
+ASLI   : '{10}Feb'
+----------------------------------------
+
+BARIS 117 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Mar"
+ASLI   : '{10}Mar'
+----------------------------------------
+
+BARIS 118 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Mar"
+ASLI   : '{10}Mar'
+----------------------------------------
+
+BARIS 121 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Apr"
+ASLI   : '{10}Apr'
+----------------------------------------
+
+BARIS 122 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Apr"
+ASLI   : '{10}Apr'
+----------------------------------------
+
+BARIS 125 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}May"
+ASLI   : '{10}May'
+----------------------------------------
+
+BARIS 126 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}May"
+ASLI   : '{10}May'
+----------------------------------------
+
+BARIS 129 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Jun"
+ASLI   : '{10}Jun'
+----------------------------------------
+
+BARIS 130 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Jun"
+ASLI   : '{10}Jun'
+----------------------------------------
+
+BARIS 133 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Jul"
+ASLI   : '{10}Jul'
+----------------------------------------
+
+BARIS 134 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Jul"
+ASLI   : '{10}Jul'
+----------------------------------------
+
+BARIS 137 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Aug"
+ASLI   : '{10}Aug'
+----------------------------------------
+
+BARIS 138 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Aug"
+ASLI   : '{10}Aug'
+----------------------------------------
+
+BARIS 141 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Sep"
+ASLI   : '{10}Sep'
+----------------------------------------
+
+BARIS 142 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Sep"
+ASLI   : '{10}Sep'
+----------------------------------------
+
+BARIS 145 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Oct"
+ASLI   : '{10}Oct'
+----------------------------------------
+
+BARIS 146 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Oct"
+ASLI   : '{10}Oct'
+----------------------------------------
+
+BARIS 149 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Nov"
+ASLI   : '{10}Nov'
+----------------------------------------
+
+BARIS 150 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Nov"
+ASLI   : '{10}Nov'
+----------------------------------------
+
+BARIS 153 | STATUS: SKIPPED_CODE
+CONTEXT: old "{#month_short}Dec"
+ASLI   : '{10}Dec'
+----------------------------------------
+
+BARIS 154 | STATUS: SKIPPED_CODE
+CONTEXT: new "{#month_short}Dec"
+ASLI   : '{10}Dec'
+----------------------------------------
+
+BARIS 185 | STATUS: SKIPPED_CODE
+CONTEXT: old "Page {}"
+ASLI   : 'Page {}'
+----------------------------------------
+
+BARIS 186 | STATUS: SKIPPED_CODE
+CONTEXT: new "Page {}"
+ASLI   : 'Page {}'
+----------------------------------------
+
+BARIS 189 | STATUS: SKIPPED_CODE
+CONTEXT: old "Automatic saves"
+ASLI   : 'Automatic saves'
+----------------------------------------
+
+BARIS 190 | STATUS: SKIPPED_CODE
+CONTEXT: new "Automatic saves"
+ASLI   : 'Automatic saves'
+----------------------------------------
+
+BARIS 193 | STATUS: SKIPPED_CODE
+CONTEXT: old "Quick saves"
+ASLI   : 'Quick saves'
+----------------------------------------
+
+BARIS 194 | STATUS: SKIPPED_CODE
+CONTEXT: new "Quick saves"
+ASLI   : 'Quick saves'
+----------------------------------------
+
+BARIS 217 | STATUS: SKIPPED_CODE
+CONTEXT: old "Language [text]"
+ASLI   : 'Language [2]'
+----------------------------------------
+
+BARIS 218 | STATUS: SKIPPED_CODE
+CONTEXT: new "Language [text]"
+ASLI   : 'Language [2]'
+----------------------------------------
+
+BARIS 225 | STATUS: SKIPPED_CODE
+CONTEXT: old "⬆"
+ASLI   : '⬆'
+----------------------------------------
+
+BARIS 226 | STATUS: SKIPPED_CODE
+CONTEXT: new "⬆"
+ASLI   : '⬆'
+----------------------------------------
+
+BARIS 229 | STATUS: SKIPPED_CODE
+CONTEXT: old "⬇"
+ASLI   : '⬇'
+----------------------------------------
+
+BARIS 230 | STATUS: SKIPPED_CODE
+CONTEXT: new "⬇"
+ASLI   : '⬇'
+----------------------------------------
+
+BARIS 233 | STATUS: SKIPPED_CODE
+CONTEXT: old "Done"
+ASLI   : 'Done'
+----------------------------------------
+
+BARIS 234 | STATUS: SKIPPED_CODE
+CONTEXT: new "Done"
+ASLI   : 'Done'
+----------------------------------------
+
+BARIS 237 | STATUS: SKIPPED_CODE
+CONTEXT: old "(statement)"
+ASLI   : '(statement)'
+----------------------------------------
+
+BARIS 238 | STATUS: SKIPPED_CODE
+CONTEXT: new "(statement)"
+ASLI   : '(statement)'
+----------------------------------------
+
+BARIS 241 | STATUS: SKIPPED_CODE
+CONTEXT: old "(tag)"
+ASLI   : '(tag)'
+----------------------------------------
+
+BARIS 242 | STATUS: SKIPPED_CODE
+CONTEXT: new "(tag)"
+ASLI   : '(tag)'
+----------------------------------------
+
+BARIS 245 | STATUS: SKIPPED_CODE
+CONTEXT: old "(attributes)"
+ASLI   : '(attributes)'
+----------------------------------------
+
+BARIS 246 | STATUS: SKIPPED_CODE
+CONTEXT: new "(attributes)"
+ASLI   : '(attributes)'
+----------------------------------------
+
+BARIS 249 | STATUS: SKIPPED_CODE
+CONTEXT: old "(transform)"
+ASLI   : '(transform)'
+----------------------------------------
+
+BARIS 250 | STATUS: SKIPPED_CODE
+CONTEXT: new "(transform)"
+ASLI   : '(transform)'
+----------------------------------------
+
+BARIS 253 | STATUS: SKIPPED_CODE
+CONTEXT: old "(transition)"
+ASLI   : '(transition)'
+----------------------------------------
+
+BARIS 254 | STATUS: SKIPPED_CODE
+CONTEXT: new "(transition)"
+ASLI   : '(transition)'
+----------------------------------------
+
+BARIS 257 | STATUS: SKIPPED_CODE
+CONTEXT: old "(channel)"
+ASLI   : '(channel)'
+----------------------------------------
+
+BARIS 258 | STATUS: SKIPPED_CODE
+CONTEXT: new "(channel)"
+ASLI   : '(channel)'
+----------------------------------------
+
+BARIS 261 | STATUS: SKIPPED_CODE
+CONTEXT: old "(filename)"
+ASLI   : '(filename)'
+----------------------------------------
+
+BARIS 262 | STATUS: SKIPPED_CODE
+CONTEXT: new "(filename)"
+ASLI   : '(filename)'
+----------------------------------------
+
+BARIS 265 | STATUS: SKIPPED_CODE
+CONTEXT: old "Change"
+ASLI   : 'Change'
+----------------------------------------
+
+BARIS 266 | STATUS: SKIPPED_CODE
+CONTEXT: new "Change"
+ASLI   : 'Change'
+----------------------------------------
+
+BARIS 269 | STATUS: SKIPPED_CODE
+CONTEXT: old "Add"
+ASLI   : 'Add'
+----------------------------------------
+
+BARIS 270 | STATUS: SKIPPED_CODE
+CONTEXT: new "Add"
+ASLI   : 'Add'
+----------------------------------------
+
+BARIS 273 | STATUS: SKIPPED_CODE
+CONTEXT: old "Cancel"
+ASLI   : 'Cancel'
+----------------------------------------
+
+BARIS 274 | STATUS: SKIPPED_CODE
+CONTEXT: new "Cancel"
+ASLI   : 'Cancel'
+----------------------------------------
+
+BARIS 277 | STATUS: SKIPPED_CODE
+CONTEXT: old "Remove"
+ASLI   : 'Remove'
+----------------------------------------
+
+BARIS 278 | STATUS: SKIPPED_CODE
+CONTEXT: new "Remove"
+ASLI   : 'Remove'
+----------------------------------------
+
+BARIS 282 | STATUS: TIMEOUT
+CONTEXT: new "Statement:"
+ASLI   : 'Statement:'
+ERROR  : Translation timeout (25s)
+----------------------------------------
+
+BARIS 285 | STATUS: TIMEOUT
+CONTEXT: old "Tag:"
+ASLI   : 'Tag:'
+ERROR  : Translation timeout (25s)
+----------------------------------------
+
+BARIS 286 | STATUS: TIMEOUT
+CONTEXT: new "Tag:"
+ASLI   : 'Tag:'
+ERROR  : Translation timeout (25s)
+----------------------------------------
+
+BARIS 325 | STATUS: SKIPPED_CODE
+CONTEXT: old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+ASLI   : 'Loading will lose unsaved progress.\nAre you sure you want to do this?'
+----------------------------------------
+
+BARIS 326 | STATUS: SKIPPED_CODE
+CONTEXT: new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+ASLI   : 'Loading will lose unsaved progress.\nAre you sure you want to do this?'
+----------------------------------------
+
+BARIS 333 | STATUS: SKIPPED_CODE
+CONTEXT: old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+ASLI   : 'Are you sure you want to return to the main menu?\nThis will lose unsaved progress.'
+----------------------------------------
+
+BARIS 334 | STATUS: SKIPPED_CODE
+CONTEXT: new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+ASLI   : 'Are you sure you want to return to the main menu?\nThis will lose unsaved progress.'
+----------------------------------------
+
+BARIS 358 | STATUS: TIMEOUT
+CONTEXT: new "Saved screenshot as %s."
+ASLI   : 'Saved screenshot as %s.'
+ERROR  : Translation timeout (25s)
+----------------------------------------
+
+BARIS 373 | STATUS: SKIPPED_CODE
+CONTEXT: old "bar"
+ASLI   : 'bar'
+----------------------------------------
+
+BARIS 374 | STATUS: SKIPPED_CODE
+CONTEXT: new "bar"
+ASLI   : 'bar'
+----------------------------------------
+
+BARIS 377 | STATUS: SKIPPED_CODE
+CONTEXT: old "selected"
+ASLI   : 'selected'
+----------------------------------------
+
+BARIS 378 | STATUS: SKIPPED_CODE
+CONTEXT: new "selected"
+ASLI   : 'selected'
+----------------------------------------
+
+BARIS 381 | STATUS: SKIPPED_CODE
+CONTEXT: old "viewport"
+ASLI   : 'viewport'
+----------------------------------------
+
+BARIS 382 | STATUS: SKIPPED_CODE
+CONTEXT: new "viewport"
+ASLI   : 'viewport'
+----------------------------------------
+
+BARIS 385 | STATUS: SKIPPED_CODE
+CONTEXT: old "horizontal scroll"
+ASLI   : 'horizontal scroll'
+----------------------------------------
+
+BARIS 386 | STATUS: SKIPPED_CODE
+CONTEXT: new "horizontal scroll"
+ASLI   : 'horizontal scroll'
+----------------------------------------
+
+BARIS 389 | STATUS: SKIPPED_CODE
+CONTEXT: old "vertical scroll"
+ASLI   : 'vertical scroll'
+----------------------------------------
+
+BARIS 390 | STATUS: SKIPPED_CODE
+CONTEXT: new "vertical scroll"
+ASLI   : 'vertical scroll'
+----------------------------------------
+
+BARIS 393 | STATUS: SKIPPED_CODE
+CONTEXT: old "activate"
+ASLI   : 'activate'
+----------------------------------------
+
+BARIS 394 | STATUS: SKIPPED_CODE
+CONTEXT: new "activate"
+ASLI   : 'activate'
+----------------------------------------
+
+BARIS 397 | STATUS: SKIPPED_CODE
+CONTEXT: old "deactivate"
+ASLI   : 'deactivate'
+----------------------------------------
+
+BARIS 398 | STATUS: SKIPPED_CODE
+CONTEXT: new "deactivate"
+ASLI   : 'deactivate'
+----------------------------------------
+
+BARIS 401 | STATUS: SKIPPED_CODE
+CONTEXT: old "increase"
+ASLI   : 'increase'
+----------------------------------------
+
+BARIS 402 | STATUS: SKIPPED_CODE
+CONTEXT: new "increase"
+ASLI   : 'increase'
+----------------------------------------
+
+BARIS 405 | STATUS: SKIPPED_CODE
+CONTEXT: old "decrease"
+ASLI   : 'decrease'
+----------------------------------------
+
+BARIS 406 | STATUS: SKIPPED_CODE
+CONTEXT: new "decrease"
+ASLI   : 'decrease'
+----------------------------------------
+
+BARIS 409 | STATUS: SKIPPED_CODE
+CONTEXT: old "Skip Mode"
+ASLI   : 'Skip Mode'
+----------------------------------------
+
+BARIS 410 | STATUS: SKIPPED_CODE
+CONTEXT: new "Skip Mode"
+ASLI   : 'Skip Mode'
+----------------------------------------
+
+BARIS 417 | STATUS: SKIPPED_CODE
+CONTEXT: old "display"
+ASLI   : 'display'
+----------------------------------------
+
+BARIS 418 | STATUS: SKIPPED_CODE
+CONTEXT: new "display"
+ASLI   : 'display'
+----------------------------------------
+
+BARIS 421 | STATUS: SKIPPED_CODE
+CONTEXT: old "transitions"
+ASLI   : 'transitions'
+----------------------------------------
+
+BARIS 422 | STATUS: SKIPPED_CODE
+CONTEXT: new "transitions"
+ASLI   : 'transitions'
+----------------------------------------
+
+BARIS 425 | STATUS: SKIPPED_CODE
+CONTEXT: old "skip transitions"
+ASLI   : 'skip transitions'
+----------------------------------------
+
+BARIS 426 | STATUS: SKIPPED_CODE
+CONTEXT: new "skip transitions"
+ASLI   : 'skip transitions'
+----------------------------------------
+
+BARIS 429 | STATUS: SKIPPED_CODE
+CONTEXT: old "video sprites"
+ASLI   : 'video sprites'
+----------------------------------------
+
+BARIS 430 | STATUS: SKIPPED_CODE
+CONTEXT: new "video sprites"
+ASLI   : 'video sprites'
+----------------------------------------
+
+BARIS 437 | STATUS: SKIPPED_CODE
+CONTEXT: old "text speed"
+ASLI   : 'text speed'
+----------------------------------------
+
+BARIS 438 | STATUS: SKIPPED_CODE
+CONTEXT: new "text speed"
+ASLI   : 'text speed'
+----------------------------------------
+
+BARIS 441 | STATUS: SKIPPED_CODE
+CONTEXT: old "joystick"
+ASLI   : 'joystick'
+----------------------------------------
+
+BARIS 442 | STATUS: SKIPPED_CODE
+CONTEXT: new "joystick"
+ASLI   : 'joystick'
+----------------------------------------
+
+BARIS 449 | STATUS: SKIPPED_CODE
+CONTEXT: old "skip"
+ASLI   : 'skip'
+----------------------------------------
+
+BARIS 450 | STATUS: SKIPPED_CODE
+CONTEXT: new "skip"
+ASLI   : 'skip'
+----------------------------------------
+
+BARIS 461 | STATUS: SKIPPED_CODE
+CONTEXT: old "begin skipping"
+ASLI   : 'begin skipping'
+----------------------------------------
+
+BARIS 462 | STATUS: SKIPPED_CODE
+CONTEXT: new "begin skipping"
+ASLI   : 'begin skipping'
+----------------------------------------
+
+BARIS 465 | STATUS: SKIPPED_CODE
+CONTEXT: old "after choices"
+ASLI   : 'after choices'
+----------------------------------------
+
+BARIS 466 | STATUS: SKIPPED_CODE
+CONTEXT: new "after choices"
+ASLI   : 'after choices'
+----------------------------------------
+
+BARIS 473 | STATUS: SKIPPED_CODE
+CONTEXT: old "auto-forward time"
+ASLI   : 'auto-forward time'
+----------------------------------------
+
+BARIS 474 | STATUS: SKIPPED_CODE
+CONTEXT: new "auto-forward time"
+ASLI   : 'auto-forward time'
+----------------------------------------
+
+BARIS 477 | STATUS: SKIPPED_CODE
+CONTEXT: old "auto-forward"
+ASLI   : 'auto-forward'
+----------------------------------------
+
+BARIS 478 | STATUS: SKIPPED_CODE
+CONTEXT: new "auto-forward"
+ASLI   : 'auto-forward'
+----------------------------------------
+
+BARIS 481 | STATUS: SKIPPED_CODE
+CONTEXT: old "Auto forward"
+ASLI   : 'Auto forward'
+----------------------------------------
+
+BARIS 482 | STATUS: SKIPPED_CODE
+CONTEXT: new "Auto forward"
+ASLI   : 'Auto forward'
+----------------------------------------
+
+BARIS 489 | STATUS: SKIPPED_CODE
+CONTEXT: old "automatic move"
+ASLI   : 'automatic move'
+----------------------------------------
+
+BARIS 490 | STATUS: SKIPPED_CODE
+CONTEXT: new "automatic move"
+ASLI   : 'automatic move'
+----------------------------------------
+
+BARIS 497 | STATUS: SKIPPED_CODE
+CONTEXT: old "voice sustain"
+ASLI   : 'voice sustain'
+----------------------------------------
+
+BARIS 498 | STATUS: SKIPPED_CODE
+CONTEXT: new "voice sustain"
+ASLI   : 'voice sustain'
+----------------------------------------
+
+BARIS 501 | STATUS: SKIPPED_CODE
+CONTEXT: old "self voicing"
+ASLI   : 'self voicing'
+----------------------------------------
+
+BARIS 502 | STATUS: SKIPPED_CODE
+CONTEXT: new "self voicing"
+ASLI   : 'self voicing'
+----------------------------------------
+
+BARIS 505 | STATUS: SKIPPED_CODE
+CONTEXT: old "clipboard voicing"
+ASLI   : 'clipboard voicing'
+----------------------------------------
+
+BARIS 506 | STATUS: SKIPPED_CODE
+CONTEXT: new "clipboard voicing"
+ASLI   : 'clipboard voicing'
+----------------------------------------
+
+BARIS 509 | STATUS: SKIPPED_CODE
+CONTEXT: old "debug voicing"
+ASLI   : 'debug voicing'
+----------------------------------------
+
+BARIS 510 | STATUS: SKIPPED_CODE
+CONTEXT: new "debug voicing"
+ASLI   : 'debug voicing'
+----------------------------------------
+
+BARIS 513 | STATUS: SKIPPED_CODE
+CONTEXT: old "emphasize audio"
+ASLI   : 'emphasize audio'
+----------------------------------------
+
+BARIS 514 | STATUS: SKIPPED_CODE
+CONTEXT: new "emphasize audio"
+ASLI   : 'emphasize audio'
+----------------------------------------
+
+BARIS 517 | STATUS: SKIPPED_CODE
+CONTEXT: old "rollback side"
+ASLI   : 'rollback side'
+----------------------------------------
+
+BARIS 518 | STATUS: SKIPPED_CODE
+CONTEXT: new "rollback side"
+ASLI   : 'rollback side'
+----------------------------------------
+
+BARIS 521 | STATUS: SKIPPED_CODE
+CONTEXT: old "gl powersave"
+ASLI   : 'gl powersave'
+----------------------------------------
+
+BARIS 522 | STATUS: SKIPPED_CODE
+CONTEXT: new "gl powersave"
+ASLI   : 'gl powersave'
+----------------------------------------
+
+BARIS 525 | STATUS: SKIPPED_CODE
+CONTEXT: old "gl framerate"
+ASLI   : 'gl framerate'
+----------------------------------------
+
+BARIS 526 | STATUS: SKIPPED_CODE
+CONTEXT: new "gl framerate"
+ASLI   : 'gl framerate'
+----------------------------------------
+
+BARIS 529 | STATUS: SKIPPED_CODE
+CONTEXT: old "gl tearing"
+ASLI   : 'gl tearing'
+----------------------------------------
+
+BARIS 530 | STATUS: SKIPPED_CODE
+CONTEXT: new "gl tearing"
+ASLI   : 'gl tearing'
+----------------------------------------
+
+BARIS 533 | STATUS: SKIPPED_CODE
+CONTEXT: old "music volume"
+ASLI   : 'music volume'
+----------------------------------------
+
+BARIS 534 | STATUS: SKIPPED_CODE
+CONTEXT: new "music volume"
+ASLI   : 'music volume'
+----------------------------------------
+
+BARIS 537 | STATUS: SKIPPED_CODE
+CONTEXT: old "sound volume"
+ASLI   : 'sound volume'
+----------------------------------------
+
+BARIS 538 | STATUS: SKIPPED_CODE
+CONTEXT: new "sound volume"
+ASLI   : 'sound volume'
+----------------------------------------
+
+BARIS 541 | STATUS: SKIPPED_CODE
+CONTEXT: old "voice volume"
+ASLI   : 'voice volume'
+----------------------------------------
+
+BARIS 542 | STATUS: SKIPPED_CODE
+CONTEXT: new "voice volume"
+ASLI   : 'voice volume'
+----------------------------------------
+
+BARIS 545 | STATUS: SKIPPED_CODE
+CONTEXT: old "mute music"
+ASLI   : 'mute music'
+----------------------------------------
+
+BARIS 546 | STATUS: SKIPPED_CODE
+CONTEXT: new "mute music"
+ASLI   : 'mute music'
+----------------------------------------
+
+BARIS 549 | STATUS: SKIPPED_CODE
+CONTEXT: old "mute sound"
+ASLI   : 'mute sound'
+----------------------------------------
+
+BARIS 550 | STATUS: SKIPPED_CODE
+CONTEXT: new "mute sound"
+ASLI   : 'mute sound'
+----------------------------------------
+
+BARIS 553 | STATUS: SKIPPED_CODE
+CONTEXT: old "mute voice"
+ASLI   : 'mute voice'
+----------------------------------------
+
+BARIS 554 | STATUS: SKIPPED_CODE
+CONTEXT: new "mute voice"
+ASLI   : 'mute voice'
+----------------------------------------
+
+BARIS 557 | STATUS: SKIPPED_CODE
+CONTEXT: old "mute all"
+ASLI   : 'mute all'
+----------------------------------------
+
+BARIS 558 | STATUS: SKIPPED_CODE
+CONTEXT: new "mute all"
+ASLI   : 'mute all'
+----------------------------------------
+
+BARIS 565 | STATUS: SKIPPED_CODE
+CONTEXT: old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+ASLI   : 'Self-voicing would say \'
+----------------------------------------
+
+BARIS 566 | STATUS: SKIPPED_CODE
+CONTEXT: new "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+ASLI   : 'Self-voicing would say \'
+----------------------------------------
+
+BARIS 577 | STATUS: SKIPPED_CODE
+CONTEXT: old "Previous"
+ASLI   : 'Previous'
+----------------------------------------
+
+BARIS 578 | STATUS: SKIPPED_CODE
+CONTEXT: new "Previous"
+ASLI   : 'Previous'
+----------------------------------------
+
+BARIS 581 | STATUS: SKIPPED_CODE
+CONTEXT: old "Next"
+ASLI   : 'Next'
+----------------------------------------
+
+BARIS 582 | STATUS: SKIPPED_CODE
+CONTEXT: new "Next"
+ASLI   : 'Next'
+----------------------------------------
+
+BARIS 585 | STATUS: SKIPPED_CODE
+CONTEXT: old "Joystick Mapping"
+ASLI   : 'Joystick Mapping'
+----------------------------------------
+
+BARIS 586 | STATUS: SKIPPED_CODE
+CONTEXT: new "Joystick Mapping"
+ASLI   : 'Joystick Mapping'
+----------------------------------------
+
+BARIS 589 | STATUS: SKIPPED_CODE
+CONTEXT: old "Developer Menu"
+ASLI   : 'Developer Menu'
+----------------------------------------
+
+BARIS 590 | STATUS: SKIPPED_CODE
+CONTEXT: new "Developer Menu"
+ASLI   : 'Developer Menu'
+----------------------------------------
+
+BARIS 601 | STATUS: SKIPPED_CODE
+CONTEXT: old "Console (Shift+O)"
+ASLI   : 'Console (Shift+O)'
+----------------------------------------
+
+BARIS 602 | STATUS: SKIPPED_CODE
+CONTEXT: new "Console (Shift+O)"
+ASLI   : 'Console (Shift+O)'
+----------------------------------------
+
+BARIS 605 | STATUS: SKIPPED_CODE
+CONTEXT: old "Variable Viewer"
+ASLI   : 'Variable Viewer'
+----------------------------------------
+
+BARIS 606 | STATUS: SKIPPED_CODE
+CONTEXT: new "Variable Viewer"
+ASLI   : 'Variable Viewer'
+----------------------------------------
+
+BARIS 613 | STATUS: SKIPPED_CODE
+CONTEXT: old "Filename List"
+ASLI   : 'Filename List'
+----------------------------------------
+
+BARIS 614 | STATUS: SKIPPED_CODE
+CONTEXT: new "Filename List"
+ASLI   : 'Filename List'
+----------------------------------------
+
+BARIS 625 | STATUS: SKIPPED_CODE
+CONTEXT: old "Image Attributes"
+ASLI   : 'Image Attributes'
+----------------------------------------
+
+BARIS 626 | STATUS: SKIPPED_CODE
+CONTEXT: new "Image Attributes"
+ASLI   : 'Image Attributes'
+----------------------------------------
+
+BARIS 629 | STATUS: SKIPPED_CODE
+CONTEXT: old "Return"
+ASLI   : 'Return'
+----------------------------------------
+
+BARIS 630 | STATUS: SKIPPED_CODE
+CONTEXT: new "Return"
+ASLI   : 'Return'
+----------------------------------------
+
+BARIS 637 | STATUS: SKIPPED_CODE
+CONTEXT: old "[name] [attributes]"
+ASLI   : '[6] [4]'
+----------------------------------------
+
+BARIS 638 | STATUS: SKIPPED_CODE
+CONTEXT: new "[name] [attributes]"
+ASLI   : '[6] [4]'
+----------------------------------------
+
+BARIS 645 | STATUS: SKIPPED_CODE
+CONTEXT: old "Hide deleted"
+ASLI   : 'Hide deleted'
+----------------------------------------
+
+BARIS 646 | STATUS: SKIPPED_CODE
+CONTEXT: new "Hide deleted"
+ASLI   : 'Hide deleted'
+----------------------------------------
+
+BARIS 649 | STATUS: SKIPPED_CODE
+CONTEXT: old "Show deleted"
+ASLI   : 'Show deleted'
+----------------------------------------
+
+BARIS 650 | STATUS: SKIPPED_CODE
+CONTEXT: new "Show deleted"
+ASLI   : 'Show deleted'
+----------------------------------------
+
+BARIS 689 | STATUS: SKIPPED_CODE
+CONTEXT: old "✔ "
+ASLI   : '✔ '
+----------------------------------------
+
+BARIS 690 | STATUS: SKIPPED_CODE
+CONTEXT: new "✔ "
+ASLI   : '✔ '
+----------------------------------------
+
+BARIS 693 | STATUS: SKIPPED_CODE
+CONTEXT: old "✘ "
+ASLI   : '✘ '
+----------------------------------------
+
+BARIS 694 | STATUS: SKIPPED_CODE
+CONTEXT: new "✘ "
+ASLI   : '✘ '
+----------------------------------------
+
+BARIS 697 | STATUS: SKIPPED_CODE
+CONTEXT: old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+ASLI   : '\n{4}✔ predicted image (good){5}\n{11}✘ unpredicted image (bad){5}\n{6}Drag to move.{5}'
+----------------------------------------
+
+BARIS 698 | STATUS: SKIPPED_CODE
+CONTEXT: new "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+ASLI   : '\n{4}✔ predicted image (good){5}\n{11}✘ unpredicted image (bad){5}\n{6}Drag to move.{5}'
+----------------------------------------
+
+BARIS 705 | STATUS: SKIPPED_CODE
+CONTEXT: old "Size"
+ASLI   : 'Size'
+----------------------------------------
+
+BARIS 706 | STATUS: SKIPPED_CODE
+CONTEXT: new "Size"
+ASLI   : 'Size'
+----------------------------------------
+
+BARIS 709 | STATUS: SKIPPED_CODE
+CONTEXT: old "Style"
+ASLI   : 'Style'
+----------------------------------------
+
+BARIS 710 | STATUS: SKIPPED_CODE
+CONTEXT: new "Style"
+ASLI   : 'Style'
+----------------------------------------
+
+BARIS 713 | STATUS: SKIPPED_CODE
+CONTEXT: old "Location"
+ASLI   : 'Location'
+----------------------------------------
+
+BARIS 714 | STATUS: SKIPPED_CODE
+CONTEXT: new "Location"
+ASLI   : 'Location'
+----------------------------------------
+
+BARIS 733 | STATUS: SKIPPED_CODE
+CONTEXT: old "<repr() failed>"
+ASLI   : '<repr() failed>'
+----------------------------------------
+
+BARIS 734 | STATUS: SKIPPED_CODE
+CONTEXT: new "<repr() failed>"
+ASLI   : '<repr() failed>'
+----------------------------------------
+
+BARIS 737 | STATUS: SKIPPED_CODE
+CONTEXT: old "a"
+ASLI   : 'a'
+----------------------------------------
+
+BARIS 738 | STATUS: SKIPPED_CODE
+CONTEXT: new "a"
+ASLI   : 'a'
+----------------------------------------
+
+BARIS 741 | STATUS: SKIPPED_CODE
+CONTEXT: old "q"
+ASLI   : 'q'
+----------------------------------------
+
+BARIS 742 | STATUS: SKIPPED_CODE
+CONTEXT: new "q"
+ASLI   : 'q'
+----------------------------------------
+
+BARIS 745 | STATUS: SKIPPED_CODE
+CONTEXT: old "Contacting App Store\nPlease Wait..."
+ASLI   : 'Contacting App Store\nPlease Wait...'
+----------------------------------------
+
+BARIS 746 | STATUS: SKIPPED_CODE
+CONTEXT: new "Contacting App Store\nPlease Wait..."
+ASLI   : 'Contacting App Store\nPlease Wait...'
+----------------------------------------
+
+BARIS 785 | STATUS: SKIPPED_CODE
+CONTEXT: old "Updater"
+ASLI   : 'Updater'
+----------------------------------------
+
+BARIS 786 | STATUS: SKIPPED_CODE
+CONTEXT: new "Updater"
+ASLI   : 'Updater'
+----------------------------------------
+
+BARIS 833 | STATUS: SKIPPED_CODE
+CONTEXT: old "Proceed"
+ASLI   : 'Proceed'
+----------------------------------------
+
+BARIS 834 | STATUS: SKIPPED_CODE
+CONTEXT: new "Proceed"
+ASLI   : 'Proceed'
+----------------------------------------
+
+BARIS 837 | STATUS: SKIPPED_CODE
+CONTEXT: old "Fullscreen"
+ASLI   : 'Fullscreen'
+----------------------------------------
+
+BARIS 838 | STATUS: SKIPPED_CODE
+CONTEXT: new "Fullscreen"
+ASLI   : 'Fullscreen'
+----------------------------------------
+
+BARIS 845 | STATUS: SKIPPED_CODE
+CONTEXT: old "prev"
+ASLI   : 'prev'
+----------------------------------------
+
+BARIS 846 | STATUS: SKIPPED_CODE
+CONTEXT: new "prev"
+ASLI   : 'prev'
+----------------------------------------
+
+BARIS 849 | STATUS: SKIPPED_CODE
+CONTEXT: old "next"
+ASLI   : 'next'
+----------------------------------------
+
+BARIS 850 | STATUS: SKIPPED_CODE
+CONTEXT: new "next"
+ASLI   : 'next'
+----------------------------------------
+
+BARIS 853 | STATUS: SKIPPED_CODE
+CONTEXT: old "slideshow"
+ASLI   : 'slideshow'
+----------------------------------------
+
+BARIS 854 | STATUS: SKIPPED_CODE
+CONTEXT: new "slideshow"
+ASLI   : 'slideshow'
+----------------------------------------
+
+BARIS 857 | STATUS: SKIPPED_CODE
+CONTEXT: old "return"
+ASLI   : 'return'
+----------------------------------------
+
+BARIS 858 | STATUS: SKIPPED_CODE
+CONTEXT: new "return"
+ASLI   : 'return'
+----------------------------------------
+
+BARIS 861 | STATUS: SKIPPED_CODE
+CONTEXT: old "Renderer"
+ASLI   : 'Renderer'
+----------------------------------------
+
+BARIS 862 | STATUS: SKIPPED_CODE
+CONTEXT: new "Renderer"
+ASLI   : 'Renderer'
+----------------------------------------
+
+BARIS 869 | STATUS: SKIPPED_CODE
+CONTEXT: old "Force Angle/DirectX Renderer"
+ASLI   : 'Force Angle/DirectX Renderer'
+----------------------------------------
+
+BARIS 870 | STATUS: SKIPPED_CODE
+CONTEXT: new "Force Angle/DirectX Renderer"
+ASLI   : 'Force Angle/DirectX Renderer'
+----------------------------------------
+
+BARIS 881 | STATUS: SKIPPED_CODE
+CONTEXT: old "NPOT"
+ASLI   : 'NPOT'
+----------------------------------------
+
+BARIS 882 | STATUS: SKIPPED_CODE
+CONTEXT: new "NPOT"
+ASLI   : 'NPOT'
+----------------------------------------
+
+BARIS 885 | STATUS: SKIPPED_CODE
+CONTEXT: old "Enable"
+ASLI   : 'Enable'
+----------------------------------------
+
+BARIS 886 | STATUS: SKIPPED_CODE
+CONTEXT: new "Enable"
+ASLI   : 'Enable'
+----------------------------------------
+
+BARIS 889 | STATUS: SKIPPED_CODE
+CONTEXT: old "Disable"
+ASLI   : 'Disable'
+----------------------------------------
+
+BARIS 890 | STATUS: SKIPPED_CODE
+CONTEXT: new "Disable"
+ASLI   : 'Disable'
+----------------------------------------
+
+BARIS 893 | STATUS: SKIPPED_CODE
+CONTEXT: old "Gamepad"
+ASLI   : 'Gamepad'
+----------------------------------------
+
+BARIS 894 | STATUS: SKIPPED_CODE
+CONTEXT: new "Gamepad"
+ASLI   : 'Gamepad'
+----------------------------------------
+
+BARIS 897 | STATUS: SKIPPED_CODE
+CONTEXT: old "Calibrate"
+ASLI   : 'Calibrate'
+----------------------------------------
+
+BARIS 898 | STATUS: SKIPPED_CODE
+CONTEXT: new "Calibrate"
+ASLI   : 'Calibrate'
+----------------------------------------
+
+BARIS 901 | STATUS: SKIPPED_CODE
+CONTEXT: old "Powersave"
+ASLI   : 'Powersave'
+----------------------------------------
+
+BARIS 902 | STATUS: SKIPPED_CODE
+CONTEXT: new "Powersave"
+ASLI   : 'Powersave'
+----------------------------------------
+
+BARIS 905 | STATUS: SKIPPED_CODE
+CONTEXT: old "Framerate"
+ASLI   : 'Framerate'
+----------------------------------------
+
+BARIS 906 | STATUS: SKIPPED_CODE
+CONTEXT: new "Framerate"
+ASLI   : 'Framerate'
+----------------------------------------
+
+BARIS 909 | STATUS: SKIPPED_CODE
+CONTEXT: old "Screen"
+ASLI   : 'Screen'
+----------------------------------------
+
+BARIS 910 | STATUS: SKIPPED_CODE
+CONTEXT: new "Screen"
+ASLI   : 'Screen'
+----------------------------------------
+
+BARIS 913 | STATUS: SKIPPED_CODE
+CONTEXT: old "60"
+ASLI   : '60'
+----------------------------------------
+
+BARIS 914 | STATUS: SKIPPED_CODE
+CONTEXT: new "60"
+ASLI   : '60'
+----------------------------------------
+
+BARIS 917 | STATUS: SKIPPED_CODE
+CONTEXT: old "30"
+ASLI   : '30'
+----------------------------------------
+
+BARIS 918 | STATUS: SKIPPED_CODE
+CONTEXT: new "30"
+ASLI   : '30'
+----------------------------------------
+
+BARIS 921 | STATUS: SKIPPED_CODE
+CONTEXT: old "Tearing"
+ASLI   : 'Tearing'
+----------------------------------------
+
+BARIS 922 | STATUS: SKIPPED_CODE
+CONTEXT: new "Tearing"
+ASLI   : 'Tearing'
+----------------------------------------
+
+BARIS 929 | STATUS: SKIPPED_CODE
+CONTEXT: old "Quit"
+ASLI   : 'Quit'
+----------------------------------------
+
+BARIS 930 | STATUS: SKIPPED_CODE
+CONTEXT: new "Quit"
+ASLI   : 'Quit'
+----------------------------------------
+
+BARIS 933 | STATUS: SKIPPED_CODE
+CONTEXT: old "Performance Warning"
+ASLI   : 'Performance Warning'
+----------------------------------------
+
+BARIS 934 | STATUS: SKIPPED_CODE
+CONTEXT: new "Performance Warning"
+ASLI   : 'Performance Warning'
+----------------------------------------
+
+BARIS 961 | STATUS: SKIPPED_CODE
+CONTEXT: old "Update DirectX"
+ASLI   : 'Update DirectX'
+----------------------------------------
+
+BARIS 962 | STATUS: SKIPPED_CODE
+CONTEXT: new "Update DirectX"
+ASLI   : 'Update DirectX'
+----------------------------------------
+
+BARIS 989 | STATUS: SKIPPED_CODE
+CONTEXT: old "Restart"
+ASLI   : 'Restart'
+----------------------------------------
+
+BARIS 990 | STATUS: SKIPPED_CODE
+CONTEXT: new "Restart"
+ASLI   : 'Restart'
+----------------------------------------
+
+BARIS 1001 | STATUS: SKIPPED_CODE
+CONTEXT: old "Calibrating [name] ([i]/[total])"
+ASLI   : 'Calibrating [6] ([5]/[13])'
+----------------------------------------
+
+BARIS 1002 | STATUS: SKIPPED_CODE
+CONTEXT: new "Calibrating [name] ([i]/[total])"
+ASLI   : 'Calibrating [6] ([5]/[13])'
+----------------------------------------
+
+BARIS 1009 | STATUS: SKIPPED_CODE
+CONTEXT: old "Skip (A)"
+ASLI   : 'Skip (A)'
+----------------------------------------
+
+BARIS 1010 | STATUS: SKIPPED_CODE
+CONTEXT: new "Skip (A)"
+ASLI   : 'Skip (A)'
+----------------------------------------
+
+BARIS 1013 | STATUS: SKIPPED_CODE
+CONTEXT: old "Back (B)"
+ASLI   : 'Back (B)'
+----------------------------------------
+
+BARIS 1014 | STATUS: SKIPPED_CODE
+CONTEXT: new "Back (B)"
+ASLI   : 'Back (B)'
+----------------------------------------
+
+BARIS 1017 | STATUS: SKIPPED_CODE
+CONTEXT: old "Open"
+ASLI   : 'Open'
+----------------------------------------
+
+BARIS 1018 | STATUS: SKIPPED_CODE
+CONTEXT: new "Open"
+ASLI   : 'Open'
+----------------------------------------
+
+BARIS 1025 | STATUS: SKIPPED_CODE
+CONTEXT: old "Copy BBCode"
+ASLI   : 'Copy BBCode'
+----------------------------------------
+
+BARIS 1026 | STATUS: SKIPPED_CODE
+CONTEXT: new "Copy BBCode"
+ASLI   : 'Copy BBCode'
+----------------------------------------
+
+BARIS 1029 | STATUS: SKIPPED_CODE
+CONTEXT: old "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+ASLI   : 'Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.'
+----------------------------------------
+
+BARIS 1030 | STATUS: SKIPPED_CODE
+CONTEXT: new "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+ASLI   : 'Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.'
+----------------------------------------
+
+BARIS 1033 | STATUS: SKIPPED_CODE
+CONTEXT: old "Copy Markdown"
+ASLI   : 'Copy Markdown'
+----------------------------------------
+
+BARIS 1034 | STATUS: SKIPPED_CODE
+CONTEXT: new "Copy Markdown"
+ASLI   : 'Copy Markdown'
+----------------------------------------
+
+BARIS 1045 | STATUS: SKIPPED_CODE
+CONTEXT: old "Rollback"
+ASLI   : 'Rollback'
+----------------------------------------
+
+BARIS 1046 | STATUS: SKIPPED_CODE
+CONTEXT: new "Rollback"
+ASLI   : 'Rollback'
+----------------------------------------
+
+BARIS 1053 | STATUS: SKIPPED_CODE
+CONTEXT: old "Ignore"
+ASLI   : 'Ignore'
+----------------------------------------
+
+BARIS 1054 | STATUS: SKIPPED_CODE
+CONTEXT: new "Ignore"
+ASLI   : 'Ignore'
+----------------------------------------
+
+BARIS 1065 | STATUS: SKIPPED_CODE
+CONTEXT: old "Reload"
+ASLI   : 'Reload'
+----------------------------------------
+
+BARIS 1066 | STATUS: SKIPPED_CODE
+CONTEXT: new "Reload"
+ASLI   : 'Reload'
+----------------------------------------
+
+BARIS 1073 | STATUS: SKIPPED_CODE
+CONTEXT: old "Console"
+ASLI   : 'Console'
+----------------------------------------
+
+BARIS 1074 | STATUS: SKIPPED_CODE
+CONTEXT: new "Console"
+ASLI   : 'Console'
+----------------------------------------
+
+BARIS 1093 | STATUS: SKIPPED_CODE
+CONTEXT: old "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+ASLI   : 'Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.'
+----------------------------------------
+
+BARIS 1094 | STATUS: SKIPPED_CODE
+CONTEXT: new "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+ASLI   : 'Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.'
+----------------------------------------
+
+BARIS 1101 | STATUS: SKIPPED_CODE
+CONTEXT: old "Press <esc> to exit console. Type help for help.\n"
+ASLI   : 'Press <esc> to exit console. Type help for help.\n'
+----------------------------------------
+
+BARIS 1102 | STATUS: SKIPPED_CODE
+CONTEXT: new "Press <esc> to exit console. Type help for help.\n"
+ASLI   : 'Press <esc> to exit console. Type help for help.\n'
+----------------------------------------
+
+BARIS 1117 | STATUS: SKIPPED_CODE
+CONTEXT: old "commands:\n"
+ASLI   : 'commands:\n'
+----------------------------------------
+
+BARIS 1118 | STATUS: SKIPPED_CODE
+CONTEXT: new "commands:\n"
+ASLI   : 'commands:\n'
+----------------------------------------
+
+BARIS 1121 | STATUS: SKIPPED_CODE
+CONTEXT: old " <renpy script statement>: run the statement\n"
+ASLI   : ' <renpy script statement>: run the statement\n'
+----------------------------------------
+
+BARIS 1122 | STATUS: SKIPPED_CODE
+CONTEXT: new " <renpy script statement>: run the statement\n"
+ASLI   : ' <renpy script statement>: run the statement\n'
+----------------------------------------
+
+
+============================================================
+RINGKASAN TERJEMAHAN v5.3
+============================================================
+✅ Berhasil ditranslate : 264
+⏩ Skip (Ren'Py code)   : 318
+❌ Gagal/Error         : 4
+📝 Input kosong         : 0
+📄 Output kosong        : 0
+📊 Total diproses       : 268
+📋 Total baris file     : 1171
+🎯 Success Rate         : 98.5%
+
+NEXT STEPS:
+1. Copy file x-common_id.rpym ke folder to_rpyc/
+2. Run GitHub Actions workflow untuk compile .rpyc
+3. Download hasil compile
+4. Inject ke game folder story/
