@@ -15,7 +15,7 @@ style default:
     language gui.language
 
 style input:
-    properties gui.text_properties("masukan", accent=True)
+    properties gui.text_properties("input", accent=True)
     adjust_spacing False
 
 style hyperlink_text:
@@ -23,14 +23,14 @@ style hyperlink_text:
     hover_underline True
 
 style gui_text:
-    properties gui.text_properties("antarmuka")
+    properties gui.text_properties("interface")
 
 
 style button:
-    properties gui.button_properties("tombol")
+    properties gui.button_properties("button")
 
 style button_text is gui_text:
-    properties gui.text_properties("tombol")
+    properties gui.text_properties("button")
     yalign 0.5
 
 
@@ -38,7 +38,7 @@ style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
 
 style prompt_text is gui_text:
-    properties gui.text_properties("mengingatkan")
+    properties gui.text_properties("prompt")
 
 
 style bar:
@@ -75,7 +75,6 @@ style vslider:
 style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
-
 
 
 
