@@ -1,7 +1,6 @@
 # ========================================
-# Enhanced Joker Mod - Simplified Clean Version
+# Enhanced Joker Mod - Fixed Version
 # Features: Relationship, Corruption, Money, Gallery
-# Based on modern HTML design
 # ========================================
 
 init python:
@@ -58,6 +57,9 @@ screen enhanced_joker_mod():
     tag menu
     modal True
     
+    # Initialize screen variable
+    default current_tab = "relationship"
+    
     # Modern dark background with gradient
     add "#2a2a2a"
     add Transform(Solid("#1a1a1a"), alpha=0.7)
@@ -76,12 +78,11 @@ screen enhanced_joker_mod():
             hbox:
                 xfill True
                 
-                # Exit button (left)
+                # Exit button (left) - FIXED
                 textbutton "{size=48}{color=#ff4444}exit{/color}{/size}" action Return():
                     hover_background None
                     background None
                     padding (15, 15)
-                    hover_sound "audio/sfx/hover.ogg"
                 
                 # Spacer
                 null width 1.0
@@ -91,7 +92,6 @@ screen enhanced_joker_mod():
                     hover_background None
                     background None
                     padding (15, 15)
-                    hover_sound "audio/sfx/hover.ogg"
             
             # Tab navigation
             null height 60
@@ -118,27 +118,27 @@ screen enhanced_joker_mod():
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     text_size 24
                     padding (30, 15)
-    
-    # Tab content area
-    if current_tab == "relationship":
-        use relationship_tab()
-    elif current_tab == "corruption":
-        use corruption_tab()
+            
+            # Tab content area
+            if current_tab == "relationship":
+                use relationship_tab()
+            elif current_tab == "corruption":
+                use corruption_tab()
 
 # Relationship Tab Content
 screen relationship_tab():
     frame:
         background None
-        xpos 40
-        ypos 200
-        xsize 1840
-        ysize 880
+        xpos 0
+        ypos 0
+        xfill True
+        yfill True
         
         vbox:
             spacing 40
             
             # Section title
-            text "{size=64}{color=#00ff00}relationship{/color}" ypos 0
+            text "{size=64}{color=#00ff00}relationship{/color}"
             
             null height 40
             
@@ -284,16 +284,16 @@ screen relationship_tab():
 screen corruption_tab():
     frame:
         background None
-        xpos 40
-        ypos 200
-        xsize 1840
-        ysize 880
+        xpos 0
+        ypos 0
+        xfill True
+        yfill True
         
         vbox:
             spacing 40
             
             # Section title
-            text "{size=64}{color=#00ff00}corruption{/color}" ypos 0
+            text "{size=64}{color=#00ff00}corruption{/color}"
             
             null height 40
             
@@ -343,9 +343,6 @@ screen corruption_tab():
                 
                 text "{size=48}{color=#00ff00}[mcorr]{/color}" xsize 100 text_align 0.5
 
-# Initialize current tab
-default current_tab = "relationship"
-
 # Quick access integration
 screen quick_menu():
     zorder 100
@@ -379,8 +376,3 @@ init python:
 define config.keymap['enhanced_mod'] = ['K']
 init python:
     config.underlay.append(renpy.Keymap(enhanced_mod=ShowMenu("enhanced_joker_mod")))
-
-# Initialization message
-label start:
-    $ renpy.notify("Enhanced Joker Mod Ready! Press 'K' or click the button to open.")
-    return
