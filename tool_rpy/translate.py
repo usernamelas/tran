@@ -21,7 +21,7 @@ from collections import defaultdict
 from datetime import datetime
 
 # ================ CONFIG ================
-INPUT_FILE = "x-episode3.rpy"    # File input
+INPUT_FILE = "kontol_part3.rpy"    # File input
 BAHASA_ASAL = "en"          # Bahasa sumber
 BAHASA_TUJUAN = "id"        # Bahasa target
 JEDA_TERJEMAH = 0.3         # Delay antar terjemahan (detik)
