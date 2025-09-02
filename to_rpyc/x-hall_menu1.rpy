@@ -672,7 +672,7 @@ label hall_menu:
                         scene b_tv_s3 with fade
                         s "{i} (i \ 'll membuat dia membayar kata -katanya) {/i}"
                         b "Jika saya mengatakan ini karena saya peduli, Anda benar -benar perlu mengerjakan pantat Anda"
-                        s "Tutup tv menonton tv \"
+                        s "Diamlah, ayo kita menonton TV"
                         scene b_tv_sa2 with fade
                         s "Apa -apaan [bname]"
                         b "Apa, itu keren"
