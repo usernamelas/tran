@@ -387,7 +387,8 @@ init python:
 
 # Add hotkey for quick access
 define config.keymap['mod_menu'] = ['K']
-define config.underlay.append(renpy.Keymap(mod_menu=ShowMenu("my_cheat_mod")))
+init python:
+    config.underlay.append(renpy.Keymap(mod_menu=ShowMenu("my_cheat_mod")))
 
 # Initialization message
 label start:
