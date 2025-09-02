@@ -343,34 +343,23 @@ screen corruption_tab():
                 
                 text "{size=48}{color=#00ff00}[mcorr]{/color}" xsize 100 text_align 0.5
 
-# Quick access integration
-screen quick_menu():
+# Add mod button to existing quick menu
+screen mod_overlay():
     zorder 100
-
-    if quick_menu:
-        hbox:
-            style_prefix "quick"
-            xalign 0.5
-            yalign 1.0
-
-            textbutton _("Back") action Rollback() text_size 15
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True) text_size 15
-            textbutton _("Auto") action Preference("auto-forward", "toggle") text_size 15
-            textbutton _("Save") action ShowMenu('save') text_size 15
-            textbutton _("Q.Save") action QuickSave() text_size 15
-            textbutton _("Q.Load") action QuickLoad() text_size 15
-            textbutton _("Opts") action ShowMenu('preferences') text_size 15
-
-    # Modern Enhanced Mod Button
+    
+    # Modern Enhanced Mod Button positioned separately
     hbox:
-        style_prefix "quick"
         xalign 1.0
         yalign 1.0
-        textbutton "{color=#00ff00}Enhanced Mod{/color}" action ShowMenu("enhanced_joker_mod") text_size 16
+        textbutton "{color=#00ff00}Enhanced Mod{/color}" action ShowMenu("enhanced_joker_mod"):
+            text_size 16
+            background None
+            hover_background None
+            padding (10, 5)
 
-# Override the original quick menu
+# Add mod button overlay
 init python:
-    config.overlay_screens.append("quick_menu")
+    config.overlay_screens.append("mod_overlay")
 
 # Add hotkey for quick access (K key)
 define config.keymap['enhanced_mod'] = ['K']
