@@ -23,7 +23,7 @@ screen my_cheat_mod():
     add Transform(Solid("#000000"), zoom=1.0, alpha=0.7, xalign=0.5, yalign=0.5)
     
     # Title - Path font disesuaikan
-    text "{size=80}Enhanced Joker Mod" color "#FFD700" font "x-font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 20 outlines [(3, "#000", 0, 5)]
+    text "{size=80}Enhanced Joker Mod" color "#FFD700" xcenter 0.5 ypos 20 outlines [(3, "#000", 0, 5)]
     
     # Close Button
     textbutton "{size=40}Close{/size}" action Return() xpos 50 ypos 50 text_color "#FFFFFF"
@@ -47,7 +47,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}RELATIONSHIP MANAGER{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}RELATIONSHIP MANAGER{/color}"
                 
                 hbox:
                     spacing 50
@@ -162,7 +162,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}MONEY MANAGER{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}MONEY MANAGER{/color}"
                 
                 hbox:
                     spacing 50
@@ -216,7 +216,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}GALLERY UNLOCKER{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}GALLERY UNLOCKER{/color}"
                 
                 text "{size=30}{color=#FFFF00}Unlock all gallery images and scenes{/color}"
                 
@@ -308,7 +308,7 @@ screen my_cheat_mod():
                 has vbox
                 spacing 20
                 
-                text "{size=60}{color=#FFD700}BONUS FEATURES{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=60}{color=#FFD700}BONUS FEATURES{/color}"
                 
                 hbox:
                     spacing 50

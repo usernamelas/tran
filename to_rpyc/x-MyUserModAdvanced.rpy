@@ -11,7 +11,7 @@ screen mod_advanced_settings():
     add "#000000" alpha 0.8
     add Transform(Solid("#000000"), zoom=1.0, alpha=0.7, xalign=0.5, yalign=0.5)
     
-    text "{size=70}Advanced Mod Settings" color "#FFD700" font "x-font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 30
+    text "{size=70}Advanced Mod Settings" color "#FFD700" xcenter 0.5 ypos 30
     
     textbutton "← Back to Main Mod" action ShowMenu("my_cheat_mod") xpos 50 ypos 60 text_size 25
     textbutton "✕ Close" action Return() xpos 1750 ypos 60 text_size 25
@@ -34,7 +34,7 @@ screen mod_advanced_settings():
                 has vbox
                 spacing 20
                 
-                text "{size=50}{color=#FFD700}GAME VARIABLES EDITOR{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=50}{color=#FFD700}GAME VARIABLES EDITOR{/color}"
                 
                 hbox:
                     spacing 50
@@ -119,7 +119,7 @@ screen mod_advanced_settings():
                 has vbox
                 spacing 20
                 
-                text "{size=50}{color=#FFD700}ITEM MANAGEMENT{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=50}{color=#FFD700}ITEM MANAGEMENT{/color}"
                 
                 grid 3 4:
                     spacing 20
@@ -207,7 +207,7 @@ screen mod_advanced_settings():
                 has vbox
                 spacing 20
                 
-                text "{size=50}{color=#FFD700}EVENT FLAGS MANAGER{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=50}{color=#FFD700}EVENT FLAGS MANAGER{/color}"
                 
                 grid 2 1:
                     spacing 50
@@ -324,7 +324,7 @@ screen mod_advanced_settings():
                 has vbox
                 spacing 20
                 
-                text "{size=50}{color=#FFD700}MOD PREFERENCES{/color}" font "x-font/x-Montserrat-Light.ttf"
+                text "{size=50}{color=#FFD700}MOD PREFERENCES{/color}"
                 
                 hbox:
                     spacing 50
