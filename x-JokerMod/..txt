@@ -3,8 +3,17 @@ mod yg aku inginkan
 - Mony
 - unclok gelery
 
+- kamu cari value yg dibutuhkan di file value.txt
+
 === file ===
 - value.txt
 https://raw.githubusercontent.com/usernamelas/tran/refs/heads/main/x-JokerMod/value.txt
 
--
+- x-JokerCheats.rpy
+https://raw.githubusercontent.com/usernamelas/tran/refs/heads/main/x-JokerMod/x-JokerCheats.rpy
+
+- x-JokerModOptions.rpy
+https://raw.githubusercontent.com/usernamelas/tran/refs/heads/main/x-JokerMod/x-JokerModOptions.rpy
+
+- x-JokerScreens.rpy
+https://raw.githubusercontent.com/usernamelas/tran/refs/heads/main/x-JokerMod/x-JokerScreens.rpy
