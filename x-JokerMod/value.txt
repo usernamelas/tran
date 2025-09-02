@@ -1,0 +1,7074 @@
+================================================================================
+HASIL ANALISIS RENPY FILES
+================================================================================
+
+🪙 MONEY VARIABLES:
+--------------------------------------------------
+Variable: smoneym = 1
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 1110
+
+Variable: smoneym = 0
+  📁 File: x-script.rpy
+  📍 Line: 62
+
+❤️ RELATIONSHIP VARIABLES:
+--------------------------------------------------
+Variable: mtrelax = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1264
+
+Variable: sm_rel = 1
+  📁 File: x-jenpractice.rpy
+  📍 Line: 677
+
+Variable: mtrelax = 2
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 262
+
+Variable: srel = 5
+  📁 File: x-script.rpy
+  📍 Line: 2
+
+Variable: mrel = 5
+  📁 File: x-script.rpy
+  📍 Line: 3
+
+Variable: mrel = 0
+  📁 File: x-script.rpy
+  📍 Line: 33
+
+Variable: srel = 0
+  📁 File: x-script.rpy
+  📍 Line: 34
+
+Variable: erel = 0
+  📁 File: x-script.rpy
+  📍 Line: 35
+
+Variable: melrel = 0
+  📁 File: x-script.rpy
+  📍 Line: 36
+
+Variable: mtrelax = 0
+  📁 File: x-script.rpy
+  📍 Line: 143
+
+Variable: sm_rel = 0
+  📁 File: x-script.rpy
+  📍 Line: 165
+
+📋 SEMUA VARIABLES:
+--------------------------------------------------
+Variable: sburnt = 1
+  📁 File: x-beachevent.rpy
+  📍 Line: 97
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: sburnt = 1
+  📁 File: x-beachevent.rpy
+  📍 Line: 138
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: sburnt = 1
+  📁 File: x-beachevent.rpy
+  📍 Line: 179
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: mburnt = 1
+  📁 File: x-beachevent.rpy
+  📍 Line: 249
+  🔧 Type: dollar
+  💬 Full: $ mburnt = 1
+
+Variable: sburnt = 1
+  📁 File: x-beachevent_elaine.rpy
+  📍 Line: 114
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: sburnt = 1
+  📁 File: x-beachevent_elaine.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: sburnt = 1
+  📁 File: x-beachevent_elaine.rpy
+  📍 Line: 203
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 1
+
+Variable: mburnt = 1
+  📁 File: x-beachevent_elaine.rpy
+  📍 Line: 293
+  🔧 Type: dollar
+  💬 Full: $ mburnt = 1
+
+Variable: nadiaasksforstrongdrinks = 1
+  📁 File: x-bgroundednight.rpy
+  📍 Line: 146
+  🔧 Type: dollar
+  💬 Full: $ nadiaasksforstrongdrinks = 1
+
+Variable: nadiaasksforstrongdrinks = 1
+  📁 File: x-bgroundednight.rpy
+  📍 Line: 224
+  🔧 Type: dollar
+  💬 Full: $ nadiaasksforstrongdrinks = 1
+
+Variable: bs_sex = 1
+  📁 File: x-bgroundednight.rpy
+  📍 Line: 321
+  🔧 Type: dollar
+  💬 Full: $ bs_sex = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 11
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 15
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 19
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 23
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 27
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 31
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 35
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: melmilin = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 39
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 1
+
+Variable: cherylintrodone = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 43
+  🔧 Type: dollar
+  💬 Full: $ cherylintrodone = 1
+
+Variable: e_showsupagain = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 71
+  🔧 Type: dollar
+  💬 Full: $ e_showsupagain = 1
+
+Variable: ebizcheck = 6
+  📁 File: x-broom_menu.rpy
+  📍 Line: 92
+  🔧 Type: dollar
+  💬 Full: $ ebizcheck = 6
+
+Variable: e_showsupagain = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 93
+  🔧 Type: dollar
+  💬 Full: $ e_showsupagain = 2
+
+Variable: elfllowup = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 107
+  🔧 Type: dollar
+  💬 Full: $ elfllowup = 1
+
+Variable: elfllowup = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 130
+  🔧 Type: dollar
+  💬 Full: $ elfllowup = 2
+
+Variable: melvisit = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 281
+  🔧 Type: dollar
+  💬 Full: $ melvisit = 1
+
+Variable: stalkdone = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 293
+  🔧 Type: dollar
+  💬 Full: $ stalkdone = 1
+
+Variable: bworked = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 298
+  🔧 Type: dollar
+  💬 Full: $ bworked = 1
+
+Variable: pagecheckdone = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 334
+  🔧 Type: dollar
+  💬 Full: $ pagecheckdone = 1
+
+Variable: snameinstaconvinced = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 340
+  🔧 Type: dollar
+  💬 Full: $ snameinstaconvinced = 1
+
+Variable: nude_binsta_random1_posted = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 402
+  🔧 Type: dollar
+  💬 Full: $ nude_binsta_random1_posted = 1
+
+Variable: bought_followers = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 411
+  🔧 Type: dollar
+  💬 Full: $ bought_followers = 1
+
+Variable: cselaine0 = 10
+  📁 File: x-broom_menu.rpy
+  📍 Line: 435
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 10
+
+Variable: ebizcheck = 0
+  📁 File: x-broom_menu.rpy
+  📍 Line: 448
+  🔧 Type: dollar
+  💬 Full: $ ebizcheck = 0
+
+Variable: cselaine0 = 10
+  📁 File: x-broom_menu.rpy
+  📍 Line: 452
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 10
+
+Variable: camerafixing = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 473
+  🔧 Type: dollar
+  💬 Full: $ camerafixing = 2
+
+Variable: rowena_mom_called = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 549
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom_called = 1
+
+Variable: browenabm = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 571
+  🔧 Type: dollar
+  💬 Full: $ browenabm = 2
+
+Variable: hallcamerachecked = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 632
+  🔧 Type: dollar
+  💬 Full: $ hallcamerachecked = 1
+
+Variable: bphotonaked = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 663
+  🔧 Type: dollar
+  💬 Full: $ bphotonaked = 1
+
+Variable: sgoestost = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 737
+  🔧 Type: dollar
+  💬 Full: $ sgoestost = 2
+
+Variable: bbm = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 888
+  🔧 Type: dollar
+  💬 Full: $ bbm = 2
+
+Variable: bbm = 3
+  📁 File: x-broom_menu.rpy
+  📍 Line: 916
+  🔧 Type: dollar
+  💬 Full: $ bbm = 3
+
+Variable: cselaine0 = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 952
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 1
+
+Variable: cselaine0 = 2
+  📁 File: x-broom_menu.rpy
+  📍 Line: 972
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 2
+
+Variable: melwork = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1020
+  🔧 Type: dollar
+  💬 Full: $ melwork = 1
+
+Variable: melwork = 0
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1032
+  🔧 Type: dollar
+  💬 Full: $ melwork = 0
+
+Variable: instadone = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1140
+  🔧 Type: dollar
+  💬 Full: $ instadone = 1
+
+Variable: instauploads = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1154
+  🔧 Type: dollar
+  💬 Full: $ instauploads = 1
+
+Variable: stewcalled = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1164
+  🔧 Type: dollar
+  💬 Full: $ stewcalled = 1
+
+Variable: camexpose = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1224
+  🔧 Type: dollar
+  💬 Full: $ camexpose = 1
+
+Variable: hallcameracheckedm = 1
+  📁 File: x-broom_menu.rpy
+  📍 Line: 1256
+  🔧 Type: dollar
+  💬 Full: $ hallcameracheckedm = 1
+
+Variable: sbm = 2
+  📁 File: x-bs_afterjmassage.rpy
+  📍 Line: 543
+  🔧 Type: dollar
+  💬 Full: $ sbm = 2
+
+Variable: sanal = 1
+  📁 File: x-bs_afterjmassage.rpy
+  📍 Line: 718
+  🔧 Type: dollar
+  💬 Full: $ sanal = 1
+
+Variable: melsw = 2
+  📁 File: x-bworkday.rpy
+  📍 Line: 6
+  🔧 Type: dollar
+  💬 Full: $ melsw = 2
+
+Variable: melsw = 3
+  📁 File: x-bworkday.rpy
+  📍 Line: 60
+  🔧 Type: dollar
+  💬 Full: $ melsw = 3
+
+Variable: valshoes = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 197
+  🔧 Type: dollar
+  💬 Full: $ valshoes = 1
+
+Variable: dollnightw = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 204
+  🔧 Type: dollar
+  💬 Full: $ dollnightw = 1
+
+Variable: melsw = 5
+  📁 File: x-bworkday.rpy
+  📍 Line: 215
+  🔧 Type: dollar
+  💬 Full: $ melsw = 5
+
+Variable: melsw = 6
+  📁 File: x-bworkday.rpy
+  📍 Line: 244
+  🔧 Type: dollar
+  💬 Full: $ melsw = 6
+
+Variable: melsw = 7
+  📁 File: x-bworkday.rpy
+  📍 Line: 357
+  🔧 Type: dollar
+  💬 Full: $ melsw = 7
+
+Variable: bbm = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 455
+  🔧 Type: dollar
+  💬 Full: $ bbm = 1
+
+Variable: callmel = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 585
+  🔧 Type: dollar
+  💬 Full: $ callmel = 1
+
+Variable: melmilin = 2
+  📁 File: x-bworkday.rpy
+  📍 Line: 690
+  🔧 Type: dollar
+  💬 Full: $ melmilin = 2
+
+Variable: melindafiles = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 726
+  🔧 Type: dollar
+  💬 Full: $ melindafiles = 1
+
+Variable: willmeeting = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 805
+  🔧 Type: dollar
+  💬 Full: $ willmeeting = 1
+
+Variable: cherylfoundout = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 844
+  🔧 Type: dollar
+  💬 Full: $ cherylfoundout = 1
+
+Variable: dphonestolen = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 878
+  🔧 Type: dollar
+  💬 Full: $ dphonestolen = 1
+
+Variable: cherylevent = 2
+  📁 File: x-bworkday.rpy
+  📍 Line: 900
+  🔧 Type: dollar
+  💬 Full: $ cherylevent = 2
+
+Variable: mobilephoneacquired = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1004
+  🔧 Type: dollar
+  💬 Full: $ mobilephoneacquired = 1
+
+Variable: camerasacquired = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1043
+  🔧 Type: dollar
+  💬 Full: $ camerasacquired = 1
+
+Variable: ticketrequested = 3
+  📁 File: x-bworkday.rpy
+  📍 Line: 1096
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 3
+
+Variable: mbag = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1150
+  🔧 Type: dollar
+  💬 Full: $ mbag = 1
+
+Variable: mbikini = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1160
+  🔧 Type: dollar
+  💬 Full: $ mbikini = 1
+
+Variable: mbag = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1204
+  🔧 Type: dollar
+  💬 Full: $ mbag = 1
+
+Variable: mbikini = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1214
+  🔧 Type: dollar
+  💬 Full: $ mbikini = 1
+
+Variable: mnightie = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1254
+  🔧 Type: dollar
+  💬 Full: $ mnightie = 1
+
+Variable: mtrelax = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1264
+  🔧 Type: dollar
+  💬 Full: $ mtrelax = 1
+
+Variable: msho = 1
+  📁 File: x-bworkday.rpy
+  📍 Line: 1279
+  🔧 Type: dollar
+  💬 Full: $ msho = 1
+
+Variable: chbopen = 1
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 76
+  🔧 Type: dollar
+  💬 Full: $ chbopen = 1
+
+Variable: Hour = 21
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 179
+  🔧 Type: dollar
+  💬 Full: $ Hour = 21
+
+Variable: btoldcheryl = 1
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 180
+  🔧 Type: dollar
+  💬 Full: $ btoldcheryl = 1
+
+Variable: btoldcheryl = 1
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 211
+  🔧 Type: dollar
+  💬 Full: $ btoldcheryl = 1
+
+Variable: Hour = 21
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 229
+  🔧 Type: dollar
+  💬 Full: $ Hour = 21
+
+Variable: Hour = 21
+  📁 File: x-cherylblunch.rpy
+  📍 Line: 246
+  🔧 Type: dollar
+  💬 Full: $ Hour = 21
+
+Variable: bnamefixcheryl = 1
+  📁 File: x-chprb.rpy
+  📍 Line: 42
+  🔧 Type: dollar
+  💬 Full: $ bnamefixcheryl = 1
+
+Variable: springstring = 2
+  📁 File: x-cinejen.rpy
+  📍 Line: 190
+  🔧 Type: dollar
+  💬 Full: $ springstring = 2
+
+Variable: springstring = 2
+  📁 File: x-cinejen.rpy
+  📍 Line: 232
+  🔧 Type: dollar
+  💬 Full: $ springstring = 2
+
+Variable: Hour = 21
+  📁 File: x-dayadv.rpy
+  📍 Line: 8
+  🔧 Type: dollar
+  💬 Full: $ Hour =21
+
+Variable: Hour = 21
+  📁 File: x-dayadv.rpy
+  📍 Line: 20
+  🔧 Type: dollar
+  💬 Full: $ Hour =21
+
+Variable: Hour = 21
+  📁 File: x-dayadv.rpy
+  📍 Line: 34
+  🔧 Type: dollar
+  💬 Full: $ Hour =21
+
+Variable: Hour = 21
+  📁 File: x-dayadv.rpy
+  📍 Line: 47
+  🔧 Type: dollar
+  💬 Full: $ Hour =21
+
+Variable: Hour = 21
+  📁 File: x-dayadv.rpy
+  📍 Line: 57
+  🔧 Type: dollar
+  💬 Full: $ Hour =21
+
+Variable: mnailpolish = 1
+  📁 File: x-editmphotos.rpy
+  📍 Line: 66
+  🔧 Type: dollar
+  💬 Full: $ mnailpolish = 1
+
+Variable: cselaine0 = 8
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 8
+
+Variable: e_showsupagain = 0
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 11
+  🔧 Type: dollar
+  💬 Full: $ e_showsupagain = 0
+
+Variable: elbs = renpy.random.randint (1,4)
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 19
+  🔧 Type: dollar
+  💬 Full: $ elbs = renpy.random.randint (1,4)
+
+Variable: camerarecording = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 50
+  🔧 Type: dollar
+  💬 Full: $ camerarecording = 1
+
+Variable: ebizaldoneonce = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 58
+  🔧 Type: dollar
+  💬 Full: $ ebizaldoneonce = 1
+
+Variable: elfk = renpy.random.randint (1,4)
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 65
+  🔧 Type: dollar
+  💬 Full: $ elfk = renpy.random.randint (1,4)
+
+Variable: elaine_convince = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 203
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 1
+
+Variable: camerarecording1 = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 255
+  🔧 Type: dollar
+  💬 Full: $ camerarecording1 = 1
+
+Variable: ebizaldoneonce = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 263
+  🔧 Type: dollar
+  💬 Full: $ ebizaldoneonce = 1
+
+Variable: elaine_convince = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 368
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 1
+
+Variable: camerarecording2 = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 414
+  🔧 Type: dollar
+  💬 Full: $ camerarecording2 = 1
+
+Variable: ebizaldoneonce = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 423
+  🔧 Type: dollar
+  💬 Full: $ ebizaldoneonce = 1
+
+Variable: elaine_convince = 1
+  📁 File: x-elainebusiness.rpy
+  📍 Line: 527
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 1
+
+Variable: elaine_convince = 2
+  📁 File: x-elaineconjen.rpy
+  📍 Line: 26
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 2
+
+Variable: elaine_convince = 3
+  📁 File: x-elaineconjen.rpy
+  📍 Line: 55
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 3
+
+Variable: elaine_convince = 4
+  📁 File: x-elaineconjen.rpy
+  📍 Line: 104
+  🔧 Type: dollar
+  💬 Full: $ elaine_convince = 4
+
+Variable: elaineshowsup = 1
+  📁 File: x-elainefirstcoming.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ elaineshowsup = 1
+
+Variable: elaineagain = 2
+  📁 File: x-elainesecondcoming.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ elaineagain = 2
+
+Variable: melsw = 1
+  📁 File: x-elfup.rpy
+  📍 Line: 275
+  🔧 Type: dollar
+  💬 Full: $ melsw = 1
+
+Variable: msconvince = 3
+  📁 File: x-evening_jennyout.rpy
+  📍 Line: 15
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 3
+
+Variable: srbm = 1
+  📁 File: x-evening_jennyout.rpy
+  📍 Line: 144
+  🔧 Type: dollar
+  💬 Full: $ srbm = 1
+
+Variable: msconvince = 1
+  📁 File: x-evening_jennyout.rpy
+  📍 Line: 226
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 1
+
+Variable: mburnt = 0
+  📁 File: x-eveningtv_afterwork.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ mburnt = 0
+
+Variable: drinkforbname = 1
+  📁 File: x-eveningtv_afterwork.rpy
+  📍 Line: 58
+  🔧 Type: dollar
+  💬 Full: $ drinkforbname = 1
+
+Variable: etvelaine = 1
+  📁 File: x-eveningtv_elaine.rpy
+  📍 Line: 357
+  🔧 Type: dollar
+  💬 Full: $ etvelaine = 1
+
+Variable: bcaught_s = 1
+  📁 File: x-eveningtv_elaine.rpy
+  📍 Line: 521
+  🔧 Type: dollar
+  💬 Full: $ bcaught_s = 1
+
+Variable: cherylfoundout = 3
+  📁 File: x-followmnamech.rpy
+  📍 Line: 4
+  🔧 Type: dollar
+  💬 Full: $ cherylfoundout = 3
+
+Variable: strongdrinksforgirlnight = 4
+  📁 File: x-girlsnight.rpy
+  📍 Line: 449
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 4
+
+Variable: strongdrinksforgirlnight = 1
+  📁 File: x-girlsnight.rpy
+  📍 Line: 529
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 1
+
+Variable: strongdrinksforgirlnight = 3
+  📁 File: x-girlsnight.rpy
+  📍 Line: 570
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 3
+
+Variable: lesbianchannel = 1
+  📁 File: x-girlsnight.rpy
+  📍 Line: 573
+  🔧 Type: dollar
+  💬 Full: $ lesbianchannel = 1
+
+Variable: lesbianchannel = 1
+  📁 File: x-girlsnight.rpy
+  📍 Line: 589
+  🔧 Type: dollar
+  💬 Full: $ lesbianchannel = 1
+
+Variable: strongdrinksforgirlnight = 3
+  📁 File: x-girlsnight.rpy
+  📍 Line: 687
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 3
+
+Variable: lesbianchannel = 1
+  📁 File: x-girlsnight.rpy
+  📍 Line: 1239
+  🔧 Type: dollar
+  💬 Full: $ lesbianchannel = 1
+
+Variable: lesbianchannel = 1
+  📁 File: x-girlsnight.rpy
+  📍 Line: 1244
+  🔧 Type: dollar
+  💬 Full: $ lesbianchannel = 1
+
+Variable: worktalk = 2
+  📁 File: x-hall_evening.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ worktalk = 2
+
+Variable: bgmt = 1
+  📁 File: x-hall_evening.rpy
+  📍 Line: 55
+  🔧 Type: dollar
+  💬 Full: $ bgmt = 1
+
+Variable: e_showsupagain = 2
+  📁 File: x-hall_evening.rpy
+  📍 Line: 93
+  🔧 Type: dollar
+  💬 Full: $ e_showsupagain = 2
+
+Variable: cselaine0 = 9
+  📁 File: x-hall_evening.rpy
+  📍 Line: 125
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: cselaine0 = 9
+  📁 File: x-hall_evening.rpy
+  📍 Line: 135
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: cvisit = 1
+  📁 File: x-hall_evening.rpy
+  📍 Line: 145
+  🔧 Type: dollar
+  💬 Full: $ cvisit = 1
+
+Variable: a = Character("Rowena")
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2
+  🔧 Type: define
+  💬 Full: define a = Character("Rowena")
+
+Variable: mrob = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 99
+  🔧 Type: dollar
+  💬 Full: $ mrob = 2
+
+Variable: rwena = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 129
+  🔧 Type: dollar
+  💬 Full: $ rwena = 1
+
+Variable: rosdad = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 153
+  🔧 Type: dollar
+  💬 Full: $ rosdad = 2
+
+Variable: rwena = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 443
+  🔧 Type: dollar
+  💬 Full: $ rwena = 2
+
+Variable: instadone = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 490
+  🔧 Type: dollar
+  💬 Full: $ instadone = 2
+
+Variable: contactrowena = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 587
+  🔧 Type: dollar
+  💬 Full: $ contactrowena = 1
+
+Variable: sgrm = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 664
+  🔧 Type: dollar
+  💬 Full: $ sgrm = 1
+
+Variable: lesbianchannel = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 903
+  🔧 Type: dollar
+  💬 Full: $ lesbianchannel = 2
+
+Variable: cselaine0 = 8
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 930
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 8
+
+Variable: camerafixing = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1095
+  🔧 Type: dollar
+  💬 Full: $ camerafixing = 1
+
+Variable: camerafixing = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1182
+  🔧 Type: dollar
+  💬 Full: $ camerafixing = 1
+
+Variable: cselaine0 = 3
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1235
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 3
+
+Variable: cselaine0 = 8
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1272
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 8
+
+Variable: robel = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1356
+  🔧 Type: dollar
+  💬 Full: $ robel = 2
+
+Variable: workrequest = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1392
+  🔧 Type: dollar
+  💬 Full: $ workrequest = 1
+
+Variable: workrequest = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1414
+  🔧 Type: dollar
+  💬 Full: $ workrequest =2
+
+Variable: mbikinirequest = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1496
+  🔧 Type: dollar
+  💬 Full: $ mbikinirequest = 1
+
+Variable: mbikinirequest = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1518
+  🔧 Type: dollar
+  💬 Full: $ mbikinirequest = 1
+
+Variable: mbikinirequest = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1560
+  🔧 Type: dollar
+  💬 Full: $ mbikinirequest = 1
+
+Variable: mbikinirequest = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1582
+  🔧 Type: dollar
+  💬 Full: $ mbikinirequest = 1
+
+Variable: msconvince = 0
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1620
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 0
+
+Variable: msconvince = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1625
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 2
+
+Variable: msconvince = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1675
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 2
+
+Variable: stknw = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1691
+  🔧 Type: dollar
+  💬 Full: $ stknw = 1
+
+Variable: mbtv = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1873
+  🔧 Type: dollar
+  💬 Full: $ mbtv = 1
+
+Variable: badgrds = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1903
+  🔧 Type: dollar
+  💬 Full: $ badgrds = 1
+
+Variable: instatalkm = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1935
+  🔧 Type: dollar
+  💬 Full: $ instatalkm = 1
+
+Variable: coversname = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1956
+  🔧 Type: dollar
+  💬 Full: $ coversname = 1
+
+Variable: showcoverpage = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 1957
+  🔧 Type: dollar
+  💬 Full: $ showcoverpage = 1
+
+Variable: cherylfoundout = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2029
+  🔧 Type: dollar
+  💬 Full: $ cherylfoundout = 2
+
+Variable: mcallcheryl = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2045
+  🔧 Type: dollar
+  💬 Full: $ mcallcheryl = 2
+
+Variable: cherylfoundout = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2093
+  🔧 Type: dollar
+  💬 Full: $ cherylfoundout = 2
+
+Variable: mcallcheryl = 2
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2109
+  🔧 Type: dollar
+  💬 Full: $ mcallcheryl = 2
+
+Variable: ticketrequested = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2133
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 1
+
+Variable: ticketrequested = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2149
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 1
+
+Variable: laptoprequested = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2168
+  🔧 Type: dollar
+  💬 Full: $ laptoprequested = 1
+
+Variable: laptoprequested = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2185
+  🔧 Type: dollar
+  💬 Full: $ laptoprequested = 1
+
+Variable: cherylevent = 6
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2206
+  🔧 Type: dollar
+  💬 Full: $ cherylevent = 6
+
+Variable: cherylevent = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2214
+  🔧 Type: dollar
+  💬 Full: $ cherylevent = 1
+
+Variable: pornchanel = 1
+  📁 File: x-hall_menu1.rpy
+  📍 Line: 2891
+  🔧 Type: dollar
+  💬 Full: $ pornchanel = 1
+
+Variable: stalkb_rowena = 1
+  📁 File: x-hallrelax.rpy
+  📍 Line: 61
+  🔧 Type: dollar
+  💬 Full: $ stalkb_rowena = 1
+
+Variable: stalkb_rowena = 2
+  📁 File: x-hallrelax.rpy
+  📍 Line: 87
+  🔧 Type: dollar
+  💬 Full: $ stalkb_rowena = 2
+
+Variable: skiss_asked = 1
+  📁 File: x-hallrelax.rpy
+  📍 Line: 186
+  🔧 Type: dollar
+  💬 Full: $ skiss_asked = 1
+
+Variable: smobilegiven = 1
+  📁 File: x-hallrelax.rpy
+  📍 Line: 499
+  🔧 Type: dollar
+  💬 Full: $ smobilegiven = 1
+
+Variable: ticketrequested = 4
+  📁 File: x-hallrelax.rpy
+  📍 Line: 589
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 4
+
+Variable: snaked_lunch = 1
+  📁 File: x-hallrelax.rpy
+  📍 Line: 676
+  🔧 Type: dollar
+  💬 Full: $ snaked_lunch = 1
+
+Variable: wrkquestions = 2
+  📁 File: x-jenmorning.rpy
+  📍 Line: 42
+  🔧 Type: dollar
+  💬 Full: $ wrkquestions = 2
+
+Variable: wrkquestions = 1
+  📁 File: x-jenmorning.rpy
+  📍 Line: 61
+  🔧 Type: dollar
+  💬 Full: $ wrkquestions = 1
+
+Variable: mnvylingerie = 2
+  📁 File: x-jenpractice.rpy
+  📍 Line: 167
+  🔧 Type: dollar
+  💬 Full: $ mnvylingerie = 2
+
+Variable: msex = 1
+  📁 File: x-jenpractice.rpy
+  📍 Line: 466
+  🔧 Type: dollar
+  💬 Full: $ msex = 1
+
+Variable: sm_rel = 1
+  📁 File: x-jenpractice.rpy
+  📍 Line: 677
+  🔧 Type: dollar
+  💬 Full: $ sm_rel = 1
+
+Variable: jenteaselingerie = 1
+  📁 File: x-jentease.rpy
+  📍 Line: 157
+  🔧 Type: dollar
+  💬 Full: $ jenteaselingerie = 1
+
+Variable: snamedrink = 1
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 1
+
+Variable: snameworkmelinda = 3
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 200
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 3
+
+Variable: snamedrink = 4
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 217
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 4
+
+Variable: beachalone = 3
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 227
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 3
+
+Variable: beachalone = 3
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 475
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 3
+
+Variable: sstrip = 1
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 731
+  🔧 Type: dollar
+  💬 Full: $ sstrip = 1
+
+Variable: smoneym = 1
+  📁 File: x-lunch_hall.rpy
+  📍 Line: 1110
+  🔧 Type: dollar
+  💬 Full: $ smoneym = 1
+
+Variable: naivetalk = 1
+  📁 File: x-m_b_naivetalk.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ naivetalk = 1
+
+Variable: dn = Character("Daniel")
+  📁 File: x-map_menu.rpy
+  📍 Line: 1
+  🔧 Type: define
+  💬 Full: define dn = Character("Daniel")
+
+Variable: bworked = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 11
+  🔧 Type: dollar
+  💬 Full: $ bworked = 1
+
+Variable: meldan = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 42
+  🔧 Type: dollar
+  💬 Full: $ meldan = 1
+
+Variable: bworkstarted = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 69
+  🔧 Type: dollar
+  💬 Full: $ bworkstarted = 1
+
+Variable: cellshop = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 101
+  🔧 Type: dollar
+  💬 Full: $ cellshop = 1
+
+Variable: bikini1 = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 129
+  🔧 Type: dollar
+  💬 Full: $ bikini1 = 1
+
+Variable: cellshop = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 158
+  🔧 Type: dollar
+  💬 Full: $ cellshop = 1
+
+Variable: robel = 1
+  📁 File: x-map_menu.rpy
+  📍 Line: 185
+  🔧 Type: dollar
+  💬 Full: $ robel = 1
+
+Variable: cselaine0 = 9
+  📁 File: x-map_menu.rpy
+  📍 Line: 249
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: cselaine0 = 9
+  📁 File: x-map_menu.rpy
+  📍 Line: 267
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: cselaine0 = 9
+  📁 File: x-map_menu.rpy
+  📍 Line: 290
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: cselaine0 = 9
+  📁 File: x-map_menu.rpy
+  📍 Line: 311
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: mcallcheryl = 1
+  📁 File: x-mbtvnight.rpy
+  📍 Line: 152
+  🔧 Type: dollar
+  💬 Full: $ mcallcheryl = 1
+
+Variable: mcallcheryl = 1
+  📁 File: x-mbtvnight.rpy
+  📍 Line: 216
+  🔧 Type: dollar
+  💬 Full: $ mcallcheryl = 1
+
+Variable: drinkforbname = 1
+  📁 File: x-mburn_nightevent.rpy
+  📍 Line: 23
+  🔧 Type: dollar
+  💬 Full: $ drinkforbname = 1
+
+Variable: ml = Character('Melinda', image = 'melchar')
+  📁 File: x-mdanlabel.rpy
+  📍 Line: 1
+  🔧 Type: define
+  💬 Full: define ml = Character('Melinda', image = 'melchar')
+
+Variable: meldan = 2
+  📁 File: x-mdanlabel.rpy
+  📍 Line: 4
+  🔧 Type: dollar
+  💬 Full: $ meldan = 2
+
+Variable: meldan = 3
+  📁 File: x-mdanlabel.rpy
+  📍 Line: 55
+  🔧 Type: dollar
+  💬 Full: $ meldan = 3
+
+Variable: meldan = 4
+  📁 File: x-mdanlabel.rpy
+  📍 Line: 101
+  🔧 Type: dollar
+  💬 Full: $ meldan = 4
+
+Variable: bnamefixcheryl = 2
+  📁 File: x-meetelaineforhelp.rpy
+  📍 Line: 24
+  🔧 Type: dollar
+  💬 Full: $ bnamefixcheryl = 2
+
+Variable: bnamefixcheryl = 4
+  📁 File: x-meetelaineforhelp.rpy
+  📍 Line: 59
+  🔧 Type: dollar
+  💬 Full: $ bnamefixcheryl = 4
+
+Variable: sanal = 1
+  📁 File: x-melindaphotos.rpy
+  📍 Line: 179
+  🔧 Type: dollar
+  💬 Full: $ sanal = 1
+
+Variable: snameworkmelinda = 4
+  📁 File: x-melwork.rpy
+  📍 Line: 93
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 4
+
+Variable: snameworkmelinda = 1
+  📁 File: x-melwork.rpy
+  📍 Line: 130
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 1
+
+Variable: snameworkmelinda = 3
+  📁 File: x-melwork.rpy
+  📍 Line: 267
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 3
+
+Variable: mphotos = 1
+  📁 File: x-mnightshow.rpy
+  📍 Line: 100
+  🔧 Type: dollar
+  💬 Full: $ mphotos = 1
+
+Variable: smobilegiven = 1
+  📁 File: x-mobileinstapage.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ smobilegiven = 1
+
+Variable: mrob = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 74
+  🔧 Type: dollar
+  💬 Full: $ mrob = 1
+
+Variable: beachalone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 471
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 1
+
+Variable: beachalone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 474
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 1
+
+Variable: beachdone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 508
+  🔧 Type: dollar
+  💬 Full: $ beachdone = 1
+
+Variable: beachelainedone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 537
+  🔧 Type: dollar
+  💬 Full: $ beachelainedone = 1
+
+Variable: beachrowenadone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 543
+  🔧 Type: dollar
+  💬 Full: $ beachrowenadone = 1
+
+Variable: beachalone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 547
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 1
+
+Variable: beachelainedone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 599
+  🔧 Type: dollar
+  💬 Full: $ beachelainedone = 1
+
+Variable: beachrowenadone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 605
+  🔧 Type: dollar
+  💬 Full: $ beachrowenadone = 1
+
+Variable: beachalone = 1
+  📁 File: x-morning_hall.rpy
+  📍 Line: 610
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 1
+
+Variable: mbikinirequest = 1
+  📁 File: x-mphotoshoot.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ mbikinirequest = 1
+
+Variable: mmirror = 1
+  📁 File: x-mphotoshoot.rpy
+  📍 Line: 47
+  🔧 Type: dollar
+  💬 Full: $ mmirror = 1
+
+Variable: springstring = 2
+  📁 File: x-mphotoshoot.rpy
+  📍 Line: 72
+  🔧 Type: dollar
+  💬 Full: $ springstring = 2
+
+Variable: mphotoediting = 1
+  📁 File: x-mphotoshoot.rpy
+  📍 Line: 95
+  🔧 Type: dollar
+  💬 Full: $ mphotoediting = 1
+
+Variable: mnurse_im = 1
+  📁 File: x-mquickmassage.rpy
+  📍 Line: 161
+  🔧 Type: dollar
+  💬 Full: $ mnurse_im = 1
+
+Variable: mnurse_im = 1
+  📁 File: x-mquickmassage.rpy
+  📍 Line: 241
+  🔧 Type: dollar
+  💬 Full: $ mnurse_im = 1
+
+Variable: mnightie = 2
+  📁 File: x-mroom_menu.rpy
+  📍 Line: 97
+  🔧 Type: dollar
+  💬 Full: $ mnightie = 2
+
+Variable: windowfound = 1
+  📁 File: x-mroom_menu.rpy
+  📍 Line: 198
+  🔧 Type: dollar
+  💬 Full: $ windowfound = 1
+
+Variable: cselaine0 = 11
+  📁 File: x-mroom_menu.rpy
+  📍 Line: 412
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 11
+
+Variable: cselaine0 = 11
+  📁 File: x-mroom_menu.rpy
+  📍 Line: 581
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 11
+
+Variable: mpracticegift = 1
+  📁 File: x-mroom_practice.rpy
+  📍 Line: 277
+  🔧 Type: dollar
+  💬 Full: $ mpracticegift = 1
+
+Variable: mbikini = 2
+  📁 File: x-mroom_practice.rpy
+  📍 Line: 307
+  🔧 Type: dollar
+  💬 Full: $ mbikini = 2
+
+Variable: mbag = 2
+  📁 File: x-mroom_practice.rpy
+  📍 Line: 322
+  🔧 Type: dollar
+  💬 Full: $ mbag = 2
+
+Variable: mbikini = 2
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 58
+  🔧 Type: dollar
+  💬 Full: $ mbikini = 2
+
+Variable: mpracticegift = 1
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 157
+  🔧 Type: dollar
+  💬 Full: $ mpracticegift = 1
+
+Variable: mpracticegift = 1
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 191
+  🔧 Type: dollar
+  💬 Full: $ mpracticegift = 1
+
+Variable: mpracticegift = 1
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 213
+  🔧 Type: dollar
+  💬 Full: $ mpracticegift = 1
+
+Variable: mbag = 2
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 223
+  🔧 Type: dollar
+  💬 Full: $ mbag = 2
+
+Variable: mtrelax = 2
+  📁 File: x-mroomdiscuss.rpy
+  📍 Line: 262
+  🔧 Type: dollar
+  💬 Full: $ mtrelax = 2
+
+Variable: jenopen = 1
+  📁 File: x-msundaysex.rpy
+  📍 Line: 160
+  🔧 Type: dollar
+  💬 Full: $ jenopen = 1
+
+Variable: jenopen = 1
+  📁 File: x-msundaysex.rpy
+  📍 Line: 193
+  🔧 Type: dollar
+  💬 Full: $ jenopen = 1
+
+Variable: neibrep = 1
+  📁 File: x-neighb.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ neibrep = 1
+
+Variable: sgoestost = 1
+  📁 File: x-new_work_jenmorning.rpy
+  📍 Line: 20
+  🔧 Type: dollar
+  💬 Full: $ sgoestost = 1
+
+Variable: startnework = 1
+  📁 File: x-new_work_jenmorning.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ startnework = 1
+
+Variable: startnework = 1
+  📁 File: x-new_work_jenmorning.rpy
+  📍 Line: 172
+  🔧 Type: dollar
+  💬 Full: $ startnework = 1
+
+Variable: work_intro = 1
+  📁 File: x-new_work_jenmorning.rpy
+  📍 Line: 182
+  🔧 Type: dollar
+  💬 Full: $ work_intro = 1
+
+Variable: Hour = 9
+  📁 File: x-newdays.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ Hour = 9
+
+Variable: drinkforbname = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 4
+  🔧 Type: dollar
+  💬 Full: $ drinkforbname = 0
+
+Variable: beachelainedone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 5
+  🔧 Type: dollar
+  💬 Full: $ beachelainedone = 0
+
+Variable: beachrowenadone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 6
+  🔧 Type: dollar
+  💬 Full: $ beachrowenadone = 0
+
+Variable: beachdone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 7
+  🔧 Type: dollar
+  💬 Full: $ beachdone = 0
+
+Variable: bstudied = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 8
+  🔧 Type: dollar
+  💬 Full: $ bstudied = 0
+
+Variable: tvwatched = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 9
+  🔧 Type: dollar
+  💬 Full: $ tvwatched = 0
+
+Variable: pagecheckdone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 10
+  🔧 Type: dollar
+  💬 Full: $ pagecheckdone = 0
+
+Variable: swindowchecked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 11
+  🔧 Type: dollar
+  💬 Full: $ swindowchecked = 0
+
+Variable: instresearchdone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 12
+  🔧 Type: dollar
+  💬 Full: $ instresearchdone = 0
+
+Variable: stewcalled = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 13
+  🔧 Type: dollar
+  💬 Full: $ stewcalled = 0
+
+Variable: sroomride = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 14
+  🔧 Type: dollar
+  💬 Full: $ sroomride = 0
+
+Variable: hallcamerachecked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 15
+  🔧 Type: dollar
+  💬 Full: $ hallcamerachecked = 0
+
+Variable: hallcameracheckedm = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 16
+  🔧 Type: dollar
+  💬 Full: $ hallcameracheckedm = 0
+
+Variable: stalkdone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 17
+  🔧 Type: dollar
+  💬 Full: $ stalkdone = 0
+
+Variable: msho = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 20
+  🔧 Type: dollar
+  💬 Full: $ msho = 3
+
+Variable: snameworkmelinda = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 109
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda =3
+
+Variable: hallcamerachecked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 113
+  🔧 Type: dollar
+  💬 Full: $ hallcamerachecked = 0
+
+Variable: hallcameracheckedm = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 114
+  🔧 Type: dollar
+  💬 Full: $ hallcameracheckedm = 0
+
+Variable: stalkdone = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 115
+  🔧 Type: dollar
+  💬 Full: $ stalkdone = 0
+
+Variable: day = 1
+  📁 File: x-newdays.rpy
+  📍 Line: 117
+  🔧 Type: dollar
+  💬 Full: $ day = 1
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 118
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Monday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 123
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Monday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 125
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Monday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 126
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Monday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 128
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Tuesday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 129
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Tuesday"))
+
+Variable: mburnt = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 131
+  🔧 Type: dollar
+  💬 Full: $ mburnt = 0
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 134
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Wednesday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 135
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Wednesday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 137
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: sburnt = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 138
+  🔧 Type: dollar
+  💬 Full: $ sburnt = 0
+
+Variable: dayname = (_("Thursday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 141
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Thursday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 143
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Friday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 145
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Friday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 147
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: dayname = (_("Saturday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 148
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Saturday"))
+
+Variable: bworked = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 150
+  🔧 Type: dollar
+  💬 Full: $ bworked = 0
+
+Variable: stewartcalled = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 151
+  🔧 Type: dollar
+  💬 Full: $ stewartcalled = 0
+
+Variable: dayname = (_("Sunday"))
+  📁 File: x-newdays.rpy
+  📍 Line: 152
+  🔧 Type: dollar
+  💬 Full: $ dayname = (_("Sunday"))
+
+Variable: bnamefixcheryl = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 159
+  🔧 Type: dollar
+  💬 Full: $ bnamefixcheryl = 3
+
+Variable: snamedrink = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 0
+
+Variable: snamedrinkminus = 0
+  📁 File: x-newdays.rpy
+  📍 Line: 164
+  🔧 Type: dollar
+  💬 Full: $ snamedrinkminus = 0
+
+Variable: sgrm = 1
+  📁 File: x-newdays.rpy
+  📍 Line: 168
+  🔧 Type: dollar
+  💬 Full: $ sgrm = 1
+
+Variable: elaineshowsup = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 172
+  🔧 Type: dollar
+  💬 Full: $ elaineshowsup = 2
+
+Variable: elaineagain = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 180
+  🔧 Type: dollar
+  💬 Full: $ elaineagain = 3
+
+Variable: snamedrink = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 193
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 3
+
+Variable: hallcamera = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 235
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 2
+
+Variable: strongdrinksforgirlnight = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 245
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 3
+
+Variable: toidoorscrew = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 255
+  🔧 Type: dollar
+  💬 Full: $ toidoorscrew = 3
+
+Variable: spiercings = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 264
+  🔧 Type: dollar
+  💬 Full: $ spiercings = 2
+
+Variable: mnurseoutfit = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 273
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 2
+
+Variable: hallcamera = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 289
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 2
+
+Variable: snamedrink = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 299
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 3
+
+Variable: strongdrinksforgirlnight = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 310
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 3
+
+Variable: snamedrink = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 321
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 3
+
+Variable: toidoorscrew = 3
+  📁 File: x-newdays.rpy
+  📍 Line: 331
+  🔧 Type: dollar
+  💬 Full: $ toidoorscrew = 3
+
+Variable: spiercings = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 340
+  🔧 Type: dollar
+  💬 Full: $ spiercings = 2
+
+Variable: mnurseoutfit = 2
+  📁 File: x-newdays.rpy
+  📍 Line: 349
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 2
+
+Variable: mrob = 3
+  📁 File: x-newwork_return.rpy
+  📍 Line: 6
+  🔧 Type: dollar
+  💬 Full: $ mrob = 3
+
+Variable: bnomn = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 622
+  🔧 Type: dollar
+  💬 Full: $ bnomn = 1
+
+Variable: melsw = 4
+  📁 File: x-newwork_return.rpy
+  📍 Line: 667
+  🔧 Type: dollar
+  💬 Full: $ melsw = 4
+
+Variable: melsw = 9
+  📁 File: x-newwork_return.rpy
+  📍 Line: 904
+  🔧 Type: dollar
+  💬 Full: $ melsw = 9
+
+Variable: e_showsupagain = 2
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1116
+  🔧 Type: dollar
+  💬 Full: $ e_showsupagain = 2
+
+Variable: cselaine0 = 9
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1149
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 9
+
+Variable: elainefuck = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1180
+  🔧 Type: dollar
+  💬 Full: $ elainefuck = 1
+
+Variable: elaineshowsup = 2
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1218
+  🔧 Type: dollar
+  💬 Full: $ elaineshowsup = 2
+
+Variable: elaineagain = 3
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1232
+  🔧 Type: dollar
+  💬 Full: $ elaineagain = 3
+
+Variable: sbm = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1255
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: mnurseoutfit = 3
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1292
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 3
+
+Variable: sbm = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1366
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: sbm = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1385
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: mnurseoutfit = 3
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1405
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 3
+
+Variable: sbm = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1421
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: sbm = 1
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1440
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: mnurseoutfit = 3
+  📁 File: x-newwork_return.rpy
+  📍 Line: 1450
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 3
+
+Variable: melsw = 8
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 110
+  🔧 Type: dollar
+  💬 Full: $ melsw = 8
+
+Variable: mnameboobs = 1
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 193
+  🔧 Type: dollar
+  💬 Full: $ mnameboobs = 1
+
+Variable: elaineboobs = 1
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 200
+  🔧 Type: dollar
+  💬 Full: $ elaineboobs = 1
+
+Variable: elaineagain = 1
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 431
+  🔧 Type: dollar
+  💬 Full: $ elaineagain = 1
+
+Variable: melsw = 8
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 542
+  🔧 Type: dollar
+  💬 Full: $ melsw = 8
+
+Variable: melsw = 8
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 564
+  🔧 Type: dollar
+  💬 Full: $ melsw = 8
+
+Variable: menjoyedtheview = 1
+  📁 File: x-nudebeach_jenelaine.rpy
+  📍 Line: 655
+  🔧 Type: dollar
+  💬 Full: $ menjoyedtheview = 1
+
+Variable: mboobstalk = 1
+  📁 File: x-nudebeach_jenelainereturn.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ mboobstalk = 1
+
+Variable: mnameboobs = 0
+  📁 File: x-nudebeach_jenelainereturn.rpy
+  📍 Line: 4
+  🔧 Type: dollar
+  💬 Full: $ mnameboobs = 0
+
+Variable: elaineboobs = 0
+  📁 File: x-nudebeach_jenelainereturn.rpy
+  📍 Line: 46
+  🔧 Type: dollar
+  💬 Full: $ elaineboobs = 0
+
+Variable: mvisitnudebeach = 1
+  📁 File: x-nudebeach_jenny.rpy
+  📍 Line: 6
+  🔧 Type: dollar
+  💬 Full: $ mvisitnudebeach = 1
+
+Variable: b_fightback = 2
+  📁 File: x-nudebeach_rowena.rpy
+  📍 Line: 177
+  🔧 Type: dollar
+  💬 Full: $ b_fightback = 2
+
+Variable: rowenacall = 1
+  📁 File: x-nudebeach_rowena.rpy
+  📍 Line: 315
+  🔧 Type: dollar
+  💬 Full: $ rowenacall = 1
+
+Variable: rowena_mom_number = 1
+  📁 File: x-nudebeach_rowenamom.rpy
+  📍 Line: 17
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom_number = 1
+
+Variable: mnvylingerie = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 19
+  🔧 Type: dollar
+  💬 Full: $ mnvylingerie = 1
+
+Variable: springstring = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 35
+  🔧 Type: dollar
+  💬 Full: $ springstring = 1
+
+Variable: mmirror = 2
+  📁 File: x-onlineshop.rpy
+  📍 Line: 51
+  🔧 Type: dollar
+  💬 Full: $ mmirror = 2
+
+Variable: hallcamera = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 69
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 1
+
+Variable: hallcamera = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 85
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 1
+
+Variable: strongdrinksforgirlnight = 2
+  📁 File: x-onlineshop.rpy
+  📍 Line: 101
+  🔧 Type: dollar
+  💬 Full: $ strongdrinksforgirlnight = 2
+
+Variable: snamedrink = 2
+  📁 File: x-onlineshop.rpy
+  📍 Line: 116
+  🔧 Type: dollar
+  💬 Full: $ snamedrink = 2
+
+Variable: toidoorscrew = 2
+  📁 File: x-onlineshop.rpy
+  📍 Line: 133
+  🔧 Type: dollar
+  💬 Full: $ toidoorscrew = 2
+
+Variable: spiercings = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 148
+  🔧 Type: dollar
+  💬 Full: $ spiercings = 1
+
+Variable: mnurseoutfit = 1
+  📁 File: x-onlineshop.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ mnurseoutfit = 1
+
+Variable: beachalone = 2
+  📁 File: x-onlineshop.rpy
+  📍 Line: 181
+  🔧 Type: dollar
+  💬 Full: $ beachalone = 2
+
+Variable: sphotos_progress = 1
+  📁 File: x-pagecheckphotoprogress.rpy
+  📍 Line: 13
+  🔧 Type: dollar
+  💬 Full: $ sphotos_progress = 1
+
+Variable: sphotos_progress = 2
+  📁 File: x-pagecheckphotoprogress.rpy
+  📍 Line: 29
+  🔧 Type: dollar
+  💬 Full: $ sphotos_progress = 2
+
+Variable: msconvince = 0
+  📁 File: x-pdinnerm_relax.rpy
+  📍 Line: 52
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 0
+
+Variable: msconvince = 2
+  📁 File: x-pdinnerm_relax.rpy
+  📍 Line: 57
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 2
+
+Variable: msconvince = 2
+  📁 File: x-pdinnerm_relax.rpy
+  📍 Line: 85
+  🔧 Type: dollar
+  💬 Full: $ msconvince = 2
+
+Variable: mfuckedsober = 1
+  📁 File: x-poolhardon.rpy
+  📍 Line: 297
+  🔧 Type: dollar
+  💬 Full: $ mfuckedsober = 1
+
+Variable: rowenacall = 2
+  📁 File: x-rbffight.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ rowenacall = 2
+
+Variable: rowenacall = 3
+  📁 File: x-rbffight.rpy
+  📍 Line: 39
+  🔧 Type: dollar
+  💬 Full: $ rowenacall = 3
+
+Variable: rowena_mom = 1
+  📁 File: x-rbffight.rpy
+  📍 Line: 64
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom = 1
+
+Variable: rowena_mom = 1
+  📁 File: x-rbffight.rpy
+  📍 Line: 85
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom = 1
+
+Variable: m_bbruises = 1
+  📁 File: x-rbffight.rpy
+  📍 Line: 101
+  🔧 Type: dollar
+  💬 Full: $ m_bbruises = 1
+
+Variable: s_bbruises = 1
+  📁 File: x-rbffight.rpy
+  📍 Line: 133
+  🔧 Type: dollar
+  💬 Full: $ s_bbruises = 1
+
+Variable: rowenacall = 3
+  📁 File: x-rbffightrp.rpy
+  📍 Line: 40
+  🔧 Type: dollar
+  💬 Full: $ rowenacall = 3
+
+Variable: rowena_mom = 1
+  📁 File: x-rbffightrp.rpy
+  📍 Line: 65
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom = 1
+
+Variable: rowena_mom = 1
+  📁 File: x-rbffightrp.rpy
+  📍 Line: 86
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom = 1
+
+Variable: sphotos_progress = 1
+  📁 File: x-realinstaphotos.rpy
+  📍 Line: 566
+  🔧 Type: dollar
+  💬 Full: $ sphotos_progress = 1
+
+Variable: sphotos_progress = 2
+  📁 File: x-realinstaphotos.rpy
+  📍 Line: 571
+  🔧 Type: dollar
+  💬 Full: $ sphotos_progress = 2
+
+Variable: mfuckedsober = 1
+  📁 File: x-romom.rpy
+  📍 Line: 207
+  🔧 Type: dollar
+  💬 Full: $ mfuckedsober = 1
+
+Variable: mfuckedsober = 1
+  📁 File: x-romom.rpy
+  📍 Line: 629
+  🔧 Type: dollar
+  💬 Full: $ mfuckedsober = 1
+
+Variable: rorepeat = 1
+  📁 File: x-rosddd.rpy
+  📍 Line: 5
+  🔧 Type: dollar
+  💬 Full: $ rorepeat = 1
+
+Variable: rorepeat = 2
+  📁 File: x-rosddd.rpy
+  📍 Line: 96
+  🔧 Type: dollar
+  💬 Full: $ rorepeat = 2
+
+Variable: rorepeat = 3
+  📁 File: x-rosddd.rpy
+  📍 Line: 155
+  🔧 Type: dollar
+  💬 Full: $ rorepeat = 3
+
+Variable: browenabm = 3
+  📁 File: x-rowenaorgy.rpy
+  📍 Line: 7
+  🔧 Type: dollar
+  💬 Full: $ browenabm =3
+
+Variable: sgrm = 1
+  📁 File: x-rowenaorgy.rpy
+  📍 Line: 104
+  🔧 Type: dollar
+  💬 Full: $ sgrm = 1
+
+Variable: browenabm = 1
+  📁 File: x-rowenaorgy.rpy
+  📍 Line: 126
+  🔧 Type: dollar
+  💬 Full: $ browenabm = 1
+
+Variable: rb = Character("Larry")
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 1
+  🔧 Type: define
+  💬 Full: define rb = Character("Larry")
+
+Variable: rm = Character("Helena")
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 2
+  🔧 Type: define
+  💬 Full: define rm = Character("Helena")
+
+Variable: rvisit = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 6
+  🔧 Type: dollar
+  💬 Full: $ rvisit = 1
+
+Variable: rowenaslap = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 164
+  🔧 Type: dollar
+  💬 Full: $ rowenaslap = 1
+
+Variable: rdf = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 216
+  🔧 Type: dollar
+  💬 Full: $ rdf = 1
+
+Variable: skiss = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 275
+  🔧 Type: dollar
+  💬 Full: $ skiss = 1
+
+Variable: stalkb_rowena = 3
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 356
+  🔧 Type: dollar
+  💬 Full: $ stalkb_rowena = 3
+
+Variable: rdf = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 422
+  🔧 Type: dollar
+  💬 Full: $ rdf = 1
+
+Variable: skiss = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 484
+  🔧 Type: dollar
+  💬 Full: $ skiss = 1
+
+Variable: rowenabffuck = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 523
+  🔧 Type: dollar
+  💬 Full: $ rowenabffuck = 1
+
+Variable: rowena_mom = 1
+  📁 File: x-rowenavisit.rpy
+  📍 Line: 575
+  🔧 Type: dollar
+  💬 Full: $ rowena_mom = 1
+
+Variable: snaked_lunch = 2
+  📁 File: x-s_hot_lunch.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ snaked_lunch = 2
+
+Variable: hotphotos_done = 1
+  📁 File: x-saction_study.rpy
+  📍 Line: 179
+  🔧 Type: dollar
+  💬 Full: $ hotphotos_done = 1
+
+Variable: sactiondone_nomast = 1
+  📁 File: x-saction_study.rpy
+  📍 Line: 264
+  🔧 Type: dollar
+  💬 Full: $ sactiondone_nomast = 1
+
+Variable: sactiondone_mast = 1
+  📁 File: x-saction_study.rpy
+  📍 Line: 284
+  🔧 Type: dollar
+  💬 Full: $ sactiondone_mast = 1
+
+Variable: sactiondone_mast = 1
+  📁 File: x-saction_study.rpy
+  📍 Line: 295
+  🔧 Type: dollar
+  💬 Full: $ sactiondone_mast = 1
+
+Variable: sblowjobdone = 1
+  📁 File: x-sblowjob.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ sblowjobdone = 1
+
+Variable: bikini2 = 1
+  📁 File: x-sclothes.rpy
+  📍 Line: 26
+  🔧 Type: dollar
+  💬 Full: $ bikini2 = 1
+
+Variable: bikini3 = 1
+  📁 File: x-sclothes.rpy
+  📍 Line: 54
+  🔧 Type: dollar
+  💬 Full: $ bikini3 = 1
+
+Variable: microskirt1 = 1
+  📁 File: x-sclothes.rpy
+  📍 Line: 81
+  🔧 Type: dollar
+  💬 Full: $ microskirt1 = 1
+
+Variable: quick_menu = True
+  📁 File: x-screens.rpy
+  📍 Line: 272
+  🔧 Type: default
+  💬 Full: default quick_menu = True
+
+Variable: page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+  📁 File: x-screens.rpy
+  📍 Line: 630
+  🔧 Type: default
+  💬 Full: default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+
+Variable: slot = i + 1
+  📁 File: x-screens.rpy
+  📍 Line: 663
+  🔧 Type: dollar
+  💬 Full: $ slot = i + 1
+
+Variable: what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+  📁 File: x-screens.rpy
+  📍 Line: 940
+  🔧 Type: dollar
+  💬 Full: $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+
+Variable: device = "keyboard"
+  📁 File: x-screens.rpy
+  📍 Line: 1004
+  🔧 Type: default
+  💬 Full: default device = "keyboard"
+
+Variable: tt = Tooltip("")
+  📁 File: x-screens.rpy
+  📍 Line: 1843
+  🔧 Type: default
+  💬 Full: default tt = Tooltip("")
+
+Variable: tt = Tooltip("")
+  📁 File: x-screens.rpy
+  📍 Line: 2129
+  🔧 Type: default
+  💬 Full: default tt = Tooltip("")
+
+Variable: srel = 5
+  📁 File: x-script.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ srel = 5
+
+Variable: mrel = 5
+  📁 File: x-script.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ mrel = 5
+
+Variable: b = Character('[bname]', image = 'bchar')
+  📁 File: x-script.rpy
+  📍 Line: 18
+  🔧 Type: define
+  💬 Full: define b = Character('[bname]', image = 'bchar')
+
+Variable: s = Character('[sname]', image = 'schar')
+  📁 File: x-script.rpy
+  📍 Line: 19
+  🔧 Type: define
+  💬 Full: define s = Character('[sname]', image = 'schar')
+
+Variable: m = Character('[mname]', image = 'mchar')
+  📁 File: x-script.rpy
+  📍 Line: 20
+  🔧 Type: define
+  💬 Full: define m = Character('[mname]', image = 'mchar')
+
+Variable: d = Character("Stewart")
+  📁 File: x-script.rpy
+  📍 Line: 21
+  🔧 Type: define
+  💬 Full: define d = Character("Stewart")
+
+Variable: e = Character("Elaine", color="#F7DED9")
+  📁 File: x-script.rpy
+  📍 Line: 22
+  🔧 Type: define
+  💬 Full: define e = Character("Elaine", color="#F7DED9")
+
+Variable: c = Character("Cheryl", color="#FFC000")
+  📁 File: x-script.rpy
+  📍 Line: 23
+  🔧 Type: define
+  💬 Full: define c = Character("Cheryl", color="#FFC000")
+
+Variable: r = Character("Rob")
+  📁 File: x-script.rpy
+  📍 Line: 24
+  🔧 Type: define
+  💬 Full: define r = Character("Rob")
+
+Variable: mb = Character("Adam")
+  📁 File: x-script.rpy
+  📍 Line: 25
+  🔧 Type: define
+  💬 Full: define mb = Character("Adam")
+
+Variable: n = Character("Katy")
+  📁 File: x-script.rpy
+  📍 Line: 26
+  🔧 Type: define
+  💬 Full: define n = Character("Katy")
+
+Variable: nd = Character("Masha")
+  📁 File: x-script.rpy
+  📍 Line: 27
+  🔧 Type: define
+  💬 Full: define nd = Character("Masha")
+
+Variable: staway = 0
+  📁 File: x-script.rpy
+  📍 Line: 32
+  🔧 Type: default
+  💬 Full: default staway = 0
+
+Variable: mrel = 0
+  📁 File: x-script.rpy
+  📍 Line: 33
+  🔧 Type: default
+  💬 Full: default mrel = 0
+
+Variable: srel = 0
+  📁 File: x-script.rpy
+  📍 Line: 34
+  🔧 Type: default
+  💬 Full: default srel = 0
+
+Variable: erel = 0
+  📁 File: x-script.rpy
+  📍 Line: 35
+  🔧 Type: default
+  💬 Full: default erel = 0
+
+Variable: melrel = 0
+  📁 File: x-script.rpy
+  📍 Line: 36
+  🔧 Type: default
+  💬 Full: default melrel = 0
+
+Variable: Hour = 8
+  📁 File: x-script.rpy
+  📍 Line: 37
+  🔧 Type: default
+  💬 Full: default Hour = 8
+
+Variable: dayname = 0
+  📁 File: x-script.rpy
+  📍 Line: 38
+  🔧 Type: default
+  💬 Full: default dayname = 0
+
+Variable: day = 0
+  📁 File: x-script.rpy
+  📍 Line: 39
+  🔧 Type: default
+  💬 Full: default day = 0
+
+Variable: mny = 0
+  📁 File: x-script.rpy
+  📍 Line: 40
+  🔧 Type: default
+  💬 Full: default mny = 0
+
+Variable: wk = 0
+  📁 File: x-script.rpy
+  📍 Line: 41
+  🔧 Type: default
+  💬 Full: default wk = 0
+
+Variable: sdom = 0
+  📁 File: x-script.rpy
+  📍 Line: 42
+  🔧 Type: default
+  💬 Full: default sdom = 0
+
+Variable: bstudy = 0
+  📁 File: x-script.rpy
+  📍 Line: 43
+  🔧 Type: default
+  💬 Full: default bstudy = 0
+
+Variable: tvwatched = 0
+  📁 File: x-script.rpy
+  📍 Line: 44
+  🔧 Type: default
+  💬 Full: default tvwatched = 0
+
+Variable: bstudied = 0
+  📁 File: x-script.rpy
+  📍 Line: 45
+  🔧 Type: default
+  💬 Full: default bstudied = 0
+
+Variable: bexercise = 0
+  📁 File: x-script.rpy
+  📍 Line: 46
+  🔧 Type: default
+  💬 Full: default bexercise = 0
+
+Variable: cselaine0 = 0
+  📁 File: x-script.rpy
+  📍 Line: 47
+  🔧 Type: default
+  💬 Full: default cselaine0 = 0
+
+Variable: pornchanel = 0
+  📁 File: x-script.rpy
+  📍 Line: 48
+  🔧 Type: default
+  💬 Full: default pornchanel = 0
+
+Variable: mrpmt = 0
+  📁 File: x-script.rpy
+  📍 Line: 49
+  🔧 Type: default
+  💬 Full: default mrpmt = 0
+
+Variable: findwindow = 0
+  📁 File: x-script.rpy
+  📍 Line: 50
+  🔧 Type: default
+  💬 Full: default findwindow = 0
+
+Variable: windowfound = 0
+  📁 File: x-script.rpy
+  📍 Line: 51
+  🔧 Type: default
+  💬 Full: default windowfound = 0
+
+Variable: swindowchecked = 0
+  📁 File: x-script.rpy
+  📍 Line: 52
+  🔧 Type: default
+  💬 Full: default swindowchecked = 0
+
+Variable: rwena = 0
+  📁 File: x-script.rpy
+  📍 Line: 53
+  🔧 Type: default
+  💬 Full: default rwena = 0
+
+Variable: binstaexp = 0
+  📁 File: x-script.rpy
+  📍 Line: 54
+  🔧 Type: default
+  💬 Full: default binstaexp = 0
+
+Variable: instresearchdone = 0
+  📁 File: x-script.rpy
+  📍 Line: 55
+  🔧 Type: default
+  💬 Full: default instresearchdone = 0
+
+Variable: instadone = 0
+  📁 File: x-script.rpy
+  📍 Line: 56
+  🔧 Type: default
+  💬 Full: default instadone = 0
+
+Variable: robel = 0
+  📁 File: x-script.rpy
+  📍 Line: 57
+  🔧 Type: default
+  💬 Full: default robel = 0
+
+Variable: cellshop = 0
+  📁 File: x-script.rpy
+  📍 Line: 58
+  🔧 Type: default
+  💬 Full: default cellshop = 0
+
+Variable: meldan = 0
+  📁 File: x-script.rpy
+  📍 Line: 59
+  🔧 Type: default
+  💬 Full: default meldan = 0
+
+Variable: btoiuse = 0
+  📁 File: x-script.rpy
+  📍 Line: 60
+  🔧 Type: default
+  💬 Full: default btoiuse = 0
+
+Variable: beach = 0
+  📁 File: x-script.rpy
+  📍 Line: 61
+  🔧 Type: default
+  💬 Full: default beach = 0
+
+Variable: smoneym = 0
+  📁 File: x-script.rpy
+  📍 Line: 62
+  🔧 Type: default
+  💬 Full: default smoneym = 0
+
+Variable: mwork = 0
+  📁 File: x-script.rpy
+  📍 Line: 63
+  🔧 Type: default
+  💬 Full: default mwork = 0
+
+Variable: ebizaldoneonce = 0
+  📁 File: x-script.rpy
+  📍 Line: 64
+  🔧 Type: default
+  💬 Full: default ebizaldoneonce = 0
+
+Variable: bikini1 = 0
+  📁 File: x-script.rpy
+  📍 Line: 65
+  🔧 Type: default
+  💬 Full: default bikini1 = 0
+
+Variable: bikini2 = 0
+  📁 File: x-script.rpy
+  📍 Line: 66
+  🔧 Type: default
+  💬 Full: default bikini2 = 0
+
+Variable: bikini3 = 0
+  📁 File: x-script.rpy
+  📍 Line: 67
+  🔧 Type: default
+  💬 Full: default bikini3 = 0
+
+Variable: microskirt1 = 0
+  📁 File: x-script.rpy
+  📍 Line: 68
+  🔧 Type: default
+  💬 Full: default microskirt1 = 0
+
+Variable: workrequest = 0
+  📁 File: x-script.rpy
+  📍 Line: 69
+  🔧 Type: default
+  💬 Full: default workrequest = 0
+
+Variable: worktalk = 0
+  📁 File: x-script.rpy
+  📍 Line: 70
+  🔧 Type: default
+  💬 Full: default worktalk = 0
+
+Variable: instatalkm = 0
+  📁 File: x-script.rpy
+  📍 Line: 71
+  🔧 Type: default
+  💬 Full: default instatalkm = 0
+
+Variable: rvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 72
+  🔧 Type: default
+  💬 Full: default rvisit = 0
+
+Variable: stalkb_rowena = 0
+  📁 File: x-script.rpy
+  📍 Line: 73
+  🔧 Type: default
+  💬 Full: default stalkb_rowena = 0
+
+Variable: stewcalled = 0
+  📁 File: x-script.rpy
+  📍 Line: 74
+  🔧 Type: default
+  💬 Full: default stewcalled = 0
+
+Variable: cherylintro = 0
+  📁 File: x-script.rpy
+  📍 Line: 75
+  🔧 Type: default
+  💬 Full: default cherylintro = 0
+
+Variable: cherylintrodone = 0
+  📁 File: x-script.rpy
+  📍 Line: 76
+  🔧 Type: default
+  💬 Full: default cherylintrodone = 0
+
+Variable: ebizcheck = 0
+  📁 File: x-script.rpy
+  📍 Line: 77
+  🔧 Type: default
+  💬 Full: default ebizcheck = 0
+
+Variable: e_showsupagain = 0
+  📁 File: x-script.rpy
+  📍 Line: 78
+  🔧 Type: default
+  💬 Full: default e_showsupagain = 0
+
+Variable: sburnt = 0
+  📁 File: x-script.rpy
+  📍 Line: 79
+  🔧 Type: default
+  💬 Full: default sburnt = 0
+
+Variable: mburnt = 0
+  📁 File: x-script.rpy
+  📍 Line: 80
+  🔧 Type: default
+  💬 Full: default mburnt = 0
+
+Variable: badgrds = 0
+  📁 File: x-script.rpy
+  📍 Line: 81
+  🔧 Type: default
+  💬 Full: default badgrds = 0
+
+Variable: rowenaslap = 0
+  📁 File: x-script.rpy
+  📍 Line: 82
+  🔧 Type: default
+  💬 Full: default rowenaslap = 0
+
+Variable: scorr = 0
+  📁 File: x-script.rpy
+  📍 Line: 83
+  🔧 Type: default
+  💬 Full: default scorr = 0
+
+Variable: skiss_asked = 0
+  📁 File: x-script.rpy
+  📍 Line: 84
+  🔧 Type: default
+  💬 Full: default skiss_asked = 0
+
+Variable: wrkquestions = 0
+  📁 File: x-script.rpy
+  📍 Line: 85
+  🔧 Type: default
+  💬 Full: default wrkquestions = 0
+
+Variable: sstrip = 0
+  📁 File: x-script.rpy
+  📍 Line: 86
+  🔧 Type: default
+  💬 Full: default sstrip = 0
+
+Variable: instauploads = 0
+  📁 File: x-script.rpy
+  📍 Line: 87
+  🔧 Type: default
+  💬 Full: default instauploads = 0
+
+Variable: pagecheck = 0
+  📁 File: x-script.rpy
+  📍 Line: 88
+  🔧 Type: default
+  💬 Full: default pagecheck = 0
+
+Variable: pagecheckdone = 0
+  📁 File: x-script.rpy
+  📍 Line: 89
+  🔧 Type: default
+  💬 Full: default pagecheckdone = 0
+
+Variable: nude_binsta_random1_posted = 0
+  📁 File: x-script.rpy
+  📍 Line: 90
+  🔧 Type: default
+  💬 Full: default nude_binsta_random1_posted = 0
+
+Variable: snameinstaconvinced = 0
+  📁 File: x-script.rpy
+  📍 Line: 91
+  🔧 Type: default
+  💬 Full: default snameinstaconvinced = 0
+
+Variable: rdf = 0
+  📁 File: x-script.rpy
+  📍 Line: 92
+  🔧 Type: default
+  💬 Full: default rdf = 0
+
+Variable: rbkisscounter = 0
+  📁 File: x-script.rpy
+  📍 Line: 93
+  🔧 Type: default
+  💬 Full: default rbkisscounter = 0
+
+Variable: skiss = 0
+  📁 File: x-script.rpy
+  📍 Line: 94
+  🔧 Type: default
+  💬 Full: default skiss = 0
+
+Variable: cvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 95
+  🔧 Type: default
+  💬 Full: default cvisit = 0
+
+Variable: kissrepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 96
+  🔧 Type: default
+  💬 Full: default kissrepeat = 0
+
+Variable: bworkstarted = 0
+  📁 File: x-script.rpy
+  📍 Line: 97
+  🔧 Type: default
+  💬 Full: default bworkstarted = 0
+
+Variable: bworked = 0
+  📁 File: x-script.rpy
+  📍 Line: 98
+  🔧 Type: default
+  💬 Full: default bworked = 0
+
+Variable: buy_s_phonecounter = 0
+  📁 File: x-script.rpy
+  📍 Line: 99
+  🔧 Type: default
+  💬 Full: default buy_s_phonecounter = 0
+
+Variable: mobilephoneacquired = 0
+  📁 File: x-script.rpy
+  📍 Line: 100
+  🔧 Type: default
+  💬 Full: default mobilephoneacquired = 0
+
+Variable: smobilegiven = 0
+  📁 File: x-script.rpy
+  📍 Line: 101
+  🔧 Type: default
+  💬 Full: default smobilegiven = 0
+
+Variable: camerasacquired = 0
+  📁 File: x-script.rpy
+  📍 Line: 102
+  🔧 Type: default
+  💬 Full: default camerasacquired = 0
+
+Variable: drinkforbname = 0
+  📁 File: x-script.rpy
+  📍 Line: 103
+  🔧 Type: default
+  💬 Full: default drinkforbname = 0
+
+Variable: coversname = 0
+  📁 File: x-script.rpy
+  📍 Line: 104
+  🔧 Type: default
+  💬 Full: default coversname = 0
+
+Variable: showcoverpage = 0
+  📁 File: x-script.rpy
+  📍 Line: 105
+  🔧 Type: default
+  💬 Full: default showcoverpage = 0
+
+Variable: camerafixing = 0
+  📁 File: x-script.rpy
+  📍 Line: 106
+  🔧 Type: default
+  💬 Full: default camerafixing = 0
+
+Variable: camerarecording = 0
+  📁 File: x-script.rpy
+  📍 Line: 107
+  🔧 Type: default
+  💬 Full: default camerarecording = 0
+
+Variable: camerarecording1 = 0
+  📁 File: x-script.rpy
+  📍 Line: 108
+  🔧 Type: default
+  💬 Full: default camerarecording1 = 0
+
+Variable: camerarecording2 = 0
+  📁 File: x-script.rpy
+  📍 Line: 109
+  🔧 Type: default
+  💬 Full: default camerarecording2 = 0
+
+Variable: camexpose = 0
+  📁 File: x-script.rpy
+  📍 Line: 110
+  🔧 Type: default
+  💬 Full: default camexpose = 0
+
+Variable: elaine_convince = 0
+  📁 File: x-script.rpy
+  📍 Line: 111
+  🔧 Type: default
+  💬 Full: default elaine_convince = 0
+
+Variable: beachelainedone = 0
+  📁 File: x-script.rpy
+  📍 Line: 112
+  🔧 Type: default
+  💬 Full: default beachelainedone = 0
+
+Variable: beachdone = 0
+  📁 File: x-script.rpy
+  📍 Line: 113
+  🔧 Type: default
+  💬 Full: default beachdone = 0
+
+Variable: saction = 0
+  📁 File: x-script.rpy
+  📍 Line: 114
+  🔧 Type: default
+  💬 Full: default saction = 0
+
+Variable: hotphotos_done = 0
+  📁 File: x-script.rpy
+  📍 Line: 115
+  🔧 Type: default
+  💬 Full: default hotphotos_done = 0
+
+Variable: sactiondone_mast = 0
+  📁 File: x-script.rpy
+  📍 Line: 116
+  🔧 Type: default
+  💬 Full: default sactiondone_mast = 0
+
+Variable: beachrowenadone = 0
+  📁 File: x-script.rpy
+  📍 Line: 117
+  🔧 Type: default
+  💬 Full: default beachrowenadone = 0
+
+Variable: startnework = 0
+  📁 File: x-script.rpy
+  📍 Line: 118
+  🔧 Type: default
+  💬 Full: default startnework = 0
+
+Variable: ticketrequested = 0
+  📁 File: x-script.rpy
+  📍 Line: 119
+  🔧 Type: default
+  💬 Full: default ticketrequested = 0
+
+Variable: sactiondone_nomast = 0
+  📁 File: x-script.rpy
+  📍 Line: 120
+  🔧 Type: default
+  💬 Full: default sactiondone_nomast = 0
+
+Variable: pullsb_repeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 121
+  🔧 Type: default
+  💬 Full: default pullsb_repeat = 0
+
+Variable: sphotos_progress = 0
+  📁 File: x-script.rpy
+  📍 Line: 122
+  🔧 Type: default
+  💬 Full: default sphotos_progress = 0
+
+Variable: bought_followers = 0
+  📁 File: x-script.rpy
+  📍 Line: 123
+  🔧 Type: default
+  💬 Full: default bought_followers = 0
+
+Variable: snaked_lunch = 0
+  📁 File: x-script.rpy
+  📍 Line: 124
+  🔧 Type: default
+  💬 Full: default snaked_lunch = 0
+
+Variable: work_intro = 0
+  📁 File: x-script.rpy
+  📍 Line: 125
+  🔧 Type: default
+  💬 Full: default work_intro = 0
+
+Variable: mpracticegift = 0
+  📁 File: x-script.rpy
+  📍 Line: 126
+  🔧 Type: default
+  💬 Full: default mpracticegift = 0
+
+Variable: mbikini = 0
+  📁 File: x-script.rpy
+  📍 Line: 127
+  🔧 Type: default
+  💬 Full: default mbikini = 0
+
+Variable: mbag = 0
+  📁 File: x-script.rpy
+  📍 Line: 128
+  🔧 Type: default
+  💬 Full: default mbag = 0
+
+Variable: mcorr = 0
+  📁 File: x-script.rpy
+  📍 Line: 129
+  🔧 Type: default
+  💬 Full: default mcorr = 0
+
+Variable: elainefuck = 0
+  📁 File: x-script.rpy
+  📍 Line: 130
+  🔧 Type: default
+  💬 Full: default elainefuck = 0
+
+Variable: sblowjobdone = 0
+  📁 File: x-script.rpy
+  📍 Line: 131
+  🔧 Type: default
+  💬 Full: default sblowjobdone = 0
+
+Variable: naivetalk = 0
+  📁 File: x-script.rpy
+  📍 Line: 132
+  🔧 Type: default
+  💬 Full: default naivetalk = 0
+
+Variable: sbm = 0
+  📁 File: x-script.rpy
+  📍 Line: 133
+  🔧 Type: default
+  💬 Full: default sbm = 0
+
+Variable: laptoprequested = 0
+  📁 File: x-script.rpy
+  📍 Line: 134
+  🔧 Type: default
+  💬 Full: default laptoprequested = 0
+
+Variable: etvelaine = 0
+  📁 File: x-script.rpy
+  📍 Line: 135
+  🔧 Type: default
+  💬 Full: default etvelaine = 0
+
+Variable: srbm = 0
+  📁 File: x-script.rpy
+  📍 Line: 136
+  🔧 Type: default
+  💬 Full: default srbm = 0
+
+Variable: msconvince = 0
+  📁 File: x-script.rpy
+  📍 Line: 137
+  🔧 Type: default
+  💬 Full: default msconvince = 0
+
+Variable: rkiss = 0
+  📁 File: x-script.rpy
+  📍 Line: 138
+  🔧 Type: default
+  💬 Full: default rkiss = 0
+
+Variable: shj = 0
+  📁 File: x-script.rpy
+  📍 Line: 139
+  🔧 Type: default
+  💬 Full: default shj = 0
+
+Variable: sbmrepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 140
+  🔧 Type: default
+  💬 Full: default sbmrepeat = 0
+
+Variable: sscall = 0
+  📁 File: x-script.rpy
+  📍 Line: 141
+  🔧 Type: default
+  💬 Full: default sscall = 0
+
+Variable: mnightie = 0
+  📁 File: x-script.rpy
+  📍 Line: 142
+  🔧 Type: default
+  💬 Full: default mnightie = 0
+
+Variable: mtrelax = 0
+  📁 File: x-script.rpy
+  📍 Line: 143
+  🔧 Type: default
+  💬 Full: default mtrelax = 0
+
+Variable: nudebeachtalk = 0
+  📁 File: x-script.rpy
+  📍 Line: 144
+  🔧 Type: default
+  💬 Full: default nudebeachtalk = 0
+
+Variable: bcaught_s = 0
+  📁 File: x-script.rpy
+  📍 Line: 145
+  🔧 Type: default
+  💬 Full: default bcaught_s = 0
+
+Variable: sgtruth = 0
+  📁 File: x-script.rpy
+  📍 Line: 146
+  🔧 Type: default
+  💬 Full: default sgtruth = 0
+
+Variable: b_fightback = 0
+  📁 File: x-script.rpy
+  📍 Line: 147
+  🔧 Type: default
+  💬 Full: default b_fightback = 0
+
+Variable: go_counter = 0
+  📁 File: x-script.rpy
+  📍 Line: 148
+  🔧 Type: default
+  💬 Full: default go_counter = 0
+
+Variable: sroom13underss = 0
+  📁 File: x-script.rpy
+  📍 Line: 149
+  🔧 Type: default
+  💬 Full: default sroom13underss = 0
+
+Variable: msexreturn = 0
+  📁 File: x-script.rpy
+  📍 Line: 150
+  🔧 Type: default
+  💬 Full: default msexreturn = 0
+
+Variable: hidetoiletrowena = 0
+  📁 File: x-script.rpy
+  📍 Line: 151
+  🔧 Type: default
+  💬 Full: default hidetoiletrowena = 0
+
+Variable: rowenadp = 0
+  📁 File: x-script.rpy
+  📍 Line: 152
+  🔧 Type: default
+  💬 Full: default rowenadp = 0
+
+Variable: rowenacall = 0
+  📁 File: x-script.rpy
+  📍 Line: 153
+  🔧 Type: default
+  💬 Full: default rowenacall = 0
+
+Variable: rowena_mom = 0
+  📁 File: x-script.rpy
+  📍 Line: 154
+  🔧 Type: default
+  💬 Full: default rowena_mom = 0
+
+Variable: rowena_mom_number = 0
+  📁 File: x-script.rpy
+  📍 Line: 155
+  🔧 Type: default
+  💬 Full: default rowena_mom_number = 0
+
+Variable: rowena_mom_called = 0
+  📁 File: x-script.rpy
+  📍 Line: 156
+  🔧 Type: default
+  💬 Full: default rowena_mom_called = 0
+
+Variable: toidoorscrew = 0
+  📁 File: x-script.rpy
+  📍 Line: 157
+  🔧 Type: default
+  💬 Full: default toidoorscrew = 0
+
+Variable: m_bbruises = 0
+  📁 File: x-script.rpy
+  📍 Line: 158
+  🔧 Type: default
+  💬 Full: default m_bbruises = 0
+
+Variable: spiercings = 0
+  📁 File: x-script.rpy
+  📍 Line: 159
+  🔧 Type: default
+  💬 Full: default spiercings = 0
+
+Variable: mbunknown = 0
+  📁 File: x-script.rpy
+  📍 Line: 160
+  🔧 Type: default
+  💬 Full: default mbunknown = 0
+
+Variable: mnurse_im = 0
+  📁 File: x-script.rpy
+  📍 Line: 161
+  🔧 Type: default
+  💬 Full: default mnurse_im = 0
+
+Variable: mnurseoutfit = 0
+  📁 File: x-script.rpy
+  📍 Line: 162
+  🔧 Type: default
+  💬 Full: default mnurseoutfit = 0
+
+Variable: bpee_dom = 0
+  📁 File: x-script.rpy
+  📍 Line: 163
+  🔧 Type: default
+  💬 Full: default bpee_dom = 0
+
+Variable: addedchoicerepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 164
+  🔧 Type: default
+  💬 Full: default addedchoicerepeat = 0
+
+Variable: sm_rel = 0
+  📁 File: x-script.rpy
+  📍 Line: 165
+  🔧 Type: default
+  💬 Full: default sm_rel = 0
+
+Variable: stewartcalled = 0
+  📁 File: x-script.rpy
+  📍 Line: 166
+  🔧 Type: default
+  💬 Full: default stewartcalled = 0
+
+Variable: mbphoto = 0
+  📁 File: x-script.rpy
+  📍 Line: 167
+  🔧 Type: default
+  💬 Full: default mbphoto = 0
+
+Variable: thong = 0
+  📁 File: x-script.rpy
+  📍 Line: 168
+  🔧 Type: default
+  💬 Full: default thong = 0
+
+Variable: mbikinirequest = 0
+  📁 File: x-script.rpy
+  📍 Line: 169
+  🔧 Type: default
+  💬 Full: default mbikinirequest = 0
+
+Variable: mphotos = 0
+  📁 File: x-script.rpy
+  📍 Line: 170
+  🔧 Type: default
+  💬 Full: default mphotos = 0
+
+Variable: elaineshowsup = 0
+  📁 File: x-script.rpy
+  📍 Line: 171
+  🔧 Type: default
+  💬 Full: default elaineshowsup = 0
+
+Variable: sbesecret = 0
+  📁 File: x-script.rpy
+  📍 Line: 172
+  🔧 Type: default
+  💬 Full: default sbesecret = 0
+
+Variable: sroomride = 0
+  📁 File: x-script.rpy
+  📍 Line: 173
+  🔧 Type: default
+  💬 Full: default sroomride = 0
+
+Variable: beachalone = 0
+  📁 File: x-script.rpy
+  📍 Line: 174
+  🔧 Type: default
+  💬 Full: default beachalone = 0
+
+Variable: dancerepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 175
+  🔧 Type: default
+  💬 Full: default dancerepeat = 0
+
+Variable: spreg = 0
+  📁 File: x-script.rpy
+  📍 Line: 176
+  🔧 Type: default
+  💬 Full: default spreg = 0
+
+Variable: mtoiletsuspicious = 0
+  📁 File: x-script.rpy
+  📍 Line: 177
+  🔧 Type: default
+  💬 Full: default mtoiletsuspicious = 0
+
+Variable: mgready = 0
+  📁 File: x-script.rpy
+  📍 Line: 178
+  🔧 Type: default
+  💬 Full: default mgready = 0
+
+Variable: mvisitnudebeach = 0
+  📁 File: x-script.rpy
+  📍 Line: 179
+  🔧 Type: default
+  💬 Full: default mvisitnudebeach = 0
+
+Variable: sanal = 0
+  📁 File: x-script.rpy
+  📍 Line: 180
+  🔧 Type: default
+  💬 Full: default sanal = 0
+
+Variable: elaineagain = 0
+  📁 File: x-script.rpy
+  📍 Line: 181
+  🔧 Type: default
+  💬 Full: default elaineagain = 0
+
+Variable: melmilin = 0
+  📁 File: x-script.rpy
+  📍 Line: 182
+  🔧 Type: default
+  💬 Full: default melmilin = 0
+
+Variable: mbvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 183
+  🔧 Type: default
+  💬 Full: default mbvisit = 0
+
+Variable: mbtv = 0
+  📁 File: x-script.rpy
+  📍 Line: 184
+  🔧 Type: default
+  💬 Full: default mbtv = 0
+
+Variable: msex = 0
+  📁 File: x-script.rpy
+  📍 Line: 185
+  🔧 Type: default
+  💬 Full: default msex = 0
+
+Variable: melindafiles = 0
+  📁 File: x-script.rpy
+  📍 Line: 186
+  🔧 Type: default
+  💬 Full: default melindafiles = 0
+
+Variable: sflirtwithotherguys = 0
+  📁 File: x-script.rpy
+  📍 Line: 187
+  🔧 Type: default
+  💬 Full: default sflirtwithotherguys = 0
+
+Variable: giftcardrepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 188
+  🔧 Type: default
+  💬 Full: default giftcardrepeat = 0
+
+Variable: spregnantno = 0
+  📁 File: x-script.rpy
+  📍 Line: 189
+  🔧 Type: default
+  💬 Full: default spregnantno = 0
+
+Variable: contactrowena = 0
+  📁 File: x-script.rpy
+  📍 Line: 190
+  🔧 Type: default
+  💬 Full: default contactrowena = 0
+
+Variable: rowenamove = 0
+  📁 File: x-script.rpy
+  📍 Line: 191
+  🔧 Type: default
+  💬 Full: default rowenamove = 0
+
+Variable: strongdrinksforgirlnight = 0
+  📁 File: x-script.rpy
+  📍 Line: 192
+  🔧 Type: default
+  💬 Full: default strongdrinksforgirlnight = 0
+
+Variable: hallcamera = 0
+  📁 File: x-script.rpy
+  📍 Line: 193
+  🔧 Type: default
+  💬 Full: default hallcamera = 0
+
+Variable: gnight = 0
+  📁 File: x-script.rpy
+  📍 Line: 194
+  🔧 Type: default
+  💬 Full: default gnight = 0
+
+Variable: lesbianchannel = 0
+  📁 File: x-script.rpy
+  📍 Line: 195
+  🔧 Type: default
+  💬 Full: default lesbianchannel = 0
+
+Variable: melmeeting = 0
+  📁 File: x-script.rpy
+  📍 Line: 196
+  🔧 Type: default
+  💬 Full: default melmeeting = 0
+
+Variable: menjoyedtheview = 0
+  📁 File: x-script.rpy
+  📍 Line: 197
+  🔧 Type: default
+  💬 Full: default menjoyedtheview = 0
+
+Variable: rowenabffuck = 0
+  📁 File: x-script.rpy
+  📍 Line: 198
+  🔧 Type: default
+  💬 Full: default rowenabffuck = 0
+
+Variable: browenabm = 0
+  📁 File: x-script.rpy
+  📍 Line: 199
+  🔧 Type: default
+  💬 Full: default browenabm = 0
+
+Variable: willmeeting = 0
+  📁 File: x-script.rpy
+  📍 Line: 200
+  🔧 Type: default
+  💬 Full: default willmeeting = 0
+
+Variable: cherylfoundout = 0
+  📁 File: x-script.rpy
+  📍 Line: 201
+  🔧 Type: default
+  💬 Full: default cherylfoundout = 0
+
+Variable: mwvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 202
+  🔧 Type: default
+  💬 Full: default mwvisit = 0
+
+Variable: bphotonaked = 0
+  📁 File: x-script.rpy
+  📍 Line: 203
+  🔧 Type: default
+  💬 Full: default bphotonaked = 0
+
+Variable: hallcamerachecked = 0
+  📁 File: x-script.rpy
+  📍 Line: 204
+  🔧 Type: default
+  💬 Full: default hallcamerachecked = 0
+
+Variable: hallcamcheckm = 0
+  📁 File: x-script.rpy
+  📍 Line: 205
+  🔧 Type: default
+  💬 Full: default hallcamcheckm = 0
+
+Variable: hallcameracheckedm = 0
+  📁 File: x-script.rpy
+  📍 Line: 206
+  🔧 Type: default
+  💬 Full: default hallcameracheckedm = 0
+
+Variable: mcallcheryl = 0
+  📁 File: x-script.rpy
+  📍 Line: 207
+  🔧 Type: default
+  💬 Full: default mcallcheryl = 0
+
+Variable: dphonestolen = 0
+  📁 File: x-script.rpy
+  📍 Line: 208
+  🔧 Type: default
+  💬 Full: default dphonestolen = 0
+
+Variable: cherylevent = 0
+  📁 File: x-script.rpy
+  📍 Line: 209
+  🔧 Type: default
+  💬 Full: default cherylevent = 0
+
+Variable: sbexerrepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 210
+  🔧 Type: default
+  💬 Full: default sbexerrepeat = 0
+
+Variable: jenteaselingerie = 0
+  📁 File: x-script.rpy
+  📍 Line: 211
+  🔧 Type: default
+  💬 Full: default jenteaselingerie = 0
+
+Variable: msuspbs = 0
+  📁 File: x-script.rpy
+  📍 Line: 212
+  🔧 Type: default
+  💬 Full: default msuspbs = 0
+
+Variable: smaid = 0
+  📁 File: x-script.rpy
+  📍 Line: 213
+  🔧 Type: default
+  💬 Full: default smaid = 0
+
+Variable: sgrm = 0
+  📁 File: x-script.rpy
+  📍 Line: 214
+  🔧 Type: default
+  💬 Full: default sgrm = 0
+
+Variable: smalonenight = 0
+  📁 File: x-script.rpy
+  📍 Line: 215
+  🔧 Type: default
+  💬 Full: default smalonenight = 0
+
+Variable: nadiaasksforstrongdrinks = 0
+  📁 File: x-script.rpy
+  📍 Line: 216
+  🔧 Type: default
+  💬 Full: default nadiaasksforstrongdrinks = 0
+
+Variable: mnameboobs = 0
+  📁 File: x-script.rpy
+  📍 Line: 217
+  🔧 Type: default
+  💬 Full: default mnameboobs = 0
+
+Variable: elaineboobs = 0
+  📁 File: x-script.rpy
+  📍 Line: 218
+  🔧 Type: default
+  💬 Full: default elaineboobs = 0
+
+Variable: mboobskiss = 0
+  📁 File: x-script.rpy
+  📍 Line: 219
+  🔧 Type: default
+  💬 Full: default mboobskiss = 0
+
+Variable: snamedrink = 0
+  📁 File: x-script.rpy
+  📍 Line: 220
+  🔧 Type: default
+  💬 Full: default snamedrink = 0
+
+Variable: snamedrinkminus = 0
+  📁 File: x-script.rpy
+  📍 Line: 221
+  🔧 Type: default
+  💬 Full: default snamedrinkminus = 0
+
+Variable: bs_sex = 0
+  📁 File: x-script.rpy
+  📍 Line: 222
+  🔧 Type: default
+  💬 Full: default bs_sex = 0
+
+Variable: mdom = 0
+  📁 File: x-script.rpy
+  📍 Line: 223
+  🔧 Type: default
+  💬 Full: default mdom = 0
+
+Variable: ctempted = 0
+  📁 File: x-script.rpy
+  📍 Line: 224
+  🔧 Type: default
+  💬 Full: default ctempted = 0
+
+Variable: mboobstalk = 0
+  📁 File: x-script.rpy
+  📍 Line: 225
+  🔧 Type: default
+  💬 Full: default mboobstalk = 0
+
+Variable: chbopen = 0
+  📁 File: x-script.rpy
+  📍 Line: 226
+  🔧 Type: default
+  💬 Full: default chbopen = 0
+
+Variable: s_bbruises = 0
+  📁 File: x-script.rpy
+  📍 Line: 227
+  🔧 Type: default
+  💬 Full: default s_bbruises = 0
+
+Variable: mmorningrepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 228
+  🔧 Type: default
+  💬 Full: default mmorningrepeat = 0
+
+Variable: mmirror = 0
+  📁 File: x-script.rpy
+  📍 Line: 229
+  🔧 Type: default
+  💬 Full: default mmirror = 0
+
+Variable: springstring = 0
+  📁 File: x-script.rpy
+  📍 Line: 230
+  🔧 Type: default
+  💬 Full: default springstring = 0
+
+Variable: mphotoediting = 0
+  📁 File: x-script.rpy
+  📍 Line: 231
+  🔧 Type: default
+  💬 Full: default mphotoediting = 0
+
+Variable: mnailpolish = 0
+  📁 File: x-script.rpy
+  📍 Line: 232
+  🔧 Type: default
+  💬 Full: default mnailpolish = 0
+
+Variable: btoldcheryl = 0
+  📁 File: x-script.rpy
+  📍 Line: 233
+  🔧 Type: default
+  💬 Full: default btoldcheryl = 0
+
+Variable: bdtchr = 0
+  📁 File: x-script.rpy
+  📍 Line: 234
+  🔧 Type: default
+  💬 Full: default bdtchr = 0
+
+Variable: cherylvisitstrip = 0
+  📁 File: x-script.rpy
+  📍 Line: 235
+  🔧 Type: default
+  💬 Full: default cherylvisitstrip = 0
+
+Variable: bnamefixcheryl = 0
+  📁 File: x-script.rpy
+  📍 Line: 236
+  🔧 Type: default
+  💬 Full: default bnamefixcheryl = 0
+
+Variable: stalkdone = 0
+  📁 File: x-script.rpy
+  📍 Line: 237
+  🔧 Type: default
+  💬 Full: default stalkdone = 0
+
+Variable: stalkrp = 0
+  📁 File: x-script.rpy
+  📍 Line: 238
+  🔧 Type: default
+  💬 Full: default stalkrp = 0
+
+Variable: bgmt = 0
+  📁 File: x-script.rpy
+  📍 Line: 239
+  🔧 Type: default
+  💬 Full: default bgmt = 0
+
+Variable: elfllowup = 0
+  📁 File: x-script.rpy
+  📍 Line: 240
+  🔧 Type: default
+  💬 Full: default elfllowup = 0
+
+Variable: melsw = 0
+  📁 File: x-script.rpy
+  📍 Line: 241
+  🔧 Type: default
+  💬 Full: default melsw = 0
+
+Variable: mfuckedsober = 0
+  📁 File: x-script.rpy
+  📍 Line: 242
+  🔧 Type: default
+  💬 Full: default mfuckedsober = 0
+
+Variable: valshoes = 0
+  📁 File: x-script.rpy
+  📍 Line: 243
+  🔧 Type: default
+  💬 Full: default valshoes = 0
+
+Variable: dollnightw = 0
+  📁 File: x-script.rpy
+  📍 Line: 244
+  🔧 Type: default
+  💬 Full: default dollnightw = 0
+
+Variable: snupset = 0
+  📁 File: x-script.rpy
+  📍 Line: 245
+  🔧 Type: default
+  💬 Full: default snupset = 0
+
+Variable: stknw = 0
+  📁 File: x-script.rpy
+  📍 Line: 246
+  🔧 Type: default
+  💬 Full: default stknw = 0
+
+Variable: msexwork = 0
+  📁 File: x-script.rpy
+  📍 Line: 247
+  🔧 Type: default
+  💬 Full: default msexwork = 0
+
+Variable: bbm = 0
+  📁 File: x-script.rpy
+  📍 Line: 248
+  🔧 Type: default
+  💬 Full: default bbm = 0
+
+Variable: sgoestost = 0
+  📁 File: x-script.rpy
+  📍 Line: 249
+  🔧 Type: default
+  💬 Full: default sgoestost = 0
+
+Variable: msfkd = 0
+  📁 File: x-script.rpy
+  📍 Line: 250
+  🔧 Type: default
+  💬 Full: default msfkd = 0
+
+Variable: mhate = 0
+  📁 File: x-script.rpy
+  📍 Line: 251
+  🔧 Type: default
+  💬 Full: default mhate = 0
+
+Variable: sundaysex = 0
+  📁 File: x-script.rpy
+  📍 Line: 252
+  🔧 Type: default
+  💬 Full: default sundaysex = 0
+
+Variable: msho = 0
+  📁 File: x-script.rpy
+  📍 Line: 253
+  🔧 Type: default
+  💬 Full: default msho = 0
+
+Variable: neibrep = 0
+  📁 File: x-script.rpy
+  📍 Line: 254
+  🔧 Type: default
+  💬 Full: default neibrep = 0
+
+Variable: jenopen = 0
+  📁 File: x-script.rpy
+  📍 Line: 255
+  🔧 Type: default
+  💬 Full: default jenopen = 0
+
+Variable: bnomn = 0
+  📁 File: x-script.rpy
+  📍 Line: 256
+  🔧 Type: default
+  💬 Full: default bnomn = 0
+
+Variable: callmel = 0
+  📁 File: x-script.rpy
+  📍 Line: 257
+  🔧 Type: default
+  💬 Full: default callmel = 0
+
+Variable: melvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 258
+  🔧 Type: default
+  💬 Full: default melvisit = 0
+
+Variable: wrokmelindrp = 0
+  📁 File: x-script.rpy
+  📍 Line: 259
+  🔧 Type: default
+  💬 Full: default wrokmelindrp = 0
+
+Variable: melwork = 0
+  📁 File: x-script.rpy
+  📍 Line: 260
+  🔧 Type: default
+  💬 Full: default melwork = 0
+
+Variable: sgmtb = 0
+  📁 File: x-script.rpy
+  📍 Line: 261
+  🔧 Type: default
+  💬 Full: default sgmtb = 0
+
+Variable: rosdad = 0
+  📁 File: x-script.rpy
+  📍 Line: 262
+  🔧 Type: default
+  💬 Full: default rosdad = 0
+
+Variable: rorepeat = 0
+  📁 File: x-script.rpy
+  📍 Line: 263
+  🔧 Type: default
+  💬 Full: default rorepeat = 0
+
+Variable: snameworkmelinda = 0
+  📁 File: x-script.rpy
+  📍 Line: 264
+  🔧 Type: default
+  💬 Full: default snameworkmelinda = 0
+
+Variable: sfedup = 0
+  📁 File: x-script.rpy
+  📍 Line: 265
+  🔧 Type: default
+  💬 Full: default sfedup = 0
+
+Variable: mrob = 0
+  📁 File: x-script.rpy
+  📍 Line: 266
+  🔧 Type: default
+  💬 Full: default mrob = 0
+
+Variable: robmvisit = 0
+  📁 File: x-script.rpy
+  📍 Line: 267
+  🔧 Type: default
+  💬 Full: default robmvisit = 0
+
+Variable: mnvylingerie = 0
+  📁 File: x-script.rpy
+  📍 Line: 268
+  🔧 Type: default
+  💬 Full: default mnvylingerie = 0
+
+Variable: edpills = 0
+  📁 File: x-script.rpy
+  📍 Line: 269
+  🔧 Type: default
+  💬 Full: default edpills = 0
+
+Variable: sdildo = 0
+  📁 File: x-script.rpy
+  📍 Line: 270
+  🔧 Type: default
+  💬 Full: default sdildo = 0
+
+Variable: aphropack = 0
+  📁 File: x-script.rpy
+  📍 Line: 271
+  🔧 Type: default
+  💬 Full: default aphropack = 0
+
+Variable: mname = renpy.input("Enter main Female character name")
+  📁 File: x-script.rpy
+  📍 Line: 312
+  🔧 Type: dollar
+  💬 Full: $ mname = renpy.input("Enter main Female character name")
+
+Variable: mname = mname.strip()
+  📁 File: x-script.rpy
+  📍 Line: 313
+  🔧 Type: dollar
+  💬 Full: $ mname = mname.strip()
+
+Variable: mname = "Jenny"
+  📁 File: x-script.rpy
+  📍 Line: 315
+  🔧 Type: dollar
+  💬 Full: $ mname="Jenny"
+
+Variable: bname = renpy.input("Enter main Male character name")
+  📁 File: x-script.rpy
+  📍 Line: 317
+  🔧 Type: dollar
+  💬 Full: $ bname = renpy.input("Enter main Male character name")
+
+Variable: bname = bname.strip()
+  📁 File: x-script.rpy
+  📍 Line: 318
+  🔧 Type: dollar
+  💬 Full: $ bname = bname.strip()
+
+Variable: bname = "Ivan"
+  📁 File: x-script.rpy
+  📍 Line: 320
+  🔧 Type: dollar
+  💬 Full: $ bname="Ivan"
+
+Variable: sname = renpy.input("Enter secondary Female character name")
+  📁 File: x-script.rpy
+  📍 Line: 322
+  🔧 Type: dollar
+  💬 Full: $ sname = renpy.input("Enter secondary Female character name")
+
+Variable: sname = sname.strip()
+  📁 File: x-script.rpy
+  📍 Line: 323
+  🔧 Type: dollar
+  💬 Full: $ sname = sname.strip()
+
+Variable: sname = "Nadia"
+  📁 File: x-script.rpy
+  📍 Line: 325
+  🔧 Type: dollar
+  💬 Full: $ sname="Nadia"
+
+Variable: day = 7
+  📁 File: x-script.rpy
+  📍 Line: 709
+  🔧 Type: dollar
+  💬 Full: $ day = 7
+
+Variable: dayname = _("Sunday")
+  📁 File: x-script.rpy
+  📍 Line: 710
+  🔧 Type: dollar
+  💬 Full: $ dayname = _("Sunday")
+
+Variable: Hour = 9
+  📁 File: x-script.rpy
+  📍 Line: 711
+  🔧 Type: dollar
+  💬 Full: $ Hour = 9
+
+Variable: thong = 1
+  📁 File: x-slaundry.rpy
+  📍 Line: 60
+  🔧 Type: dollar
+  💬 Full: $ thong = 1
+
+Variable: srbm = 1
+  📁 File: x-sname_elainetv.rpy
+  📍 Line: 177
+  🔧 Type: dollar
+  💬 Full: $ srbm = 1
+
+Variable: srbm = 1
+  📁 File: x-sname_elainetv.rpy
+  📍 Line: 211
+  🔧 Type: dollar
+  💬 Full: $ srbm = 1
+
+Variable: hotphotos_done = 1
+  📁 File: x-snameaddedchoice.rpy
+  📍 Line: 14
+  🔧 Type: dollar
+  💬 Full: $ hotphotos_done = 1
+
+Variable: sactiondone_mast = 1
+  📁 File: x-snameaddedchoice.rpy
+  📍 Line: 108
+  🔧 Type: dollar
+  💬 Full: $ sactiondone_mast = 1
+
+Variable: sactiondone_mast = 1
+  📁 File: x-snameaddedchoice.rpy
+  📍 Line: 119
+  🔧 Type: dollar
+  💬 Full: $ sactiondone_mast = 1
+
+Variable: ticketrequested = 5
+  📁 File: x-snamecon_efuck.rpy
+  📍 Line: 2
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 5
+
+Variable: elainefuck = 2
+  📁 File: x-snamecon_efuck.rpy
+  📍 Line: 19
+  🔧 Type: dollar
+  💬 Full: $ elainefuck = 2
+
+Variable: snameworkmelinda = 3
+  📁 File: x-snamedishes.rpy
+  📍 Line: 59
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 3
+
+Variable: msuspbs = 1
+  📁 File: x-snamedishes.rpy
+  📍 Line: 88
+  🔧 Type: dollar
+  💬 Full: $ msuspbs = 1
+
+Variable: sfedup = 1
+  📁 File: x-snamedishes.rpy
+  📍 Line: 536
+  🔧 Type: dollar
+  💬 Full: $ sfedup = 1
+
+Variable: bnomn = 1
+  📁 File: x-snamefuckst.rpy
+  📍 Line: 219
+  🔧 Type: dollar
+  💬 Full: $ bnomn = 1
+
+Variable: bnomn = 1
+  📁 File: x-snamefuckst.rpy
+  📍 Line: 327
+  🔧 Type: dollar
+  💬 Full: $ bnomn = 1
+
+Variable: bnomn = 1
+  📁 File: x-snamefuckst.rpy
+  📍 Line: 442
+  🔧 Type: dollar
+  💬 Full: $ bnomn = 1
+
+Variable: msho = 2
+  📁 File: x-snamestays.rpy
+  📍 Line: 50
+  🔧 Type: dollar
+  💬 Full: $ msho = 2
+
+Variable: msho = 2
+  📁 File: x-snamestays.rpy
+  📍 Line: 239
+  🔧 Type: dollar
+  💬 Full: $ msho = 2
+
+Variable: sflirtwithotherguys = 1
+  📁 File: x-srokiss.rpy
+  📍 Line: 111
+  🔧 Type: dollar
+  💬 Full: $ sflirtwithotherguys = 1
+
+Variable: sgrm = 1
+  📁 File: x-srokiss.rpy
+  📍 Line: 151
+  🔧 Type: dollar
+  💬 Full: $ sgrm = 1
+
+Variable: spregnantno = 1
+  📁 File: x-sroom13.rpy
+  📍 Line: 635
+  🔧 Type: dollar
+  💬 Full: $ spregnantno = 1
+
+Variable: b_fightback = 1
+  📁 File: x-sroom_day_photos.rpy
+  📍 Line: 19
+  🔧 Type: dollar
+  💬 Full: $ b_fightback = 1
+
+Variable: b_fightback = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 53
+  🔧 Type: dollar
+  💬 Full: $ b_fightback = 1
+
+Variable: sscall = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 163
+  🔧 Type: dollar
+  💬 Full: $ sscall = 1
+
+Variable: sroomride = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 474
+  🔧 Type: dollar
+  💬 Full: $ sroomride = 1
+
+Variable: swindowchecked = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 485
+  🔧 Type: dollar
+  💬 Full: $ swindowchecked = 1
+
+Variable: bikini1 = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 848
+  🔧 Type: dollar
+  💬 Full: $ bikini1 = 2
+
+Variable: bikini3 = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 875
+  🔧 Type: dollar
+  💬 Full: $ bikini3 = 2
+
+Variable: bikini2 = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 909
+  🔧 Type: dollar
+  💬 Full: $ bikini2 = 2
+
+Variable: microskirt1 = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 933
+  🔧 Type: dollar
+  💬 Full: $ microskirt1 = 2
+
+Variable: sscall = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1349
+  🔧 Type: dollar
+  💬 Full: $ sscall = 1
+
+Variable: sbm = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1420
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: spiercings = 3
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1458
+  🔧 Type: dollar
+  💬 Full: $ spiercings = 3
+
+Variable: ticketrequested = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1475
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 2
+
+Variable: ticketrequested = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1504
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 2
+
+Variable: sscall = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1514
+  🔧 Type: dollar
+  💬 Full: $ sscall = 1
+
+Variable: sbm = 1
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1585
+  🔧 Type: dollar
+  💬 Full: $ sbm = 1
+
+Variable: ticketrequested = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1617
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 2
+
+Variable: ticketrequested = 2
+  📁 File: x-sroom_menu.rpy
+  📍 Line: 1640
+  🔧 Type: dollar
+  💬 Full: $ ticketrequested = 2
+
+Variable: sgmtb = 1
+  📁 File: x-sroom_morningpiercings.rpy
+  📍 Line: 370
+  🔧 Type: dollar
+  💬 Full: $ sgmtb = 1
+
+Variable: bnamefixcheryl = 5
+  📁 File: x-stalkmelch.rpy
+  📍 Line: 16
+  🔧 Type: dollar
+  💬 Full: $ bnamefixcheryl = 5
+
+Variable: sbesecret = 1
+  📁 File: x-staughtalesson.rpy
+  📍 Line: 271
+  🔧 Type: dollar
+  💬 Full: $ sbesecret = 1
+
+Variable: stewartcalled = 1
+  📁 File: x-stewartcall.rpy
+  📍 Line: 39
+  🔧 Type: dollar
+  💬 Full: $ stewartcalled = 1
+
+Variable: mnightie = 2
+  📁 File: x-sundayrelax.rpy
+  📍 Line: 64
+  🔧 Type: dollar
+  💬 Full: $ mnightie = 2
+
+Variable: toidoorscrew = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 17
+  🔧 Type: dollar
+  💬 Full: $ toidoorscrew = 1
+
+Variable: hidetoiletrowena = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 353
+  🔧 Type: dollar
+  💬 Full: $ hidetoiletrowena = 1
+
+Variable: rowenadp = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 401
+  🔧 Type: dollar
+  💬 Full: $ rowenadp = 1
+
+Variable: hidetoiletrowena = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 424
+  🔧 Type: dollar
+  💬 Full: $ hidetoiletrowena = 1
+
+Variable: cselaine0 = 11
+  📁 File: x-toi_menu.rpy
+  📍 Line: 458
+  🔧 Type: dollar
+  💬 Full: $ cselaine0 = 11
+
+Variable: toidoorscrew = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 483
+  🔧 Type: dollar
+  💬 Full: $ toidoorscrew = 1
+
+Variable: shj = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 656
+  🔧 Type: dollar
+  💬 Full: $ shj = 1
+
+Variable: shj = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 681
+  🔧 Type: dollar
+  💬 Full: $ shj = 1
+
+Variable: shj = 1
+  📁 File: x-toi_menu.rpy
+  📍 Line: 719
+  🔧 Type: dollar
+  💬 Full: $ shj = 1
+
+Variable: bpee_dom = 1
+  📁 File: x-toidoorscewed_morning.rpy
+  📍 Line: 127
+  🔧 Type: dollar
+  💬 Full: $ bpee_dom = 1
+
+Variable: rosdad = 2
+  📁 File: x-vn.rpy
+  📍 Line: 117
+  🔧 Type: dollar
+  💬 Full: $ rosdad = 2
+
+Variable: rosdad = 2
+  📁 File: x-vn.rpy
+  📍 Line: 158
+  🔧 Type: dollar
+  💬 Full: $ rosdad = 2
+
+Variable: mrob = 1
+  📁 File: x-vn.rpy
+  📍 Line: 296
+  🔧 Type: dollar
+  💬 Full: $ mrob = 1
+
+Variable: mfuckedsober = 1
+  📁 File: x-vn.rpy
+  📍 Line: 391
+  🔧 Type: dollar
+  💬 Full: $ mfuckedsober = 1
+
+Variable: bnomn = 1
+  📁 File: x-vn.rpy
+  📍 Line: 620
+  🔧 Type: dollar
+  💬 Full: $ bnomn = 1
+
+Variable: snameworkmelinda = 3
+  📁 File: x-vn.rpy
+  📍 Line: 967
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 3
+
+Variable: snameworkmelinda = 4
+  📁 File: x-vn.rpy
+  📍 Line: 1113
+  🔧 Type: dollar
+  💬 Full: $ snameworkmelinda = 4
+
+Variable: edpills = 1
+  📁 File: x-vn.rpy
+  📍 Line: 1380
+  🔧 Type: dollar
+  💬 Full: $ edpills = 1
+
+Variable: sdildo = 1
+  📁 File: x-vn.rpy
+  📍 Line: 1389
+  🔧 Type: dollar
+  💬 Full: $ sdildo = 1
+
+Variable: aphropack = 1
+  📁 File: x-vn.rpy
+  📍 Line: 1405
+  🔧 Type: dollar
+  💬 Full: $ aphropack = 1
+
+Variable: hallcamera = 1
+  📁 File: x-vn.rpy
+  📍 Line: 1427
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 1
+
+Variable: hallcamera = 1
+  📁 File: x-vn.rpy
+  📍 Line: 1438
+  🔧 Type: dollar
+  💬 Full: $ hallcamera = 1
+
+Variable: aphropack = 2
+  📁 File: x-vn.rpy
+  📍 Line: 1465
+  🔧 Type: dollar
+  💬 Full: $ aphropack = 2
+
+Variable: workrequest = 3
+  📁 File: x-workrequest.rpy
+  📍 Line: 3
+  🔧 Type: dollar
+  💬 Full: $ workrequest = 3
+
+Variable: worktalk = 1
+  📁 File: x-workrequest.rpy
+  📍 Line: 4
+  🔧 Type: dollar
+  💬 Full: $ worktalk = 1
+
+Variable: mhate = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 460
+  🔧 Type: dollar
+  💬 Full: $ mhate = 1
+
+Variable: sgoestost = 3
+  📁 File: x-workvisitday.rpy
+  📍 Line: 492
+  🔧 Type: dollar
+  💬 Full: $ sgoestost = 3
+
+Variable: msfkd = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 550
+  🔧 Type: dollar
+  💬 Full: $ msfkd = 1
+
+Variable: mbunknown = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 636
+  🔧 Type: dollar
+  💬 Full: $ mbunknown = 1
+
+Variable: mbphoto = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 688
+  🔧 Type: dollar
+  💬 Full: $ mbphoto = 1
+
+Variable: cherylvisitstrip = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 726
+  🔧 Type: dollar
+  💬 Full: $ cherylvisitstrip = 1
+
+Variable: mstripseen = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 879
+  🔧 Type: dollar
+  💬 Full: $ mstripseen = 1
+
+Variable: mbunknown = 1
+  📁 File: x-workvisitday.rpy
+  📍 Line: 1023
+  🔧 Type: dollar
+  💬 Full: $ mbunknown = 1
+
+🔀 MENU CHOICES DAN KONSEKUENSI:
+--------------------------------------------------
+📁 File: x-bchmnamenight.rpy
+📍 Menu Line: 66
+  1. "Berbohong" (Line 67)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Ya" (Line 71)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tapi aku sudah memberitahumu segalanya" (Line 99)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melompatinya" (Line 201)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Melanjutkan" (Line 230)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-bdomm.rpy
+📍 Menu Line: 2
+  1. "Berlutut dan hisap ini" (Line 3)
+     Konsekuensi:
+       → $ mdom += 1
+  2. "Mengeluarkan" (Line 76)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-beach_withcoworker.rpy
+📍 Menu Line: 9
+  1. "Pergi berenang dengan [sname]" (Line 10)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tetap di sini" (Line 29)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-beachevent.rpy
+📍 Menu Line: 43
+  1. "Gunakan diri Anda sendiri" (Line 44)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "[mname]" (Line 50)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Bagian atas akan menghalangi" (Line 66)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lakukan kaki" (Line 84)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Lakukan pantatnya" (Line 103)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Melanjutkan" (Line 166)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "[sname]" (Line 185)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Bisakah saya melepaskan bagian atas?" (Line 206)
+     Konsekuensi:
+       → if srel >=50:
+  9. "Melanjutkan" (Line 232)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Menawarkan ke [sname]" (Line 255)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Menawarkan ke [mname]" (Line 261)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-beachevent_elaine.rpy
+📍 Menu Line: 45
+  1. "Gunakan diri Anda sendiri" (Line 46)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "[mname]" (Line 52)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Bagian atas akan menghalangi" (Line 83)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lakukan kaki" (Line 101)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Lakukan pantatnya" (Line 128)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Melanjutkan" (Line 190)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "[sname]" (Line 217)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Bisakah saya melepaskan bagian atas?" (Line 239)
+     Konsekuensi:
+       → if srel >=50:
+  9. "Melanjutkan" (Line 265)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Menawarkan ke [sname]" (Line 307)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Menawarkan ke [mname]" (Line 313)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-beachevent_rowena.rpy
+📍 Menu Line: 47
+  1. "[sname] Tetap" (Line 48)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Bisakah saya melepaskan bagian atas?" (Line 70)
+     Konsekuensi:
+       → if srel >=50:
+  3. "Melanjutkan" (Line 127)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Mereka semua pergi" (Line 145)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-bgroundednight.rpy
+📍 Menu Line: 122
+  1. "[sname] akan bertanya apakah dia bisa tidur di tempat tidur [mname]" (Line 123)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tidak perlu" (Line 133)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "[sname] akan bertanya apakah dia bisa tidur di tempat tidur [mname]" (Line 181)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak perlu" (Line 214)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Bergabunglah dengan mereka" (Line 301)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Meninggalkan" (Line 318)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Tunggu" (Line 323)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Kecuali Anda menghentikan semuanya sekarang dan pergi ke kamar Anda" (Line 388)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Jangan" (Line 414)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "[sname] akan bertanya apakah dia bisa tidur di tempat tidur [mname]" (Line 439)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Tidak perlu" (Line 473)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-bottomsdown.rpy
+📍 Menu Line: 3
+  1. "Tinggalkan dia sendiri" (Line 4)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Turun sepanjang jalan" (Line 10)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Menamparnya" (Line 19)
+     Konsekuensi:
+       → if scorr >= 80 and sdom >=150:
+  4. "Seret dia keluar dari tempat tidur" (Line 92)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-broom_menu.rpy
+📍 Menu Line: 83
+  1. "Persetan dia, aku tidak punya waktu untuknya sekarang" (Line 84)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tidak, saya telah mengubah pikiran" (Line 89)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Ya lanjutkan, saya tidak ingin Elaine menelepon saya sekarang" (Line 91)
+     Konsekuensi:
+       → $ ebizcheck = 6
+  4. "Kenapa tidak, mungkin aku mendapatkan sesuatu dengannya" (Line 95)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Latihan" (Line 161)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Bawa dia ke dinding" (Line 216)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Cobalah untuk mendorong lebih banyak" (Line 243)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Oke, saya akan berhenti tapi ..." (Line 256)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Cari Gadis Telanjang Online" (Line 389)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Melanjutkan" (Line 414)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "{b} buka internet {/b}" (Line 486)
+     Konsekuensi:
+       → call screen inthelp
+  12. "Ambil [sname] dan pergi" (Line 526)
+     Konsekuensi:
+       → jump rowenavisit
+  13. "Pergi sendiri" (Line 528)
+     Konsekuensi:
+       → jump rowenalone
+  14. "kembali" (Line 725)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Bergerak" (Line 820)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Jangan" (Line 882)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Tonton porno" (Line 1044)
+     Konsekuensi:
+       → $ Hour += 1
+  18. "Saya akan memberi tahu Anda saat saya membutuhkan uang" (Line 1181)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "kembali" (Line 1317)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-bs_afterjmassage.rpy
+📍 Menu Line: 390
+  1. "18+ remaja" (Line 391)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Milfs" (Line 416)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tunjukkan padanya" (Line 427)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Menendang dia keluar" (Line 446)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "[sname] Foto" (Line 474)
+     Konsekuensi:
+       → if hotphotos_done ==1:
+  6. "Pergi Katakan padanya" (Line 563)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "[bname] akan mencoba menggunakan penalaran dengannya" (Line 586)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Bagaimana kalau kita menonton sesuatu bersama" (Line 620)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Anal!" (Line 698)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Vagina" (Line 731)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-bworkday.rpy
+📍 Menu Line: 195
+  1. "Saya akan mengambil sepatunya" (Line 196)
+     Konsekuensi:
+       → $ valshoes = 1
+  2. "Saya akan mengambil pakaian dalam" (Line 202)
+     Konsekuensi:
+       → $ dollnightw = 1
+  3. "Periksa file -nya" (Line 722)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jangan mengambil risiko" (Line 730)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Cobalah untuk mengunduh data dari ponselnya" (Line 877)
+     Konsekuensi:
+       → $ dphonestolen = 1
+  6. "Lanjutkan pekerjaan Anda" (Line 882)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Beli" (Line 1003)
+     Konsekuensi:
+       → $ mobilephoneacquired = 1
+  8. "Tidak sekarang" (Line 1013)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Beli" (Line 1042)
+     Konsekuensi:
+       → $ camerasacquired = 1
+  10. "Tidak sekarang" (Line 1051)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Beli" (Line 1094)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tidak sekarang" (Line 1105)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Tidak perlu sekarang" (Line 1167)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Tidak perlu sekarang" (Line 1221)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Saya telah berubah pikiran" (Line 1286)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cherylblunch.rpy
+📍 Menu Line: 25
+  1. "Saya tidak bisa hari ini" (Line 26)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Lepaskan" (Line 40)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Katakan padanya" (Line 62)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jangan" (Line 74)
+     Konsekuensi:
+       → $ chbopen = 1
+  5. "Menerima" (Line 128)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Katakan padanya" (Line 166)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Jangan" (Line 183)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Lakukan itu" (Line 207)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Fokus pada payudara" (Line 217)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Fokus pada keledai" (Line 231)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Meninggalkan" (Line 248)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Menolak" (Line 254)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cherylconfront.rpy
+📍 Menu Line: 68
+  1. "Dia akan mencoba melakukan sesuatu" (Line 69)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "TIDAK" (Line 91)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cherylnight.rpy
+📍 Menu Line: 67
+  1. "Tinggal" (Line 68)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melompatinya" (Line 154)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Melanjutkan" (Line 170)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Pergi tidur" (Line 197)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cherylvisit.rpy
+📍 Menu Line: 23
+  1. "Apakah Anda ingin saya mencoba dan memperbaiki sesuatu?" (Line 24)
+     Konsekuensi:
+       → if mrel >= 300:
+       → jump bchmnamenight
+  2. "Tidak mengatakan apa -apa" (Line 41)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Melompatinya" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 142)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-chprb.rpy
+📍 Menu Line: 61
+  1. "Pergi tidur" (Line 62)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tonton film dan tunggu [sname] muncul" (Line 66)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cinejen.rpy
+📍 Menu Line: 66
+  1. "Terima kasih" (Line 67)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 77)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Ubah saluran" (Line 104)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jangan" (Line 109)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mengintip" (Line 175)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Jangan" (Line 180)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Tunggu [sname]" (Line 315)
+     Konsekuensi:
+       → jump waitings
+  8. "Tonton beberapa porno berharap [sname] akan segera hadir" (Line 317)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Apakah Anda ingin minuman lain?" (Line 386)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Saya perlu melakukan sesuatu sekarang" (Line 394)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Cum di dalam" (Line 421)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Keluar" (Line 429)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Selamat malam" (Line 458)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Tidak perlu" (Line 463)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Melanjutkan" (Line 470)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cinejen.rpy
+📍 Menu Line: 502
+  1. "Aku menyelamatkanmu" (Line 503)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Menyelesaikan" (Line 530)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Selesaikan kasar" (Line 534)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Sedikit" (Line 553)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cinejen.rpy
+📍 Menu Line: 572
+  1. "Aku menyelamatkanmu" (Line 573)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Finish" (Line 600)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Finish rough" (Line 604)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Selamat malam" (Line 623)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cinenadjen.rpy
+📍 Menu Line: 241
+  1. "Ikuti [mname]" (Line 242)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Ikuti [sname]" (Line 244)
+     Konsekuensi:
+       → jump cinenad
+  3. "Apakah Anda ingin pijatan?" (Line 256)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lakukan itu" (Line 284)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Jangan" (Line 315)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Ah maaf, ini kamarmu" (Line 321)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-cinenadjen.rpy
+📍 Menu Line: 355
+  1. "Kurangi suhu" (Line 356)
+     Konsekuensi:
+       → $ persistent.unlock_41 = True
+  2. "Air mani" (Line 394)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Letakkan dia dan cum" (Line 399)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tingkatkan suhu" (Line 417)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-dayadv.rpy
+📍 Menu Line: 3
+  1. "Maju 1 jam" (Line 4)
+     Konsekuensi:
+       → $ Hour +=1
+  2. "Maju 2 jam" (Line 15)
+     Konsekuensi:
+       → $ Hour +=2
+  3. "Maju 3 jam" (Line 27)
+     Konsekuensi:
+       → $ Hour +=3
+  4. "Maju 4 jam" (Line 41)
+     Konsekuensi:
+       → $ Hour +=4
+  5. "Maju sampai akhir hari" (Line 54)
+     Konsekuensi:
+       → $ Hour =21
+  6. "Kembali" (Line 59)
+     Konsekuensi:
+       → jump broom_menu
+
+📁 File: x-elainebusiness.rpy
+📍 Menu Line: 54
+  1. "Cobalah untuk melihat dari pintu" (Line 148)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Duduk dan tunggu dia" (Line 166)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Ceritakan tentang kamera" (Line 178)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak ada" (Line 214)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-elainebusiness.rpy
+📍 Menu Line: 259
+  1. "Cobalah untuk melihat dari pintu" (Line 311)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Duduk dan tunggu dia" (Line 331)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Ceritakan tentang kamera" (Line 343)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak ada" (Line 379)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-elainebusiness.rpy
+📍 Menu Line: 419
+  1. "Cobalah untuk melihat dari pintu" (Line 469)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Duduk dan tunggu dia" (Line 489)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Ceritakan tentang kamera" (Line 502)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak ada" (Line 538)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-elainelunch.rpy
+📍 Menu Line: 89
+  1. "Cat" (Line 90)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Pantat" (Line 99)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Fuck" (Line 111)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-elainesecondcoming.rpy
+📍 Menu Line: 136
+  1. "Elaine akan bertindak" (Line 137)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Saya tidak ingin Elaine bertindak" (Line 148)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-evening_jennyout.rpy
+📍 Menu Line: 122
+  1. "Jilat" (Line 123)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "** persetan **" (Line 149)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-eveningtv_afterwork.rpy
+📍 Menu Line: 52
+  1. "Bisakah saya memilikinya juga?" (Line 53)
+     Konsekuensi:
+       → if day !=7:
+  2. "Tonton TV" (Line 71)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tawarkan gosok" (Line 134)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Apakah Anda ingin saya menggunakan krim kaki?" (Line 158)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mengintip" (Line 184)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Perbaiki hal -hal dan shoo dia pergi" (Line 206)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Berlari" (Line 219)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Hapus celana Anda" (Line 233)
+     Konsekuensi:
+       → if scorr >= 30:
+       → jump s_watching_m
+  9. "Jangan" (Line 258)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Tunjukkan padanya" (Line 266)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Menendang dia keluar" (Line 284)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Jangan" (Line 296)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Lakukan sesuatu, Anda benar -benar mabuk?" (Line 310)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "TIDAK" (Line 316)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Mengintip" (Line 337)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Jangan" (Line 352)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Tidak mengatakan apa -apa" (Line 372)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-eveningtv_elaine.rpy
+📍 Menu Line: 49
+  1. "[bname] akan mencoba menjual [mname] (NTR)" (Line 50)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Menerima" (Line 119)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Bayar dia" (Line 130)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "[bname] akan diam" (Line 226)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Tetap bersama mereka" (Line 286)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tinggalkan mereka sendiri" (Line 288)
+     Konsekuensi:
+       → jump sname_elainetv
+  7. "Pergi ke Elaine" (Line 466)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Mengizinkan" (Line 583)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Makan dia" (Line 587)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-girlsnight.rpy
+📍 Menu Line: 761
+  1. "pergi sekarang" (Line 762)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tunggu beberapa waktu" (Line 764)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "[sname]" (Line 883)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Anal" (Line 893)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Persetan dengan dia" (Line 906)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Cum masuk" (Line 920)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Cum keluar" (Line 928)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "[mname]" (Line 937)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Ambil kepalanya dan lakukan" (Line 969)
+     Konsekuensi:
+       → if mrel >=350:
+       → jump mdeep
+  10. "Pergi dengan apa yang dia inginkan" (Line 983)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Elaine" (Line 1043)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Doggy" (Line 1053)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Cum masuk" (Line 1061)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Keluar" (Line 1068)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Di lantai" (Line 1077)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "[mname]" (Line 1114)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "[sname]" (Line 1146)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Cukup, saya ingin melihat Anda berdua" (Line 1156)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "Melanjutkan" (Line 1168)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-hall_menu1.rpy
+📍 Menu Line: 65
+  1. "Bersihkan di belakangnya" (Line 66)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Saya sudah selesai" (Line 76)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Mari kita hubungi Elaine" (Line 214)
+     Konsekuensi:
+       → if mrel >=300:
+       → jump elainelunch
+  4. "Melanjutkan" (Line 223)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Bersikaplah lembut" (Line 273)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Di mulutnya" (Line 304)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Melanjutkan" (Line 315)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "[sname] akan memasukkan pil ke dalam jusnya" (Line 356)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "[sname] akan memasukkan pil ke dalam jusnya" (Line 415)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Dia tidak akan melakukannya" (Line 434)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Cium dia" (Line 530)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Sampai jumpa lain waktu" (Line 578)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Apa yang sedang kamu lakukan?" (Line 655)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Cum di dalam" (Line 710)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Cum di luar" (Line 715)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Duduklah di sebelahnya" (Line 747)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Meninggalkan" (Line 848)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Bisakah kita...?" (Line 870)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "Terima kasih sekarang" (Line 882)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Sampai jumpa lagi" (Line 887)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Tetap bersamanya" (Line 929)
+     Konsekuensi:
+       → $ cselaine0 = 8
+  22. "Abaikan dan tinggalkan" (Line 964)
+     → Tidak ada konsekuensi variable ditemukan
+  23. "Jadi, sampai ketika situasi ini akan berlanjut?" (Line 1017)
+     → Tidak ada konsekuensi variable ditemukan
+  24. "Pernahkah Anda memperhatikan sesuatu?" (Line 1102)
+     → Tidak ada konsekuensi variable ditemukan
+  25. "Eavesdrop" (Line 1355)
+     Konsekuensi:
+       → $ robel = 2
+  26. "Meninggalkan" (Line 1384)
+     → Tidak ada konsekuensi variable ditemukan
+  27. "Tentu ... tapi ... bisakah saya meminta imbalan sesuatu?" (Line 1456)
+     → Tidak ada konsekuensi variable ditemukan
+  28. "Tidak ada yang saya ubah pikiran" (Line 1460)
+     → Tidak ada konsekuensi variable ditemukan
+  29. "Mungkin saya harus mengambil beberapa foto?" (Line 1495)
+     Konsekuensi:
+       → $ mbikinirequest = 1
+  30. "Apakah ukuran yang tepat?" (Line 1498)
+     → Tidak ada konsekuensi variable ditemukan
+  31. "Mungkin saya harus mengambil beberapa foto?" (Line 1559)
+     Konsekuensi:
+       → $ mbikinirequest = 1
+  32. "Apakah ukuran yang tepat?" (Line 1562)
+     → Tidak ada konsekuensi variable ditemukan
+  33. "Tentu" (Line 1608)
+     → Tidak ada konsekuensi variable ditemukan
+  34. "Ya" (Line 1619)
+     Konsekuensi:
+       → $ msconvince = 0
+  35. "Tidak, tetap sama" (Line 1623)
+     → Tidak ada konsekuensi variable ditemukan
+  36. "Mencuri ciuman" (Line 1640)
+     → Tidak ada konsekuensi variable ditemukan
+  37. "Melanjutkan" (Line 1647)
+     → Tidak ada konsekuensi variable ditemukan
+  38. "Bicaralah dengan [sname]*" (Line 1893)
+     Konsekuensi:
+       → if badgrds ==0 and workrequest ==3:
+       → $ badgrds = 1
+  39. "Bagaimana studi Anda?*" (Line 1895)
+     → Tidak ada konsekuensi variable ditemukan
+  40. "Ada pembaruan tentang halaman Anda?*" (Line 1916)
+     → Tidak ada konsekuensi variable ditemukan
+  41. "Menutupinya" (Line 1952)
+     → Tidak ada konsekuensi variable ditemukan
+  42. "Katakan yang sebenarnya" (Line 1963)
+     → Tidak ada konsekuensi variable ditemukan
+  43. "Bicaralah dengan [mname]*" (Line 1985)
+     → Tidak ada konsekuensi variable ditemukan
+  44. "Apakah Ayah meneleponmu?" (Line 1991)
+     → Tidak ada konsekuensi variable ditemukan
+  45. "Berbohong" (Line 1996)
+     Konsekuensi:
+       → $ staway += 1
+  46. "Katakan yang sebenarnya" (Line 2001)
+     → Tidak ada konsekuensi variable ditemukan
+  47. "Belum dia meneleponmu?" (Line 2007)
+     → Tidak ada konsekuensi variable ditemukan
+  48. "Apakah Stewart menelepon Anda?" (Line 2055)
+     → Tidak ada konsekuensi variable ditemukan
+  49. "Berbohong" (Line 2060)
+     Konsekuensi:
+       → $ mrel += 5
+  50. "Katakan yang sebenarnya" (Line 2065)
+     → Tidak ada konsekuensi variable ditemukan
+  51. "Belum dia meneleponmu?" (Line 2071)
+     → Tidak ada konsekuensi variable ditemukan
+  52. "Tanyakan apakah [sname] membutuhkan bantuan" (Line 2221)
+     → Tidak ada konsekuensi variable ditemukan
+  53. "Ikuti [mname]" (Line 2229)
+     → Tidak ada konsekuensi variable ditemukan
+  54. "Tanyakan apakah [sname] membutuhkan bantuan" (Line 2352)
+     → Tidak ada konsekuensi variable ditemukan
+  55. "Ikuti [mname]" (Line 2365)
+     → Tidak ada konsekuensi variable ditemukan
+  56. "Ambil tempat sampah" (Line 2407)
+     → Tidak ada konsekuensi variable ditemukan
+  57. "Terima kasih" (Line 2423)
+     → Tidak ada konsekuensi variable ditemukan
+  58. "Peluknya" (Line 2431)
+     → Tidak ada konsekuensi variable ditemukan
+  59. "Meninggalkan" (Line 2496)
+     → Tidak ada konsekuensi variable ditemukan
+  60. "Tidak ada" (Line 2504)
+     → Tidak ada konsekuensi variable ditemukan
+  61. "Kencing" (Line 2513)
+     → Tidak ada konsekuensi variable ditemukan
+  62. "Tanyakan apakah [sname] membutuhkan bantuan" (Line 2559)
+     → Tidak ada konsekuensi variable ditemukan
+  63. "Ikuti [mname]" (Line 2567)
+     → Tidak ada konsekuensi variable ditemukan
+  64. "Ambil tempat sampah" (Line 2607)
+     → Tidak ada konsekuensi variable ditemukan
+  65. "Terima kasih" (Line 2623)
+     → Tidak ada konsekuensi variable ditemukan
+  66. "Peluknya" (Line 2631)
+     → Tidak ada konsekuensi variable ditemukan
+  67. "Terus mencari" (Line 2669)
+     → Tidak ada konsekuensi variable ditemukan
+  68. "Berbelok" (Line 2673)
+     → Tidak ada konsekuensi variable ditemukan
+  69. "Meninggalkan" (Line 2718)
+     → Tidak ada konsekuensi variable ditemukan
+  70. "Tidak ada" (Line 2726)
+     → Tidak ada konsekuensi variable ditemukan
+  71. "Kencing" (Line 2735)
+     → Tidak ada konsekuensi variable ditemukan
+  72. "Tanyakan apakah [sname] membutuhkan bantuan" (Line 2781)
+     → Tidak ada konsekuensi variable ditemukan
+  73. "Ikuti [mname]" (Line 2794)
+     → Tidak ada konsekuensi variable ditemukan
+  74. "Tontonlah" (Line 2911)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-hallrelax.rpy
+📍 Menu Line: 163
+  1. "Berbohong" (Line 164)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mungkin Anda bisa membantu saya?" (Line 185)
+     Konsekuensi:
+       → $ skiss_asked = 1
+  3. "Tidak mengatakan apa -apa" (Line 203)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Katakan yang sebenarnya" (Line 210)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Minta untuk membantu Anda mencium" (Line 237)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Ambil kepalanya" (Line 313)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Saya ingin lebih" (Line 327)
+     Konsekuensi:
+       → if sbm ==1:
+  8. "Melanjutkan" (Line 487)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Beri dia ponselnya" (Line 498)
+     Konsekuensi:
+       → $ smobilegiven = 1
+  10. "Jangan lakukan itu" (Line 548)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Ciuman" (Line 605)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Saya ingin Anda menyiapkan makan siang telanjang" (Line 662)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Tidak mengatakan apa -apa" (Line 686)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-jenmorning.rpy
+📍 Menu Line: 33
+  1. "Akan bekerja?" (Line 34)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tunggu, aku akan melakukannya, tapi apa yang ada di dalamnya untukku?" (Line 109)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tunggu aku akan membantumu" (Line 111)
+     Konsekuensi:
+       → jump slaundry
+  4. "Tunggu, aku akan melakukannya, tapi apa yang ada di dalamnya untukku?" (Line 148)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Tunggu aku akan membantumu" (Line 150)
+     Konsekuensi:
+       → jump slaundry
+  6. "Apa yang ada" (Line 162)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-jenpractice.rpy
+📍 Menu Line: 115
+  1. "[sname] akan tikus pada [bname]" (Line 116)
+     Konsekuensi:
+       → $ sgrm += 1
+  2. "Tidak perlu" (Line 136)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Lakukan sesuatu" (Line 351)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Sentuh dia di sana" (Line 459)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Biarkan sampai dia lebih mabuk" (Line 472)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Melanjutkan" (Line 476)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Lakukan itu" (Line 492)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Lakukan itu" (Line 510)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Lanjutkan menidurinya" (Line 521)
+     Konsekuensi:
+       → if mrel>=550:
+  10. "Berhenti" (Line 534)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Meninggalkan" (Line 541)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tinggal" (Line 544)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Jangan" (Line 558)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Jangan" (Line 570)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Sembunyikan pangkal paha Anda dengan bantal" (Line 603)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Lakukan itu" (Line 620)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Lanjutkan menonton tanpa masturbasi **" (Line 704)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Jangan" (Line 730)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "Melanjutkan" (Line 792)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Melanjutkan" (Line 802)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Melanjutkan" (Line 811)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-jenpracticextend.rpy
+📍 Menu Line: 7
+  1. "Mengapa Anda tidak memberi saya pertunjukan dansa baru" (Line 8)
+     Konsekuensi:
+       → if persistent.unlock_19 == True and mrel>= 400:
+  2. "Saya pikir Anda harus melepasnya" (Line 76)
+     Konsekuensi:
+       → if mrel >=450:
+  3. "Lakukan itu" (Line 104)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lakukan itu" (Line 121)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Meninggalkan" (Line 137)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tinggal" (Line 140)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Jangan" (Line 154)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Lakukan itu" (Line 181)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Lakukan itu" (Line 198)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Meninggalkan" (Line 213)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Tinggal" (Line 216)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Jangan" (Line 230)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Melanjutkan" (Line 238)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-lunch_hall.rpy
+📍 Menu Line: 295
+  1. "Kedudukan" (Line 296)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Kedudukan" (Line 406)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Bantu dia dengan hidangan" (Line 500)
+     Konsekuensi:
+       → if srel >=30:
+  4. "Biarkan dia pergi" (Line 524)
+     Konsekuensi:
+       → if srel >=200:
+  5. "Bisakah saya merasakannya?" (Line 553)
+     Konsekuensi:
+       → $ smaid += 1
+  6. "Mari kita ambil beberapa foto" (Line 575)
+     Konsekuensi:
+       → if smaid >= 3:
+  7. "Persetan dia" (Line 588)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Bermain dengannya" (Line 604)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Cangkir payudaranya" (Line 645)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Melanjutkan" (Line 670)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Melanjutkan" (Line 684)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tidak perlu" (Line 706)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Apa yang saya dapatkan sebagai balasannya?" (Line 721)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Apakah Anda ingin melakukan pemotretan?" (Line 801)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Tentu saja saya" (Line 810)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Ciuman" (Line 871)
+     Konsekuensi:
+       → if srel >=200:
+  17. "Lihatlah" (Line 893)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Cangkir" (Line 897)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "Jangan" (Line 928)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Hal pervy" (Line 930)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Tidak perlu" (Line 1015)
+     → Tidak ada konsekuensi variable ditemukan
+  22. "Bantu dia" (Line 1026)
+     → Tidak ada konsekuensi variable ditemukan
+  23. "Apa yang salah?" (Line 1059)
+     → Tidak ada konsekuensi variable ditemukan
+  24. "Bicaralah dengan [mname]" (Line 1065)
+     → Tidak ada konsekuensi variable ditemukan
+  25. "Beri tahu saya jika Anda membutuhkan bantuan" (Line 1072)
+     → Tidak ada konsekuensi variable ditemukan
+  26. "Bagus" (Line 1075)
+     → Tidak ada konsekuensi variable ditemukan
+  27. "Benar" (Line 1087)
+     → Tidak ada konsekuensi variable ditemukan
+  28. "Kiri" (Line 1094)
+     → Tidak ada konsekuensi variable ditemukan
+  29. "Apakah Anda membutuhkan bantuan dengan hidangan?" (Line 1142)
+     → Tidak ada konsekuensi variable ditemukan
+  30. "Bisakah aku ikut denganmu?" (Line 1157)
+     → Tidak ada konsekuensi variable ditemukan
+  31. "Melanjutkan" (Line 1161)
+     → Tidak ada konsekuensi variable ditemukan
+  32. "Pergi ke jendela" (Line 1172)
+     → Tidak ada konsekuensi variable ditemukan
+  33. "Pergi menemuinya" (Line 1210)
+     Konsekuensi:
+       → jump neighb
+  34. "Tidak perlu" (Line 1212)
+     Konsekuensi:
+       → call screen gnav
+  35. "Meninggalkan" (Line 1214)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-map_menu.rpy
+📍 Menu Line: 9
+  1. "Pergi bekerja untuk Daniel" (Line 10)
+     Konsekuensi:
+       → $ bworked = 1
+  2. "Pergi beritahu Elaine dia bisa datang besok" (Line 193)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Beli Tiket untuk Pertunjukan Besok" (Line 242)
+     Konsekuensi:
+       → if workrequest ==3:
+       → $ mny -= 25
+       → $ cselaine0 = 9
+  4. "Tunggu hari lain" (Line 277)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Beli Tiket untuk Pertunjukan Besok" (Line 283)
+     Konsekuensi:
+       → if workrequest ==3:
+       → $ mny -= 25
+       → $ cselaine0 = 9
+  6. "Tunggu hari lain" (Line 320)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Tidak perlu sekarang" (Line 323)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mbtvnight.rpy
+📍 Menu Line: 4
+  1. "Pergi lihat [sname]" (Line 5)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mari kita mainkan kebenaran atau berani" (Line 18)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Pergi tidur" (Line 114)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Menyelinap di [mname] dan Adam" (Line 118)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Menyelinap di [mname] dan Adam" (Line 181)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mbun_extended.rpy
+📍 Menu Line: 3
+  1. "Lebih banyak anggur" (Line 4)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Minuman keras" (Line 7)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Lakukan itu" (Line 31)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lakukan itu" (Line 49)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Jangan" (Line 65)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mburn_nightevent.rpy
+📍 Menu Line: 20
+  1. "Bisakah saya memilikinya juga?" (Line 21)
+     Konsekuensi:
+       → if day ==7:
+       → $ drinkforbname = 1
+  2. "Jangan tanya" (Line 31)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Sebutkan sengatan matahari" (Line 69)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Saya pikir lebih baik melonggarkan ini" (Line 94)
+     Konsekuensi:
+       → if drinkforbname ==1:
+       → if elaine_convince ==4 and mrel >=150:
+  5. "Semakin dekat" (Line 130)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Pindahkan celana dalam" (Line 134)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "18+ remaja" (Line 150)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Hapus celana Anda" (Line 153)
+     Konsekuensi:
+       → if scorr >= 30:
+       → jump s_watching
+  9. "Melanjutkan" (Line 178)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Tunjukkan padanya" (Line 188)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Menendang dia keluar" (Line 206)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Jangan" (Line 218)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Lanjutkan dan gosok satu" (Line 222)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Tidak mengatakan apa -apa" (Line 274)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Semakin dekat" (Line 303)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Pindahkan celana dalam" (Line 309)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "18+ remaja" (Line 323)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Hapus celana Anda" (Line 326)
+     Konsekuensi:
+       → if scorr >= 30:
+       → jump s_watching
+  19. "Melanjutkan" (Line 351)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Tunjukkan padanya" (Line 361)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Menendang dia keluar" (Line 379)
+     → Tidak ada konsekuensi variable ditemukan
+  22. "Jangan" (Line 391)
+     → Tidak ada konsekuensi variable ditemukan
+  23. "Lanjutkan dan gosok satu" (Line 395)
+     → Tidak ada konsekuensi variable ditemukan
+  24. "18+ remaja" (Line 409)
+     → Tidak ada konsekuensi variable ditemukan
+  25. "Tunjukkan padanya" (Line 418)
+     → Tidak ada konsekuensi variable ditemukan
+  26. "Menendang dia keluar" (Line 436)
+     → Tidak ada konsekuensi variable ditemukan
+  27. "Milfs" (Line 448)
+     → Tidak ada konsekuensi variable ditemukan
+  28. "Tunjukkan padanya" (Line 458)
+     → Tidak ada konsekuensi variable ditemukan
+  29. "Menendang dia keluar" (Line 477)
+     → Tidak ada konsekuensi variable ditemukan
+  30. "Tidak mengatakan apa -apa" (Line 507)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mdeep.rpy
+📍 Menu Line: 127
+  1. "Melanjutkan" (Line 158)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-meetelaineforhelp.rpy
+📍 Menu Line: 69
+  1. "Tinggal" (Line 70)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Meninggalkan" (Line 91)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-melindaphotos.rpy
+📍 Menu Line: 26
+  1. "Pergi Katakan padanya" (Line 27)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "[bname] akan mencoba menggunakan penalaran dengannya" (Line 50)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Bagaimana kalau kita menonton sesuatu bersama" (Line 84)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Anal!" (Line 162)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Vagina" (Line 192)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-melvisitr.rpy
+📍 Menu Line: 50
+  1. "Anda" (Line 51)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cheryl" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-melwork.rpy
+📍 Menu Line: 135
+  1. "Saya perlu menyiapkannya" (Line 136)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Oke" (Line 142)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tidak, tonton saja TV" (Line 217)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Ya [sname] akan memilih film" (Line 241)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Siapkan secangkir teh untuknya" (Line 371)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Ajari dia pelajaran" (Line 395)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Berhenti" (Line 414)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Lanjutkan romantis" (Line 422)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mnightphotos.rpy
+📍 Menu Line: 16
+  1. "Apakah Anda ingin mengambil lebih banyak lagi?" (Line 17)
+     Konsekuensi:
+       → if mrel >=100:
+  2. "Campurkan brendi yang kuat dalam birnya" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dapatkan bir saja" (Line 76)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Terus berdiri" (Line 146)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Doggy" (Line 148)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tarik rambutnya" (Line 171)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Jangan" (Line 177)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Melanjutkan" (Line 233)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mnightphotosalt.rpy
+📍 Menu Line: 16
+  1. "Apakah Anda ingin mengambil lebih banyak lagi?" (Line 17)
+     Konsekuensi:
+       → if mrel >=100:
+  2. "Campurkan brendi yang kuat dalam birnya" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dapatkan bir saja" (Line 76)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 196)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mnightshow.rpy
+📍 Menu Line: 52
+  1. "Semakin dekat" (Line 53)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Lihatlah" (Line 59)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Katakan padanya untuk tidak khawatir" (Line 117)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 135)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mobileinstapage.rpy
+📍 Menu Line: 24
+  1. "Cobalah keberuntungan Anda" (Line 25)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Jangan" (Line 32)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-morning_hall.rpy
+📍 Menu Line: 100
+  1. "Meninggalkan" (Line 125)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cium dia" (Line 132)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Lakukan itu" (Line 145)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak mengatakan apa -apa" (Line 192)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Jangan" (Line 206)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Lakukan beberapa gerakan juggling dengan botol" (Line 259)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Letakkan di atas meja" (Line 271)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Lakukan beberapa gerakan juggling dengan botol" (Line 292)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Letakkan di atas meja" (Line 301)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Cobalah bergerak" (Line 330)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Jangan" (Line 359)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Santai" (Line 419)
+     Konsekuensi:
+       → $ Hour += 1
+  13. "Panggil [sname]" (Line 441)
+     Konsekuensi:
+       → jump beachevent
+  14. "Jangan" (Line 443)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Mengapa tidak?" (Line 502)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Tidak mengatakan apa -apa" (Line 555)
+     Konsekuensi:
+       → jump beachevent
+  17. "Tidak mengatakan apa -apa" (Line 615)
+     Konsekuensi:
+       → jump beachevent
+  18. "Diam" (Line 646)
+     → Tidak ada konsekuensi variable ditemukan
+  19. "Mengapa tidak?" (Line 684)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Diam" (Line 769)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Mengapa tidak?" (Line 808)
+     → Tidak ada konsekuensi variable ditemukan
+  22. "Diam" (Line 893)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mquickmalt.rpy
+📍 Menu Line: 9
+  1. "Biarkan saya melakukan kaki Anda?" (Line 30)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 87)
+     Konsekuensi:
+       → if mrel >=200 and mcorr >=25:
+
+📁 File: x-mquickmalt.rpy
+📍 Menu Line: 161
+  1. "Biarkan saya melakukan kaki Anda?" (Line 182)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 239)
+     Konsekuensi:
+       → if mrel >=200 and mcorr >=25:
+  3. "Biarkan saya melakukan kaki Anda?" (Line 294)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 375)
+     Konsekuensi:
+       → if mrel >=200 and mcorr >=25:
+
+📁 File: x-mquickmassage.rpy
+📍 Menu Line: 15
+  1. "Di tempat tidur" (Line 16)
+     Konsekuensi:
+       → $ mrel -= 1
+  2. "Dimanapun itu nyaman untuk Anda" (Line 23)
+     Konsekuensi:
+       → $ mrel += 1
+  3. "Melanjutkan" (Line 92)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Duduklah padanya" (Line 100)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Lakukan dari samping" (Line 111)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mquickmassage.rpy
+📍 Menu Line: 134
+  1. "Lakukan lehernya" (Line 135)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Lanjutkan di bagian belakang" (Line 186)
+     Konsekuensi:
+       → if day ==2:
+       → jump mquickmalt
+  3. "Apakah Anda ingin saya melakukan kaki Anda?" (Line 257)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Apakah Anda yakin Anda baik -baik saja?" (Line 280)
+     Konsekuensi:
+       → if mrel >=200 and mcorr >=25:
+  5. "Apakah Anda ingin saya melakukan kaki Anda?" (Line 340)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Apakah Anda yakin Anda baik -baik saja?" (Line 363)
+     Konsekuensi:
+       → if mrel >=200 and mcorr >=25:
+  7. "Pergi" (Line 416)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mroom_menu.rpy
+📍 Menu Line: 56
+  1. "Memasuki" (Line 57)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Ketukan" (Line 73)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Memasuki" (Line 167)
+     Konsekuensi:
+       → if mrpmt <= 1:
+       → $ mrpmt += 1
+  4. "Periksa dari jendela" (Line 210)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Pergi menemuinya" (Line 229)
+     Konsekuensi:
+       → jump neighb
+  6. "Tidak perlu" (Line 231)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Dia menang" (Line 333)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Pergi menemuinya" (Line 356)
+     Konsekuensi:
+       → jump neighb
+  9. "Tidak perlu" (Line 358)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Meninggalkan" (Line 364)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Ketukan" (Line 375)
+     Konsekuensi:
+       → if mrpmt <= 1:
+  12. "Saya tidak enak badan" (Line 451)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Saya kira tidak demikian" (Line 475)
+     Konsekuensi:
+       → if elaine_convince == 4:
+       → jump mroom_practice_b
+  14. "Tidak mengatakan apa -apa" (Line 480)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Kamu tidak apa apa?" (Line 490)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Mengintip" (Line 508)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Beri dia pelukan" (Line 518)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mroom_practice.rpy
+📍 Menu Line: 98
+  1. "Tidak terlalu bagus, tapi saya memastikan dia mengalami kemajuan" (Line 99)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Dia baik, tapi aku merawatnya" (Line 106)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tidak terlalu bagus, tapi saya memastikan dia mengalami kemajuan" (Line 136)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Dia baik, tapi aku merawatnya" (Line 143)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mroom_practice.rpy
+📍 Menu Line: 171
+  1. "Mengintip" (Line 172)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Jangan" (Line 178)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Mengintip" (Line 235)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jangan" (Line 241)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mengintip" (Line 283)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Jangan" (Line 289)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mroom_practice.rpy
+📍 Menu Line: 372
+  1. "Terlihat bagus" (Line 373)
+     Konsekuensi:
+       → $ mrel += 2
+  2. "Bisakah Anda berbalik, biarkan saya melihatnya dari belakang" (Line 378)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mroomdiscuss.rpy
+📍 Menu Line: 21
+  1. "Saya tidak enak badan" (Line 22)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Aku tidak menangis" (Line 41)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Saya tidak bisa menahannya" (Line 43)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Wow seksi!" (Line 79)
+     Konsekuensi:
+       → $ mrel -= 1
+  5. "Cantik" (Line 86)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Mengintip" (Line 114)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Melanjutkan" (Line 118)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Terus mengintip" (Line 120)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Jangan" (Line 132)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Kamu tidak apa apa?" (Line 163)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Mengintip" (Line 183)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Beri dia pelukan" (Line 199)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Mengintip" (Line 284)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Melanjutkan" (Line 288)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Terus mengintip" (Line 290)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Jangan" (Line 302)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-mtoi_practice.rpy
+📍 Menu Line: 8
+  1. "Jangan tahu, saya tidak bisa melihat dengan jelas" (Line 9)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tidak Memangnya kenapa?" (Line 12)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-ncabana.rpy
+📍 Menu Line: 154
+  1. "Ikuti dia" (Line 155)
+     Konsekuensi:
+       → jump rowenaalonecabana
+  2. "Tetap di sini" (Line 157)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-ncabana.rpy
+📍 Menu Line: 251
+  1. "Dia akan pergi bercinta pacar Rowena untuk mendapatkan genap" (Line 252)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Dia akan menamparnya" (Line 282)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Air mani" (Line 299)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Cum di mulutnya" (Line 311)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-neighb.rpy
+📍 Menu Line: 86
+  1. "Ambil masha untuk bertemu [sname]" (Line 87)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Meninggalkan" (Line 119)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-new_work_jenmorning.rpy
+📍 Menu Line: 39
+  1. "Pergi mencari dia" (Line 40)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Beri dia bra yang salah" (Line 56)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Beri bra yang tepat" (Line 62)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak perlu" (Line 77)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Pergi mencari dia" (Line 91)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Beri dia bra yang salah" (Line 107)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Beri bra yang tepat" (Line 114)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Tidak perlu" (Line 135)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Akan bekerja?" (Line 156)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-newdays.rpy
+📍 Menu Line: 48
+  1. "Beberapa cinta, tidak ada rasa sakit" (Line 49)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Nyeri itu baik" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-newwork_return.rpy
+📍 Menu Line: 21
+  1. "Tonton TV" (Line 22)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Pergi melihat Rowena" (Line 123)
+     Konsekuensi:
+       → if sgoestost >= 2:
+  3. "Tidak perlu" (Line 342)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Ya" (Line 345)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mereka berdua menginginkan [mname]" (Line 395)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Pria kulit hitam itu menginginkan [mname]" (Line 427)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Pria di tempat tidur menginginkan [mname]" (Line 446)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Biarkan dia melanjutkan blowjob" (Line 471)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Persetan dia" (Line 486)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Ya [sname] akan memilih film" (Line 508)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Tentu saja" (Line 615)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Baik itu tergantung pada apa yang Anda lakukan (tidak ada NTR)" (Line 620)
+     Konsekuensi:
+       → $ bnomn = 1
+  13. "Cium dia" (Line 1026)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Jangan" (Line 1032)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Ya itu" (Line 1147)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Aku tidak tahu" (Line 1156)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Apakah Anda ingin saya memberikan pijatan?" (Line 1283)
+     Konsekuensi:
+       → if mrel >=90:
+       → jump mquickmassage
+  18. "Apakah Anda ingin pergi ke bioskop?" (Line 1297)
+     Konsekuensi:
+       → if mrel >=250:
+  19. "Bawa dia bersamamu" (Line 1312)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Kirim dia ke Rowena" (Line 1319)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Melanjutkan" (Line 1333)
+     → Tidak ada konsekuensi variable ditemukan
+  22. "Melanjutkan" (Line 1355)
+     → Tidak ada konsekuensi variable ditemukan
+  23. "Apakah Anda ingin saya memberikan pijatan?" (Line 1396)
+     Konsekuensi:
+       → if mrel >=90:
+       → jump mquickmassage
+  24. "Melanjutkan" (Line 1410)
+     → Tidak ada konsekuensi variable ditemukan
+  25. "Apakah Anda ingin saya memberikan pijatan?" (Line 1455)
+     Konsekuensi:
+       → if mrel >=90:
+       → jump mquickmassage
+
+📁 File: x-noaccess.rpy
+📍 Menu Line: 14
+  1. "Ketukan" (Line 15)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-nudebeach_jenelaine.rpy
+📍 Menu Line: 62
+  1. "Cobalah keberuntungan Anda" (Line 63)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "cium dia" (Line 68)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Biarkan dia mengurusnya" (Line 77)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 116)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "[mname]" (Line 192)
+     Konsekuensi:
+       → $ mnameboobs = 1
+  6. "Milikmu" (Line 198)
+     Konsekuensi:
+       → $ elaineboobs = 1
+  7. "Masturbasi" (Line 349)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "cium dia" (Line 500)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Biarkan dia mengurusnya" (Line 509)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Hidup dia" (Line 548)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Berpura -pura tertidur" (Line 644)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tidak melakukan apa -apa" (Line 724)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-nudebeach_jenelainereturn.rpy
+📍 Menu Line: 56
+  1. "Tapi mereka besar" (Line 57)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cium mereka" (Line 89)
+     Konsekuensi:
+       → $ mboobskiss += 1
+  3. "Cium dia" (Line 109)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Berbalik dan peluknya" (Line 117)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Tidak melakukan apa -apa" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Ok maaf" (Line 142)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-nudebeach_rowena.rpy
+📍 Menu Line: 82
+  1. "Saya maafkan saya akan mengerjakannya" (Line 83)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mengapa Anda melihat pertama kali" (Line 89)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Apakah Anda Virgin?" (Line 134)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Apakah Anda pernah menipu pacar Anda" (Line 141)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Rowena untuk menciummu" (Line 157)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Seks oral" (Line 218)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Sialan" (Line 247)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Ingatkan Rowena tentang lipstik" (Line 309)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Tidak mengatakan apa -apa" (Line 323)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-onlineshop.rpy
+📍 Menu Line: 4
+  1. "Tidak perlu membeli apapun saat ini" (Line 5)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tidak ada uang sekarang" (Line 21)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tidak ada uang sekarang" (Line 37)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Tidak ada uang sekarang" (Line 53)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Tidak ada uang sekarang" (Line 71)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tidak ada uang sekarang" (Line 87)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Tidak ada uang sekarang" (Line 103)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Tidak ada uang sekarang" (Line 118)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Tidak ada uang sekarang" (Line 135)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Tidak ada uang sekarang" (Line 150)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Tidak ada uang sekarang" (Line 165)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tidak ada uang sekarang" (Line 183)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-pagecheckphotoprogress.rpy
+📍 Menu Line: 10
+  1. "Tarik tali" (Line 28)
+     Konsekuensi:
+       → $ sphotos_progress = 2
+  2. "Melanjutkan" (Line 34)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tarik tali" (Line 49)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Melanjutkan" (Line 83)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-pdinnerm_relax.rpy
+📍 Menu Line: 10
+  1. "Tentu ... tapi ... bisakah saya meminta imbalan sesuatu?" (Line 11)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tidak ada yang saya ubah pikiran" (Line 15)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tentu" (Line 40)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Ya" (Line 51)
+     Konsekuensi:
+       → $ msconvince = 0
+  5. "Tidak, tetap sama" (Line 55)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-poolhardon.rpy
+📍 Menu Line: 75
+  1. "Pulang" (Line 76)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cobalah untuk menyelesaikannya di toilet" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-poolhardon.rpy
+📍 Menu Line: 238
+  1. "Pulang" (Line 239)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cobalah untuk menyelesaikannya di toilet" (Line 241)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rbffight.rpy
+📍 Menu Line: 8
+  1. "Melawan*" (Line 9)
+     Konsekuensi:
+       → scene rcall4 with hpunch
+  2. "Lebih baik jika Anda menelepon [mname]*" (Line 25)
+     Konsekuensi:
+       → jump bruisesjen
+  3. "Oke" (Line 27)
+     Konsekuensi:
+       → jump bruisesnad
+  4. "Jangan" (Line 29)
+     Konsekuensi:
+       → scene rcall8 with hpunch
+  5. "Berhenti menatap" (Line 55)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Berhenti menatap atau aku akan bercerita [sname] tentang lipstik*" (Line 66)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rbffightrp.rpy
+📍 Menu Line: 9
+  1. "Melawan*" (Line 10)
+     Konsekuensi:
+       → scene rcall4 with hpunch
+  2. "Lebih baik jika Anda menelepon [mname]*" (Line 26)
+     Konsekuensi:
+       → jump bruisesjen
+  3. "Oke" (Line 28)
+     Konsekuensi:
+       → jump bruisesnad
+  4. "Jangan" (Line 30)
+     Konsekuensi:
+       → scene rcall8 with hpunch
+  5. "Berhenti menatap" (Line 56)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Berhenti menatap atau aku akan bercerita [sname] tentang lipstik*" (Line 67)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-realinstaphotos.rpy
+📍 Menu Line: 38
+  1. "Saya tidak tahu, memikirkan sesuatu*" (Line 39)
+     Konsekuensi:
+       → if srel >=350:
+  2. "Di pantat" (Line 73)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Di vagina" (Line 91)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Lagi?" (Line 200)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mari kita ambil sesuatu di kursi" (Line 204)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Beri aku lebih banyak" (Line 250)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Lepaskan dia" (Line 273)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Membuka pakaian diri dan melanjutkan" (Line 299)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Itu cukup" (Line 338)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Beri dia ponsel" (Line 555)
+     Konsekuensi:
+       → jump mobileinstapage
+  11. "Tidak sekarang" (Line 557)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Beri dia ponsel" (Line 636)
+     Konsekuensi:
+       → jump mobileinstapage
+  13. "Tidak sekarang" (Line 638)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rmvisit.rpy
+📍 Menu Line: 12
+  1. "Lakukan itu" (Line 13)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Jangan" (Line 15)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Lanjutkan menjilati (tunduk)" (Line 30)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Berhenti menjilati" (Line 38)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-romom.rpy
+📍 Menu Line: 64
+  1. "Persetan keduanya" (Line 65)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Fuck [sname]" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Fuck Rowena" (Line 95)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Persetan keduanya" (Line 136)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Fuck [sname]" (Line 149)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Fuck Rowena" (Line 167)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-romom.rpy
+📍 Menu Line: 468
+  1. "Persetan keduanya" (Line 469)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Fuck [sname]" (Line 482)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Fuck Rowena" (Line 499)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Fuck [sname]" (Line 540)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Fuck Rowena" (Line 556)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-romomvisit.rpy
+📍 Menu Line: 78
+  1. "Persetan keduanya" (Line 79)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Fuck [sname]" (Line 92)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Fuck Rowena" (Line 109)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rowenalone.rpy
+📍 Menu Line: 71
+  1. "Jangan" (Line 95)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Berlututnya" (Line 143)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rowenaorgy.rpy
+📍 Menu Line: 77
+  1. "Tidak, ini gila" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Ya tentu" (Line 85)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rowenatoilet.rpy
+📍 Menu Line: 33
+  1. "Air mani" (Line 34)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 44)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rowenavisit.rpy
+📍 Menu Line: 283
+  1. "Meyakinkannya untuk pergi" (Line 284)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Dia akan ikut denganmu" (Line 294)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dia menang" (Line 297)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 305)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Lakukan itu" (Line 355)
+     Konsekuensi:
+       → $ stalkb_rowena = 3
+  6. "Berpura -pura malu" (Line 377)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-rowenavisit.rpy
+📍 Menu Line: 492
+  1. "Meyakinkannya untuk pergi" (Line 493)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Dia akan ikut denganmu" (Line 503)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dia menang" (Line 506)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Mari kita tinggal di sini" (Line 514)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Biarkan berenang" (Line 535)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Berlari" (Line 578)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Melanjutkan" (Line 584)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Mari kita melakukan hal yang sama" (Line 677)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-s_hot_lunch.rpy
+📍 Menu Line: 59
+  1. "Cobalah keberuntungan Anda" (Line 60)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 69)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-saction_study.rpy
+📍 Menu Line: 106
+  1. "Lepaskan semuanya" (Line 107)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Berpose berpakaian" (Line 119)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-saction_study.rpy
+📍 Menu Line: 197
+  1. "Mengapa Anda tidak menghapus celana dalam?" (Line 198)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Menghidupkan" (Line 203)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Banyak hal yang bisa terjadi saat saya sendirian dengan foto -foto seperti itu" (Line 252)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Katakan padanya" (Line 260)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Jangan memberitahunya" (Line 276)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Maksud saya, saya ingin menikmati kecantikan saat saya mengerjakan foto Anda" (Line 291)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sblowjob.rpy
+📍 Menu Line: 13
+  1. "Melanjutkan" (Line 14)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tutup saja" (Line 18)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Mengambil alih" (Line 25)
+     Konsekuensi:
+       → if sdom >=40:
+  4. "Pegang kudamu" (Line 112)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Itu baik -baik saja" (Line 153)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Mari kita coba sesuatu yang lain" (Line 160)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sboobjob.rpy
+📍 Menu Line: 254
+  1. "Cum di [sname]" (Line 255)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Berhenti" (Line 264)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Menamparnya dengan itu" (Line 318)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Melanjutkan" (Line 333)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sbtlc.rpy
+📍 Menu Line: 17
+  1. "Seks oral" (Line 18)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mengendarai" (Line 42)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sburn_study.rpy
+📍 Menu Line: 6
+  1. "Menawarkan untuk membantu" (Line 7)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Tinggalkan dia sendiri" (Line 22)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Saya memiliki atasan Anda di sini datang dan mendapatkannya" (Line 87)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jika Anda mau, saya juga bisa menerapkan lotion dari depan" (Line 90)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-script.rpy
+📍 Menu Line: 286
+  1. "Saya berumur 18 tahun atau lebih" (Line 287)
+     Konsekuensi:
+       → jump agecheck
+  2. "Saya di bawah 18 tahun" (Line 290)
+     Konsekuensi:
+       → jump agecheck1
+
+📁 File: x-script.rpy
+📍 Menu Line: 301
+  1. "(c) 2022 SerialNumberComics, semua hak dilindungi undang -undang" (Line 302)
+     Konsekuensi:
+       → return
+
+📁 File: x-script.rpy
+📍 Menu Line: 517
+  1. "Berbohong" (Line 518)
+     Konsekuensi:
+       → $ staway += 1
+  2. "Katakan yang sebenarnya" (Line 523)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sdrinkreward.rpy
+📍 Menu Line: 55
+  1. "Kedudukan" (Line 56)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Semua merangkak" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-slunchplus.rpy
+📍 Menu Line: 111
+  1. "Duduk" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sname_elainetv.rpy
+📍 Menu Line: 8
+  1. "Boleh saya lihat?" (Line 9)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Apakah Anda ingin mengambil beberapa foto?" (Line 18)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Meninggalkan" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Berikan dia 00" (Line 84)
+     Konsekuensi:
+       → if mny>=100:
+       → $ mny -= 100
+  5. "Lakukan sesuatu yang gila" (Line 101)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Pergi tidur" (Line 124)
+     Konsekuensi:
+       → jump newdays
+  7. "Kembali ke sana" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Seks oral" (Line 154)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Seks" (Line 182)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Melanjutkan" (Line 229)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snameaddedchoice.rpy
+📍 Menu Line: 25
+  1. "Mengapa Anda tidak menghapus celana dalam?" (Line 26)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Menghidupkan" (Line 31)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Banyak hal yang bisa terjadi saat saya sendirian dengan foto -foto seperti itu" (Line 77)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Katakan padanya" (Line 85)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Jangan katakan padanya*" (Line 100)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Maksud saya, saya ingin menikmati kecantikan saat saya mengerjakan foto Anda" (Line 115)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snamecon_efuck.rpy
+📍 Menu Line: 15
+  1. "Saatnya menelepon Elaine" (Line 16)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Pergi tidur" (Line 73)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snamedishes.rpy
+📍 Menu Line: 6
+  1. "Menerima" (Line 7)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mustahil" (Line 573)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snamefuckst.rpy
+📍 Menu Line: 73
+  1. "Mereka berdua menginginkan [mname]" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Pria kulit hitam itu menginginkan [mname]" (Line 106)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Pria di tempat tidur menginginkan [mname]" (Line 125)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Dia akan mengizinkannya" (Line 161)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "TIDAK" (Line 174)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tentu saja" (Line 212)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Baik itu tergantung pada apa yang Anda lakukan (tidak ada NTR)" (Line 217)
+     Konsekuensi:
+       → $ bnomn = 1
+  8. "Dia akan menciumnya" (Line 263)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Tentu saja" (Line 320)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Baik itu tergantung pada apa yang Anda lakukan (tidak ada NTR)" (Line 325)
+     Konsekuensi:
+       → $ bnomn = 1
+  11. "Dia akan membiarkan dia melakukan apa yang dia inginkan" (Line 368)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Tentu saja" (Line 435)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Baik itu tergantung pada apa yang Anda lakukan (tidak ada NTR)" (Line 440)
+     Konsekuensi:
+       → $ bnomn = 1
+
+📁 File: x-snamefuckst.rpy
+📍 Menu Line: 556
+  1. "Dia akan mengizinkannya" (Line 557)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "TIDAK" (Line 570)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dia akan menciumnya" (Line 580)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Dia akan membiarkan dia melakukan apa yang dia inginkan" (Line 605)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snamestays.rpy
+📍 Menu Line: 166
+  1. "Dia akan mengizinkannya" (Line 167)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "TIDAK" (Line 227)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-snamestays.rpy
+📍 Menu Line: 289
+  1. "Dia akan mengizinkannya" (Line 290)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "TIDAK" (Line 299)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Dia akan menciumnya" (Line 309)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Dia akan membiarkan dia melakukan apa yang dia inginkan" (Line 334)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sneibeach.rpy
+📍 Menu Line: 77
+  1. "Jangan dengarkan dia, lanjutkan" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Berhenti" (Line 88)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-socialhelp.rpy
+📍 Menu Line: 2
+  1. "[mname]" (Line 3)
+     Konsekuensi:
+       → call screen m_help
+  2. "[sname]" (Line 8)
+     Konsekuensi:
+       → call screen s_help
+
+📁 File: x-sposing.rpy
+📍 Menu Line: 11
+  1. "Duduk" (Line 29)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-srokiss.rpy
+📍 Menu Line: 128
+  1. "Tertawa" (Line 129)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Lakukan itu" (Line 139)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Meninggalkan" (Line 159)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Mengontrol" (Line 177)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Ajari dia pelajaran" (Line 197)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Melanjutkan" (Line 207)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sroom13.rpy
+📍 Menu Line: 584
+  1. "Lakukan itu" (Line 585)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Keluarkan" (Line 625)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Jangan" (Line 627)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Ram dia" (Line 649)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Tinggalkan dia sendiri" (Line 684)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Tidak kali ini" (Line 691)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sroom13.rpy
+📍 Menu Line: 753
+  1. "Pergi menemuinya" (Line 754)
+     Konsekuensi:
+       → jump neighb
+  2. "Tidak perlu" (Line 756)
+     Konsekuensi:
+       → call screen gnav
+
+📁 File: x-sroom13tease.rpy
+📍 Menu Line: 16
+  1. "Melanjutkan" (Line 36)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sroom_day_photos.rpy
+📍 Menu Line: 9
+  1. "Tetap seperti Anda" (Line 10)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Beri dia uang" (Line 47)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Saya tidak punya uang" (Line 64)
+     Konsekuensi:
+       → $ go_counter += 2
+  4. "Beri dia uang" (Line 78)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Saya tidak punya uang" (Line 95)
+     Konsekuensi:
+       → $ go_counter += 2
+  6. "Mengapa Anda tidak menghapus bikini?" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sroom_menu.rpy
+📍 Menu Line: 14
+  1. "Ketukan" (Line 15)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Beri dia uang" (Line 80)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Lakukan apapun yang Anda inginkan" (Line 93)
+     Konsekuensi:
+       → $ go_counter += 2
+  4. "Beri dia uang" (Line 105)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Saya tidak punya uang" (Line 118)
+     Konsekuensi:
+       → $ go_counter += 2
+  6. "Memasuki" (Line 160)
+     Konsekuensi:
+       → if laptoprequested == 1 and sscall ==0:
+       → if laptoprequested == 1 and sscall ==0:
+       → $ sscall = 1
+       → $ sscall = 1
+       → scene sroom_scall5 with fade
+  7. "Saya akan pergi dengan satu kondisi*" (Line 266)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Tarik" (Line 284)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Tidak melakukan apa -apa" (Line 301)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Tertawa" (Line 354)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Menggodanya" (Line 363)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Menggelitik kakinya" (Line 371)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Melanjutkan" (Line 391)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Tarik pantatnya ke bawah*" (Line 395)
+     Konsekuensi:
+       → if pullsb_repeat >2 and sblowjobdone ==1:
+       → if pullsb_repeat >=5 and naivetalk == 0 and day ==7:
+  15. "Meninggalkan" (Line 458)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Periksa jendela" (Line 484)
+     Konsekuensi:
+       → $ swindowchecked = 1
+  17. "Pergi menemuinya" (Line 565)
+     Konsekuensi:
+       → jump neighb
+  18. "Tidak perlu" (Line 567)
+     Konsekuensi:
+       → call screen gnav
+  19. "Pergi menemuinya" (Line 585)
+     Konsekuensi:
+       → jump neighb
+  20. "Tidak perlu" (Line 587)
+     Konsekuensi:
+       → call screen gnav
+  21. "Pergi menemuinya" (Line 602)
+     Konsekuensi:
+       → jump neighb
+  22. "Tidak perlu" (Line 604)
+     Konsekuensi:
+       → call screen gnav
+  23. "Ketukan" (Line 614)
+     → Tidak ada konsekuensi variable ditemukan
+  24. "Hanya kamu" (Line 635)
+     Konsekuensi:
+       → $ srel += 5
+  25. "Tidak ada" (Line 641)
+     → Tidak ada konsekuensi variable ditemukan
+  26. "Saya tidak menginginkannya" (Line 650)
+     → Tidak ada konsekuensi variable ditemukan
+  27. "Saya menyukainya" (Line 679)
+     → Tidak ada konsekuensi variable ditemukan
+  28. "Saya tidak suka" (Line 711)
+     → Tidak ada konsekuensi variable ditemukan
+  29. "Melanjutkan" (Line 730)
+     → Tidak ada konsekuensi variable ditemukan
+  30. "Menawarkan bantuan" (Line 739)
+     → Tidak ada konsekuensi variable ditemukan
+  31. "Dengan satu kondisi" (Line 746)
+     Konsekuensi:
+       → jump study_event
+  32. "Tentu saja" (Line 748)
+     → Tidak ada konsekuensi variable ditemukan
+  33. "Tinggalkan dia sendiri" (Line 767)
+     → Tidak ada konsekuensi variable ditemukan
+  34. "Menggelitiknya" (Line 771)
+     → Tidak ada konsekuensi variable ditemukan
+  35. "{s} peluk {/s}" (Line 788)
+     → Tidak ada konsekuensi variable ditemukan
+  36. "Meninggalkan" (Line 791)
+     → Tidak ada konsekuensi variable ditemukan
+  37. "Mungkin rok?" (Line 817)
+     → Tidak ada konsekuensi variable ditemukan
+  38. "{s} Minta dia melakukan sesuatu yang sugestif {/s}" (Line 1147)
+     → Tidak ada konsekuensi variable ditemukan
+  39. "Lagi?" (Line 1153)
+     Konsekuensi:
+       → if srel >=25 and srel <=35:
+  40. "Mari kita coba sesuatu yang baru" (Line 1201)
+     Konsekuensi:
+       → if srel >=50:
+       → jump realinstaphotos
+  41. "Minta dia untuk melakukan sesuatu yang sugestif" (Line 1236)
+     → Tidak ada konsekuensi variable ditemukan
+  42. "Lagi?" (Line 1265)
+     Konsekuensi:
+       → if srel >=25 and srel <=35:
+  43. "Memasuki" (Line 1315)
+     Konsekuensi:
+       → if sburnt ==1:
+       → jump sburn_study_enter
+  44. "Ketukan" (Line 1344)
+     → Tidak ada konsekuensi variable ditemukan
+  45. "Oke" (Line 1440)
+     → Tidak ada konsekuensi variable ditemukan
+  46. "Oke" (Line 1493)
+     → Tidak ada konsekuensi variable ditemukan
+  47. "Memasuki" (Line 1511)
+     Konsekuensi:
+       → if laptoprequested == 1 and sscall ==0:
+       → if laptoprequested == 1 and sscall ==0:
+       → $ sscall = 1
+       → $ sscall = 1
+       → scene sroom_scall with fade
+  48. "Oke" (Line 1606)
+     → Tidak ada konsekuensi variable ditemukan
+  49. "Oke" (Line 1629)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sroom_morningpiercings.rpy
+📍 Menu Line: 228
+  1. "Mengangkatnya" (Line 377)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cium dia" (Line 441)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Mengeluarkan" (Line 478)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Jangan" (Line 480)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-stalkmelch.rpy
+📍 Menu Line: 73
+  1. "Mengancamnya" (Line 74)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Mainkan Nada Belas Kasihan" (Line 83)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-staughtalesson.rpy
+📍 Menu Line: 292
+  1. "Menyelesaikan" (Line 293)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Di mulutnya" (Line 302)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Di payudaranya" (Line 306)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Berpura -pura Anda tidak mendengarnya" (Line 321)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Cium dia" (Line 328)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-study_event.rpy
+📍 Menu Line: 29
+  1. "Tidak ada kesepakatan" (Line 30)
+     Konsekuensi:
+       → if sdom >=25:
+  2. "Tidak buruk, datang duduk, mari kita mulai" (Line 98)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Tunggu biarkan saya melihat" (Line 107)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Ya percayalah" (Line 124)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Oke" (Line 142)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sundayrelax.rpy
+📍 Menu Line: 40
+  1. "Melihat lebih dekat" (Line 41)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "OKE" (Line 56)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "[mname] akan membersihkan dapur **" (Line 150)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "[mname] akan mengikutinya ke toilet" (Line 152)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mencuri ciuman" (Line 205)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Sentuh payudara" (Line 217)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Jangan" (Line 222)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Jangan" (Line 232)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Berbelok" (Line 250)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Jangan giliran" (Line 424)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Melanjutkan" (Line 445)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Selesai dan Pergi" (Line 467)
+     → Tidak ada konsekuensi variable ditemukan
+  13. "Lihat pantatnya" (Line 470)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-sundayrelax.rpy
+📍 Menu Line: 765
+  1. "Anda" (Line 766)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-toi_menu.rpy
+📍 Menu Line: 26
+  1. "Memasuki" (Line 27)
+     Konsekuensi:
+       → jump toidoorscewed_morning
+  2. "Tunggu" (Line 29)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Gunakan toilet" (Line 57)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Mendekati" (Line 81)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Mari kita lupakan semuanya" (Line 117)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Jangan" (Line 132)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Kunci pintu dan gunakan toilet" (Line 150)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Berbelok" (Line 179)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Kembali" (Line 197)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Tampak hebat" (Line 224)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Bagus tapi ... lebih baik tanpanya" (Line 233)
+     → Tidak ada konsekuensi variable ditemukan
+  12. "Meninggalkan" (Line 264)
+     Konsekuensi:
+       → call screen gnav
+  13. "Tidak apa-apa" (Line 267)
+     → Tidak ada konsekuensi variable ditemukan
+  14. "Ya itu bagus" (Line 298)
+     → Tidak ada konsekuensi variable ditemukan
+  15. "Mungkin Anda harus bertanya [sname]" (Line 310)
+     → Tidak ada konsekuensi variable ditemukan
+  16. "Sembunyikan dan Tunggu Rowena" (Line 372)
+     → Tidak ada konsekuensi variable ditemukan
+  17. "Mengosongkan tangki" (Line 405)
+     → Tidak ada konsekuensi variable ditemukan
+  18. "Mandi dengan pintu tidak terkunci" (Line 568)
+     Konsekuensi:
+       → $ Hour += 1
+  19. "Saya menang" (Line 589)
+     → Tidak ada konsekuensi variable ditemukan
+  20. "Dengan baik..." (Line 601)
+     → Tidak ada konsekuensi variable ditemukan
+  21. "Ke atas" (Line 609)
+     → Tidak ada konsekuensi variable ditemukan
+  22. "Turun" (Line 615)
+     → Tidak ada konsekuensi variable ditemukan
+  23. "Terima kasih" (Line 633)
+     Konsekuensi:
+       → $ srel += 1
+  24. "Bisakah kamu..." (Line 637)
+     → Tidak ada konsekuensi variable ditemukan
+  25. "Mandi" (Line 750)
+     → Tidak ada konsekuensi variable ditemukan
+  26. "Saya minta maaf tetapi saya benar -benar perlu menggunakan toilet" (Line 790)
+     Konsekuensi:
+       → if mrel >=5 and mrel <=20:
+  27. "Meninggalkan" (Line 845)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-toidoorscewed.rpy
+📍 Menu Line: 50
+  1. "Beri aku ciuman" (Line 51)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Cium dia" (Line 58)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Cium dia dan biarkan tangan Anda melakukan pekerjaan" (Line 79)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Selesai di dalam" (Line 126)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Cukup" (Line 145)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Ambil fotonya dengan ponsel Anda" (Line 152)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "Beri aku ciuman" (Line 170)
+     → Tidak ada konsekuensi variable ditemukan
+  8. "Cium dia" (Line 177)
+     → Tidak ada konsekuensi variable ditemukan
+  9. "Cium dia dan biarkan tangan Anda melakukan pekerjaan" (Line 185)
+     → Tidak ada konsekuensi variable ditemukan
+  10. "Ambil fotonya dengan ponsel Anda" (Line 197)
+     → Tidak ada konsekuensi variable ditemukan
+  11. "Meninggalkan" (Line 209)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-toidoorscewed_morning.rpy
+📍 Menu Line: 117
+  1. "Selesaikan dia" (Line 134)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Melanjutkan" (Line 184)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Melanjutkan" (Line 199)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-vn.rpy
+📍 Menu Line: 8
+  1. "Pergi mencari dia" (Line 9)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Beri dia bra yang salah" (Line 25)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Beri bra yang tepat" (Line 31)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-vn.rpy
+📍 Menu Line: 612
+  1. "Tentu saja (NTR)" (Line 613)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Baik itu tergantung pada apa yang Anda lakukan (tidak ada NTR)" (Line 618)
+     Konsekuensi:
+       → $ bnomn = 1
+  3. "Dengan pantatmu" (Line 810)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Dengan mulutmu" (Line 819)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "Menyelesaikan" (Line 827)
+     → Tidak ada konsekuensi variable ditemukan
+  6. "Menghancurkannya" (Line 833)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-vn.rpy
+📍 Menu Line: 874
+  1. "Beri dia bra yang salah" (Line 875)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Beri bra yang tepat" (Line 881)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-vn.rpy
+📍 Menu Line: 1010
+  1. "Handjob" (Line 1011)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Biarkan  duduk" (Line 1028)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-workvisitday.rpy
+📍 Menu Line: 376
+  1. "Saya ingin melihat Anda dengan gadis lain" (Line 377)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Elaine" (Line 382)
+     → Tidak ada konsekuensi variable ditemukan
+  3. "Saya ingin bertiga dengan Anda dan gadis lain" (Line 406)
+     → Tidak ada konsekuensi variable ditemukan
+  4. "Untuk memilikimu" (Line 409)
+     → Tidak ada konsekuensi variable ditemukan
+  5. "[sname] memutuskan untuk tinggal" (Line 494)
+     Konsekuensi:
+       → jump snamestays
+  6. "[sname] Daun" (Line 496)
+     → Tidak ada konsekuensi variable ditemukan
+  7. "[sname] memutuskan untuk tinggal" (Line 505)
+     Konsekuensi:
+       → jump snamestays
+  8. "[sname] Daun" (Line 507)
+     → Tidak ada konsekuensi variable ditemukan
+
+📁 File: x-workvisitday.rpy
+📍 Menu Line: 681
+  1. "Ambil foto" (Line 682)
+     → Tidak ada konsekuensi variable ditemukan
+  2. "Jangan" (Line 696)
+     → Tidak ada konsekuensi variable ditemukan
+
+📊 RINGKASAN:
+--------------------------------------------------
+Total Variables: 751
+Money Variables: 2
+Relationship Variables: 11
+Menu Choices: 132
