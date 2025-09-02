@@ -7,23 +7,27 @@ init python:
     # Mod Configuration
     mod_author = Character("ModAuthor", color="#FFD700")
     
-    # Initialize persistent variables if they don't exist
-    if not hasattr(persistent, 'srel'):
-        persistent.srel = 0
-    if not hasattr(persistent, 'mrel'):
-        persistent.mrel = 0
-    if not hasattr(persistent, 'erel'):
-        persistent.erel = 0
-    if not hasattr(persistent, 'melrel'):
-        persistent.melrel = 0
-    if not hasattr(persistent, 'scorr'):
-        persistent.scorr = 0
-    if not hasattr(persistent, 'mcorr'):
-        persistent.mcorr = 0
-    if not hasattr(persistent, 'mny'):
-        persistent.mny = 0
-    if not hasattr(persistent, 'gallery_unlocked'):
-        persistent.gallery_unlocked = False
+    # Initialize persistent variables dengan nilai default yang benar
+    def init_persistent_vars():
+        if not hasattr(persistent, 'srel') or persistent.srel is None:
+            persistent.srel = 0
+        if not hasattr(persistent, 'mrel') or persistent.mrel is None:
+            persistent.mrel = 0
+        if not hasattr(persistent, 'erel') or persistent.erel is None:
+            persistent.erel = 0
+        if not hasattr(persistent, 'melrel') or persistent.melrel is None:
+            persistent.melrel = 0
+        if not hasattr(persistent, 'scorr') or persistent.scorr is None:
+            persistent.scorr = 0
+        if not hasattr(persistent, 'mcorr') or persistent.mcorr is None:
+            persistent.mcorr = 0
+        if not hasattr(persistent, 'mny') or persistent.mny is None:
+            persistent.mny = 0
+        if not hasattr(persistent, 'gallery_unlocked') or persistent.gallery_unlocked is None:
+            persistent.gallery_unlocked = False
+    
+    # Panggil fungsi inisialisasi
+    init_persistent_vars()
     
     # Gallery unlock function
     def unlock_all_gallery():
@@ -74,21 +78,6 @@ init python:
         persistent.gallery_unlocked = False
         renpy.notify("Gallery Locked!")
 
-# Custom bar value class untuk persistent data
-init python:
-    class PersistentValue(object):
-        def __init__(self, attr_name, max_value=100):
-            self.attr_name = attr_name
-            self.max_value = max_value
-        
-        def get_value(self):
-            return getattr(persistent, self.attr_name, 0)
-        
-        def set_value(self, value):
-            setattr(persistent, self.attr_name, max(0, min(self.max_value, value)))
-        
-        value = property(get_value, set_value)
-
 # Main Enhanced Mod Screen - FIXED
 screen enhanced_joker_mod():
     tag menu
@@ -96,6 +85,9 @@ screen enhanced_joker_mod():
     
     # Initialize screen variable
     default current_tab = "relationship"
+    
+    # Pastikan variabel persistent terinisialisasi
+    on "show" action Function(init_persistent_vars)
     
     # Modern dark background with gradient
     add "#2a2a2a"
@@ -178,16 +170,16 @@ screen relationship_tab():
         # Section title
         text "{size=28}{color=#00ff00}RELATIONSHIP{/color}{/size}" xalign 0.5
         
-        # Sister relationship
+        # Sister relationship - FIXED: Gunakan default value jika None
         hbox:
             spacing 10
             xalign 0.5
             
             text "{size=20}{color=#ffff00}Sister:{/color}{/size}" xsize 120
             
-            # Relationship bar - FIXED: Menggunakan nilai langsung
+            # Relationship bar
             bar:
-                value persistent.srel
+                value (persistent.srel if persistent.srel is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
@@ -195,7 +187,7 @@ screen relationship_tab():
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
             # +10 button
-            textbutton "+10" action SetField(persistent, "srel", min(100, persistent.srel + 10)):
+            textbutton "+10" action [SetField(persistent, "srel", min(100, (persistent.srel if persistent.srel is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
@@ -203,7 +195,7 @@ screen relationship_tab():
                 padding (12, 4)
             
             # Value display
-            text "{size=20}{color=#00ff00}[persistent.srel]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.srel if persistent.srel is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
         
         # Mother relationship
         hbox:
@@ -213,21 +205,21 @@ screen relationship_tab():
             text "{size=20}{color=#ffff00}Mother:{/color}{/size}" xsize 120
             
             bar:
-                value persistent.mrel
+                value (persistent.mrel if persistent.mrel is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
                 left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
-            textbutton "+10" action SetField(persistent, "mrel", min(100, persistent.mrel + 10)):
+            textbutton "+10" action [SetField(persistent, "mrel", min(100, (persistent.mrel if persistent.mrel is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}[persistent.mrel]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.mrel if persistent.mrel is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
         
         # Elaine relationship
         hbox:
@@ -237,21 +229,21 @@ screen relationship_tab():
             text "{size=20}{color=#ffff00}Elaine:{/color}{/size}" xsize 120
             
             bar:
-                value persistent.erel
+                value (persistent.erel if persistent.erel is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
                 left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
-            textbutton "+10" action SetField(persistent, "erel", min(100, persistent.erel + 10)):
+            textbutton "+10" action [SetField(persistent, "erel", min(100, (persistent.erel if persistent.erel is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}[persistent.erel]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.erel if persistent.erel is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
         
         # Melinda relationship
         hbox:
@@ -261,21 +253,21 @@ screen relationship_tab():
             text "{size=20}{color=#ffff00}Melinda:{/color}{/size}" xsize 120
             
             bar:
-                value persistent.melrel
+                value (persistent.melrel if persistent.melrel is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
                 left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
-            textbutton "+10" action SetField(persistent, "melrel", min(100, persistent.melrel + 10)):
+            textbutton "+10" action [SetField(persistent, "melrel", min(100, (persistent.melrel if persistent.melrel is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}[persistent.melrel]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.melrel if persistent.melrel is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
         
         # Money section
         null height 15
@@ -286,21 +278,21 @@ screen relationship_tab():
             
             text "{size=24}{color=#00ff00}Money:{/color}{/size}"
             
-            textbutton "+100" action SetField(persistent, "mny", persistent.mny + 100):
+            textbutton "+100" action [SetField(persistent, "mny", (persistent.mny if persistent.mny is not None else 0) + 100), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            textbutton "+1000" action SetField(persistent, "mny", persistent.mny + 1000):
+            textbutton "+1000" action [SetField(persistent, "mny", (persistent.mny if persistent.mny is not None else 0) + 1000), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}$[persistent.mny]{/color}{/size}" xsize 80 text_align 0.5
+            text "{size=20}{color=#00ff00}$[persistent.mny if persistent.mny is not None else 0]{/color}{/size}" xsize 80 text_align 0.5
         
         # Gallery section
         null height 15
@@ -313,11 +305,11 @@ screen relationship_tab():
             
             # Toggle switch
             if persistent.gallery_unlocked:
-                textbutton "{size=18}{color=#00ff00}UNLOCKED{/color}{/size}" action Function(lock_all_gallery):
+                textbutton "{size=18}{color=#00ff00}UNLOCKED{/color}{/size}" action [Function(lock_all_gallery), Function(init_persistent_vars)]:
                     background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     padding (15, 6)
             else:
-                textbutton "{size=18}{color=#ff4444}LOCKED{/color}{/size}" action Function(unlock_all_gallery):
+                textbutton "{size=18}{color=#ff4444}LOCKED{/color}{/size}" action [Function(unlock_all_gallery), Function(init_persistent_vars)]:
                     background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     padding (15, 6)
@@ -339,21 +331,21 @@ screen corruption_tab():
             text "{size=20}{color=#ffff00}Sister:{/color}{/size}" xsize 120
             
             bar:
-                value persistent.scorr
+                value (persistent.scorr if persistent.scorr is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
                 left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
-            textbutton "+10" action SetField(persistent, "scorr", min(100, persistent.scorr + 10)):
+            textbutton "+10" action [SetField(persistent, "scorr", min(100, (persistent.scorr if persistent.scorr is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}[persistent.scorr]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.scorr if persistent.scorr is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
         
         # Mother corruption
         hbox:
@@ -363,21 +355,21 @@ screen corruption_tab():
             text "{size=20}{color=#ffff00}Mother:{/color}{/size}" xsize 120
             
             bar:
-                value persistent.mcorr
+                value (persistent.mcorr if persistent.mcorr is not None else 0)
                 range 100
                 xsize 250
                 ysize 18
                 left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                 right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
             
-            textbutton "+10" action SetField(persistent, "mcorr", min(100, persistent.mcorr + 10)):
+            textbutton "+10" action [SetField(persistent, "mcorr", min(100, (persistent.mcorr if persistent.mcorr is not None else 0) + 10)), Function(init_persistent_vars)]:
                 text_size 18
                 text_color "#00ff00"
                 background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                 padding (12, 4)
             
-            text "{size=20}{color=#00ff00}[persistent.mcorr]{/color}{/size}" xsize 40 text_align 0.5
+            text "{size=20}{color=#00ff00}[persistent.mcorr if persistent.mcorr is not None else 0]{/color}{/size}" xsize 40 text_align 0.5
 
 # Add mod button to existing quick menu
 screen mod_overlay():
@@ -387,7 +379,7 @@ screen mod_overlay():
     hbox:
         xalign 1.0
         yalign 1.0
-        textbutton "{color=#00ff00}Enhanced Mod{/color}" action ShowMenu("enhanced_joker_mod"):
+        textbutton "{color=#00ff00}Enhanced Mod{/color}" action [ShowMenu("enhanced_joker_mod"), Function(init_persistent_vars)]:
             text_size 16
             background None
             hover_background None
@@ -400,4 +392,4 @@ init python:
 # Add hotkey for quick access (K key)
 define config.keymap['enhanced_mod'] = ['K']
 init python:
-    config.underlay.append(renpy.Keymap(enhanced_mod=ShowMenu("enhanced_joker_mod")))
+    config.underlay.append(renpy.Keymap(enhanced_mod=[ShowMenu("enhanced_joker_mod"), Function(init_persistent_vars)]))
