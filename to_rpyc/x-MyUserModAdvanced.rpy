@@ -9,7 +9,7 @@ screen mod_advanced_settings():
     modal True
     
     add "#000000" alpha 0.8
-    add Transform("x-images/game_menu.png", zoom=1.0) alpha 0.7 xalign 0.5 yalign 0.5
+    add Transform(Solid("#000000"), zoom=1.0, alpha=0.7, xalign=0.5, yalign=0.5)
     
     text "{size=70}Advanced Mod Settings" color "#FFD700" font "x-font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 30
     

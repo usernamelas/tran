@@ -20,7 +20,7 @@ screen my_cheat_mod():
     # Background - Disesuaikan dengan struktur folder Anda
     add "#000000" alpha 0.8
     # Asumsi: file game_menu.png ada di folder x-images
-    add Transform("x-images/game_menu.png", zoom=1.0) alpha 0.7 xalign 0.5 yalign 0.5
+    add Transform(Solid("#000000"), zoom=1.0, alpha=0.7, xalign=0.5, yalign=0.5)
     
     # Title - Path font disesuaikan
     text "{size=80}Enhanced Joker Mod" color "#FFD700" font "x-font/x-Montserrat-Light.ttf" xcenter 0.5 ypos 20 outlines [(3, "#000", 0, 5)]
