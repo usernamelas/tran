@@ -1,0 +1,67 @@
+=== TAG MAPPING ===
+{1} = {#month}
+{2} = {color=#cfc}
+{3} = {b}
+{4} = {/b}
+{5} = {/a}
+{6} = {#weekday}
+{7} = {}
+{8} = {color=#fcc}
+{9} = {/color}
+{10} = {color=#fff}
+{11} = {#month_short}
+{12} = {a=https://www.renpy.org/l/license}
+{13} = {#weekday_short}
+
+=== VARIABLE MAPPING ===
+[14] = [cache_pct:.1f]
+[15] = [attributes]
+[16] = [u.version]
+[17] = [count]
+[18] = [total]
+[19] = [control!r]
+[20] = [problem]
+[21] = [name]
+[22] = [displayable_name!q]
+[23] = [tex_count]
+[24] = [text]
+[25] = [tex_size_mb:.1f]
+[26] = [i]
+[27] = [index]
+[28] = [kind]
+[29] = [cache_size_mb:.1f]
+[30] = [renpy.display.tts.last]
+
+=== PARENTHESES MAPPING ===
+(31) = (default properties omitted)
+(32) = (hidden)
+(33) = ([tex_size_mb:.1f] MB)
+(34) = (transition)
+(35) = (F4)
+(36) = (bad)
+(37) = (B)
+(38) = (D)
+(39) = (good)
+(40) = (statement)
+(41) = ()
+(42) = (tag)
+(43) = (Shift+R)
+(44) = (Shift+O)
+(45) = (no properties affect the displayable)
+(46) = (channel)
+(47) = (default)
+(48) = ([cache_size_mb:.1f] MB)
+(49) = (transform)
+(50) = (attributes)
+(51) = (filename)
+(52) = ([i]/[total])
+(53) = (A)
+
+=== ANGLE BRACKETS MAPPING ===
+<54> = <esc>
+<55> = <slot>
+<56> = <label>
+<57> = <renpy script statement>
+<58> = <python expression or statement>
+<59> = <expression>
+<60> = <repr() failed>
