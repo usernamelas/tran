@@ -37,7 +37,7 @@ init python:
         store.gallery_unlocked = False
         renpy.notify("All 77 Gallery Images Locked!")
 
-# Main Enhanced Mod Screen - Fixed for better display
+# Main Enhanced Mod Screen - Fixed for responsive display
 screen enhanced_joker_mod():
     tag menu
     modal True
@@ -46,77 +46,72 @@ screen enhanced_joker_mod():
     add "#2a2a2a"
     add Solid("#1a1a1a80")
     
-    # Main container - adjusted for better fit
+    # Use full available screen space
     frame:
         background None
-        xalign 0.5
-        yalign 0.5
-        xsize 1600
-        ysize 900
+        xfill True
+        yfill True
+        padding (20, 20)
         
         vbox:
-            spacing 20
+            spacing 15
             
-            # Header with exit and save buttons
+            # Header with exit and save buttons - smaller size
             hbox:
                 xfill True
                 
-                textbutton "{size=40}{color=#ff4444}EXIT{/color}{/size}" action Return():
+                textbutton "{size=32}{color=#ff4444}EXIT{/color}{/size}" action Return():
                     hover_background None
                     background None
-                    padding (15, 15)
+                    padding (10, 10)
                 
                 null width 1.0
                 
-                textbutton "{size=40}{color=#44ff44}SAVE{/color}{/size}" action [Function(renpy.save, "mod_quicksave"), Function(renpy.notify, "Game Saved!")]:
+                textbutton "{size=32}{color=#44ff44}SAVE{/color}{/size}" action [Function(renpy.save, "mod_quicksave"), Function(renpy.notify, "Game Saved!")]:
                     hover_background None
                     background None
-                    padding (15, 15)
+                    padding (10, 10)
             
-            # Tab navigation - improved spacing
-            null height 20
-            
+            # Tab navigation - smaller and centered
             hbox:
                 xalign 0.5
-                spacing 40
+                spacing 30
                 
                 textbutton "RELATIONSHIP" action SetScreenVariable("current_tab", "relationship"):
                     if current_tab == "relationship":
                         text_color "#00ff00"
-                        text_size 28
+                        text_size 20
                         background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     else:
                         text_color "#888888"
-                        text_size 28
+                        text_size 20
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                    padding (40, 20)
+                    padding (25, 12)
                 
                 textbutton "CORRUPTION" action SetScreenVariable("current_tab", "corruption"):
                     if current_tab == "corruption":
                         text_color "#00ff00"
-                        text_size 28
+                        text_size 20
                         background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                     else:
                         text_color "#888888"
-                        text_size 28
+                        text_size 20
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                    padding (40, 20)
+                    padding (25, 12)
             
-            # Content area - properly sized
-            null height 20
-            
+            # Content area - uses remaining space
             frame:
                 background Solid("#333333")
                 xfill True
                 yfill True
-                padding (30, 30)
+                padding (15, 15)
                 
                 if current_tab == "relationship":
                     use relationship_tab()
                 elif current_tab == "corruption":
                     use corruption_tab()
 
-# Relationship Tab Content - Fixed layout
+# Relationship Tab Content - Compact responsive layout
 screen relationship_tab():
     viewport:
         xfill True
@@ -126,47 +121,207 @@ screen relationship_tab():
         scrollbars "vertical"
         
         vbox:
-            spacing 30
+            spacing 20
             
-            # Section title
-            text "{size=50}{color=#00ff00}RELATIONSHIP STATS{/color}" xalign 0.5
+            # Section title - smaller
+            text "{size=32}{color=#00ff00}RELATIONSHIP STATS{/color}" xalign 0.5
             
-            null height 20
-            
-            # Sister relationship
+            # Sister relationship - more compact
             frame:
                 background Solid("#444444")
-                padding (20, 15)
+                padding (15, 10)
                 xfill True
                 
                 hbox:
-                    spacing 20
+                    spacing 15
                     
-                    text "{size=36}{color=#ffff00}SISTER{/color}" xsize 180
+                    text "{size=24}{color=#ffff00}SISTER{/color}" xsize 120
                     
                     bar:
                         value VariableValue("srel", 999)
-                        xsize 300
-                        ysize 25
+                        xsize 200
+                        ysize 20
                         left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                         right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
                         thumb None
                     
                     textbutton "+10" action SetVariable("srel", min(999, srel + 10)):
-                        text_size 28
+                        text_size 20
+                        text_color "#00ff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetVariable("srel", 999):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    text "{size=24}{color=#00ff00}[srel]/999{/color}" xsize 80 text_align 0.5
+            
+            # Mother relationship
+            frame:
+                background Solid("#444444")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ffff00}MOTHER{/color}" xsize 120
+                    
+                    bar:
+                        value VariableValue("mrel", 999)
+                        xsize 200
+                        ysize 20
+                        left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
+                        right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+                        thumb None
+                    
+                    textbutton "+10" action SetVariable("mrel", min(999, mrel + 10)):
+                        text_size 20
+                        text_color "#00ff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetVariable("mrel", 999):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    text "{size=24}{color=#00ff00}[mrel]/999{/color}" xsize 80 text_align 0.5
+            
+            # Elaine relationship
+            frame:
+                background Solid("#444444")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ffff00}ELAINE{/color}" xsize 120
+                    
+                    bar:
+                        value VariableValue("erel", 999)
+                        xsize 200
+                        ysize 20
+                        left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
+                        right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+                        thumb None
+                    
+                    textbutton "+10" action SetVariable("erel", min(999, erel + 10)):
+                        text_size 20
+                        text_color "#00ff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetVariable("erel", 999):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    text "{size=24}{color=#00ff00}[erel]/999{/color}" xsize 80 text_align 0.5
+            
+            # Melinda relationship
+            frame:
+                background Solid("#444444")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ffff00}MELINDA{/color}" xsize 120
+                    
+                    bar:
+                        value VariableValue("melrel", 999)
+                        xsize 200
+                        ysize 20
+                        left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
+                        right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+                        thumb None
+                    
+                    textbutton "+10" action SetVariable("melrel", min(999, melrel + 10)):
+                        text_size 20
+                        text_color "#00ff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetVariable("melrel", 999):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    text "{size=24}{color=#00ff00}[melrel]/999{/color}" xsize 80 text_align 0.5
+            
+            # Money section - more compact
+            frame:
+                background Solid("#225522")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 20
+                    xalign 0.5
+                    
+                    text "{size=28}{color=#00ff00}MONEY{/color}"
+                    
+                    textbutton "+$100" action SetVariable("mny", mny + 100):
+                        text_size 22
                         text_color "#00ff00"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         padding (15, 8)
                     
-                    textbutton "MAX" action SetVariable("srel", 999):
-                        text_size 28
-                        text_color "#ff8800"
+                    textbutton "+$1000" action SetVariable("mny", mny + 1000):
+                        text_size 22
+                        text_color "#00ff00"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         padding (15, 8)
                     
-                    text "{size=36}{color=#00ff00}[srel]/999{/color}" xsize 120 text_align 0.5
+                    textbutton "+$10000" action SetVariable("mny", mny + 10000):
+                        text_size 22
+                        text_color "#ffaa00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (15, 8)
+                    
+                    text "{size=26}{color=#00ff00}$[mny]{/color}"
+            
+            # Gallery section - compact
+            frame:
+                background Solid("#552255")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 30
+                    xalign 0.5
+                    
+                    text "{size=28}{color=#ff88ff}GALLERY UNLOCK{/color}"
+                    
+                    if gallery_unlocked:
+                        textbutton "{size=24}{color=#00ff00}✓ UNLOCKED{/color}" action Function(lock_all_gallery):
+                            background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                            padding (20, 10)
+                    else:
+                        textbutton "{size=24}{color=#ff4444}✗ LOCKED{/color}" action Function(unlock_all_gallery):
+                            background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                            hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                            padding (20, 10)
             
             # Mother relationship
             frame:
@@ -334,7 +489,7 @@ screen relationship_tab():
                             hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                             padding (30, 15)
 
-# Corruption Tab Content - Fixed layout
+# Corruption Tab Content - Compact responsive layout
 screen corruption_tab():
     viewport:
         xfill True
@@ -344,82 +499,80 @@ screen corruption_tab():
         scrollbars "vertical"
         
         vbox:
-            spacing 30
+            spacing 20
             
-            # Section title
-            text "{size=50}{color=#ff4444}CORRUPTION STATS{/color}" xalign 0.5
+            # Section title - smaller
+            text "{size=32}{color=#ff4444}CORRUPTION STATS{/color}" xalign 0.5
             
-            null height 20
-            
-            # Sister corruption
+            # Sister corruption - more compact
             frame:
                 background Solid("#554444")
-                padding (20, 15)
+                padding (15, 10)
                 xfill True
                 
                 hbox:
-                    spacing 20
+                    spacing 15
                     
-                    text "{size=36}{color=#ff8888}SISTER{/color}" xsize 180
+                    text "{size=24}{color=#ff8888}SISTER{/color}" xsize 120
                     
                     bar:
                         value VariableValue("scorr", 999)
-                        xsize 300
-                        ysize 25
+                        xsize 200
+                        ysize 20
                         left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                         right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
                         thumb None
                     
                     textbutton "+10" action SetVariable("scorr", min(999, scorr + 10)):
-                        text_size 28
+                        text_size 20
                         text_color "#ff4444"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                        padding (15, 8)
+                        padding (10, 5)
                     
                     textbutton "MAX" action SetVariable("scorr", 999):
-                        text_size 28
+                        text_size 20
                         text_color "#ff8800"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                        padding (15, 8)
+                        padding (10, 5)
                     
-                    text "{size=36}{color=#ff4444}[scorr]/999{/color}" xsize 120 text_align 0.5
+                    text "{size=24}{color=#ff4444}[scorr]/999{/color}" xsize 80 text_align 0.5
             
             # Mother corruption
             frame:
                 background Solid("#554444")
-                padding (20, 15)
+                padding (15, 10)
                 xfill True
                 
                 hbox:
-                    spacing 20
+                    spacing 15
                     
-                    text "{size=36}{color=#ff8888}MOTHER{/color}" xsize 180
+                    text "{size=24}{color=#ff8888}MOTHER{/color}" xsize 120
                     
                     bar:
                         value VariableValue("mcorr", 999)
-                        xsize 300
-                        ysize 25
+                        xsize 200
+                        ysize 20
                         left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
                         right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
                         thumb None
                     
                     textbutton "+10" action SetVariable("mcorr", min(999, mcorr + 10)):
-                        text_size 28
+                        text_size 20
                         text_color "#ff4444"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                        padding (15, 8)
+                        padding (10, 5)
                     
                     textbutton "MAX" action SetVariable("mcorr", 999):
-                        text_size 28
+                        text_size 20
                         text_color "#ff8800"
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
-                        padding (15, 8)
+                        padding (10, 5)
                     
-                    text "{size=36}{color=#ff4444}[mcorr]/999{/color}" xsize 120 text_align 0.5
+                    text "{size=24}{color=#ff4444}[mcorr]/999{/color}" xsize 80 text_align 0.5
 
 # Add mod button overlay
 screen mod_overlay():
