@@ -256,8 +256,8 @@ screen quick_menu():
 
             textbutton _("Kembali") action Rollback()
             textbutton _("Sejarah") action ShowMenu('history')
-            textbutton _("Melewati") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Mobil") action Preference("auto-forward", "toggle")
+            textbutton _("skip") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("auto") action Preference("auto-forward", "toggle")
             textbutton _("Menyimpan") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
@@ -743,10 +743,10 @@ screen preferences():
 
                 vbox:
                     style_prefix "memeriksa"
-                    label _("Melewati")
+                    label _("skip")
                     textbutton _("Teks yang tidak terlihat") action Preference("skip", "toggle")
-                    textbutton _("Setelah pilihan") action Preference("after choices", "toggle")
-                    textbutton _("Transisi") action InvertSelected(Preference("transitions", "toggle"))
+                    textbutton _("after choices") action Preference("after choices", "toggle")
+                    textbutton _("transitions") action InvertSelected(Preference("transitions", "toggle"))
 
             null height (4 * gui.pref_spacing)
 
@@ -756,37 +756,37 @@ screen preferences():
 
                 vbox:
 
-                    label _("Kecepatan teks")
+                    label _("text speed")
 
-                    bar value Preference("Kecepatan teks")
+                    bar value Preference("text speed")
 
-                    label _("Waktu maju otomatis")
+                    label _("auto-forward time")
 
-                    bar value Preference("waktu maju otomatis")
+                    bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Volume Musik")
+                        label _("music volume")
 
                         hbox:
-                            bar value Preference("Volume Musik")
+                            bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Volume suara")
+                        label _("voice volume")
 
                         hbox:
-                            bar value Preference("volume suara")
+                            bar value Preference("voice volume")
 
                             if config.sample_sound:
                                 textbutton _("Tes") action Play("sound", config.sample_sound)
 
                     if config.has_voice:
-                        label _("Volume Suara")
+                        label _("voice volume")
 
                         hbox:
-                            bar value Preference("Volume Suara")
+                            bar value Preference("voice volume")
 
                             if config.sample_voice:
                                 textbutton _("Tes") action Play("voice", config.sample_voice)
@@ -1029,7 +1029,7 @@ screen keyboard_help():
 
     hbox:
         label _("Tab")
-        text _("Melewati Dialog Mengalir.")
+        text _("skip Dialog Mengalir.")
 
     hbox:
         label _("Halaman UP")
@@ -1207,14 +1207,14 @@ style confirm_button_text:
 screen skip_indicator():
 
     zorder 100
-    style_prefix "melewati"
+    style_prefix "skip"
 
     frame:
 
         has hbox
         spacing 6
 
-        text _("Melewati")
+        text _("skip")
 
         text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
@@ -1435,7 +1435,7 @@ screen quick_menu():
             yalign 1.0
 
             textbutton _("Kembali") action Rollback()
-            textbutton _("Melewati") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Mobil") action Preference("auto-forward", "toggle")
             textbutton _("Menu") action ShowMenu()
 
