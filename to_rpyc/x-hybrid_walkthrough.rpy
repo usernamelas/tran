@@ -1758,7 +1758,7 @@ init python:
         # Add effects info if enabled and available
         if walkthrough_show_effects and effects and effects[0] != "unknown effect":
             effect_text = ", ".join(effects[:2])  # Limit to 2 effects for space
-            enhanced += f" {{size=-4}}}({effect_text}){{{/size}}"
+            enhanced += f" {{size=-4}}({effect_text}){{/size}}"
         
         # Add confidence indicator if enabled
         if walkthrough_show_confidence:
