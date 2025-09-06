@@ -1977,9 +1977,8 @@ init python:
 # ===============================================================================
 
 screen walkthrough_preferences():
-    """
-    Walkthrough settings screen
-    """
+    #Walkthrough settings screen
+    
     modal True
     
     frame:
@@ -2250,9 +2249,8 @@ Ready for immediate production deployment! 🚀
 """
     
     def enhanced_display_menu(items, *args, **kwargs):
-        """
-        Enhanced menu display function that processes all menu items
-        """
+        #Enhanced menu display function that processes all menu items
+          
         if not walkthrough_enabled:
             return original_renpy_display_menu(items, *args, **kwargs)
         
