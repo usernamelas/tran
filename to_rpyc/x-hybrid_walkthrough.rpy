@@ -1778,7 +1778,7 @@ init python:
 
 init python early:
     # Store original menu function
-    original_renpy_display_menu = none # ===============================================================================
+    original_renpy_display_menu = None # ===============================================================================
 # ENHANCED TESTING & VALIDATION SYSTEM
 # Comprehensive testing with detailed reporting
 # ===============================================================================
