@@ -772,7 +772,8 @@ init python early:
     # Combines database lookup + pattern matching + context awareness
     # ===============================================================================
     
-    def analyze_choice_smart(choice_text, game_context=        # ===== MASSAGE/INTIMATE CHOICES =====
+    def analyze_choice_smart(choice_text, game_context=       
+        # ===== MASSAGE/INTIMATE CHOICES =====
         "offer massage": {
             "effects": ["+5 mrel", "+2 mcorr"],
             "type": "relationship", 
