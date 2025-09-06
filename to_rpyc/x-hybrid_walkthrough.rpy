@@ -684,7 +684,7 @@ init python early:
             "type": "special",
             "priority": "special"
         },
-    }
+    
 
     # ===============================================================================
     # ENHANCED PATTERN MATCHING FALLBACKS
