@@ -6,7 +6,7 @@
 # ===============================================================================
 
 # Include file variables yang sudah di-rename
-include x-detected_variables.rpy
+include x-detected_variables
 
 init python:
     import os
