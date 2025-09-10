@@ -1,9 +1,12 @@
 # ===============================================================================
-# ENHANCED MONITOR - FULL VERSION
-# File: enhanced_monitor.rpy
+# ENHANCED MONITOR - X-DETECTED VERSION
+# File: x_enhanced_monitor.rpy
 # 
-# Complete monitoring system with auto-detected variables
+# Monitor system yang menggunakan x-detected_variables.rpy
 # ===============================================================================
+
+# Include file variables yang sudah di-rename
+include x-detected_variables.rpy
 
 init python:
     import os
@@ -13,10 +16,10 @@ init python:
     # ==================== CORE FUNCTIONS ====================
     
     def get_key_variables():
-        """Get all variables from detected list"""
+        # Get all variables from x-detected list
         vars_dict = {}
         
-        # Use auto-detected variables
+        # Use auto-detected variables from x-detected_variables.rpy
         for var_name in DETECTED_VARIABLES:
             try:
                 if hasattr(store, var_name):
@@ -29,7 +32,7 @@ init python:
         return vars_dict
     
     def categorize_variables(variables):
-        """Auto-categorize variables based on naming patterns"""
+        # Auto-categorize variables based on naming patterns
         categories = {
             "relationships": [],
             "progress": [],
@@ -71,7 +74,7 @@ init python:
         return categories
     
     def check_storyline_progress(storyline_name):
-        """Check progress for specific storyline"""
+        # Check progress for specific storyline
         variables = get_key_variables()
         categories = categorize_variables(DETECTED_VARIABLES)
         
@@ -80,7 +83,7 @@ init python:
             "jenny": ["mom", "m_", "_m", "mother", "jenny"],
             "sarah": ["sar", "s_", "_s", "sister", "sarah"],
             "daniel": ["dan", "d_", "_d", "daniel"],
-            "work": ["work", "job", "career", "bwork", "promote"],
+            "work": ["work", "job", "career", 'bwork', "promote"],
             "social": ["insta", "social", "club", "follow", "media"],
             "all": []  # All variables
         }
@@ -111,7 +114,7 @@ init python:
         return len(matches)
     
     def check_all_storylines():
-        """Check progress for all major storylines"""
+        # Check progress for all major storylines
         storylines = ["elaine", "jenny", "sarah", "daniel", "work", "social"]
         
         print("\n" + "="*60)
@@ -128,7 +131,7 @@ init python:
         return results
     
     def create_detailed_progress_file():
-        """Create comprehensive progress file with categorized variables"""
+        # Create comprehensive progress file with categorized variables
         try:
             variables = get_key_variables()
             categories = categorize_variables(DETECTED_VARIABLES)
@@ -194,7 +197,7 @@ init python:
     # ==================== QUICK CHECK FUNCTIONS ====================
     
     def quick_check():
-        """Quick status check with diagnosis"""
+        # Quick status check with diagnosis
         variables = get_key_variables()
         
         print("\n=== QUICK STATUS CHECK ===")
@@ -210,44 +213,44 @@ init python:
         return variables
     
     def check_elaine_progress():
-        """Specific check for Elaine storyline"""
+        # Specific check for Elaine storyline
         return check_storyline_progress("elaine")
     
     def check_jenny_progress():
-        """Specific check for Jenny storyline"""
+        # Specific check for Jenny storyline
         return check_storyline_progress("jenny")
     
     def check_sarah_progress():
-        """Specific check for Sarah storyline"""
+        # Specific check for Sarah storyline
         return check_storyline_progress("sarah")
     
     def check_daniel_progress():
-        """Specific check for Daniel storyline"""
+        # Specific check for Daniel storyline
         return check_storyline_progress("daniel")
     
     def check_work_progress():
-        """Specific check for Work storyline"""
+        # Specific check for Work storyline
         return check_storyline_progress("work")
     
     def check_social_progress():
-        """Specific check for Social storyline"""
+        # Specific check for Social storyline
         return check_storyline_progress("social")
     
     def check_all_variables():
-        """Check all detected variables"""
+        # Check all detected variables
         return check_storyline_progress("all")
 
 # ==================== MANUAL TRIGGER FUNCTIONS ====================
 
 init python:
     def monitor_all():
-        """Generate comprehensive progress report immediately"""
+        # Generate comprehensive progress report immediately
         print("Generating enhanced progress report...")
         create_detailed_progress_file()
         check_all_storylines()
     
     def monitor_quick():
-        """Quick monitoring"""
+        # Quick monitoring
         print("Quick monitoring...")
         quick_check()
 
@@ -257,7 +260,7 @@ init python:
     last_monitored_day = None
     
     def auto_monitor_check():
-        """Auto-check on day change"""
+        # Auto-check on day change
         global last_monitored_day
         
         try:
