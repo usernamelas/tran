@@ -1,25 +1,64 @@
 # ===============================================================================
-# ENHANCED MONITOR - X-DETECTED VERSION
+# ENHANCED MONITOR - STANDALONE VERSION
 # File: x_enhanced_monitor.rpy
 # 
-# Monitor system yang menggunakan x-detected_variables.rpy
+# Tidak perlu edit script.rpy, tidak perlu include statement
 # ===============================================================================
-
-# Include file variables yang sudah di-rename
-include x-detected_variables
 
 init python:
     import os
     import time
+    import renpy
     from collections import OrderedDict
+    
+    # ==================== DYNAMIC VARIABLE LOADING ====================
+    
+    def load_detected_variables():
+        # Dynamic load variables tanpa perlu include statement
+        try:
+            # Coba akses langsung dari store
+            if hasattr(store, 'DETECTED_VARIABLES'):
+                return store.DETECTED_VARIABLES
+            else:
+                # Coba import dari file
+                try:
+                    renpy.load("x-detected_variables.rpy")
+                    if hasattr(store, 'DETECTED_VARIABLES'):
+                        return store.DETECTED_VARIABLES
+                except:
+                    pass
+                
+                # Fallback: scan manual untuk variabel
+                print("Scanning for game variables...")
+                all_vars = dir(store)
+                game_vars = []
+                
+                for var_name in all_vars:
+                    # Skip internal variables
+                    if (not var_name.startswith('_') and 
+                        len(var_name) > 2 and
+                        not var_name in ['true', 'false', 'null', 'none']):
+                        try:
+                            value = getattr(store, var_name)
+                            game_vars.append(var_name)
+                        except:
+                            pass
+                
+                return game_vars[:100]  # Batasi 100 variabel pertama
+                
+        except Exception as e:
+            print(f"Error loading variables: {e}")
+            return []
+    
+    # Load variables sekali saat init
+    DETECTED_VARIABLES = load_detected_variables()
     
     # ==================== CORE FUNCTIONS ====================
     
     def get_key_variables():
-        # Get all variables from x-detected list
+        # Get all variables dari dynamic loading
         vars_dict = {}
         
-        # Use auto-detected variables from x-detected_variables.rpy
         for var_name in DETECTED_VARIABLES:
             try:
                 if hasattr(store, var_name):
