@@ -1,8 +1,8 @@
 # ===============================================================================
-# ENHANCED GAME MONITOR - MULTIPLE STORYLINES TRACKING
+# ENHANCED MONITOR - FULL VERSION
 # File: enhanced_monitor.rpy
 # 
-# Expanded monitoring system that tracks progress for all major storylines
+# Complete monitoring system with auto-detected variables
 # ===============================================================================
 
 init python:
@@ -10,44 +10,16 @@ init python:
     import time
     from collections import OrderedDict
     
+    # ==================== CORE FUNCTIONS ====================
+    
     def get_key_variables():
-        """Get essential variables for progress tracking across all storylines"""
+        """Get all variables from detected list"""
         vars_dict = {}
         
-        # Comprehensive variable list covering all major storylines
-        all_key_vars = [
-            # Core relationships
-            "mrel", "srel", "erel", "drel", "prel", "crel",
-            # Money and time
-            "mny", "Hour", "day", "wk", "totaldays",
-            # Elaine business storyline
-            "elaine_convince", "cselaine0", "elaineshowsup", "elaineagain", "elainebusiness",
-            # Jenny (mom) storyline
-            "momspecial", "mommassage", "mombikini", "momnightie", "momprogress",
-            # Sarah (sister) storyline
-            "sarspecial", "sarmassage", "sarbikini", "sarnightie", "sarprogress",
-            # Work/progress
-            "bworkstarted", "bworked", "startnework", "workrequest", "promoted",
-            # Items and inventory
-            "mbikini", "mnightie", "sbikini", "snightie", "mobilephoneacquired", "camerasacquired",
-            # Instagram/social media
-            "instadone", "instauploads", "binstaexp", "instafollowers",
-            # Beach and locations
-            "beachdone", "beachelainedone", "beachmomdone", "beachsardone",
-            # Daniel storyline
-            "danielprogress", "danieltrust", "danielbusiness",
-            # Club storyline
-            "clubaccess", "clublevel", "viplevel",
-            # Special events and flags
-            "specialevent", "endingunlocked", "achievements"
-        ]
-        
-        for var_name in all_key_vars:
+        # Use auto-detected variables
+        for var_name in DETECTED_VARIABLES:
             try:
-                # Try different methods to access variables
-                if var_name in store.__dict__:
-                    vars_dict[var_name] = store.__dict__[var_name]
-                elif hasattr(store, var_name):
+                if hasattr(store, var_name):
                     vars_dict[var_name] = getattr(store, var_name)
                 else:
                     vars_dict[var_name] = "NOT_FOUND"
@@ -56,146 +28,145 @@ init python:
         
         return vars_dict
     
-    def check_storyline_progress(storyline_name):
-        """Check progress for a specific storyline"""
-        variables = get_key_variables()
-        
-        # Define storyline-specific variables and their target values
-        storylines = {
-            "elaine": {
-                "vars": ["elaine_convince", "erel", "elainebusiness", "cselaine0"],
-                "targets": {"elaine_convince": 4, "erel": 200},
-                "description": "Elaine Business Storyline"
-            },
-            "jenny": {
-                "vars": ["mrel", "momspecial", "mommassage", "mombikini"],
-                "targets": {"mrel": 200, "momspecial": True},
-                "description": "Jenny (Mom) Relationship Storyline"
-            },
-            "sarah": {
-                "vars": ["srel", "sarspecial", "sarmassage", "sarbikini"],
-                "targets": {"srel": 200, "sarspecial": True},
-                "description": "Sarah (Sister) Relationship Storyline"
-            },
-            "daniel": {
-                "vars": ["drel", "danielprogress", "danieltrust", "danielbusiness"],
-                "targets": {"drel": 100, "danielbusiness": True},
-                "description": "Daniel Business Storyline"
-            },
-            "work": {
-                "vars": ["bworkstarted", "bworked", "promoted", "workrequest"],
-                "targets": {"promoted": True, "bworked": 10},
-                "description": "Work/Career Progress"
-            },
-            "social": {
-                "vars": ["instadone", "instafollowers", "clubaccess", "viplevel"],
-                "targets": {"instafollowers": 1000, "clubaccess": True},
-                "description": "Social Media/Club Progress"
-            }
+    def categorize_variables(variables):
+        """Auto-categorize variables based on naming patterns"""
+        categories = {
+            "relationships": [],
+            "progress": [],
+            "items": [],
+            "time": [],
+            "flags": [],
+            "business": [],
+            "special": [],
+            "other": []
         }
         
-        if storyline_name not in storylines:
-            return f"Storyline '{storyline_name}' not defined. Available: {list(storylines.keys())}"
+        for var_name in variables:
+            var_lower = var_name.lower()
+            
+            # Relationship variables
+            if any(keyword in var_lower for keyword in ['rel', 'affection', 'love', 'like', 'trust']):
+                categories["relationships"].append(var_name)
+            # Progress variables
+            elif any(keyword in var_lower for keyword in ['progress', 'stage', 'level', 'phase', 'convince']):
+                categories["progress"].append(var_name)
+            # Item variables
+            elif any(keyword in var_lower for keyword in ['item', 'have', 'acquire', 'buy', 'own', 'bikini', 'nightie']):
+                categories["items"].append(var_name)
+            # Time variables
+            elif any(keyword in var_lower for keyword in ['day', 'time', 'hour', 'week', 'wk', 'month']):
+                categories["time"].append(var_name)
+            # Business variables
+            elif any(keyword in var_lower for keyword in ['business', 'work', 'job', 'career', 'promote']):
+                categories["business"].append(var_name)
+            # Flag variables
+            elif any(keyword in var_lower for keyword in ['flag', 'done', 'complete', 'finish', 'show', 'again']):
+                categories["flags"].append(var_name)
+            # Special variables
+            elif any(keyword in var_lower for keyword in ['special', 'event', 'ending', 'achievement']):
+                categories["special"].append(var_name)
+            else:
+                categories["other"].append(var_name)
         
-        storyline = storylines[storyline_name]
-        print(f"\n=== {storyline['description'].upper()} ===")
+        return categories
+    
+    def check_storyline_progress(storyline_name):
+        """Check progress for specific storyline"""
+        variables = get_key_variables()
+        categories = categorize_variables(DETECTED_VARIABLES)
         
-        # Display current values
-        for var in storyline["vars"]:
-            value = variables.get(var, "ERROR")
+        storyline_patterns = {
+            "elaine": ["elaine", "e_", "_e", "business"],
+            "jenny": ["mom", "m_", "_m", "mother", "jenny"],
+            "sarah": ["sar", "s_", "_s", "sister", "sarah"],
+            "daniel": ["dan", "d_", "_d", "daniel"],
+            "work": ["work", "job", "career", "bwork", "promote"],
+            "social": ["insta", "social", "club", "follow", "media"],
+            "all": []  # All variables
+        }
+        
+        if storyline_name not in storyline_patterns:
+            available = list(storyline_patterns.keys())
+            return f"Storyline '{storyline_name}' not found. Available: {available}"
+        
+        print(f"\n=== {storyline_name.upper()} STORYLINE CHECK ===")
+        
+        # Find matching variables
+        matches = []
+        patterns = storyline_patterns[storyline_name]
+        
+        if storyline_name == "all":
+            matches = DETECTED_VARIABLES[:50]  # First 50 variables
+        else:
+            for var_name in DETECTED_VARIABLES:
+                var_lower = var_name.lower()
+                if any(pattern in var_lower for pattern in patterns):
+                    matches.append(var_name)
+        
+        # Display results
+        for var in sorted(matches):
+            value = variables.get(var, "NOT_FOUND")
             print(f"{var}: {value}")
         
-        # Calculate completion percentage
-        completed = 0
-        total_targets = len(storyline["targets"])
-        
-        for var, target in storyline["targets"].items():
-            current_val = variables.get(var, 0)
-            try:
-                if isinstance(target, bool):
-                    if current_val == target:
-                        completed += 1
-                elif isinstance(target, int):
-                    if current_val >= target:
-                        completed += 1
-            except:
-                pass
-        
-        completion = (completed / total_targets) * 100 if total_targets > 0 else 0
-        print(f"\nCompletion: {completion:.1f}% ({completed}/{total_targets} targets met)")
-        
-        return completion
+        return len(matches)
     
     def check_all_storylines():
         """Check progress for all major storylines"""
         storylines = ["elaine", "jenny", "sarah", "daniel", "work", "social"]
-        results = {}
         
-        print("\n" + "="*50)
+        print("\n" + "="*60)
         print("COMPREHENSIVE STORYLINE PROGRESS REPORT")
-        print("="*50)
+        print("="*60)
         
+        results = {}
         for storyline in storylines:
-            progress = check_storyline_progress(storyline)
-            results[storyline] = progress
-        
-        print("\n" + "="*50)
-        print("OVERALL PROGRESS SUMMARY")
-        print("="*50)
-        
-        for storyline, progress in results.items():
-            print(f"{storyline.upper():<10}: {progress:>5.1f}%")
+            count = check_storyline_progress(storyline)
+            results[storyline] = count
+            print(f"Found {count} variables for {storyline}")
+            print("-" * 40)
         
         return results
     
     def create_detailed_progress_file():
-        """Create comprehensive progress file with all storylines"""
+        """Create comprehensive progress file with categorized variables"""
         try:
-            # Get variables
             variables = get_key_variables()
+            categories = categorize_variables(DETECTED_VARIABLES)
             
-            # Create report content
             timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
             report_lines = [
-                "COMPREHENSIVE GAME PROGRESS REPORT",
-                "=" * 60,
+                "ENHANCED GAME PROGRESS REPORT",
+                "=" * 70,
                 f"Time: {timestamp}",
-                f"Game Day: {variables.get('day', 'Unknown')} (Week: {variables.get('wk', 'Unknown')})",
-                f"Game Hour: {variables.get('Hour', 'Unknown')}",
-                f"Money: {variables.get('mny', 'Unknown')}",
+                f"Total Variables: {len(DETECTED_VARIABLES)}",
+                f"Game Day: {variables.get('day', 'N/A')}",
+                f"Game Hour: {variables.get('Hour', 'N/A')}",
+                f"Money: {variables.get('mny', 'N/A')}",
                 "",
             ]
             
-            # Storyline sections
-            storyline_vars = OrderedDict([
-                ("CORE RELATIONSHIPS", ["mrel", "srel", "erel", "drel", "prel", "crel"]),
-                ("ELAINE STORYLINE", ["elaine_convince", "cselaine0", "elaineshowsup", "elaineagain", "elainebusiness"]),
-                ("JENNY (MOM) STORYLINE", ["momspecial", "mommassage", "mombikini", "momnightie", "momprogress"]),
-                ("SARAH (SISTER) STORYLINE", ["sarspecial", "sarmassage", "sarbikini", "sarnightie", "sarprogress"]),
-                ("DANIEL STORYLINE", ["danielprogress", "danieltrust", "danielbusiness"]),
-                ("WORK PROGRESS", ["bworkstarted", "bworked", "startnework", "workrequest", "promoted"]),
-                ("ITEMS & INVENTORY", ["mbikini", "mnightie", "sbikini", "snightie", "mobilephoneacquired", "camerasacquired"]),
-                ("SOCIAL MEDIA", ["instadone", "instauploads", "binstaexp", "instafollowers"]),
-                ("LOCATIONS", ["beachdone", "beachelainedone", "beachmomdone", "beachsardone", "clubaccess", "clublevel"]),
-                ("SPECIAL FLAGS", ["specialevent", "endingunlocked", "achievements"])
-            ])
+            # Add categorized sections
+            for category, var_list in categories.items():
+                if var_list:  # Only add if category has variables
+                    report_lines.extend([
+                        "",
+                        f"{category.upper()}",
+                        "-" * 50
+                    ])
+                    
+                    for var_name in sorted(var_list):
+                        value = variables.get(var_name, "NOT_FOUND")
+                        report_lines.append(f"{var_name:<25} = {value}")
             
-            for section, vars_list in storyline_vars.items():
-                report_lines.extend(["", section.upper(), "-" * 40])
-                for var_name in vars_list:
-                    value = variables.get(var_name, "NOT_FOUND")
-                    report_lines.append(f"{var_name:<25} = {value}")
-            
-            report_lines.extend(["", "=" * 60, "END REPORT"])
+            report_lines.extend(["", "=" * 70, "END REPORT"])
             
             report_content = "\n".join(report_lines)
             
-            # Try multiple file paths
+            # Save to file
             possible_paths = [
-                "game_progress.txt",
-                "./game_progress.txt", 
-                "../game_progress.txt",
-                "progress_report.txt"
+                "game_progress_full.txt",
+                "./enhanced_progress.txt",
+                "../game_progress.txt"
             ]
             
             success = False
@@ -203,17 +174,15 @@ init python:
                 try:
                     with open(path, 'w', encoding='utf-8') as f:
                         f.write(report_content)
-                    print(f"Comprehensive progress report saved to: {path}")
+                    print(f"Full progress report saved to: {path}")
                     success = True
                     break
-                except Exception as e:
+                except:
                     continue
             
             if not success:
-                # Fallback: print to console/log
-                print("=== COMPREHENSIVE PROGRESS REPORT (FILE SAVE FAILED) ===")
+                print("=== FULL PROGRESS REPORT ===")
                 print(report_content)
-                print("=== END REPORT ===")
             
             return report_content
             
@@ -222,13 +191,27 @@ init python:
             print(error_msg)
             return error_msg
 
-# Manual trigger functions
-init python:
-    def monitor_all():
-        """Generate comprehensive progress report immediately"""
-        print("Generating comprehensive progress report...")
-        create_detailed_progress_file()
-        check_all_storylines()
+    # ==================== QUICK CHECK FUNCTIONS ====================
+    
+    def quick_check():
+        """Quick status check with diagnosis"""
+        variables = get_key_variables()
+        
+        print("\n=== QUICK STATUS CHECK ===")
+        print(f"Game Day: {variables.get('day', 'N/A')}")
+        print(f"Game Hour: {variables.get('Hour', 'N/A')}")
+        print(f"Money: {variables.get('mny', 'N/A')}")
+        
+        # Check key relationships
+        for rel in ['mrel', 'srel', 'erel', 'drel']:
+            if rel in variables:
+                print(f"{rel}: {variables[rel]}")
+        
+        return variables
+    
+    def check_elaine_progress():
+        """Specific check for Elaine storyline"""
+        return check_storyline_progress("elaine")
     
     def check_jenny_progress():
         """Specific check for Jenny storyline"""
@@ -249,58 +232,118 @@ init python:
     def check_social_progress():
         """Specific check for Social storyline"""
         return check_storyline_progress("social")
+    
+    def check_all_variables():
+        """Check all detected variables"""
+        return check_storyline_progress("all")
 
-# Enhanced UI screen
+# ==================== MANUAL TRIGGER FUNCTIONS ====================
+
+init python:
+    def monitor_all():
+        """Generate comprehensive progress report immediately"""
+        print("Generating enhanced progress report...")
+        create_detailed_progress_file()
+        check_all_storylines()
+    
+    def monitor_quick():
+        """Quick monitoring"""
+        print("Quick monitoring...")
+        quick_check()
+
+# ==================== AUTO-MONITORING ====================
+
+init python:
+    last_monitored_day = None
+    
+    def auto_monitor_check():
+        """Auto-check on day change"""
+        global last_monitored_day
+        
+        try:
+            current_day = getattr(store, 'day', 0)
+            if last_monitored_day is None:
+                last_monitored_day = current_day
+            elif current_day != last_monitored_day:
+                print(f"\n=== DAY CHANGED: {last_monitored_day} -> {current_day} ===")
+                quick_check()
+                last_monitored_day = current_day
+        except:
+            pass
+    
+    config.periodic_callbacks.append(auto_monitor_check)
+
+# ==================== UI SCREENS ====================
+
 screen enhanced_monitor():
     modal True
     
     frame:
         xalign 0.5
         yalign 0.5
-        xsize 600
-        ysize 400
+        xsize 700
+        ysize 500
         
         vbox:
             xalign 0.5
             yalign 0.5
             spacing 20
             
-            text "Enhanced Game Monitor" size 24 xalign 0.5
+            text "ENHANCED GAME MONITOR" size 28 xalign 0.5
             
-            vbox:
+            # Main actions
+            hbox:
                 spacing 10
-                textbutton "Comprehensive Report" action Function(monitor_all)
-                textbutton "Check All Storylines" action Function(check_all_storylines)
-                
-                hbox:
-                    spacing 10
-                    textbutton "Elaine" action Function(check_elaine_progress)
-                    textbutton "Jenny" action Function(check_jenny_progress)
-                    textbutton "Sarah" action Function(check_sarah_progress)
-                
-                hbox:
-                    spacing 10
-                    textbutton "Daniel" action Function(check_daniel_progress)
-                    textbutton "Work" action Function(check_work_progress)
-                    textbutton "Social" action Function(check_social_progress)
+                textbutton "Full Report" action Function(monitor_all):
+                    text_size 18
+                    xsize 150
+                textbutton "Quick Check" action Function(monitor_quick):
+                    text_size 18
+                    xsize 150
+            
+            # Storyline checks
+            text "Storyline Checks:" size 20 xalign 0.5
+            
+            grid 3 2:
+                spacing 10
+                textbutton "Elaine" action Function(check_elaine_progress)
+                textbutton "Jenny" action Function(check_jenny_progress)
+                textbutton "Sarah" action Function(check_sarah_progress)
+                textbutton "Daniel" action Function(check_daniel_progress)
+                textbutton "Work" action Function(check_work_progress)
+                textbutton "Social" action Function(check_social_progress)
+            
+            # Advanced
+            text "Advanced:" size 20 xalign 0.5
+            hbox:
+                spacing 10
+                textbutton "All Variables" action Function(check_all_variables)
+                textbutton "All Storylines" action Function(check_all_storylines)
             
             textbutton "Close" action Hide("enhanced_monitor") xalign 0.5
 
-# Replace the monitor button with enhanced version
+# ==================== OVERLAY BUTTON ====================
+
 screen monitor_button():
-    textbutton "MONITOR":
-        text_size 14
-        xalign 0.95
+    textbutton "ENHANCED MON":
+        text_size 16
+        text_color "#ff9900"
+        xalign 0.98
         yalign 0.02
         action Show("enhanced_monitor")
+        background None
+        hover_background "#ffffff20"
 
-# Uncomment to add monitor button
-# config.overlay_screens.append("monitor_button")
+# ==================== INITIALIZATION ====================
 
-# Initialize
 init python:
     def init_enhanced_monitor():
-        print("Enhanced Game Monitor loaded")
-        print("Use monitor_all() or check_[storyline]_progress() commands")
+        print("Enhanced Game Monitor loaded successfully!")
+        print(f"Detected {len(DETECTED_VARIABLES)} game variables")
+        print("Use monitor_all() or enhanced monitor UI")
     
     config.start_callbacks.append(init_enhanced_monitor)
+
+# Aktifkan tombol overlay
+init python:
+    config.overlay_screens.append("monitor_button")
