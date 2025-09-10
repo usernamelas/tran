@@ -520,17 +520,31 @@ screen corruption_tab():
                         padding (10, 5)
                     
                     text "{size=24}{color=#ff4444}[mcorr]/9999{/color}" xsize 80 text_align 0.5
+                    
+                    
+                    
+                    
+#
 
 
 
-
-# Add mod button overlay
+# Combined mod overlay dengan Enhanced Mod di bawah, Monitor di atas
 screen mod_overlay():
     zorder 100
     
-    hbox:
-        xalign 1.0
-        yalign 1.0
+    vbox:
+        xalign 1.0  # Pojok kanan
+        yalign 0.0  # Mulai dari atas
+        spacing 5
+        
+        # Tombol Monitor - DI ATAS
+        textbutton "{color=#ff9900}Monitor{/color}" action Show("enhanced_monitor"):
+            text_size 16
+            background None
+            hover_background None
+            padding (10, 5)
+        
+        # Tombol Enhanced Mod - DI BAWAH
         textbutton "{color=#00ff00}Enhanced Mod{/color}" action ShowMenu("enhanced_joker_mod"):
             text_size 16
             background None
@@ -538,7 +552,11 @@ screen mod_overlay():
             padding (10, 5)
 
 init python:
+    # Aktifkan overlay combined
     config.overlay_screens.append("mod_overlay")
+    
+    # JANGAN aktifkan monitor_button terpisah lagi
+    # config.overlay_screens.append("monitor_button")  # HAPUS/COMMENT BARIS INI
 
 # Add hotkey for quick access (K key)
 define config.keymap['enhanced_mod'] = ['K']
