@@ -1,4 +1,4 @@
-name: All rpyc & rpymc 💀💀
+name: Compile RPYC💯
 on:
   workflow_dispatch:  # Hanya manual trigger
 
@@ -11,35 +11,31 @@ jobs:
       - name: Setup Project Structure
         run: |
           mkdir -p game
-          # Salin semua file .rpy dan .rpym
-          cp to_rpyc/*.rpy game/ || true  # "|| true" agar tidak error jika tidak ada file .rpy
-          cp to_rpyc/*.rpym game/ || true # "|| true" agar tidak error jika tidak ada file .rpym
+          cp to_rpyc/*.rpy game/
           echo "File yang akan dikompilasi:"
-          ls -la game/ # Perintah "ls -la" akan menampilkan semua file, termasuk .rpym
+          ls -l game/
           
       - name: Install Ren'Py SDK
         run: |
-          wget -q https://www.renpy.org/dl/8.1.3/renpy-8.1.3-sdk.tar.bz2
-          tar -xf renpy-8.1.3-sdk.tar.bz2
+          wget -q https://www.renpy.org/dl/8.4.1/renpy-8.4.1-sdk.tar.bz2
+          tar -xf renpy-8.4.1-sdk.tar.bz2
           echo "Ren'Py SDK versi:"
-          ./renpy-8.1.3-sdk/renpy.sh --version
+          ./renpy-8.4.1-sdk/renpy.sh --version
           
       - name: Compile Scripts
         run: |
-          ./renpy-8.1.3-sdk/renpy.sh ./game compile
+          ./renpy-8.4.1-sdk/renpy.sh ./game compile
           echo "Hasil kompilasi:"
-          ls -la game/ # Lihat semua file, termasuk .rpyc dan .rpymc
+          ls -l game/*.rpyc
           
       - name: Move Results
         run: |
           mkdir -p to_rpyc_compiled
-          # Pindahkan semua file hasil kompilasi
-          mv game/*.rpyc to_rpyc_compiled/ || true
-          mv game/*.rpymc to_rpyc_compiled/ || true
+          mv game/*.rpyc to_rpyc_compiled/
           echo "File hasil kompilasi:"
-          ls -la to_rpyc_compiled/
+          ls -l to_rpyc_compiled/
           
       - uses: actions/upload-artifact@v4
         with:
-          name: Compiled-RenPy-Files
-          path: to_rpyc_compiled/
+          name: Compiled-RPYC-Files
+          path: to_rpyc_compiled/*.rpyc

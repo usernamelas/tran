@@ -1,0 +1,613 @@
+
+
+translate english strings:
+
+
+    old "Начать"
+    new "Start"
+
+
+    old "История"
+    new "History"
+
+
+    old "Сохранить"
+    new "Save"
+
+
+    old "Загрузить"
+    new "Load"
+
+
+    old "Настройки"
+    new "Settings"
+
+
+    old "Завершить повтор"
+    new "Akhiri replay"
+
+
+    old "Главное меню"
+    new "Menu utama"
+
+
+    old "Об игре"
+    new "Tentang game"
+
+
+    old "Помощь"
+    new "Help"
+
+
+    old "Выход"
+    new "Exit"
+
+
+    old "Русский"
+    new "Рсский"
+
+
+    old "English"
+    new "English"
+
+
+    old "НОВАЯ ИГРА"
+    new "Game baru"
+
+
+    old "ЗАГРУЗИТЬ"
+    new "LOAD"
+
+
+    old "НАСТРОЙКИ"
+    new "SETTINGS"
+
+
+    old "ГАЛЕРЕЯ"
+    new "GALLERY"
+
+
+    old "НАШИ ИГРЫ"
+    new "Game kami"
+
+
+    old "DISCORD"
+    new "DISCORD"
+
+
+    old "ЯЗЫК"
+    new "LANGUAGE"
+
+
+    old "ВЫХОД"
+    new "EXIT"
+
+
+    old "Вернуться"
+    new "Return"
+
+
+    old "Версия [config.version!t]\n"
+    new "Versi [config.version!t] <! Newline!>"
+
+
+    old "Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    new "Dibuat dengan {a=https://www.renpy.org/} ren \ 'py {/a} [renpy.version_only]. <! Newline!> <! Newline!> [renpy.license!t]"
+
+
+    old "{} страница"
+    new "Halaman {}"
+
+
+    old "Автосохранения"
+    new "Autosaves"
+
+
+    old "Быстрые сохранения"
+    new "Penyelamatan cepat"
+
+
+    old "{#file_time}%A, %d %B %Y, %H:%M"
+    new "{#file_time} %a, %d %b %y, %h: %m"
+
+
+    old "Пустой слот"
+    new "Slot kosong"
+
+
+    old "<"
+    new "<"
+
+
+    old "{#auto_page}А"
+    new "{#auto_page} a"
+
+
+    old "{#quick_page}Б"
+    new "{#quick_page} b"
+
+
+    old ">"
+    new ">"
+
+
+    old "Загрузить Sync"
+    new "Unggah sinkronisasi"
+
+
+    old "Скачать Sync"
+    new "Unduh sinkronisasi"
+
+
+    old "Режим экрана"
+    new "Screen"
+
+
+    old "Оконный"
+    new "Windowed"
+
+
+    old "Полный"
+    new "Fullscreen"
+
+
+    old "Пропуск"
+    new "Skip"
+
+
+    old "Всего текста"
+    new "Semua teks"
+
+
+    old "После выборов"
+    new "Setelah pilihan"
+
+
+    old "Переходов"
+    new "Transitions"
+
+
+    old "Шрифт диалогов"
+    new "Font Dialog"
+
+
+    old "{font=PTC55F.ttf}Обычный{/font}"
+    new "{font=PTC55F.ttf} normal {/font}"
+
+
+    old "{font=PTS56F.ttf}Курсив{/font}"
+    new "{font=PTS56F.ttf} Italic {/font}"
+
+
+    old "{font=SpecialElite.ttf}Красивый{/font}"
+    new "{font=SpecialElite.ttf} Spesial {/font}"
+
+
+    old "Скорость текста"
+    new "Kecepatan teks"
+
+
+    old "Скорость авточтения"
+    new "Kecepatan membaca otomatis"
+
+
+    old "Громкость музыки"
+    new "Volume Musik"
+
+
+    old "Громкость звуков"
+    new "Volume suara"
+
+
+    old "Тест"
+    new "Text"
+
+
+    old "Громкость голоса"
+    new "Volume Suara"
+
+
+    old "Без звука"
+    new "Bisu semua"
+
+
+    old "История диалогов пуста."
+    new "Sejarah dialog kosong."
+
+
+    old "Клавиатура"
+    new "Keyboard"
+
+
+    old "Мышь"
+    new "Mouse"
+
+
+    old "Геймпад"
+    new "Gamepad"
+
+
+    old "Enter"
+    new "Enter"
+
+
+    old "Прохождение диалогов, активация интерфейса."
+    new "Melalui dialog, mengaktifkan antarmuka."
+
+
+    old "Пробел"
+    new "Space"
+
+
+    old "Прохождение диалогов без возможности делать выбор."
+    new "Melalui dialog tanpa bisa membuat pilihan."
+
+
+    old "Стрелки"
+    new "Arrows"
+
+
+    old "Навигация по интерфейсу."
+    new "Menavigasi antarmuka."
+
+
+    old "Esc"
+    new "Esc"
+
+
+    old "Вход в игровое меню."
+    new "Masuk ke menu Game."
+
+
+    old "Ctrl"
+    new "Ctrl"
+
+
+    old "Пропускает диалоги, пока зажат."
+    new "Lewati dialog saat ditekan."
+
+
+    old "Tab"
+    new "Tab"
+
+
+    old "Включает режим пропуска."
+    new "Mengaktifkan mode lewati."
+
+
+    old "Page Up"
+    new "Halaman UP"
+
+
+    old "Откат назад по сюжету игры."
+    new "Kembali melalui alur cerita permainan"
+
+
+    old "Page Down"
+    new "Halaman Down"
+
+
+    old "Откатывает предыдущее действие вперёд."
+    new "Gulung tindakan sebelumnya."
+
+
+    old "Скрывает интерфейс пользователя."
+    new "Menyembunyikan antarmuka pengguna."
+
+
+    old "Делает снимок экрана."
+    new "Mengambil tangkapan layar layar."
+
+
+    old "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
+    new "Termasuk {a=https://www.renpy.org/l/voicing} ucapan Synthesizer {/a}."
+
+
+    old "Открывает меню специальных возможностей."
+    new "Membuka menu fitur khusus."
+
+
+    old "Левый клик"
+    new "Klik kiri"
+
+
+    old "Клик колёсиком"
+    new "Mousewheel klik"
+
+
+    old "Правый клик"
+    new "Klik kanan"
+
+
+    old "Колёсико вверх"
+    new "Mousewheel naik"
+
+
+    old "Колёсико вниз"
+    new "Mousewheel Down"
+
+
+    old "Правый триггер\nA/Нижняя кнопка"
+    new "Pemicu kanan <! Newline!> Tombol A/Bottom"
+
+
+    old "Левый Триггер\nЛевый Бампер"
+    new "Pemicu kiri <! Newline!> Bumper kiri"
+
+
+    old "Правый бампер"
+    new "Bumper kanan"
+
+
+    old "Крестовина, Стики"
+    new "Crosshead, tongkat"
+
+
+    old "Старт, Гид, B/Правая кнопка"
+    new "Mulai, Panduan, Tombol Kanan"
+
+
+    old "Y/Верхняя кнопка"
+    new "Tombol Y/TOP"
+
+
+    old "Калибровка"
+    new "Calibration"
+
+
+    old "Да"
+    new "Yes"
+
+
+    old "Нет"
+    new "No"
+
+
+    old "Пропускаю"
+    new "Skipping"
+
+
+    old "Персонаж"
+    new "Character"
+
+
+    old "Отношения"
+    new "Relationship"
+
+
+    old "Дневник"
+    new "Diary"
+
+
+    old "Закрыть"
+    new "Close"
+
+
+    old "Страница [i]"
+    new "Halaman [i]"
+
+
+    old "Назад"
+    new "Back"
+
+
+    old "Результат броска кубика"
+    new "Hasil dari gulungan die"
+
+
+    old "{} ({}-{})"
+    new "{} ({}-{})"
+
+
+    old "Принять"
+    new "Accept"
+
+
+    old "Ввести своё значение"
+    new "Masukkan nilai Anda"
+
+
+    old "Введите значение:"
+    new "Masukkan nilai:"
+
+
+    old "Подтвердить"
+    new "Confirm"
+
+
+    old "На перекрестке:"
+    new "Di persimpangan:"
+
+
+    old "Пример текущего шрифта диалога. Выберите другой, если хотите:"
+    new "Contoh font dialog saat ini. Pilih yang berbeda jika Anda mau:"
+
+
+    old "Принять и выйти"
+    new "Terima dan lanjutkan"
+
+
+
+translate english strings:
+
+
+    old "В следующих версиях"
+    new "Di versi yang akan datang"
+
+
+    old "Галерея"
+    new "Gallery"
+
+
+    old "Achievements"
+    new "Чивки"
+
+
+    old "Карты"
+    new "Map"
+
+
+
+translate english strings:
+
+
+    old "Ачивки"
+    new "Achievements"
+
+
+
+translate english strings:
+
+
+    old "Возможности"
+    new "Opportunities"
+
+
+    old "Возможности:"
+    new "Opportunities"
+
+
+
+translate english strings:
+
+
+    old "Отношения с Тайлером"
+    new "Hubungan dengan Tyler"
+
+
+    old "Отношения с Шелли"
+    new "Hubungan dengan Shelly"
+
+
+    old "Отношения с Джастином"
+    new "Hubungan dengan Justin"
+
+
+
+
+
+translate english strings:
+
+
+    old "{#file_time}%A, %B %d %Y, %H:%M"
+    new "{#file_time} %a, %b %d %y, %h: %m"
+
+
+
+    old "empty slot"
+    new "slot kosong"
+
+
+    old "Save Name"
+    new "Simpan nama"
+
+
+    old "{u}Save the Game{/u}"
+    new "{u} simpan game {/u}"
+
+
+    old "Save game names"
+    new "Simpan nama game"
+
+
+    old "Деньги: [fcs.money:,.0f]"
+    new "Uang: [fcs.money:,.0f]"
+
+
+    old "Требуется: [item.condition!t]"
+    new "Diperlukan: [item.condition!t]"
+
+
+
+translate english strings:
+
+
+    old "Финансы"
+    new "Finances"
+
+
+    old "Инвентарь"
+    new "Inventory"
+
+
+    old "Достижения"
+    new "Achievements"
+
+
+    old "Мои видеозаписи"
+    new "Video saya"
+
+
+    old "Завершить работу"
+    new "Akhir pekerjaan"
+
+
+    old "Финансовый менеджер"
+    new "Manajer Keuangan"
+
+
+    old "Общий баланс: $[fcs.money]"
+    new "Total Saldo: $ [fcs.money]"
+
+
+    old "ДОХОДЫ"
+    new "INCOME"
+
+
+    old "ИТОГО ДОХОДОВ:"
+    new "Total Penghasilan:"
+
+
+    old "ИТОГО РАСХОДОВ:"
+    new "Total biaya:"
+
+
+    old "ЧИСТЫЙ ДОХОД:"
+    new "PENDAPATAN BERSIH:"
+
+
+    old "Инвентарь пуст"
+    new "Inventaris kosong"
+
+
+    old "РАСХОДЫ"
+    new "EXPENSES"
+
+
+
+    old "{}"
+    new "{}"
+
+
+
+translate english strings:
+
+
+    old "Отключить код подписчика"
+    new "Nonaktifkan Kode Pelanggan"
+
+
+    old "Ввести код подписчика"
+    new "Masukkan Kode Pelanggan"
+
+
+    old "Код подписчика активен"
+    new "Kode pelanggan aktif"
+
+
+    old "Выключить код подписчика"
+    new "Matikan Kode Pelanggan"
+
+
+    old "Введите код:"
+    new "Masukkan kode:"
+
+
+    old "Неправильный код!"
+    new "Kode yang salah!"
+
+
+    old "ОК"
+    new "OK"
+return
+# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

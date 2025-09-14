@@ -1,6 +1,8 @@
 downloads/
 temp_splits/
 de/
+to_rpyn/
+rpy/
 
 # Ignore semua file dengan ekstensi tertentu
 *.txt
