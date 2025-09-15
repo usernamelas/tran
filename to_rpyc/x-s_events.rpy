@@ -7967,7 +7967,7 @@ translate id strings:
     new "- Gunakan jari"
 
 
-    old "'"
+    old "- Предложить «потереть спинку»"
     new "- Tawarkan untuk 'menggosok punggungnya' "
 
 
@@ -8043,7 +8043,7 @@ translate id strings:
     new "- ciuman suami"
 
 
-    old "'"
+    old "- Попроситься на «коленочки»"
     new "- Minta untuk duduk di pangkuannya"
 
 
@@ -8092,10 +8092,10 @@ translate id strings:
 
 
     old "- ласкать клитор"
-    new "- CLITORIS CARESS"
+    new "- membelai klitoris"
 
 
-    old "'"
+    old "- Засунуть пальчик во влагалище"
     new "- Masukkan jari di dalam"
 
 
