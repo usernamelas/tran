@@ -380,7 +380,7 @@ translate id bedroom_night_events3_2e749562:
 translate id night_standart_e9cab39b:
 
 
-    "Emma merasakan perutnya dengan keras menuntut perhatian. Berjingkat -jingkat ke lemari es, pikirnya, well, setidaknya seseorang di rumah ini selalu siap untuk menyambut saya, teman terpercaya saya, lemari es. \ '"
+    "Emma merasakan perutnya dengan keras menuntut perhatian. Berjingkat -jingkat ke lemari es, pikirnya, well, setidaknya seseorang di rumah ini selalu siap untuk menyambut saya, teman terpercaya saya, lemari es.'"
 
 
 translate id bedroom_morning_events_random_0_low_0_a4012868:
@@ -560,7 +560,7 @@ translate id bedroom_morning_events_random_0_medium_3_ab4a8437:
 translate id bedroom_morning_events_random_0_medium_3_800e0dde:
 
 
-    ty "- Anda tahu yang mana. Apakah ini, seperti, bonus untuk \ 'selamat pagi \'?"
+    ty "- Anda tahu yang mana. Apakah ini, seperti, bonus untuk 'selamat pagi'?"
 
 
 translate id bedroom_morning_events_random_0_medium_3_5dedb7ec:
@@ -1070,7 +1070,7 @@ translate id bedroom_morning_events_random_0_high_0_1_2_1_a8dcc127:
 translate id bedroom_morning_events_random_0_high_0_1_2_1_b40efd33:
 
 
-    em "- Just \ 'Mhm \'?"
+    em "- Just 'Mhm'?"
 
 
 translate id bedroom_morning_events_random_0_high_0_1_2_1_6b522072:
@@ -2090,7 +2090,7 @@ translate id bedroom_night_events1_massage_fingering_49_1ce32869:
 translate id bedroom_night_events1_massage_fingering_49_43a4f195:
 
 
-    ty "- Katakan: \ 'Persetan dengan vaginaku dengan jari -jarimu. \'"
+    ty "- Katakan: 'Persetan dengan vaginaku dengan jari -jarimu.' "
 
 
 translate id bedroom_night_events1_massage_fingering_49_af4e30ca:
@@ -2282,7 +2282,7 @@ translate id bedroom_night_events1_massage_fingering_49_3f8e6d27:
 translate id bedroom_night_events1_massage_fingering_49_39873c86:
 
 
-    ty "- Ini dia. Sekarang tambahkan: \ 'dan saya akan menelan setiap tetes terakhir. \'"
+    ty "- Ini dia. Sekarang tambahkan: 'dan saya akan menelan setiap tetes terakhir. \' "
 
 
 translate id bedroom_night_events1_massage_fingering_49_e19c2d32:
@@ -2480,7 +2480,7 @@ translate id take_bath_with_husband_events_a12e829d:
 translate id take_bath_with_husband_events_586e699f:
 
 
-    ty "- Saya mencoba bersantai, tidak berhasil. Mari kita simpan \ 'menarik \' untuk nanti."
+    ty "- Saya mencoba bersantai, tidak berhasil. Mari kita simpan 'menarik' untuk nanti."
 
 
 translate id take_bath_with_husband_events_6c6e1dd1:
@@ -3356,7 +3356,7 @@ translate id livingroom_black_dildo_events_bcf11817:
 translate id livingroom_black_dildo_events_bed8aa64:
 
 
-    em "-A-AH! .. I \ 'M Cumming-G-G! .."
+    em "-A-AH! .. I'M Cumming-G-G! .."
 
 
 translate id livingroom_black_dildo_events_3889d0bf:
@@ -4220,7 +4220,7 @@ translate id sex_system_morning_3_fe62250e:
 translate id sex_system_morning_3_c7d17707:
 
 
-    em "(tersedak) - ya! Saya \ 'm ... apapun yang Anda inginkan ..."
+    em "(tersedak) - ya! Saya m ... apapun yang Anda inginkan ..."
 
 
 translate id sex_system_morning_3_8032417a:
@@ -4406,7 +4406,7 @@ translate id sex_system_morning_fight_7441b730:
 translate id sex_system_morning_fight_04844c04:
 
 
-    em "- Apa maksudmu, \ 'selesai \'?"
+    em "- Apa maksudmu, \'selesai'?"
 
 
 translate id sex_system_morning_fight_6b26c76e:
@@ -4436,7 +4436,7 @@ translate id sex_system_morning_emmaall_cef1ed6f:
 translate id sex_system_morning_emmaall_f4b1308b:
 
 
-    ty "- Apa maksudmu, \ 'selesai \'? Anda membunuhnya."
+    ty "- Apa maksudmu, 'selesai'? Anda membunuhnya."
 
 
 translate id sex_system_morning_emmaall_1e3ec4b1:
@@ -4586,7 +4586,7 @@ translate id sex_system_night_1_4c461b2f:
 translate id sex_system_night_emmacum1_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku m ... hampir sampai! .."
 
 
 translate id sex_system_night_emmacum1_7646e8a1:
@@ -4682,7 +4682,7 @@ translate id sex_system_night_2_85e272c3:
 translate id sex_system_night_emmacum2_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku m ... hampir sampai! .."
 
 
 translate id sex_system_night_emmacum2_7646e8a1:
@@ -4808,7 +4808,7 @@ translate id sex_system_night_3_b66ae61a:
 translate id sex_system_night_emmacum3_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku m ... hampir sampai! .."
 
 
 translate id sex_system_night_emmacum3_7646e8a1:
@@ -4916,7 +4916,7 @@ translate id sex_system_night_4_556a7c52:
 translate id sex_system_night_emmacum4_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku m ... hampir sampai! .."
 
 
 translate id sex_system_night_emmacum4_7646e8a1:
@@ -5066,7 +5066,7 @@ translate id sex_system_night_5_be90ae7a:
 translate id sex_system_night_emmacum5_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku m ... hampir sampai! .."
 
 
 translate id sex_system_night_emmacum5_7646e8a1:
@@ -5126,7 +5126,7 @@ translate id sex_system_night_fight_7441b730:
 translate id sex_system_night_fight_04844c04:
 
 
-    em "- Apa maksudmu, \ 'selesai \'?"
+    em "- Apa maksudmu,'selesai '?"
 
 
 translate id sex_system_night_fight_6b26c76e:
@@ -5156,7 +5156,7 @@ translate id sex_system_night_emmaall_cef1ed6f:
 translate id sex_system_night_emmaall_f4b1308b:
 
 
-    ty "- Apa maksudmu, \ 'selesai \'? Anda membunuhnya."
+    ty "- Apa maksudmu, 'selesai'? Anda membunuhnya."
 
 
 translate id sex_system_night_emmaall_1e3ec4b1:
@@ -5853,7 +5853,7 @@ translate id sex_system_shower_1_8f7a38c7:
 translate id sex_system_shower_emmacum1_51c12fdc:
 
 
-    em "- Tyler ... aku \ 'm ... hampir sampai! .."
+    em "- Tyler ... aku 'm ... hampir sampai! .."
 
 
 translate id sex_system_shower_emmacum1_78694be6:
@@ -6357,7 +6357,7 @@ translate id sex_system_shower_anal_1_5d594635:
 translate id sex_system_shower_anal_1_8c228ea6:
 
 
-    em "- apa sih \ 'hang in sana \'! Tarik keluar ... ow! .. sekarang!"
+    em "- apa sih 'hang in sana '! Tarik keluar ... ow! .. sekarang!"
 
 
 translate id sex_system_shower_anal_1_6738f74d:
@@ -7137,7 +7137,7 @@ translate id work_coffee_events_df3d6e33:
 translate id work_coffee_events_21c9a07b:
 
 
-    bari "- Tentu saja, ma \ 'am."
+    bari "- Tentu saja, ma'am."
 
 
 translate id work_coffee_events_ebee5406:
@@ -7968,7 +7968,7 @@ translate english strings:
 
 
     old "- Предложить «потереть спинку»"
-    new "- Tawarkan untuk \ 'menggosok punggungnya \'"
+    new "- Tawarkan untuk 'menggosok punggungnya' "
 
 
     old "- Помыться вместе."
@@ -8417,13 +8417,13 @@ translate id town_beach_kai_check_bdb62fe0:
 translate id town_beach_kai_check_7090953a:
 
 
-    "{size=+10} emma {color=#f00} {u} isn \ 'T cukup rusak {/u} {/color} untuk ini, atau kode pelanggan diperlukan. (Korupsi di bawah 25)"
+    "{size=+10} emma {color=#f00} {u} iTu cukup rusak {/u} {/color} untuk ini, atau kode pelanggan diperlukan. (Korupsi di bawah 25)"
 
 
 translate id town_beach_kai_check_8def7d79:
 
 
-    "{size=+10} Emma \ 's {u} terlalu moral {/u} untuk ini, atau kode pelanggan diperlukan. (Moralitas di atas 60)"
+    "{size=+10} Emma's {u} terlalu moral {/u} untuk ini, atau kode pelanggan diperlukan. (Moralitas di atas 60)"
 
 
 translate id town_beach_kai_no_fecd1abd:
@@ -8453,7 +8453,7 @@ translate id town_beach_kai_no_d76cdc89:
 translate id town_beach_kai_no_87831204:
 
 
-    kai "- Senang bertemu denganmu, Emma. I \ 'M Kayan."
+    kai "- Senang bertemu denganmu, Emma. I'M Kayan."
 
 
 translate id town_beach_kai_no_e070aed6:
@@ -8717,7 +8717,7 @@ translate id town_beach_events_kai_ask_about_her_3f5e9588:
 translate id town_beach_events_kai_ask_about_her_1c37da18:
 
 
-    em "- Tidak mungkin ... Anda tidak benar -benar menjerit \ 'artis \' pada pandangan pertama."
+    em "- Tidak mungkin ... Anda tidak benar -benar menjerit 'artis' pada pandangan pertama."
 
 
 translate id town_beach_events_kai_ask_about_her_a0bdad8f:
@@ -9023,7 +9023,7 @@ translate id work_events_meeting_6_2_ed36e8d9:
 translate id work_events_meeting_6_2_fc1ff527:
 
 
-    boss "- Kolega, saya pikir Anda semua telah memperhatikan: sesuatu dalam strategi kami tidak lagi bekerja. Saya terus mendengar akhir -akhir ini: \ 'The Market Down, \' \ 'Klien tidak membeli \'…"
+    boss "- Kolega, saya pikir Anda semua telah memperhatikan: sesuatu dalam strategi kami tidak lagi bekerja. Saya terus mendengar akhir -akhir ini: 'The Market Down,' 'Klien tidak membeli'…"
 
 
 translate id work_events_meeting_6_2_d442ee42:
@@ -9635,7 +9635,7 @@ translate id tyler_lil_3_4_d5dc66c2:
 translate id tyler_lil_3_4_adf3929e:
 
 
-    lil "- Tidak, tidak, bukan tentang belajar, tetapi tentang itu \ 'rileks dan bersantai. Saya berpikir ... mungkin kita bisa menonton sesuatu. Bersama."
+    lil "- Tidak, tidak, bukan tentang belajar, tetapi tentang itu'rileks dan bersantai. Saya berpikir ... mungkin kita bisa menonton sesuatu. Bersama."
 
 
 translate id tyler_lil_3_4_816deab0:
@@ -10157,7 +10157,7 @@ translate id tyler_lil_3_6_1_soft_c6dbb9ce:
 translate id tyler_lil_3_6_1_soft_a73d5cd9:
 
 
-    "Pikirannya berkabut ... dia akan melupakan film itu, ketakutannya ... bahkan Tyler sudah menikah. Semua yang ada hanyalah \ 'di sini dan sekarang \' - perpaduan bibir dan lidah mereka ... dan panasnya tangannya di dadanya."
+    "Pikirannya berkabut ... dia akan melupakan film itu, ketakutannya ... bahkan Tyler sudah menikah. Semua yang ada hanyalah 'di sini dan sekarang' - perpaduan bibir dan lidah mereka ... dan panasnya tangannya di dadanya."
 
 
 translate id tyler_lil_3_6_1_soft_f2b0c921:
@@ -10397,7 +10397,7 @@ translate id work_events_morning_day_7_boss_9e74b0c4:
 translate id work_events_morning_day_7_boss_651f42da:
 
 
-    em "(Pikiran) Tetap saja, hal itu mendaki rok Anda \ 'hal ... sial, bagaimana Anda melupakan sesuatu seperti itu?"
+    em "(Pikiran) Tetap saja, hal itu mendaki rok Anda'hal ... sial, bagaimana Anda melupakan sesuatu seperti itu?"
 
 
 translate id work_events_meeting_8_61feea97:
@@ -10979,7 +10979,7 @@ translate id work_events_meeting_8_3_9c3222ea:
 translate id work_events_meeting_8_3_0cbccc00:
 
 
-    vic "- Harus? Oh, tidak, tidak ada \ 'yang harus \' di sini."
+    vic "- Harus? Oh, tidak, tidak ada 'yang harus ' di sini."
 
 
 translate id work_events_meeting_8_3_aa2230be:
@@ -11536,7 +11536,7 @@ translate english strings:
 
 translate id town_beach_kai_no_9d12eea9:
 
-    note "Anda tidak bisa melanjutkan adegan ini karena Emma masih terlalu dicadangkan. \ 'Ini disengaja - demi pengembangan karakter yang seimbang."
+    note "Anda tidak bisa melanjutkan adegan ini karena Emma masih terlalu dicadangkan. 'Ini disengaja - demi pengembangan karakter yang seimbang."
 
 
 translate id town_beach_kai_no_fb417e6d:
@@ -11740,7 +11740,7 @@ translate id day_9_victor_70355737:
 
 translate id day_9_victor_266506a9:
 
-    vic "- Yah, \ 'Old \' bukan bagian dari kesepakatan ... tapi apa pun, tidak masalah. Kolektor itu adalah saya. Anda perlu meyakinkan saya untuk membeli lukisan ini, kekurangan dan semuanya."
+    vic "- Yah, 'tua' bukan bagian dari kesepakatan ... tapi apa pun, tidak masalah. Kolektor itu adalah saya. Anda perlu meyakinkan saya untuk membeli lukisan ini, kekurangan dan semuanya."
 
 
 translate id day_9_victor_bc8426ac:
@@ -12340,7 +12340,7 @@ translate id quest_watcher_1_d69fbbfc:
 
 translate id quest_watcher_1_bfb010bb:
 
-    em "- Teduh?! Aku akan menunjukkan naunganmu \ '!"
+    em "- Teduh?! Aku akan menunjukkan naunganmu! "
 
 
 translate id quest_watcher_1_1499895b:
@@ -12545,7 +12545,7 @@ translate id quest_watcher_4_close_ac75513d:
 
 translate id quest_watcher_4_close_d5274372:
 
-    nbb "- Aku ... uh ... aku \ 'm kyle."
+    nbb "- Aku ... uh ... aku m kyle."
 
 
 translate id quest_watcher_4_close_219f76a9:
@@ -12792,7 +12792,7 @@ translate id quest_watcher_4_play_76a376ff:
 
 translate id quest_watcher_4_play_e263a9fc:
 
-    em "- Hanya \ 'baiklah \' dan itu? Ugh, ksatria hari ini tidak seperti dulu."
+    em "- Hanya 'baiklah' dan itu? Ugh, ksatria hari ini tidak seperti dulu."
 
 
 translate id quest_watcher_4_play_1c8ca14f:
@@ -13548,7 +13548,7 @@ translate id day9_client_42c68a8e:
 
 translate id day9_client_81164401:
 
-    em "- Saya maafkan, ma \ 'am… Bolehkah saya memiliki nama Anda?"
+    em "- Saya maafkan, ma'am… Bolehkah saya memiliki nama Anda?"
 
 
 translate id day9_client_aede1660:
@@ -13573,7 +13573,7 @@ translate id day9_client_8708eefc:
 
 translate id day9_client_7974fc07:
 
-    em "- Saya minta maaf, ma \ 'am. Anda benar, saya baru di sini. Itu hanya bagian dari pekerjaan saya."
+    em "- Saya minta maaf, ma'am. Anda benar, saya baru di sini. Itu hanya bagian dari pekerjaan saya."
 
 
 translate id day9_client_432f4801:
@@ -13583,7 +13583,7 @@ translate id day9_client_432f4801:
 
 translate id day9_client_3428e9be:
 
-    em "- Tolong ambil lift itu, ma \ 'am."
+    em "- Tolong ambil lift itu, ma'am."
 
 
 translate id day9_client_bb447fce:
