@@ -7968,7 +7968,7 @@ translate english strings:
 
 
     old "'"
-    new "- Tawarkan untuk \ 'menggosok punggungnya \'"
+    new "- Tawarkan untuk 'menggosok punggungnya' "
 
 
     old "- поыться Вместе."
