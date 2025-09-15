@@ -7875,12 +7875,12 @@ translate id strings:
     new "- Melanjutkan"
 
 
-    old "- сделать минет."
-    new "- Berikan blowjob"
+    old "– сделать минет."
+    new "– Berikan blowjob"
 
 
-    old "- пойти В д д."
-    new "- Mandi"
+    old "– Пойти в душ."
+    new "– Mandi"
 
 
     old "- принять лски"
