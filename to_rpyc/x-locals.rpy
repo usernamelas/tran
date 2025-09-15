@@ -4429,6 +4429,5 @@ init -100 $
             6: "Kisah dengan anak tetangga mengambil belokan tak terduga. Bukan hanya aku membiarkannya mendekat untuk melihatku, tapi aku juga membuatnya melepas pakaian. Aku pikir itu akan jadi balas dendam kecil, tapi sepertinya... aku akhirnya menyukainya. Harus kuakui, anak itu terlihat bagus. Terutama ketika dia terangsang. Dan sekarang aku tahu namanya. Kyle. \nDalam pengembangan."
         }
     }
-
 return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
