@@ -8091,8 +8091,8 @@ translate id strings:
     new "Bayangkan Tyler"
 
 
-    old "- ласкать клитор"
-    new "- membelai klitoris"
+    old "– ласкать клитор"
+    new "– membelai klitoris"
 
 
     old "- Засунуть пальчик во влагалище"
