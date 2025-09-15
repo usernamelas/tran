@@ -14253,12 +14253,12 @@ translate english strings:
     new "Level 1 - Model Fashion Klasik"
 
 
-    old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс < 14, Стрип-пластика > 9{/size}{/color}"
-    new "Level 2 – Lingerie, cosplay, and semi-nude photos \n{color=#00FF00}{size=20}Morality < 57, Depravity > 35, Fitness < 14, Strip dance > 9{/size}{/color}"
+    old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \\n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 14, Стрип-пластика > 9{/size}{/color}"
+    new "Level 2 – Lingerie, cosplay, and semi-nude photos \n{color=#00FF00}{size=20}Morality < 57, Depravity > 35, Fitness > 14, Strip dance > 9{/size}{/color}"
 
 
-    old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс < 9, Стрип-пластика > 7{/size}{/color}"
-    new "Level 2 – Lingerie, cosplay, and semi-nude photos \n{color=#00FF00}{size=20}Morality < 57, Depravity > 35, Fitness < 9, Strip dance > 7{/size}{/color}"
+    old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \\n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 9, Стрип-пластика > 7{/size}{/color}"
+    new "Level 2 – Lingerie, cosplay, and semi-nude photos \n{color=#00FF00}{size=20}Morality < 57, Depravity > 35, Fitness > 9, Strip dance > 7{/size}{/color}"
 
 
     old "– Да пошёл бы он…"
