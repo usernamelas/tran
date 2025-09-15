@@ -8321,7 +8321,7 @@ translate english strings:
 
 
     old "Сделать селфи\n{color=#00FF00}{size=20}Эксгибиционим > 14, один раз в день{/size}{/color}"
-    new "Ambil selfie <! Newline!> {color=#00FF00} {size=20} eksibisionisme> 14, sekali per hari {/size} {/color}"
+    new "Ambil selfie \n {color=#00FF00} {size=20} eksibisionisme> 14, sekali per hari {/size} {/color}"
 
 
     old "– Отдохнуть на шезлонге /+1 час, 1 раз в день/ (+ 2 к запасу сил)"
@@ -11323,11 +11323,11 @@ translate english strings:
 
 
     old "– Согласиться. \n{color=#00FF00}{size=20}Если отношения с Эммой < 10{/size}{/color}"
-    new "- Setuju <! Newline!> {color=#00FF00} {size=20} Jika hubungan dengan Emma <10 {/size} {/color}"
+    new "- Setuju \n {color=#00FF00} {size=20} Jika hubungan dengan Emma <10 {/size} {/color}"
 
 
     old "– Согласиться. \n{color=#00FF00}{size=20}Код подписчика{/size}{/color}"
-    new "- Setuju <! Newline!> {color=#00FF00} {size=20} Kode pelanggan {/size} {/color}"
+    new "- Setuju \n {color=#00FF00} {size=20} Kode pelanggan {/size} {/color}"
 
 
     old "- Отказаться."
@@ -14154,7 +14154,7 @@ translate english strings:
 
 
     old "– Помастурбировать \n{color=#00FF00}{size=20}Эксгибиционизм > 19 и Желание > 3, или код подписчика {/size}{/color}"
-    new "- masturbasi <! Newline!> {color=#00FF00} {size=20} eksibisionisme> 19 dan keinginan> 3, atau kode pelanggan {/size} {/color}"
+    new "- masturbasi \n {color=#00FF00} {size=20} eksibisionisme> 19 dan keinginan> 3, atau kode pelanggan {/size} {/color}"
 
 
     old "– /Код подписчика/ Начать квест \"Таинственный наблюдатель\". \n{color=#00FF00}{size=20}Начиная с 6го дня.{/size}{/color}"
@@ -14254,11 +14254,11 @@ translate english strings:
 
 
     old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 14, Стрип-пластика > 9{/size}{/color}"
-    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude <! Newline!> {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 14, Strip Dance> 9 {/size} {/color}"
+    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 14, Strip Dance> 9 {/size} {/color}"
 
 
     old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 9, Стрип-пластика > 7{/size}{/color}"
-    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude <! Newline!> {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 9, Strip Dance> 7 {/size} {/color}"
+    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 9, Strip Dance> 7 {/size} {/color}"
 
 
     old "– Да пошёл бы он…"
@@ -14290,7 +14290,7 @@ translate english strings:
 
 
     old "Раздеться \n{color=#00FF00}{size=20}Эксгибиционизм > 24{/size}{/color}(+1 Эксбиционизм, +1 развращение)"
-    new "Undress <! Newline!> {color=#00FF00} {size=20} Exhibitionism> 24 {/size} {/color} ( +1 eksibisionisme, +1 kebobrokan)"
+    new "Undress \n {color=#00FF00} {size=20} Exhibitionism> 24 {/size} {/color} ( +1 eksibisionisme, +1 kebobrokan)"
 
 
 
@@ -14520,6 +14520,6 @@ translate english strings:
     new "Dia brengsek, tapi dia benar"
 
     old "Раздеться \n{color=#00FF00}{size=20}Эксгибиционизм > 24{/size}{/color}"
-    new "Undress <! NEWLINE!> {color=#00FF00} {size=20} Exhibitionism> 24 {/size} {/color}"
+    new "Undress \n {color=#00FF00} {size=20} Exhibitionism> 24 {/size} {/color}"
 return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

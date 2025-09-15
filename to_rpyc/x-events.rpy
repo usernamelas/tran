@@ -12,7 +12,7 @@ translate id events_day3_12_5_47a27895:
 
 translate id events_day3_12_5_cdfd1a80:
 
-    sec "- Saya Sophie, Tn. Stevens \ 'Asisten Pribadi."
+    sec "- Saya Sophie, Tn. Stevens 'Asisten Pribadi."
 
 
 translate id events_day3_12_5_7d1a54b2:
@@ -172,7 +172,7 @@ translate id events_day3_12_5_2_e268b6ad:
 
 translate id events_day3_12_5_2_a4c459a4:
 
-    so "- Kedengarannya seperti Anda tidak terbiasa berpikir sama sekali. Aku langsung pergi ke Tn. Stevens untuk memberitahunya tentang sikap burukmu \ '."
+    so "- Kedengarannya seperti Anda tidak terbiasa berpikir sama sekali. Aku langsung pergi ke Tn. Stevens untuk memberitahunya tentang sikap burukmu  '."
 
 
 translate id events_day3_12_5_2_1dc954ba:
@@ -252,7 +252,7 @@ translate id events_day3_12_5_2_592c7842:
 
 translate id events_day3_12_5_2_89726fbc:
 
-    boss "- Laporan tentang kesepakatan \ 'Schliman & Co \' perlu diedit. Itu tugas prioritas."
+    boss "- Laporan tentang kesepakatan  'Schliman & Co' perlu diedit. Itu tugas prioritas."
 
 
 translate id events_day3_12_5_2_592c7842_1:
@@ -272,7 +272,7 @@ translate id events_day3_12_5_2_5ef3bfe7:
 
 translate id events_day3_12_5_2_fccc27fc:
 
-    "Tidak mengatakan apa -apa tentang itu, Emma tiba -tiba menyadari bahwa bos itu tidak menyebutkan sepatah kata pun tentang perintah yang seharusnya \ 'untuk mencalonkan diri untuk minum kopi."
+    "Tidak mengatakan apa -apa tentang itu, Emma tiba -tiba menyadari bahwa bos itu tidak menyebutkan sepatah kata pun tentang perintah yang seharusnya  'untuk mencalonkan diri untuk minum kopi."
 
 
 translate id events_day3_12_5_2_6512bf02:
@@ -297,7 +297,7 @@ translate id events_day3_12_5_jill_533aff9a:
 
 translate id events_day3_12_5_jill_373d68b9:
 
-    jil "- Yah ... kenalan, tentu saja. Tidak begitu yakin tentang \ 'menyenangkan. \'"
+    jil "- Yah ... kenalan, tentu saja. Tidak begitu yakin tentang 'menyenangkan.'"
 
 
 translate id events_day3_12_5_jill_d89d1bf8:
@@ -387,7 +387,7 @@ translate id events_day3_12_5_jill_48d1f8f6:
 
 translate id events_day3_12_5_jill_21c9a07b:
 
-    bari "- Tentu saja, ma \ 'am."
+    bari "- Tentu saja, ma'am."
 
 
 translate id events_day3_12_5_jill_a40a311b:
@@ -402,7 +402,7 @@ translate id events_day3_12_5_jill_a97a5899:
 
 translate id events_day3_12_5_jill_3c6f14eb:
 
-    jil "- Anda memberi tahu saya, tikungan nasib apa yang mendaratkan Anda di \ 'Stevens & Partners \'? Saya sangat ingin tahu."
+    jil "- Anda memberi tahu saya, tikungan nasib apa yang mendaratkan Anda di \ 'Stevens & Partners'? Saya sangat ingin tahu."
 
 
 translate id events_day3_12_5_jill_265687ee:
@@ -517,7 +517,7 @@ translate id events_day3_12_5_jill_0e396408:
 
 translate id events_day3_12_5_jill_4ac77fbd:
 
-    bari "- Terima kasih, ma \ 'am. Selalu senang melihatmu."
+    bari "- Terima kasih, ma'am. Selalu senang melihatmu."
 
 
 translate id events_day3_tyler_1_2cc18c1b:
@@ -897,7 +897,7 @@ translate id events_day3_tyler_8_55ebd1f5:
 
 translate id events_day3_tyler_8_c1e57217:
 
-    "Bibirnya menyikat pipi Tyler ... lembut dan hangat. Rasanya baginya seolah -olah mereka berlama -lama di kulitnya hanya sedikit lebih lama dari ciuman yang ramah \ 'akan menjamin."
+    "Bibirnya menyikat pipi Tyler ... lembut dan hangat. Rasanya baginya seolah -olah mereka berlama -lama di kulitnya hanya sedikit lebih lama dari ciuman yang ramah l'akan menjamin."
 
 
 translate id events_day3_tyler_8_fa41e083:
@@ -6279,7 +6279,7 @@ translate id day5_lake_emma_menu_1_e08842d7:
 translate id day5_lake_emma_menu_1_f2581432:
 
 
-    ty "- Proyek yang menumpuk, bos seperti biasa - mendesak dan kemarin. "Semuanya berantakan, proses di semua tempat ... dan sekarang mereka membuat saya macet dengan magang baru untuk berlatih."
+    ty "- Proyek yang menumpuk, bos seperti biasa - mendesak dan kemarin. Semuanya berantakan, proses di semua tempat ... dan sekarang mereka membuat saya macet dengan magang baru untuk berlatih."
 
 
 translate id day5_lake_emma_menu_1_abcf1483:
@@ -8787,7 +8787,7 @@ translate english strings:
 
 
     old "- Показать класс\n{color=#00FF00}{size=20}Стрип-пластика > 3{/size}{/color}"
-    new "- pamer <! Newline!> {color=#00FF00} {size=20} tiang tari> 3 {/size} {/color}"
+    new "- pamer \n{color=#00FF00} {size=20} tiang tari> 3 {/size} {/color}"
 
 
     old "- Закончить"

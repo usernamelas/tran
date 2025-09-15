@@ -488,7 +488,7 @@ translate english strings:
 
 
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Memuat akan kehilangan kemajuan yang belum disimpan. <! Newline!> Apakah Anda yakin ingin melakukan ini?"
+    new "Memuat akan kehilangan kemajuan yang belum disimpan. \nApakah Anda yakin ingin melakukan ini?"
 
 
     old "Are you sure you want to quit?"
@@ -496,7 +496,7 @@ translate english strings:
 
 
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Apakah Anda yakin ingin kembali ke menu utama? <! Newline!> Ini akan kehilangan kemajuan yang belum disimpan."
+    new "Apakah Anda yakin ingin kembali ke menu utama? \nIni akan kehilangan kemajuan yang belum disimpan."
 
 
     old "Are you sure you want to continue where you left off?"
@@ -776,7 +776,7 @@ translate english strings:
 
 
     old "Clipboard voicing enabled. Press 'shift+C' to disable."
-    new "Clipboard menyuarakan diaktifkan. Tekan \ 'shift+c \' untuk menonaktifkan."
+    new "Clipboard menyuarakan diaktifkan. Tekan shift+c untuk menonaktifkan."
 
 
     old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
@@ -784,7 +784,7 @@ translate english strings:
 
 
     old "Self-voicing enabled. Press 'v' to disable."
-    new "Diaktifkan oleh voicing diri. Tekan \ 'v \' untuk menonaktifkan."
+    new "Diaktifkan oleh voicing diri. Tekan 'v' untuk menonaktifkan."
 
 
     old "Speech Bubble Editor"
@@ -804,23 +804,23 @@ translate english strings:
 
 
     old "Could not connect to the Ren'Py Sync server."
-    new "Tidak dapat terhubung ke server sinkronisasi ren \ py."
+    new "Tidak dapat terhubung ke server sinkronisasi ren'py."
 
 
     old "The Ren'Py Sync server timed out."
-    new "Ren \ py Sync Server diatur waktunya."
+    new "Ren'py Sync Server diatur waktunya."
 
 
     old "An unknown error occurred while connecting to the Ren'Py Sync server."
-    new "Terjadi kesalahan yang tidak diketahui saat menghubungkan ke server sinkronisasi ren \ py."
+    new "Terjadi kesalahan yang tidak diketahui saat menghubungkan ke server sinkronisasi ren'py."
 
 
     old "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
-    new "Server Sync Ren \ py tidak memiliki salinan sinkronisasi ini. ID sinkronisasi mungkin tidak valid, atau mungkin sudah waktunya."
+    new "Server Sync Ren'py tidak memiliki salinan sinkronisasi ini. ID sinkronisasi mungkin tidak valid, atau mungkin sudah waktunya."
 
 
     old "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
-    new "Harap masukkan ID sinkronisasi yang Anda hasilkan. <! Newline!> Jangan pernah masukkan ID sinkronisasi yang tidak Anda buat sendiri."
+    new "Harap masukkan ID sinkronisasi yang Anda hasilkan. \Jangan pernah masukkan ID sinkronisasi yang tidak Anda buat sendiri."
 
 
     old "The sync ID is not in the correct format."
@@ -840,7 +840,7 @@ translate english strings:
 
 
     old "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
-    new "Ini akan mengunggah penyimpanan Anda ke {a=https://sync.renpy.org} ren \ 'py Sync Server {/a}. <! Newline!> Apakah Anda ingin melanjutkan?"
+    new "Ini akan mengunggah penyimpanan Anda ke {a=https://sync.renpy.org} ren'py Sync Server {/a}. \nApakah Anda ingin melanjutkan?"
 
 
     old "Yes"
@@ -868,7 +868,7 @@ translate english strings:
 
 
     old "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
-    new "Anda dapat menggunakan ID ini untuk mengunduh simpan di perangkat lain. <! Newline!> Sinkronisasi ini akan kedaluwarsa dalam satu jam. <! Newline!> Ren \ 'Py Sync didukung oleh {a=https://www.renpy.org/sponsors.html} ren \' sponsor py \ {/a}."
+    new "Anda dapat menggunakan ID ini untuk mengunduh simpan di perangkat lain. \nSinkronisasi ini akan kedaluwarsa dalam satu jam. \nRen'Py Sync didukung oleh {a=https://www.renpy.org/sponsors.html} ren \' sponsor py \ {/a}."
 
 
     old "Continue"
@@ -888,11 +888,11 @@ translate english strings:
 
 
     old "\n{color=#fff}Copied to clipboard.{/color}"
-    new "<! Newline!> {color=#fff} disalin ke clipboard. {/color}"
+    new "\n{color=#fff} disalin ke clipboard. {/color}"
 
 
     old "Contacting App Store\nPlease Wait..."
-    new "Menghubungi App Store <! Newline!> Harap tunggu ..."
+    new "Menghubungi App Store \nHarap tunggu ..."
 
 
     old "No update methods found."
