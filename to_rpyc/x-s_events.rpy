@@ -14254,11 +14254,11 @@ translate english strings:
 
 
     old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 14, Стрип-пластика > 9{/size}{/color}"
-    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 14, Strip Dance> 9 {/size} {/color}"
+    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n{color=#00FF00}{size=20} Moralitas <2> 35, Fitness> 14, Strip Dance> 9 {/size}{/color}"
 
 
     old "Уровень 2 – Нижнее бельё, косплей и полуобнажённые фото \n{color=#00FF00}{size=20}Мораль < 57, Развращение > 35, Финесс > 9, Стрип-пластика > 7{/size}{/color}"
-    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n {color=#00FF00} {size=20} Moralitas <2> 35, Fitness> 9, Strip Dance> 7 {/size} {/color}"
+    new "Level 2-Foto Lingerie, Cosplay, dan Semi-Nude \n {color=#00FF00}{size=20} Moralitas <2> 35, Fitness> 9, Strip Dance> 7 {/size}{/color}"
 
 
     old "– Да пошёл бы он…"

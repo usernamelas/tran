@@ -780,7 +780,7 @@ translate english strings:
 
 
     old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
-    new "Penyediaan diri akan mengatakan \"
+    new "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable.
 
 
     old "Self-voicing enabled. Press 'v' to disable."
