@@ -5415,7 +5415,7 @@ translate indonesian strings:
 
 
     old "– Да, конечно. (Тайлер -1, Джастин +1)"
-    new "- Ya, tentu (Tyler -1, Justin +1)"
+    new "– Ya, tentu (Tyler -1, Justin +1)"
 
 
     old "– Дам шанс мужу. (Тайлер +1)"
@@ -5423,35 +5423,35 @@ translate indonesian strings:
 
 
     old "– Разобрать вещи. (+2 часа, Тайлер +1, Мораль +1)"
-    new "- Unpack (+2 jam, Tyler +1, moral +1)"
+    new "– Unpack (+2 jam, Tyler +1, moral +1)"
 
 
     old "– Отдохнуть. (+2 часа, Мораль -1)"
-    new "- istirahat (+2 jam, moral -1)"
+    new "– istirahat (+2 jam, moral -1)"
 
 
     old "– Срочно переодеться!(Развращение – 1, Возбуждение – 1, Мораль +1)"
-    new "- ganti pakaian Anda segera! (Kebobrokan - 1, kegembiraan - 1, moralitas +1)"
+    new "– ganti pakaian Anda segera! (Kebobrokan - 1, kegembiraan - 1, moralitas +1)"
 
 
     old "– Да ничего особенного не произошло. (Развращение + 1, Возбуждение + 1, Мораль -1, Эксгибиционизм +1)"
-    new "-Tidak banyak yang terjadi (kebobrokan + 1, kegembiraan + 1, moralitas -1, pameran +1)"
+    new "–Tidak banyak yang terjadi (kebobrokan + 1, kegembiraan + 1, moralitas -1, pameran +1)"
 
 
     old "– Предложить ему чай. (Мораль +1.)"
-    new "- Tawarkan dia teh (moralitas +1)"
+    new "– Tawarkan dia teh (moralitas +1)"
 
 
     old "– Попрощаться."
-    new "- Ucapkan selamat tinggal"
+    new "– Ucapkan selamat tinggal"
 
 
     old "– Возмутиться (Развращение – 1, Мораль +1)"
-    new "- menjadi marah (kebobrokan - 1, moralitas +1)"
+    new "– menjadi marah (kebobrokan - 1, moralitas +1)"
 
 
     old "– Сделать вид, что не поняла (Развращение + 1, Возбуждение +1, Эксгибиционизм +1, Мораль - 1)"
-    new "- Berpura -pura tidak mengerti (kebobrokan +1, kegembiraan +1, eksibisionisme +1, moralitas - 1)"
+    new "– Berpura -pura tidak mengerti (kebobrokan +1, kegembiraan +1, eksibisionisme +1, moralitas - 1)"
 
 
     old "- Я ещё не успела его узнать."
@@ -5467,11 +5467,11 @@ translate indonesian strings:
 
 
     old "– Снять напряжение (Развращение +1, Мораль - 1, Тайлер -1)"
-    new "- Menghilangkan ketegangan (kebobrokan +1, moralitas - 1, tyler -1)"
+    new "– Menghilangkan ketegangan (kebobrokan +1, moralitas - 1, tyler -1)"
 
 
     old "– Отвлечь себя домашними делами (Мораль +1, Возбуждение -1, Тайлер +1)"
-    new "- mengalihkan perhatian diri Anda dengan pekerjaan rumah tangga (moral +1, kegembiraan -1, tyler +1)"
+    new "– mengalihkan perhatian diri Anda dengan pekerjaan rumah tangga (moral +1, kegembiraan -1, tyler +1)"
 
 
     old "- Заблокировать."
@@ -5483,27 +5483,27 @@ translate indonesian strings:
 
 
     old "– Может, снять напряжение… (Развращение +1)"
-    new "- Mungkin melepas keunggulan ... (kebobrokan +1)"
+    new "– Mungkin melepas keunggulan ... (kebobrokan +1)"
 
 
     old "– Просто почистить зубы и освежиться. (Возбуждение – 1, Мораль +1)"
-    new "- Cukup sikat gigi dan menyegarkan diri (kegembiraan - 1, moral +1)"
+    new "– Cukup sikat gigi dan menyegarkan diri (kegembiraan - 1, moral +1)"
 
 
     old "– Сварить кофе себе"
-    new "- Buat kopi untuk diriku sendiri"
+    new "– Buat kopi untuk diriku sendiri"
 
 
     old "– Сварить кофе мужу (Тайлер +1)"
-    new "- Buat kopi untuk suamiku (Tyler +1)"
+    new "– Buat kopi untuk suamiku (Tyler +1)"
 
 
     old "– Может, тогда выпьешь чаю? (Джастин +1)"
-    new "- Mengapa Anda tidak minum teh? (Justin +1)"
+    new "– Mengapa Anda tidak minum teh? (Justin +1)"
 
 
     old "– Воспользуйся нашим душем? (Джастин +2)"
-    new "- Gunakan kamar mandi kita? (Justin +2)"
+    new "– Gunakan kamar mandi kita? (Justin +2)"
 
 
     old "Может, пойти и посмотреть?"
@@ -5527,15 +5527,15 @@ translate indonesian strings:
 
 
     old "– Быстро в душ! (Развращение +2, Возбуждение +2 Мораль -2)"
-    new "- Cepat ke kamar mandi! (Kebobrokan +2, kegembiraan +2 moral -2)"
+    new "– Cepat ke kamar mandi! (Kebobrokan +2, kegembiraan +2 moral -2)"
 
 
     old "– Джастина – в шкаф! (Развращение +1 Возбуждение +1, Мораль -1)"
-    new "- Justin - ke dalam lemari! (Kebobrokan +1 Kegembiraan +1, Moralitas -1)"
+    new "– Justin - ke dalam lemari! (Kebobrokan +1 Kegembiraan +1, Moralitas -1)"
 
 
     old "– Лучше просто рассказать, как есть (Развращение -1, Возбуждение 0, Мораль -2)"
-    new "-Lebih baik untuk mengatakannya seperti itu (kebobrokan -1, kegembiraan 0, moralitas -2)"
+    new "–Lebih baik untuk mengatakannya seperti itu (kebobrokan -1, kegembiraan 0, moralitas -2)"
 
 
     old "Двигать членом (Джастин +1, Возбуждение +2, Развращение +1)"
@@ -5547,15 +5547,15 @@ translate indonesian strings:
 
 
     old "– Сделать то, что он хочет (+ 1 к развращению, + 1 к возбуждению + 1 к эксбиционизму, – 1 к морали, + 1 к сомнительная репутация)"
-    new "- Lakukan apa yang diinginkannya ( + 1 untuk kebobrokan, + 1 untuk kegembiraan + 1 untuk pameran, - 1 untuk moralitas, + 1 untuk reputasi yang dipertanyakan)"
+    new "– Lakukan apa yang diinginkannya ( + 1 untuk kebobrokan, + 1 untuk kegembiraan + 1 untuk pameran, - 1 untuk moralitas, + 1 untuk reputasi yang dipertanyakan)"
 
 
     old "– Отказаться (Стивенс +1, + 1 к морали)"
-    new "- Refuse (Stevens +1, + 1 ke moral)"
+    new "– Refuse (Stevens +1, + 1 ke moral)"
 
 
     old "– Да, конечно."
-    new "- Ya, tentu"
+    new "– Ya, tentu"
 
 
     old "– Дам шанс мужу."
@@ -5563,31 +5563,31 @@ translate indonesian strings:
 
 
     old "– Разобрать вещи."
-    new "- Buka kemasan"
+    new "– Buka kemasan"
 
 
     old "– Отдохнуть."
-    new "- Istirahat"
+    new "– Istirahat"
 
 
     old "– Срочно переодеться!"
-    new "- Ganti pakaian Anda segera!"
+    new "– Ganti pakaian Anda segera!"
 
 
     old "– Да ничего особенного не произошло."
-    new "- Tidak ada yang istimewa terjadi"
+    new "– Tidak ada yang istimewa terjadi"
 
 
     old "– Предложить ему чай."
-    new "- Tawarkan dia teh"
+    new "– Tawarkan dia teh"
 
 
     old "– Возмутиться"
-    new "- kemarahan"
+    new "– kemarahan"
 
 
     old "– Сделать вид, что не поняла"
-    new "- Berpura -pura tidak mengerti"
+    new "– Berpura -pura tidak mengerti"
 
 
     old "- Кажется, милый парень."
@@ -5599,27 +5599,27 @@ translate indonesian strings:
 
 
     old "– Снять напряжение"
-    new "- Menghilangkan ketegangan"
+    new "– Menghilangkan ketegangan"
 
 
     old "– Отвлечь себя домашними делами"
-    new "- mengalihkan perhatian diri Anda dengan pekerjaan rumah tangga"
+    new "– mengalihkan perhatian diri Anda dengan pekerjaan rumah tangga"
 
 
     old "– Просто почистить зубы и освежиться."
-    new "- Sikat gigi dan menyegarkan diri"
+    new "– Sikat gigi dan menyegarkan diri"
 
 
     old "– Сварить кофе мужу"
-    new "- Buat kopi untuk suamiku"
+    new "– Buat kopi untuk suamiku"
 
 
     old "– Может, тогда выпьешь чаю?"
-    new "- Mengapa Anda tidak minum teh?"
+    new "– Mengapa Anda tidak minum teh?"
 
 
     old "– Воспользуйся нашим душем?"
-    new "- Gunakan kamar mandi kita?"
+    new "– Gunakan kamar mandi kita?"
 
 
     old "Заглянуть"
@@ -5635,15 +5635,15 @@ translate indonesian strings:
 
 
     old "– Быстро в душ!"
-    new "- Cepat ke kamar mandi!"
+    new "– Cepat ke kamar mandi!"
 
 
     old "– Джастина – в шкаф!"
-    new "- Justin - ke dalam lemari pakaian!"
+    new "– Justin - ke dalam lemari pakaian!"
 
 
     old "– Лучше просто рассказать, как есть"
-    new "- Lebih baik mengatakannya seperti itu"
+    new "– Lebih baik mengatakannya seperti itu"
 
 
     old "Двигать членом"
@@ -5651,11 +5651,11 @@ translate indonesian strings:
 
 
     old "– Сделать то, что он хочет"
-    new "- Lakukan apa yang dia inginkan"
+    new "– Lakukan apa yang dia inginkan"
 
 
     old "– Отказаться"
-    new "- Menolak"
+    new "– Menolak"
 
 
 
@@ -8442,35 +8442,35 @@ translate indonesian strings:
 
 
     old "– Поблагодарить."
-    new "- Terima kasih"
+    new "– Terima kasih"
 
 
     old "– Спросить, где он научился драться."
-    new "- Tanyakan di mana dia belajar bertarung"
+    new "– Tanyakan di mana dia belajar bertarung"
 
 
     old "– Спросить о жене."
-    new "- Tanyakan tentang istrinya"
+    new "– Tanyakan tentang istrinya"
 
 
     old "– Что ты делала в той дыре?"
-    new "- Apa yang kamu lakukan di sana?"
+    new "– Apa yang kamu lakukan di sana?"
 
 
     old "– Расскажи о себе."
-    new "- Ceritakan tentang diri Anda"
+    new "– Ceritakan tentang diri Anda"
 
 
     old "– Есть у тебя увлечения?"
-    new "- Apakah Anda punya hobi?"
+    new "– Apakah Anda punya hobi?"
 
 
     old "– Ты занимаешься спортом?"
-    new "- Apakah Anda bermain olahraga?"
+    new "– Apakah Anda bermain olahraga?"
 
 
     old "– Предложить потанцевать."
-    new "- Tawarkan untuk menari"
+    new "– Tawarkan untuk menari"
 
 
     old "Прекратить подслушивать(Эмма +1)."
@@ -8498,7 +8498,7 @@ translate indonesian strings:
 
 
     old "– Это ни к чему (Джастин +1)"
-    new "- Ini tidak ada (Justin +1)"
+    new "– Ini tidak ada (Justin +1)"
 
 
     old "Молча ждать (Джастин +1, возбуждение +1)"
@@ -8554,7 +8554,7 @@ translate indonesian strings:
 
 
     old "– Это ни к чему"
-    new "- Ini bukan apa -apa"
+    new "– Ini bukan apa -apa"
 
 
     old "Молча ждать"
