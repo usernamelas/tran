@@ -1,6 +1,6 @@
 
 
-translate english strings:
+translate id strings:
 
 
     old "Начать"
@@ -428,7 +428,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "В следующих версиях"
@@ -448,7 +448,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "Ачивки"
@@ -456,7 +456,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "Возможности"
@@ -468,7 +468,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "Отношения с Тайлером"
@@ -486,7 +486,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "{#file_time}%A, %B %d %Y, %H:%M"
@@ -519,7 +519,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "Финансы"
@@ -580,7 +580,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "Отключить код подписчика"

@@ -1,6 +1,6 @@
 
 
-translate english strings:
+translate id strings:
 
 
     old "Self-voicing disabled."
@@ -1251,7 +1251,7 @@ translate english strings:
     new "Parsing skrip gagal."
 
 
-translate english strings:
+translate id strings:
 
 
     old "Click to play the video."

@@ -1520,7 +1520,7 @@ translate id day4_justin_Shelly_36acd61a:
 
     note "Ini adalah akhir dari pembaruan saat ini. Pundurkan sedikit dan simpan game. Terima kasih telah bermain. Kami menghargai minat Anda pada proyek dan ingin mendengar umpan balik Anda."
 
-translate english strings:
+translate id strings:
 
 
     old "- Побегу за кофе. (+1 к морали - 1 к интриге)"
@@ -1662,7 +1662,7 @@ translate id day4_justin_shelley_36acd61a:
 
     note "Ini adalah akhir dari pembaruan saat ini. Pundurkan sedikit dan simpan game. Terima kasih telah bermain. Kami menghargai minat Anda pada proyek dan ingin mendengar umpan balik Anda."
 
-translate english strings:
+translate id strings:
 
 
     old "- Побегу за кофе. (+1 к морали – 1 к интриге)"
@@ -5538,7 +5538,7 @@ translate id day4_home_after_studio_6e15113e:
 
     ty "- Oh, Emma! Apakah tidak mendengar Anda masuk. Jadi, bagaimana kabarmu?"
 
-translate english strings:
+translate id strings:
 
 
     old "♂️ - Да. (+ отношения Тайлер/Шелли, – 1 Эмма, + 1 к свободным отношениям)"
@@ -7049,7 +7049,7 @@ translate id day6_work_tyler_2370f47b:
 
     ty "- Terima kasih."
 
-translate english strings:
+translate id strings:
 
 
     old "Продолжить."
@@ -7157,7 +7157,7 @@ translate english strings:
 
 
 
-translate english strings:
+translate id strings:
 
 
     old "- Помочь Саманте"
@@ -8767,7 +8767,7 @@ translate id day11_poss_4_final_06e6e0ae_1:
 
     em "- Saya akan memikirkannya, Tyler."
 
-translate english strings:
+translate id strings:
 
 
     old "Правда"
@@ -8853,7 +8853,7 @@ translate id day12_bar_question7_202550f3:
 
     she "- Bagaimanapun, pertanyaannya bukan untuk Anda. Terserah Nathan untuk menjawab atau mengakui kekalahan."
 
-translate english strings:
+translate id strings:
 
     old "У окна"
     new "Di jendela"

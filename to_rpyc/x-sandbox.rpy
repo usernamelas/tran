@@ -307,7 +307,7 @@ translate id work_vice_b2da7c35:
 
     "Belum ada yang bisa saya lakukan di sini."
 
-translate english strings:
+translate id strings:
 
 
     old "Вернуться в город"

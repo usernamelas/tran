@@ -199,7 +199,7 @@ translate id bathroom_day3_f2f6273e:
 
     em "- Fiuh ... lebih baik ... tapi tidak bisa pergi dengan mudah. Dan itu hari pertama saya di tempat kerja. Saya harus menyatukan diri."
 
-translate english strings:
+translate id strings:
 
 
     old "Курс по саморазвитию"
@@ -303,7 +303,7 @@ translate id town_dance_club_1_58d6f47e:
 
     em "- Terima kasih ... itu sulit, tapi saya menyukainya."
 
-translate english strings:
+translate id strings:
 
 
     old "Потренироваться (–50$, +2 фитнес, +1 к грязи, -2 запас сил)"
@@ -321,7 +321,7 @@ translate english strings:
     old "Занятие по стрип-пластике, 50$ (+1 к стрип-пластике, -2 энергии, +1 к грязи)"
     new "Pelajaran tari eksotis, 0 (+1 tarian eksotis, -2 energi, +1 kotor)"
 
-translate english strings:
+translate id strings:
 
 
     old "Курс по саморазвитию (+1 интеллект, -2 энергии)"
