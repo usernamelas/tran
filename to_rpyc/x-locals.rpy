@@ -4,7 +4,7 @@ label localisation_vars:
 label screens_locs:
     return
 
-init -100 $     
+init -100 python:
     
     screens_locs_ru = {
             "bathroom": "Ванная комната",
