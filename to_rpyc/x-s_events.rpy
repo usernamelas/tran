@@ -11422,15 +11422,6 @@ translate id strings:
     new "Jangan mengambil uang (+1 moralitas, -1 intelijen, -1 Victor)"
 
 
-    old "- может, снять напatuжение ..."
-    new "- mungkin menghilangkan ketegangan ..."
-
-
-    old "- может, снять напatuжение…"
-    new "- Mungkin lepas dari ..."
-
-
-
 
     old "– Отдохнуть на шезлонге /+1 час, 1 раз в день/"
     new "– Relax on a lounger /+1 hour, once per day/"
