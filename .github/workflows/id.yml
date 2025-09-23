@@ -1,0 +1,48 @@
+name: Generate RenPy 8+ Translation Template
+
+on:
+  workflow_dispatch:
+    inputs:
+      language_code:
+        description: 'Language code (e.g., id, en, jp)'
+        required: false
+        default: 'id'
+
+jobs:
+  generate-template:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python (Ren'Py requires Python 3.8+)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.8'
+
+      - name: Download Ren'Py 8.2.0 SDK
+        run: |
+          wget -q https://www.renpy.org/dl/8.2.0/renpy-8.2.0-sdk.tar.bz2
+          tar -xf renpy-8.2.0-sdk.tar.bz2
+          mv renpy-8.2.0-sdk renpy-sdk
+
+      - name: Install Dependencies (minimal, for CLI)
+        run: |
+          pip install future
+          pip install pygame
+
+      - name: Generate Translation Template
+        run: |
+          LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
+          cd renpy-sdk
+          # Generate translation template to game/tl/<lang>
+          python3 renpy.py ../game translate "$LANG_CODE" --extract
+          echo "=== Generated files ==="
+          find ../game/tl/$LANG_CODE -name "*.rpy" || echo "No template generated."
+
+      - name: Upload Translation Templates
+        uses: actions/upload-artifact@v4
+        with:
+          name: renpy-tl-template-${{ github.event.inputs.language_code || 'id' }}
+          path: game/tl/${{ github.event.inputs.language_code || 'id' }}/
