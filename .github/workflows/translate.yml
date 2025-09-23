@@ -1,4 +1,3 @@
-># .github/workflows/translate.yml
 name: RenPy Translation Pipeline
 
 on:
