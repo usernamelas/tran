@@ -148,10 +148,7 @@ jobs:
               
               # Create comprehensive manual template
               cat << EOF > "$template_file"
-# Translation template for $rpy_file
-# Language: $LANG_CODE
-# Generated manually - edit the Indonesian text below
-
+              
 EOF
               
               # Extract dialogues and create translate blocks
