@@ -1,0 +1,358 @@
+name: v2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # Job 1: Setup dan categorisasi file
+  setup-and-categorize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install translate-shell from GitHub
+        run: |
+          git clone https://github.com/soimort/translate-shell
+          cd translate-shell
+          make
+          sudo make install
+          pip install requests
+
+      - name: Send start notification
+        run: |
+          python3 py/telegram_notify.py "🚀 MEMULAI TERJEMAHAN" "Scanning file .rpy..."
+
+      - name: Organize files by size
+        run: python3 py/manager2.py tl
+
+      - name: Reset progress files
+        run: |
+          echo "" > translation_progress.txt
+          echo "" > restore_progress.txt
+
+  # Job 2: Translate BESAR files (1000+ lines) - SEQUENTIAL
+  translate-besar:
+    needs: setup-and-categorize
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python and dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Process BESAR files SEQUENTIALLY
+        run: |
+          echo "🔴 Processing BESAR files (1000+ lines) - SEQUENTIAL"
+          python3 py/translate.py batch_besar &
+          PID=$!
+          
+          # Progress monitoring
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH BESAR"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH BESAR"
+
+  # Job 3: Translate SEDANG files (200-999 lines) - SEQUENTIAL  
+  translate-sedang:
+    needs: setup-and-categorize
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python and dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Process SEDANG files SEQUENTIALLY
+        run: |
+          echo "🟡 Processing SEDANG files (200-999 lines) - SEQUENTIAL"
+          python3 py/translate.py batch_sedang &
+          PID=$!
+          
+          # Progress monitoring
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH SEDANG"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH SEDANG"
+
+  # Job 4: Translate KECIL files (1-199 lines) - SEQUENTIAL
+  translate-kecil:
+    needs: setup-and-categorize
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python and dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Process KECIL files SEQUENTIALLY
+        run: |
+          echo "🟢 Processing KECIL files (1-199 lines) - SEQUENTIAL"
+          python3 py/translate.py batch_kecil &
+          PID=$!
+          
+          # Progress monitoring
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH KECIL"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH KECIL"
+
+  # Job 5: Restore mapping files
+  restore-mapping:
+    needs: [translate-besar, translate-sedang, translate-kecil]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python and dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Send restore start notification
+        run: |
+          python3 py/telegram_notify.py "🔧 MEMULAI RESTORE" "Memulai proses restore mapping files..."
+
+      - name: Execute batch restore
+        run: |
+          echo "🔧 Starting batch restore process..."
+          python3 py/batch_restore.py &
+          PID=$!
+          
+          # Progress monitoring setiap 30 detik
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "restore_progress.txt" ]; then
+              PROGRESS=$(cat restore_progress.txt)
+              python3 py/telegram_notify.py "🔧 RESTORE PROGRESS" "$PROGRESS"
+            fi
+            sleep 30
+          done
+          wait $PID
+          
+          echo "✅ Batch restore process completed"
+
+      - name: Send restore completion notification
+        run: |
+          # Check if restore was successful
+          if [ -f "id/restore_summary.txt" ]; then
+            # Get summary stats
+            SUMMARY=$(head -8 id/restore_summary.txt)
+            RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
+            MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
+            
+            # Send detailed notification
+            python3 py/telegram_notify.py "✅ RESTORE SELESAI" \
+              "📊 Hasil Restore:
+              🔄 Files restored: $RESTORED_COUNT
+              📁 Mapping files: $MAPPING_COUNT
+              
+              $SUMMARY"
+          else
+            python3 py/telegram_notify.py "⚠️ RESTORE WARNING" "Restore completed but no summary found"
+          fi
+
+      - name: Validate restore results
+        run: |
+          echo "🔍 Validating restore results..."
+          
+          # Count files in each directory
+          TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
+          RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
+          MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
+          LOG_COUNT=$(ls id/log/*_log.txt 2>/dev/null | wc -l || echo 0)
+          
+          echo "📊 File counts:"
+          echo "  - Translated files: $TRANSLATED_COUNT"
+          echo "  - Restored files: $RESTORED_COUNT" 
+          echo "  - Mapping files: $MAPPING_COUNT"
+          echo "  - Log files: $LOG_COUNT"
+          
+          # Check if restore_report.json exists
+          if [ -f "id/restore_report.json" ]; then
+            echo "✅ Restore report generated successfully"
+            SUCCESS_RATE=$(python3 -c "import json; data=json.load(open('id/restore_report.json')); print(data['success_rate'])")
+            echo "📈 Success rate: $SUCCESS_RATE"
+          else
+            echo "❌ No restore report found"
+          fi
+
+  # Job 6: Final organization and cleanup
+  finalize:
+    needs: [translate-besar, translate-sedang, translate-kecil, restore-mapping]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python for notifications
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Generate final statistics
+        run: |
+          echo "📊 Generating final statistics..."
+          
+          # Count all file types
+          TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
+          RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
+          MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
+          LOG_COUNT=$(ls id/log/*_log.txt 2>/dev/null | wc -l || echo 0)
+          
+          # Calculate total original files processed
+          ORIGINAL_COUNT=$(($(ls batch_*/*.rpy 2>/dev/null | wc -l || echo 0)))
+          if [ $ORIGINAL_COUNT -eq 0 ]; then
+            ORIGINAL_COUNT=$TRANSLATED_COUNT
+          fi
+          
+          # Create final statistics file
+          cat > final_stats.txt << EOF
+          RENPY TRANSLATION PIPELINE - FINAL REPORT
+          ==========================================
+          📅 Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')
+          
+          📊 PROCESSING SUMMARY:
+          - Original files processed: $ORIGINAL_COUNT
+          - Successfully translated: $TRANSLATED_COUNT
+          - Successfully restored: $RESTORED_COUNT
+          - Mapping files created: $MAPPING_COUNT
+          - Log files generated: $LOG_COUNT
+          
+          📁 FINAL STRUCTURE:
+          id/
+          ├── *.rpy ($TRANSLATED_COUNT translated files)
+          ├── mapping/ ($MAPPING_COUNT mapping files)
+          ├── log/ ($LOG_COUNT log files)
+          ├── restored/ ($RESTORED_COUNT restored files)
+          └── reports (restore_report.json, restore_summary.txt)
+          
+          🎯 SUCCESS RATES:
+          - Translation: $(echo "scale=1; $TRANSLATED_COUNT * 100 / $ORIGINAL_COUNT" | bc -l 2>/dev/null || echo "N/A")%
+          - Restoration: $(echo "scale=1; $RESTORED_COUNT * 100 / $TRANSLATED_COUNT" | bc -l 2>/dev/null || echo "N/A")%
+          EOF
+          
+          echo "📄 Final statistics saved to final_stats.txt"
+
+      - name: Send final completion report
+        run: |
+          # Read final statistics
+          if [ -f "final_stats.txt" ]; then
+            FINAL_REPORT=$(cat final_stats.txt)
+            python3 py/telegram_notify.py "🎉 PIPELINE SELESAI" "$FINAL_REPORT"
+          else
+            # Fallback notification
+            TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
+            RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
+            
+            python3 py/telegram_notify.py "🎉 PIPELINE SELESAI" \
+              "✅ Translation & Restore Complete!
+              📁 Translated: $TRANSLATED_COUNT files
+              🔄 Restored: $RESTORED_COUNT files
+              📊 Check id/ folder for all results"
+          fi
+
+      - name: Cleanup temporary files
+        run: |
+          echo "🧹 Cleaning up temporary files..."
+          
+          # Remove batch directories
+          rm -rf batch_kecil batch_sedang batch_besar
+          
+          # Remove output_tl (sudah dipindah ke id/)
+          rm -rf output_tl
+          
+          # Remove progress files
+          rm -f translation_progress.txt restore_progress.txt
+          
+          # Keep important files but organize them
+          if [ -f "final_stats.txt" ]; then
+            mv final_stats.txt id/final_statistics.txt
+          fi
+          
+          echo "✅ Cleanup completed"
+          echo "📁 All results are now organized in the 'id/' directory"
+
+      - name: Archive results summary
+        run: |
+          echo "📦 Creating results archive summary..."
+          
+          # Create a simple index file
+          cat > id/README.md << 'EOF'
+          # RenPy Translation Results
+          
+          This directory contains the complete results of the RenPy translation pipeline.
+          
+          ## Directory Structure
+          
+          ```
+          id/
+          ├── *.rpy                    # Translated RenPy files (main output)
+          ├── mapping/                 # Translation mapping files
+          │   └── *_mapping.txt        # Tag mappings for each file
+          ├── log/                     # Translation log files  
+          │   └── *_log.txt            # Processing logs for each file
+          ├── restored/                # Files with restored original tags
+          │   └── *.rpy                # Files with tags restored from mappings
+          ├── restore_report.json      # Detailed restore statistics
+          ├── restore_summary.txt      # Human-readable restore summary
+          └── final_statistics.txt     # Complete pipeline statistics
+          ```
+          
+          ## Usage
+          
+          - **Main translated files**: Use the `.rpy` files in the root of this directory
+          - **With original formatting**: Use files from the `restored/` subdirectory
+          - **Troubleshooting**: Check files in `log/` directory for any issues
+          
+          Generated by RenPy Translation Pipeline
+          EOF
+          
+          echo "📚 README.md created in id/ directory"
+          echo "🎯 Pipeline completed successfully!"
