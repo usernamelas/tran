@@ -1,4 +1,4 @@
-name: Generate RenPy Translation Template
+name: tl rpy
 
 on:
   workflow_dispatch:
