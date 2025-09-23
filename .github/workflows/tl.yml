@@ -101,25 +101,128 @@ jobs:
         LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
         mkdir -p "output/tl/$LANG_CODE"
         
+        echo "=== DEBUGGING: Looking for generated files ==="
+        
+        # Check all possible locations for generated files
+        echo "Files in current directory:"
+        find . -name "*.rpy" -type f | head -20
+        
+        echo "Files in tl directories:"
+        find . -path "*/tl/*" -name "*.rpy" -type f
+        
+        echo "All translation-related directories:"
+        find . -type d -name "tl" -o -name "*translate*" 2>/dev/null
+        
         # Check multiple possible locations for generated files
-        for search_path in "tl/$LANG_CODE" "game/tl/$LANG_CODE"; do
-          if [ -d "$search_path" ]; then
-            echo "Processing files from: $search_path"
-            for file in $search_path/*.rpy; do
+        found_files=false
+        
+        for search_path in "tl/$LANG_CODE" "game/tl/$LANG_CODE" "renpy-sdk/tl/$LANG_CODE" "./tl/$LANG_CODE"; do
+          echo "Checking: $search_path"
+          if [ -d "$search_path" ] && [ "$(ls -A "$search_path" 2>/dev/null)" ]; then
+            echo "✓ Found files in: $search_path"
+            ls -la "$search_path"
+            
+            for file in "$search_path"/*.rpy; do
               if [ -f "$file" ]; then
                 basename_file=$(basename "$file" .rpy)
                 cp "$file" "output/tl/$LANG_CODE/${basename_file}_tl.rpy"
-                echo "Created: ${basename_file}_tl.rpy"
+                echo "✓ Copied: ${basename_file}_tl.rpy"
+                found_files=true
               fi
             done
+          else
+            echo "✗ No files in: $search_path"
           fi
         done
         
-        # If no files found, create empty template with instructions
-        if [ ! "$(ls -A output/tl/$LANG_CODE 2>/dev/null)" ]; then
-          echo "# No translatable content found or generation failed" > "output/tl/$LANG_CODE/README_tl.txt"
-          echo "# Check your .rpy files contain dialogue, menus, or translatable text" >> "output/tl/$LANG_CODE/README_tl.txt"
-          echo "# Language code used: $LANG_CODE" >> "output/tl/$LANG_CODE/README_tl.txt"
+        # If generation failed, create manual templates from source files
+        if [ "$found_files" = false ]; then
+          echo "=== No auto-generated files found. Creating manual templates ==="
+          
+          for rpy_file in game/*.rpy; do
+            if [ -f "$rpy_file" ]; then
+              basename_file=$(basename "$rpy_file" .rpy)
+              template_file="output/tl/$LANG_CODE/${basename_file}_tl.rpy"
+              
+              echo "Creating manual template for: $basename_file"
+              
+              # Create comprehensive manual template
+              cat << EOF > "$template_file"
+# Translation template for $rpy_file
+# Language: $LANG_CODE
+# Generated manually - edit the Indonesian text below
+
+EOF
+              
+              # Extract dialogues and create translate blocks
+              awk '
+              BEGIN { 
+                label_name = "unknown"
+                block_count = 0
+              }
+              /^label [a-zA-Z_][a-zA-Z0-9_]*:/ { 
+                match($0, /^label ([a-zA-Z_][a-zA-Z0-9_]*):/, arr)
+                if (arr[1]) label_name = arr[1]
+                print "\n# === Label: " label_name " ==="
+                next
+              }
+              /^[[:space:]]*[a-zA-Z_][a-zA-Z0-9_]*[[:space:]]*"[^"]*"[[:space:]]*$/ {
+                block_count++
+                match($0, /^[[:space:]]*([a-zA-Z_][a-zA-Z0-9_]*)[[:space:]]*"([^"]*)"/, arr)
+                if (arr[1] && arr[2]) {
+                  print "translate '$LANG_CODE' " label_name "_" block_count ":"
+                  print "    " arr[1] " \"" arr[2] "\""
+                  print ""
+                }
+                next
+              }
+              /^[[:space:]]*"[^"]*"[[:space:]]*$/ {
+                block_count++
+                match($0, /^[[:space:]]*"([^"]*)"/, arr)
+                if (arr[1]) {
+                  print "translate '$LANG_CODE' " label_name "_" block_count ":"
+                  print "    \"" arr[1] "\""
+                  print ""
+                }
+                next
+              }
+              /^[[:space:]]*menu:/ {
+                in_menu = 1
+                block_count++
+                menu_lines = "translate '$LANG_CODE' " label_name "_menu_" block_count ":\n    menu:"
+                next
+              }
+              in_menu && /^[[:space:]]*"[^"]*":/ {
+                match($0, /"([^"]*)"/, arr)
+                if (arr[1]) {
+                  menu_lines = menu_lines "\n        \"" arr[1] "\":"
+                  menu_lines = menu_lines "\n            # Original jump/call here"
+                }
+                next
+              }
+              in_menu && /^[[:space:]]*[a-zA-Z_]/ {
+                print menu_lines "\n"
+                in_menu = 0
+                next
+              }
+              ' "$rpy_file" >> "$template_file"
+              
+              echo "✓ Created manual template: ${basename_file}_tl.rpy"
+              found_files=true
+            fi
+          done
+        fi
+        
+        # Final check
+        if [ "$found_files" = true ]; then
+          echo "=== SUCCESS: Template files created ==="
+          ls -la "output/tl/$LANG_CODE/"
+        else
+          echo "=== ERROR: No template files could be created ==="
+          echo "Creating error report..."
+          echo "No translatable content found in source files." > "output/tl/$LANG_CODE/ERROR_REPORT.txt"
+          echo "Source files checked:" >> "output/tl/$LANG_CODE/ERROR_REPORT.txt"
+          ls -la game/ >> "output/tl/$LANG_CODE/ERROR_REPORT.txt"
         fi
         
     - name: Show Results
