@@ -1,3 +1,9 @@
+
+
+============================================================
+# ===== FILE: x-Episode_10.rpy =====
+============================================================
+
 translate english EP10_Alfred_Shop_b9bf560a:
     # a2 "And so, we've reached a pivotal point."
     a2 ""
@@ -5871,3 +5877,1122 @@ translate english strings:
 
     old "If you give the password, I will pay some money up front."
     new ""
+
+
+============================================================
+# ===== END OF: x-Episode_10.rpy =====
+============================================================
+
+
+============================================================
+# ===== FILE: x-annaofficeeventtwo_tl.rpy =====
+============================================================
+
+# Translation template for game/x-annaofficeeventtwo.rpy
+# Language: id
+# Generated automatically - edit the translations below
+
+
+# === Label: PreContractEventTwo ===
+translate id PreContractEventTwo_1:
+    "Anna sat down. Compose the documents."
+
+translate id PreContractEventTwo_2:
+    "The office felt pretty empty on Saturday."
+
+translate id PreContractEventTwo_3:
+    "Obviously."
+
+translate id PreContractEventTwo_4:
+    "She prepped the final documents."
+
+translate id PreContractEventTwo_5:
+    "Changed into her regular attire and went to the Limo parking."
+
+
+# === Label: ContractEventTwo ===
+translate id ContractEventTwo_6:
+    "Anna exited the office building, and her chauffeur was already waiting."
+
+translate id ContractEventTwo_7:
+    a "{i}...He is pretty handsome. I'm pretty sure he will also soon start to seek my attention..."
+
+translate id ContractEventTwo_8:
+    a "{i}...All the men seem the same in this sense. After some time with me, they just can't get enough of me..."
+
+translate id ContractEventTwo_9:
+    a "{i}...Every single one..."
+
+translate id ContractEventTwo_10:
+    di "Welcome, miss Anna."
+
+translate id ContractEventTwo_11:
+    di "How has your morning been so far?"
+
+translate id ContractEventTwo_12:
+    a "Interesting, to say the least."
+
+translate id ContractEventTwo_13:
+    di "Oh, We always need something to keep us on our toes."
+
+translate id ContractEventTwo_14:
+    di "Are you all ready for your appointment?"
+
+translate id ContractEventTwo_15:
+    a "Yes. Take me to Shingzou Spa."
+
+translate id ContractEventTwo_16:
+    di "Right away, ma'am."
+
+translate id ContractEventTwo_17:
+    di "You look lovely, by the way."
+
+translate id ContractEventTwo_18:
+    a "Thank you, Alex."
+
+translate id ContractEventTwo_19:
+    a "You're not so bad yourself."
+
+translate id ContractEventTwo_20:
+    di "All in a day's work, ma'am."
+
+translate id ContractEventTwo_21:
+    di "We are a couple of blocks away from the destination. Shouldn't take too long."
+
+translate id ContractEventTwo_22:
+    di "It's in Chinatown."
+
+translate id ContractEventTwo_23:
+    a "In all my time here, I've never visited."
+
+translate id ContractEventTwo_24:
+    di "It's a nice change of pace, and the food is good."
+
+translate id ContractEventTwo_25:
+    a "Oh, you are into Chinese."
+
+translate id ContractEventTwo_26:
+    di "I like everyone, regardless of ethnicity."
+
+translate id ContractEventTwo_27:
+    a "Haha... I didn't mean it like that."
+
+translate id ContractEventTwo_28:
+    di "It's ok, just easing the tension."
+
+translate id ContractEventTwo_29:
+    "Anna found Alex to be a bit compelling."
+
+translate id ContractEventTwo_30:
+    "The cliche attractive and well-dressed chauffeur."
+
+translate id ContractEventTwo_31:
+    "She had little kinky thoughts during the ride..."
+
+translate id ContractEventTwo_32:
+    "But mostly, her focus was on what's to follow with Shingzou guys..."
+
+translate id ContractEventTwo_33:
+    a "Are you ok with working on Saturdays?"
+
+translate id ContractEventTwo_34:
+    di "I get paid well for it, and the company is great."
+
+translate id ContractEventTwo_35:
+    a "Thanks..."
+
+translate id ContractEventTwo_36:
+    di "Aaand we're here."
+
+translate id ContractEventTwo_37:
+    a "The time passed rather fast."
+
+translate id ContractEventTwo_38:
+    di "Usually it does with you guys."
+
+translate id ContractEventTwo_39:
+    di "Thinking about your job, the meetings."
+
+translate id ContractEventTwo_40:
+    di "I wish you good luck, ma'am."
+
+translate id ContractEventTwo_41:
+    "Anna got out of the car."
+
+translate id ContractEventTwo_42:
+    a "Thank you for the ride, Alex."
+
+translate id ContractEventTwo_43:
+    di "I've been instructed to wait for you until you are finished."
+
+translate id ContractEventTwo_44:
+    a "Great, I hope it won't take too long."
+
+translate id ContractEventTwo_45:
+    di "Good luck."
+
+translate id ContractEventTwo_46:
+    "Anna entered a well-established SPA center at the heart of Chinatown."
+
+translate id ContractEventTwo_47:
+    "The atmosphere immediately shifted to relaxing and calm."
+
+translate id ContractEventTwo_48:
+    "She lost some of the previous stress she had. Forgot about the upcoming, interesting ordeal."
+
+translate id ContractEventTwo_49:
+    a "Uh, hello. I'm Anna."
+
+translate id ContractEventTwo_50:
+    a "I believe I have an appointment with Shingzou Corp executives here."
+
+translate id ContractEventTwo_51:
+    sparep "Hello, yes. All the preparations have already been made."
+
+translate id ContractEventTwo_52:
+    sparep "Simply enter through that door."
+
+translate id ContractEventTwo_53:
+    sparep "There is a changing room where you will find clean towels and a place to store your personal items."
+
+translate id ContractEventTwo_54:
+    sparep "We are a subsidiary of Shingzou Corp, and thus you are waived of all fees and payments."
+
+translate id ContractEventTwo_55:
+    sparep "As I was instructed by the men you are about to meet."
+
+translate id ContractEventTwo_56:
+    sparep "Do you have any questions?"
+
+translate id ContractEventTwo_57:
+    a "No, thank you."
+
+translate id ContractEventTwo_58:
+    sparep "In that case, I would like to wish you a pleasant, calm, and enjoyable stay with us."
+
+translate id ContractEventTwo_59:
+    "As soon as Anna entered, she was met by both executives, already ready to go."
+
+translate id ContractEventTwo_60:
+    a "Hello. I believe I've come to the right place, as it seems."
+
+translate id ContractEventTwo_61:
+    c2 "Welcome, Anna. Welcome."
+
+translate id ContractEventTwo_62:
+    "The air was filled with warm light air. It smelled refreshing, of lily and lotus scent."
+
+translate id ContractEventTwo_63:
+    a "{i}...This place is definitely something..."
+
+translate id ContractEventTwo_64:
+    c2 "How are you? How have the days treated you?"
+
+translate id ContractEventTwo_65:
+    a "I'm good, eager to sign the deal."
+
+translate id ContractEventTwo_66:
+    c2 "Eager, eh? Well, that's a good sign."
+
+translate id ContractEventTwo_67:
+    c2 "Before we sign the deal, let's go and relax in the sauna a bit."
+
+translate id ContractEventTwo_68:
+    a "Am I supposed to change with you here?"
+
+translate id ContractEventTwo_69:
+    c2 "Well, I suppose you did come up with the idea, no?"
+
+translate id ContractEventTwo_70:
+    "Anna recalled what she had promised."
+
+translate id ContractEventTwo_71:
+    a "Huh, I do believe I did..."
+
+translate id ContractEventTwo_72:
+    a "Well, ok."
+
+translate id ContractEventTwo_73:
+    "She started to lose pieces of clothing slowly."
+
+translate id ContractEventTwo_74:
+    "Sensually. The scent helped her feel relaxed and calm."
+
+translate id ContractEventTwo_75:
+    "Both men were staring intently. Excited about what was to follow."
+
+translate id ContractEventTwo_76:
+    a "So... Are you satisfied with the changed terms and are ready to sign?"
+
+translate id ContractEventTwo_77:
+    c2 "Well... We are, but it also depends on how persuasive you will be."
+
+translate id ContractEventTwo_78:
+    a "Heh. Understandable."
+
+translate id ContractEventTwo_79:
+    a "Whoops. It looks like I didn't bring any panties this time."
+
+translate id ContractEventTwo_80:
+    "Anna perfectly played her role."
+
+translate id ContractEventTwo_81:
+    "Both men were content on the surface but eager inside."
+
+translate id ContractEventTwo_82:
+    "Anna was already starting to lean them towards signing."
+
+translate id ContractEventTwo_83:
+    a "I will just put this on."
+
+translate id ContractEventTwo_84:
+    a "Wouldn't want anyone to notice me naked, am I right?"
+
+translate id ContractEventTwo_85:
+    z1 "Your sense of humor is also very attractive."
+
+translate id ContractEventTwo_86:
+    a "Well, what can I say. I'm a full package."
+
+translate id ContractEventTwo_87:
+    c2 "We can definitely see that."
+
+translate id ContractEventTwo_88:
+    a "Shall we?"
+
+translate id ContractEventTwo_89:
+    "They entered the main steam room."
+
+translate id ContractEventTwo_90:
+    a "Very soothing. It's been a while since I've been in such a nice place."
+
+translate id ContractEventTwo_91:
+    c2 "Well, we've invested a good amount in this SPA for our personal use."
+
+translate id ContractEventTwo_92:
+    c2 "And we, of course, like to have as pleasant of an experience as possible."
+
+translate id ContractEventTwo_93:
+    a "Yes. Indeed."
+
+translate id ContractEventTwo_94:
+    a "So, I checked the contract, and all seems to be in order. Our legal team has signed all the papers."
+
+translate id ContractEventTwo_95:
+    a "The lawyers have also checked against any loopholes, and I think we are safe and ready to take our business to the next level."
+
+translate id ContractEventTwo_96:
+    c2 "We have done the same, and even though it's not the BEST deal we've made, so I'm not sure if we want to take the deal."
+
+translate id ContractEventTwo_97:
+    a "Do you need a bit more reason to sign? hehe."
+
+translate id ContractEventTwo_98:
+    c2 "What do you have in mind?"
+
+translate id ContractEventTwo_99:
+    a "Well, I don't know. What is it that you desire?"
+
+translate id ContractEventTwo_100:
+    "Anna was playing it safe, acting innocent to feel like they have the power."
+
+translate id ContractEventTwo_101:
+    c2 "There are two things I can say for certain."
+
+translate id ContractEventTwo_102:
+    c2 "Number one: that this SPA is great and number two: You make it even better."
+
+translate id ContractEventTwo_103:
+    a "Smooth words, I like it."
+
+translate id ContractEventTwo_104:
+    c2 "It comes with the territory of being one of the top executives in our firm."
+
+translate id ContractEventTwo_105:
+    c2 "You are one absolutely astonishing female."
+
+translate id ContractEventTwo_106:
+    c2 "I'm having a hard time remembering anyone else, such as you."
+
+translate id ContractEventTwo_107:
+    a "Those are very kind words, Mr. Chen."
+
+translate id ContractEventTwo_108:
+    "She felt Mr. Chen's hand moving towards her back."
+
+translate id ContractEventTwo_109:
+    "She didn't feel that it was necessary to move it away."
+
+translate id ContractEventTwo_110:
+    "In fact, the warm, relaxing atmosphere was affecting her."
+
+
+# === Label: ContractSexScene ===
+translate id ContractSexScene_111:
+    "Anna felt Mr. Chen's arm touch her ass crack."
+
+translate id ContractSexScene_112:
+    "She felt a subtle sensation vibrate through her pelvis."
+
+translate id ContractSexScene_113:
+    a "Oh. It's getting a bit hot in here."
+
+translate id ContractSexScene_114:
+    c2 "Definitely, I can feel that."
+
+translate id ContractSexScene_115:
+    z1 "It's you, Miss Anna. You are doing some interesting magic here."
+
+translate id ContractSexScene_116:
+    z1 "You look that you need to uncover a bit to decrease the temperature."
+
+translate id ContractSexScene_117:
+    a "I was thinking the same thing, Mr. Zhao."
+
+translate id ContractSexScene_118:
+    a "Would you both help me with this?"
+
+translate id ContractSexScene_119:
+    "Anna was still thinking that this was against her better judgment. However, she had come so far."
+
+translate id ContractSexScene_120:
+    "And if she was to disappoint Jeremy, there would be hell to pay."
+
+translate id ContractSexScene_121:
+    "Anna felt a bit of embarrassment. But also a relief."
+
+translate id ContractSexScene_122:
+    "She was becoming increasingly hot in the towel. In multiple different ways."
+
+translate id ContractSexScene_123:
+    "The temperate air touched her luscious breasts and kissed them with the refreshing scent."
+
+translate id ContractSexScene_124:
+    a "This feels very good and relaxing. Ah..."
+
+translate id ContractSexScene_125:
+    "Both of the perverts were just staring, eyeballing her round, juicy, tangible breasts."
+
+translate id ContractSexScene_126:
+    c2 "This is something we do very often and for good reason."
+
+translate id ContractSexScene_127:
+    c2 "You are an absolute vision of beauty."
+
+translate id ContractSexScene_128:
+    "The words were pouring, and Anna was getting increasingly tense in the erogenous department of her body."
+
+translate id ContractSexScene_129:
+    a "I..."
+
+translate id ContractSexScene_130:
+    z1 "Words can't describe."
+
+translate id ContractSexScene_131:
+    a "I don't know how I feel about it."
+
+translate id ContractSexScene_132:
+    c2 "Oh, admit it. You like it. You enjoy our attention. Don't you?"
+
+translate id ContractSexScene_133:
+    "Both of the gullible men were falling for Anna's ruse."
+
+translate id ContractSexScene_134:
+    "She was becoming relatively comfortable with using her body as a weapon to get what she wants."
+
+translate id ContractSexScene_135:
+    a "Ah... Umm..."
+
+translate id ContractSexScene_136:
+    c2 "Yes. It's a truly remarkable sight."
+
+translate id ContractSexScene_137:
+    z1 "Don't get views like this daily."
+
+translate id ContractSexScene_138:
+    c2 "Perhaps with you around, we could enjoy even more of the fine things in life."
+
+translate id ContractSexScene_139:
+    a "That sounds very, very appealing..."
+
+translate id ContractSexScene_140:
+    "As Mr. Chen was caressing her soft nipples, Anna was experiencing even more sensation and excitement."
+
+translate id ContractSexScene_141:
+    "Starting to lose her control."
+
+translate id ContractSexScene_142:
+    c2 "Yess... I can see that you are enjoying it."
+
+translate id ContractSexScene_143:
+    c2 "One thing I've learned during my years is that when a woman enjoys something..."
+
+translate id ContractSexScene_144:
+    c2 "Truly enjoys something. There is no way she can hide it."
+
+translate id ContractSexScene_145:
+    z1 "Indeed. You like this, you want this."
+
+translate id ContractSexScene_146:
+    a "I... I do..."
+
+translate id ContractSexScene_147:
+    "Even though she was trying to compel them in the most effective way possible, she couldn't deny the pleasure."
+
+translate id ContractSexScene_148:
+    "Nothing wrong with doing what you love..."
+
+translate id ContractSexScene_149:
+    "Mr. Zhao grabbed Anna and turned her back towards him."
+
+translate id ContractSexScene_150:
+    "As he turned her, Anna's breasts swayed in the air. Jiggling effortlessly."
+
+translate id ContractSexScene_151:
+    a "Oh..."
+
+translate id ContractSexScene_152:
+    a "I didn't expect that."
+
+translate id ContractSexScene_153:
+    z1 "I like to be a little bit assertive at times."
+
+translate id ContractSexScene_154:
+    a "Nothing... Nothing wrong with that, I suppose."
+
+translate id ContractSexScene_155:
+    z1 "You don't mind if I get more touchy, do you?"
+
+translate id ContractSexScene_156:
+    a "No... Do it..."
+
+translate id ContractSexScene_157:
+    "Anna had difficulty concentrating."
+
+translate id ContractSexScene_158:
+    "But it was superfluous, to be honest."
+
+translate id ContractSexScene_159:
+    "She was doing so well already. She could leave the men right now, wanting more, and they would sign the papers."
+
+translate id ContractSexScene_160:
+    "But she didn't want to stop. She was engulfed by the fantasy of what those two might do with her."
+
+translate id ContractSexScene_161:
+    a "AHH..."
+
+translate id ContractSexScene_162:
+    "Anna exhaled heavily. As Mr. Chen started to lick on her, already hard, nipple."
+
+translate id ContractSexScene_163:
+    "It was enough to drive a woman crazy. Especially one such as Anna."
+
+translate id ContractSexScene_164:
+    a "Be gentle, please... It's very sensitive."
+
+translate id ContractSexScene_165:
+    z1 "You love it, though. Having difficulty composing yourself?"
+
+translate id ContractSexScene_166:
+    a "Mh..."
+
+translate id ContractSexScene_167:
+    "She didn't want to answer in any way or form, just allow the man to handle her exquisite chest."
+
+translate id ContractSexScene_168:
+    a "Ah..."
+
+translate id ContractSexScene_169:
+    "Subtle moans escaped Anna's mouth. Her breath heavy from the hot air and sensational stimulation from the licking."
+
+translate id ContractSexScene_170:
+    z1 "Aha, looks like our dear partner is enjoying her work. Yes, very good."
+
+translate id ContractSexScene_171:
+    "Everyone in the room was elevating in lust. They all wanted what was coming, but they enjoyed the process of getting there."
+
+translate id ContractSexScene_172:
+    "Anna's pussy hole was also asking for it, waiting in anticipation."
+
+translate id ContractSexScene_173:
+    a "Damn... It... It's good..."
+
+translate id ContractSexScene_174:
+    c2 "We know, hehe. This might just be the best contract closing I've ever had."
+
+translate id ContractSexScene_175:
+    z1 "I have to agree."
+
+translate id ContractSexScene_176:
+    c2 "You are doing a very good job convincing us right now."
+
+translate id ContractSexScene_177:
+    "Mr. Zhao started to touch Anna's pelvis as well as her pussy lips. Just caressing them lightly."
+
+translate id ContractSexScene_178:
+    "Getting there slowly."
+
+translate id ContractSexScene_179:
+    a "AAh..."
+
+translate id ContractSexScene_180:
+    "The sudden touches around her pussy were a surprise, but a welcome one."
+
+translate id ContractSexScene_181:
+    z1 "You are one horny girl, hehe..."
+
+translate id ContractSexScene_182:
+    a "{i}...This... This is so nice... I love the atmosphere..."
+
+translate id ContractSexScene_183:
+    "In Anna's eyes, everything was perfect..."
+
+translate id ContractSexScene_184:
+    "The man's fingers enjoyed the moist vagina."
+
+translate id ContractSexScene_185:
+    "Light shaking and twitching could be seen from Anna as she reacted from pleasure."
+
+translate id ContractSexScene_186:
+    "As their mood elevated and their excitement hit higher peaks, they anticipated more with every moment."
+
+translate id ContractSexScene_187:
+    c2 "{i}...She is so hot... I can't believe it..."
+
+translate id ContractSexScene_188:
+    a "Oh. Why did you stop? It felt very relaxing and pleasurable."
+
+translate id ContractSexScene_189:
+    c2 "I think I wanna do something more... hehe..."
+
+translate id ContractSexScene_190:
+    z1 "Oh, yeah. Curious what we could do, hmm..."
+
+translate id ContractSexScene_191:
+    a "You two are such perverts... Haha..."
+
+translate id ContractSexScene_192:
+    c2 "Well, you do change something in us, you are special."
+
+translate id ContractSexScene_193:
+    "The man took off his underwear and revealed his penis."
+
+translate id ContractSexScene_194:
+    c2 "Makes it really hard to contain our lust."
+
+translate id ContractSexScene_195:
+    c2 "But we are close to being convinced to sign the contract as well."
+
+translate id ContractSexScene_196:
+    a "I see. Well, then let me show you more reasons why you should sign it."
+
+translate id ContractSexScene_197:
+    z1 "We can't wait!!! This is gonna be good."
+
+translate id ContractSexScene_198:
+    "Anna's eyes locked on Mr. Chen's dick as he sat down."
+
+translate id ContractSexScene_199:
+    "As if it was calling for her, asking for her to pleasure it."
+
+translate id ContractSexScene_200:
+    "At the same time, Mr. Zhao was still stimulating her lower body."
+
+translate id ContractSexScene_201:
+    c2 "How about you get on top of me?"
+
+translate id ContractSexScene_202:
+    c2 "I would very much appreciate that."
+
+translate id ContractSexScene_203:
+    a "Well, I guess that's one way to show what I'm capable of."
+
+translate id ContractSexScene_204:
+    z1 "That's what we are counting on."
+
+translate id ContractSexScene_205:
+    c2 "Come on, get on top. I want to feel your lustful, sexy body."
+
+translate id ContractSexScene_206:
+    "Anna mounted Mr. Chen. Still acting a bit innocent, but she was eager."
+
+translate id ContractSexScene_207:
+    "Eager to take the entire session further, her pussy waiting, unable to contain itself."
+
+translate id ContractSexScene_208:
+    a "Ahh... Your dick is so close to my vagina. I... I can feel the pull..."
+
+translate id ContractSexScene_209:
+    c2 "Yes indeed. I also want to push my cock in there. To feel the sensation."
+
+translate id ContractSexScene_210:
+    "Mr. Chen gripped Anna by her ass, his cock so hard that it felt like a diamond."
+
+translate id ContractSexScene_211:
+    "Anna just instinctively trying to land down on the cock."
+
+translate id ContractSexScene_212:
+    "But Mr. Chen was teasing her..."
+
+translate id ContractSexScene_213:
+    c2 "Oh, you naughty girl. Looks like you can't control yourself anymore."
+
+translate id ContractSexScene_214:
+    a "I... I can't. I want it."
+
+translate id ContractSexScene_215:
+    "A short moment passed, and Mr. Chen fulfilled Anna's request of penetrating her pussy."
+
+translate id ContractSexScene_216:
+    a "AAHHHHH... MMHFF."
+
+translate id ContractSexScene_217:
+    "She screamed out in pleasure."
+
+translate id ContractSexScene_218:
+    "Hot air, hot Anna, and depravity all in one. Everyone was getting a piece of this girl."
+
+translate id ContractSexScene_219:
+    "Anna instinctively sat down as deep as she could on Mr. Chen's dick."
+
+translate id ContractSexScene_220:
+    c2 "Fuuck. That's a good pussy."
+
+translate id ContractSexScene_221:
+    a "AAH... AAHH..."
+
+translate id ContractSexScene_222:
+    a "My pussy, feels so good."
+
+translate id ContractSexScene_223:
+    "Anna liked the SPA and everything so much. She was being filled with cock in a warm, comfortable place."
+
+translate id ContractSexScene_224:
+    "The man was in awe of Anna's riding. She did it so well."
+
+translate id ContractSexScene_225:
+    "Unable to utter any words, no other sound besides moans of pleasure."
+
+translate id ContractSexScene_226:
+    c2 "Ahh... Such good pussy..."
+
+translate id ContractSexScene_227:
+    "Both of them partaking in this mating ritual. Animalistic."
+
+translate id ContractSexScene_228:
+    "Anna started to ride Mr. Chen faster and faster."
+
+translate id ContractSexScene_229:
+    "Keeping him on his toes."
+
+translate id ContractSexScene_230:
+    "Focusing not to come, when such an amazing body was in front of him..."
+
+translate id ContractSexScene_231:
+    "She continued to ride him with vigor in her heart."
+
+translate id ContractSexScene_232:
+    "Even if she was committed to closing the contract, she was also in heat right now."
+
+translate id ContractSexScene_233:
+    "Stimulated, horny..."
+
+translate id ContractSexScene_234:
+    "Wishing for more..."
+
+translate id ContractSexScene_235:
+    "The executive was just there sitting, being ridden by the hottest woman he had ever seen."
+
+translate id ContractSexScene_236:
+    "Feeling the buildup in his dick reach almost uncontrollable peaks."
+
+translate id ContractSexScene_237:
+    c2 "Fuck... Your pussy..."
+
+translate id ContractSexScene_238:
+    a "Ahh... Ahhh... I love it... Fuckk... I'm soo wet..."
+
+translate id ContractSexScene_239:
+    "This continued on for several more minutes until Mr. Chen could barely hold on."
+
+translate id ContractSexScene_240:
+    "He needed to change positions, take a breath. Anna was vigorous, passionate."
+
+translate id ContractSexScene_241:
+    "And she had a goal. To cum and to close the contract."
+
+translate id ContractSexScene_242:
+    c2 "Let's change positions. My friend also needs some lovin', and I'm barely holding."
+
+translate id ContractSexScene_243:
+    a "Ahh... But... I feel so good..."
+
+translate id ContractSexScene_244:
+    c2 "Let us both satisfy your needs. What do you say?"
+
+translate id ContractSexScene_245:
+    a "Oh? Why did you say so right away?"
+
+translate id ContractSexScene_246:
+    c2 "Can you get down on the ground on all fours?"
+
+translate id ContractSexScene_247:
+    c2 "We want to take you from both sides."
+
+translate id ContractSexScene_248:
+    a "My favorite position."
+
+translate id ContractSexScene_249:
+    a "I like being filled from different angles, hehe..."
+
+translate id ContractSexScene_250:
+    z1 "You are one crazy female. We should close more contracts in the future."
+
+translate id ContractSexScene_251:
+    "Anna was excited about getting fucked, but her mind was truly focused on giving the reason enough to close the deal."
+
+translate id ContractSexScene_252:
+    z1 "Such a versatile woman. Such curves, tits, ass..."
+
+translate id ContractSexScene_253:
+    c2 "Truly a masterpiece. Unbelievable that such beauties exist."
+
+translate id ContractSexScene_254:
+    c2 "One in a hundred million you are."
+
+translate id ContractSexScene_255:
+    a "Thank you, you are too kind."
+
+translate id ContractSexScene_256:
+    a "Now, please fuck me!"
+
+translate id ContractSexScene_257:
+    c2 "With pleasure."
+
+translate id ContractSexScene_258:
+    "Not a moment passed, and Mr. Chen rammed his hardon inside of Anna."
+
+translate id ContractSexScene_259:
+    "She was so very wet that the entry was completely effortless."
+
+translate id ContractSexScene_260:
+    "Anna was very horny, but this time it had to do with the surroundings."
+
+translate id ContractSexScene_261:
+    "This place made her feel very comfortable and sensual. Her senses were heightened."
+
+translate id ContractSexScene_262:
+    "So every feeling she felt was that much more intense."
+
+translate id ContractSexScene_263:
+    "Mr. Zhao followed soon after and pushed his cock into Anna's mouth."
+
+translate id ContractSexScene_264:
+    "Making her choke on it. Sucking it all over, dripping saliva from both corners of her mouth."
+
+translate id ContractSexScene_265:
+    a "MMmmmm... Ahh..."
+
+translate id ContractSexScene_266:
+    z1 "Fuck, this dick sucking is legendary. Even my wife doesn't do it as well..."
+
+translate id ContractSexScene_267:
+    c2 "Hah... My 28-year-old wife also pales in comparison to this girl!"
+
+translate id ContractSexScene_268:
+    "They both fucked her holes in a matched pace."
+
+translate id ContractSexScene_269:
+    "She could feel both her holes filled, and she loved it."
+
+translate id ContractSexScene_270:
+    "She had become horny enough to completely disregard her inhibitions."
+
+translate id ContractSexScene_271:
+    "Was it the air, the smell, the comfort of the SPA? Or was it something else entirely."
+
+translate id ContractSexScene_272:
+    a "Ahh... Ahhh...."
+
+translate id ContractSexScene_273:
+    c2 "Fuck... My dick is so hard!!!"
+
+translate id ContractSexScene_274:
+    z1 "I'm getting close!!!"
+
+translate id ContractSexScene_275:
+    "All of them moaning and enjoying the moment."
+
+translate id ContractSexScene_276:
+    "Sex was in the air. Their entire bodies felt the sensations..."
+
+translate id ContractSexScene_277:
+    "Anna had it most intense... They weren't the biggest cocks, nor were they the most attractive in her opinion..."
+
+translate id ContractSexScene_278:
+    "But everything else was so perfect, she couldn't hold back at all..."
+
+translate id ContractSexScene_279:
+    "Starting to ram faster and harder. Both men felt something stirring in their bodies."
+
+translate id ContractSexScene_280:
+    "They felt sensation build up in preparation for a bit climax."
+
+translate id ContractSexScene_281:
+    "Anna was completely out of it. Just getting fucked and about to cum in the same fashion as both of the executives."
+
+translate id ContractSexScene_282:
+    c2 "Fuck... I'm about to cum!!!!"
+
+translate id ContractSexScene_283:
+    z1 "Me tooo!!!"
+
+translate id ContractSexScene_284:
+    a "AMMMMM... MMMMM... AAAHHH."
+
+translate id ContractSexScene_285:
+    a "AAhhh... mMFFFFFF."
+
+translate id ContractSexScene_286:
+    c2 "I'm CUMMING!!!!"
+
+translate id ContractSexScene_287:
+    z1 "TAKE MY SEEED... It's all shooting inside your mouth!!!"
+
+translate id ContractSexScene_288:
+    a "AHHHHHH..."
+
+translate id ContractSexScene_289:
+    "Anna's eyes had rolled in her head, as she was still cumming."
+
+translate id ContractSexScene_290:
+    a "AHHHH..."
+
+translate id ContractSexScene_291:
+    "Her mouth fully filled with cum from the old man."
+
+translate id ContractSexScene_292:
+    "She was completely out of it."
+
+translate id ContractSexScene_293:
+    "Feeling deep pleasure..."
+
+translate id ContractSexScene_294:
+    "At the same time, Mr. Chen had filled Anna's backside."
+
+translate id ContractSexScene_295:
+    "Full of gushes of cum... Leaking out..."
+
+translate id ContractSexScene_296:
+    "Anna was spasming from the intense orgasm..."
+
+translate id ContractSexScene_297:
+    "Gradually starting to come down from the sensation..."
+
+translate id ContractSexScene_298:
+    z1 "This was nuts. I completely emptied my ballsack..."
+
+translate id ContractSexScene_299:
+    c2 "I don't remember the last time I had such a hard ejaculation..."
+
+translate id ContractSexScene_300:
+    a "Ahh... I don't..."
+
+translate id ContractSexScene_301:
+    a "This was so intense..."
+
+translate id ContractSexScene_302:
+    c2 "Indeed. We have our own patented scents. They have certain... Effects on females."
+
+translate id ContractSexScene_303:
+    c2 "You, Anna, have convinced us..."
+
+translate id ContractSexScene_304:
+    c2 "I've never had such amazing pussy in my life."
+
+translate id ContractSexScene_305:
+    c2 "You have my full support, and I will sign the contract right away."
+
+translate id ContractSexScene_306:
+    z1 "I'm behind Mr. Chen's decisions, 100%%."
+
+translate id ContractSexScene_307:
+    c2 "You can count on our support."
+
+translate id ContractSexScene_308:
+    "Anna went to clean up and change."
+
+translate id ContractSexScene_309:
+    c2 "Ok. So. Here is the contract with signatures, we've also taken the liberty of making digital copies."
+
+translate id ContractSexScene_310:
+    c2 "Our legal team check everything. We signed everything."
+
+translate id ContractSexScene_311:
+    z1 "Both our signatures are there."
+
+translate id ContractSexScene_312:
+    a "Thank you both."
+
+translate id ContractSexScene_313:
+    c2 "Even though the terms are not perfect for us, You've convinced us for the better."
+
+translate id ContractSexScene_314:
+    c2 "And we trust your company's track record. So, I believe, we will have an effective co-operation."
+
+translate id ContractSexScene_315:
+    a "We won't let you down."
+
+translate id ContractSexScene_316:
+    c2 "If you wish to ever come here again, just let us know. We will clear all the fees and get you the premium experience."
+
+translate id ContractSexScene_317:
+    c2 "This spa is available to our partners and friends."
+
+translate id ContractSexScene_318:
+    c2 "Also, we will send any relevant info regarding other contracts to your team for proofing."
+
+translate id ContractSexScene_319:
+    c2 "As was the part of the contract."
+
+translate id ContractSexScene_320:
+    a "I understand. I will send this straight to the office and to my superiors."
+
+translate id ContractSexScene_321:
+    c2 "We will take our leave then. And you, Anna. Have a good day."
+
+translate id ContractSexScene_322:
+    "Anna went out of the building and got in to the limo."
+
+translate id ContractSexScene_323:
+    di "How was the contract closing, ma'am?"
+
+translate id ContractSexScene_324:
+    a "It was uneventful... But we closed it. Yeah."
+
+translate id ContractSexScene_325:
+    di "That's great news! You should celebrate!"
+
+translate id ContractSexScene_326:
+    di "Ma'am, I've been instructed by Ethan to take you to a location. He wants to show you something."
+
+translate id ContractSexScene_327:
+    a "I wonder what it is."
+
+translate id ContractSexScene_328:
+    di "Ma'am, I've been instructed by Jeremy to take you to a location. He wants to show you something."
+
+translate id ContractSexScene_329:
+    a "I wonder what it is."
+
+translate id ContractSexScene_330:
+    di "Ma'am, I've been instructed by Ethan to take you to a location. He wants to show you something."
+
+translate id ContractSexScene_331:
+    a "I wonder what it is."
+
+
+# === Label: BasemenetEvent ===
+translate id BasemenetEvent_332:
+    "They arrive at the company's underground parking."
+
+translate id BasemenetEvent_333:
+    a "Our parking? Why?"
+
+translate id BasemenetEvent_334:
+    di "You will see in due time."
+
+translate id BasemenetEvent_335:
+    di "Don't worry, he said he wanted to show you something since being the new partner."
+
+translate id BasemenetEvent_336:
+    di "Also, he wanted to discuss the details of why you couldn't close the deal."
+
+translate id BasemenetEvent_337:
+    "They arrive, and Ethan is there to greet Anna."
+
+translate id BasemenetEvent_338:
+    e1 "Welcome, Anna. I believe you know why you're here."
+
+translate id BasemenetEvent_339:
+    a "Hello. I do."
+
+translate id BasemenetEvent_340:
+    e1 "I've brought you here today to show you something."
+
+translate id BasemenetEvent_341:
+    e1 "It's something Jeremy used before his demise."
+
+translate id BasemenetEvent_342:
+    e1 "Since it's of no use to me, I wanted to show it to you, and perhaps you could find a use for it."
+
+translate id BasemenetEvent_343:
+    e1 "Also, we will discuss the reasoning behind why you didn't close the contract."
+
+translate id BasemenetEvent_344:
+    e1 "My superiors are asking serious questions..."
+
+translate id BasemenetEvent_345:
+    e1 "But first things first..."
+
+translate id BasemenetEvent_346:
+    a "What... Is this place?"
+
+translate id BasemenetEvent_347:
+    a "I hope it's not more of his shenaningans."
+
+translate id BasemenetEvent_348:
+    di "Don't worry, I'm pretty sure he is happy with the outcome."
+
+translate id BasemenetEvent_349:
+    "They arrive and Jeremy is there to greet Anna."
+
+translate id BasemenetEvent_350:
+    j1 "Welcome, Anna. Those gullible fools had it coming. Good job."
+
+translate id BasemenetEvent_351:
+    a "Uh, Thanks."
+
+translate id BasemenetEvent_352:
+    j1 "But let's not dwell. I need to show you something. As my inferior, you need to know."
+
+translate id BasemenetEvent_353:
+    j1 "What you are dealing with..."
+
+translate id BasemenetEvent_354:
+    j1 "Welcome. This is a place where people come with certain requests."
+
+translate id BasemenetEvent_355:
+    j1 "You've been lucky to not become a part of this thus far. However, things have changed."
+
+translate id BasemenetEvent_356:
+    a "What... Is this place..."
+
+translate id BasemenetEvent_357:
+    di "Don't worry, he said he wanted to show you something since being the new partner."
+
+translate id BasemenetEvent_358:
+    "They arrive, and Ethan is there to greet Anna."
+
+translate id BasemenetEvent_359:
+    e1 "Welcome, Anna. You've done a great job today."
+
+translate id BasemenetEvent_360:
+    a "Hello and Thank you."
+
+translate id BasemenetEvent_361:
+    e1 "I've brought you here today to show you something."
+
+translate id BasemenetEvent_362:
+    e1 "It's something Jeremy used before his demise."
+
+translate id BasemenetEvent_363:
+    e1 "Since it's of no use to me, I wanted to show it to you, and perhaps you could find a use for it."
+
+translate id BasemenetEvent_364:
+    a "What... Is this place?"
+
+
+============================================================
+# ===== END OF: x-annaofficeeventtwo_tl.rpy =====
+============================================================

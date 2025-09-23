@@ -1,0 +1,85 @@
+># .github/workflows/translate.yml
+name: RenPy Translation Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          sudo npm install -g translate-shell
+          pip install requests
+
+      - name: Send start notification
+        run: |
+          python3 py/telegram_notify.py "🚀 MEMULAI TERJEMAHAN" "Scanning file .rpy..."
+
+      - name: Organize files
+        run: python3 py/manager2.py tl
+
+      - name: Reset progress file
+        run: echo "" > translation_progress.txt
+
+      - name: Translate small batch with progress
+        run: |
+          python3 py/translate.py batch_kecil &
+          PID=$!
+          # Monitor progress setiap 30 detik
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH KECIL"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH KECIL"
+
+      - name: Translate medium batch with progress
+        run: |
+          python3 py/translate.py batch_sedang &
+          PID=$!
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH SEDANG"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH SEDANG"
+
+      - name: Translate large batch with progress
+        run: |
+          python3 py/translate.py batch_besar &
+          PID=$!
+          while kill -0 $PID 2>/dev/null; do
+            if [ -f "translation_progress.txt" ]; then
+              python3 py/send_progress_update.py "BATCH BESAR"
+            fi
+            sleep 30
+          done
+          wait $PID
+          python3 py/send_final_update.py "BATCH BESAR"
+
+      - name: Organize final files
+        run: |
+          mkdir -p id/mapping id/log
+          mv output_tl/*.rpy id/ 2>/dev/null || true
+          mv *_mapping.txt id/mapping/ 2>/dev/null || true
+          mv *_log.txt id/log/ 2>/dev/null || true
+          
+          FILE_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
+          python3 py/telegram_notify.py "🎯 SELESAI" "Total $FILE_COUNT file berhasil diterjemahkan"
+
+      - name: Cleanup
+        run: rm -rf batch_kecil batch_sedang batch_besar output_tl translation_progress.txt

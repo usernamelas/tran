@@ -1,2914 +1,5131 @@
-label EP11_Begin:
-    scene black
-    "Anna got home..."
-    show text "{size=+20}Press Space{/size}"
-    pause
-    $ EP11_var_1 = True
-    hide text
+translate english EP11_Begin_41c3bc2f:
+    # "Anna got home..."
+    ""
+
+translate english EP11_Sleep_1_3cc70fa6:
+    # a "So much stuff has happened... I need some good sleep."
+    a ""
+
+translate english EP11_Sleep_1_fc416ea7:
+    # a "This bed is so comfy."
+    a ""
+
+translate english EP11_Sleep_1_fe4312ed:
+    # a "Goodnight..."
+    a ""
+
+translate english EP11_Sleep_1_af5666d2:
+    # "Anna got a text to meet up with Earl at the precinct."
+    ""
+
+translate english EP11_Precinct_43faf844:
+    # "Anna entered the police station."
+    ""
+
+translate english EP11_Precinct_626c2f07:
+    # "A shiver moved down her spine."
+    ""
+
+translate english EP11_Precinct_a914f309:
+    # "While she thought she could leave this part behind her..."
+    ""
+
+translate english EP11_Precinct_b5da2990:
+    # "It kept creeping back, stalking her."
+    ""
+
+translate english EP11_Precinct_3b9f90c4:
+    # a "Hi. Is Detective Earl in?"
+    a ""
+
+translate english EP11_Precinct_acd784fe:
+    # d4 "Your name?"
+    d4 ""
+
+translate english EP11_Precinct_ac77b035:
+    # a "Anna."
+    a ""
+
+translate english EP11_Precinct_ae648e84:
+    # d4 "Yes, Earl will be here in a moment."
+    d4 ""
+
+translate english EP11_Precinct_dd18b1c2:
+    # a "Thanks."
+    a ""
+
+translate english EP11_Precinct_5ecb4d1c:
+    # d4 "No problem. Is there anything else?"
+    d4 ""
+
+translate english EP11_Precinct_b5193188:
+    # a "Umm..."
+    a ""
+
+translate english EP11_menu_1_31dedc2c:
+    # d4 "I might be wrong, but he is the oldest, still working, guy in the force. Around 40 years, maybe."
+    d4 ""
+
+translate english EP11_menu_1_edf3afab:
+    # d4 "He is very experienced."
+    d4 ""
+
+translate english EP11_menu_1_6239d298:
+    # a "Damn."
+    a ""
+
+translate english EP11_menu_1_a5300844:
+    # d4 "That's all I'm allowed to disclose."
+    d4 ""
+
+translate english EP11_menu_1_e9c00ec6:
+    # d4 "I think he's coming up to three hundred."
+    d4 ""
+
+translate english EP11_menu_1_30b4d9ee:
+    # a "I didn't expect that many..."
+    a ""
+
+translate english EP11_menu_1_9525ba7e:
+    # d4 "He is the most successful officer in the history of the precinct."
+    d4 ""
+
+translate english EP11_menu_1_33be8616:
+    # d4 "He has received several commendations and awards for his efforts."
+    d4 ""
+
+translate english EP11_menu_1_580df0b0:
+    # a "I see."
+    a ""
+
+translate english EP11_menu_1_0d6094a6:
+    # d4 "Sir. She's here for you."
+    d4 ""
+
+translate english EP11_menu_1_6c11b7a5:
+    # earl "Yeah. Thanks. I'll take it from here."
+    earl ""
+
+translate english EP11_menu_1_7efe7484:
+    # earl "Got here in one piece, I see."
+    earl ""
+
+translate english EP11_menu_1_4fca446f:
+    # earl "{i}...One piece of nice ass...{/i}"
+    earl ""
+
+translate english EP11_menu_1_3fc17ad7:
+    # a "I couldn't {b}wait{/b} what other surprises you had for me."
+    a ""
+
+translate english EP11_menu_1_7e0aa41f:
+    # "Anna shrugged off condescendingly."
+    ""
+
+translate english EP11_menu_1_8841de5e:
+    # earl "Right... How about we continue this somewhere else?"
+    earl ""
+
+translate english EP11_menu_1_ebb2afb6:
+    # a "Sure."
+    a ""
+
+translate english EP11_menu_1_3d25845f:
+    # a "Called me here to antagonize?"
+    a ""
+
+translate english EP11_menu_1_9fdf2b0a:
+    # earl "Enough with the shit."
+    earl ""
+
+translate english EP11_menu_1_12cc076a:
+    # earl "I called you here because it's not over..."
+    earl ""
+
+translate english EP11_menu_1_bb8e4b4e:
+    # a "..."
+    a ""
+
+translate english EP11_menu_1_31672776:
+    # a "What am I supposed to do with that information?"
+    a ""
+
+translate english EP11_menu_1_737ac8f2:
+    # a "I'm not the police officer. Not the one investigating, making sure everything's ok."
+    a ""
+
+translate english EP11_menu_1_d83dadf2:
+    # earl "I might come off as a hard ass..."
+    earl ""
+
+translate english EP11_menu_1_0ec4cf87:
+    # earl "But it's my way of working. So don't take my previous behavior for granted."
+    earl ""
+
+translate english EP11_menu_1_dcb68a73:
+    # earl "I have info that suggests that you are under threat."
+    earl ""
+
+translate english EP11_menu_1_5f7efdaf:
+    # earl "That someone knows and has informed certain 'people' of your involvement."
+    earl ""
+
+translate english EP11_menu_1_6a264428:
+    # earl "Someone in the station..."
+    earl ""
+
+translate english EP11_menu_1_93c8426d:
+    # earl "While I get it under control, I can trust nobody."
+    earl ""
+
+translate english EP11_menu_1_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP11_menu_1_4248a541:
+    # a "How do I deal with this?"
+    a ""
+
+translate english EP11_menu_1_928db789:
+    # a "You won't just leave me out to dry?"
+    a ""
+
+translate english EP11_menu_1_675e7a39:
+    # "While Anna was shooting questions left and right..."
+    ""
+
+translate english EP11_menu_1_5b5291ea:
+    # "Earl was lost in thought."
+    ""
+
+translate english EP11_menu_1_058e2a51:
+    # "Fantasies rushed through his head."
+    ""
+
+translate english EP11_menu_1_fd428900:
+    # "He was plotting a new plan."
+    ""
+
+translate english EP11_menu_1_dde4a9bf:
+    # "A way of getting what he wants..."
+    ""
+
+translate english EP11_menu_1_22484a79:
+    # a "Hello?"
+    a ""
+
+translate english EP11_menu_1_e1e84392:
+    # "Anna finally settled down before people started looking."
+    ""
+
+translate english EP11_menu_1_120103ac:
+    # a "How are we gonna deal with this?"
+    a ""
+
+translate english EP11_menu_1_c49c83ff:
+    # earl "I've got an idea!"
+    earl ""
+
+translate english EP11_menu_1_1aec369c:
+    # earl "I'll spare you all but the most important details."
+    earl ""
+
+translate english EP11_menu_1_0c847f20:
+    # earl "I know how to root out the bad guy. But you will have to stay at a hotel for the duration."
+    earl ""
+
+translate english EP11_menu_1_0cca1e88:
+    # earl "Simple, really. It's a sting."
+    earl ""
+
+translate english EP11_menu_1_0cfc67d5:
+    # earl "I will get someone to help me, and we'll catch the culprit."
+    earl ""
+
+translate english EP11_menu_1_355c34e5:
+    # earl "I will plant some 'clues' so that the person coming after you are certain they will catch you."
+    earl ""
+
+translate english EP11_menu_1_1f6ac552:
+    # earl "Meanwhile..."
+    earl ""
+
+translate english EP11_menu_1_73866b0e:
+    # earl "You'll have to stay at this hotel."
+    earl ""
+
+translate english EP11_menu_1_f3aa9a02:
+    # earl "It's probably for a night only."
+    earl ""
+
+translate english EP11_menu_1_362e2d30:
+    # earl "You should manage."
+    earl ""
+
+translate english EP11_menu_1_5cd20763:
+    # earl "I will take care of the expenses."
+    earl ""
+
+translate english EP11_menu_1_6945986a:
+    # a "I hope this works."
+    a ""
+
+translate english EP11_menu_1_a74a0c1e:
+    # earl "It will... Oh, it will..."
+    earl ""
+
+translate english EP11_menu_1_e51bb7dd:
+    # earl "Hehe..."
+    earl ""
+
+translate english EP11_menu_1_e2bba095:
+    # "The man was plotting and plotting. Getting the best out of every situation."
+    ""
+
+translate english EP11_menu_1_a8a4a198:
+    # a "I sure hope this is the last time I get involved in this."
+    a ""
+
+translate english EP11_menu_1_626b7fca:
+    # "As she was walking out, she noticed someone in the interrogation room."
+    ""
+
+translate english EP11_menu_1_f856b8ae:
+    # a "It can't be..."
+    a ""
+
+translate english EP11_menu_1_b9dfaade:
+    # "Was it the nerves... Or something else..."
+    ""
+
+translate english EP11_menu_1_4b7309ed:
+    # "It felt like he was watching her."
+    ""
+
+translate english EP11_menu_1_a20cefa7:
+    # "..."
+    ""
+
+translate english EP11_Work_1_720c25fa:
+    # "Anna entered her office. Immediately thinking to herself. What has to be done."
+    ""
+
+translate english EP11_Work_1_8dd4cde8:
+    # a "I should check my emails first."
+    a ""
+
+translate english EP11_Work_1_16fe7b2c:
+    # a "Probably some email from Jeremy."
+    a ""
+
+translate english EP11_Work_1_f63aced2:
+    # a "Perhaps an email from Ethan."
+    a ""
+
+translate english EP11_Work_1_f2cadd84:
+    # a "I think there is a new company on the horizon that requires our services."
+    a ""
+
+translate english EP11_Work_1_b08039ec:
+    # a "Right, let's see."
+    a ""
+
+translate english EP11_Work_4_081e07d6:
+    # a "There. I hope they respond by tomorrow. Probably actively looking for help in this market."
+    a ""
+
+translate english EP11_Work_4_fdb7b83b:
+    # a "An email just came in, can't be BBD just yet, can it?"
+    a ""
+
+translate english EP11_Work_4_3aae1a92:
+    # a "Nope, just Madison."
+    a ""
+
+translate english EP11_Work_5_7ad400df:
+    # a "Huh... Well I'll go grab a coffee in the meantime."
+    a ""
+
+translate english EP11_Work_5_cef42a67:
+    # a "Ah... Emily, My favourite!"
+    a ""
+
+translate english EP11_Work_5_9440bc72:
+    # e "I wouldn't have it any other way."
+    e ""
+
+translate english EP11_Work_5_1ca45c92:
+    # e "How have you been?"
+    e ""
+
+translate english EP11_Work_5_e893a057:
+    # a "Well, just sent an email to another company that we could do business with."
+    a ""
+
+translate english EP11_Work_5_bc5a6bbb:
+    # e "Oh. More work for me, haha!"
+    e ""
+
+translate english EP11_Work_5_b1e2c82e:
+    # a "Don't worry, I think we will need to expand in the near future."
+    a ""
+
+translate english EP11_Work_5_888eb8a6:
+    # e "Oh?"
+    e ""
+
+translate english EP11_Work_5_f6b4d71c:
+    # a "Yeah."
+    a ""
+
+translate english EP11_Work_5_66a4b108:
+    # e "Cheers to that."
+    e ""
+
+translate english EP11_Work_5_0ca1c9a8:
+    # e "But how have you been in general? Asking personally."
+    e ""
+
+translate english EP11_Work_5_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP11_Work_5_3e5b0f49:
+    # a "Starting to put some things behind me. Moving up in the world."
+    a ""
+
+translate english EP11_Work_5_f0bb6c69:
+    # a "Taking you with me. Heh."
+    a ""
+
+translate english EP11_Work_5_be17ad99:
+    # e "Of course. If you drink martinis, I wanna drink them, too."
+    e ""
+
+translate english EP11_Work_5_7c0b7a88:
+    # a "And on top of that: Work, home, work, home."
+    a ""
+
+translate english EP11_Work_5_fefc722b:
+    # e "Riight... I know you ain't that bland."
+    e ""
+
+translate english EP11_Work_5_08bb5bf6:
+    # e "What about your sexual endeavors?"
+    e ""
+
+translate english EP11_Work_5_1f6150f2:
+    # a "They are private, as you know..."
+    a ""
+
+translate english EP11_Work_5_8338a7d5:
+    # e "Really? I wouldn't have thought. Haha."
+    e ""
+
+translate english EP11_Work_5_e8fe9a89:
+    # e "You'll tell me later, won't you?"
+    e ""
+
+translate english EP11_Work_5_3f9be33e:
+    # a "Of course, there is plenty of tea to spill. haha."
+    a ""
+
+translate english EP11_Work_5_eaee71ae:
+    # a "As long as you also give me something."
+    a ""
+
+translate english EP11_Work_5_2c326fdb:
+    # e "What do you take me for? Of course, I got plenty."
+    e ""
+
+translate english EP11_Work_5_2456a356:
+    # m1 "Hey, Anna. Glad I caught you."
+    m1 ""
+
+translate english EP11_Work_5_33dddc27:
+    # a "Hey. Yeah?"
+    a ""
+
+translate english EP11_Work_5_f5307b7c:
+    # m1 "Listen, umm... I don't know how we missed this, but..."
+    m1 ""
+
+translate english EP11_Work_5_120fc257:
+    # m1 "There is a board meeting in a couple of hours."
+    m1 ""
+
+translate english EP11_Work_5_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP11_Work_5_435b45d0:
+    # m1 "Just heard about it from Ethan."
+    m1 ""
+
+translate english EP11_Work_5_68bf33db:
+    # m1 "I don't know how no one was notified."
+    m1 ""
+
+translate english EP11_Work_5_a7d7d10e:
+    # m1 "I think we somehow missed the memo."
+    m1 ""
+
+translate english EP11_Work_5_dfa18930:
+    # a "Wow. That is a bit of a situation."
+    a ""
+
+translate english EP11_Work_5_8415c051:
+    # a "Jeremy also hadn't notified me."
+    a ""
+
+translate english EP11_Work_5_1adc44d0:
+    # m1 "Yeah, me neither. I don't know."
+    m1 ""
+
+translate english EP11_Work_5_4925386d:
+    # a "Huh... Well."
+    a ""
+
+translate english EP11_Work_5_b8210fc8:
+    # a "What's it about?"
+    a ""
+
+translate english EP11_Work_5_a105c479:
+    # m1 "Quarterly."
+    m1 ""
+
+translate english EP11_Work_5_4ff79f50:
+    # a "Ok..."
+    a ""
+
+translate english EP11_Work_5_4dacc387:
+    # a "Umm... Well, we have to get ontop of the situation."
+    a ""
+
+translate english EP11_Work_5_13542162:
+    # a "Where is Jeremy?"
+    a ""
+
+translate english EP11_Work_5_054922da:
+    # m1 "No where to be found..."
+    m1 ""
+
+translate english EP11_Work_5_b0a16f1e:
+    # a "Of course."
+    a ""
+
+translate english EP11_Work_5_720f6609:
+    # e "Hey... Hey..."
+    e ""
+
+translate english EP11_Work_5_4530a694:
+    # e "It's all good."
+    e ""
+
+translate english EP11_Work_5_bb9b8eff:
+    # e "Let's get some lunch afterward, you can tell me about it."
+    e ""
+
+translate english EP11_Work_5_21f2811e:
+    # e "Right now, we've got to get the make the presentation."
+    e ""
+
+translate english EP11_Work_5_bc2a29be:
+    # e "I will take care of the internals."
+    e ""
+
+translate english EP11_Work_5_0c68a6de:
+    # a "Emily... You are a gem."
+    a ""
+
+translate english EP11_Work_5_69239614:
+    # e "Well, it's nothing Haha."
+    e ""
+
+translate english EP11_Work_5_7bb42240:
+    # a "Yeah, let's get lunch later. Thanks again!"
+    a ""
+
+translate english EP11_Work_5_3469201a:
+    # a "So, What else do we need."
+    a ""
+
+translate english EP11_Work_5_533ef8a3:
+    # m1 "We need quarterly results, basically."
+    m1 ""
+
+translate english EP11_Work_5_5457d2b7:
+    # m1 "I will work on business partners and everything else with Emily and we'll create it."
+    m1 ""
+
+translate english EP11_Work_5_b6df588f:
+    # a "Great. I Will make the presentation, then."
+    a ""
+
+translate english EP11_Work_5_819e3fda:
+    # a "Let's get it done... Eh..."
+    a ""
+
+translate english EP11_Work_5_3eb1bed4:
+    # a "So... I've got all of this info to take care of."
+    a ""
+
+translate english EP11_Work_5_668a8906:
+    # "Anna was going through the documents and murmuring under her breath."
+    ""
+
+translate english EP11_Work_5_7bcdab81:
+    # a "Client satisfaction, income... generated profit..."
+    a ""
+
+translate english EP11_Work_5_d4a06240:
+    # a "gross income..."
+    a ""
+
+translate english EP11_Work_6_76aa3485:
+    # a "We did that."
+    a ""
+
+translate english EP11_Work_6_d066197e:
+    # a "I closed it. Nice."
+    a ""
+
+translate english EP11_Work_6_dfcb855d:
+    # a "I refused to do the dirty things..."
+    a ""
+
+translate english EP11_Work_6_52149563:
+    # a "Haven't done it yet, didn't know it was a target for this quarter."
+    a ""
+
+translate english EP11_Work_6_c304a06c:
+    # a "With me closing deals, we are definitely in the green."
+    a ""
+
+translate english EP11_Work_6_b2ec6d02:
+    # a "What's next."
+    a ""
+
+translate english EP11_Work_6_85192701:
+    # a "This is how it should be."
+    a ""
+
+translate english EP11_Work_6_7b006dfc:
+    # a "Let's see... Targets."
+    a ""
+
+translate english EP11_Work_6_eb888c1a:
+    # a "Definitely gotta close BBD Inc."
+    a ""
+
+translate english EP11_Work_6_8898ec57:
+    # a "My bonuses will rely upon that."
+    a ""
+
+translate english EP11_Work_6_81dbe2be:
+    # a "Damn. I've had to make some big choices."
+    a ""
+
+translate english EP11_Work_6_862704cd:
+    # a "I think these look good."
+    a ""
+
+translate english EP11_Work_6_0bf2c0d0:
+    # a "I should go to Madison and check up on her progress."
+    a ""
+
+translate english EP11_Work_7_d6d3739f:
+    # a "Hey, Madison. I've done all on my side, you ready?"
+    a ""
+
+translate english EP11_Work_7_5577b9f5:
+    # m1 "Yes, Anna. We are ready for the meeting."
+    m1 ""
+
+translate english EP11_Work_7_fef4dd9d:
+    # a "Great."
+    a ""
+
+translate english EP11_Work_7_c08852c3:
+    # a "Had any trouble with info?"
+    a ""
+
+translate english EP11_Work_7_3cfdf977:
+    # m1 "Not really. I've got my own way of archiving info, I keep everything ready and nearby."
+    m1 ""
+
+translate english EP11_Work_7_482c6ec6:
+    # a "That's great. I knew you were the right choice for this job."
+    a ""
+
+translate english EP11_Work_7_c8ef47e1:
+    # m1 "Awww... Thanks. Hah."
+    m1 ""
+
+translate english EP11_Work_7_9c1a4223:
+    # a "Ok, shall we?"
+    a ""
+
+translate english EP11_Work_7_467fc2c9:
+    # m1 "Mhm."
+    m1 ""
+
+translate english EP11_Work_7_bc17fc48:
+    # a "So... This is us, huh."
+    a ""
+
+translate english EP11_Work_7_369f4cae:
+    # m1 "Yeah. The meeting won't start for another 20 or so minutes."
+    m1 ""
+
+translate english EP11_Work_7_bb39654b:
+    # a "Perfect. Enough time for us to set up."
+    a ""
+
+translate english EP11_Work_7_8b9283e5:
+    # a "You've been a real help, Madison."
+    a ""
+
+translate english EP11_Work_7_fc15405b:
+    # m1 "Thanks, Hah. Just doing my job."
+    m1 ""
+
+translate english EP11_Work_7_132c0723:
+    # a "Doing it perfectly."
+    a ""
+
+translate english EP11_Work_7_64353d34:
+    # a "I mean, I didn't even know about the meeting a couple of hours ago."
+    a ""
+
+translate english EP11_Work_7_2928fde0:
+    # a "You saved my ass, kind of."
+    a ""
+
+translate english EP11_Work_7_16a10727:
+    # m1 "Alright, I'll go prepare everything."
+    m1 ""
+
+translate english EP11_Work_7_c14de517:
+    # "Anna was a little nervous. She had to come up with this all on such short notice..."
+    ""
+
+translate english EP11_Work_7_907858ff:
+    # "Will it be enough, though?"
+    ""
+
+translate english EP11_Work_7_c4f05492:
+    # e1 "Anna!"
+    e1 ""
+
+translate english EP11_Work_7_1c884253:
+    # e1 "How are you?"
+    e1 ""
+
+translate english EP11_Work_7_c5e1f841:
+    # a "Well, As good as one can be."
+    a ""
+
+translate english EP11_Work_7_7d042e79:
+    # e1 "Are you ready?"
+    e1 ""
+
+translate english EP11_Work_7_c51cdb83:
+    # a "Yeah, but it would've been better if I had gotten a bit of a heads up."
+    a ""
+
+translate english EP11_Work_7_104196f0:
+    # e1 "Sorry?"
+    e1 ""
+
+translate english EP11_Work_7_c844b744:
+    # a "Well, I just found out about the meeting today."
+    a ""
+
+translate english EP11_Work_7_2f5d78a1:
+    # e1 "What?"
+    e1 ""
+
+translate english EP11_Work_7_94dca6b3:
+    # e1 "Oh, well... It's... I think I might've made a mistake there..."
+    e1 ""
+
+translate english EP11_Work_7_9fa01d11:
+    # a "Eh... We're fine, managed to get everything set up."
+    a ""
+
+translate english EP11_Work_7_9fab5c12:
+    # e1 "I'm sure I sent out the memo a couple of weeks ago."
+    e1 ""
+
+translate english EP11_Work_7_6c496836:
+    # a "A couple of weeks is a long time."
+    a ""
+
+translate english EP11_Work_7_e12fab3d:
+    # a "Besides..."
+    a ""
+
+translate english EP11_Work_7_c84e385b:
+    # a "I haven't been a partner for that long."
+    a ""
+
+translate english EP11_Work_7_a47b5242:
+    # a "And I'd expect, in the future, for you to keep me in the loop."
+    a ""
+
+translate english EP11_Work_7_b96784ec:
+    # a "Things are going to start changing around here a lot more, now that I'm a partner."
+    a ""
+
+translate english EP11_Work_7_cb3fbc73:
+    # e1 "Yes, Anna... Sorry."
+    e1 ""
+
+translate english EP11_Work_7_906d7a23:
+    # a "But, ok."
+    a ""
+
+translate english EP11_Work_7_2d620917:
+    # a "It's done. Let's move on."
+    a ""
+
+translate english EP11_Work_7_fc7d2726:
+    # a "I haven't been department head for that long."
+    a ""
+
+translate english EP11_Work_7_a5a16ebd:
+    # e1 "Right..."
+    e1 ""
+
+translate english EP11_Work_7_41f20f1d:
+    # a "Anyway, I think we are as ready as we'll ever be."
+    a ""
+
+translate english EP11_Work_7_89a86884:
+    # e1 "It's mostly a formality, an informational event."
+    e1 ""
+
+translate english EP11_Work_7_2a066730:
+    # e1 "The board members also want to meet the newest partner."
+    e1 ""
+
+translate english EP11_Work_7_580df0b0:
+    # a "I see."
+    a ""
+
+translate english EP11_Work_7_43c85ab5:
+    # e1 "We all ready?"
+    e1 ""
+
+translate english EP11_Work_7_51f920dc:
+    # m1 "Yes, sir. Copies have been distributed."
+    m1 ""
+
+translate english EP11_Work_7_a4c7e3c3:
+    # m1 "Presentation set up."
+    m1 ""
+
+translate english EP11_Work_7_fef4dd9d_1:
+    # a "Great."
+    a ""
+
+translate english EP11_Work_7_f13fc896:
+    # e1 "An efficient team, I like it."
+    e1 ""
+
+translate english EP11_Work_7_dabffc29:
+    # a "Alright, everything seems to be working."
+    a ""
+
+translate english EP11_Work_7_cb21ad39:
+    # m1 "I asked Timothy to come in beforehand and make sure the system worked, was up to date, etc."
+    m1 ""
+
+translate english EP11_Work_7_f1b18251:
+    # a "Nice thinking."
+    a ""
+
+translate english EP11_Work_7_aba674ed:
+    # d "Excuse me, Mr. Tadayaki has arrived."
+    d ""
+
+translate english EP11_Work_7_4488a2eb:
+    # e1 "Come in, Come in, Namura."
+    e1 ""
+
+translate english EP11_Work_7_9d87104b:
+    # mta "It is an honor, Miss Anna."
+    mta ""
+
+translate english EP11_Work_7_8ea245be:
+    # mta "I've heard many great things about you."
+    mta ""
+
+translate english EP11_Work_7_a2c90844:
+    # "Anna hadn't met any of the board members, yet..."
+    ""
+
+translate english EP11_Work_7_ed001bb5:
+    # a "Um... Like wise, sir."
+    a ""
+
+translate english EP11_Work_7_f89c1e2a:
+    # a "You've been a very wise investor in this company."
+    a ""
+
+translate english EP11_Work_7_034d6a1d:
+    # a "I hope I can prove to you today, that these investments are well worth it."
+    a ""
+
+translate english EP11_Work_7_9f5ec8b9:
+    # mta "Indeed."
+    mta ""
+
+translate english EP11_Work_7_3800c22a:
+    # a "Do you know where Jeremy is?"
+    a ""
+
+translate english EP11_Work_7_30073e1f:
+    # d "No..."
+    d ""
+
+translate english EP11_Work_7_4ccd1048:
+    # "Anna leaned in..."
+    ""
+
+translate english EP11_Work_7_93cd2127:
+    # a "You'd know."
+    a ""
+
+translate english EP11_Work_7_c373a5ee:
+    # d "You and I both know, you are his whore."
+    d ""
+
+translate english EP11_Work_7_78e30bdc:
+    # a "Get out of here..."
+    a ""
+
+translate english EP11_Work_7_0f28811e:
+    # d "Good for us..."
+    d ""
+
+translate english EP11_Work_7_3244fde6:
+    # a "Oh. hey... You're right."
+    a ""
+
+translate english EP11_Work_7_94eda396:
+    # "For a moment both women were sincere."
+    ""
+
+translate english EP11_Work_7_e81baacf:
+    # d "The rest of the members will arrive shortly."
+    d ""
+
+translate english EP11_Work_7_6c652aa5:
+    # a "Thanks, Diane. Appreciated."
+    a ""
+
+translate english EP11_Work_7_d0c2deae:
+    # d "I got you, Anna."
+    d ""
+
+translate english EP11_Work_7_49b43e06:
+    # a "Good luck."
+    a ""
+
+translate english EP11_Work_7_ef7a76f0:
+    # a "And there they are."
+    a ""
+
+translate english EP11_Work_7_292a2060:
+    # "Anna froze for a second..."
+    ""
+
+translate english EP11_Work_7_2629d023:
+    # a "Whaa..."
+    a ""
+
+translate english EP11_Work_7_49d3a58f:
+    # "It was the man, she went to as an escort."
+    ""
+
+translate english EP11_Work_7_3f06caf9:
+    # a "{i}...This is not good..."
+    a ""
+
+translate english EP11_Work_7_d278155e:
+    # a "{i}...He will definitely recognize me."
+    a ""
+
+translate english EP11_Work_7_5baa469e:
+    # mb1 "And so we bought out the company for pennies on the dollar."
+    mb1 ""
+
+translate english EP11_Work_7_1d59d844:
+    # th "Hah... As expected. They deserved it, trying to leverage against you."
+    th ""
+
+translate english EP11_Work_7_183b4956:
+    # th "Ah... The main attraction. I'm Turna Hoeburn. I bought the previous board members, Mr. Gelders shares."
+    th ""
+
+translate english EP11_Work_7_37ddfe66:
+    # a "I see. Great, This meeting will be just the thing to bring you up to speed."
+    a ""
+
+translate english EP11_Work_7_ac6cebfe:
+    # th "I hope so. If you are as smart as you are visually appealing, this will go along nicely."
+    th ""
+
+translate english EP11_Work_7_2ef474b9:
+    # a "Khem... Yeah."
+    a ""
+
+translate english EP11_Work_7_dd6100de:
+    # mb1 "Greetings, Anna."
+    mb1 ""
+
+translate english EP11_Work_7_95ed335e:
+    # th "You two know each other?"
+    th ""
+
+translate english EP11_Work_7_93e0544e:
+    # mb1 "I surely know who are the partners of the company."
+    mb1 ""
+
+translate english EP11_Work_7_17621fe8:
+    # th "Fair enough."
+    th ""
+
+translate english EP11_Work_7_7eaf5d66:
+    # mb1 "Are we ready?"
+    mb1 ""
+
+translate english EP11_Work_7_a1225c76:
+    # a "{i}...Perhaps he forgot? Hopefully..."
+    a ""
+
+translate english EP11_Work_7_4d24cbfd:
+    # a "Yeah. You can all take seats, and we can get this meeting underway."
+    a ""
+
+translate english EP11_Work_7_16c45fc6:
+    # a "Is there anything you'd like? Water, coffee?"
+    a ""
+
+translate english EP11_Work_7_0a406663:
+    # mb1 "We'll be fine. Thanks."
+    mb1 ""
+
+translate english EP11_Work_7_e088cb16:
+    # a "Thanks, Diane."
+    a ""
+
+translate english EP11_Work_7_89c94d68:
+    # d "If you need anything, let me know."
+    d ""
+
+translate english EP11_Work_7_4bd60ba7:
+    # a "You can go now."
+    a ""
+
+translate english EP11_Work_7_1523fe20:
+    # d "..."
+    d ""
+
+translate english EP11_Work_7_9d3d7a9e:
+    # a "Alright..."
+    a ""
+
+translate english EP11_Work_7_bedede4b:
+    # a "So, once again for everyone. I'm Anna."
+    a ""
+
+translate english EP11_Work_7_265a8078:
+    # a "I'm the newest partner at the company."
+    a ""
+
+translate english EP11_Work_7_cde515d0:
+    # a "After Jeremy's... situation..."
+    a ""
+
+translate english EP11_Work_7_2ea0aba1:
+    # a "And I'd like to make a statement."
+    a ""
+
+translate english EP11_Work_7_7cf86fcb:
+    # a "So for the quarterly report, we have made some new targets."
+    a ""
+
+translate english EP11_Work_7_4cd50659:
+    # a "Certain internal policies will also be updated."
+    a ""
+
+translate english EP11_Work_7_590df107:
+    # a "As well as we're actively looking for new clients for the company."
+    a ""
+
+translate english EP11_Work_7_50b2fdc4:
+    # a "And I have made some new targets."
+    a ""
+
+translate english EP11_Work_7_4cd50659_1:
+    # a "Certain internal policies will also be updated."
+    a ""
+
+translate english EP11_Work_7_73b85cab:
+    # a "As well as I'm actively looking for new clients for the company."
+    a ""
+
+translate english EP11_Work_7_ea223568:
+    # a "Jeremy couldn't be here for external reasons... So I'm pitching it as department head."
+    a ""
+
+translate english EP11_Work_7_be00750e:
+    # a "And so, with the help of the partners, Liam, Ethan, Jeremy, we've come up with some new targets for the quarterly, as well."
+    a ""
+
+translate english EP11_Work_7_a0e05b82:
+    # a "With the help of Madison, our newest assistant, we've compiled the documents."
+    a ""
+
+translate english EP11_Work_7_68b3f7fe:
+    # a "You can take a look at the details in your copies."
+    a ""
+
+translate english EP11_Work_7_2b7291ce:
+    # th "Yeah, um... Question!"
+    th ""
+
+translate english EP11_Work_7_9f1db8c6:
+    # a "Yes, Mrs. Hoeburn?"
+    a ""
+
+translate english EP11_Work_7_ce43b97f:
+    # th "I see, from the looks of it, that BBD Inc angle hasn't been covered, yet?"
+    th ""
+
+translate english EP11_Work_7_0fd87215:
+    # th "Do explain."
+    th ""
+
+translate english EP11_Work_7_7921a13d:
+    # a "To be honest, I haven't been a partner that long, so certain things missed my ear."
+    a ""
+
+translate english EP11_Work_7_3dbdf284:
+    # a "I only sent them an email today."
+    a ""
+
+translate english EP11_Work_7_e528c3dc:
+    # a "I will keep you all in the loop, personally."
+    a ""
+
+translate english EP11_Work_7_1d17644f:
+    # a "I am, however, very certain we will give them a great deal."
+    a ""
+
+translate english EP11_Work_7_5f3503f9:
+    # th "Very well, don't keep us waiting."
+    th ""
+
+translate english EP11_Work_7_b94b881c:
+    # th "It was, after all, a goal for the quarterly."
+    th ""
+
+translate english EP11_Work_7_03ca1651:
+    # a "Well, there is development, nothing solid yet."
+    a ""
+
+translate english EP11_Work_7_4f0bfa74:
+    # a "We will keep you in the loop with further news."
+    a ""
+
+translate english EP11_Work_7_2dcf7293:
+    # th "Sounds like empty excuses."
+    th ""
+
+translate english EP11_Work_7_12247efa:
+    # th "It was after all, a goal for the quarterly."
+    th ""
+
+translate english EP11_Work_7_aec4daa6:
+    # a "That's correct, however, the graph shows a different picture."
+    a ""
+
+translate english EP11_Work_7_b37e894a:
+    # a "Our profits have reached AND exceeded the targets."
+    a ""
+
+translate english EP11_Work_7_39339801:
+    # a "In the graph you can see the distribution of funds amongst investments that we've made this quarter."
+    a ""
+
+translate english EP11_Work_7_a373782a:
+    # a "All of which were a part of the quarterly target's agenda."
+    a ""
+
+translate english EP11_Work_7_139afbef:
+    # a "We have also added, as clients, the East Oil Conglomerate."
+    a ""
+
+translate english EP11_Work_7_0ab0e34b:
+    # a "Which might become our most profitable client, as they plan to expand their operation."
+    a ""
+
+translate english EP11_Work_7_9066141c:
+    # a "Also, I'm speculating here of course, but that potentially opens doors to other companies from the Middle East."
+    a ""
+
+translate english EP11_Work_7_0a512c16:
+    # a "We've also helped Shingzhou Corp with the merger and have gained them as our biggest clients."
+    a ""
+
+translate english EP11_Work_7_622975fd:
+    # a "So for the quarterly goals, we have reached most, and in terms of revenue, exceeded the goals."
+    a ""
+
+translate english EP11_Work_7_f1c17ebb:
+    # a "I'd say that's a win."
+    a ""
+
+translate english EP11_Work_7_7a3fea29:
+    # mta "Miss Anna?"
+    mta ""
+
+translate english EP11_Work_7_4113c9b2:
+    # mta "I would like to understand how well has Shingzhou Corps merger affected their advances?"
+    mta ""
+
+translate english EP11_Work_7_acd7f74c:
+    # mta "That was, after all, one of the main goals of the quarter."
+    mta ""
+
+translate english EP11_Work_7_249ac8b8:
+    # a "Yes... So. On to the next slide."
+    a ""
+
+translate english EP11_Work_7_cb9e3f22:
+    # a "Their profit hasn't simply doubled."
+    a ""
+
+translate english EP11_Work_7_fc8804dc:
+    # a "They have tripled."
+    a ""
+
+translate english EP11_Work_7_4f2659d7:
+    # a "And we as the service company get an increased workload, which directly impacts our income."
+    a ""
+
+translate english EP11_Work_7_d714334a:
+    # a "Unfortunately, we were unable to close Shingzhou Corp, which has, potentially cut into future profits."
+    a ""
+
+translate english EP11_Work_7_a399c128:
+    # a "There were some problems that couldn't be resolved."
+    a ""
+
+translate english EP11_Work_7_ce18c174:
+    # a "However, EOC and BBD Inc, which I'm sure I will close, both will make up for the shortcomings."
+    a ""
+
+translate english EP11_Work_7_43ddb2ce:
+    # a "Also, we will try once more in the future, because, as far as I understand, they still haven't come up with a better company to provide services."
+    a ""
+
+translate english EP11_Work_7_7a3fea29_1:
+    # mta "Miss Anna?"
+    mta ""
+
+translate english EP11_Work_7_413384dd:
+    # mta "This is unacceptable!"
+    mta ""
+
+translate english EP11_Work_7_4113c9b2_1:
+    # mta "I would like to understand how well has Shingzhou Corps merger affected their advances?"
+    mta ""
+
+translate english EP11_Work_7_bdc84903:
+    # mta "That was, after all one of the main goals of the quarter."
+    mta ""
+
+translate english EP11_Work_7_249ac8b8_1:
+    # a "Yes... So. On to the next slide."
+    a ""
+
+translate english EP11_Work_7_a3999e7c:
+    # a "Their profits haven't simply doubled."
+    a ""
+
+translate english EP11_Work_7_fc8804dc_1:
+    # a "They have tripled."
+    a ""
+
+translate english EP11_Work_7_2bfe1d39:
+    # a "But, like I said, I'm confident if we approach them once more, we will find a compromise."
+    a ""
+
+translate english EP11_Work_7_bf79dbbc:
+    # mta "Due to this news, Ethan, you will have to take over Shingzhou. I only trust you with this."
+    mta ""
+
+translate english EP11_Work_7_e913b463:
+    # e1 "Will do."
+    e1 ""
+
+translate english EP11_Work_7_c6c98400:
+    # a "Regarding the vote."
+    a ""
+
+translate english EP11_Work_7_f3c99cb4:
+    # a "I've voted to increase Employee salaries."
+    a ""
+
+translate english EP11_Work_7_3aac57d1:
+    # a "I've voted to increase partner salaries as a by-product of our success."
+    a ""
+
+translate english EP11_Work_7_e2bb7cbf:
+    # a "As well as..."
+    a ""
+
+translate english EP11_Work_7_503fc6c2:
+    # a "Donate to a charity fund."
+    a ""
+
+translate english EP11_Work_7_229d9cd6:
+    # a "Increase partner benefits."
+    a ""
+
+translate english EP11_Work_7_6cfb72fe:
+    # a "You will, of course, have the final say."
+    a ""
+
+translate english EP11_Work_7_151dcfe8:
+    # a "For targets we have..."
+    a ""
+
+translate english EP11_Work_7_222bb482:
+    # a "A plan to expand the influence and gain clients locally, Sun City, etc."
+    a ""
+
+translate english EP11_Work_7_581ba378:
+    # a "A plan to expand in an international context and gain influence and clients as such."
+    a ""
+
+translate english EP11_Work_7_e2bb7cbf_1:
+    # a "As well as..."
+    a ""
+
+translate english EP11_Work_7_32d23173:
+    # a "I propose that we create a new department that deals with Real Estate."
+    a ""
+
+translate english EP11_Work_7_2beb632a:
+    # a "I propose to create a new AI research department that would further the ever-advancing neural networks etc. As well as investing our money into high-grade servers and computers as a foundation for this field."
+    a ""
+
+translate english EP11_Work_7_0f1e6ac1:
+    # mb1 "Well, well..."
+    mb1 ""
+
+translate english EP11_Work_7_41ecf108:
+    # mb1 "I accept the vote as well as the targets!"
+    mb1 ""
+
+translate english EP11_Work_7_fad5f42c:
+    # mb1 "You've outdone yourself, Anna."
+    mb1 ""
+
+translate english EP11_Work_7_2d2e90e2:
+    # mb1 "As a new partner, very impressive."
+    mb1 ""
+
+translate english EP11_Work_7_99babd9f:
+    # mb1 "If this meeting has shown me anything, we can trust in the leadership of this company."
+    mb1 ""
+
+translate english EP11_Work_7_9bc05310:
+    # mb1 "I also believe, bonuses are in order."
+    mb1 ""
+
+translate english EP11_Work_7_c31e9cdb:
+    # mb1 "We'll have the accounting push that through. Good job."
+    mb1 ""
+
+translate english EP11_Work_7_0c8ee600:
+    # mb1 "Well... Looks like there have been some hiccups."
+    mb1 ""
+
+translate english EP11_Work_7_53c2238e:
+    # mb1 "I accept the vote and the targets, however, we will have to have a deeper look at the failures of this quarter."
+    mb1 ""
+
+translate english EP11_Work_7_e9e875b0:
+    # mb1 "For now, I'd say, as a new partner, it's understandable, however, this cannot reoccur."
+    mb1 ""
+
+translate english EP11_Work_7_50809096:
+    # mb1 "If this meeting has shown me anything, we will have to keep a closer eye on things, but for now, everything seems stable."
+    mb1 ""
+
+translate english EP11_Work_7_e0bfd5d2:
+    # mb1 "For now, things are fine."
+    mb1 ""
+
+translate english EP11_Work_7_3accd188:
+    # mb1 "I accept the vote as well as the targets."
+    mb1 ""
+
+translate english EP11_Work_7_5cea3a49:
+    # a "Thank you, sir."
+    a ""
+
+translate english EP11_Work_7_42511d20:
+    # th "While I keep a higher level of scrutiny towards these things, I have to agree with Mr. Burnsfield on this."
+    th ""
+
+translate english EP11_Work_7_534cc930:
+    # th "He knows what he's doing."
+    th ""
+
+translate english EP11_Work_7_6c65d1ef:
+    # th "So for now, you have my vote of confidence, too."
+    th ""
+
+translate english EP11_Work_7_fb561ac8:
+    # mta "Yes... You have mine as well, but. I will keep a close eye on the developments."
+    mta ""
+
+translate english EP11_Work_7_4bbf097c:
+    # mta "We are moving into uncertain times and thus investments have to be meticulous and pragmatic."
+    mta ""
+
+translate english EP11_Work_7_5d3e59b8:
+    # mta "Not wild and impulsive."
+    mta ""
+
+translate english EP11_Work_7_a5ceeee2:
+    # a "Of course. I will do my best to not let you down."
+    a ""
+
+translate english EP11_Work_7_35e51e72:
+    # th "I do not like how you've handled certain aspects of the company..."
+    th ""
+
+translate english EP11_Work_7_abc4ef18:
+    # th "So I will also keep a closer eye on you for the time being, and if things deteriorate, I will call for a vote to remove you."
+    th ""
+
+translate english EP11_Work_7_0baa87bd:
+    # th "So do not screw things up anymore."
+    th ""
+
+translate english EP11_Work_7_5d70c2bf:
+    # a "Yes, ma'am."
+    a ""
+
+translate english EP11_Work_7_d8fee396:
+    # mta "I don't have any comments at this time..."
+    mta ""
+
+translate english EP11_Work_7_375ffa18:
+    # mta "I will be in contact... Certain things have to be changed here..."
+    mta ""
+
+translate english EP11_Work_7_4ec4f102:
+    # mta "Hopefully, you do not make anymore mistakes..."
+    mta ""
+
+translate english EP11_Work_7_dfe73def:
+    # a "I won't, sir."
+    a ""
+
+translate english EP11_Work_7_42511d20_1:
+    # th "While I keep a higher level of scrutiny towards these things, I have to agree with Mr. Burnsfield on this."
+    th ""
+
+translate english EP11_Work_7_534cc930_1:
+    # th "He knows what he's doing."
+    th ""
+
+translate english EP11_Work_7_6c65d1ef_1:
+    # th "So for now, you have my vote of confidence, too."
+    th ""
+
+translate english EP11_Work_7_fb561ac8_1:
+    # mta "Yes... You have mine as well, but. I will keep a close eye on the developments."
+    mta ""
+
+translate english EP11_Work_7_4bbf097c_1:
+    # mta "We are moving into uncertain times and thus investments have to be meticulous and pragmatic."
+    mta ""
+
+translate english EP11_Work_7_5d3e59b8_1:
+    # mta "Not wild and impulsive."
+    mta ""
+
+translate english EP11_Work_7_a5ceeee2_1:
+    # a "Of course. I will do my best to not let you down."
+    a ""
+
+translate english EP11_Work_7_3f2daeab:
+    # mta "See that you do. Shingzhou was one of the most important deals in recent history."
+    mta ""
+
+translate english EP11_Work_7_e8a0b81b:
+    # mta "Luckily we can still save it."
+    mta ""
+
+translate english EP11_Work_7_37e63c64:
+    # "Anna just kept the smile..."
+    ""
+
+translate english EP11_Work_7_d88e1213:
+    # a "Since I've covered everything... We are adjourned."
+    a ""
+
+translate english EP11_Work_7_9389e5ec:
+    # "The meeting had come to an end, members were leaving... Anna felt a wave of relief wash over her."
+    ""
+
+translate english EP11_Work_7_7b1d2521:
+    # mb1 "You are very good at this, I'll tell you this much."
+    mb1 ""
+
+translate english EP11_Work_7_018fab40:
+    # mb1 "But you do have plenty to prove still..."
+    mb1 ""
+
+translate english EP11_Work_7_d7f20c56:
+    # mb1 "And... I do remember you, Anna."
+    mb1 ""
+
+translate english EP11_Work_7_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP11_Work_7_e5f4a4c3:
+    # mb1 "I just didn't bring it up to keep things professional."
+    mb1 ""
+
+translate english EP11_Work_7_a6520dc5:
+    # a "But, it's not what it looks like..."
+    a ""
+
+translate english EP11_Work_7_d22afd9b:
+    # mb1 "Don't worry, your secret is safe with me."
+    mb1 ""
+
+translate english EP11_Work_7_fffc5c4f:
+    # mb1 "From my perspective, it won't change anything."
+    mb1 ""
+
+translate english EP11_Work_7_d6189bed:
+    # a "Oh, hah... Thanks, sir..."
+    a ""
+
+translate english EP11_Work_7_afe603a0:
+    # mb1 "That being said, I look forward to the next time we meet. Heh."
+    mb1 ""
+
+translate english EP11_Work_7_5f48a824:
+    # a "Me too..."
+    a ""
+
+translate english EP11_Work_7_4bc207aa:
+    # th "Wait... So you do know about her?"
+    th ""
+
+translate english EP11_Work_7_84a3e0e9:
+    # mb1 "No idea what you're talking about..."
+    mb1 ""
+
+translate english EP11_Work_7_70ed7bf5:
+    # th "What about our arrangement?"
+    th ""
+
+translate english EP11_Work_7_f42fd9dc:
+    # mb1 "Don't you worry about it."
+    mb1 ""
+
+translate english EP11_Work_7_a2337b93:
+    # mb1 "Keep at it. I know a dedicated person when I see one."
+    mb1 ""
+
+translate english EP11_Work_7_ca278258:
+    # a "Thank you, sir..."
+    a ""
+
+translate english EP11_Work_7_806f3ccd:
+    # mb1 "Good luck and keep us posted."
+    mb1 ""
+
+translate english EP11_Work_7_4a41584e:
+    # e1 "Well... that's over."
+    e1 ""
+
+translate english EP11_Work_7_3ce70f00:
+    # e1 "I don't like these meetings."
+    e1 ""
+
+translate english EP11_Work_7_85484241:
+    # e1 "I like sitting on the balcony of my beach house and drinking mojitos."
+    e1 ""
+
+translate english EP11_Work_7_76b101c1:
+    # a "Hah, I'd like that, too."
+    a ""
+
+translate english EP11_Work_7_efe10a27:
+    # m1 "Me three."
+    m1 ""
+
+translate english EP11_Work_7_383864b2:
+    # a "So you'd say we nailed it?"
+    a ""
+
+translate english EP11_Work_7_045e4951:
+    # e1 "They were all pretty impressed."
+    e1 ""
+
+translate english EP11_Work_7_a5d39ad6:
+    # e1 "Besides Shingzhou..."
+    e1 ""
+
+translate english EP11_Work_7_c35ebaf0:
+    # e1 "But I will fix that."
+    e1 ""
+
+translate english EP11_Work_7_7b083818:
+    # m1 "You did great, Anna."
+    m1 ""
+
+translate english EP11_Work_7_d493717c:
+    # a "Whew... I'm tired."
+    a ""
+
+translate english EP11_Work_7_2ad64764:
+    # e1 "Keep this up, and you'll be able to afford a beach house in no time."
+    e1 ""
+
+translate english EP11_Work_7_bf084fb1:
+    # a "I look forward to that."
+    a ""
+
+translate english EP11_Lunch_f019ac93:
+    # a "Emily!"
+    a ""
+
+translate english EP11_Lunch_a86ca71e:
+    # a "Ah. I'm done with the meeting."
+    a ""
+
+translate english EP11_Lunch_00da0181:
+    # a "Quite stressful, that was."
+    a ""
+
+translate english EP11_Lunch_813b71af:
+    # a "You ready for lunch?"
+    a ""
+
+translate english EP11_Lunch_017f56f3:
+    # e "Sure am!"
+    e ""
+
+translate english EP11_Lunch_eda081f1:
+    # a "I am rather hungry, to be honest."
+    a ""
+
+translate english EP11_Lunch_5c2d708d:
+    # a "That meeting took a lot. Haha!"
+    a ""
+
+translate english EP11_Lunch_d438ab30:
+    # e "Tell me about it. I could just feel the energy emanating from that area of the building."
+    e ""
+
+translate english EP11_Lunch_a0221ae6:
+    # a "Haha."
+    a ""
+
+translate english EP11_Lunch_ff91809e:
+    # barista "Hello, What would you like to order?"
+    barista ""
+
+translate english EP11_Lunch_d06fdd13:
+    # a "I'll have a latte..."
+    a ""
+
+translate english EP11_Lunch_62b73253:
+    # e "The same for me."
+    e ""
+
+translate english EP11_Lunch_5f09b6b7:
+    # a "And what kind of cakes do you have today?"
+    a ""
+
+translate english EP11_Lunch_0fd8a37b:
+    # barista "We just got a new batch of Emerald Grove bakery."
+    barista ""
+
+translate english EP11_Lunch_58ec0863:
+    # a "No way. Those are some nasty good cakes."
+    a ""
+
+translate english EP11_Lunch_3ae60e4f:
+    # barista "Indeed."
+    barista ""
+
+translate english EP11_Lunch_ae64f22d:
+    # barista "We have a full choclate cake."
+    barista ""
+
+translate english EP11_Lunch_62d4337b:
+    # barista "Apple cake."
+    barista ""
+
+translate english EP11_Lunch_c1afeabf:
+    # barista "Orange/lime cake."
+    barista ""
+
+translate english EP11_Lunch_2282d94a:
+    # a "I'll have aslice of the full chocolate."
+    a ""
+
+translate english EP11_Lunch_b830f4fd:
+    # e "An apple cake for me."
+    e ""
+
+translate english EP11_Lunch_aaf07ebd:
+    # barista "Coming right up."
+    barista ""
+
+translate english EP11_Lunch_3ad2a371:
+    # e "So, tell me about the meeting."
+    e ""
+
+translate english EP11_Lunch_76c4395b:
+    # a "Well..."
+    a ""
+
+translate english EP11_Lunch_d3641772:
+    # a "And what else you've got on mind today?"
+    a ""
+
+translate english EP11_Lunch_menu_39fc7202:
+    # a "There was Namura Tadayaki. A Japanese investor seemed a very traditional man."
+    a ""
+
+translate english EP11_Lunch_menu_9aacea58:
+    # a "Turna Hoeburn. She's a stickler for 'by the book' stuff. I mean, she was on my ass mostly."
+    a ""
+
+translate english EP11_Lunch_menu_df7576d8:
+    # a "Gordon Burnsfield. A laid-back man. A very attractive, older man. Between 45-50 No doubt."
+    a ""
+
+translate english EP11_Lunch_menu_92c95fa5:
+    # a "Each of them had a different angle, but at the end of the day, Mr. Burnsfield is pulling the most strings."
+    a ""
+
+translate english EP11_Lunch_menu_25ba17e8:
+    # a "I think he actually has the most shares."
+    a ""
+
+translate english EP11_Lunch_menu_be794c5b:
+    # a "So basically, if you must know."
+    a ""
+
+translate english EP11_Lunch_menu_873f4da1:
+    # e "Oh I know this will be good."
+    e ""
+
+translate english EP11_Lunch_menu_ec017457:
+    # a "Mr. Burnsfield, the main investor? I've seen him before."
+    a ""
+
+translate english EP11_Lunch_menu_3d8dac13:
+    # e "Do tell?"
+    e ""
+
+translate english EP11_Lunch_menu_a404dd57:
+    # a "I went to him as an... Escort..."
+    a ""
+
+translate english EP11_Lunch_menu_748e6a82:
+    # a "As a job through Dylan."
+    a ""
+
+translate english EP11_Lunch_menu_bd763b88:
+    # e "Bullshit..."
+    e ""
+
+translate english EP11_Lunch_menu_08bb3e32:
+    # a "Dead serious."
+    a ""
+
+translate english EP11_Lunch_menu_c3144f23:
+    # e "You crazy girl, haha!"
+    e ""
+
+translate english EP11_Lunch_menu_3cae062d:
+    # e "And?"
+    e ""
+
+translate english EP11_Lunch_menu_5f914308:
+    # a "Well, I might go to him again, strictly professional."
+    a ""
+
+translate english EP11_Lunch_menu_dc126f2d:
+    # e "Oh, right! strictly on-the-knees-professional. Haha."
+    e ""
+
+translate english EP11_Lunch_menu_03f158ff:
+    # a "But it pays, plus he seemed charming."
+    a ""
+
+translate english EP11_Lunch_menu_b34593dc:
+    # e "Wait, just to watch?"
+    e ""
+
+translate english EP11_Lunch_menu_3fe174f7:
+    # a "No, no, no. I'm going to the Runway."
+    a ""
+
+translate english EP11_Lunch_menu_7d0a6de9:
+    # a "Alfred got some sort of rare piece of clothing."
+    a ""
+
+translate english EP11_Lunch_menu_ed0bd70d:
+    # a "Wants me to wear it."
+    a ""
+
+translate english EP11_Lunch_menu_ec2aacf0:
+    # e "So, my Anna will finally get a real crack at the model career?"
+    e ""
+
+translate english EP11_Lunch_menu_e6a20db4:
+    # a "I'm very excited."
+    a ""
+
+translate english EP11_Lunch_menu_d0cc9ff8:
+    # a "Well, I'm all done with the cake."
+    a ""
+
+translate english EP11_Lunch_menu_ddcd4283:
+    # a "Didn't even notice how I finished it, haha."
+    a ""
+
+translate english EP11_Lunch_menu_4ed304b7:
+    # e "Me neither, it went down so easy."
+    e ""
+
+translate english EP11_Lunch_menu_90c29a7d:
+    # e "I need to go to the bathroom, You comin'?"
+    e ""
+
+translate english EP11_Lunch_menu_ebb2afb6:
+    # a "Sure."
+    a ""
+
+translate english EP11_Lunch_menu_89eb41a1:
+    # e "Anyway."
+    e ""
+
+translate english EP11_Lunch_menu_9169c3dd:
+    # a "What about you?"
+    a ""
+
+translate english EP11_Lunch_menu_959c7d72:
+    # a "Got some thoughts?"
+    a ""
+
+translate english EP11_Lunch_menu_aa47959f:
+    # e "Actually, yeah."
+    e ""
+
+translate english EP11_Lunch_menu_ef3a3d56:
+    # e "You going to the bar on Friday, right?"
+    e ""
+
+translate english EP11_Lunch_menu_4d2da4f1:
+    # a "Sure am."
+    a ""
+
+translate english EP11_Lunch_menu_dc762566:
+    # a "We'll be opening the bar this friday."
+    a ""
+
+translate english EP11_Lunch_menu_4395ac9c:
+    # a "Since the unfortunate accident."
+    a ""
+
+translate english EP11_Lunch_menu_62ea6f5b:
+    # e "That was very scary."
+    e ""
+
+translate english EP11_Lunch_menu_03b95549:
+    # e "I feel like we're kind of to blame."
+    e ""
+
+translate english EP11_Lunch_menu_fbf80d36:
+    # a "No, we're not..."
+    a ""
+
+translate english EP11_Lunch_menu_f6fab809:
+    # a "Just forget about it."
+    a ""
+
+translate english EP11_Lunch_menu_67e92061:
+    # e "I'm really looking forward to having more fun there."
+    e ""
+
+translate english EP11_Lunch_menu_f737bbe3:
+    # a "I'm pretty sure things will get even crazier."
+    a ""
+
+translate english EP11_Lunch_menu_cb29472c:
+    # e "That's what I like to hear."
+    e ""
+
+translate english EP11_Lunch_menu_40a0f3e3:
+    # e "Wait, what exactly is going to happen now, that Patrick's out of the picture?"
+    e ""
+
+translate english EP11_Lunch_menu_19cbaf88:
+    # a "Well, Jim and I are taking over, kind of. I will follow his lead for now."
+    a ""
+
+translate english EP11_Lunch_menu_59f509b5:
+    # a "But I'm kind of becoming the leader of it."
+    a ""
+
+translate english EP11_Lunch_menu_d759dae7:
+    # e "So Patrick's still in charge?"
+    e ""
+
+translate english EP11_Lunch_menu_cf2f76df:
+    # a "Yeah. He's not the nicest boss, but things work under him."
+    a ""
+
+translate english EP11_Lunch_menu_ed0f4254:
+    # e "Shouldn't take it."
+    e ""
+
+translate english EP11_Lunch_menu_7f5a75ea:
+    # a "It's not really that bad."
+    a ""
+
+translate english EP11_Lunch_menu_a207adb1:
+    # e "How are you and Timothy doing, eh?"
+    e ""
+
+translate english EP11_Lunch_menu_efbf4819:
+    # a "Hah. You are never satiated."
+    a ""
+
+translate english EP11_Lunch_menu_1d524473:
+    # a "I haven't done much with him lately."
+    a ""
+
+translate english EP11_Lunch_menu_809bd914:
+    # a "Went to him. We made pizza..."
+    a ""
+
+translate english EP11_Lunch_menu_920d5ed7:
+    # a "Oh wait... We umm, had sex there."
+    a ""
+
+translate english EP11_Lunch_menu_7409527f:
+    # e "HAHA! Of course..."
+    e ""
+
+translate english EP11_Lunch_menu_1481602e:
+    # e "You've got men lining up like crazy."
+    e ""
+
+translate english EP11_Lunch_menu_d361c235:
+    # e "How do you do it?"
+    e ""
+
+translate english EP11_Lunch_menu_fbcdd615:
+    # a "Me?"
+    a ""
+
+translate english EP11_Lunch_menu_ac17db23:
+    # a "You are keeping busy yourself, don't say you don't..."
+    a ""
+
+translate english EP11_Lunch_menu_1ae6da52:
+    # a "You little minx."
+    a ""
+
+translate english EP11_Lunch_menu_02e37864:
+    # e "Hehe... Fair enough."
+    e ""
+
+translate english EP11_Lunch_menu_10cf5989:
+    # a "Alright, let's go."
+    a ""
+
+translate english EP11_Lunch_menu_be6ececb:
+    # a "I've got to prepare for the fashion show."
+    a ""
+
+translate english EP11_Earl_Hotel_e59d35bf:
+    # a "Well, well... I hope that this will be enough to put this all behind me..."
+    a ""
+
+translate english EP11_Earl_Hotel_7084a144:
+    # a "It does seem a bit strange..."
+    a ""
+
+translate english EP11_Earl_Hotel_7120c09a:
+    # a "How he made me come here..."
+    a ""
+
+translate english EP11_Earl_Hotel_af0b6871:
+    # a "But... The choice has been made..."
+    a ""
+
+translate english EP11_Earl_Hotel_76757d6b:
+    # a "This seems..."
+    a ""
+
+translate english EP11_Earl_Hotel_c1b36aa6:
+    # a "Simple, But what did I expect."
+    a ""
+
+translate english EP11_Earl_Hotel_ac4b60b4:
+    # a "Eh..."
+    a ""
+
+translate english EP11_Earl_Hotel_667134ee:
+    # a "This mess has been dragging on for so long."
+    a ""
+
+translate english EP11_Earl_Hotel_0eea10e3:
+    # a "Alright... Alright."
+    a ""
+
+translate english EP11_Earl_Hotel_7a8db61e:
+    # a "I guess if I'm going to stay the night here..."
+    a ""
+
+translate english EP11_Earl_Hotel_b712cd9f:
+    # a "Might get a shower."
+    a ""
+
+translate english EP11_Earl_Hotel_bb8e4b4e:
+    # a "..."
+    a ""
+
+translate english EP11_Earl_Hotel_315db721:
+    # a "That's better..."
+    a ""
+
+translate english EP11_Earl_Hotel_0bfc5ce8:
+    # a "A shower always helps..."
+    a ""
+
+translate english EP11_Earl_Hotel_a20cefa7:
+    # "..."
+    ""
+
+translate english EP11_Earl_Hotel_09db9eaf:
+    # a "Huh?"
+    a ""
+
+translate english EP11_Earl_Hotel_31388e90:
+    # earl "Took your time in the shower?"
+    earl ""
+
+translate english EP11_Earl_Hotel_acee5419:
+    # a "I'm sorry... This is inappropriate."
+    a ""
+
+translate english EP11_Earl_Hotel_3addc083:
+    # earl "Bah. Not really."
+    earl ""
+
+translate english EP11_Earl_Hotel_f5e31808:
+    # earl "I just came around to make sure you're settling in okay for the night?"
+    earl ""
+
+translate english EP11_Earl_Hotel_76a37405:
+    # a "I mean..."
+    a ""
+
+translate english EP11_Earl_Hotel_0fe19e42:
+    # "Anna was shocked..."
+    ""
+
+translate english EP11_Earl_Hotel_76821b31:
+    # a "I am, but... Could you have made it any less obvious that you'd come?"
+    a ""
+
+translate english EP11_Earl_Hotel_e1718df9:
+    # "Anna turned around, she felt his eyes piercing her."
+    ""
+
+translate english EP11_Earl_Hotel_879206aa:
+    # a "Next time, please knock!"
+    a ""
+
+translate english EP11_Earl_Hotel_ef61a92f:
+    # earl "Next time?"
+    earl ""
+
+translate english EP11_Earl_Hotel_390cae69:
+    # a "I mean, there won't be one, but in case."
+    a ""
+
+translate english EP11_Earl_Hotel_c246965e:
+    # earl "I will do my best to remember that."
+    earl ""
+
+translate english EP11_Earl_Hotel_58b5b5de:
+    # earl "You know, I brought a bottle of something good."
+    earl ""
+
+translate english EP11_Earl_Hotel_0972e117:
+    # earl "To... Celebrate our victory."
+    earl ""
+
+translate english EP11_Earl_Hotel_4da2f020:
+    # a "Your victory."
+    a ""
+
+translate english EP11_Earl_Hotel_eef1f697:
+    # earl "Nonsense. We both did our part. You will be much better off, trust me."
+    earl ""
+
+translate english EP11_Earl_Hotel_d5ef19ce:
+    # a "I just want to put it all behind me."
+    a ""
+
+translate english EP11_Earl_Hotel_0fe0e188:
+    # earl "You will. Don't worry about that."
+    earl ""
+
+translate english EP11_Earl_Hotel_8c530c4e:
+    # earl "For Carl and Sergey thing's are just beginning..."
+    earl ""
+
+translate english EP11_Earl_Hotel_9a589516:
+    # a "Carl, too?"
+    a ""
+
+translate english EP11_Earl_Hotel_935bd881:
+    # e "He's a serious accomplice, you know?"
+    e ""
+
+translate english EP11_Earl_Hotel_cf1e98eb:
+    # earl "Here, this should help you relax."
+    earl ""
+
+translate english EP11_Earl_Hotel_0ca55391:
+    # a "Yeah... I need a drink..."
+    a ""
+
+translate english EP11_Earl_Hotel_adb5a90f:
+    # "Anna was letting her guard down a bit."
+    ""
+
+translate english EP11_Earl_Hotel_02685100:
+    # a "But... He's, he's important to Rebecca."
+    a ""
+
+translate english EP11_Earl_Hotel_9fe1da66:
+    # earl "And that means what exactly?"
+    earl ""
+
+translate english EP11_Earl_Hotel_3871df56:
+    # earl "You know I've done a great deal already to keep you out of it."
+    earl ""
+
+translate english EP11_Earl_Hotel_fc51371b:
+    # "Anna chug the bourbon."
+    ""
+
+translate english EP11_Earl_Hotel_415178bf:
+    # earl "{i}...Yeah, just like that..."
+    earl ""
+
+translate english EP11_Earl_Hotel_b21a5f9d:
+    # a "Is there nothing that can be done?"
+    a ""
+
+translate english EP11_Earl_Hotel_7d263a3d:
+    # earl "Well..."
+    earl ""
+
+translate english EP11_Earl_Hotel_ab341bad:
+    # earl "There might be..."
+    earl ""
+
+translate english EP11_Earl_Hotel_aea77878:
+    # a "Name your price..."
+    a ""
+
+translate english EP11_Earl_Hotel_6dbe3401:
+    # earl "That isn't as simple..."
+    earl ""
+
+translate english EP11_Earl_Hotel_c917acc0:
+    # earl "I think... You might know what it is that I want..."
+    earl ""
+
+translate english EP11_Earl_Hotel_4b61d88c:
+    # "Anna was thinking hard..."
+    ""
+
+translate english EP11_Earl_Hotel_3d07b265:
+    # a "{i}...Does he..."
+    a ""
+
+translate english EP11_Earl_Hotel_906a6e2f:
+    # earl "If you 'persuade' me, I might help Carl's situation..."
+    earl ""
+
+translate english EP11_Earl_Hotel_ae070fb4:
+    # "Did Anna really want to get Carl out of there that much?"
+    ""
+
+translate english EP11_Earl_Hotel_e51bb7dd:
+    # earl "Hehe..."
+    earl ""
+
+translate english EP11_Earl_Hotel_3e18f54f:
+    # a "I put up with you enough!"
+    a ""
+
+translate english EP11_Earl_Hotel_ce197057:
+    # a "I'm not going sell my body to you!"
+    a ""
+
+translate english EP11_Earl_Hotel_938fa524:
+    # a "Unless you have a better idea, you can get the fuck out of here and catch the bad guys!"
+    a ""
+
+translate english EP11_Earl_Hotel_07631698:
+    # earl "Whoa... I was just..."
+    earl ""
+
+translate english EP11_Earl_Hotel_00a3f0ee:
+    # "For a moment Anna's answer put Earl into a shock."
+    ""
+
+translate english EP11_Earl_Hotel_b7fd1d72:
+    # "He didn't expect her to shoot back at him like that."
+    ""
+
+translate english EP11_Earl_Hotel_ca754d89:
+    # earl "I was just messing around."
+    earl ""
+
+translate english EP11_Earl_Hotel_73b51ee0:
+    # a "GET OUT!"
+    a ""
+
+translate english EP11_Earl_Hotel_259af795:
+    # earl "Alright, alright."
+    earl ""
+
+translate english EP11_Earl_Hotel_a9b05c75:
+    # earl "You ain't getting Carl out then."
+    earl ""
+
+translate english EP11_Earl_Hotel_8b54f85f:
+    # earl "Deal with it."
+    earl ""
+
+translate english EP11_Earl_Hotel_aa245116:
+    # a "Enough. GO!"
+    a ""
+
+translate english EP11_Earl_Hotel_6beda846:
+    # "Anna stood up for herself."
+    ""
+
+translate english EP11_Earl_Hotel_181a43a4:
+    # "She felt a breath of relief."
+    ""
+
+translate english EP11_Earl_Hotel_e30080e4:
+    # "Didn't hold in her anger any longer."
+    ""
+
+translate english EP11_Earl_Hotel_3fa92cad:
+    # a "I just hope he catches the bad guy who's after me..."
+    a ""
+
+translate english EP11_Earl_Hotel_e7fd0247:
+    # a "If there even is one..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_0231a58f:
+    # earl "I want to taste you..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_9fc60531:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_cd93eb63:
+    # "Anna felt his cold, stinky breath on her neck..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_a2303be8:
+    # "But she tried to convince herself that Carl was worth it..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_efccf91c:
+    # earl "Drink some more, girl..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_2581fa1c:
+    # "Earl drank some more, too..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_1bafa82c:
+    # a "You're so close to me..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_2d329cb1:
+    # a "I don't feel... Comf..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_9ebe770f:
+    # earl "Empty... Haha!"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_071e745f:
+    # earl "That's the good shit, you know?"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_15e2f822:
+    # earl "I paid a hefty price for the bottle..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_25c36057:
+    # earl "I want to enjoy you, Anna... Been wanting to ever since I found out about you..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_757db864:
+    # a "Is there nothing else I can offer you?"
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_3a8b8cee:
+    # earl "Besides your sister, no..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_44e6b779:
+    # a "I..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_60eef11c:
+    # earl "If you let me have my way, I will do my best to get what you want."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_6f53673a:
+    # earl "That's a promise..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_d863d8af:
+    # a "Oah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_085cd597:
+    # earl "Deal?"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_ae58e8f2:
+    # a "Deal..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_fbda9ffe:
+    # a "AH..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_a11ae114:
+    # earl "You know you're one piece of sexy ass..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_6aea3adb:
+    # a "Don't be too harsh, ok?"
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_e51bb7dd:
+    # earl "Hehe..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_39b98b34:
+    # earl "You don't need this."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_29dce908:
+    # "As the towel fell, it was a sign, that Anna had agreed to Earl's request."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_2b5ca488:
+    # earl "This is... Marvelous."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_5c6807e6:
+    # earl "You've no idea how long I have waited for this."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_9fc60531_1:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_2a023551:
+    # "Anna reacted instinctively."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_773df088:
+    # earl "Come here..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_c27884ff:
+    # earl "Mmmm..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_4267f094:
+    # "Anna pushed through with motivation that this was worth it."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_8db7f0e7:
+    # "But as soon as Earl touched her breasts..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_d71d5f7d:
+    # "She felt something change..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_9fc60531_2:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_9fc60531_3:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_a88c0f70:
+    # "And when Earl pressed his fingers around her vagina..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_5e3d5145:
+    # "She felt sudden arousal engulf her."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_8071814f:
+    # "Anna was once more being taken by her condition..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_1bb36371:
+    # "Starting to lose touch with her inhibitions."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_fbda9ffe_1:
+    # a "AH..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_c822b5fb:
+    # earl "Yes... This is perfect..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_10162d93:
+    # earl "There, be a nice girl and sit."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_00f71985:
+    # earl "You know... Heh... I like when women touch my cock."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_f7b4570b:
+    # earl "I know you'll make it even better."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_e6225928:
+    # a "{i}...I... This is... His cock's big..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_8ed6fa25:
+    # "Anna didn't know what to do with herself. A part of her reasoned as to why she's doing it."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_4058a573:
+    # "Another part of her craved. Something deep and dark inside of her..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_fee983d7:
+    # a "Gentle... Please..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_d3c7e124:
+    # earl "Oh come on. I know you like it rough..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_0bf154ac:
+    # earl "Rub it."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_6267150c:
+    # a "Oh... Ok."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_d9eeb871:
+    # "Anna hesitantly did as the manipulative Detective asked."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_c2200030:
+    # earl "How about you..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_e99abc73:
+    # earl "Spread those legs."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_81aa5491:
+    # earl "My pals won't believe what a chick I landed."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_aa74861c:
+    # earl "Lemme just..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_328a5f43:
+    # a "{i}...What have I gotten myself into..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_f03f4a4f:
+    # a "{i}...But... It's for Carl...Right?..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_9242efb9:
+    # "Anna wrestled with her own thoughts."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_b0830964:
+    # "Earl wasted no time."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_d5861757:
+    # earl "Mmm..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_6c0ecded:
+    # "As soon as Earl's tongue touched Anna's pussy..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_9fc60531_4:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_546227fd:
+    # "Anna instinctively grabbed his head to push it a bit more."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_41aa11ca:
+    # "Earl wasn't gentle, though."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_29212b0b:
+    # earl "{i}...This is fucking NUTS!..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_2cc3f7d0:
+    # a "OH..AHHHH..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_c96b6d1b:
+    # "As Earls fingers entered Anna, all sense left her."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_439c310b:
+    # earl "What about that other, beautiful, beautiful hole..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_fb499f4c:
+    # a "Wait..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_91b20d2d:
+    # a "That's... Forbidden..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_8b17676e:
+    # a "Even Anna's anus was sensitive. with ever slight movement she was thrown back..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_e51bb7dd_1:
+    # earl "Hehe..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_8f29b134:
+    # earl "Yess... That's just right, you like my fingers, eh slut?"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_8e1144f7:
+    # a "Wha?"
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_f02043a5:
+    # earl "How about we get it on?"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_234db2dc:
+    # earl "Time to earn Carl's freedom..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_9f7d8bbd:
+    # "The old, ugly man stripped bare."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_0fedec50:
+    # a "So... Um..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_f99c7792:
+    # a "What do you want to do?"
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_78306e08:
+    # earl "Well... How about you get on your knees?"
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_dab87d16:
+    # earl "And then we'll see..."
+    earl ""
+
+translate english EP11_Earl_Hotel_Sex_301acaf5:
+    # a "Umm... Ok..."
+    a ""
+
+translate english EP11_Earl_Hotel_Sex_91e6df42:
+    # "With each moment, Anna started to want that cock more and more."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_95a2d023:
+    # "She couldn't do much to resist..."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_7a989b78:
+    # "Like an unsatiable nymphomaniac."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_47e9504f:
+    # "She took his cock next to her mouth... Trying to tease him more."
+    ""
+
+translate english EP11_Earl_Hotel_Sex_277336e2:
+    # "That would get her on his good side more."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_cd72f6f8:
+    # "Earl grabbed Anna by her head and pushed his cock deeper."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_08e2ec78:
+    # earl "Yeah... That's a good mouth!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_5c01d927:
+    # earl "You like to choke on old men's cock, don't ya?"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_31868297:
+    # a "MMmm..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_5d00dbc4:
+    # a "MMM!!!"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_4ec348f9:
+    # a "KHAAA!"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_e463dda3:
+    # a "Khe..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_d4b226bf:
+    # earl "Get on the bed. I'm about to fuck you raw."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_5bc645c5:
+    # a "Lemme catch my breath."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_97ab0726:
+    # earl "No time, hehe."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_3320c3ed:
+    # a "Ah."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_efacbf54:
+    # "Earl lunged into bed, eager to fuck Anna's brains out."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_3664daad:
+    # earl "Hehe. This is great. Fuck, you're hot."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_8011272b:
+    # "Anna just went with it. Seeing the ugly man didn't make her feel any better."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_4227b4a6:
+    # "She felt repulsed, even. But in Anna's mind, it was worth it."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_47112cf2:
+    # earl "Now spread them legs."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_e21a642d:
+    # earl "Oh yeah..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_16332327:
+    # earl "This is the shit I've been fantasizing about."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_3cf383d5:
+    # a "So, all this time..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_f98da7fa:
+    # a "You've only wanted to use me?"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_708f471b:
+    # earl "Girl, ain't nothing in this world for free."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_cad7e54c:
+    # earl "You want Carl free? You work for it."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_9cb1c670:
+    # earl "Yeaahhh..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_08a53a0b:
+    # earl "Time to enjoy you."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_cdd5693f:
+    # a "Just don't go too fast at first."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_6dacf452:
+    # earl "Whatever."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_439c66d8:
+    # "Anna was conflicted. A part of her liked being used, another didn't."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_9ffdc2cf:
+    # "She was unable to decide which one it was."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_87b0aa5d:
+    # "Earl didn't care though, he rubbed away on her clit."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_9ab4113c:
+    # earl "Oh, yeah. You like it when I rub against your pussy?"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_257cfac5:
+    # "Anna didn't respond. She acted neutral."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_38828567:
+    # earl "I like it when women keep quiet, hehe."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_b4a1bcea:
+    # earl "How about I..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_9fc60531:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_d880e15d:
+    # a "It's..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_5b5b60e7:
+    # "She gave up choosing. The moment Earl's cock started to enter her..."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_1af4d15c:
+    # "She loved it."
+    ""
+
+translate english EP11_Earl_Sex_Menu_2_4d33e449:
+    # a "AAAHH!"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_2_fc98d6dd:
+    # earl "YEAH!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_c44af3e4:
+    # earl "Fuck... This pussy's loose."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_031ca4c8:
+    # earl "You one good slut, eh?"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_2_1d8d8dbf:
+    # earl "I love it when sluts are loose."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_3_83988034:
+    # "Earl continued fucking Anna nice and good."
+    ""
+
+translate english EP11_Earl_Sex_Menu_3_6be36f9e:
+    # "With fast pace."
+    ""
+
+translate english EP11_Earl_Sex_Menu_3_28b76fd9:
+    # "Anna was moaning uncontrollably at this point."
+    ""
+
+translate english EP11_Earl_Sex_Menu_3_88402d74:
+    # "The cock had sent her over the edge."
+    ""
+
+translate english EP11_Earl_Sex_Menu_3_b4a1bcea:
+    # earl "How about I..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_3_6d7ee9b6:
+    # "He pulled out and went straight for her rear entrance."
+    ""
+
+translate english EP11_Earl_Sex_Menu_3_d0deaf32:
+    # "By now, Anna was getting stimulated even by anal."
+    ""
+
+translate english EP11_Earl_Sex_Menu_4_8bec380d:
+    # earl "How about I flip you over."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_4_0215e467:
+    # earl "Just like a proper slut!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_6_3f9fc79e:
+    # earl "Oh yeah."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_6_b7a10629:
+    # earl "Your ass looks magnificent."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_6_e6515c6a:
+    # a "Fuck..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_6_8bb933f7:
+    # earl "How about the other hole, heh."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_9ef76b52:
+    # earl "AAHH..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_109e193a:
+    # earl "FUCK!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_4d29c7ee:
+    # "Suddenly Earl felt the point of no return..."
+    ""
+
+translate english EP11_Earl_Sex_Menu_5_38150c84:
+    # earl "Fuck!!!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_c2195029:
+    # earl "I'll fill you up!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_c96fae4a:
+    # earl "AAHHH!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_d4789e4d:
+    # earl "I will fill up that pussy good!!!!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_c5891c3c:
+    # earl "YEAAAAH!!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_f3e12168:
+    # earl "AAH."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_11e04be6:
+    # earl "SHIT, SHIT!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_af3ca965:
+    # earl "Turn AROUND!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_d125ff74:
+    # a "AAhh..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_7765af09:
+    # earl "FUCK YEAH!"
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_21a33c8c:
+    # a "Are... Are you done?"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_8f30ac3e:
+    # earl "Hehe... I gotta run, but this isn't the end."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_673495ac:
+    # earl "Fuck you're as good as I thought. Better than I expected, actually."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_6a6239bd:
+    # a "Will you catch the person that's behind this?"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_c827e55f:
+    # earl "Yes, ofcooourse... Hehe..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_52845862:
+    # a "And... And what about Carl?"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_274de9f9:
+    # earl "Like I said, this isn't the end. You might have me convinced... But..."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_f658a195:
+    # earl "You still have to convince my pals."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_d8967823:
+    # a "WHAT?"
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_2093d14f:
+    # earl "It's simple. You want Carl to be free? You gotta play by my rules."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_046884db:
+    # a "But..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_985f69da:
+    # earl "Think on it."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_311e618b:
+    # earl "I will be in touch."
+    earl ""
+
+translate english EP11_Earl_Sex_Menu_5_d8732153:
+    # a "What..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_b1f7b79b:
+    # a "This is..."
+    a ""
+
+translate english EP11_Earl_Sex_Menu_5_bb58c0a3:
+    # "Anna was so deep in thought."
+    ""
+
+translate english EP11_Earl_Sex_Menu_5_1d81d31f:
+    # "At this point she didn't even feel much remorse for this kind of a thing."
+    ""
+
+translate english EP11_Earl_Sex_Menu_5_fdf5ce4b:
+    # a "I'd better get some sleep..."
+    a ""
+
+translate english EP11_Alfred_House_8a8b4f14:
+    # a2 "Ah. Anna!"
+    a2 ""
+
+translate english EP11_Alfred_House_074b1f1d:
+    # a2 "So good to see you. so good."
+    a2 ""
+
+translate english EP11_Alfred_House_307eed88:
+    # a "And you too, Alfred."
+    a ""
+
+translate english EP11_Alfred_House_317bcdb6:
+    # a "How are you holding up?"
+    a ""
+
+translate english EP11_Alfred_House_c9264ec5:
+    # a2 "As nervous as ever, haha!"
+    a2 ""
+
+translate english EP11_Alfred_House_74af0ce9:
+    # a2 "I will manage. What about you, love?"
+    a2 ""
+
+translate english EP11_Alfred_House_1f2cc78b:
+    # a "I'm doing good. Excited for this opportunity."
+    a ""
+
+translate english EP11_Alfred_House_fafbbf86:
+    # a2 "You and me both."
+    a2 ""
+
+translate english EP11_Alfred_House_716d5ba6:
+    # a2 "Patricia will be with us shortly."
+    a2 ""
+
+translate english EP11_Alfred_House_3fe258cd:
+    # p2 "Hey, guys!"
+    p2 ""
+
+translate english EP11_Alfred_House_7fcd146b:
+    # a2 "And speak of the devil, haha."
+    a2 ""
+
+translate english EP11_Alfred_House_6beaa6e6:
+    # p2 "OH, haha. Alfred, you seem in a jolly good mood today?"
+    p2 ""
+
+translate english EP11_Alfred_House_fb7295a0:
+    # a2 "Hah. Don't mind me, I'm just masking my nervousness with joy."
+    a2 ""
+
+translate english EP11_Alfred_House_d26be350:
+    # p2 "The best way to do it."
+    p2 ""
+
+translate english EP11_Alfred_House_641ebda7:
+    # a "So, where we at?"
+    a ""
+
+translate english EP11_Alfred_House_09cd70f2:
+    # a2 "Well, I've prepped all the outfits. I'm waiting on Hector. He'll take us to Westpoint."
+    a2 ""
+
+translate english EP11_Alfred_House_d400b6a9:
+    # a "That's like an hour's ride, isn't it?"
+    a ""
+
+translate english EP11_Alfred_House_a3592ccf:
+    # a2 "Just about."
+    a2 ""
+
+translate english EP11_Alfred_House_b7b08285:
+    # a2 "We'll probably spend a couple of hours there at most."
+    a2 ""
+
+translate english EP11_Alfred_House_5f80ed31:
+    # a "No problem."
+    a ""
+
+translate english EP11_Alfred_House_444b4d89:
+    # a2 "You can go pack up at your place, and we'll await you downstairs. Sounds good?"
+    a2 ""
+
+translate english EP11_Alfred_House_21efca17:
+    # a "Yes. Will get on it right away."
+    a ""
+
+translate english EP11_Alfred_House_4a17c030:
+    # a2 "A wonderful day indeed."
+    a2 ""
+
+translate english EP11_Alfred_House_71a89f93:
+    # a2 "Perfect for a fashion show, haha!"
+    a2 ""
+
+translate english EP11_Alfred_House_56919a7f:
+    # p2 "Look at you, all happy. I love it when you're like this, Alfred."
+    p2 ""
+
+translate english EP11_Alfred_House_67012e16:
+    # a "Alright guys, I'm ready."
+    a ""
+
+translate english EP11_Alfred_House_21cc7a97:
+    # a2 "Great."
+    a2 ""
+
+translate english EP11_Alfred_House_6843f4f7:
+    # h1 "Anna! Great to see you."
+    h1 ""
+
+translate english EP11_Alfred_House_94bcbf79:
+    # h1 "Look as good as ever."
+    h1 ""
+
+translate english EP11_Alfred_House_08d56051:
+    # a "Hah, thanks, Hector."
+    a ""
+
+translate english EP11_Alfred_House_392dbda6:
+    # h1 "Big day ahead of you, eh?"
+    h1 ""
+
+translate english EP11_Alfred_House_8d2700de:
+    # a "Quite so. I'm excited."
+    a ""
+
+translate english EP11_Alfred_House_e1da5c60:
+    # h1 "Wonderful, wonderful."
+    h1 ""
+
+translate english EP11_Alfred_House_57ff1336:
+    # a "I've been wanting to be a model for a long time."
+    a ""
+
+translate english EP11_Alfred_House_e69f19b6:
+    # h1 "And now is your chance."
+    h1 ""
+
+translate english EP11_Alfred_House_904f2169:
+    # a "Thanks to Alfred."
+    a ""
+
+translate english EP11_Alfred_House_5684b4db:
+    # h1 "Of course."
+    h1 ""
+
+translate english EP11_Alfred_House_9e41b4c4:
+    # h1 "Our Alfred has given us a lot of opportunities."
+    h1 ""
+
+translate english EP11_Alfred_House_546a1228:
+    # a2 "I think we should get going."
+    a2 ""
+
+translate english EP11_Alfred_House_ff1ce2cc:
+    # a2 "Wouldn't wanna miss it."
+    a2 ""
+
+translate english EP11_Alfred_House_5a394459:
+    # h1 "Right away."
+    h1 ""
+
+translate english EP11_Alfred_House_8dae3005:
+    # h1 "So you all guys ready?"
+    h1 ""
+
+translate english EP11_Alfred_House_a29a61c8:
+    # h1 "Alfred, got the outfits?"
+    h1 ""
+
+translate english EP11_Alfred_House_0707a824:
+    # a2 "I wouldn't miss them for the world."
+    a2 ""
+
+translate english EP11_Alfred_House_fcb88617:
+    # h1 "How you girls doing in the back?"
+    h1 ""
+
+translate english EP11_Alfred_House_9f3e768d:
+    # h1 "All comfortable?"
+    h1 ""
+
+translate english EP11_Alfred_House_f56bc95a:
+    # a "We are, thanks."
+    a ""
+
+translate english EP11_Alfred_House_f570943d:
+    # p2 "Did you take the spares?"
+    p2 ""
+
+translate english EP11_Alfred_House_114f5cf5:
+    # a2 "Oh... I forgot..."
+    a2 ""
+
+translate english EP11_Alfred_House_f97b6d88:
+    # p2 "Hehe, I took them, don't worry."
+    p2 ""
+
+translate english EP11_Alfred_House_7217d36a:
+    # a2 "Patricia, you are a lifesaver."
+    a2 ""
+
+translate english EP11_Alfred_House_064236c6:
+    # a "What exactly awaits us?"
+    a ""
+
+translate english EP11_Alfred_House_1f0a82c4:
+    # p2 "Well, there will be only select individuals who work in the fashion business."
+    p2 ""
+
+translate english EP11_Alfred_House_0c6b455e:
+    # p2 "It's a semi-closed, special event. Only people with invitations got in."
+    p2 ""
+
+translate english EP11_Alfred_House_2d395cf9:
+    # a "So high-level designers and fashion 'people'?"
+    a ""
+
+translate english EP11_Alfred_House_b28bc885:
+    # a "Hector, too?"
+    a ""
+
+translate english EP11_Alfred_House_62a021de:
+    # p2 "Alfred pulled strings."
+    p2 ""
+
+translate english EP11_Alfred_House_f33bf8be:
+    # p2 "I'm his number two, and you are the main model."
+    p2 ""
+
+translate english EP11_Alfred_House_d8ffdc26:
+    # p2 "Also, I think Aldo will so join."
+    p2 ""
+
+translate english EP11_Alfred_House_809637ce:
+    # p2 "They are 'investors'"
+    p2 ""
+
+translate english EP11_Alfred_House_6a924a3f:
+    # h1 "Hey. I'm your personal chauffeur, as well!"
+    h1 ""
+
+translate english EP11_Alfred_House_e7cf7c6a:
+    # h1 "Haha."
+    h1 ""
+
+translate english EP11_Alfred_House_9248e2e8:
+    # a2 "Watch the road, chauffeur!"
+    a2 ""
+
+translate english EP11_Alfred_House_44bbb02e:
+    # h1 "On it, chief."
+    h1 ""
+
+translate english EP11_Alfred_House_671f15ed:
+    # a2 "Otherwise we'll have the same situation as that one time in Corkridge."
+    a2 ""
+
+translate english EP11_Alfred_House_c19c2f03:
+    # h1 "That... That was an accident."
+    h1 ""
+
+translate english EP11_Alfred_House_610ebde0:
+    # a2 "Yeah. It was! You didn't watch the road."
+    a2 ""
+
+translate english EP11_Alfred_House_e1f2b060:
+    # p2 "What happened?"
+    p2 ""
+
+translate english EP11_Alfred_House_3323e47e:
+    # a2 "We drove on the sidewalk and hit a postbox."
+    a2 ""
+
+translate english EP11_Alfred_House_a0221ae6:
+    # a "Haha."
+    a ""
+
+translate english EP11_Alfred_House_736a842d:
+    # a2 "Hector was quite the rest of the drive."
+    a2 ""
+
+translate english EP11_Alfred_House_318498b7:
+    # a2 "But it seems he wants to pay another 300$ for front bumper change?"
+    a2 ""
+
+translate english EP11_Alfred_House_eebd2d5b:
+    # h1 "Alright, Alright. I get your point."
+    h1 ""
+
+translate english EP11_Alfred_House_e4dfc86a:
+    # h1 "But what about that one time when you were driving?"
+    h1 ""
+
+translate english EP11_Alfred_House_7be41ac0:
+    # a2 "Don't start with the 'whataboutism' You know it wasn't my fault at all."
+    a2 ""
+
+translate english EP11_Alfred_House_d1a36803:
+    # h1 "I beg to differ..."
+    h1 ""
+
+translate english EP11_Alfred_House_7ffc1412:
+    # "While both old men were discussing the details of their driving..."
+    ""
+
+translate english EP11_Alfred_House_fe21da3a:
+    # "Anna felt a little sleepish."
+    ""
+
+translate english EP11_Alfred_House_d3b25d1a:
+    # a "I think, I will take a little nap."
+    a ""
+
+translate english EP11_Alfred_House_4d16adca:
+    # p2 "Sure."
+    p2 ""
+
+translate english EP11_Alfred_House_907e39f7:
+    # p2 "Oh... I mean..."
+    p2 ""
+
+translate english EP11_Alfred_House_9f55f656:
+    # p2 "That's ok."
+    p2 ""
+
+translate english EP11_Alfred_House_abe26b7d:
+    # "Anna quickly fell asleep."
+    ""
+
+translate english EP11_Alfred_House_fd3ac25b:
+    # p2 "Anna..."
+    p2 ""
+
+translate english EP11_Alfred_House_57dc4879:
+    # p2 "Anna?"
+    p2 ""
+
+translate english EP11_Alfred_House_dc7ce62f:
+    # a "Huh. Wha?"
+    a ""
+
+translate english EP11_Alfred_House_8c103c3f:
+    # p2 "Wakey, wakey. We're here."
+    p2 ""
+
+translate english EP11_Alfred_House_5743ee1c:
+    # a "That was fast."
+    a ""
+
+translate english EP11_Alfred_House_db72be30:
+    # p2 "Yeah, you passed out so fast."
+    p2 ""
+
+translate english EP11_Alfred_House_a85348b1:
+    # p2 "Must've been tired."
+    p2 ""
+
+translate english EP11_Alfred_House_39b03e23:
+    # a "Damn, those look like some serious people."
+    a ""
+
+translate english EP11_Alfred_House_f1b2d0a5:
+    # a "Expensive cars."
+    a ""
+
+translate english EP11_Alfred_House_295ab9da:
+    # a "Models."
+    a ""
+
+translate english EP11_Alfred_House_563b521e:
+    # h1 "Ok, guys. I'll drop you off here and park the car in the back."
+    h1 ""
+
+translate english EP11_Alfred_House_a39166d8:
+    # a2 "Alright, you'll bring the outfits from there, ye?"
+    a2 ""
+
+translate english EP11_Alfred_House_78ecc622:
+    # h1 "Yes, sir."
+    h1 ""
+
+translate english EP11_Alfred_House_88c33ca9:
+    # a2 "Alright, this is it. Let's show them how we do it un Sun City, eh?"
+    a2 ""
+
+translate english EP11_Alfred_House_f5c8d33a:
+    # a "Yes!"
+    a ""
+
+translate english EP11_Alfred_House_9b0d4b10:
+    # p2 "Wohoooo!"
+    p2 ""
+
+translate english EP11_Alfred_House_e41084a3:
+    # a2 "So, this is us."
+    a2 ""
+
+translate english EP11_Alfred_House_c96a0e40:
+    # a "Uuuuh... I'm getting nervous."
+    a ""
+
+translate english EP11_Alfred_House_26a9f846:
+    # a2 "You've got this, Anna. You are a natural."
+    a2 ""
+
+translate english EP11_Alfred_House_0211010d:
+    # a2 "The show will start in some 20 mins or so."
+    a2 ""
+
+translate english EP11_Alfred_House_8f4d8de5:
+    # a2 "We got here in the nick of time."
+    a2 ""
+
+translate english EP11_Alfred_House_6145caf4:
+    # h1 "Thanks to my good driving."
+    h1 ""
+
+translate english EP11_Alfred_House_d936decf:
+    # a2 "Right..."
+    a2 ""
+
+translate english EP11_Alfred_House_142d1338:
+    # a "Ooh... This is actually happening."
+    a ""
+
+translate english EP11_Alfred_House_a5594ab4:
+    # a "Will there be a lot of people?"
+    a ""
+
+translate english EP11_Alfred_House_b903b4e5:
+    # a2 "Not that many. This is a closed event for the fashion industry only, mostly."
+    a2 ""
+
+translate english EP11_Alfred_House_a32c50f0:
+    # a2 "The open one will happen later."
+    a2 ""
+
+translate english EP11_Alfred_House_1097658e:
+    # a2 "Listen, we've got to get to our seats, you'll manage right?"
+    a2 ""
+
+translate english EP11_Alfred_House_77acd0b8:
+    # a2 "Patricia will help you with the outfits"
+    a2 ""
+
+translate english EP11_Alfred_House_2ea47883:
+    # a2 "Anna, you got this. Good luck!"
+    a2 ""
+
+translate english EP11_Alfred_House_333dc956:
+    # p2 "Are you ready?"
+    p2 ""
+
+translate english EP11_Alfred_House_dee6882d:
+    # a "I... I don't know."
+    a ""
+
+translate english EP11_Alfred_House_72cf496e:
+    # p2 "What am I saying, of course you are."
+    p2 ""
+
+translate english EP11_Alfred_House_fe9bd1f4:
+    # a "It's just that I've never done anything this big."
+    a ""
+
+translate english EP11_Alfred_House_4c18938f:
+    # p2 "There is a first time for everything, you know that."
+    p2 ""
+
+translate english EP11_Alfred_House_c192313c:
+    # p2 "Besides, gotta take the step some time, right?"
+    p2 ""
+
+translate english EP11_Alfred_House_09554db6:
+    # a "I mean... Yeah."
+    a ""
+
+translate english EP11_Alfred_House_13184703:
+    # p2 "Trust me, if anyone's got it, it's you."
+    p2 ""
+
+translate english EP11_Alfred_House_a1b6eaf8:
+    # a "Alright... I got this, Let's get me into the first outfit."
+    a ""
+
+translate english EP11_Alfred_House_36b20d72:
+    # p2 "That's what I'm talking about, hehe!"
+    p2 ""
+
+translate english EP11_Alfred_House_b022d90f:
+    # p2 "Alright, get naked, girl."
+    p2 ""
+
+translate english EP11_Alfred_House_95099012:
+    # a "Ooh. Sassy, I like it."
+    a ""
+
+translate english EP11_Alfred_House_6e19aa15:
+    # a "Where are the outfits?"
+    a ""
+
+translate english EP11_Alfred_House_5b66ab2a:
+    # p2 "Don't worry, I'll bring 'em."
+    p2 ""
+
+translate english EP11_Alfred_House_a597c30a:
+    # p2 "And we're golden."
+    p2 ""
+
+translate english EP11_Alfred_House_75830ecd:
+    # p2 "You look great in this."
+    p2 ""
+
+translate english EP11_Alfred_House_f0c0c25a:
+    # a "This is one of the outfits from Alfred's collections?"
+    a ""
+
+translate english EP11_Alfred_House_e65021a7:
+    # p2 "Yes."
+    p2 ""
+
+translate english EP11_Alfred_House_0885a5ce:
+    # a "My nipples, though."
+    a ""
+
+translate english EP11_Alfred_House_3dac858f:
+    # a "You can see them a little."
+    a ""
+
+translate english EP11_Alfred_House_f302deca:
+    # p2 "Not a problem, trust me."
+    p2 ""
+
+translate english EP11_Alfred_House_9debfbb8:
+    # p2 "It is that way for a reason, you know?"
+    p2 ""
+
+translate english EP11_Alfred_House_faed352a:
+    # a2 "Well, well... You look great."
+    a2 ""
+
+translate english EP11_Alfred_House_21f08f4e:
+    # a2 "We all set?"
+    a2 ""
+
+translate english EP11_Alfred_House_f6b4d71c:
+    # a "Yeah."
+    a ""
+
+translate english EP11_Alfred_House_377cbf6f:
+    # p2 "Anna looks great in this thing. You got the measurements perfectly."
+    p2 ""
+
+translate english EP11_Alfred_House_2bb7b8ce:
+    # a2 "The show's about to start, Anna should get into position."
+    a2 ""
+
+translate english EP11_Alfred_House_ac630aa4:
+    # a2 "Let's go, Patricia."
+    a2 ""
+
+translate english EP11_Alfred_House_dfd9abab:
+    # p2 "You've got this, Anna. Just do what you do best."
+    p2 ""
+
+translate english EP11_Alfred_House_50a42215:
+    # a "And that is?"
+    a ""
+
+translate english EP11_Alfred_House_98c7dc2c:
+    # p2 "Look fucking amazing."
+    p2 ""
+
+translate english EP11_Alfred_House_a0221ae6_1:
+    # a "Haha."
+    a ""
+
+translate english EP11_Alfred_House_d8fa8174:
+    # a "Ok... This is it..."
+    a ""
+
+translate english EP11_Alfred_House_1e88913e:
+    # a "Gotta wait for my queue."
+    a ""
+
+translate english EP11_Alfred_House_a0f249e9:
+    # a "I'm ready..."
+    a ""
+
+translate english EP11_Alfred_House_8df46abf:
+    # a "Ok, my turn."
+    a ""
+
+translate english EP11_Alfred_House_1ea864fa:
+    # "Anna started to walk, feeling fully in character."
+    ""
+
+translate english EP11_Alfred_House_2fefac90:
+    # "Leaving all doubts behind her."
+    ""
+
+translate english EP11_Alfred_House_8eb06cfd:
+    # "As she entered, it's like the runway lit up."
+    ""
+
+translate english EP11_Alfred_House_b928cd81:
+    # "People were curious. They had never seen Anna before."
+    ""
+
+translate english EP11_Alfred_House_5ee00ea9:
+    # "Interested in both the clothing and the model."
+    ""
+
+translate english EP11_Alfred_House_2f97459e:
+    # "Anna was flaming."
+    ""
+
+translate english EP11_Alfred_House_2a244dac:
+    # a "{i}...This is so cool..."
+    a ""
+
+translate english EP11_Alfred_House_2c42e3b7:
+    # a "{i}...I'm finally on the runway, I've been wanting to do this for so long."
+    a ""
+
+translate english EP11_Alfred_House_e235b072:
+    # gc1 "Who is that girl?"
+    gc1 ""
+
+translate english EP11_Alfred_House_2614745a:
+    # gc1 "I've never seen here."
+    gc1 ""
+
+translate english EP11_Alfred_House_e1b5970e:
+    # h1 "That is Anna. She's Alfred's model."
+    h1 ""
+
+translate english EP11_Alfred_House_db4448eb:
+    # a2 "Not bad for the first outfit. Can you go and help her change?"
+    a2 ""
+
+translate english EP11_Alfred_House_ffc81334:
+    # p2 "On it, Alfred."
+    p2 ""
+
+translate english EP11_Alfred_House_cd430b81:
+    # a "ooOO... I'm so exciiteeed."
+    a ""
+
+translate english EP11_Alfred_House_8aedd1ab:
+    # p2 "That was great, Anna!"
+    p2 ""
+
+translate english EP11_Alfred_House_d3f4d52a:
+    # p2 "You had the proper stride, and everything didn't linger for too long on the runway either."
+    p2 ""
+
+translate english EP11_Alfred_House_57d4a48b:
+    # p2 "Gave the people just enough."
+    p2 ""
+
+translate english EP11_Alfred_House_3a03dd68:
+    # p2 "You can take your panties off, too."
+    p2 ""
+
+translate english EP11_Alfred_House_7ca1e6aa:
+    # a "You sure?"
+    a ""
+
+translate english EP11_Alfred_House_8ac96d34:
+    # p2 "The outfit will look better."
+    p2 ""
+
+translate english EP11_Alfred_House_c0fd56d1:
+    # a "Well, well..."
+    a ""
+
+translate english EP11_Alfred_House_f3614ebc:
+    # a "This a lot skimpier."
+    a ""
+
+translate english EP11_Alfred_House_60fb9f3d:
+    # p2 "I know, so sexy, though."
+    p2 ""
+
+translate english EP11_Alfred_House_a577efea:
+    # p2 "Alright, we don't have much time."
+    p2 ""
+
+translate english EP11_Alfred_House_7b29ab48:
+    # p2 "I'll run back, and you get ready."
+    p2 ""
+
+translate english EP11_Alfred_House_1d1dad7b:
+    # a "Will do."
+    a ""
+
+translate english EP11_Alfred_House_e1d981db:
+    # p2 "You are doing great, Anna."
+    p2 ""
+
+translate english EP11_Alfred_House_92453c68:
+    # a "I know, haha. I'm feeling so confident right now."
+    a ""
+
+translate english EP11_Alfred_House_aed0febc:
+    # p2 "That's great! Good luck!"
+    p2 ""
+
+translate english EP11_Alfred_House_6b3510db:
+    # "Anna got on the runway with the second outfit and now was piquing the interest of everyone."
+    ""
+
+translate english EP11_Alfred_House_5d3a0b69:
+    # "This was a lot skimpier a lot more succulent."
+    ""
+
+translate english EP11_Alfred_House_857c4cbc:
+    # "People were gazing up on the magnificence in front of them."
+    ""
+
+translate english EP11_Alfred_House_f79243fc:
+    # al1 "Anna is really hitting her stride."
+    al1 ""
+
+translate english EP11_Alfred_House_dd3c688e:
+    # h1 "Oh, yeah."
+    h1 ""
+
+translate english EP11_Alfred_House_59c7a146:
+    # gc1 "Hold on... She isn't wearing panties?"
+    gc1 ""
+
+translate english EP11_Alfred_House_ae475a91:
+    # h1 "Alfred's collection is all about the succulence of the female body."
+    h1 ""
+
+translate english EP11_Alfred_House_afdbdd7f:
+    # h1 "You know that empires have crumbled because of that."
+    h1 ""
+
+translate english EP11_Alfred_House_2f3cb489:
+    # gc1 "Huh... Interesting, thought."
+    gc1 ""
+
+translate english EP11_Alfred_House_51ca6e05:
+    # a "Ooohhh... I'm so excited. Everyone's looking at me, that's crazy."
+    a ""
+
+translate english EP11_Alfred_House_05d19a45:
+    # p2 "I thought you had gotten used to people looking at you."
+    p2 ""
+
+translate english EP11_Alfred_House_fbf4c495:
+    # a "Yeah, but... This is a bit different, I can't. So exciting."
+    a ""
+
+translate english EP11_Alfred_House_0d1009df:
+    # a "And all of them are people working in the fashion industry?"
+    a ""
+
+translate english EP11_Alfred_House_bb4550aa:
+    # p2 "Many of them are representatives and other designers."
+    p2 ""
+
+translate english EP11_Alfred_House_8b279359:
+    # p2 "So yeah, word will get around about you."
+    p2 ""
+
+translate english EP11_Alfred_House_3c92072e:
+    # p2 "Anyway, the last outfit."
+    p2 ""
+
+translate english EP11_Alfred_House_e52787fd:
+    # p2 "The main attraction."
+    p2 ""
+
+translate english EP11_Alfred_House_df80ddb5:
+    # a "It was beautiful, I remember."
+    a ""
+
+translate english EP11_Alfred_House_da5a5bfa:
+    # a "Gorgeous."
+    a ""
+
+translate english EP11_Alfred_House_5c58aece:
+    # p2 "Agreed. It's so seductive."
+    p2 ""
+
+translate english EP11_Alfred_House_48f8274c:
+    # p2 "Oh, and remember. for this one, keep your face neutral."
+    p2 ""
+
+translate english EP11_Alfred_House_db5a1ca0:
+    # p2 "The main focus is the outfit."
+    p2 ""
+
+translate english EP11_Alfred_House_b89142d8:
+    # a "Ok. Got it."
+    a ""
+
+translate english EP11_Alfred_House_13f3e570:
+    # p2 "Anyway, I'll go. Don't want to miss it."
+    p2 ""
+
+translate english EP11_Alfred_House_73a70bd5:
+    # p2 "Good luck!"
+    p2 ""
+
+translate english EP11_Alfred_House_9d3679c2:
+    # "Anna pulled out her phone for a quick selfie."
+    ""
+
+translate english EP11_Alfred_House_ced8bc7e:
+    # "And another."
+    ""
+
+translate english EP11_Alfred_House_b7425df6:
+    # a "Alright. Time to go."
+    a ""
+
+translate english EP11_Alfred_House_34bff1a7:
+    # "Anna got on the stage."
+    ""
+
+translate english EP11_Alfred_House_ae5fc32a:
+    # a "Time to get my serious face on."
+    a ""
+
+translate english EP11_Alfred_House_c2094167:
+    # al1 "Damn... I can't believe he pulled it off."
+    al1 ""
+
+translate english EP11_Alfred_House_074c5b00:
+    # al1 "People will fall over each other for this outfit now."
+    al1 ""
+
+translate english EP11_Alfred_House_2e8ce924:
+    # h1 "I know. He's good at this."
+    h1 ""
+
+translate english EP11_Alfred_House_6825c85b:
+    # a "Wheeew..."
+    a ""
+
+translate english EP11_Alfred_House_c77dd28b:
+    # a "That was nuts!"
+    a ""
+
+translate english EP11_Alfred_House_b1457105:
+    # a "I could see all the open mouths, they were all impressed."
+    a ""
+
+translate english EP11_Alfred_House_ac67f8e3:
+    # a2 "Haha! You are absolutely amazing at this."
+    a2 ""
+
+translate english EP11_Alfred_House_2b7cc4ba:
+    # a2 "You should've seen the competition's faces."
+    a2 ""
+
+translate english EP11_Alfred_House_2ead6246:
+    # a2 "This will be the talk of the week in the fashion world."
+    a2 ""
+
+translate english EP11_Alfred_House_d290a0da:
+    # a "Anyway... I will take a breather."
+    a ""
+
+translate english EP11_Alfred_House_c12f35af:
+    # a "It's been rather stressful."
+    a ""
+
+translate english EP11_Alfred_House_1154dca1:
+    # a2 "Yeah, me too."
+    a2 ""
+
+translate english EP11_Alfred_House_61391245:
+    # a2 "Voting will begin shortly, and after that, the winner will be announced."
+    a2 ""
+
+translate english EP11_Alfred_House_7a2aa585:
+    # a2 "I'll go to the toilet."
+    a2 ""
+
+translate english EP11_Alfred_House_9a47eaeb:
+    # a "Alright."
+    a ""
+
+translate english EP11_Alfred_Sex_Label_74563ea8:
+    # a "Shush..."
+    a ""
+
+translate english EP11_Alfred_Sex_Label_4a8f3ee4:
+    # a "I'm so full of excitement right now..."
+    a ""
+
+translate english EP11_Alfred_Sex_Label_79ade295:
+    # a2 "Oh... Hah..."
+    a2 ""
+
+translate english EP11_Alfred_Sex_Label_a74d0cf5:
+    # a "I know you want me, Alfred."
+    a ""
+
+translate english EP11_Alfred_Sex_Label_dc3e442a:
+    # a2 "I... So succulent, so carnal."
+    a2 ""
+
+translate english EP11_Alfred_Sex_Label_e2a9efc6:
+    # a "How about I give you a reward for your good work?"
+    a ""
+
+translate english EP11_Alfred_Sex_Label_232fd323:
+    # a2 "My good work?"
+    a2 ""
+
+translate english EP11_Alfred_Sex_Label_bf1b5cb2:
+    # a "Oh yeah. This outfit made me look irresistible."
+    a ""
+
+translate english EP11_Alfred_Sex_Label_faf5821c:
+    # a2 "Ahh..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_1_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP11_Alfred_Menu_1_98bb6af6:
+    # a "How about I..."
+    a ""
+
+translate english EP11_Alfred_Menu_1_0f84a445:
+    # a2 "Oh, Anna..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_4_2e281201:
+    # a2 "Let's get out of sight."
+    a2 ""
+
+translate english EP11_Alfred_Menu_4_693ba768:
+    # a "Good idea, hehe..."
+    a ""
+
+translate english EP11_Alfred_Menu_4_fc0de820:
+    # "They forgot to close the door, though."
+    ""
+
+translate english EP11_Alfred_Menu_4_84af2ab3:
+    # "They also didn't care."
+    ""
+
+translate english EP11_Alfred_Menu_4_9fc60531:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Alfred_Menu_4_6f5e3c1e:
+    # a "I want you inside of me, now!"
+    a ""
+
+translate english EP11_Alfred_Menu_4_fd47cd60:
+    # a2 "I must oblige."
+    a2 ""
+
+translate english EP11_Alfred_Menu_4_f7d541c0:
+    # a "Fuck me right now... Ah..."
+    a ""
+
+translate english EP11_Alfred_Menu_4_5303b91d:
+    # "Alfred waited not a moment longer and put his dick deep up Anna's pussy."
+    ""
+
+translate english EP11_Alfred_Menu_4_2e80e024:
+    # "She felt intoxicated from the excitement."
+    ""
+
+translate english EP11_Alfred_Menu_5_18f7e16e:
+    # a "FUCK!"
+    a ""
+
+translate english EP11_Alfred_Menu_5_ab36114a:
+    # a "AAHHH!!!"
+    a ""
+
+translate english EP11_Alfred_Menu_5_7a94aaa2:
+    # a2 "That pussyy..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_5_15783d09:
+    # a "Alfred, your cock..."
+    a ""
+
+translate english EP11_Alfred_Menu_5_c428befc:
+    # "Both of them were enjoying the sex deeply."
+    ""
+
+translate english EP11_Alfred_Menu_5_608225ee:
+    # "Both ecstatic in more than one way."
+    ""
+
+translate english EP11_Alfred_Menu_6_eaa3ea0e:
+    # a2 "Lemme slow down for a bit... Ahh.."
+    a2 ""
+
+translate english EP11_Alfred_Menu_6_a2aa06a2:
+    # a2 "Your pussy is almost too much to handle."
+    a2 ""
+
+translate english EP11_Alfred_Menu_6_60f1783a:
+    # a "Alfred... You are the best fucker ever..."
+    a ""
+
+translate english EP11_Alfred_Menu_6_b509e67b:
+    # a "Continue like this for a moment..."
+    a ""
+
+translate english EP11_Alfred_Menu_6_2ff928c3:
+    # "Anna was feeling stimulated every moment of the intercourse."
+    ""
+
+translate english EP11_Alfred_Menu_6_f8353c88:
+    # "Alfred's cock was filling her up perfectly."
+    ""
+
+translate english EP11_Alfred_Menu_6_c55fa757:
+    # a "Yeah..."
+    a ""
+
+translate english EP11_Alfred_Menu_6_0a8dacfd:
+    # a2 "Mhhh..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_6_d595ecf8:
+    # "Alfred was feeling young again."
+    ""
+
+translate english EP11_Alfred_Menu_6_d91bb731:
+    # "Like he could conquer the world."
+    ""
+
+translate english EP11_Alfred_Menu_6_71c14ab3:
+    # "A young, unexplainably hot girl in front of him."
+    ""
+
+translate english EP11_Alfred_Menu_6_4184de80:
+    # "A Fashion show to win..."
+    ""
+
+translate english EP11_Alfred_Menu_6_58438e4d:
+    # "Everything was going great for the man."
+    ""
+
+translate english EP11_Alfred_Menu_6_d0b3b8fd:
+    # "Alfred flipped Anna over for a change."
+    ""
+
+translate english EP11_Alfred_Menu_6_f3ce3b23:
+    # "And to take a breath."
+    ""
+
+translate english EP11_Alfred_Menu_6_2d1eac5c:
+    # a2 "Whew... I think I haven't fucked like this in a while."
+    a2 ""
+
+translate english EP11_Alfred_Menu_6_acbe3eed:
+    # a "Hehe... You've always got something going on with me, you know that right?"
+    a ""
+
+translate english EP11_Alfred_Menu_8_72585d73:
+    # a "AHHh... Alfred... Your cock..."
+    a ""
+
+translate english EP11_Alfred_Menu_8_fe152cc7:
+    # a2 "I'm getting close..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_8_f5f8d32b:
+    # a2 "Not long anymore... FUUCK!!!"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_2f1581ee:
+    # "Both perverts started to cum..."
+    ""
+
+translate english EP11_Alfred_Menu_7_e77bb675:
+    # a2 "AHHH!!!"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_06a4617e:
+    # a2 "ANNA!!!"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_86107de0:
+    # a2 "I'm cummiiingg!!"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_bdb85295:
+    # a "ALFRED!!"
+    a ""
+
+translate english EP11_Alfred_Menu_7_6fcaffa0:
+    # a "FUUUCKK!!!"
+    a ""
+
+translate english EP11_Alfred_Menu_7_9d8ccf62:
+    # a "FILL ME UPPP!!!!!"
+    a ""
+
+translate english EP11_Alfred_Menu_7_0481460d:
+    # a "Oh, Alfred..."
+    a ""
+
+translate english EP11_Alfred_Menu_7_3c69a425:
+    # a2 "Pardon..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_cfd9e48b:
+    # a2 "I feel a bit dizzy..."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_5f0e3bf8:
+    # a "I'm holding you... You're safe."
+    a ""
+
+translate english EP11_Alfred_Menu_7_15939bb9:
+    # a2 "Heh... This is amazing, Anna."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_47ef9b61:
+    # a2 "I'd like to stay here for a moment and hold you."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_3dad7718:
+    # a "Me too."
+    a ""
+
+translate english EP11_Alfred_Menu_7_2e34adfe:
+    # a "Somebody's coming!"
+    a ""
+
+translate english EP11_Alfred_Menu_7_87478af2:
+    # a2 "Ok, shit."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_0fcc80d5:
+    # a2 "Yes?"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_32301212:
+    # a2 "What is it???"
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_9b73818a:
+    # al1 "Well, the award ceremony will start soon."
+    al1 ""
+
+translate english EP11_Alfred_Menu_7_8ff8262a:
+    # al1 "Voting has ended."
+    al1 ""
+
+translate english EP11_Alfred_Menu_7_aeadd22f:
+    # a2 "Ah, right. Ok, I'm going."
+    a2 ""
+
+translate english EP11_Alfred_Menu_7_4c99dac3:
+    # "Alfred rushed away without hesitation."
+    ""
+
+translate english EP11_Alfred_Menu_7_a0241e99:
+    # "Anna was still coming down from the session."
+    ""
+
+translate english EP11_Alfred_Menu_7_9ffcc97b:
+    # a "Whew... This is crazy..."
+    a ""
+
+translate english EP11_Alfred_Menu_7_43d4d768:
+    # h1 "What's that?"
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_fbfc4905:
+    # al1 "Wait."
+    al1 ""
+
+translate english EP11_Alfred_Menu_7_18e0110f:
+    # h1 "Hello, hello, Anna."
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_ae38ff8e:
+    # h1 "Nice show."
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_b035f21c:
+    # a "Thank you."
+    a ""
+
+translate english EP11_Alfred_Menu_7_2616a36f:
+    # h1 "You know, I think we found something that belongs to you?"
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_3204fa95:
+    # al1 "Looks like you lost it indeed."
+    al1 ""
+
+translate english EP11_Alfred_Menu_7_6afb058c:
+    # a "Oh... Um..."
+    a ""
+
+translate english EP11_Alfred_Menu_7_dd18b1c2:
+    # a "Thanks."
+    a ""
+
+translate english EP11_Alfred_Menu_7_1d22982c:
+    # a "Well, I'd better get going."
+    a ""
+
+translate english EP11_Alfred_Menu_7_955e4d74:
+    # a "Wouldn't wanna miss the ceremony."
+    a ""
+
+translate english EP11_Alfred_Menu_7_1e309bda:
+    # h1 "Oh, don't go yet. We still have a moment."
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_29794862:
+    # h1 "We're pretty sure what happened here."
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_dff8b983:
+    # h1 "How about we get some, too?"
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_9466e6fd:
+    # h1 "You are, after all, a slut."
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_246e4a55:
+    # a "You ain't getting any."
+    a ""
+
+translate english EP11_Alfred_Menu_7_85da07c2:
+    # a "And that's final. Please leave me alone now."
+    a ""
+
+translate english EP11_Alfred_Menu_7_56aa8f2c:
+    # al1 "Well, then? How about you get on with it?"
+    al1 ""
+
+translate english EP11_Alfred_Menu_7_48326af6:
+    # a "Ok."
+    a ""
+
+translate english EP11_Alfred_Menu_7_f5e42722:
+    # h1 "Yes... That looks good!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_7_ab7becab:
+    # "Anna embraced her inner slut even more."
+    ""
+
+translate english EP11_Alfred_Menu_7_3af07366:
+    # a "You wanna enjoy my mouth?"
+    a ""
+
+translate english EP11_Alfred_Menu_7_093f7161:
+    # h1 "Hell yeah, girl!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_9_e82f64a9:
+    # a "MM..."
+    a ""
+
+translate english EP11_Alfred_Menu_9_8355a557:
+    # h1 "This mouth is just indescribable!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_9_d519959d:
+    # al1 "The truth!"
+    al1 ""
+
+translate english EP11_Alfred_Menu_9_09cc3df3:
+    # "Anna had become a fuck hole for these two."
+    ""
+
+translate english EP11_Alfred_Menu_9_613d000c:
+    # "She accepted it..."
+    ""
+
+translate english EP11_Alfred_Menu_10_19be6a6a:
+    # al1 "Aghh... I wanna enter your pussy!"
+    al1 ""
+
+translate english EP11_Alfred_Menu_10_e63ec4de:
+    # a "Mhmm..."
+    a ""
+
+translate english EP11_Alfred_Menu_10_2ffbd888:
+    # al1 "Oh, Yeah!"
+    al1 ""
+
+translate english EP11_Alfred_Menu_10_cdaf8cc7:
+    # a "Don't hesitate, fuck me!"
+    a ""
+
+translate english EP11_Alfred_Menu_10_9cedd583:
+    # al1 "As you wish, hehe."
+    al1 ""
+
+translate english EP11_Alfred_Menu_10_fe58019c:
+    # al1 "Fuuck, This pussy's good!"
+    al1 ""
+
+translate english EP11_Alfred_Menu_10_a90c2a0c:
+    # h1 "Don't go too long, I wanna fuck her, too!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_11_b93d5b0c:
+    # "Aldo removed Anna's bra in one smooth motion."
+    ""
+
+translate english EP11_Alfred_Menu_11_3ba326a2:
+    # al1 "I want to see them naked tits."
+    al1 ""
+
+translate english EP11_Alfred_Menu_11_e329e6d6:
+    # al1 "And bury my face in them."
+    al1 ""
+
+translate english EP11_Alfred_Menu_12_6d025b42:
+    # a "AAHHHH..."
+    a ""
+
+translate english EP11_Alfred_Menu_12_4b96388a:
+    # h1 "Let me have a go at that pussy!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_12_c3b16fc2:
+    # al1 "Fuuuck..."
+    al1 ""
+
+translate english EP11_Alfred_Menu_13_0d41ef5d:
+    # h1 "Fuck... I'm close... Ah..."
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_0d6fad5b:
+    # h1 "Get on your knees!!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_14e2a332:
+    # a "Fuuck!"
+    a ""
+
+translate english EP11_Alfred_Menu_13_7569df5b:
+    # h1 "I'm about to explode in your mouth!!!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_97bee104:
+    # h1 "AAAHHH!!!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_27251802:
+    # al1 "QUICK! MY DICK, TOO!!"
+    al1 ""
+
+translate english EP11_Alfred_Menu_13_790b3081:
+    # a "SO MUCH CUUMMM!!!"
+    a ""
+
+translate english EP11_Alfred_Menu_13_898125de:
+    # a "So much..."
+    a ""
+
+translate english EP11_Alfred_Menu_13_9b1c163b:
+    # h1 "Fucking amazing!"
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_29a9555f:
+    # al1 "I'm spent..."
+    al1 ""
+
+translate english EP11_Alfred_Menu_13_b1faf17e:
+    # "Anna cleaned up..."
+    ""
+
+translate english EP11_Alfred_Menu_13_34675061:
+    # h1 "Well... I'd say this was a good investment."
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_b9b76b9c:
+    # al1 "Have to absolutely agree."
+    al1 ""
+
+translate english EP11_Alfred_Menu_13_946f4c9f:
+    # h1 "Let's have some fun together again sometime, eh Anna?"
+    h1 ""
+
+translate english EP11_Alfred_Menu_13_d07f0d7d:
+    # a "Perhaps... I have to run now."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_5901321a:
+    # "Sometime later."
+    ""
+
+translate english EP11_Alfred_Fashion_Finished_797b9b9b:
+    # "And the first place goes to..."
+    ""
+
+translate english EP11_Alfred_Fashion_Finished_23ca410e:
+    # "Alfred, Alf's Fashion!"
+    ""
+
+translate english EP11_Alfred_Fashion_Finished_3d6fb383:
+    # a2 "YEAH!"
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_b9079229:
+    # a2 "Well, I just have one thing to say, honestly."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_99e797b9:
+    # a2 "It couldn't have been possible without my muse."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_599c960e:
+    # a2 "Anna!"
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_d952e07a:
+    # a2 "She's been truly inspirational!"
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_8603ddbc:
+    # a2 "Thank you all for giving me this opportunity."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_d1b34d63:
+    # a2 "This is a dream come true, to be honest!"
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_b4f9cc7c:
+    # "Alfred took a moment to savor this occasion."
+    ""
+
+translate english EP11_Alfred_Fashion_Finished_2165120a:
+    # "Everyone applauded for the winner."
+    ""
+
+translate english EP11_Alfred_Fashion_Finished_ab2b0c2b:
+    # h1 "Congratulations!"
+    h1 ""
+
+translate english EP11_Alfred_Fashion_Finished_b5db2d32:
+    # a2 "Thank you a lot, Anna."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_7c28ffa4:
+    # a2 "I couldn't have done this without you..."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_d9ffc9e1:
+    # p2 "That was awesome."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_43213471:
+    # p2 "I still can't believe it."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_c4bac59d:
+    # a "Yeah, tell me about it."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_31ef086b:
+    # a "So what's next after this?"
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_302e88c6:
+    # p2 "Well, the proceeds will go towards expanding Alfred's clothing line."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_a88aff61:
+    # a "Can't wait to see it."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_9ddc834e:
+    # p2 "You'll be the first to."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_ec79d514:
+    # p2 "Thank you for today."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_ccfdcb13:
+    # a2 "Yes, indeed."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_8984ca03:
+    # a "Thank you, guys, for this amazing opportunity."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_78d77bfe:
+    # a2 "Well, I'm off to my shop."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_df7345c3:
+    # a2 "Still gotta do some stuff there."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_03a1e4ba:
+    # a "I think I will go to the beach."
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_049bfd73:
+    # p2 "Oooh, sounds lovely."
+    p2 ""
+
+translate english EP11_Alfred_Fashion_Finished_d5053870:
+    # a "Bye, guys!"
+    a ""
+
+translate english EP11_Alfred_Fashion_Finished_23bc95ad:
+    # a2 "Come visit soon."
+    a2 ""
+
+translate english EP11_Alfred_Fashion_Finished_7a1628d7:
+    # a "Definitely."
+    a ""
+
+translate english EP11_Beach_9fc60531:
+    # a "Ah..."
+    a ""
+
+translate english EP11_Beach_11bf6899:
+    # a "This is so nice."
+    a ""
+
+translate english EP11_Beach_d2e520a1:
+    # a "After such a long day, I can finally relax a little bit."
+    a ""
+
+translate english EP11_Beach_7aa8864e:
+    # a "God knows what'll happen at the hotel later tonight."
+    a ""
+
+translate english EP11_Beach_5012ccaf:
+    # bb1 "Welcome, Anna."
+    bb1 ""
+
+translate english EP11_Beach_eb5c4c55:
+    # bb1 "Long time, no see, eh?"
+    bb1 ""
+
+translate english EP11_Beach_484ee0b6:
+    # a "Haha, yes, it's been a while."
+    a ""
+
+translate english EP11_Beach_14d111d8:
+    # bb1 "So, what'll it be?"
+    bb1 ""
+
+translate english EP11_Beach_58f4b2a9:
+    # a "Actually. I'll go for a beer this time."
+    a ""
+
+translate english EP11_Beach_d764dcb0:
+    # bb1 "A good choice, nothing refreshes better than a cold beer."
+    bb1 ""
+
+translate english EP11_Beach_2f7246f7:
+    # a "Yeah, totally."
+    a ""
+
+translate english EP11_Beach_14b2447b:
+    # a "So how's business?"
+    a ""
+
+translate english EP11_Beach_b332b5f9:
+    # bb1 "Oh, the season's in full swing. Not a lot of people right now, but will show up later, probably."
+    bb1 ""
+
+translate english EP11_Beach_63ad2dcf:
+    # bb1 "Anyway, enjoy the beer."
+    bb1 ""
+
+translate english EP11_Beach_2df61d55:
+    # bb1 "I'll be here if you need me."
+    bb1 ""
+
+translate english EP11_Beach_c72b5e4f:
+    # a "Thanks!"
+    a ""
+
+translate english EP11_Beach_11bf6899_1:
+    # a "This is so nice."
+    a ""
+
+translate english EP11_Beach_2531587e:
+    # a "There really don't seem to be a lot of people, perhaps a nude tan would do just fine."
+    a ""
+
+translate english EP11_Beach_c55fa757:
+    # a "Yeah..."
+    a ""
+
+translate english EP11_Beach_d7992e04:
+    # a "Let em swing, hehe."
+    a ""
+
+translate english EP11_Beach_14f734c7:
+    # a "Gotta take my lotion."
+    a ""
+
+translate english EP11_Beach_c2fa0a33:
+    # "Anna massaged her entire body."
+    ""
+
+translate english EP11_Beach_68b6a938:
+    # "Her legs, her thighs..."
+    ""
+
+translate english EP11_Beach_80589e1e:
+    # "Her breasts..."
+    ""
+
+translate english EP11_Beach_94e68a8b:
+    # a "Ah... This is so relaxing."
+    a ""
+
+translate english EP11_Beach_Menu_1_e63ec4de:
+    # a "Mhmm..."
+    a ""
+
+translate english EP11_Beach_Menu_1_a0867841:
+    # a "This is turning me on a bit..."
+    a ""
+
+translate english EP11_Beach_Menu_1_0a60a8ae:
+    # a "Alright... That should be enough, heh."
+    a ""
+
+translate english EP11_Beach_Menu_1_ac961997:
+    # "Some young dudes had arrived for a beach day."
+    ""
+
+translate english EP11_Beach_Menu_1_06d509b6:
+    # du1 "Wassup Greg!"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_93656514:
+    # du1 "Working hard?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_92cc21eb:
+    # bb1 "Someone's gotta make money."
+    bb1 ""
+
+translate english EP11_Beach_Menu_1_f6403ac2:
+    # du2 "Riiight."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_f10cfb40:
+    # du2 "Damn, I can't wait for the party on Saturday."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_f53ced57:
+    # du2 "Tell me again why we ain't partying already tomorrow?"
+    du2 ""
+
+translate english EP11_Beach_Menu_1_cac5e94d:
+    # du1 "Cuz the damn teachers put a test. ON A SATURDAY!"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_8d8c14f9:
+    # du3 "Yeah, no idea how that's legal."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_5c13fe98:
+    # du2 "Maybe because school was on lockdown due to that stink bomb you left in the girl's bathrooms?"
+    du2 ""
+
+translate english EP11_Beach_Menu_1_29602381:
+    # du3 "Haha. That was some stupid shit man."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_fb5ed1b8:
+    # du3 "I mean, we ain't kids anymore."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_870f326a:
+    # du3 "This is College, bro."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_324561e8:
+    # du1 "Whatever... Anyway."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_d81f0fa3:
+    # du3 "Yo, check it out."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_b1c6cb52:
+    # du3 "Some chick, nude tanning."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_6ed29244:
+    # du2 "Dammmn... She is so fucking hot..."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_0ac51d9b:
+    # du1 "Wtf. That's like the hottest girl I've seen."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_ec4ec3b1:
+    # du1 "Wait, I know her."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_3f90c887:
+    # du3 "What?"
+    du3 ""
+
+translate english EP11_Beach_Menu_1_3d17bca2:
+    # du1 "Yeah, she's... I think she's my neighbor."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_1423b1fd:
+    # du3 "No shit."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_e2a3519b:
+    # du2 "Bro. You gotta ask her if she wants to come to our party."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_692c52d2:
+    # du1 "No way. Bro look at her, she'll deny me harder than Jessica."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_d02403ba:
+    # du2 "It can't be any worse than Jessica, trust me."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_487060bd:
+    # du2 "Yeah, You've got nothing to lose."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_717484e3:
+    # du2 "Come on."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_b479020a:
+    # du3 "Dude, ask her!"
+    du3 ""
+
+translate english EP11_Beach_Menu_1_7589cd7c:
+    # du1 "Fuck... Alright, shit. I will."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_8cf5c89c:
+    # du2 "At least we'll get a good laugh, haha!"
+    du2 ""
+
+translate english EP11_Beach_Menu_1_614323f0:
+    # du3 "Damn, I hope she actually agrees."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_145935ae:
+    # du2 "You can't be serious."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_449abc1e:
+    # du2 "Girls like that? They probably hang out with the rich dudes."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_96f7bf89:
+    # du3 "Who cares."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_5d6625c0:
+    # du1 "He... Hey..."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_fe2b4132:
+    # a "Hello."
+    a ""
+
+translate english EP11_Beach_Menu_1_6bbb91bc:
+    # du1 "Ummm... So how's the weather down there?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP11_Beach_Menu_1_f884ebdd:
+    # du1 "I mean, the weather is awesome, right?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP11_Beach_Menu_1_00e36c75:
+    # a "It's alright."
+    a ""
+
+translate english EP11_Beach_Menu_1_cc47cd3c:
+    # du1 "Umm... Don't you live on 150A Baker street?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_90f2652b:
+    # a "How do you know?"
+    a ""
+
+translate english EP11_Beach_Menu_1_8fc7030b:
+    # du1 "I think we might be neighbors."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_b8b51e7f:
+    # a "Is that so?"
+    a ""
+
+translate english EP11_Beach_Menu_1_90269e19:
+    # du1 "Ye... Yeah."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_4493efce:
+    # a "So you just came to say hi?"
+    a ""
+
+translate english EP11_Beach_Menu_1_afa4519e:
+    # du1 "Well... Not exactly."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_9e0ec4b1:
+    # du1 "We are having a little party on Saturday, at my place."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_a850c2c6:
+    # du1 "I was just umm... Wondering if you'd like to join?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_0929b279:
+    # a "Huh... Well..."
+    a ""
+
+translate english EP11_Beach_Menu_1_b10b87d6:
+    # du1 "What if you give me your number, and umm. And I'll type you up on Saturday?"
+    du1 ""
+
+translate english EP11_Beach_Menu_1_8b748543:
+    # a "It's +981 2020 4222."
+    a ""
+
+translate english EP11_Beach_Menu_1_e7387718:
+    # du1 "Awesome."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_45428ec4:
+    # du1 "You are awesome."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_a4af7b62:
+    # a "Hehe, thank you."
+    a ""
+
+translate english EP11_Beach_Menu_1_38e63dd6:
+    # du1 "Alright, I will type you up on Saturday."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_b21c17f4:
+    # a "Ok, I will think about it."
+    a ""
+
+translate english EP11_Beach_Menu_1_46ce113b:
+    # du1 "Great, Cool..."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_5b892dac:
+    # du1 "Have a nice tanning session."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_e2503377:
+    # a "I will, thanks."
+    a ""
+
+translate english EP11_Beach_Menu_1_53b45fb8:
+    # du1 "Dudes. I've got that ultra rizz."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_7242387f:
+    # du3 "Hold no. No Fucking way."
+    du3 ""
+
+translate english EP11_Beach_Menu_1_43ded8da:
+    # du1 "I got her number."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_6556cd97:
+    # du2 "What? The fuck."
+    du2 ""
+
+translate english EP11_Beach_Menu_1_053106ac:
+    # du1 "Yeah, she might actually come to our party."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_2b130ff9:
+    # du3 "THAT IS SO SIIIIICCCK!!!"
+    du3 ""
+
+translate english EP11_Beach_Menu_1_c2c1ea88:
+    # du1 "Oh, Well, umm... Ok..."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_0b151fde:
+    # a "Good luck, though."
+    a ""
+
+translate english EP11_Beach_Menu_1_c2c1ea88_1:
+    # du1 "Oh, Well, umm... Ok..."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_546fb55e:
+    # "Anna continued to sunbathe for a good while..."
+    ""
+
+translate english EP11_Beach_Menu_1_3adafdd2:
+    # a "Alright... It's going to start getting dark soon."
+    a ""
+
+translate english EP11_Beach_Menu_1_28532643:
+    # a "Time to pack up..."
+    a ""
+
+translate english EP11_Beach_Menu_1_de8380ce:
+    # a "I think that's enough..."
+    a ""
+
+translate english EP11_Beach_Menu_1_78c0aed7:
+    # a "Gotta go to that hotel..."
+    a ""
+
+translate english EP11_Beach_Menu_1_d3a9a04e:
+    # a "Cheers..."
+    a ""
+
+translate english EP11_Beach_Menu_1_405e996f:
+    # du1 "No waayyy..."
+    du1 ""
+
+translate english EP11_Beach_Menu_1_d17a8800:
+    # "Anna winked at the dudes."
+    ""
 
 
-label EP11_Sleep_1:
-    $ EP11_var_2 = True
-    a "So much stuff has happened... I need some good sleep."
-    a "This bed is so comfy."
-    a "Goodnight..."
-    stop music fadeout 1
-    scene black with Dissolve(1)
-    play sound interface_sound
-    show text "Thursday morning..." with Dissolve(1)
-    pause
-    hide text
-    scene 31-1 morning 3 with Dissolve(1)
-    if EarlHelp == True:
-        "Anna got a text to meet up with Earl at the precinct."
-        jump EP11_Precinct
-    else:
-        $ EP11_var_4 = True
-        jump EP11_Work_1
+translate english strings:
+    old "How long has Earl worked here?"
+    new ""
 
-    jump bedroom
+    old "How many people has Earl put away?"
+    new ""
 
-label EP11_Precinct:
-    scene black with Dissolve(1)
-    play sound door2
-    play music distantsong
-    scene 39-3 earl 1 with Dissolve(1)
-    "Anna entered the police station."
-    "A shiver moved down her spine."
-    "While she thought she could leave this part behind her..."
-    "It kept creeping back, stalking her."
-    scene 39-3 earl 2 with Dissolve(1)
-    a "Hi. Is Detective Earl in?"
-    d4 "Your name?"
-    scene 39-3 earl 3 with Dissolve(1)
-    a "Anna."
-    scene 39-3 earl 4 with Dissolve(1)
-    d4 "Yes, Earl will be here in a moment."
-    a "Thanks."
-    d4 "No problem. Is there anything else?"
-    scene 39-3 earl 3 with Dissolve(1)
-    a "Umm..."
-    $ EP11_menu_1_var_1 = False
-    $ EP11_menu_1_var_2 = False
-    menu EP11_menu_1:
-        "How long has Earl worked here?" if EP11_menu_1_var_1 == False:
-            scene 39-3 earl 5 with Dissolve(1)
-            d4 "I might be wrong, but he is the oldest, still working, guy in the force. Around 40 years, maybe."
-            d4 "He is very experienced."
-            a "Damn."
-            scene 39-3 earl 4 with Dissolve(1)
-            d4 "That's all I'm allowed to disclose."
-            $ EP11_menu_1_var_1 = True
-            jump EP11_menu_1
-        "How many people has Earl put away?" if EP11_menu_1_var_2 == False:
-            scene 39-3 earl 4 with Dissolve(1)
-            d4 "I think he's coming up to three hundred."
-            a "I didn't expect that many..."
-            scene 39-3 earl 5 with Dissolve(1)
-            d4 "He is the most successful officer in the history of the precinct."
-            d4 "He has received several commendations and awards for his efforts."
-            a "I see."
-            $ EP11_menu_1_var_2 = True
-            jump EP11_menu_1
-        "That's all.":
-            pass
-    play sound surprise
-    scene 39-3 earl 6 with Dissolve(1)
-    d4 "Sir. She's here for you."
-    earl "Yeah. Thanks. I'll take it from here."
-    scene 39-3 earl 7 with Dissolve(1)
-    earl "Got here in one piece, I see."
-    earl "{i}...One piece of nice ass...{/i}"
-    scene 39-3 earl 8 with Dissolve(1)
-    a "I couldn't {b}wait{/b} what other surprises you had for me."
-    "Anna shrugged off condescendingly."
-    scene 39-3 earl 9 with Dissolve(1)
-    earl "Right... How about we continue this somewhere else?"
-    a "Sure."
-    play sound cloth_sound1
-    scene 39-3 earl 10 with Dissolve(1)
-    a "Called me here to antagonize?"
-    earl "Enough with the shit."
-    earl "I called you here because it's not over..."
-    scene 39-3 earl 11 with Dissolve(1)
-    a "..."
-    scene 39-3 earl 12 with Dissolve(1)
-    a "What am I supposed to do with that information?"
-    a "I'm not the police officer. Not the one investigating, making sure everything's ok."
-    scene 39-3 earl 13 with Dissolve(1)
-    earl "I might come off as a hard ass..."
-    earl "But it's my way of working. So don't take my previous behavior for granted."
-    earl "I have info that suggests that you are under threat."
-    earl "That someone knows and has informed certain 'people' of your involvement."
-    earl "Someone in the station..."
-    earl "While I get it under control, I can trust nobody."
-    scene 39-3 earl 14 with Dissolve(1):
-        linear 60 zoom 1.2
-    a "What?"
-    a "How do I deal with this?"
-    a "You won't just leave me out to dry?"
-    "While Anna was shooting questions left and right..."
-    "Earl was lost in thought."
-    scene 39-3 earl 15 with Dissolve(1):
-        linear 60 zoom 1.2
-    "Fantasies rushed through his head."
-    "He was plotting a new plan."
-    "A way of getting what he wants..."
-    play sound surprise
-    scene 39-3 earl 16 with vpunch
-    a "Hello?"
-    "Anna finally settled down before people started looking."
-    a "How are we gonna deal with this?"
-    scene 39-3 earl 17 with Dissolve(1)
-    earl "I've got an idea!"
-    earl "I'll spare you all but the most important details."
-    earl "I know how to root out the bad guy. But you will have to stay at a hotel for the duration."
-    scene 39-3 earl 18 with Dissolve(1)
-    earl "Simple, really. It's a sting."
-    earl "I will get someone to help me, and we'll catch the culprit."
-    earl "I will plant some 'clues' so that the person coming after you are certain they will catch you."
-    scene 39-3 earl 19 with Dissolve(1)
-    play sound jacketcloth
-    earl "Meanwhile..."
-    earl "You'll have to stay at this hotel."
-    earl "It's probably for a night only."
-    earl "You should manage."
-    earl "I will take care of the expenses."
-    scene 39-3 earl 20 with Dissolve(1)
-    a "I hope this works."
-    earl "It will... Oh, it will..."
-    scene 39-3 earl 21 with Dissolve(1)
-    earl "Hehe..."
-    "The man was plotting and plotting. Getting the best out of every situation."
-    scene 39-3 earl 22 with Dissolve(1)
-    a "I sure hope this is the last time I get involved in this."
-    scene 39-3 earl 23 with Dissolve(1)
-    "As she was walking out, she noticed someone in the interrogation room."
-    a "It can't be..."
-    "Was it the nerves... Or something else..."
-    "It felt like he was watching her."
-    scene 39-3 earl 24 with Dissolve(1)
-    "..."
-    scene black with Dissolve(2)
-    $ EP11_var_4 = True
-    pause 1.5
-    jump EP11_Work_1
-screen EP11_Emails(received, label_name, email_who, content_message, signature):
-    zorder 250
-    sensitive (not renpy.get_screen("say"))
-    add "images/office/office_imagemap/email_background.jpg"
-    frame:
-        background None
-        xsize 500
-        ysize 100
-        xalign 0.1
-        yalign 0.1
-        if received == True:
-            text "From: " + email_who size 25 color "#000"
-        else:
-            text "To: " + email_who size 25 color "#000"
-    frame:
-        background None
-        xsize 1400
-        ysize 400
-        xalign 0.1
-        yalign 0.3
-        has vbox
-        text content_message color "#000"
-        text signature color "#000"
-    if received == True and label_name != "None":
-        imagebutton auto "images/office/office_imagemap/reply_%s.png":
-            focus_mask True
-            action [Hide("EP11_Emails", transition=Dissolve(1)), Jump(label_name)]
-screen EP11_Write_Email():
-    zorder 250
-    sensitive (not renpy.get_screen("say"))
-    add "images/office/office_imagemap/email_background.jpg"
-    frame:
-        background None
-        xsize 500
-        ysize 100
-        xalign 0.1
-        yalign 0.1
-        text "To: Tombale@BBDInc.org" size 25 color "#000"
-    frame:
-        background None
-        xsize 1400
-        ysize 400
-        xalign 0.1
-        yalign 0.3
-        has vbox
-        for i in range(len(content_message_list)):
-            text content_message_list[i] color "#000"
-        if EP11_Email_Pic_var_1 == True:
-            if EP11_Email_Pic_var_2 == True:
-                add im.Scale("images/other/Episode_11/EP11_RegularWork/generic office 6.jpg", 800, 450)
+    old "Email from Jeremy."
+    new ""
 
-label EP11_Work_1:
-    play music jazzmusic
-    scene generic office 6 with Dissolve(1)
-    "Anna entered her office. Immediately thinking to herself. What has to be done."
-    a "I should check my emails first."
-    if dianaGoodRelations == False:
-        a "Probably some email from Jeremy."
-    else:
-        a "Perhaps an email from Ethan."
-    a "I think there is a new company on the horizon that requires our services."
-    scene generic office 1 with Dissolve(1)
-    a "Right, let's see."
-    play sound mouse_click_1
-    $ EP11_Emails_1 = False
-    $ EP11_Emails_2 = False
-    $ EP11_Emails_3 = False
-    menu EP11_Work_1_Emails:
-        "Email from Jeremy." if dianaGoodRelations == False and EP11_Emails_1 == False:
-            show screen disableClick
-            $ EP11_Emails_1 = True
-            show screen EP11_Emails(True, "EP11_Work_2","jeremy.direct@jercomp.org", "I've heard of a new company looking to expand their interests in this hemisphere. BBDInc. They are on our radar for some time. Send them an email.", "")
-            pause
-            label EP11_Work_2:
-                hide screen disableClick
-                show screen EP11_Emails(False, "None", "anna.direct@jercomp.org", "Ok, I'm on it.", "Anna")
-                pause
-                hide screen EP11_Emails with Dissolve(1)
-            jump EP11_Work_1_Emails
-        "Email from Ethan." if dianaGoodRelations == True and EP11_Emails_1 == False:
-            show screen disableClick
-            $ EP11_Emails_1 = True
-            show screen EP11_Emails(True, "EP11_Work_3","ethan.direct@jercomp.org", "Hey, Anna. I think you've heard of BBD inc? By the looks of it, they are trying to expand. Send them an email, thanks!", "Ethan")
-            pause
-            label EP11_Work_3:
-                hide screen disableClick
-                show screen EP11_Emails(False, "None", "anna.direct@jercomp.org", "Ok, I'm on it.", "Anna")
-                pause
-                hide screen EP11_Emails with Dissolve(1)
-            jump EP11_Work_1_Emails
-        "Send an Email to BBD Inc." if EP11_Emails_1 == True:
-            pass
-label EP11_Work_4:
-    show screen EP11_Write_Email
-    menu:
-        "Hello, my name is Anna, and I'm a representative of Jercomp. An all-inclusive service company.":
-            $ content_message_list.append("Hello, my name is Anna and I'm a representative of Jercomp. An all-inclusive service company.")
-        "Welcome to the western Hemisphere. My name is Anna, and I'm a partner at a company called Jercomp. We provide the highest quality business-to-business service packets.":
-            $ content_message_list.append("Welcome to the western Hemisphere. My name is Anna and I'm a partner at a company called Jercomp. We provide highest quality business to business service packets.")
-    show screen EP11_Write_Email with Dissolve(1)
-    pause
-    menu:
-        "We can provide services like accounting in an international context, streamlined contract oversight, legal advice, and others. The full packages can be found at jercomp.org.":
-            $ content_message_list.append("We can provide services like accounting in international context, streamlined contract oversight, legal advice and others. The full packages can be found at jercomp.org.")
-        "Our service packets contain many legal, financial, and other services. see jercomp.org for more info.":
-            $ content_message_list.append("Our service packets contain many legal, financial and other services. see jercomp.org for more info.")
-    show screen EP11_Write_Email with Dissolve(1)
-    pause
-    menu:
-        "You can also have a personalized, for the company, service package. Essentially you won't have to worry about your dealings in other markets as we will take care of the day-to-day.":
-            $ content_message_list.append("You can also have a personalized, for the company, service package. Essentially you won't have to worry about your dealings in other markets as we will take care of the day to day.")
-        "We will provide the best service and you will be able to forget about the worries of unknown markets.":
-            $ content_message_list.append("We will provide the best service, and you will be able to forget about the worries of unknown markets.")
-    show screen EP11_Write_Email with Dissolve(1)
-    pause
-    menu:
-        "We will eagerly await your reply and hope for future business together.":
-            $ content_message_list.append("We will eagerly await your reply and hope for future business together.")
-        "I will wait for your reply eagerly, as I value your input.":
-            $ content_message_list.append("I will wait for you reply eagerly, as I value your input.")
-    show screen EP11_Write_Email with Dissolve(1)
-    pause
-    menu:
-        "Signature: Anna":
-            $ content_message_list.append("Anna")
-        "Signature: Anna, you're future slut. (IF Corruption > 30)":
-            $ content_message_list.append("Anna, you're future slut.")
-    pause
-    scene generic office 2
-    hide screen EP11_Write_Email with Dissolve(1)
-    a "There. I hope they respond by tomorrow. Probably actively looking for help in this market."
-    play sound notifsound
-    a "An email just came in, can't be BBD just yet, can it?"
-    scene generic office 1 with Dissolve(1)
-    a "Nope, just Madison."
-    show screen disableClick
-    show screen EP11_Emails(True, "EP11_Work_5", "madison.direct@jercomp.org", "I've got some news for you, I don't know if you are aware of this, Don't go anywhere, I will go upstairs in a couple mins.", "")
-    pause
-    label EP11_Work_5:
-        hide screen disableClick
-        show screen EP11_Emails(False, "None", "madison.direct@.jercomp.org", "Ok, I'll grab a coffee. Waiting.", "")
-        pause
-    scene 31-3 jeremy 20
-    hide screen EP11_Emails with Dissolve(1)
-    a "Huh... Well I'll go grab a coffee in the meantime."
-    scene black with Dissolve(1)
-    play sound door2
-    scene 39-1 meeting 2 with Dissolve(1)
-    a "Ah... Emily, My favourite!"
-    scene 39-1 meeting 3 with Dissolve(1)
-    e "I wouldn't have it any other way."
-    e "How have you been?"
-    a "Well, just sent an email to another company that we could do business with."
-    e "Oh. More work for me, haha!"
-    a "Don't worry, I think we will need to expand in the near future."
-    scene 39-1 meeting 4 with Dissolve(1)
-    e "Oh?"
-    a "Yeah."
-    e "Cheers to that."
-    scene 39-1 meeting 5 with Dissolve(1)
-    e "But how have you been in general? Asking personally."
-    a "Oh..."
-    menu:
-        "Things are looking up, to be honest.":
-            scene 39-1 meeting 6 with Dissolve(1)
-            a "Starting to put some things behind me. Moving up in the world."
-            a "Taking you with me. Heh."
-            e "Of course. If you drink martinis, I wanna drink them, too."
-        "Plenty of not-so-good things have been happening.":
-            a "And on top of that: Work, home, work, home."
-            e "Riight... I know you ain't that bland."
-            e "What about your sexual endeavors?"
-            scene 39-1 meeting 6 with Dissolve(1)
-            a "They are private, as you know..."
-            e "Really? I wouldn't have thought. Haha."
-            e "You'll tell me later, won't you?"
-            a "Of course, there is plenty of tea to spill. haha."
-            a "As long as you also give me something."
-            e "What do you take me for? Of course, I got plenty."
-    play sound woman_hmm_1
-    scene 39-1 meeting 7 with Dissolve(1)
-    m1 "Hey, Anna. Glad I caught you."
-    a "Hey. Yeah?"
-    scene 39-1 meeting 8 with Dissolve(1)
-    m1 "Listen, umm... I don't know how we missed this, but..."
-    m1 "There is a board meeting in a couple of hours."
-    play sound surprise
-    a "What?"
-    scene 39-1 meeting 8-1 with Dissolve(1)
-    m1 "Just heard about it from Ethan."
-    m1 "I don't know how no one was notified."
-    m1 "I think we somehow missed the memo."
-    scene 39-1 meeting 9 with Dissolve(1)
-    a "Wow. That is a bit of a situation."
-    if dianaGoodRelations == False:
-        a "Jeremy also hadn't notified me."
-        m1 "Yeah, me neither. I don't know."
-    scene 39-1 meeting 10 with Dissolve(1)
-    a "Huh... Well."
-    a "What's it about?"
-    m1 "Quarterly."
-    a "Ok..."
-    a "Umm... Well, we have to get ontop of the situation."
-    if dianaGoodRelations == False:
-        a "Where is Jeremy?"
-        m1 "No where to be found..."
-        a "Of course."
-    scene 39-1 meeting 12-1 with Dissolve(1)
-    e "Hey... Hey..."
-    e "It's all good."
-    scene 39-1 meeting 12 with Dissolve(1)
-    e "Let's get some lunch afterward, you can tell me about it."
-    e "Right now, we've got to get the make the presentation."
-    e "I will take care of the internals."
-    scene 39-1 meeting 11-1 with Dissolve(1)
-    a "Emily... You are a gem."
-    e "Well, it's nothing Haha."
-    scene 39-1 meeting 11 with Dissolve(1)
-    a "Yeah, let's get lunch later. Thanks again!"
-    scene 39-1 meeting 14 with Dissolve(1)
-    a "So, What else do we need."
-    m1 "We need quarterly results, basically."
-    m1 "I will work on business partners and everything else with Emily and we'll create it."
-    scene 39-1 meeting 15 with Dissolve(1)
-    a "Great. I Will make the presentation, then."
-    a "Let's get it done... Eh..."
-    scene black with Dissolve(1)
-    play sound door2
-    scene 31-3 jeremy 19 with Dissolve(1)
-    a "So... I've got all of this info to take care of."
-    "Anna was going through the documents and murmuring under her breath."
-    a "Client satisfaction, income... generated profit..."
-    a "gross income..."
-    jump EP11_Work_6
-screen EP11_Document_CheckList:
-    frame:
-        xalign 1.0
-        xsize 763
-        ysize 1080
-        background "#FFF"
-        has vbox
-        spacing 50
-        xfill True
-        text "Quarterly Check List" color "#000" bold True size 40 xalign 0.5
-        vbox:
-            xfill True
-            spacing 20
-            for i in range(len(EP11_meeting_questions_bool)):
-                if EP11_meeting_questions_bool[i] == True:
-                    text "{image=images/icons/check-mark.png}" + EP11_meeting_quesitons[i] color "#000" xalign 0.5
-                else:
-                    text "{image=images/icons/cross.png}" + EP11_meeting_quesitons[i] color "#000" xalign 0.5
+    old "Email from Ethan."
+    new ""
 
-        if EP11_meeting_doc_var_1 == True:
-            text "Votes:" color "#000" bold True size 40 xalign 0.5
-            vbox:
-                xfill True
-                spacing 20
-                hbox:
-                    xalign 0.5
-                    spacing 20
-                    if EP11_meeting_questions_var_1 == 1:
-                        text "{image=images/icons/check-mark.png}" + "Employee salaries" color "#000"
-                        text "{image=images/icons/cross.png}" + "Partner salaries" color "#000"
-                    if EP11_meeting_questions_var_1 == 2:
-                        text "{image=images/icons/cross.png}" + "Employee salaries" color "#000"
-                        text "{image=images/icons/check-mark.png}" + "Partner salaries" color "#000"
-                hbox:
-                    xalign 0.5
-                    spacing 20
-                    if EP11_meeting_questions_var_2 == 1:
-                        text "{image=images/icons/check-mark.png}" + "Donate to a Charity" color "#000"
-                        text "{image=images/icons/cross.png}" + "Raise Partner benefits" color "#000"
-                    if EP11_meeting_questions_var_2 == 2:
-                        text "{image=images/icons/cross.png}" + "Donate to a Charity" color "#000"
-                        text "{image=images/icons/check-mark.png}" + "Raise Partner benefits" color "#000"
+    old "Send an Email to BBD Inc."
+    new ""
 
-        if EP11_meeting_doc_var_2 == True:
-            text "Targets:" color "#000" bold True size 40 xalign 0.5
-            vbox:
-                xfill True
-                spacing 20
-                for i in range(len(EP11_meeting_questions_1)):
-                    text "{image=images/icons/check-mark.png}" + EP11_meeting_questions_1[i] color "#000" text_align 0.5 xalign 0.5
+    old "Hello, my name is Anna, and I'm a representative of Jercomp. An all-inclusive service company."
+    new ""
 
-label EP11_Work_6:
-    show screen EP11_Document_CheckList with Dissolve(1)
-    menu:
-        "Expansion to the Middle Eastern sector.":
-            a "We did that."
-            $ EP11_meeting_questions_bool.append(True)
-            $ EP11_meeting_quesitons.append("Expansion to the Middle Eastern sector.")
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Shingzhou contract closed.":
-            if office_var_two == False:
-                a "I closed it. Nice."
-                $ EP11_meeting_questions_bool.append(True)
-                $ EP11_meeting_quesitons.append("Shingzhou Contract closed.")
-            else:
-                a "I refused to do the dirty things..."
-                $ EP11_meeting_questions_bool.append(False)
-                $ EP11_meeting_quesitons.append("Shingzhou Contract closed.")
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Contract closed with BBD Inc.":
-            a "Haven't done it yet, didn't know it was a target for this quarter."
-            $ EP11_meeting_questions_bool.append(False)
-            $ EP11_meeting_quesitons.append("BBD Inc Contract Closed.")
+    old "Welcome to the western Hemisphere. My name is Anna, and I'm a partner at a company called Jercomp. We provide the highest quality business-to-business service packets."
+    new ""
 
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Income goal reached.":
-            a "With me closing deals, we are definitely in the green."
-            $ EP11_meeting_questions_bool.append(True)
-            $ EP11_meeting_quesitons.append("Income goal reached.")
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    a "What's next."
-    $ EP11_meeting_doc_var_1 = True
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Increase partner salaries or Employee salaries"
-        "Employee salaries":
-            $ EP11_meeting_questions_var_1 = 1
-        "Increase partner salaries":
-            $ EP11_meeting_questions_var_1 = 2
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Raise Partner benefits or donate to a charity."
-        "Donate to a Charity.":
-            $ EP11_meeting_questions_var_2 = 1
-        "Raise Partner benefits.":
-            $ EP11_meeting_questions_var_2 = 2
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    a "This is how it should be."
-    a "Let's see... Targets."
-    $ EP11_meeting_doc_var_2 = True
-    show screen EP11_Document_CheckList with Dissolve(1)
-    a "Definitely gotta close BBD Inc."
-    a "My bonuses will rely upon that."
-    $ EP11_meeting_questions_1.append("Make BBD Inc a Client.")
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Expand influence in the Sun City, find new clients here.":
-            $ EP11_meeting_questions_var_3 = 1
-            $ EP11_meeting_questions_1.append("Expand influence, gain new clients in the Sun City.")
-        "Find new clients from abroad, expand international influence.":
-            $ EP11_meeting_questions_var_3 = 2
-            $ EP11_meeting_questions_1.append("Find new clients from abroad, Expand international influence.")
+    old "We can provide services like accounting in an international context, streamlined contract oversight, legal advice, and others. The full packages can be found at jercomp.org."
+    new ""
 
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    menu:
-        "Create a Real Estate department, Buy up land in Sun City.":
-            $ EP11_meeting_questions_var_4 = 1
-            $ EP11_meeting_questions_1.append("Create a Real Estate department, Invest in Sun City property")
-        "Create an AI research department, Invest in High-grade computing power.":
-            $ EP11_meeting_questions_var_4 = 2
-            $ EP11_meeting_questions_1.append("AI Research Department, Invest in High-grade computing power")
-    show screen EP11_Document_CheckList with Dissolve(1)
-    pause
-    scene generic office 2 with Dissolve(1)
-    a "Damn. I've had to make some big choices."
-    a "I think these look good."
-    a "I should go to Madison and check up on her progress."
-    $ pinkoutfit = False
-    $ red_outfit = False
-    $ EP11_var_5 = True
-    hide screen EP11_Document_CheckList with Dissolve(1)
-    scene black with Dissolve(1)
-label EP11_Work_7:
-    scene black with Dissolve(1)
-    play sound high_heels_walking
-    scene 31-3 jeremy 11 with Dissolve(1)
-    a "Hey, Madison. I've done all on my side, you ready?"
-    m1 "Yes, Anna. We are ready for the meeting."
-    a "Great."
-    scene 31-3 jeremy 18 with Dissolve(1)
-    a "Had any trouble with info?"
-    m1 "Not really. I've got my own way of archiving info, I keep everything ready and nearby."
-    a "That's great. I knew you were the right choice for this job."
-    m1 "Awww... Thanks. Hah."
-    a "Ok, shall we?"
-    m1 "Mhm."
-    stop music fadeout 1.2
-    scene black with Dissolve(1)
-    play sound door2
-    queue music (chill_song_2, chill_song_3) fadein 0.5 loop
-    scene 39-1 meeting 16 with Dissolve(1)
-    a "So... This is us, huh."
-    m1 "Yeah. The meeting won't start for another 20 or so minutes."
-    scene 39-1 meeting 17 with Dissolve(1)
-    a "Perfect. Enough time for us to set up."
-    a "You've been a real help, Madison."
-    m1 "Thanks, Hah. Just doing my job."
-    scene 39-1 meeting 18 with Dissolve(1)
-    a "Doing it perfectly."
-    a "I mean, I didn't even know about the meeting a couple of hours ago."
-    a "You saved my ass, kind of."
-    m1 "Alright, I'll go prepare everything."
-    scene 39-1 meeting 19 with Dissolve(1)
-    "Anna was a little nervous. She had to come up with this all on such short notice..."
-    "Will it be enough, though?"
-    play sound door2
-    scene 39-1 meeting 20 with Dissolve(1)
-    e1 "Anna!"
-    e1 "How are you?"
-    play sound woman_hmm_1
-    a "Well, As good as one can be."
-    e1 "Are you ready?"
-    a "Yeah, but it would've been better if I had gotten a bit of a heads up."
-    e1 "Sorry?"
-    scene 39-1 meeting 21 with Dissolve(1)
-    a "Well, I just found out about the meeting today."
-    e1 "What?"
-    e1 "Oh, well... It's... I think I might've made a mistake there..."
-    play sound woman_reaction_mhm_1
-    scene 39-1 meeting 22 with Dissolve(1)
-    a "Eh... We're fine, managed to get everything set up."
-    e1 "I'm sure I sent out the memo a couple of weeks ago."
-    a "A couple of weeks is a long time."
-    a "Besides..."
-    if dianaGoodRelations == True:
-        a "I haven't been a partner for that long."
-        menu:
-            "Anna choses to be more dominant and scold Ethan.":
-                $ dom_var +=1
-                a "And I'd expect, in the future, for you to keep me in the loop."
-                a "Things are going to start changing around here a lot more, now that I'm a partner."
-                e1 "Yes, Anna... Sorry."
-            "Anna chooses to refrain from any conflict.":
-                a "But, ok."
-                a "It's done. Let's move on."
-    else:
-        a "I haven't been department head for that long."
-    e1 "Right..."
-    scene 39-1 meeting 23 with Dissolve(1)
-    a "Anyway, I think we are as ready as we'll ever be."
-    scene 39-1 meeting 24 with Dissolve(1)
-    e1 "It's mostly a formality, an informational event."
-    if dianaGoodRelations == True:
-        e1 "The board members also want to meet the newest partner."
-    play sound woman_reaction_mhm_1
-    a "I see."
-    play sound jacketcloth
-    scene 39-1 meeting 25 with Dissolve(1)
-    e1 "We all ready?"
-    m1 "Yes, sir. Copies have been distributed."
-    m1 "Presentation set up."
-    scene 39-1 meeting 26 with Dissolve(1)
-    a "Great."
-    e1 "An efficient team, I like it."
-    scene 39-1 meeting 27 with Dissolve(1)
-    pause 1
-    play sound notification
-    scene 39-1 meeting 28 with Dissolve(1)
-    pause 1
-    scene 39-1 meeting 29 with Dissolve(1)
-    a "Alright, everything seems to be working."
-    m1 "I asked Timothy to come in beforehand and make sure the system worked, was up to date, etc."
-    a "Nice thinking."
-    scene 39-1 meeting 30 with Dissolve(1)
-    d "Excuse me, Mr. Tadayaki has arrived."
-    e1 "Come in, Come in, Namura."
-    scene 39-1 meeting 31 with Dissolve(1)
-    mta "It is an honor, Miss Anna."
-    mta "I've heard many great things about you."
-    "Anna hadn't met any of the board members, yet..."
-    scene 39-1 meeting 32 with Dissolve(1)
-    a "Um... Like wise, sir."
-    a "You've been a very wise investor in this company."
-    scene 39-1 meeting 33 with Dissolve(1)
-    a "I hope I can prove to you today, that these investments are well worth it."
-    mta "Indeed."
-    scene 39-1 meeting 34 with Dissolve(1)
-    if dianaGoodRelations == False:
-        a "Do you know where Jeremy is?"
-        d "No..."
-        "Anna leaned in..."
-        menu:
-            "I thought you were his personal whore.":
-                a "You'd know."
-                d "You and I both know, you are his whore."
-                a "Get out of here..."
-            "He's just gone.":
-                d "Good for us..."
-                a "Oh. hey... You're right."
-                "For a moment both women were sincere."
-    else:
-        d "The rest of the members will arrive shortly."
-        a "Thanks, Diane. Appreciated."
-        scene 39-1 meeting 35 with Dissolve(1)
-        d "I got you, Anna."
-        a "Good luck."
-    play sound door2
-    scene 39-1 meeting 36 with Dissolve(1)
-    a "And there they are."
-    if escort_industry_var == True:
-        "Anna froze for a second..."
-        a "Whaa..."
-        "It was the man, she went to as an escort."
-        a "{i}...This is not good..."
-        a "{i}...He will definitely recognize me."
-    mb1 "And so we bought out the company for pennies on the dollar."
-    th "Hah... As expected. They deserved it, trying to leverage against you."
-    scene 39-1 meeting 37 with Dissolve(1)
-    th "Ah... The main attraction. I'm Turna Hoeburn. I bought the previous board members, Mr. Gelders shares."
-    a "I see. Great, This meeting will be just the thing to bring you up to speed."
-    th "I hope so. If you are as smart as you are visually appealing, this will go along nicely."
-    scene 39-1 meeting 38 with Dissolve(1)
-    a "Khem... Yeah."
-    scene 39-1 meeting 39 with Dissolve(1)
-    mb1 "Greetings, Anna."
-    th "You two know each other?"
-    mb1 "I surely know who are the partners of the company."
-    th "Fair enough."
-    mb1 "Are we ready?"
-    scene 39-1 meeting 40 with Dissolve(1)
-    if escort_industry_var == True:
-        a "{i}...Perhaps he forgot? Hopefully..."
-    a "Yeah. You can all take seats, and we can get this meeting underway."
-    scene 39-1 meeting 41 with Dissolve(1)
-    a "Is there anything you'd like? Water, coffee?"
-    mb1 "We'll be fine. Thanks."
-    scene 39-1 meeting 42 with Dissolve(1)
-    if dianaGoodRelations == True:
-        a "Thanks, Diane."
-        d "If you need anything, let me know."
-    else:
-        a "You can go now."
-        d "..."
-    scene 39-1 meeting 43 with Dissolve(1)
-    a "Alright..."
-    a "So, once again for everyone. I'm Anna."
-    if dianaGoodRelations == True:
-        a "I'm the newest partner at the company."
-        a "After Jeremy's... situation..."
-        a "And I'd like to make a statement."
-        menu:
-            "Ethan and I, as partners, want to make this company as profitable, successful, and long-lasting as possible.":
-                a "So for the quarterly report, we have made some new targets."
-                a "Certain internal policies will also be updated."
-                a "As well as we're actively looking for new clients for the company."
-            "I personally want to make this company as profitable as possible.":
-                a "And I have made some new targets."
-                a "Certain internal policies will also be updated."
-                a "As well as I'm actively looking for new clients for the company."
-    else:
-        a "Jeremy couldn't be here for external reasons... So I'm pitching it as department head."
-        a "And so, with the help of the partners, Liam, Ethan, Jeremy, we've come up with some new targets for the quarterly, as well."
-    scene 39-1 meeting 44 with Dissolve(1)
-    a "With the help of Madison, our newest assistant, we've compiled the documents."
-    a "You can take a look at the details in your copies."
-    scene 39-1 meeting 46 with Dissolve(1)
-    th "Yeah, um... Question!"
-    a "Yes, Mrs. Hoeburn?"
-    th "I see, from the looks of it, that BBD Inc angle hasn't been covered, yet?"
-    th "Do explain."
-    menu:
-        "Anna was honest.":
-            $ EP11_meeting_alignment += 1
-            scene 39-1 meeting 45 with Dissolve(1)
-            a "To be honest, I haven't been a partner that long, so certain things missed my ear."
-            a "I only sent them an email today."
-            a "I will keep you all in the loop, personally."
-            a "I am, however, very certain we will give them a great deal."
-            scene 39-1 meeting 46 with Dissolve(1)
-            th "Very well, don't keep us waiting."
-            th "It was, after all, a goal for the quarterly."
-        "Anna was defensive and lied.":
-            scene 39-1 meeting 45 with Dissolve(1)
-            $ EP11_meeting_alignment -= 1
-            a "Well, there is development, nothing solid yet."
-            a "We will keep you in the loop with further news."
-            scene 39-1 meeting 46 with Dissolve(1)
-            th "Sounds like empty excuses."
-            th "It was after all, a goal for the quarterly."
-    scene 39-1 meeting 45 with Dissolve(1)
-    a "That's correct, however, the graph shows a different picture."
-    a "Our profits have reached AND exceeded the targets."
-    scene 39-1 meeting 47 with Dissolve(1)
-    a "In the graph you can see the distribution of funds amongst investments that we've made this quarter."
-    a "All of which were a part of the quarterly target's agenda."
-    a "We have also added, as clients, the East Oil Conglomerate."
-    a "Which might become our most profitable client, as they plan to expand their operation."
-    scene 39-1 meeting 48 with Dissolve(1)
-    a "Also, I'm speculating here of course, but that potentially opens doors to other companies from the Middle East."
-    if office_var_two == False:
-        $ EP11_meeting_alignment +=1
-        a "We've also helped Shingzhou Corp with the merger and have gained them as our biggest clients."
-        a "So for the quarterly goals, we have reached most, and in terms of revenue, exceeded the goals."
-        a "I'd say that's a win."
-        scene 39-1 meeting 49 with Dissolve(1)
-        mta "Miss Anna?"
-        scene 39-1 meeting 50 with Dissolve(1)
-        mta "I would like to understand how well has Shingzhou Corps merger affected their advances?"
-        mta "That was, after all, one of the main goals of the quarter."
-        scene 39-1 meeting 51 with Dissolve(1)
-        a "Yes... So. On to the next slide."
-        scene 39-1 meeting 52 with Dissolve(1)
-        a "Their profit hasn't simply doubled."
-        a "They have tripled."
-        a "And we as the service company get an increased workload, which directly impacts our income."
-    else:
-        $ EP11_meeting_alignment -=1
-        a "Unfortunately, we were unable to close Shingzhou Corp, which has, potentially cut into future profits."
-        a "There were some problems that couldn't be resolved."
-        a "However, EOC and BBD Inc, which I'm sure I will close, both will make up for the shortcomings."
-        a "Also, we will try once more in the future, because, as far as I understand, they still haven't come up with a better company to provide services."
-        scene 39-1 meeting 49 with Dissolve(1)
-        mta "Miss Anna?"
-        mta "This is unacceptable!"
-        scene 39-1 meeting 50 with Dissolve(1)
-        mta "I would like to understand how well has Shingzhou Corps merger affected their advances?"
-        mta "That was, after all one of the main goals of the quarter."
-        scene 39-1 meeting 51 with Dissolve(1)
-        a "Yes... So. On to the next slide."
-        scene 39-1 meeting 52 with Dissolve(1)
-        a "Their profits haven't simply doubled."
-        a "They have tripled."
-        a "But, like I said, I'm confident if we approach them once more, we will find a compromise."
-        mta "Due to this news, Ethan, you will have to take over Shingzhou. I only trust you with this."
-        e1 "Will do."
-    a "Regarding the vote."
-    scene 39-1 meeting 53 with Dissolve(1)
-    if EP11_meeting_questions_var_1 == 1:
-        a "I've voted to increase Employee salaries."
-    if EP11_meeting_questions_var_1 == 2:
-        a "I've voted to increase partner salaries as a by-product of our success."
-    a "As well as..."
-    if EP11_meeting_questions_var_2 == 1:
-        a "Donate to a charity fund."
-    if EP11_meeting_questions_var_2 == 2:
-        a "Increase partner benefits."
-    a "You will, of course, have the final say."
-    scene 39-1 meeting 54 with Dissolve(1)
-    a "For targets we have..."
-    if EP11_meeting_questions_var_3 == 1:
-        a "A plan to expand the influence and gain clients locally, Sun City, etc."
-    if EP11_meeting_questions_var_3 == 2:
-        a "A plan to expand in an international context and gain influence and clients as such."
-    a "As well as..."
-    if EP11_meeting_questions_var_4 == 1:
-        a "I propose that we create a new department that deals with Real Estate."
-    if EP11_meeting_questions_var_4 == 2:
-        a "I propose to create a new AI research department that would further the ever-advancing neural networks etc. As well as investing our money into high-grade servers and computers as a foundation for this field."
-    scene 39-1 meeting 55 with Dissolve(1)
-    if EP11_meeting_alignment > 0:
-        mb1 "Well, well..."
-        mb1 "I accept the vote as well as the targets!"
-        mb1 "You've outdone yourself, Anna."
-        if dianaGoodRelations == True:
-            mb1 "As a new partner, very impressive."
-        scene 39-1 meeting 56 with Dissolve(1)
-        mb1 "If this meeting has shown me anything, we can trust in the leadership of this company."
-        mb1 "I also believe, bonuses are in order."
-        mb1 "We'll have the accounting push that through. Good job."
-    if EP11_meeting_alignment < 0:
-        mb1 "Well... Looks like there have been some hiccups."
-        mb1 "I accept the vote and the targets, however, we will have to have a deeper look at the failures of this quarter."
-        mb1 "For now, I'd say, as a new partner, it's understandable, however, this cannot reoccur."
-        scene 39-1 meeting 56 with Dissolve(1)
-        mb1 "If this meeting has shown me anything, we will have to keep a closer eye on things, but for now, everything seems stable."
-    if EP11_meeting_alignment == 0:
-        mb1 "For now, things are fine."
-        mb1 "I accept the vote as well as the targets."
-    a "Thank you, sir."
-    scene 39-1 meeting 57 with Dissolve(1)
-    if EP11_meeting_alignment > 0:
-        th "While I keep a higher level of scrutiny towards these things, I have to agree with Mr. Burnsfield on this."
-        th "He knows what he's doing."
-        th "So for now, you have my vote of confidence, too."
-        scene 39-1 meeting 58 with Dissolve(1)
-        mta "Yes... You have mine as well, but. I will keep a close eye on the developments."
-        mta "We are moving into uncertain times and thus investments have to be meticulous and pragmatic."
-        mta "Not wild and impulsive."
-        a "Of course. I will do my best to not let you down."
-    if EP11_meeting_alignment < 0:
-        th "I do not like how you've handled certain aspects of the company..."
-        th "So I will also keep a closer eye on you for the time being, and if things deteriorate, I will call for a vote to remove you."
-        th "So do not screw things up anymore."
-        a "Yes, ma'am."
-        scene 39-1 meeting 59 with Dissolve(1)
-        mta "I don't have any comments at this time..."
-        mta "I will be in contact... Certain things have to be changed here..."
-        mta "Hopefully, you do not make anymore mistakes..."
-        a "I won't, sir."
-    if EP11_meeting_alignment == 0:
-        th "While I keep a higher level of scrutiny towards these things, I have to agree with Mr. Burnsfield on this."
-        th "He knows what he's doing."
-        th "So for now, you have my vote of confidence, too."
-        scene 39-1 meeting 58 with Dissolve(1)
-        mta "Yes... You have mine as well, but. I will keep a close eye on the developments."
-        mta "We are moving into uncertain times and thus investments have to be meticulous and pragmatic."
-        mta "Not wild and impulsive."
-        a "Of course. I will do my best to not let you down."
-    if office_var_two == True:
-        scene 39-1 meeting 59 with Dissolve(1)
-        mta "See that you do. Shingzhou was one of the most important deals in recent history."
-        mta "Luckily we can still save it."
-    scene 39-1 meeting 60 with Dissolve(1)
-    if EP11_meeting_alignment > 0:
-        "Anna just kept the smile..."
-    a "Since I've covered everything... We are adjourned."
-    "The meeting had come to an end, members were leaving... Anna felt a wave of relief wash over her."
-    scene 39-1 meeting 61 with Dissolve(1)
-    mb1 "You are very good at this, I'll tell you this much."
-    mb1 "But you do have plenty to prove still..."
-    scene 39-1 meeting 62 with Dissolve(1)
-    if escort_industry_var == True:
-        mb1 "And... I do remember you, Anna."
-        a "Oh..."
-        mb1 "I just didn't bring it up to keep things professional."
-        scene 39-1 meeting 64 with Dissolve(1)
-        a "But, it's not what it looks like..."
-        scene 39-1 meeting 61 with Dissolve(1)
-        mb1 "Don't worry, your secret is safe with me."
-        mb1 "From my perspective, it won't change anything."
-        scene 39-1 meeting 63 with Dissolve(1)
-        a "Oh, hah... Thanks, sir..."
-        mb1 "That being said, I look forward to the next time we meet. Heh."
-        a "Me too..."
-        scene 39-1 meeting 65 with Dissolve(1)
-        pause 1.5
-        scene 39-1 meeting 66 with Dissolve(1)
-        th "Wait... So you do know about her?"
-        mb1 "No idea what you're talking about..."
-        th "What about our arrangement?"
-        scene 39-1 meeting 67 with Dissolve(1)
-        mb1 "Don't you worry about it."
-    else:
-        mb1 "Keep at it. I know a dedicated person when I see one."
-        a "Thank you, sir..."
-        mb1 "Good luck and keep us posted."
-    scene 39-1 meeting 68 with Dissolve(1)
-    e1 "Well... that's over."
-    e1 "I don't like these meetings."
-    e1 "I like sitting on the balcony of my beach house and drinking mojitos."
-    a "Hah, I'd like that, too."
-    m1 "Me three."
-    scene 39-1 meeting 69 with Dissolve(1)
-    a "So you'd say we nailed it?"
-    e1 "They were all pretty impressed."
-    if office_var_two == True:
-        e1 "Besides Shingzhou..."
-        e1 "But I will fix that."
-    scene 39-1 meeting 70 with Dissolve(1)
-    m1 "You did great, Anna."
-    a "Whew... I'm tired."
-    scene 39-1 meeting 68 with Dissolve(1)
-    e1 "Keep this up, and you'll be able to afford a beach house in no time."
-    a "I look forward to that."
-    $ EP11_var_6 = True
-    jump EP11_Lunch
-label EP11_Lunch:
-    play sound high_heels_walking
-    scene black with Dissolve(1)
-    $ EP11_var_7 = True
-    scene 39-2 lunch 1 with Dissolve(1)
-    a "Emily!"
-    a "Ah. I'm done with the meeting."
-    a "Quite stressful, that was."
-    scene 39-2 lunch 2 with Dissolve(1)
-    a "You ready for lunch?"
-    e "Sure am!"
-    play sound walk
-    play ambience citytraffic
-    scene black with Dissolve(1)
-    scene 39-2 lunch 3 with Dissolve(1)
-    a "I am rather hungry, to be honest."
-    a "That meeting took a lot. Haha!"
-    e "Tell me about it. I could just feel the energy emanating from that area of the building."
-    a "Haha."
-    scene 39-2 lunch 4 with Dissolve(1)
-    pause 1.5
-    play sound door2
-    scene black with Dissolve(1)
-    pause 1
-    stop ambience
-    scene 39-2 lunch 5 with Dissolve(1)
-    barista "Hello, What would you like to order?"
-    a "I'll have a latte..."
-    e "The same for me."
-    a "And what kind of cakes do you have today?"
-    barista "We just got a new batch of Emerald Grove bakery."
-    a "No way. Those are some nasty good cakes."
-    scene 39-2 lunch 6 with Dissolve(1)
-    barista "Indeed."
-    barista "We have a full choclate cake."
-    barista "Apple cake."
-    barista "Orange/lime cake."
-    a "I'll have aslice of the full chocolate."
-    e "An apple cake for me."
-    barista "Coming right up."
-    scene black with Dissolve(1)
-    play sound jacketcloth
-    pause 0.5
-    scene 39-2 lunch 7 with Dissolve(1)
-    e "So, tell me about the meeting."
-    a "Well..."
-    a "And what else you've got on mind today?"
-    $ EP11_Lunch_menu_var_1 = False
-    $ EP11_Lunch_menu_var_2 = False
-    if escort_industry_var == False:
-        $ EP11_Lunch_menu_var_2 = True
-    $ EP11_Lunch_menu_var_3 = False
-    menu EP11_Lunch_menu:
-        "I finally saw all the board members." if EP11_Lunch_menu_var_1 == False:
-            $ EP11_Lunch_menu_var_1 = True
-            scene 39-2 lunch 8 with Dissolve(1)
-            a "There was Namura Tadayaki. A Japanese investor seemed a very traditional man."
-            a "Turna Hoeburn. She's a stickler for 'by the book' stuff. I mean, she was on my ass mostly."
-            a "Gordon Burnsfield. A laid-back man. A very attractive, older man. Between 45-50 No doubt."
-            scene 39-2 lunch 7 with Dissolve(1)
-            a "Each of them had a different angle, but at the end of the day, Mr. Burnsfield is pulling the most strings."
-            a "I think he actually has the most shares."
-            jump EP11_Lunch_menu
-        "Anna had some gossip about Mr. Burnsfield" if escort_industry_var == True and EP11_Lunch_menu_var_1 == True and EP11_Lunch_menu_var_2 == False:
-            $ EP11_Lunch_menu_var_2 = True
-            scene 39-2 lunch 8 with Dissolve(1)
-            a "So basically, if you must know."
-            e "Oh I know this will be good."
-            a "Mr. Burnsfield, the main investor? I've seen him before."
-            scene 39-2 lunch 9 with Dissolve(1)
-            e "Do tell?"
-            a "I went to him as an... Escort..."
-            a "As a job through Dylan."
-            scene 39-2 lunch 10 with Dissolve(1)
-            e "Bullshit..."
-            a "Dead serious."
-            e "You crazy girl, haha!"
-            e "And?"
-            scene 39-2 lunch 8 with Dissolve(1)
-            a "Well, I might go to him again, strictly professional."
-            e "Oh, right! strictly on-the-knees-professional. Haha."
-            a "But it pays, plus he seemed charming."
-            jump EP11_Lunch_menu
-        "I'm going to a fashion show today." if EP11_Lunch_menu_var_3 == False:
-            $ EP11_Lunch_menu_var_3 = True
-            scene 39-2 lunch 9 with Dissolve(1)
-            e "Wait, just to watch?"
-            scene 39-2 lunch 8 with Dissolve(1)
-            a "No, no, no. I'm going to the Runway."
-            a "Alfred got some sort of rare piece of clothing."
-            a "Wants me to wear it."
-            e "So, my Anna will finally get a real crack at the model career?"
-            scene 39-2 lunch 7 with Dissolve(1)
-            a "I'm very excited."
-            jump EP11_Lunch_menu
-        "That's all." if EP11_Lunch_menu_var_3 == True and EP11_Lunch_menu_var_1 == True and EP11_Lunch_menu_var_2 == True:
-            pass
-    scene 39-2 lunch 11 with Dissolve(1)
-    a "Well, I'm all done with the cake."
-    a "Didn't even notice how I finished it, haha."
-    e "Me neither, it went down so easy."
-    scene 39-2 lunch 12 with Dissolve(1)
-    e "I need to go to the bathroom, You comin'?"
-    a "Sure."
-    scene black with Dissolve(1)
-    play sound door2
-    pause 1
-    scene 39-2 lunch 13 with Dissolve(1)
-    e "Anyway."
-    scene 39-2 lunch 14 with Dissolve(1)
-    a "What about you?"
-    a "Got some thoughts?"
-    scene 39-2 lunch 16 with Dissolve(1)
-    e "Actually, yeah."
-    e "You going to the bar on Friday, right?"
-    a "Sure am."
-    if bar_var_1 == False:
-        a "We'll be opening the bar this friday."
-        a "Since the unfortunate accident."
-        e "That was very scary."
-        e "I feel like we're kind of to blame."
-        a "No, we're not..."
-        a "Just forget about it."
-    scene 39-2 lunch 17 with Dissolve(1)
-    e "I'm really looking forward to having more fun there."
-    a "I'm pretty sure things will get even crazier."
-    e "That's what I like to hear."
-    scene 39-2 lunch 18 with Dissolve(1)
-    pause 1
-    play sound undress
-    scene 39-2 lunch 19 with Dissolve(1)
-    pause 1
-    scene 39-2 lunch 20 with Dissolve(1)
-    pause 1
-    scene 39-2 lunch 21 with Dissolve(1)
-    if bar_var_1 == False:
-        e "Wait, what exactly is going to happen now, that Patrick's out of the picture?"
-        scene 39-2 lunch 22 with Dissolve(1)
-        a "Well, Jim and I are taking over, kind of. I will follow his lead for now."
-        a "But I'm kind of becoming the leader of it."
-    else:
-        e "So Patrick's still in charge?"
-        scene 39-2 lunch 22 with Dissolve(1)
-        a "Yeah. He's not the nicest boss, but things work under him."
-        e "Shouldn't take it."
-        a "It's not really that bad."
-    e "How are you and Timothy doing, eh?"
-    a "Hah. You are never satiated."
-    scene 39-2 lunch 23 with Dissolve(1)
-    a "I haven't done much with him lately."
-    a "Went to him. We made pizza..."
-    if timothySexContent == True:
-        a "Oh wait... We umm, had sex there."
-        e "HAHA! Of course..."
-    scene 39-2 lunch 24 with Dissolve(1)
-    e "You've got men lining up like crazy."
-    e "How do you do it?"
-    a "Me?"
-    scene 39-2 lunch 25 with Dissolve(1)
-    a "You are keeping busy yourself, don't say you don't..."
-    a "You little minx."
-    e "Hehe... Fair enough."
-    a "Alright, let's go."
-    a "I've got to prepare for the fashion show."
-    scene black with Dissolve(1)
-    jump EP11_Alfred_House
-label EP11_Earl_Hotel:
-    play music chill_song_4 fadein 2
-    scene 39-4 earl 1 with Dissolve(1)
-    a "Well, well... I hope that this will be enough to put this all behind me..."
-    a "It does seem a bit strange..."
-    a "How he made me come here..."
-    a "But... The choice has been made..."
-    scene 39-4 earl 2 with Dissolve(1)
-    a "This seems..."
-    a "Simple, But what did I expect."
-    scene 39-4 earl 3 with Dissolve(1)
-    a "Eh..."
-    scene 39-4 earl 4 with Dissolve(1)
-    a "This mess has been dragging on for so long."
-    a "Alright... Alright."
-    scene 39-4 earl 5 with Dissolve(1)
-    a "I guess if I'm going to stay the night here..."
-    a "Might get a shower."
-    play sound door2
-    scene 39-4 earl 6 with Dissolve(1)
-    pause 1
-    scene black with Dissolve(1)
-    play sound jacketcloth
-    scene 39-4 earl 7 with Dissolve(1)
-    pause 1
-    play sound shower_sound
-    scene 39-4 earl 8 with Dissolve(1)
-    a "..."
-    play audio woman_sigh_1
-    pause 1.5
-    scene 39-4 earl 9 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 10 with Dissolve(1)
-    pause 1.5
-    scene 39-4 earl 11 with Dissolve(1)
-    pause 1.5
-    stop sound fadeout 1
-    scene black with Dissolve(1)
-    pause 1
-    scene 39-4 earl 12 with Dissolve(1)
-    a "That's better..."
-    a "A shower always helps..."
-    play sound cloth_sound1
-    scene 39-4 earl 13 with Dissolve(1)
-    pause 1.5
-    play sound undress
-    scene 39-4 earl 14 with Dissolve(1)
-    pause 2
-    scene black with Dissolve(1)
-    "..."
-    pause 1
-    play music tense2
-    play sound surprise2
-    scene 39-4 earl 15 with vpunch
-    a "Huh?"
-    play sound man_evil_laugh_1
-    scene 39-4 earl 15-1 with Dissolve(1)
-    pause 2
-    scene 39-4 earl 16 with Dissolve(1)
-    earl "Took your time in the shower?"
-    a "I'm sorry... This is inappropriate."
-    earl "Bah. Not really."
-    scene 39-4 earl 17 with Dissolve(1)
-    earl "I just came around to make sure you're settling in okay for the night?"
-    a "I mean..."
-    "Anna was shocked..."
-    a "I am, but... Could you have made it any less obvious that you'd come?"
-    scene 39-4 earl 18 with Dissolve(1)
-    "Anna turned around, she felt his eyes piercing her."
-    a "Next time, please knock!"
-    earl "Next time?"
-    a "I mean, there won't be one, but in case."
-    earl "I will do my best to remember that."
-    scene 39-4 earl 19 with Dissolve(1)
-    earl "You know, I brought a bottle of something good."
-    earl "To... Celebrate our victory."
-    scene 39-4 earl 20 with Dissolve(1)
-    a "Your victory."
-    earl "Nonsense. We both did our part. You will be much better off, trust me."
-    a "I just want to put it all behind me."
-    play sound pourwater
-    scene 39-4 earl 21 with Dissolve(1)
-    earl "You will. Don't worry about that."
-    earl "For Carl and Sergey thing's are just beginning..."
-    a "Carl, too?"
-    e "He's a serious accomplice, you know?"
-    scene 39-4 earl 22 with Dissolve(1)
-    earl "Here, this should help you relax."
-    scene 39-4 earl 23 with Dissolve(1)
-    a "Yeah... I need a drink..."
-    "Anna was letting her guard down a bit."
-    scene 39-4 earl 24 with Dissolve(1)
-    a "But... He's, he's important to Rebecca."
-    earl "And that means what exactly?"
-    earl "You know I've done a great deal already to keep you out of it."
-    play sound drinkingBeverage
-    scene 39-4 earl 25 with Dissolve(1)
-    "Anna chug the bourbon."
-    scene 39-4 earl 25-1 with Dissolve(1)
-    earl "{i}...Yeah, just like that..."
-    scene 39-4 earl 26 with Dissolve(1)
-    a "Is there nothing that can be done?"
-    earl "Well..."
-    earl "There might be..."
-    a "Name your price..."
-    play sound pourwater
-    scene 39-4 earl 27 with Dissolve(1)
-    earl "That isn't as simple..."
-    earl "I think... You might know what it is that I want..."
-    "Anna was thinking hard..."
-    a "{i}...Does he..."
-    play sound drinkingBeverage
-    scene 39-4 earl 28 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 29 with Dissolve(1)
-    earl "If you 'persuade' me, I might help Carl's situation..."
-    "Did Anna really want to get Carl out of there that much?"
-    menu:
-        "Alright, what's your game?":
-            $ EP11_var_Earl_Sex = True
-            $ persistent.scene_34 = True
-            earl "Hehe..."
-            jump EP11_Earl_Hotel_Sex
-        "I'm not going to fall for your bullshit.":
-            scene 39-4 earl 138 with Dissolve(1)
-            a "I put up with you enough!"
-            a "I'm not going sell my body to you!"
-            a "Unless you have a better idea, you can get the fuck out of here and catch the bad guys!"
-            scene 39-4 earl 139 with Dissolve(1)
-            earl "Whoa... I was just..."
-            "For a moment Anna's answer put Earl into a shock."
-            "He didn't expect her to shoot back at him like that."
-            earl "I was just messing around."
-            a "GET OUT!"
-            scene 39-4 earl 140 with Dissolve(1)
-            earl "Alright, alright."
-            earl "You ain't getting Carl out then."
-            earl "Deal with it."
-            a "Enough. GO!"
-            scene 39-4 earl 141 with Dissolve(1)
-            "Anna stood up for herself."
-            "She felt a breath of relief."
-            "Didn't hold in her anger any longer."
-            scene black with Dissolve(1)
-            play sound jacketcloth
-            scene 39-4 earl 135 with Dissolve(1)
-            a "I just hope he catches the bad guy who's after me..."
-            a "If there even is one..."
-            scene black with Dissolve(1)
-            $ EP11_var_14 = True
-            jump EP11_Episode_End
-label EP11_Earl_Hotel_Sex:
-    play music SexyTimeSong3
-    scene 39-4 earl 30 with Dissolve(1)
-    earl "I want to taste you..."
-    a "Ah..."
-    "Anna felt his cold, stinky breath on her neck..."
-    "But she tried to convince herself that Carl was worth it..."
-    play sound surprise2
-    play audio drinkingBeverage
-    scene 39-4 earl 31 with vpunch
-    earl "Drink some more, girl..."
-    play sound female_cough_1
-    pause 1
-    play sound drinkingBeverage
-    scene 39-4 earl 32 with Dissolve(1)
-    "Earl drank some more, too..."
-    a "You're so close to me..."
-    a "I don't feel... Comf..."
-    scene 39-4 earl 32-1 with Dissolve(1)
-    earl "Empty... Haha!"
-    earl "That's the good shit, you know?"
-    earl "I paid a hefty price for the bottle..."
-    scene 39-4 earl 33 with Dissolve(1)
-    earl "I want to enjoy you, Anna... Been wanting to ever since I found out about you..."
-    a "Is there nothing else I can offer you?"
-    earl "Besides your sister, no..."
-    a "I..."
-    earl "If you let me have my way, I will do my best to get what you want."
-    scene 39-4 earl 34 with Dissolve(1)
-    earl "That's a promise..."
-    a "Oah..."
-    scene 39-4 earl 36 with Dissolve(1)
-    earl "Deal?"
-    a "Deal..."
-    play sound surprise2
-    scene 39-4 earl 36-1 with vpunch
-    pause 1
-    scene 39-4 earl 36-2 with vpunch
-    a "AH..."
-    earl "You know you're one piece of sexy ass..."
-    a "Don't be too harsh, ok?"
-    play sound man_evil_laugh_1
-    earl "Hehe..."
-    scene 39-4 earl 37 with Dissolve(1)
-    earl "You don't need this."
-    play sound undress
-    scene 39-4 earl 38 with Dissolve(0.2)
-    pause 0.5
-    scene 39-4 earl 39 with Dissolve(0.2)
-    pause 0.5
-    scene 39-4 earl 40 with Dissolve(0.2)
-    pause 0.5
-    play sound item_falls
-    scene 39-4 earl 41 with Dissolve(0.2)
-    "As the towel fell, it was a sign, that Anna had agreed to Earl's request."
-    scene 39-4 earl 42 with Dissolve(0.2)
-    earl "This is... Marvelous."
-    earl "You've no idea how long I have waited for this."
-    play sound licking_1
-    scene 39-4 earl 43 with Dissolve(1)
-    a "Ah..."
-    scene 39-4 earl 44 with Dissolve(1)
-    "Anna reacted instinctively."
-    earl "Come here..."
-    play sound kisspeck
-    scene 39-4 earl 45 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 46 with Dissolve(1)
-    earl "Mmmm..."
-    "Anna pushed through with motivation that this was worth it."
-    scene 39-4 earl 47 with Dissolve(1)
-    "But as soon as Earl touched her breasts..."
-    "She felt something change..."
-    play sound femmoan_2
-    a "Ah..."
-    scene 39-4 earl 48 with Dissolve(1)
-    pause 2
-    play sound jerk
-    play sound femmoan_3
-    scene 39-4 earl 49 with Dissolve(1)
-    a "Ah..."
-    "And when Earl pressed his fingers around her vagina..."
-    "She felt sudden arousal engulf her."
-    scene 39-4 earl 50 with Dissolve(1)
-    "Anna was once more being taken by her condition..."
-    "Starting to lose touch with her inhibitions."
-    play sound jerk2
-    scene 39-4 earl 51 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 52 with Dissolve(1)
-    pause 1
-    play sound female_moan_2
-    a "AH..."
-    scene 39-4 earl 52-1 with Dissolve(1)
-    pause 1.5
-    scene 39-4 earl 53 with Dissolve(1)
-    earl "Yes... This is perfect..."
-    play sound cloth_sound1
-    scene 39-4 earl 54 with Dissolve(1)
-    earl "There, be a nice girl and sit."
-    play sound undress
-    scene 39-4 earl 55 with Dissolve(1)
-    earl "You know... Heh... I like when women touch my cock."
-    earl "I know you'll make it even better."
-    scene 39-4 earl 56 with Dissolve(1)
-    a "{i}...I... This is... His cock's big..."
-    "Anna didn't know what to do with herself. A part of her reasoned as to why she's doing it."
-    "Another part of her craved. Something deep and dark inside of her..."
-    play sound move_whoosh
-    play audio femmoan_4
-    scene 39-4 earl 57 with Dissolve(1)
-    a "Gentle... Please..."
-    earl "Oh come on. I know you like it rough..."
-    earl "Rub it."
-    scene 39-4 earl 58 with Dissolve(1)
-    a "Oh... Ok."
-    "Anna hesitantly did as the manipulative Detective asked."
-    scene 39-4 earl 59 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 60 with Dissolve(1)
-    earl "How about you..."
-    scene 39-4 earl 61 with Dissolve(1)
-    earl "Spread those legs."
-    earl "My pals won't believe what a chick I landed."
-    scene 39-4 earl 62 with Dissolve(1)
-    pause 1.5
-    scene 39-4 earl 63 with Dissolve(1)
-    earl "Lemme just..."
-    scene 39-4 earl 64 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 65 with Dissolve(1)
-    a "{i}...What have I gotten myself into..."
-    a "{i}...But... It's for Carl...Right?..."
-    "Anna wrestled with her own thoughts."
-    play sound licking_2
-    scene 39-4 earl 66 with Dissolve(1)
-    "Earl wasted no time."
-    earl "Mmm..."
-    play sound female_moan_1
-    scene 39-4 earl 67 with Dissolve(1)
-    "As soon as Earl's tongue touched Anna's pussy..."
-    a "Ah..."
-    play sound jerk3
-    scene 39-4 earl 68 with Dissolve(1)
-    pause 3
-    scene 39-4 earl 69 with Dissolve(1)
-    pause 3
-    scene 39-4 earl 70 with Dissolve(1)
-    pause 3
-    scene 39-4 earl 70-1 with Dissolve(1)
-    "Anna instinctively grabbed his head to push it a bit more."
-    "Earl wasn't gentle, though."
-    earl "{i}...This is fucking NUTS!..."
-    play sound female_moan_3
-    scene 39-4 earl 71 with Dissolve(1)
-    pause 3
-    scene 39-4 earl 72 with Dissolve(1)
-    pause 2
-    scene 39-4 earl 73 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 74 with Dissolve(1)
-    pause 1
-    play sound female_moan_4
-    scene 39-4 earl 75 with Dissolve(1)
-    a "OH..AHHHH..."
-    "As Earls fingers entered Anna, all sense left her."
-    scene 39-4 earl 76 with Dissolve(1)
-    menu:
-        "Put the finger in Anna's asshole?":
-            earl "What about that other, beautiful, beautiful hole..."
-            scene 39-4 earl 77 with Dissolve(1)
-            a "Wait..."
-            a "That's... Forbidden..."
-            play sound jerk
-            scene 39-4 earl 78 with Dissolve(1)
-            pause 0.5
-            scene 39-4 earl 79 with Dissolve(1)
-            pause 2
-            scene 39-4 earl 80 with Dissolve(1)
-            a "Even Anna's anus was sensitive. with ever slight movement she was thrown back..."
-            scene 39-4 earl 81 with Dissolve(1)
-        "Don't put The finger in Anna's asshole.":
-            pass
+    old "Our service packets contain many legal, financial, and other services. see jercomp.org for more info."
+    new ""
 
-    pause 2
-    play sound man_evil_laugh_1
-    scene 39-4 earl 82 with Dissolve(1)
-    earl "Hehe..."
-    earl "Yess... That's just right, you like my fingers, eh slut?"
-    scene 39-4 earl 83 with Dissolve(1)
-    a "Wha?"
-    earl "How about we get it on?"
-    earl "Time to earn Carl's freedom..."
-    scene black with Dissolve(1)
-    play sound jacketcloth
-    scene 39-4 earl 84 with Dissolve(1)
-    "The old, ugly man stripped bare."
-    scene 39-4 earl 85 with Dissolve(1)
-    a "So... Um..."
-    a "What do you want to do?"
-    earl "Well... How about you get on your knees?"
-    earl "And then we'll see..."
-    scene 39-4 earl 86 with Dissolve(1)
-    a "Umm... Ok..."
-    "With each moment, Anna started to want that cock more and more."
-    "She couldn't do much to resist..."
-    "Like an unsatiable nymphomaniac."
-    scene 39-4 earl 87 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 88-1 with Dissolve(1)
-    "She took his cock next to her mouth... Trying to tease him more."
-    "That would get her on his good side more."
-    scene EP11_Earl_Anim_3 with Dissolve(1)
-label EP11_Earl_Sex_1:
-    $ config.menu_include_disabled = True
-    $ different_choice_menu = True
-    play sound jerk2 loop
-    menu EP11_Earl_Sex_Menu_1:
-        "Lick":
-            scene EP11_Earl_Anim_4 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_1
-        "Blowjob":
-            jump EP11_Earl_Sex_2
-label EP11_Earl_Sex_2:
-    $ config.menu_include_disabled = True
-    $ different_choice_menu = True
-    play sound jerk2 loop
-    scene 39-4 earl 88 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 89 with Dissolve(1)
-    menu EP11_Earl_Sex_Menu_2:
-        "View 1":
-            scene EP11_Earl_Anim_1 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_2
-        "View 2":
-            scene EP11_Earl_Anim_2 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_2
-        "View 3":
-            scene EP11_Earl_Anim_5 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_2
-        "Next":
-            pass
-    scene 39-4 earl 90 with Dissolve(1)
-    pause 1
-    scene 39-4 earl 91 with Dissolve(1)
-    "Earl grabbed Anna by her head and pushed his cock deeper."
-    play sound female_moan_5
-    scene EP11_Earl_Anim_7 with Dissolve(1)
-    earl "Yeah... That's a good mouth!"
-    earl "You like to choke on old men's cock, don't ya?"
-    scene EP11_Earl_Anim_7_Faster with Dissolve(1)
-    a "MMmm..."
-    scene 39-4 earl 92 with Dissolve(1)
-    pause 1
-    play sound surprise2
-    scene 39-4 earl 93 with vpunch
-    a "MMM!!!"
-    a "KHAAA!"
-    scene 39-4 earl 94 with vpunch
-    pause 1.5
-    play sound female_cough_1
-    scene 39-4 earl 95 with Dissolve(1)
-    a "Khe..."
-    earl "Get on the bed. I'm about to fuck you raw."
-    a "Lemme catch my breath."
-    earl "No time, hehe."
-    scene 39-4 earl 96 with Dissolve(1)
-    a "Ah."
-    scene 39-4 earl 97 with Dissolve(1)
-    "Earl lunged into bed, eager to fuck Anna's brains out."
-    earl "Hehe. This is great. Fuck, you're hot."
-    scene 39-4 earl 98 with Dissolve(1)
-    "Anna just went with it. Seeing the ugly man didn't make her feel any better."
-    "She felt repulsed, even. But in Anna's mind, it was worth it."
-    scene 39-4 earl 99 with Dissolve(1)
-    earl "Now spread them legs."
-    scene 39-4 earl 100 with Dissolve(1)
-    earl "Oh yeah..."
-    earl "This is the shit I've been fantasizing about."
-    a "So, all this time..."
-    a "You've only wanted to use me?"
-    earl "Girl, ain't nothing in this world for free."
-    earl "You want Carl free? You work for it."
-    play sound jacketcloth
-    scene 39-4 earl 101 with Dissolve(1)
-    earl "Yeaahhh..."
-    scene 39-4 earl 102 with Dissolve(1)
-    earl "Time to enjoy you."
-    a "Just don't go too fast at first."
-    earl "Whatever."
-    scene 39-4 earl 103 with Dissolve(1)
-    "Anna was conflicted. A part of her liked being used, another didn't."
-    "She was unable to decide which one it was."
-    "Earl didn't care though, he rubbed away on her clit."
-    scene EP11_Earl_Anim_6 with Dissolve(1)
-    earl "Oh, yeah. You like it when I rub against your pussy?"
-    "Anna didn't respond. She acted neutral."
-    earl "I like it when women keep quiet, hehe."
-    scene 39-4 earl 104 with Dissolve(1)
-    earl "How about I..."
-    scene 39-4 earl 105 with Dissolve(1)
-    a "Ah..."
-    a "It's..."
-    "She gave up choosing. The moment Earl's cock started to enter her..."
-    "She loved it."
-    play sound female_moan_3
-    scene 39-4 earl 106 with vpunch
-    a "AAAHH!"
-    scene 39-4 earl 107 with vpunch
-    earl "YEAH!"
-    scene 39-4 earl 108 with Dissolve(1)
-    earl "Fuck... This pussy's loose."
-    earl "You one good slut, eh?"
-    earl "I love it when sluts are loose."
-    scene 39-4 earl 109 with Dissolve(1)
-    pause 1
-    scene EP11_Earl_Anim_8 with Dissolve(1)
-    play sound jerk2 loop
-    $ EP11_Sex_Menu_var = 1
-    menu EP11_Earl_Sex_Menu_3:
-        "View 1":
-            $ EP11_Sex_Menu_var = 1
-            scene EP11_Earl_Anim_8 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_3
-        "View 2":
-            $ EP11_Sex_Menu_var = 2
-            scene EP11_Earl_Anim_9 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_3
-        "Faster":
-            if EP11_Sex_Menu_var == 1:
-                scene EP11_Earl_Anim_8_Faster with Dissolve(1)
-            if EP11_Sex_Menu_var == 2:
-                scene EP11_Earl_Anim_9_Faster with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_3
-        "Slower":
-            if EP11_Sex_Menu_var == 1:
-                scene EP11_Earl_Anim_8 with Dissolve(1)
-            if EP11_Sex_Menu_var == 2:
-                scene EP11_Earl_Anim_9 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_3
-        "Continue":
-            pass
-    "Earl continued fucking Anna nice and good."
-    "With fast pace."
-    "Anna was moaning uncontrollably at this point."
-    menu:
-        "Put the cock in her ass!":
-            "The cock had sent her over the edge."
-            earl "How about I..."
-            scene 39-4 earl 110 with Dissolve(1)
-            "He pulled out and went straight for her rear entrance."
-            scene 39-4 earl 111 with Dissolve(1)
-            "By now, Anna was getting stimulated even by anal."
-            play audio female_moan_1
-            $ EP11_Sex_Menu_var = 1
-            scene EP11_Earl_Anim_10 with Dissolve(1)
-            menu EP11_Earl_Sex_Menu_4:
-                "View 1":
-                    $ EP11_Sex_Menu_var = 1
-                    scene EP11_Earl_Anim_10 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_4
-                "View 2":
-                    $ EP11_Sex_Menu_var = 2
-                    scene EP11_Earl_Anim_11 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_4
-                "Faster":
-                    if EP11_Sex_Menu_var == 1:
-                        scene EP11_Earl_Anim_10_Faster with Dissolve(1)
-                    if EP11_Sex_Menu_var == 2:
-                        scene EP11_Earl_Anim_11_Faster with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_4
-                "Slower":
-                    if EP11_Sex_Menu_var == 1:
-                        scene EP11_Earl_Anim_10 with Dissolve(1)
-                    if EP11_Sex_Menu_var == 2:
-                        scene EP11_Earl_Anim_11 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_4
-                "Continue":
-                    pass
-        "Don't give her Anal.":
-            pass
-    earl "How about I flip you over."
-    earl "Just like a proper slut!"
-    play sound whoosh_1
-    scene 39-4 earl 114 with Dissolve(1)
-    pause 1
-    play sound femgasp
-    $ EP11_Sex_Menu_var = 1
-    scene EP11_Earl_Anim_12 with Dissolve(1)
-    menu EP11_Earl_Sex_Menu_6:
-        "View 1":
-            $ EP11_Sex_Menu_var = 1
-            scene EP11_Earl_Anim_12 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_6
-        "View 2":
-            $ EP11_Sex_Menu_var = 2
-            scene EP11_Earl_Anim_15 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_6
-        "Faster":
-            if EP11_Sex_Menu_var == 1:
-                scene EP11_Earl_Anim_12_Faster with Dissolve(1)
-            if EP11_Sex_Menu_var == 2:
-                scene EP11_Earl_Anim_15_Faster with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_6
-        "Slower":
-            if EP11_Sex_Menu_var == 1:
-                scene EP11_Earl_Anim_12 with Dissolve(1)
-            if EP11_Sex_Menu_var == 2:
-                scene EP11_Earl_Anim_15 with Dissolve(1)
-            jump EP11_Earl_Sex_Menu_6
-        "Continue":
-            pass
-    earl "Oh yeah."
-    earl "Your ass looks magnificent."
-    play sound female_moan_4
-    a "Fuck..."
-    earl "How about the other hole, heh."
-    menu:
-        "Anal":
-            scene 39-4 earl 115 with Dissolve(1)
-            pause 2
-            scene EP11_Earl_Anim_13 with Dissolve(1)
-            $ EP11_Sex_Menu_var = 1
-            menu EP11_Earl_Sex_Menu_5:
-                "View 1":
-                    $ EP11_Sex_Menu_var = 1
-                    scene EP11_Earl_Anim_13 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_5
-                "View 2":
-                    $ EP11_Sex_Menu_var = 2
-                    scene EP11_Earl_Anim_14 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_5
-                "Faster":
-                    if EP11_Sex_Menu_var == 1:
-                        scene EP11_Earl_Anim_13_Faster with Dissolve(1)
-                    if EP11_Sex_Menu_var == 2:
-                        scene EP11_Earl_Anim_14_Faster with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_5
-                "Slower":
-                    if EP11_Sex_Menu_var == 1:
-                        scene EP11_Earl_Anim_13 with Dissolve(1)
-                    if EP11_Sex_Menu_var == 2:
-                        scene EP11_Earl_Anim_14 with Dissolve(1)
-                    jump EP11_Earl_Sex_Menu_5
-                "Cum":
-                    pass
-        "Cum":
-            pass
-    earl "AAHH..."
-    earl "FUCK!"
-    "Suddenly Earl felt the point of no return..."
-    menu:
-        "Cum in her ass":
-            with flash
-            earl "Fuck!!!"
-            earl "I'll fill you up!"
-            with flash
-            play sound cum_sound
-            play audio moaning_1
-            scene 39-4 earl 116 with flash_vpunch
-            pause 0.5
-            scene 39-4 earl 120 with flash_vpunch
-            pause 0.5
-            scene 39-4 earl 121 with flash_vpunch
-            earl "AAHHH!"
-            scene 39-4 earl 117 with Dissolve(1)
-            pause
-        "Cum in her pussy":
-            scene EP11_Earl_Anim_12 with Dissolve(1)
-            with flash
-            play audio moaning_1
-            earl "I will fill up that pussy good!!!!"
-            earl "YEAAAAH!!"
-            with flash
-            earl "AAH."
-            play sound cum_sound
-            scene 39-4 earl 118 with flash_vpunch
-            pause 0.5
-            scene 39-4 earl 120 with flash_vpunch
-            pause 0.5
-            scene 39-4 earl 121 with flash_vpunch
-            pause 2
-            scene 39-4 earl 119 with Dissolve(1)
-            pause
-        "Cum in her mouth":
-            earl "SHIT, SHIT!"
-            with flash
-            earl "Turn AROUND!"
-            scene 39-4 earl 122 with Dissolve(0.5)
-            pause 0.5
-            scene 39-4 earl 123 with Dissolve(0.5)
-            play sound cum_sound
-            scene 39-4 earl 124 with flash_vpunch
-            pause 2
-            scene 39-4 earl 125 with Dissolve(1)
-            a "AAhh..."
-            earl "FUCK YEAH!"
-            scene 39-4 earl 126 with Dissolve(1)
-            pause
-    $ renpy.end_replay()
-    scene 39-4 earl 128 with Dissolve(1)
-    a "Are... Are you done?"
-    earl "Hehe... I gotta run, but this isn't the end."
-    earl "Fuck you're as good as I thought. Better than I expected, actually."
-    a "Will you catch the person that's behind this?"
-    scene 39-4 earl 130 with Dissolve(1)
-    earl "Yes, ofcooourse... Hehe..."
-    a "And... And what about Carl?"
-    earl "Like I said, this isn't the end. You might have me convinced... But..."
-    scene black with Dissolve(1)
-    play sound jacketcloth
-    scene 39-4 earl 131 with Dissolve(1)
-    earl "You still have to convince my pals."
-    a "WHAT?"
-    scene 39-4 earl 132 with Dissolve(1)
-    earl "It's simple. You want Carl to be free? You gotta play by my rules."
-    a "But..."
-    scene 39-4 earl 133 with Dissolve(1)
-    earl "Think on it."
-    earl "I will be in touch."
-    play sound door2
-    scene 39-4 earl 134 with Dissolve(1)
-    a "What..."
-    a "This is..."
-    scene 39-4 earl 135 with Dissolve(1)
-    "Anna was so deep in thought."
-    "At this point she didn't even feel much remorse for this kind of a thing."
-    a "I'd better get some sleep..."
-    $ different_choice_menu = False
-    $ EP11_var_14 = True
-    jump EP11_Episode_End
-label EP11_Alfred_House:
-    play sound high_heels_walking
-    scene black with Dissolve(1)
-    pause 1
-    play music SpeedBumpsSong
-    scene 39-5 alfred 1 with Dissolve(1)
-    a2 "Ah. Anna!"
-    a2 "So good to see you. so good."
-    a "And you too, Alfred."
-    a "How are you holding up?"
-    scene 39-5 alfred 1-1 with Dissolve(1)
-    a2 "As nervous as ever, haha!"
-    a2 "I will manage. What about you, love?"
-    a "I'm doing good. Excited for this opportunity."
-    a2 "You and me both."
-    scene 39-5 alfred 2 with Dissolve(1)
-    a2 "Patricia will be with us shortly."
-    play sound door2
-    scene 39-5 alfred 3 with Dissolve(1)
-    p2 "Hey, guys!"
-    a2 "And speak of the devil, haha."
-    scene 39-5 alfred 3-1 with Dissolve(1)
-    p2 "OH, haha. Alfred, you seem in a jolly good mood today?"
-    a2 "Hah. Don't mind me, I'm just masking my nervousness with joy."
-    p2 "The best way to do it."
-    scene 39-5 alfred 4-1 with Dissolve(1)
-    a "So, where we at?"
-    a2 "Well, I've prepped all the outfits. I'm waiting on Hector. He'll take us to Westpoint."
-    a "That's like an hour's ride, isn't it?"
-    a2 "Just about."
-    scene 39-5 alfred 4 with Dissolve(1)
-    a2 "We'll probably spend a couple of hours there at most."
-    a "No problem."
-    a2 "You can go pack up at your place, and we'll await you downstairs. Sounds good?"
-    a "Yes. Will get on it right away."
-    scene black with Dissolve(1)
-    pause 2
-    play sound zipper_1
-    scene 39-5 alfred 6 with Dissolve(0.2)
-    pause 1
-    scene 39-5 alfred 7 with Dissolve(0.2)
-    pause 1
-    play ambience citytraffic
-    scene black with Dissolve(1)
-    pause 2
-    scene 39-5 alfred 8 with Dissolve(1)
-    a2 "A wonderful day indeed."
-    a2 "Perfect for a fashion show, haha!"
-    p2 "Look at you, all happy. I love it when you're like this, Alfred."
-    scene 39-5 alfred 9 with Dissolve(1)
-    a "Alright guys, I'm ready."
-    scene 39-5 alfred 10 with Dissolve(1)
-    a2 "Great."
-    h1 "Anna! Great to see you."
-    h1 "Look as good as ever."
-    a "Hah, thanks, Hector."
-    scene 39-5 alfred 11 with Dissolve(1)
-    h1 "Big day ahead of you, eh?"
-    a "Quite so. I'm excited."
-    h1 "Wonderful, wonderful."
-    scene 39-5 alfred 12 with Dissolve(1)
-    a "I've been wanting to be a model for a long time."
-    h1 "And now is your chance."
-    a "Thanks to Alfred."
-    h1 "Of course."
-    scene 39-5 alfred 13 with Dissolve(1)
-    h1 "Our Alfred has given us a lot of opportunities."
-    scene 39-5 alfred 14 with Dissolve(1)
-    a2 "I think we should get going."
-    a2 "Wouldn't wanna miss it."
-    h1 "Right away."
-    play sound car_door_open
-    scene 39-5 alfred 15 with Dissolve(1)
-    pause 1
-    play sound car_door_close
-    play ambience car_engine_ambience
-    scene 39-5 alfred 16 with Dissolve(1)
-    h1 "So you all guys ready?"
-    h1 "Alfred, got the outfits?"
-    a2 "I wouldn't miss them for the world."
-    h1 "How you girls doing in the back?"
-    h1 "All comfortable?"
-    a "We are, thanks."
-    scene 39-5 alfred 17 with Dissolve(1)
-    p2 "Did you take the spares?"
-    a2 "Oh... I forgot..."
-    p2 "Hehe, I took them, don't worry."
-    a2 "Patricia, you are a lifesaver."
-    scene 39-5 alfred 18 with Dissolve(1)
-    a "What exactly awaits us?"
-    p2 "Well, there will be only select individuals who work in the fashion business."
-    p2 "It's a semi-closed, special event. Only people with invitations got in."
-    scene 39-5 alfred 18-1 with Dissolve(1)
-    a "So high-level designers and fashion 'people'?"
-    a "Hector, too?"
-    scene 39-5 alfred 19 with Dissolve(1)
-    p2 "Alfred pulled strings."
-    p2 "I'm his number two, and you are the main model."
-    p2 "Also, I think Aldo will so join."
-    scene 39-5 alfred 19-1 with Dissolve(1)
-    p2 "They are 'investors'"
-    h1 "Hey. I'm your personal chauffeur, as well!"
-    h1 "Haha."
-    scene 39-5 alfred 20 with Dissolve(1)
-    a2 "Watch the road, chauffeur!"
-    h1 "On it, chief."
-    a2 "Otherwise we'll have the same situation as that one time in Corkridge."
-    h1 "That... That was an accident."
-    scene 39-5 alfred 21 with Dissolve(1)
-    a2 "Yeah. It was! You didn't watch the road."
-    p2 "What happened?"
-    a2 "We drove on the sidewalk and hit a postbox."
-    a "Haha."
-    scene 39-5 alfred 21-1 with Dissolve(1)
-    a2 "Hector was quite the rest of the drive."
-    a2 "But it seems he wants to pay another 300$ for front bumper change?"
-    scene 39-5 alfred 22 with Dissolve(1)
-    h1 "Alright, Alright. I get your point."
-    h1 "But what about that one time when you were driving?"
-    a2 "Don't start with the 'whataboutism' You know it wasn't my fault at all."
-    h1 "I beg to differ..."
-    scene 39-5 alfred 23 with Dissolve(1)
-    "While both old men were discussing the details of their driving..."
-    "Anna felt a little sleepish."
-    a "I think, I will take a little nap."
-    p2 "Sure."
-    scene 39-5 alfred 24 with Dissolve(1)
-    p2 "Oh... I mean..."
-    p2 "That's ok."
-    "Anna quickly fell asleep."
-    scene 39-5 alfred 25 with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 26 with Dissolve(1)
-    pause 1
-    scene black with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 27 with Dissolve(1)
-    p2 "Anna..."
-    p2 "Anna?"
-    scene 39-5 alfred 28 with Dissolve(1)
-    a "Huh. Wha?"
-    p2 "Wakey, wakey. We're here."
-    a "That was fast."
-    p2 "Yeah, you passed out so fast."
-    p2 "Must've been tired."
-    scene 39-5 alfred 29 with Dissolve(1)
-    a "Damn, those look like some serious people."
-    a "Expensive cars."
-    a "Models."
-    scene 39-5 alfred 31 with Dissolve(1)
-    h1 "Ok, guys. I'll drop you off here and park the car in the back."
-    a2 "Alright, you'll bring the outfits from there, ye?"
-    h1 "Yes, sir."
-    scene 39-5 alfred 30 with Dissolve(1)
-    a2 "Alright, this is it. Let's show them how we do it un Sun City, eh?"
-    a "Yes!"
-    p2 "Wohoooo!"
-    stop ambience fadeout 1
-    scene black with Dissolve(1)
-    pause 1
-    play sound door2
-    scene 39-5 alfred 32 with Dissolve(1)
-    a2 "So, this is us."
-    a "Uuuuh... I'm getting nervous."
-    a2 "You've got this, Anna. You are a natural."
-    scene 39-5 alfred 33 with Dissolve(1)
-    a2 "The show will start in some 20 mins or so."
-    a2 "We got here in the nick of time."
-    h1 "Thanks to my good driving."
-    a2 "Right..."
-    scene 39-5 alfred 34 with Dissolve(1)
-    a "Ooh... This is actually happening."
-    a "Will there be a lot of people?"
-    a2 "Not that many. This is a closed event for the fashion industry only, mostly."
-    a2 "The open one will happen later."
-    scene 39-5 alfred 35 with Dissolve(1)
-    a2 "Listen, we've got to get to our seats, you'll manage right?"
-    a2 "Patricia will help you with the outfits"
-    a2 "Anna, you got this. Good luck!"
-    play sound door2
-    scene 39-5 alfred 36 with Dissolve(1)
-    p2 "Are you ready?"
-    a "I... I don't know."
-    p2 "What am I saying, of course you are."
-    scene 39-5 alfred 37 with Dissolve(1)
-    a "It's just that I've never done anything this big."
-    p2 "There is a first time for everything, you know that."
-    p2 "Besides, gotta take the step some time, right?"
-    a "I mean... Yeah."
-    scene 39-5 alfred 38 with Dissolve(1)
-    p2 "Trust me, if anyone's got it, it's you."
-    a "Alright... I got this, Let's get me into the first outfit."
-    scene 39-5 alfred 38-1 with Dissolve(1)
-    p2 "That's what I'm talking about, hehe!"
-    p2 "Alright, get naked, girl."
-    scene 39-5 alfred 39 with Dissolve(1)
-    a "Ooh. Sassy, I like it."
-    a "Where are the outfits?"
-    p2 "Don't worry, I'll bring 'em."
-    scene 39-5 alfred 40 with Dissolve(1)
-    pause 1
-    play sound undress
-    scene 39-5 alfred 41 with Dissolve(1)
-    pause 1
-    scene black with Dissolve(1)
-    play sound jacketcloth
-    pause 1
-    play sound cloth_sound1
-    scene 39-5 alfred 42 with Dissolve(1)
-    p2 "And we're golden."
-    p2 "You look great in this."
-    a "This is one of the outfits from Alfred's collections?"
-    p2 "Yes."
-    scene 39-5 alfred 43 with Dissolve(1)
-    a "My nipples, though."
-    a "You can see them a little."
-    p2 "Not a problem, trust me."
-    p2 "It is that way for a reason, you know?"
-    play sound door2
-    scene 39-5 alfred 44 with Dissolve(1)
-    a2 "Well, well... You look great."
-    a2 "We all set?"
-    scene 39-5 alfred 45 with Dissolve(1)
-    a "Yeah."
-    p2 "Anna looks great in this thing. You got the measurements perfectly."
-    a2 "The show's about to start, Anna should get into position."
-    a2 "Let's go, Patricia."
-    scene 39-5 alfred 46 with Dissolve(1)
-    p2 "You've got this, Anna. Just do what you do best."
-    a "And that is?"
-    p2 "Look fucking amazing."
-    a "Haha."
-    play sound door2
-    scene black with Dissolve(1)
-    play music Runway_Song
-    scene 39-5 alfred 47 with Dissolve(1)
-    a "Ok... This is it..."
-    a "Gotta wait for my queue."
-    a "I'm ready..."
-    scene 39-5 alfred 48 with Dissolve(1)
-    a "Ok, my turn."
-    "Anna started to walk, feeling fully in character."
-    "Leaving all doubts behind her."
-    scene 39-5 alfred 49 with Dissolve(1)
-    "As she entered, it's like the runway lit up."
-    "People were curious. They had never seen Anna before."
-    "Interested in both the clothing and the model."
-    scene 39-5 alfred 50 with Dissolve(1)
-    "Anna was flaming."
-    a "{i}...This is so cool..."
-    a "{i}...I'm finally on the runway, I've been wanting to do this for so long."
-    scene 39-5 alfred 51 with Dissolve(1)
-    pause 3
-    scene 39-5 alfred 52 with Dissolve(1)
-    pause 2
-    scene 39-5 alfred 53 with Dissolve(1)
-    gc1 "Who is that girl?"
-    gc1 "I've never seen here."
-    h1 "That is Anna. She's Alfred's model."
-    scene 39-5 alfred 54 with Dissolve(1)
-    a2 "Not bad for the first outfit. Can you go and help her change?"
-    p2 "On it, Alfred."
-    scene 39-5 alfred 55 with Dissolve(1)
-    a "ooOO... I'm so exciiteeed."
-    play sound door2
-    scene 39-5 alfred 56 with Dissolve(1)
-    p2 "That was great, Anna!"
-    p2 "You had the proper stride, and everything didn't linger for too long on the runway either."
-    p2 "Gave the people just enough."
-    p2 "You can take your panties off, too."
-    a "You sure?"
-    p2 "The outfit will look better."
-    play sound undress
-    scene 39-5 alfred 57 with Dissolve(1)
-    pause 1
-    play sound jacketcloth
-    scene 39-5 alfred 58 with Dissolve(1)
-    a "Well, well..."
-    a "This a lot skimpier."
-    p2 "I know, so sexy, though."
-    scene 39-5 alfred 59 with Dissolve(1)
-    p2 "Alright, we don't have much time."
-    p2 "I'll run back, and you get ready."
-    scene 39-5 alfred 60 with Dissolve(1)
-    a "Will do."
-    p2 "You are doing great, Anna."
-    a "I know, haha. I'm feeling so confident right now."
-    p2 "That's great! Good luck!"
-    play sound door2
-    scene black with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 61 with Dissolve(1)
-    "Anna got on the runway with the second outfit and now was piquing the interest of everyone."
-    "This was a lot skimpier a lot more succulent."
-    scene 39-5 alfred 62 with Dissolve(1)
-    "People were gazing up on the magnificence in front of them."
-    pause 1
-    scene 39-5 alfred 63 with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 64 with Dissolve(1)
-    pause 2
-    scene 39-5 alfred 65 with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 66 with Dissolve(1)
-    al1 "Anna is really hitting her stride."
-    h1 "Oh, yeah."
-    scene 39-5 alfred 67 with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 67-1 with Dissolve(1)
-    gc1 "Hold on... She isn't wearing panties?"
-    h1 "Alfred's collection is all about the succulence of the female body."
-    h1 "You know that empires have crumbled because of that."
-    gc1 "Huh... Interesting, thought."
-    scene 39-5 alfred 68 with Dissolve(1)
-    pause 2
-    scene black with Dissolve(1)
-    pause 0.5
-    scene 39-5 alfred 69 with Dissolve(1)
-    a "Ooohhh... I'm so excited. Everyone's looking at me, that's crazy."
-    p2 "I thought you had gotten used to people looking at you."
-    a "Yeah, but... This is a bit different, I can't. So exciting."
-    scene 39-5 alfred 69-1 with Dissolve(1)
-    a "And all of them are people working in the fashion industry?"
-    p2 "Many of them are representatives and other designers."
-    scene 39-5 alfred 70 with Dissolve(1)
-    p2 "So yeah, word will get around about you."
-    p2 "Anyway, the last outfit."
-    p2 "The main attraction."
-    play sound undress
-    scene 39-5 alfred 71 with Dissolve(1)
-    a "It was beautiful, I remember."
-    play sound undress
-    scene 39-5 alfred 72-1 with Dissolve(0.5)
-    pause 0.5
-    scene 39-5 alfred 72-2 with Dissolve(0.5)
-    pause 0.5
-    scene 39-5 alfred 72 with Dissolve(0.5)
-    pause 0.5
-    scene 39-5 alfred 73 with Dissolve(1)
-    a "Gorgeous."
-    p2 "Agreed. It's so seductive."
-    scene 39-5 alfred 74 with Dissolve(1)
-    p2 "Oh, and remember. for this one, keep your face neutral."
-    p2 "The main focus is the outfit."
-    a "Ok. Got it."
-    scene 39-5 alfred 75 with Dissolve(1)
-    p2 "Anyway, I'll go. Don't want to miss it."
-    p2 "Good luck!"
-    scene 39-5 alfred 76 with Dissolve(1)
-    "Anna pulled out her phone for a quick selfie."
-    play sound takephoto
-    with flash
-    scene 39-5 alfred 76-1 with Dissolve(1)
-    "And another."
-    play sound takephoto
-    with flash
-    a "Alright. Time to go."
-    scene black with Dissolve(1)
-    scene 39-5 alfred 77 with Dissolve(1)
-    "Anna got on the stage."
-    a "Time to get my serious face on."
-    play music BombshellSong fadein 5
-    scene 39-5 alfred 78 with Dissolve(1)
-    pause 1
-    scene 39-5 alfred 80 with Dissolve(1)
-    pause 2
-    scene EP11_Alfred_Fashion_Runway with Dissolve(1)
-    pause 12
-    scene 39-5 alfred 82-1 with Dissolve(1)
-    al1 "Damn... I can't believe he pulled it off."
-    al1 "People will fall over each other for this outfit now."
-    h1 "I know. He's good at this."
-    scene 39-5 alfred 82 with Dissolve(1)
-    a "Wheeew..."
-    a "That was nuts!"
-    a "I could see all the open mouths, they were all impressed."
-    scene 39-5 alfred 83 with Dissolve(1)
-    a2 "Haha! You are absolutely amazing at this."
-    a2 "You should've seen the competition's faces."
-    a2 "This will be the talk of the week in the fashion world."
-    menu:
-        "The adrenaline rush made Anna as horny as ever.":
-            $ persistent.scene_33 = True
-            jump EP11_Alfred_Sex_Label
-        "Anna refrained from sexual involvement.":
-            a "Anyway... I will take a breather."
-            a "It's been rather stressful."
-            a2 "Yeah, me too."
-            a2 "Voting will begin shortly, and after that, the winner will be announced."
-            a2 "I'll go to the toilet."
-            a "Alright."
-            scene black with Dissolve(1)
-            pause
-            jump EP11_Alfred_Fashion_Finished
-label EP11_Alfred_Sex_Label:
-    scene 39-5 alfred 84 with Dissolve(1)
-    a "Shush..."
-    a "I'm so full of excitement right now..."
-    a2 "Oh... Hah..."
-    play music SexyTimeSong2
-    scene 39-5 alfred 85 with Dissolve(1)
-    a "I know you want me, Alfred."
-    a2 "I... So succulent, so carnal."
-    scene 39-5 alfred 86 with Dissolve(1)
-    pause 2
-    scene 39-5 alfred 87 with Dissolve(1)
-    a "How about I give you a reward for your good work?"
-    a2 "My good work?"
-    a "Oh yeah. This outfit made me look irresistible."
-    scene 39-5 alfred 88 with Dissolve(1)
-    pause 1
-    play sound undress
-    scene 39-5 alfred 89 with Dissolve(1)
-    pause 1
-    a2 "Ahh..."
-    scene EP11_Alfred_Anim_1 with Fade(0.2, 0, 0.2)
-    $ EP11_Alfred_menu_option_1 = False
-    $ config.menu_include_disabled = True
-    $ different_choice_menu = True
-    play sound jerk loop
-    menu EP11_Alfred_Menu_1:
-        "Faster" if EP11_Alfred_menu_option_1 == False:
-            $ EP11_Alfred_menu_option_1 = True
-            scene EP11_Alfred_Anim_1_Faster with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_1
-        "Slower" if EP11_Alfred_menu_option_1 == True:
-            $ EP11_Alfred_menu_option_1 = False
-            scene EP11_Alfred_Anim_1 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_1
-        "Continue":
-            pass
-    a "Hehe..."
-    a "How about I..."
-    scene 39-5 alfred 90 with Dissolve(1)
-    a2 "Oh, Anna..."
-    pause 1
-    scene EP11_Alfred_Anim_2 with Fade(0.2, 0, 0.2)
-    $ EP11_Alfred_menu_option_1 = False
-    menu EP11_Alfred_Menu_2:
-        "Lick" if EP11_Alfred_menu_option_1 == False:
-            $ EP11_Alfred_menu_option_1 = True
-            scene EP11_Alfred_Anim_3 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_2
-        "Handjob" if EP11_Alfred_menu_option_1 == True:
-            $ EP11_Alfred_menu_option_1 = False
-            scene EP11_Alfred_Anim_2 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_2
-        "Continue":
-            pass
-    scene EP11_Alfred_Anim_4 with Fade(0.2, 0, 0.2)
-    pause 1.8
-    scene EP11_Alfred_Anim_5 with Fade(0.2, 0, 0.2)
-    $ EP11_Alfred_menu_option_2 = 1
-    menu EP11_Alfred_Menu_4:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_5 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_4
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_6 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_4
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_5_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_4
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_6_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_4
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_5 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_4
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_6 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_4
-        "Continue":
-            pass
-    stop sound
-    scene 39-5 alfred 91 with Dissolve(1)
-    a2 "Let's get out of sight."
-    a "Good idea, hehe..."
-    scene 39-5 alfred 92 with Dissolve(1)
-    "They forgot to close the door, though."
-    "They also didn't care."
-    play sound jacketcloth
-    scene 39-5 alfred 93 with Dissolve(1)
-    pause 1
-    play sound cloth_sound1
-    scene 39-5 alfred 94 with Dissolve(1)
-    a "Ah..."
-    a "I want you inside of me, now!"
-    a2 "I must oblige."
-    a "Fuck me right now... Ah..."
-    scene 39-5 alfred 95 with Dissolve(1)
-    "Alfred waited not a moment longer and put his dick deep up Anna's pussy."
-    "She felt intoxicated from the excitement."
-    scene EP11_Alfred_Anim_7 with Fade(0.2, 0, 0.2)
-    $ EP11_Alfred_menu_option_2 = 1
-    play sound jerk2
-    play audio female_moan_2
-    menu EP11_Alfred_Menu_5:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_7 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_5
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_8 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_5
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_7_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_5
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_8_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_5
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_7 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_5
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_8 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_5
-        "Continue":
-            pass
-    a "FUCK!"
-    play audio female_moan_1
-    a "AAHHH!!!"
-    scene EP11_Alfred_Anim_9 with Fade(0.2, 0, 0.2)
-    a2 "That pussyy..."
-    a "Alfred, your cock..."
-    "Both of them were enjoying the sex deeply."
-    "Both ecstatic in more than one way."
-    $ EP11_Alfred_menu_option_2 = 1
-    menu EP11_Alfred_Menu_6:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_9 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_6
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_10 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_6
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_9_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_6
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_10_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_6
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_9 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_6
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_10 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_6
-        "Continue":
-            pass
-    a2 "Lemme slow down for a bit... Ahh.."
-    a2 "Your pussy is almost too much to handle."
-    a "Alfred... You are the best fucker ever..."
-    play sound female_moan_3
-    scene EP11_Alfred_Anim_11 with Fade(0.2, 0, 0.2)
-    a "Continue like this for a moment..."
-    pause
-    "Anna was feeling stimulated every moment of the intercourse."
-    "Alfred's cock was filling her up perfectly."
-    scene EP11_Alfred_Anim_11_Faster with Fade(0.2, 0, 0.2)
-    pause
-    a "Yeah..."
-    a2 "Mhhh..."
-    "Alfred was feeling young again."
-    "Like he could conquer the world."
-    play audio female_moan_5
-    "A young, unexplainably hot girl in front of him."
-    "A Fashion show to win..."
-    "Everything was going great for the man."
-    play sound whoosh
-    play sound jerk loop
-    scene EP11_Alfred_Anim_15 with Fade(0.2, 0, 0.2)
-    "Alfred flipped Anna over for a change."
-    "And to take a breath."
-    a2 "Whew... I think I haven't fucked like this in a while."
-    a "Hehe... You've always got something going on with me, you know that right?"
-    $ EP11_Alfred_menu_option_1 = False
-    menu EP11_Alfred_Menu_8:
-        "Faster" if EP11_Alfred_menu_option_1 == False:
-            $ EP11_Alfred_menu_option_1 = True
-            scene EP11_Alfred_Anim_15_Faster with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_8
-        "Slower" if EP11_Alfred_menu_option_1 == True:
-            $ EP11_Alfred_menu_option_1 = False
-            scene EP11_Alfred_Anim_15 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_8
-        "Continue":
-            pass
+    old "You can also have a personalized, for the company, service package. Essentially you won't have to worry about your dealings in other markets as we will take care of the day-to-day."
+    new ""
 
-    scene EP11_Alfred_Anim_13 with Fade(0.2, 0, 0.2)
-    a "AHHh... Alfred... Your cock..."
-    a2 "I'm getting close..."
-    play audio female_moan_4
-    a2 "Not long anymore... FUUCK!!!"
-    $ EP11_Alfred_menu_option_2 = 1
-    menu EP11_Alfred_Menu_7:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_13 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_7
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_14 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_7
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_13_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_7
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_14_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_7
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_13 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_7
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_14 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_7
-        "Cum!":
-            pass
-    "Both perverts started to cum..."
-    with flash_vpunch
-    play audio moaninglong_1
-    play sound jerk2 loop
-    a2 "AHHH!!!"
-    a2 "ANNA!!!"
-    a2 "I'm cummiiingg!!"
-    with flash_vpunch
-    with flash_vpunch
-    a "ALFRED!!"
-    a "FUUUCKK!!!"
-    a "FILL ME UPPP!!!!!"
-    scene 39-5 alfred 97 with vpunch
-    pause 1
-    scene 39-5 alfred 98 with vpunch
-    pause 1
-    play sound cum_sound
-    with flash
-    a "Oh, Alfred..."
-    scene 39-5 alfred 99 with Dissolve(1)
-    a2 "Pardon..."
-    a2 "I feel a bit dizzy..."
-    scene 39-5 alfred 100 with Dissolve(1)
-    a "I'm holding you... You're safe."
-    a2 "Heh... This is amazing, Anna."
-    a2 "I'd like to stay here for a moment and hold you."
-    scene 39-5 alfred 101 with Dissolve(1)
-    a "Me too."
-    scene 39-5 alfred 102 with Dissolve(1)
-    a "Somebody's coming!"
-    a2 "Ok, shit."
-    scene black with Dissolve(1)
-    scene 39-5 alfred 103 with Dissolve(1)
-    a2 "Yes?"
-    a2 "What is it???"
-    scene 39-5 alfred 104 with Dissolve(1)
-    al1 "Well, the award ceremony will start soon."
-    al1 "Voting has ended."
-    a2 "Ah, right. Ok, I'm going."
-    scene 39-5 alfred 105 with Dissolve(1)
-    "Alfred rushed away without hesitation."
-    "Anna was still coming down from the session."
-    a "Whew... This is crazy..."
-    scene 39-5 alfred 106 with Dissolve(1)
-    h1 "What's that?"
-    al1 "Wait."
-    scene 39-5 alfred 107 with vpunch
-    h1 "Hello, hello, Anna."
-    h1 "Nice show."
-    a "Thank you."
-    h1 "You know, I think we found something that belongs to you?"
-    scene 39-5 alfred 108 with Dissolve(1)
-    al1 "Looks like you lost it indeed."
-    scene 39-5 alfred 109 with Dissolve(1)
-    a "Oh... Um..."
-    a "Thanks."
-    scene 39-5 alfred 110 with Dissolve(1)
-    a "Well, I'd better get going."
-    a "Wouldn't wanna miss the ceremony."
-    h1 "Oh, don't go yet. We still have a moment."
-    scene 39-5 alfred 111 with Dissolve(1)
-    h1 "We're pretty sure what happened here."
-    h1 "How about we get some, too?"
-    h1 "You are, after all, a slut."
-    $ different_choice_menu = False
-    menu:
-        "Hehe... Well, I might be... (IF Corruption > 30)" if AnnaCorruption >=30:
-            pass
-        "Yeah, perhaps, but only Alfred's slut.":
-            a "You ain't getting any."
-            $ renpy.end_replay()
-            jump EP11_Alfred_Fashion_Finished
-        "How can you talk in this tone? NO!":
-            a "And that's final. Please leave me alone now."
-            $ renpy.end_replay()
-            jump EP11_Alfred_Fashion_Finished
-    play music closuresong
-    play sound undress
-    scene black with Dissolve(1)
-    scene 39-5 alfred 112 with Dissolve(1)
-    pause 1
-    play sound surprise2
-    scene 39-5 alfred 113 with Dissolve(1)
-    al1 "Well, then? How about you get on with it?"
-    a "Ok."
-    scene 39-5 alfred 114 with Dissolve(1)
-    h1 "Yes... That looks good!"
-    "Anna embraced her inner slut even more."
-    a "You wanna enjoy my mouth?"
-    h1 "Hell yeah, girl!"
-    play sound jerk3 loop
-    scene EP11_Alfred_Anim_16 with Fade(0.2, 0, 0.2)
-    $ EP11_Alfred_menu_option_2 = 1
-    $ different_choice_menu = True
-    menu EP11_Alfred_Menu_9:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_16 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_9
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_17 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_9
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_16_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_9
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_17_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_9
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_16 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_9
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_17 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_9
-        "Continue":
-            pass
-    a "MM..."
-    h1 "This mouth is just indescribable!"
-    al1 "The truth!"
+    old "We will provide the best service and you will be able to forget about the worries of unknown markets."
+    new ""
 
-    scene EP11_Alfred_Anim_18 with Fade(0.2, 0, 0.2)
-    "Anna had become a fuck hole for these two."
-    "She accepted it..."
-    $ different_choice_menu = True
-    $ EP11_Alfred_menu_option_1 = False
-    menu EP11_Alfred_Menu_10:
-        "View 1" if EP11_Alfred_menu_option_1 == True:
-            $ EP11_Alfred_menu_option_1 = False
-            scene EP11_Alfred_Anim_18 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_10
-        "View 2" if EP11_Alfred_menu_option_1 == False:
-            $ EP11_Alfred_menu_option_1 = True
-            scene EP11_Alfred_Anim_19 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_10
-        "Continue":
-            pass
-    al1 "Aghh... I wanna enter your pussy!"
-    a "Mhmm..."
-    al1 "Oh, Yeah!"
-    a "Don't hesitate, fuck me!"
-    al1 "As you wish, hehe."
-    play sound jerk loop
-    scene EP11_Alfred_Anim_20 with Fade(0.2, 0, 0.2)
-    al1 "Fuuck, This pussy's good!"
-    h1 "Don't go too long, I wanna fuck her, too!"
-    $ EP11_Alfred_menu_option_2 = 1
-    $ different_choice_menu = True
-    stop sound
-    queue sound(female_moan_1, female_moan_2, femmoan_3, female_moan_5, femgasp_1, MoaningNine, femmoan_4, female_moan_4) loop
-    menu EP11_Alfred_Menu_11:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_20 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_11
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_21 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_11
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_20_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_11
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_21_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_11
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_20 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_11
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_21 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_11
-        "Continue":
-            pass
-    stop sound
-    play audio undress
-    scene 39-5 alfred 115-1 with Dissolve(1)
-    "Aldo removed Anna's bra in one smooth motion."
-    play audio female_moan_2
-    al1 "I want to see them naked tits."
-    al1 "And bury my face in them."
-    play audio jerk loop
-    scene EP11_Alfred_Anim_22 with Fade(0.2, 0, 0.2)
-    play audio female_moan_1
-    $ EP11_Alfred_menu_option_2 = 1
-    $ different_choice_menu = True
-    queue sound(female_moan_1, female_moan_2, femmoan_3, female_moan_5, femgasp_1, MoaningNine, femmoan_4, female_moan_4) loop
-    menu EP11_Alfred_Menu_12:
-        "View 1":
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_22 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_12
-        "View 2":
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_23 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_12
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_22_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_12
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_23_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_12
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_22 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_12
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_23 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_12
-        "Continue":
-            pass
-    play audio female_moan_5
-    a "AAHHHH..."
-    h1 "Let me have a go at that pussy!"
-    al1 "Fuuuck..."
-    scene EP11_Alfred_Anim_24 with Fade(0.2, 0, 0.2)
-    play audio femmoan_3
-    $ EP11_Alfred_menu_option_2 = 1
-    $ different_choice_menu = True
-    play sound jerk loop
-    menu EP11_Alfred_Menu_13:
-        "View 1":
-            play audio femgasp
-            $ EP11_Alfred_menu_option_2 = 1
-            scene EP11_Alfred_Anim_24 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_13
-        "View 2":
-            play audio femmoan_4
-            $ EP11_Alfred_menu_option_2 = 2
-            scene EP11_Alfred_Anim_25 with Fade(0.2, 0, 0.2)
-            jump EP11_Alfred_Menu_13
-        "Faster":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_24_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_13
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_25_Faster with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_13
-        "Slower":
-            if EP11_Alfred_menu_option_2 == 1:
-                scene EP11_Alfred_Anim_24 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_13
-            if EP11_Alfred_menu_option_2 == 2:
-                scene EP11_Alfred_Anim_25 with Fade(0.2, 0, 0.2)
-                jump EP11_Alfred_Menu_13
-        "Cum!":
-            play sound moaninglong_1
-            pass
-    h1 "Fuck... I'm close... Ah..."
-    with flash
-    h1 "Get on your knees!!"
-    a "Fuuck!"
-    h1 "I'm about to explode in your mouth!!!"
-    scene 39-5 alfred 116 with Dissolve(1)
-    pause
-    play sound cum_sound
-    scene 39-5 alfred 117 with flash_vpunch
-    h1 "AAAHHH!!!"
-    scene 39-5 alfred 118 with Dissolve(1)
-    al1 "QUICK! MY DICK, TOO!!"
-    a "SO MUCH CUUMMM!!!"
-    play sound cum_sound
-    scene 39-5 alfred 119 with flash_vpunch
-    pause 2
-    scene black with Dissolve(1)
-    scene 39-5 alfred 120 with Dissolve(1)
-    a "So much..."
-    h1 "Fucking amazing!"
-    al1 "I'm spent..."
-    scene black with Dissolve(1)
-    "Anna cleaned up..."
-    play sound undress
-    scene 39-5 alfred 121 with Dissolve(1)
-    h1 "Well... I'd say this was a good investment."
-    al1 "Have to absolutely agree."
-    h1 "Let's have some fun together again sometime, eh Anna?"
-    a "Perhaps... I have to run now."
-    $ renpy.end_replay()
-label EP11_Alfred_Fashion_Finished:
-    play music SexyTimeSong6 fadein 3
-    "Sometime later."
-    scene 39-5 alfred 122 with Dissolve(1)
-    "And the first place goes to..."
-    "Alfred, Alf's Fashion!"
-    a2 "YEAH!"
-    scene 39-5 alfred 123 with Dissolve(1)
-    a2 "Well, I just have one thing to say, honestly."
-    a2 "It couldn't have been possible without my muse."
-    scene 39-5 alfred 124 with Dissolve(1)
-    a2 "Anna!"
-    a2 "She's been truly inspirational!"
-    a "Oh..."
-    scene 39-5 alfred 125 with Dissolve(1)
-    a2 "Thank you all for giving me this opportunity."
-    a2 "This is a dream come true, to be honest!"
-    scene 39-5 alfred 126 with Dissolve(1)
-    "Alfred took a moment to savor this occasion."
-    "Everyone applauded for the winner."
-    h1 "Congratulations!"
-    scene 39-5 alfred 128 with Dissolve(1)
-    a2 "Thank you a lot, Anna."
-    a2 "I couldn't have done this without you..."
-    scene black with Dissolve(3)
-    pause
-    play ambience car_engine_ambience
-    scene 39-5 alfred 129 with Dissolve(1)
-    p2 "That was awesome."
-    p2 "I still can't believe it."
-    a "Yeah, tell me about it."
-    scene 39-5 alfred 130 with Dissolve(1)
-    a "So what's next after this?"
-    p2 "Well, the proceeds will go towards expanding Alfred's clothing line."
-    a "Can't wait to see it."
-    p2 "You'll be the first to."
-    scene black with Dissolve(1)
-    play sound car_door
-    scene 39-5 alfred 131 with Dissolve(1)
-    p2 "Thank you for today."
-    a2 "Yes, indeed."
-    a "Thank you, guys, for this amazing opportunity."
-    scene 39-5 alfred 132 with Dissolve(1)
-    a2 "Well, I'm off to my shop."
-    a2 "Still gotta do some stuff there."
-    scene 39-5 alfred 133 with Dissolve(1)
-    a "I think I will go to the beach."
-    p2 "Oooh, sounds lovely."
-    a "Bye, guys!"
-    a2 "Come visit soon."
-    a "Definitely."
-    $ different_choice_menu = False
-    scene black with Dissolve(1)
-    $ EP11_var_8 = True
-    stop ambience
-    scene black with Dissolve(1)
-    jump EP11_Beach
+    old "We will eagerly await your reply and hope for future business together."
+    new ""
 
-label EP11_Beach:
-    play ambience beach_ambience
-    play music chill_song_6 fadein 4
-    scene 39-7 beach 1 with Dissolve(1)
-    a "Ah..."
-    a "This is so nice."
-    a "After such a long day, I can finally relax a little bit."
-    if EarlHelp == True:
-        a "God knows what'll happen at the hotel later tonight."
-    scene 39-7 beach 2 with Dissolve(1)
-    bb1 "Welcome, Anna."
-    bb1 "Long time, no see, eh?"
-    a "Haha, yes, it's been a while."
-    bb1 "So, what'll it be?"
-    scene 39-7 beach 3 with Dissolve(1)
-    a "Actually. I'll go for a beer this time."
-    bb1 "A good choice, nothing refreshes better than a cold beer."
-    a "Yeah, totally."
-    a "So how's business?"
-    scene 39-7 beach 4 with Dissolve(1)
-    bb1 "Oh, the season's in full swing. Not a lot of people right now, but will show up later, probably."
-    bb1 "Anyway, enjoy the beer."
-    bb1 "I'll be here if you need me."
-    a "Thanks!"
-    play sound cloth_sound1
-    scene 39-7 beach 5 with Dissolve(1)
-    a "This is so nice."
-    a "There really don't seem to be a lot of people, perhaps a nude tan would do just fine."
-    play sound jacketcloth
-    scene 39-7 beach 6 with Dissolve(1)
-    pause 1
-    scene 39-7 beach 7 with Dissolve(1)
-    a "Yeah..."
-    a "Let em swing, hehe."
-    a "Gotta take my lotion."
-    scene 39-7 beach 8 with Dissolve(1)
-    "Anna massaged her entire body."
-    "Her legs, her thighs..."
-    "Her breasts..."
-    scene EP11_Beach_Anim_1 with Dissolve(1)
-    a "Ah... This is so relaxing."
-    $ different_choice_menu = True
-    menu EP11_Beach_Menu_1:
-        "View 1":
-            scene EP11_Beach_Anim_1 with Dissolve(1)
-            jump EP11_Beach_Menu_1
-        "View 2":
-            scene EP11_Beach_Anim_2 with Dissolve(1)
-            jump EP11_Beach_Menu_1
-        "View 3":
-            scene EP11_Beach_Anim_3 with Dissolve(1)
-            jump EP11_Beach_Menu_1
-        "Continue":
-            pass
-    $ different_choice_menu = False
-    a "Mhmm..."
-    a "This is turning me on a bit..."
-    a "Alright... That should be enough, heh."
-    scene 39-7 beach 9 with Dissolve(1)
-    "Some young dudes had arrived for a beach day."
-    du1 "Wassup Greg!"
-    du1 "Working hard?"
-    bb1 "Someone's gotta make money."
-    du2 "Riiight."
-    scene 39-7 beach 10 with Dissolve(1)
-    du2 "Damn, I can't wait for the party on Saturday."
-    du2 "Tell me again why we ain't partying already tomorrow?"
-    du1 "Cuz the damn teachers put a test. ON A SATURDAY!"
-    du3 "Yeah, no idea how that's legal."
-    du2 "Maybe because school was on lockdown due to that stink bomb you left in the girl's bathrooms?"
-    du3 "Haha. That was some stupid shit man."
-    scene 39-7 beach 11 with Dissolve(1)
-    du3 "I mean, we ain't kids anymore."
-    du3 "This is College, bro."
-    du1 "Whatever... Anyway."
-    scene 39-7 beach 12 with Dissolve(1)
-    du3 "Yo, check it out."
-    du3 "Some chick, nude tanning."
-    du2 "Dammmn... She is so fucking hot..."
-    scene 39-7 beach 13 with Dissolve(1)
-    du1 "Wtf. That's like the hottest girl I've seen."
-    du1 "Wait, I know her."
-    du3 "What?"
-    du1 "Yeah, she's... I think she's my neighbor."
-    du3 "No shit."
-    scene 39-7 beach 14 with Dissolve(1)
-    du2 "Bro. You gotta ask her if she wants to come to our party."
-    du1 "No way. Bro look at her, she'll deny me harder than Jessica."
-    du2 "It can't be any worse than Jessica, trust me."
-    du2 "Yeah, You've got nothing to lose."
-    du2 "Come on."
-    du3 "Dude, ask her!"
-    du1 "Fuck... Alright, shit. I will."
-    scene 39-7 beach 15 with Dissolve(1)
-    du2 "At least we'll get a good laugh, haha!"
-    du3 "Damn, I hope she actually agrees."
-    du2 "You can't be serious."
-    du2 "Girls like that? They probably hang out with the rich dudes."
-    du3 "Who cares."
-    scene 39-7 beach 16 with Dissolve(1)
-    pause 1
-    scene 39-7 beach 17 with Dissolve(1)
-    du1 "He... Hey..."
-    a "Hello."
-    du1 "Ummm... So how's the weather down there?"
-    a "What?"
-    scene 39-7 beach 18 with Dissolve(1)
-    du1 "I mean, the weather is awesome, right?"
-    a "Hehe..."
-    a "It's alright."
-    du1 "Umm... Don't you live on 150A Baker street?"
-    a "How do you know?"
-    du1 "I think we might be neighbors."
-    scene 39-7 beach 19 with Dissolve(1)
-    a "Is that so?"
-    du1 "Ye... Yeah."
-    a "So you just came to say hi?"
-    scene 39-7 beach 21 with Dissolve(1)
-    du1 "Well... Not exactly."
-    du1 "We are having a little party on Saturday, at my place."
-    du1 "I was just umm... Wondering if you'd like to join?"
-    scene 39-7 beach 19 with Dissolve(1)
-    a "Huh... Well..."
-    du1 "What if you give me your number, and umm. And I'll type you up on Saturday?"
-    menu:
-        "Ok, I'll give you my number.":
-            $ EP11_Party_var_1 = True
-            a "It's +981 2020 4222."
-            scene 39-7 beach 20 with Dissolve(1)
-            du1 "Awesome."
-            du1 "You are awesome."
-            a "Hehe, thank you."
-            du1 "Alright, I will type you up on Saturday."
-            a "Ok, I will think about it."
-            du1 "Great, Cool..."
-            du1 "Have a nice tanning session."
-            a "I will, thanks."
-            scene 39-7 beach 22 with Dissolve(1)
-            pause 1
-            scene 39-7 beach 23 with Dissolve(1)
-            du1 "Dudes. I've got that ultra rizz."
-            du3 "Hold no. No Fucking way."
-            du1 "I got her number."
-            du2 "What? The fuck."
-            du1 "Yeah, she might actually come to our party."
-            du3 "THAT IS SO SIIIIICCCK!!!"
-        "No thanks, I'm good.":
-            du1 "Oh, Well, umm... Ok..."
-            a "Good luck, though."
-        "Nope, scram, loser!":
-            du1 "Oh, Well, umm... Ok..."
-    scene 39-7 beach 24 with Dissolve(1)
-    "Anna continued to sunbathe for a good while..."
-    scene black with Dissolve(1)
-    scene 39-7 beach 24 with Dissolve(1)
-    a "Alright... It's going to start getting dark soon."
-    a "Time to pack up..."
-    play sound undress
-    scene 39-7 beach 25 with Dissolve(1)
-    a "I think that's enough..."
-    if EarlHelp == True:
-        a "Gotta go to that hotel..."
-    if EP11_Party_var_1 == True:
-        scene 39-7 beach 26 with Dissolve(1)
-        a "Cheers..."
-        du1 "No waayyy..."
-        "Anna winked at the dudes."
-    $ EP11_var_9 = True
-    scene black with Dissolve(1)
-    stop ambience
-    if EarlHelp == True:
-        jump EP11_Earl_Hotel
-    jump EP11_Episode_End
-label EP11_Episode_End:
-    stop sound
-    stop audio
-    scene black with Dissolve(1)
-    jump EP12_Begin
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+    old "I will wait for your reply eagerly, as I value your input."
+    new ""
+
+    old "Signature: Anna"
+    new ""
+
+    old "Signature: Anna, you're future slut. (IF Corruption > 30)"
+    new ""
+
+    old "Things are looking up, to be honest."
+    new ""
+
+    old "Plenty of not-so-good things have been happening."
+    new ""
+
+    old "Expansion to the Middle Eastern sector."
+    new ""
+
+    old "Shingzhou contract closed."
+    new ""
+
+    old "Contract closed with BBD Inc."
+    new ""
+
+    old "Income goal reached."
+    new ""
+
+    old "Increase partner salaries or Employee salaries"
+    new ""
+
+    old "Employee salaries"
+    new ""
+
+    old "Increase partner salaries"
+    new ""
+
+    old "Raise Partner benefits or donate to a charity."
+    new ""
+
+    old "Donate to a Charity."
+    new ""
+
+    old "Raise Partner benefits."
+    new ""
+
+    old "Expand influence in the Sun City, find new clients here."
+    new ""
+
+    old "Find new clients from abroad, expand international influence."
+    new ""
+
+    old "Create a Real Estate department, Buy up land in Sun City."
+    new ""
+
+    old "Create an AI research department, Invest in High-grade computing power."
+    new ""
+
+    old "Anna choses to be more dominant and scold Ethan."
+    new ""
+
+    old "Anna chooses to refrain from any conflict."
+    new ""
+
+    old "I thought you were his personal whore."
+    new ""
+
+    old "He's just gone."
+    new ""
+
+    old "Ethan and I, as partners, want to make this company as profitable, successful, and long-lasting as possible."
+    new ""
+
+    old "I personally want to make this company as profitable as possible."
+    new ""
+
+    old "Anna was honest."
+    new ""
+
+    old "Anna was defensive and lied."
+    new ""
+
+    old "I finally saw all the board members."
+    new ""
+
+    old "Anna had some gossip about Mr. Burnsfield"
+    new ""
+
+    old "I'm going to a fashion show today."
+    new ""
+
+    old "Alright, what's your game?"
+    new ""
+
+    old "I'm not going to fall for your bullshit."
+    new ""
+
+    old "Put the finger in Anna's asshole?"
+    new ""
+
+    old "Don't put The finger in Anna's asshole."
+    new ""
+
+    old "Lick"
+    new ""
+
+    old "Blowjob"
+    new ""
+
+    old "Next"
+    new ""
+
+    old "Put the cock in her ass!"
+    new ""
+
+    old "Don't give her Anal."
+    new ""
+
+    old "Anal"
+    new ""
+
+    old "Cum"
+    new ""
+
+    old "Cum in her ass"
+    new ""
+
+    old "Cum in her pussy"
+    new ""
+
+    old "Cum in her mouth"
+    new ""
+
+    old "The adrenaline rush made Anna as horny as ever."
+    new ""
+
+    old "Anna refrained from sexual involvement."
+    new ""
+
+    old "Handjob"
+    new ""
+
+    old "Cum!"
+    new ""
+
+    old "Hehe... Well, I might be... (IF Corruption > 30)"
+    new ""
+
+    old "Yeah, perhaps, but only Alfred's slut."
+    new ""
+
+    old "How can you talk in this tone? NO!"
+    new ""
+
+    old "Ok, I'll give you my number."
+    new ""
+
+    old "No thanks, I'm good."
+    new ""
+
+    old "Nope, scram, loser!"
+    new ""

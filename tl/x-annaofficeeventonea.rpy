@@ -1,415 +1,1247 @@
-label AnnaContractEventOneOne:
-    play music PPMCasualReception fadein 0.5
-    play sound walk
-    scene black with Dissolve(1)
-    "She got to work."
-    scene 33-1 contract 1 with Dissolve(1)
-    "Anna sits down at her desk to finish up with the documentation of the contract."
-    "She had almost finished it anyway."
-    a "Right, what do we have here... Mostly, these terms are pretty unfavorable for the opposing party..."
-    a "No one in their right mind would sign this... But maybe I could convince them..."
-    scene 33-1 contract 2 with Dissolve(1)
-    "As Anna was working, she noticed Emily storming right her way."
-    "Even though she enjoys the company, she needed to finish this up..."
-    play sound surprise
-    e "Anna! Hey! How are you, my dear?"
-    a "Hey, Emily. I'm ok... I've been busy... And Am busy, right now."
-    e "Hey, I won't take much of your time. I just have this idea."
-    if dianaGoodRelations == False:
-        e "By the way, I heard that you had an argument with Diane?"
-        e "Are you ok, sweety?"
-        a "Yeah, I'm fine. It's... I don't know..."
-        e "She's a hoe... Forget about her."
-    scene 33-1 contract 3 with Dissolve(1)
-    a "Ok, so. What do you have in mind?"
-    e "Well, since I know that you are currently going through some stuff..."
-    e "I thought, you definitely need the relaxation. So. We could have some sort of a day out during the weekend, huh?"
-    a "Huh, I haven't thought about it. I've been so busy with work and life that I had forgotten about something like relaxation."
-    e "Yeah, I can see it."
-    scene 33-1 contract 4 with Dissolve(1)
-    e "Soo... I thought that maybe we could go to the beach during the weekend, huh? And during the evening, we could go for drinks."
-    a "The beach sounds nice... But I don't know about partying."
-    e "Oh, come on. You know it will be fun. Why stop yourself?"
-    a "I've been into some crazy things recently, I've done a lot of... Um... {i}Perverted{/i} things."
-    a "And I kind of feel like I keep digging a hole for myself..."
-    e "You are not! Trust me when I say that you are young and should have fun. When you're old, then you settle down."
-    play sound surprise
-    scene 33-1 contract 5 with Dissolve(1)
-    a "What are you implying? Are you talking about Andrew?"
-    e "Yes. I know he is in a tough place right now, but so are you. And you deserve a break."
-    e "He isn't going anywhere, besides... I don't think he is the best you can get out of life..."
-    a "Now you are starting to talk like Rebecca..."
-    e "Oh, so she agrees? I mean, come on. There are way better options for you..."
-    e "Anyway, I've been... Umm, enjoying my new toys, hehe..."
-    a "Whatever do you mean? Oh... I get it..."
-    scene 33-1 contract 6 with Dissolve(1)
-    e "I even have one with me right now... hehe..."
-    a "Oh, Emily... You are such a slutty girl, hehe..."
-    e "You know I am. I've always been... I enjoy the pleasure of life. Like I should."
-    a "Can't argue there, but still... Here? In the office?"
-    e "I like to explore my sexuality, I feel excited..."
-    scene 33-1 contract 7 with Dissolve(1)
-    t "Excited about what?"
-    e "About my new..."
-    with vpunch
-    a "About our weekend plans!"
-    t "Oh... That's cool. I've been thinking of going out myself this weekend."
-    e "Speak of the devil, hehe..."
-    e "One option right there, such a lovely dude..."
-    scene 33-1 contract 8 with Dissolve(1)
-    t "I'm sorry? What did you mean?"
-    e "Nothing... Hehe..."
-    a "Emily told me that she wants to hang out this weekend and..."
-    e "And we would like you to come with us."
-    t "You mean... Like... With you guys?"
-    if timothySexContent == True:
-        t "I think we can arrange something."
-        e "Splendid!"
-    else:
-        t "I... I don't think I have the time you know..."
-        e "Oh, come on Timothy..."
-    scene 33-1 contract 9 with Dissolve(1)
-    if timothySexContent == True:
-        a "I mean, I would definitely enjoy the company."
-        e "Of course she would, Timothy. We like you..."
-        t "I like you guys, too."
-        e "Imagine yourself with two bombshells, just hanging out."
-        e "Just all yours... wouldn't it be crazy?"
-        t "{b}*Gulp{/b}... It would..."
-    else:
-        e "Don't be so shy. We are all friends here..."
-        t "I... I know, but... I don't know about it..."
-        e "What don't you know? When two girls are inviting you out?"
-        e "Two attractive, sexy girls asking you out for a day of drinks?"
-        t "I... I'm..."
-        "Timothy was starting to sweat. Emily was playing with him, but she was serious about it, too."
-    scene 33-1 contract 10 with Dissolve(1)
-    "Emily leaned in and whispered..."
-    if timothySexContent == True:
-        e "Just, imagine..."
-        a "Hey, what are you guys talking about!?"
-        "They were talking, and Anna couldn't make out the conversation..."
-        t "I'm... Pretty sure..."
-        "Emily kept whispering something into Timothy's ear."
-    else:
-        e "Timothy..."
-        a "Guys, What are you talking about there?!"
-        "Anna Couldn't hear what they were talking about there..."
-        t "I... I'm... Ah..."
-        "Emily kept whispering something into Timothy's ear."
-    e "Just imagine..."
-    scene 33-1 contract 11 with Dissolve(1)
-    "They both turned to Anna, who had no idea what they were talking about."
-    e "She definitely wants to have fun..."
-    e "Don't you?"
-    if timothySexContent == True:
-        t "I'm certain that I do."
-        e "Then we have a deal. We are going out on Sunday."
-        a "What? I mean... Ok..."
-        e "You have no choice, Anna. This is going to be fun."
-    else:
-        t "I don't think I'm ready for this..."
-        e "Oh, come on, Timothy..."
-        a "Ready for what?"
-        t "I... I'm sorry..."
-    scene 33-1 contract 12-1 with Dissolve(1)
-    e1 "Hello, guys. Sorry for interrupting, but Anna has the contract closing today."
-    e "Oh. We are so sorry. Anna is so kind and didn't want me to interrupt my stupid talk. Haha..."
-    e "I'm sorry, sweety..."
-    a "It's ok, dear."
-    scene 33-1 contract 13-1 with Dissolve(1)
-    e1 "How are you feeling today, Anna?"
-    e1 "Are you ready? Have you read through the contract properly?"
-    a "I believe I have."
-    e1 "High ups made some last moment amendments. I hope you had time to go over those?"
-    a "Shit... I Didn't..."
-    e1 "Ah... Well, it's alright. I thought it might happen. It's their fault. But I have an idea."
-    scene 33-1 contract 14-1 with Dissolve(1)
-    e "We are leaving, then. Take care and good luck, Anna!"
-    a "Thanks!"
-    e1 "You guys go take a break, ok?"
-    e "We planned on it anyway."
-    e1 "After Anna leaves, we will have a monthly meeting. I expect you all to have read and prepared your reports."
-    e "Already done and ready."
-    scene 33-1 contract 15-1 with Dissolve(1)
-    e1 "Alright. So on to the business itself."
-    e1 "I realized that it could be a bit hectic, and you might've missed the last amendments."
-    e1 "Which, by the way, are completely moronic, if you ask me."
-    e1 "So I've decided to give you some advantage."
-    a "Oh?"
-    scene 33-1 contract 17-1 with Dissolve(1)
-    e1 "Well, I don't know what you expect, but I cannot deny that you have some very... Um..."
-    e1 "Good assets, and in time such as these, we could really use them."
-    a "Whatever do you mean by that..."
-    e1 "The deal, as you know, originally isn't very good, but we are hopeful that you might persuade them to change their minds."
-    scene 33-1 contract 19-1 with Dissolve(1)
-    e1 "That's why I have this..."
-    a "Is that an outfit?"
-    e1 "Correct. I don't know if you are willing to wear it, but consider this."
-    e1 "If we close this deal, it will be a very big step in your career already."
-    e1 "Additionally, you will receive a very nice bonus and commission for this deal."
-    a "I don't think I want to be used as a tool, like that."
-    e1 "Believe me, we are all tools. We can play the game or not. That's up to us."
-    play sound undress
-    scene 33-1 contract 20-2 with Dissolve(1)
-    "Anna realized that it could help her strengthen the partner position and also help with closing the deal."
-    a "I hope you won't be peeking? I wish for some privacy."
-    e1 "Oh, No worries. I shall turn around."
-    "Ethan was salivating from the thought of seeing Anna naked."
-    "However, he was never rude enough to attempt something like that."
-    play sound undress
-    scene 33-1 contract 21-2 with Dissolve(1)
-    e1 "Don't worry, I'm not looking."
-    a "I hope this outfit isn't too revealing or too sexy."
-    e1 "Actually, I wouldn't know, I didn't pick it out..."
-    a "Then who did?"
-    e1 "Ah... Well, one of the board members. He's started to take interest in your work."
-    e1 "Since you've become a partner."
-    play sound undress
-    scene 33-1 contract 24-1 with Dissolve(1)
-    e1 "Splendid. It's... Well... Rather revealing actually."
-    a "Yeah... I know... I can't wear this..."
-    e1 "Umm... I believe it would be in everyone's best interest, including yours, to carry on with it."
-    a "But, it's so... Revealing..."
-    e1 "Remember that this might only increase your chances at closing the deal."
-    a "Right..."
-    scene 33-1 contract 25-1 with Dissolve(1)
-    e1 "Anyway... I hope you've read through the documents and are ready to go through with this."
-    e1 "No one will accompany you. It isn't the right procedure, but the board member insisted."
-    e1 "There is a car waiting outside for you."
-    e1 "Good luck to you."
-    a "Thanks, I will need it."
-    play sound door2
-    $ renpy.sound.play("audio/sounds/city_traffic.mp3", fadein=1)
-    play music tense2
-    scene 33-1 contract 26-1 with Dissolve(2)
-    "Anna exited the office building, and a limousine was waiting for her."
-    a "{i}...Oh wow, I've never driven with my personal chauffeur. I hope he is nice..."
-    a "{i}...I guess there is no turning back. Got to give it my best... But this outfit..."
-    scene 33-1 contract 27-1 with Dissolve(1)
-    di "Hello, ma'am. I hope you are having an amazing day."
-    a "Oh. Hi, and you are?"
-    di "Pardon my manners, I'm Alex, your chauffeur."
-    a "Nice to meet you, Alex."
-    scene 33-1 contract 28-1 with Dissolve(1)
-    di "We will be heading out soon. Get comfortable."
-    di "There are also some drinks at the front, if you wish to indulge."
-    a "Thank you."
-    a "{i}...Nice, my very own limo driver. That's a step up..."
-    play sound carsound2
-    scene 33-1 contract 29-1 with Dissolve(1)
-    "For a moment, Anna forgot about the worries of the contract deal."
-    "She just enjoyed the premium feeling she was getting."
-    a "{i}...If I continue like this, maybe someday I can get my own jet and mansion... Oh..."
-    a "{i}...That would be amazing..."
-    scene 33-1 contract 33-1 with Dissolve(1)
-    di "We are going to the Shengzhou Corp offices. It's not a long ride."
-    a "I know, I know."
-    di "How are you doing so far, ma'am?"
-    a "I'm enjoying the premium service."
-    di "All part of the partner benefits, ma'am."
-    stop sound fadeout 1
-    play sound carsound
-    scene 33-1 contract 35-1 with Dissolve(1)
-    "They had arrived at the office."
-    a "Thank you, Alex."
-    di "I will bet waiting for you here."
-    a "Very nice. Catch you later."
-    scene black with Dissolve(1)
-    play audio door2
-    play music PPMEtheralEternity
-    scene 33-1 contract 40-1 with Dissolve(1)
-    "Anna enters their office and is met by both representatives immediately."
-    c2 "Greetings, my Mr. Chen."
-    z1 "And I'm Mr. Zhao."
-    a "Hello, I'm Anna. I'm one of the new partners."
-    "They looked at Anna with lustful eyes. They were surprised someone like this could be a partner."
-    "But that also made them hopeful about what might come next."
-    scene 33-1 contract 41-1 with Dissolve(1)
-    "They were eyeballing her, and an awkward silence followed."
-    a "Umm... So. I've arrived here today to discuss the terms of the deal and perhaps even close it today."
-    c2 "Indeed... Well... It might be harder than you'd expect."
-    a "How so?"
-    c2 "This deal has been very... unfavorable for us from the very beginning."
-    a "I'm sure the terms are justified."
-    scene 33-1 contract 42-1 with Dissolve(1)
-    c2 "Well... I'm not sure, but they could be justified by some other means."
-    a "I don't know what you are getting at, but perhaps we can discuss it first?"
-    c2 "Yes... Discuss..."
-    scene 33-1 contract 44-1 with Dissolve(1)
-    a "Please, take a seat, gentlemen. I shall go over the terms at once."
-    "Anna could feel that they were distracted by her outfit."
-    "And she realized that she could use it to her advantage."
-    a "{i}...Alright, Anna... Showtime..."
-    play sound undress
-    scene 33-1 contract 45 with Dissolve(1)
-    a "As you know, the hostile takeover was declined very early in the contract talks."
-    a "That was due to shareholders, in this case, the partners, being unwilling to sell out their shares."
-    a "But an early compromise was made to change the terms to a mutual, joint effort."
-    a "As stated in the contract, we would lend out offices and services from within our company to you."
-    a "On the basis that we would get a 35%% cut from every deal closed by your company."
-    scene 33-1 contract 46-1 with Dissolve(1)
-    c2 "The changes were made that you would get 45%% cut from each deal."
-    c2 "That is the first part that we are unwilling to accept."
-    a "Oh, I see. Well, it can be argued that our services are of the highest quality and our track record speaks for itself."
-    c2 "True, but the next amendment that I want to address is the services provided."
-    c2 "Originally, it was stated that our deals would be supervised by your experts in full. Total contract follow-through."
-    c2 "And now it is changed to partial supervision. That is unacceptable."
-    a "Partial services rendered still means complete contract proofing, legal document preparation, etc."
-    c2 "Let me see the changes."
-    scene 33-1 contract 47 with Dissolve(1)
-    c2 "Oh, but by the looks of it, you've gone even further! The deal is changed from an unlimited amount of contract supervision to 12 per year."
-    c2 "We close at least 34 contracts per year! If you are the best, you drive a very hard bargain, and we might have to look elsewhere."
-    a "{i}...How did I miss this..."
-    a "Umm... I see... That amendment was made due to heavy load our company has, because of our quality services, we have many clients."
-    a "And that amendment could be changed in the future if our cut is reasonable enough to hire more associates and employees."
-    scene 33-1 contract 48 with Dissolve(1)
-    c2 "Haha... I love this... I let you come here, hoping that you would have come to your senses..."
-    c2 "But it seems that you've become even crazier... This is just outrageous!"
-    c2 "We simply cannot sign such a devious contract. It pretty much tells us that you are robbing us!"
-    a "That is not the intention here... We simply value our services very highly."
-    c2 "Right, right. For what you are asking, we could hire two firms and still get better profits!"
-    scene 33-1 contract 49-1 with Dissolve(1)
-    c2 "And as to your entire... Charade with your skimpy outfit... Well..."
-    c2 "This was lower than low... Do you even respect yourself?"
-    a "I... I..."
-    c2 "All has been said. I'm not willing to discuss these terms any further."
-    scene 33-1 contract 51-1 with Dissolve(1)
-    a "I think we will have to take a recess."
-    c2 "I doubt there is anything you could do to change my mind..."
-    a "I have something in mind..."
-    c2 "You've come in our office and have tried to make fun of us with these outlandish terms."
-    c2 "What kind of a different reaction did you expect? That we would simply bow down?"
-    a "Not at all..."
-    scene 33-1 contract 54-1 with Dissolve(1)
-    a "Perhaps we could come to a different kind of arrangement?"
-    c2 "And what would that be?"
-    a "I believe there is one thing that you want, and I know what it is..."
-    c2 "Oh, do you know? Well, what is it?"
-    scene 33-1 contract 54-2 with Dissolve(1)
-    "Anna hesitated for a moment and thought to herself if this is really worth it..."
-    a "{i}...Should I just go through with my idea..."
-    menu:
-        "Anna decides 'persuade' them":
-            pass
-        "Anna decides to stop it right there and cancel the deal.":
-            a "I'm sorry, I shouldn't have said anything."
-            a "I will be on my way. You can contact my superiors for further course of action."
-            c2 "What?"
-            scene 33-1 contract 27-1 with Dissolve(1)
-            "Anna exited the building and went straight to the limo."
-            $ office_var_one = True
-            $ office_var_two = True
-            jump AnnaContractEventOneOneEnding
-    scene 33-1 contract 54 with Dissolve(1)
-    a "It's me."
-    c2 "What?"
-    a "Plus the previous terms, before the outrageous amendments."
-    c2 "Those are still not beneficial to us."
-    a "What if we added an unwritten secret term that stated that you get something special?"
-    scene 33-1 contract 55 with Dissolve(1)
-    a "To be frank, the deal is reasonable. If we consider how good our services are. You cannot deny that."
-    c2 "True. That's the main reason we turned to you."
-    a "Right. But there are other things that we or specifically I can do good."
-    c2 "Which are?"
-    scene 33-1 contract 56 with Dissolve(1)
-    a "Whatever you wish..."
-    c2 "Huh..."
-    z1 "Well... I think if you could 'convince' us better... We would consider."
-    a "How would I convince you?"
-    scene 33-1 contract 57 with Dissolve(1)
-    z1 "Well... You could attend to some of our, more, immediate needs."
-    z1 "The physical ones..."
-    a "Perhaps you'd like to see something interesting?"
-    z1 "I'm interested."
-    scene 33-1 contract 58 with Dissolve(1)
-    a "Like... Like that?"
-    z1 "I do love a good pair of beautiful melons, but these are just next level..."
-    "Mr. Zhao lustfully stared at Anna's breasts."
-    z1 "Amazing, absolutely amazing."
-    a "Do you like them?"
-    z1 "Do I? The only thing I can think about right now."
-    play sound surprise
-    scene 33-1 contract 59 with Dissolve(1)
-    c2 "You know that Mr. Zhao is not the one closing the deal? I am."
-    c2 "So you better have solid arguments to convince me."
-    c2 "Or rather, good skills to change my mind... Hehe..."
-    a "I think we can arrange something..."
-    play sound undress
-    scene 33-1 contract 60 with Dissolve(1)
-    "Anna moved to Mr. Chen with her titties peeking out."
-    a "What do you wish to experience?"
-    c2 "I want the entire package. And then I will consider signing."
-    c2 "If you satisfy the requirements, we will be more lenient."
-    a "Ah... I see..."
-    scene 33-1 contract 61 with Dissolve(1)
-    a "Perhaps a little bit of incentive at first."
-    "Anna put her hand to Mr. Chen's crotch, and he immediately felt excited."
-    c2 "Ah... Very nice..."
-    a "I can do plenty of things..."
-    c2 "I'm counting on it."
-    scene 33-1 contract 62-1 with Dissolve(1)
-    "Mr. Chen started touching her breasts with slow, sensual movements."
-    c2 "You know, I've been in this business for over 35 years. And never have I met an individual such as yourself."
-    a "I'm special."
-    c2 "Indeed... Ah..."
-    "Anna's hands were doing a very good job on Mr. Chen's concealed cock."
-    scene 33-1 contract 62 with Dissolve(1)
-    c2 "All of your 'assets' are just so perfect... I can't believe your superiors were withholding such a great tool..."
-    a "Well, leave the best for last, eh?"
-    c2 "Well said... Hmf..."
-    c2 "Perhaps... We should arrange a meeting later on so we can 'discuss' the contract in {b}Deep{/b} detail."
-    scene 33-1 contract 63 with Dissolve(1)
-    c2 "And you would show us every nook and cranny of the agreement, and we shall enjoy it."
-    a "Y... Yes..."
-    "Mr. Chen was enjoying Anna's presence to the maximum. He was so excited about her that he forgot about the contract."
-    "Perhaps Anna could pull this off after all."
-    scene 33-1 contract 64 with Dissolve(1)
-    c2 "Ok. We will give you another chance, but..."
-    c2 "You have to change back the details, and then we will go up to our resort and have a long, long discussion about this."
-    c2 "Do you understand?"
-    a "I do."
-    c2 "Great. I will see you then."
-    c2 "This might turn out to be one of the best contract closings so far."
-    scene 33-1 contract 65 with Dissolve(1)
-    c2 "See you then."
-    c2 "And thank your superiors for such an amazing employee on our behalf. You are truly gifted."
-    a "{i}...That was easy... But it's just the beginning, who knows what they have in mind..."
-    a "Will do. Thank you for reconsidering this deal."
-    scene black with Dissolve(1)
-    play sound carsound2
-label AnnaContractEventOneOneEnding:
-    play sound carsound2
-    scene 33-1 contract 66-1 with Dissolve(1)
-    "Anna got in the car, and they drove away immediately."
-    di "So. How was your contract closing?"
-    if office_var_two == True:
-        a "I botched it... I don't know what I will do now."
-        di "I'm sure you will come up with something."
-    else:
-        a "It went smoother than I expected."
-        a "But that's only the beginning."
-        a "I will have plenty of more work to do before it's closed."
-    play sound carsound
-    scene 33-1 contract 69-1 with Dissolve(1)
-    di "We are here."
-    a "Thank you again, Alex."
-    di "Just doing my job, ma'am."
-    a "Well, do you often get ladies such as myself in your limo?"
-    di "Unfortunately, no, it's mostly old farts... Sorry for the language."
-    a "Haha... I know what you mean."
-    scene 33-1 contract 70 with Dissolve(1)
-    a "Well, I will be seeing you around then."
-    di "You can count on it, ma'am."
-    scene black with Dissolve(1)
-    "Anna got changed."
-    "As Anna walking, she got a call from Alfred."
-    a2 "Hello, Anna. How is my favourite neighbour doing?"
-    a "Hey, Alfred! I'm good, good. Had a big day at the office."
-    a2 "That's great. I was calling because I needed your help with something."
-    a2 "Would you mind come over to my place?"
-    a "Sure, I have nothing to do right now."
-    a2 "Splendid."
-    jump AlfredEventTwo
-    return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+translate english AnnaContractEventOneOne_71562dd8:
+    # "She got to work."
+    ""
+
+translate english AnnaContractEventOneOne_2fdc5d4a:
+    # "Anna sits down at her desk to finish up with the documentation of the contract."
+    ""
+
+translate english AnnaContractEventOneOne_3d008102:
+    # "She had almost finished it anyway."
+    ""
+
+translate english AnnaContractEventOneOne_8fc8d9f8:
+    # a "Right, what do we have here... Mostly, these terms are pretty unfavorable for the opposing party..."
+    a ""
+
+translate english AnnaContractEventOneOne_217b081a:
+    # a "No one in their right mind would sign this... But maybe I could convince them..."
+    a ""
+
+translate english AnnaContractEventOneOne_5d8d9991:
+    # "As Anna was working, she noticed Emily storming right her way."
+    ""
+
+translate english AnnaContractEventOneOne_82398671:
+    # "Even though she enjoys the company, she needed to finish this up..."
+    ""
+
+translate english AnnaContractEventOneOne_c2dd3982:
+    # e "Anna! Hey! How are you, my dear?"
+    e ""
+
+translate english AnnaContractEventOneOne_8b5cc7e0:
+    # a "Hey, Emily. I'm ok... I've been busy... And Am busy, right now."
+    a ""
+
+translate english AnnaContractEventOneOne_cb51ce9e:
+    # e "Hey, I won't take much of your time. I just have this idea."
+    e ""
+
+translate english AnnaContractEventOneOne_406fc102:
+    # e "By the way, I heard that you had an argument with Diane?"
+    e ""
+
+translate english AnnaContractEventOneOne_79abd274:
+    # e "Are you ok, sweety?"
+    e ""
+
+translate english AnnaContractEventOneOne_fce9d5a7:
+    # a "Yeah, I'm fine. It's... I don't know..."
+    a ""
+
+translate english AnnaContractEventOneOne_0be09b0b:
+    # e "She's a hoe... Forget about her."
+    e ""
+
+translate english AnnaContractEventOneOne_9f82bf88:
+    # a "Ok, so. What do you have in mind?"
+    a ""
+
+translate english AnnaContractEventOneOne_3758161f:
+    # e "Well, since I know that you are currently going through some stuff..."
+    e ""
+
+translate english AnnaContractEventOneOne_d112bd3b:
+    # e "I thought, you definitely need the relaxation. So. We could have some sort of a day out during the weekend, huh?"
+    e ""
+
+translate english AnnaContractEventOneOne_8ad2f547:
+    # a "Huh, I haven't thought about it. I've been so busy with work and life that I had forgotten about something like relaxation."
+    a ""
+
+translate english AnnaContractEventOneOne_c56b340b:
+    # e "Yeah, I can see it."
+    e ""
+
+translate english AnnaContractEventOneOne_5fcf56da:
+    # e "Soo... I thought that maybe we could go to the beach during the weekend, huh? And during the evening, we could go for drinks."
+    e ""
+
+translate english AnnaContractEventOneOne_1d225836:
+    # a "The beach sounds nice... But I don't know about partying."
+    a ""
+
+translate english AnnaContractEventOneOne_cded8235:
+    # e "Oh, come on. You know it will be fun. Why stop yourself?"
+    e ""
+
+translate english AnnaContractEventOneOne_44bce362:
+    # a "I've been into some crazy things recently, I've done a lot of... Um... {i}Perverted{/i} things."
+    a ""
+
+translate english AnnaContractEventOneOne_74011ef6:
+    # a "And I kind of feel like I keep digging a hole for myself..."
+    a ""
+
+translate english AnnaContractEventOneOne_359b2571:
+    # e "You are not! Trust me when I say that you are young and should have fun. When you're old, then you settle down."
+    e ""
+
+translate english AnnaContractEventOneOne_9f996379:
+    # a "What are you implying? Are you talking about Andrew?"
+    a ""
+
+translate english AnnaContractEventOneOne_66e51d50:
+    # e "Yes. I know he is in a tough place right now, but so are you. And you deserve a break."
+    e ""
+
+translate english AnnaContractEventOneOne_1e37db8d:
+    # e "He isn't going anywhere, besides... I don't think he is the best you can get out of life..."
+    e ""
+
+translate english AnnaContractEventOneOne_f60f19e1:
+    # a "Now you are starting to talk like Rebecca..."
+    a ""
+
+translate english AnnaContractEventOneOne_ba0f5b9f:
+    # e "Oh, so she agrees? I mean, come on. There are way better options for you..."
+    e ""
+
+translate english AnnaContractEventOneOne_4c4ce35e:
+    # e "Anyway, I've been... Umm, enjoying my new toys, hehe..."
+    e ""
+
+translate english AnnaContractEventOneOne_4f313961:
+    # a "Whatever do you mean? Oh... I get it..."
+    a ""
+
+translate english AnnaContractEventOneOne_2a45e760:
+    # e "I even have one with me right now... hehe..."
+    e ""
+
+translate english AnnaContractEventOneOne_9ec9a4a0:
+    # a "Oh, Emily... You are such a slutty girl, hehe..."
+    a ""
+
+translate english AnnaContractEventOneOne_6c2ddfba:
+    # e "You know I am. I've always been... I enjoy the pleasure of life. Like I should."
+    e ""
+
+translate english AnnaContractEventOneOne_53c9a987:
+    # a "Can't argue there, but still... Here? In the office?"
+    a ""
+
+translate english AnnaContractEventOneOne_0f5e5e47:
+    # e "I like to explore my sexuality, I feel excited..."
+    e ""
+
+translate english AnnaContractEventOneOne_266ffe8d:
+    # t "Excited about what?"
+    t ""
+
+translate english AnnaContractEventOneOne_d273d196:
+    # e "About my new..."
+    e ""
+
+translate english AnnaContractEventOneOne_cf353781:
+    # a "About our weekend plans!"
+    a ""
+
+translate english AnnaContractEventOneOne_b72720fd:
+    # t "Oh... That's cool. I've been thinking of going out myself this weekend."
+    t ""
+
+translate english AnnaContractEventOneOne_ec2a327e:
+    # e "Speak of the devil, hehe..."
+    e ""
+
+translate english AnnaContractEventOneOne_238d97a2:
+    # e "One option right there, such a lovely dude..."
+    e ""
+
+translate english AnnaContractEventOneOne_ea801539:
+    # t "I'm sorry? What did you mean?"
+    t ""
+
+translate english AnnaContractEventOneOne_39883901:
+    # e "Nothing... Hehe..."
+    e ""
+
+translate english AnnaContractEventOneOne_e52cbe15:
+    # a "Emily told me that she wants to hang out this weekend and..."
+    a ""
+
+translate english AnnaContractEventOneOne_143d475d:
+    # e "And we would like you to come with us."
+    e ""
+
+translate english AnnaContractEventOneOne_3cdc42b6:
+    # t "You mean... Like... With you guys?"
+    t ""
+
+translate english AnnaContractEventOneOne_40372eaf:
+    # t "I think we can arrange something."
+    t ""
+
+translate english AnnaContractEventOneOne_f5f68c6d:
+    # e "Splendid!"
+    e ""
+
+translate english AnnaContractEventOneOne_42c4875b:
+    # t "I... I don't think I have the time you know..."
+    t ""
+
+translate english AnnaContractEventOneOne_44ab124e:
+    # e "Oh, come on Timothy..."
+    e ""
+
+translate english AnnaContractEventOneOne_13dffa80:
+    # a "I mean, I would definitely enjoy the company."
+    a ""
+
+translate english AnnaContractEventOneOne_c883ff6c:
+    # e "Of course she would, Timothy. We like you..."
+    e ""
+
+translate english AnnaContractEventOneOne_e36050ea:
+    # t "I like you guys, too."
+    t ""
+
+translate english AnnaContractEventOneOne_63115621:
+    # e "Imagine yourself with two bombshells, just hanging out."
+    e ""
+
+translate english AnnaContractEventOneOne_005600d6:
+    # e "Just all yours... wouldn't it be crazy?"
+    e ""
+
+translate english AnnaContractEventOneOne_4ba463c6:
+    # t "{b}*Gulp{/b}... It would..."
+    t ""
+
+translate english AnnaContractEventOneOne_bcc60613:
+    # e "Don't be so shy. We are all friends here..."
+    e ""
+
+translate english AnnaContractEventOneOne_b236e651:
+    # t "I... I know, but... I don't know about it..."
+    t ""
+
+translate english AnnaContractEventOneOne_d3dde00e:
+    # e "What don't you know? When two girls are inviting you out?"
+    e ""
+
+translate english AnnaContractEventOneOne_91efcc60:
+    # e "Two attractive, sexy girls asking you out for a day of drinks?"
+    e ""
+
+translate english AnnaContractEventOneOne_2fd15eb8:
+    # t "I... I'm..."
+    t ""
+
+translate english AnnaContractEventOneOne_4c92ee33:
+    # "Timothy was starting to sweat. Emily was playing with him, but she was serious about it, too."
+    ""
+
+translate english AnnaContractEventOneOne_5d4a2387:
+    # "Emily leaned in and whispered..."
+    ""
+
+translate english AnnaContractEventOneOne_1bde90d1:
+    # e "Just, imagine..."
+    e ""
+
+translate english AnnaContractEventOneOne_c68fbe92:
+    # a "Hey, what are you guys talking about!?"
+    a ""
+
+translate english AnnaContractEventOneOne_dbf73378:
+    # "They were talking, and Anna couldn't make out the conversation..."
+    ""
+
+translate english AnnaContractEventOneOne_37fedb7c:
+    # t "I'm... Pretty sure..."
+    t ""
+
+translate english AnnaContractEventOneOne_a79ff34a:
+    # "Emily kept whispering something into Timothy's ear."
+    ""
+
+translate english AnnaContractEventOneOne_4b7dc796:
+    # e "Timothy..."
+    e ""
+
+translate english AnnaContractEventOneOne_2a248ed6:
+    # a "Guys, What are you talking about there?!"
+    a ""
+
+translate english AnnaContractEventOneOne_14830fc8:
+    # "Anna Couldn't hear what they were talking about there..."
+    ""
+
+translate english AnnaContractEventOneOne_5608d34d:
+    # t "I... I'm... Ah..."
+    t ""
+
+translate english AnnaContractEventOneOne_a79ff34a_1:
+    # "Emily kept whispering something into Timothy's ear."
+    ""
+
+translate english AnnaContractEventOneOne_b2919318:
+    # e "Just imagine..."
+    e ""
+
+translate english AnnaContractEventOneOne_86332e7e:
+    # "They both turned to Anna, who had no idea what they were talking about."
+    ""
+
+translate english AnnaContractEventOneOne_88b4d3ee:
+    # e "She definitely wants to have fun..."
+    e ""
+
+translate english AnnaContractEventOneOne_3c5c8d2b:
+    # e "Don't you?"
+    e ""
+
+translate english AnnaContractEventOneOne_e61279ea:
+    # t "I'm certain that I do."
+    t ""
+
+translate english AnnaContractEventOneOne_5cf4c580:
+    # e "Then we have a deal. We are going out on Sunday."
+    e ""
+
+translate english AnnaContractEventOneOne_824df076:
+    # a "What? I mean... Ok..."
+    a ""
+
+translate english AnnaContractEventOneOne_94bdc0cd:
+    # e "You have no choice, Anna. This is going to be fun."
+    e ""
+
+translate english AnnaContractEventOneOne_a001fd60:
+    # t "I don't think I'm ready for this..."
+    t ""
+
+translate english AnnaContractEventOneOne_be737f3c:
+    # e "Oh, come on, Timothy..."
+    e ""
+
+translate english AnnaContractEventOneOne_e5b37cb8:
+    # a "Ready for what?"
+    a ""
+
+translate english AnnaContractEventOneOne_c377269c:
+    # t "I... I'm sorry..."
+    t ""
+
+translate english AnnaContractEventOneOne_cca6cbd8:
+    # e1 "Hello, guys. Sorry for interrupting, but Anna has the contract closing today."
+    e1 ""
+
+translate english AnnaContractEventOneOne_86bca984:
+    # e "Oh. We are so sorry. Anna is so kind and didn't want me to interrupt my stupid talk. Haha..."
+    e ""
+
+translate english AnnaContractEventOneOne_0c9c6b44:
+    # e "I'm sorry, sweety..."
+    e ""
+
+translate english AnnaContractEventOneOne_70487abd:
+    # a "It's ok, dear."
+    a ""
+
+translate english AnnaContractEventOneOne_2088ef3a:
+    # e1 "How are you feeling today, Anna?"
+    e1 ""
+
+translate english AnnaContractEventOneOne_df20e930:
+    # e1 "Are you ready? Have you read through the contract properly?"
+    e1 ""
+
+translate english AnnaContractEventOneOne_267062e2:
+    # a "I believe I have."
+    a ""
+
+translate english AnnaContractEventOneOne_86b516f3:
+    # e1 "High ups made some last moment amendments. I hope you had time to go over those?"
+    e1 ""
+
+translate english AnnaContractEventOneOne_798fad3e:
+    # a "Shit... I Didn't..."
+    a ""
+
+translate english AnnaContractEventOneOne_c1c4f7ac:
+    # e1 "Ah... Well, it's alright. I thought it might happen. It's their fault. But I have an idea."
+    e1 ""
+
+translate english AnnaContractEventOneOne_6fe82479:
+    # e "We are leaving, then. Take care and good luck, Anna!"
+    e ""
+
+translate english AnnaContractEventOneOne_c72b5e4f:
+    # a "Thanks!"
+    a ""
+
+translate english AnnaContractEventOneOne_2fe578a2:
+    # e1 "You guys go take a break, ok?"
+    e1 ""
+
+translate english AnnaContractEventOneOne_1ea9f915:
+    # e "We planned on it anyway."
+    e ""
+
+translate english AnnaContractEventOneOne_c5242fc6:
+    # e1 "After Anna leaves, we will have a monthly meeting. I expect you all to have read and prepared your reports."
+    e1 ""
+
+translate english AnnaContractEventOneOne_751d8042:
+    # e "Already done and ready."
+    e ""
+
+translate english AnnaContractEventOneOne_11475c34:
+    # e1 "Alright. So on to the business itself."
+    e1 ""
+
+translate english AnnaContractEventOneOne_1cfd7368:
+    # e1 "I realized that it could be a bit hectic, and you might've missed the last amendments."
+    e1 ""
+
+translate english AnnaContractEventOneOne_8b425d12:
+    # e1 "Which, by the way, are completely moronic, if you ask me."
+    e1 ""
+
+translate english AnnaContractEventOneOne_4bfe2df2:
+    # e1 "So I've decided to give you some advantage."
+    e1 ""
+
+translate english AnnaContractEventOneOne_fe6f6154:
+    # a "Oh?"
+    a ""
+
+translate english AnnaContractEventOneOne_d19def5b:
+    # e1 "Well, I don't know what you expect, but I cannot deny that you have some very... Um..."
+    e1 ""
+
+translate english AnnaContractEventOneOne_01281830:
+    # e1 "Good assets, and in time such as these, we could really use them."
+    e1 ""
+
+translate english AnnaContractEventOneOne_d7dd51d9:
+    # a "Whatever do you mean by that..."
+    a ""
+
+translate english AnnaContractEventOneOne_916a9d76:
+    # e1 "The deal, as you know, originally isn't very good, but we are hopeful that you might persuade them to change their minds."
+    e1 ""
+
+translate english AnnaContractEventOneOne_957c6087:
+    # e1 "That's why I have this..."
+    e1 ""
+
+translate english AnnaContractEventOneOne_04df791c:
+    # a "Is that an outfit?"
+    a ""
+
+translate english AnnaContractEventOneOne_ced89227:
+    # e1 "Correct. I don't know if you are willing to wear it, but consider this."
+    e1 ""
+
+translate english AnnaContractEventOneOne_874a37f4:
+    # e1 "If we close this deal, it will be a very big step in your career already."
+    e1 ""
+
+translate english AnnaContractEventOneOne_4b744d48:
+    # e1 "Additionally, you will receive a very nice bonus and commission for this deal."
+    e1 ""
+
+translate english AnnaContractEventOneOne_28ac5c2b:
+    # a "I don't think I want to be used as a tool, like that."
+    a ""
+
+translate english AnnaContractEventOneOne_3cdd38a7:
+    # e1 "Believe me, we are all tools. We can play the game or not. That's up to us."
+    e1 ""
+
+translate english AnnaContractEventOneOne_acb2048e:
+    # "Anna realized that it could help her strengthen the partner position and also help with closing the deal."
+    ""
+
+translate english AnnaContractEventOneOne_794878a5:
+    # a "I hope you won't be peeking? I wish for some privacy."
+    a ""
+
+translate english AnnaContractEventOneOne_8b5163d0:
+    # e1 "Oh, No worries. I shall turn around."
+    e1 ""
+
+translate english AnnaContractEventOneOne_f06dc3a2:
+    # "Ethan was salivating from the thought of seeing Anna naked."
+    ""
+
+translate english AnnaContractEventOneOne_b0dfc027:
+    # "However, he was never rude enough to attempt something like that."
+    ""
+
+translate english AnnaContractEventOneOne_38896b32:
+    # e1 "Don't worry, I'm not looking."
+    e1 ""
+
+translate english AnnaContractEventOneOne_c21af01b:
+    # a "I hope this outfit isn't too revealing or too sexy."
+    a ""
+
+translate english AnnaContractEventOneOne_134c24a4:
+    # e1 "Actually, I wouldn't know, I didn't pick it out..."
+    e1 ""
+
+translate english AnnaContractEventOneOne_0e45d498:
+    # a "Then who did?"
+    a ""
+
+translate english AnnaContractEventOneOne_8dcba3e5:
+    # e1 "Ah... Well, one of the board members. He's started to take interest in your work."
+    e1 ""
+
+translate english AnnaContractEventOneOne_fe1b4cb7:
+    # e1 "Since you've become a partner."
+    e1 ""
+
+translate english AnnaContractEventOneOne_2db0dc74:
+    # e1 "Splendid. It's... Well... Rather revealing actually."
+    e1 ""
+
+translate english AnnaContractEventOneOne_00b04216:
+    # a "Yeah... I know... I can't wear this..."
+    a ""
+
+translate english AnnaContractEventOneOne_dcb3d9d7:
+    # e1 "Umm... I believe it would be in everyone's best interest, including yours, to carry on with it."
+    e1 ""
+
+translate english AnnaContractEventOneOne_ddfeae8d:
+    # a "But, it's so... Revealing..."
+    a ""
+
+translate english AnnaContractEventOneOne_dfaeee3a:
+    # e1 "Remember that this might only increase your chances at closing the deal."
+    e1 ""
+
+translate english AnnaContractEventOneOne_3a08f405:
+    # a "Right..."
+    a ""
+
+translate english AnnaContractEventOneOne_878c668a:
+    # e1 "Anyway... I hope you've read through the documents and are ready to go through with this."
+    e1 ""
+
+translate english AnnaContractEventOneOne_e1995ceb:
+    # e1 "No one will accompany you. It isn't the right procedure, but the board member insisted."
+    e1 ""
+
+translate english AnnaContractEventOneOne_6ff2331f:
+    # e1 "There is a car waiting outside for you."
+    e1 ""
+
+translate english AnnaContractEventOneOne_ef13bc59:
+    # e1 "Good luck to you."
+    e1 ""
+
+translate english AnnaContractEventOneOne_3b37ba6e:
+    # a "Thanks, I will need it."
+    a ""
+
+translate english AnnaContractEventOneOne_18febe2e:
+    # "Anna exited the office building, and a limousine was waiting for her."
+    ""
+
+translate english AnnaContractEventOneOne_33b2d011:
+    # a "{i}...Oh wow, I've never driven with my personal chauffeur. I hope he is nice..."
+    a ""
+
+translate english AnnaContractEventOneOne_f8413b59:
+    # a "{i}...I guess there is no turning back. Got to give it my best... But this outfit..."
+    a ""
+
+translate english AnnaContractEventOneOne_34563aba:
+    # di "Hello, ma'am. I hope you are having an amazing day."
+    di ""
+
+translate english AnnaContractEventOneOne_67529fde:
+    # a "Oh. Hi, and you are?"
+    a ""
+
+translate english AnnaContractEventOneOne_43654483:
+    # di "Pardon my manners, I'm Alex, your chauffeur."
+    di ""
+
+translate english AnnaContractEventOneOne_8173ddaa:
+    # a "Nice to meet you, Alex."
+    a ""
+
+translate english AnnaContractEventOneOne_1bc7b1f5:
+    # di "We will be heading out soon. Get comfortable."
+    di ""
+
+translate english AnnaContractEventOneOne_d3e228f3:
+    # di "There are also some drinks at the front, if you wish to indulge."
+    di ""
+
+translate english AnnaContractEventOneOne_b035f21c:
+    # a "Thank you."
+    a ""
+
+translate english AnnaContractEventOneOne_45cce84f:
+    # a "{i}...Nice, my very own limo driver. That's a step up..."
+    a ""
+
+translate english AnnaContractEventOneOne_e8974fce:
+    # "For a moment, Anna forgot about the worries of the contract deal."
+    ""
+
+translate english AnnaContractEventOneOne_6ab8cf60:
+    # "She just enjoyed the premium feeling she was getting."
+    ""
+
+translate english AnnaContractEventOneOne_3c85c7e0:
+    # a "{i}...If I continue like this, maybe someday I can get my own jet and mansion... Oh..."
+    a ""
+
+translate english AnnaContractEventOneOne_9721082f:
+    # a "{i}...That would be amazing..."
+    a ""
+
+translate english AnnaContractEventOneOne_3a012a70:
+    # di "We are going to the Shengzhou Corp offices. It's not a long ride."
+    di ""
+
+translate english AnnaContractEventOneOne_d49c3154:
+    # a "I know, I know."
+    a ""
+
+translate english AnnaContractEventOneOne_b61a2311:
+    # di "How are you doing so far, ma'am?"
+    di ""
+
+translate english AnnaContractEventOneOne_8b7200d4:
+    # a "I'm enjoying the premium service."
+    a ""
+
+translate english AnnaContractEventOneOne_36221651:
+    # di "All part of the partner benefits, ma'am."
+    di ""
+
+translate english AnnaContractEventOneOne_215dba98:
+    # "They had arrived at the office."
+    ""
+
+translate english AnnaContractEventOneOne_3aa554fb:
+    # a "Thank you, Alex."
+    a ""
+
+translate english AnnaContractEventOneOne_176b6453:
+    # di "I will bet waiting for you here."
+    di ""
+
+translate english AnnaContractEventOneOne_6773a914:
+    # a "Very nice. Catch you later."
+    a ""
+
+translate english AnnaContractEventOneOne_4b11a1fb:
+    # "Anna enters their office and is met by both representatives immediately."
+    ""
+
+translate english AnnaContractEventOneOne_5dcc3bbe:
+    # c2 "Greetings, my Mr. Chen."
+    c2 ""
+
+translate english AnnaContractEventOneOne_c45f3257:
+    # z1 "And I'm Mr. Zhao."
+    z1 ""
+
+translate english AnnaContractEventOneOne_01f2fcc1:
+    # a "Hello, I'm Anna. I'm one of the new partners."
+    a ""
+
+translate english AnnaContractEventOneOne_6c47f60b:
+    # "They looked at Anna with lustful eyes. They were surprised someone like this could be a partner."
+    ""
+
+translate english AnnaContractEventOneOne_caec0204:
+    # "But that also made them hopeful about what might come next."
+    ""
+
+translate english AnnaContractEventOneOne_e24113f5:
+    # "They were eyeballing her, and an awkward silence followed."
+    ""
+
+translate english AnnaContractEventOneOne_70e4eb76:
+    # a "Umm... So. I've arrived here today to discuss the terms of the deal and perhaps even close it today."
+    a ""
+
+translate english AnnaContractEventOneOne_9380e5ff:
+    # c2 "Indeed... Well... It might be harder than you'd expect."
+    c2 ""
+
+translate english AnnaContractEventOneOne_6790eaeb:
+    # a "How so?"
+    a ""
+
+translate english AnnaContractEventOneOne_9bbcaeba:
+    # c2 "This deal has been very... unfavorable for us from the very beginning."
+    c2 ""
+
+translate english AnnaContractEventOneOne_fa85c339:
+    # a "I'm sure the terms are justified."
+    a ""
+
+translate english AnnaContractEventOneOne_68713b73:
+    # c2 "Well... I'm not sure, but they could be justified by some other means."
+    c2 ""
+
+translate english AnnaContractEventOneOne_81f2f6c0:
+    # a "I don't know what you are getting at, but perhaps we can discuss it first?"
+    a ""
+
+translate english AnnaContractEventOneOne_21113304:
+    # c2 "Yes... Discuss..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_4674b899:
+    # a "Please, take a seat, gentlemen. I shall go over the terms at once."
+    a ""
+
+translate english AnnaContractEventOneOne_18cc8083:
+    # "Anna could feel that they were distracted by her outfit."
+    ""
+
+translate english AnnaContractEventOneOne_a0d81bda:
+    # "And she realized that she could use it to her advantage."
+    ""
+
+translate english AnnaContractEventOneOne_86274470:
+    # a "{i}...Alright, Anna... Showtime..."
+    a ""
+
+translate english AnnaContractEventOneOne_58788425:
+    # a "As you know, the hostile takeover was declined very early in the contract talks."
+    a ""
+
+translate english AnnaContractEventOneOne_ace62b91:
+    # a "That was due to shareholders, in this case, the partners, being unwilling to sell out their shares."
+    a ""
+
+translate english AnnaContractEventOneOne_ddeb6b54:
+    # a "But an early compromise was made to change the terms to a mutual, joint effort."
+    a ""
+
+translate english AnnaContractEventOneOne_f847a735:
+    # a "As stated in the contract, we would lend out offices and services from within our company to you."
+    a ""
+
+translate english AnnaContractEventOneOne_0edd14cd:
+    # a "On the basis that we would get a 35%% cut from every deal closed by your company."
+    a ""
+
+translate english AnnaContractEventOneOne_98ff7942:
+    # c2 "The changes were made that you would get 45%% cut from each deal."
+    c2 ""
+
+translate english AnnaContractEventOneOne_0ad64b3f:
+    # c2 "That is the first part that we are unwilling to accept."
+    c2 ""
+
+translate english AnnaContractEventOneOne_8cd21116:
+    # a "Oh, I see. Well, it can be argued that our services are of the highest quality and our track record speaks for itself."
+    a ""
+
+translate english AnnaContractEventOneOne_b861fe89:
+    # c2 "True, but the next amendment that I want to address is the services provided."
+    c2 ""
+
+translate english AnnaContractEventOneOne_81e94823:
+    # c2 "Originally, it was stated that our deals would be supervised by your experts in full. Total contract follow-through."
+    c2 ""
+
+translate english AnnaContractEventOneOne_1fc53eba:
+    # c2 "And now it is changed to partial supervision. That is unacceptable."
+    c2 ""
+
+translate english AnnaContractEventOneOne_4922386c:
+    # a "Partial services rendered still means complete contract proofing, legal document preparation, etc."
+    a ""
+
+translate english AnnaContractEventOneOne_e8e471ce:
+    # c2 "Let me see the changes."
+    c2 ""
+
+translate english AnnaContractEventOneOne_373f4b48:
+    # c2 "Oh, but by the looks of it, you've gone even further! The deal is changed from an unlimited amount of contract supervision to 12 per year."
+    c2 ""
+
+translate english AnnaContractEventOneOne_7f5ab888:
+    # c2 "We close at least 34 contracts per year! If you are the best, you drive a very hard bargain, and we might have to look elsewhere."
+    c2 ""
+
+translate english AnnaContractEventOneOne_7714fd16:
+    # a "{i}...How did I miss this..."
+    a ""
+
+translate english AnnaContractEventOneOne_422329cc:
+    # a "Umm... I see... That amendment was made due to heavy load our company has, because of our quality services, we have many clients."
+    a ""
+
+translate english AnnaContractEventOneOne_7e565ae9:
+    # a "And that amendment could be changed in the future if our cut is reasonable enough to hire more associates and employees."
+    a ""
+
+translate english AnnaContractEventOneOne_d8f2a57b:
+    # c2 "Haha... I love this... I let you come here, hoping that you would have come to your senses..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_9da5324a:
+    # c2 "But it seems that you've become even crazier... This is just outrageous!"
+    c2 ""
+
+translate english AnnaContractEventOneOne_cff59ad3:
+    # c2 "We simply cannot sign such a devious contract. It pretty much tells us that you are robbing us!"
+    c2 ""
+
+translate english AnnaContractEventOneOne_9f59e455:
+    # a "That is not the intention here... We simply value our services very highly."
+    a ""
+
+translate english AnnaContractEventOneOne_4bf74890:
+    # c2 "Right, right. For what you are asking, we could hire two firms and still get better profits!"
+    c2 ""
+
+translate english AnnaContractEventOneOne_690db77a:
+    # c2 "And as to your entire... Charade with your skimpy outfit... Well..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_d199ad06:
+    # c2 "This was lower than low... Do you even respect yourself?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_af0fe939:
+    # a "I... I..."
+    a ""
+
+translate english AnnaContractEventOneOne_c56671ae:
+    # c2 "All has been said. I'm not willing to discuss these terms any further."
+    c2 ""
+
+translate english AnnaContractEventOneOne_13cea9f4:
+    # a "I think we will have to take a recess."
+    a ""
+
+translate english AnnaContractEventOneOne_a889dbe7:
+    # c2 "I doubt there is anything you could do to change my mind..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_f0f7c8bd:
+    # a "I have something in mind..."
+    a ""
+
+translate english AnnaContractEventOneOne_ce32cb74:
+    # c2 "You've come in our office and have tried to make fun of us with these outlandish terms."
+    c2 ""
+
+translate english AnnaContractEventOneOne_03253f7c:
+    # c2 "What kind of a different reaction did you expect? That we would simply bow down?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_a392daae:
+    # a "Not at all..."
+    a ""
+
+translate english AnnaContractEventOneOne_a7da8253:
+    # a "Perhaps we could come to a different kind of arrangement?"
+    a ""
+
+translate english AnnaContractEventOneOne_0b2145c4:
+    # c2 "And what would that be?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_0153c241:
+    # a "I believe there is one thing that you want, and I know what it is..."
+    a ""
+
+translate english AnnaContractEventOneOne_ae4da919:
+    # c2 "Oh, do you know? Well, what is it?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_617c59fa:
+    # "Anna hesitated for a moment and thought to herself if this is really worth it..."
+    ""
+
+translate english AnnaContractEventOneOne_d7e886bc:
+    # a "{i}...Should I just go through with my idea..."
+    a ""
+
+translate english AnnaContractEventOneOne_b9b04512:
+    # a "I'm sorry, I shouldn't have said anything."
+    a ""
+
+translate english AnnaContractEventOneOne_cdec356f:
+    # a "I will be on my way. You can contact my superiors for further course of action."
+    a ""
+
+translate english AnnaContractEventOneOne_070822d7:
+    # c2 "What?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_55a504fc:
+    # "Anna exited the building and went straight to the limo."
+    ""
+
+translate english AnnaContractEventOneOne_64660d07:
+    # a "It's me."
+    a ""
+
+translate english AnnaContractEventOneOne_070822d7_1:
+    # c2 "What?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_99f01c56:
+    # a "Plus the previous terms, before the outrageous amendments."
+    a ""
+
+translate english AnnaContractEventOneOne_044b0f42:
+    # c2 "Those are still not beneficial to us."
+    c2 ""
+
+translate english AnnaContractEventOneOne_896ef998:
+    # a "What if we added an unwritten secret term that stated that you get something special?"
+    a ""
+
+translate english AnnaContractEventOneOne_18c468e7:
+    # a "To be frank, the deal is reasonable. If we consider how good our services are. You cannot deny that."
+    a ""
+
+translate english AnnaContractEventOneOne_ef3259a0:
+    # c2 "True. That's the main reason we turned to you."
+    c2 ""
+
+translate english AnnaContractEventOneOne_1607e85e:
+    # a "Right. But there are other things that we or specifically I can do good."
+    a ""
+
+translate english AnnaContractEventOneOne_7b9b31aa:
+    # c2 "Which are?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_94e01e5f:
+    # a "Whatever you wish..."
+    a ""
+
+translate english AnnaContractEventOneOne_7b50401f:
+    # c2 "Huh..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_d4ed6fca:
+    # z1 "Well... I think if you could 'convince' us better... We would consider."
+    z1 ""
+
+translate english AnnaContractEventOneOne_623c4230:
+    # a "How would I convince you?"
+    a ""
+
+translate english AnnaContractEventOneOne_8cf660a6:
+    # z1 "Well... You could attend to some of our, more, immediate needs."
+    z1 ""
+
+translate english AnnaContractEventOneOne_c9cac14e:
+    # z1 "The physical ones..."
+    z1 ""
+
+translate english AnnaContractEventOneOne_40ca535d:
+    # a "Perhaps you'd like to see something interesting?"
+    a ""
+
+translate english AnnaContractEventOneOne_6c373e83:
+    # z1 "I'm interested."
+    z1 ""
+
+translate english AnnaContractEventOneOne_668062f3:
+    # a "Like... Like that?"
+    a ""
+
+translate english AnnaContractEventOneOne_8e4c14cc:
+    # z1 "I do love a good pair of beautiful melons, but these are just next level..."
+    z1 ""
+
+translate english AnnaContractEventOneOne_5321bf50:
+    # "Mr. Zhao lustfully stared at Anna's breasts."
+    ""
+
+translate english AnnaContractEventOneOne_41edc4d6:
+    # z1 "Amazing, absolutely amazing."
+    z1 ""
+
+translate english AnnaContractEventOneOne_e46c0bd7:
+    # a "Do you like them?"
+    a ""
+
+translate english AnnaContractEventOneOne_c7a65e8f:
+    # z1 "Do I? The only thing I can think about right now."
+    z1 ""
+
+translate english AnnaContractEventOneOne_d6de2922:
+    # c2 "You know that Mr. Zhao is not the one closing the deal? I am."
+    c2 ""
+
+translate english AnnaContractEventOneOne_eeabf040:
+    # c2 "So you better have solid arguments to convince me."
+    c2 ""
+
+translate english AnnaContractEventOneOne_f280e968:
+    # c2 "Or rather, good skills to change my mind... Hehe..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_d6e5d22c:
+    # a "I think we can arrange something..."
+    a ""
+
+translate english AnnaContractEventOneOne_0385f7d2:
+    # "Anna moved to Mr. Chen with her titties peeking out."
+    ""
+
+translate english AnnaContractEventOneOne_f6e179ba:
+    # a "What do you wish to experience?"
+    a ""
+
+translate english AnnaContractEventOneOne_8d401bf7:
+    # c2 "I want the entire package. And then I will consider signing."
+    c2 ""
+
+translate english AnnaContractEventOneOne_40b60988:
+    # c2 "If you satisfy the requirements, we will be more lenient."
+    c2 ""
+
+translate english AnnaContractEventOneOne_59bf7bd8:
+    # a "Ah... I see..."
+    a ""
+
+translate english AnnaContractEventOneOne_bc753467:
+    # a "Perhaps a little bit of incentive at first."
+    a ""
+
+translate english AnnaContractEventOneOne_3c6f4da4:
+    # "Anna put her hand to Mr. Chen's crotch, and he immediately felt excited."
+    ""
+
+translate english AnnaContractEventOneOne_5a420c95:
+    # c2 "Ah... Very nice..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_e8488529:
+    # a "I can do plenty of things..."
+    a ""
+
+translate english AnnaContractEventOneOne_0a7da104:
+    # c2 "I'm counting on it."
+    c2 ""
+
+translate english AnnaContractEventOneOne_06282d83:
+    # "Mr. Chen started touching her breasts with slow, sensual movements."
+    ""
+
+translate english AnnaContractEventOneOne_c38ff40d:
+    # c2 "You know, I've been in this business for over 35 years. And never have I met an individual such as yourself."
+    c2 ""
+
+translate english AnnaContractEventOneOne_c57d1b03:
+    # a "I'm special."
+    a ""
+
+translate english AnnaContractEventOneOne_16e9cba8:
+    # c2 "Indeed... Ah..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_036d7005:
+    # "Anna's hands were doing a very good job on Mr. Chen's concealed cock."
+    ""
+
+translate english AnnaContractEventOneOne_794ac449:
+    # c2 "All of your 'assets' are just so perfect... I can't believe your superiors were withholding such a great tool..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_ddbe914d:
+    # a "Well, leave the best for last, eh?"
+    a ""
+
+translate english AnnaContractEventOneOne_3fe5f476:
+    # c2 "Well said... Hmf..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_23cb694e:
+    # c2 "Perhaps... We should arrange a meeting later on so we can 'discuss' the contract in {b}Deep{/b} detail."
+    c2 ""
+
+translate english AnnaContractEventOneOne_38face3c:
+    # c2 "And you would show us every nook and cranny of the agreement, and we shall enjoy it."
+    c2 ""
+
+translate english AnnaContractEventOneOne_a4b20d10:
+    # a "Y... Yes..."
+    a ""
+
+translate english AnnaContractEventOneOne_b39eb50f:
+    # "Mr. Chen was enjoying Anna's presence to the maximum. He was so excited about her that he forgot about the contract."
+    ""
+
+translate english AnnaContractEventOneOne_0f523664:
+    # "Perhaps Anna could pull this off after all."
+    ""
+
+translate english AnnaContractEventOneOne_be9774e7:
+    # c2 "Ok. We will give you another chance, but..."
+    c2 ""
+
+translate english AnnaContractEventOneOne_d2999792:
+    # c2 "You have to change back the details, and then we will go up to our resort and have a long, long discussion about this."
+    c2 ""
+
+translate english AnnaContractEventOneOne_eb2958c6:
+    # c2 "Do you understand?"
+    c2 ""
+
+translate english AnnaContractEventOneOne_3da9e869:
+    # a "I do."
+    a ""
+
+translate english AnnaContractEventOneOne_d1d1889e:
+    # c2 "Great. I will see you then."
+    c2 ""
+
+translate english AnnaContractEventOneOne_b628f0fe:
+    # c2 "This might turn out to be one of the best contract closings so far."
+    c2 ""
+
+translate english AnnaContractEventOneOne_7a6988a3:
+    # c2 "See you then."
+    c2 ""
+
+translate english AnnaContractEventOneOne_30bed706:
+    # c2 "And thank your superiors for such an amazing employee on our behalf. You are truly gifted."
+    c2 ""
+
+translate english AnnaContractEventOneOne_30b6931b:
+    # a "{i}...That was easy... But it's just the beginning, who knows what they have in mind..."
+    a ""
+
+translate english AnnaContractEventOneOne_12098bc5:
+    # a "Will do. Thank you for reconsidering this deal."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_1e97f766:
+    # "Anna got in the car, and they drove away immediately."
+    ""
+
+translate english AnnaContractEventOneOneEnding_0a897f8e:
+    # di "So. How was your contract closing?"
+    di ""
+
+translate english AnnaContractEventOneOneEnding_6e983d7a:
+    # a "I botched it... I don't know what I will do now."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_82e04d42:
+    # di "I'm sure you will come up with something."
+    di ""
+
+translate english AnnaContractEventOneOneEnding_195e2e89:
+    # a "It went smoother than I expected."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_0a70f523:
+    # a "But that's only the beginning."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_48e02979:
+    # a "I will have plenty of more work to do before it's closed."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_5c241fcb:
+    # di "We are here."
+    di ""
+
+translate english AnnaContractEventOneOneEnding_8170a8f5:
+    # a "Thank you again, Alex."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_f57bde28:
+    # di "Just doing my job, ma'am."
+    di ""
+
+translate english AnnaContractEventOneOneEnding_d1d00ceb:
+    # a "Well, do you often get ladies such as myself in your limo?"
+    a ""
+
+translate english AnnaContractEventOneOneEnding_85b2332b:
+    # di "Unfortunately, no, it's mostly old farts... Sorry for the language."
+    di ""
+
+translate english AnnaContractEventOneOneEnding_308822dc:
+    # a "Haha... I know what you mean."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_b79cbd30:
+    # a "Well, I will be seeing you around then."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_afcccb8a:
+    # di "You can count on it, ma'am."
+    di ""
+
+translate english AnnaContractEventOneOneEnding_fed3b6c4:
+    # "Anna got changed."
+    ""
+
+translate english AnnaContractEventOneOneEnding_f1a88621:
+    # "As Anna walking, she got a call from Alfred."
+    ""
+
+translate english AnnaContractEventOneOneEnding_3eb2cfad:
+    # a2 "Hello, Anna. How is my favourite neighbour doing?"
+    a2 ""
+
+translate english AnnaContractEventOneOneEnding_1b930ec4:
+    # a "Hey, Alfred! I'm good, good. Had a big day at the office."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_73c10ea5:
+    # a2 "That's great. I was calling because I needed your help with something."
+    a2 ""
+
+translate english AnnaContractEventOneOneEnding_6093645d:
+    # a2 "Would you mind come over to my place?"
+    a2 ""
+
+translate english AnnaContractEventOneOneEnding_296369da:
+    # a "Sure, I have nothing to do right now."
+    a ""
+
+translate english AnnaContractEventOneOneEnding_f19665be:
+    # a2 "Splendid."
+    a2 ""
+
+
+translate english strings:
+    old "Anna decides 'persuade' them"
+    new ""
+
+    old "Anna decides to stop it right there and cancel the deal."
+    new ""

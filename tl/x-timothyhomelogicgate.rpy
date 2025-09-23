@@ -1,22 +1,15 @@
-label TimothyHomeLogicGate:
-    show screen DowntownScreen
-    if DayFourVariable == True and DayFiveVariable == False:
-        if RebeccaGymQuestDone == True:
-            if timothySexContent == True:
-                if TimothyHomeEventOneDone == False:
-                    hide screen DowntownScreen
-                    jump TimothyHomeEventOne
-                else:
-                    "This is Timothy's place."
-                    jump downtownStreet
-            else:
-                "This is Timothy's place."
-                jump downtownStreet
-        else:
-            "This is Timothy's place."
-            jump downtownStreet
-    else:
-        "This is Timothy's place."
-        jump downtownStreet
-    return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+translate english TimothyHomeLogicGate_4a4be6fb:
+    # "This is Timothy's place."
+    ""
+
+translate english TimothyHomeLogicGate_4a4be6fb_1:
+    # "This is Timothy's place."
+    ""
+
+translate english TimothyHomeLogicGate_4a4be6fb_2:
+    # "This is Timothy's place."
+    ""
+
+translate english TimothyHomeLogicGate_4a4be6fb_3:
+    # "This is Timothy's place."
+    ""

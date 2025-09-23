@@ -1,614 +1,1865 @@
-label RebeccaEventOne:
-    play sound walk
-    scene black with Dissolve(2)
-    play music ["audio/blueboi.mp3", "audio/sideroad.mp3", "audio/closure.mp3"] fadeout 1.0 fadein 1.0
-    scene 32-6 gym 1 with Dissolve(1)
-    "Anna entered the gym and immediately felt motivated to have a very good workout."
-    "Rebecca was already there with her succulent breasts heaving in the air."
-    "Anna couldn't deny that Rebecca was a very beautiful big sister."
-    a "{i}...Both of us seem to have inherited very curvacious bodies from our mom..."
-    a "Hey, Rebecca. I'm sorry I'm a bit late..."
-    r1 "Anna! I'm so glad to see you. Don't worry, I already started to change."
-    scene 32-6 gym 2 with Dissolve(1)
-    if CarlHelps == True:
-        r1 "Even though it's been just a couple of hours, I've missed you."
-        a "Oh, don't be like that, I'm always there when you need me and vice-versa."
-        r1 "Always, dear Anna."
-    r1 "How has your day been so far?"
-    a "Oh... You know... It's has had its fair share of moments already."
-    r1 "Care to share? I'm curious about your life. Always have been."
-    a "Nothing too exciting, though. Just work and some other things..."
-    if GoodBadDoctorChoice == 2:
-        "Anna was reluctant to tell Rebecca about her 'interesting' examination at the doctor's office."
-    scene 32-6 gym 3 with Dissolve(1)
-    "Anna was wondering if she should talk about her day at the office."
-    $ config.menu_include_disabled = False
-    menu:
-        "I had an argument with Diane again!" if dianaGoodRelations == False:
-            a "She is so vile towards me and I don't even really know why..."
-            r1 "Oh, well. She's just probably jealous of you. Going up in the world."
-            a "I don't really want to talk about her."
-            a "Also, there is a corporate party in the works... And I forgot to choose a dress!"
-            r1 "Oh, Anna. I will have to take you shopping, then. You have to look irresistible."
-            a "Rebecca... Stop it... Haha."
-        "Had a nice chat with Diane and the colleagues." if dianaGoodRelations == True:
-            a "Their planning to throw a party at Diane's place."
-            a "Also, there is a corporate party in the works... And I forgot to choose a dress!"
-            r1 "Oh, Anna. We will have to go shopping then. You have to look irresistible."
-            a "Rebecca... Stop it... Haha."
-        "Anna decided not to talk about her office drama.":
-            a "Anyway. I'm just focusing on work right now, a lot of stuff to do."
-    r1 "You got the promotion, right?"
-    a "Yeah. I'm pretty excited as to how it will turn out. Hopefully I can earn more money."
-    a "And take care of Andrew's condition."
-    r1 "You're still on about him? Anna. Get your mind right about him..."
-    r1 "He's cost us a lot of pain. And I, sure as hell, am not forgiving him..."
-    play sound undress
-    scene 32-6 gym 4 with Dissolve(1)
-    a "I understand you... But still..."
-    r1 "I'm not going to lecture you on what to do in your life, but a word of advice:"
-    r1 "If you decide to help him with the surgery, do it, but after that just forget about him..."
-    r1 "He's nothing but trouble. A guy who first needs to learn how to live his own life without screwing others over..."
-    a "I guess there is some truth to those words."
-    r1 "Yeah, I know."
-    scene 32-6 gym 5 with Dissolve(1)
-    r1 "But... Look at that outfit. Even I'm hardly able to resist, Anna."
-    a "Oh, yeah, something that I had stored away for these situations."
-    r1 "Well, all I can say is that you've got taste, honey."
-    r1 "All the guys at the gym will have difficulty concentrating, I bet."
-    a "Haha... Talk about difficulty concentrating, Rebecca. You are the definition of desirable."
-    r1 "Now your just talking nonsense. Hehe..."
-    a "I'm not. Haha."
-    scene 32-6 gym 6 with Dissolve(1)
-    "Both of them had finished the dressing room small talk and now it was time to get to work."
-    r1 "So, do you have anything in mind for today? Any specific exercises?"
-    a "Umm... I've been out of practice, lately. I'm still thinking."
-    a "I could do some leg workouts today, you know? Squats and such."
-    r1 "Read my mind."
-    scene 32-6 gym 7 with Dissolve(1)
-    r1 "Look at these guys go. Definitely strong, don't you think?"
-    a "What? I'm sorry I wasn't listening."
-    r1 "Oh, that proves my point exactly. Haha."
-    a "I'm thinking since we've come here once, perhaps we should make this a regular thing?"
-    r1 "That is an absolutely perfect idea. We won't get those gains if we don't do it consistently."
-    a "Right."
-    scene 32-6 gym 8 with Dissolve(1)
-    "Rebecca was giving the guys seductive looks. But that was Rebecca's demeanor. She usually did those things."
-    "But the guys had already caught on, seeing two absolutely irresistible women."
-    "Walking around in such sexy, sporty outfits."
-    gym1 "Damn, look at those two."
-    gym1 "Absolute fucking knockouts, both of them..."
-    scene 32-6 gym 9 with Dissolve(1)
-    gym2 "Focus on my set dude, You're my spotter!"
-    gym2 "I'm barely benching the last rep and... You're looking at some girls."
-    gym1 "Oh, sorry. You looked like you got it all covered."
-    gym2 "Just, help me out, will you?"
-    scene 32-6 gym 10 with Dissolve(1)
-    a "So, How are things back at home with Carl?"
-    r1 "Oh, the usual. We are all good. But I'm curious about you."
-    r1 "Are you doing alright, all things considered?"
-    a "It's hard. I will be honest... But we women often have to deal with those things..."
-    r1 "'Hard'... Hehe..."
-    r1 "I'm sorry, Anna. Carry on."
-    a "I'm just trying to be hopeful that all this blows over soon and we can get back to normal lives."
-    a "I have plenty of things to worry about..."
-    scene 32-6 gym 11 with Dissolve(1)
-    "As they were stretching they were discussing the details of Anna's life."
-    r1 "All of this could've been avoided if not for Andrew..."
-    a "Yeah, I know. That is one of the things I have to deal with. But I have to do it on my own."
-    r1 "I understand, Anna. Just know that I'm here for you..."
-    a "Thanks, sis, I know that."
-    if TaxmanHelps == True:
-        a "After the evening with at Sergey's I was going home and I was arrested..."
-        r1 "What??? By the investigator?"
-        a "Yes... I won't go into heavy details right now, but I got a guy who got me out..."
-        r1 "Maybe you should have called Carl?"
-        a "I don't want to put you in danger..."
-        r1 "I see, thanks, Anna. But who helped you out?"
-        a "Just a friend who knows the law..."
-        r1 "So you've made some good friends in the city, huh?"
-        a "You could say that."
-    scene 32-6 gym 12 with Dissolve(1)
-    gym2 "Yeah, you were right about them. Total 10s. Don't often see these kinds of girls in this gym."
-    gym1 "I know right? Maybe we should 'help' them with their workout?"
-    gym2 "As if we are any professionals."
-    gym1 "Perhaps we could get their numbers, you know?"
-    gym2 "First I have to finish my benchpress."
-    scene 32-6 gym 13 with Dissolve(1)
-    a "And when I fix those recent issues, I will finally be able to focus on work properly and get things done."
-    a "My new promotion comes with certain perks. I want to earn as much as possible, you know? Go on a vacation as well."
-    r1 "Ah... Yes... Somewhere warm, preferably with palm trees. Haha..."
-    a "Exactly, I just want to get away from all of this for some time..."
-    if SergeySexContent == True:
-        a "And perhaps go with Sergey..."
+translate english RebeccaEventOne_66098bc4:
+    # "Anna entered the gym and immediately felt motivated to have a very good workout."
+    ""
 
-    r1 "You're still on about that? Perhaps you're just slutty, Anna... Haha..."
-    r1 "Not that there is anything wrong with it, you know?"
+translate english RebeccaEventOne_2937e1c1:
+    # "Rebecca was already there with her succulent breasts heaving in the air."
+    ""
+
+translate english RebeccaEventOne_9cb4296e:
+    # "Anna couldn't deny that Rebecca was a very beautiful big sister."
+    ""
+
+translate english RebeccaEventOne_e6f42ce1:
+    # a "{i}...Both of us seem to have inherited very curvacious bodies from our mom..."
+    a ""
+
+translate english RebeccaEventOne_0c3506ff:
+    # a "Hey, Rebecca. I'm sorry I'm a bit late..."
+    a ""
+
+translate english RebeccaEventOne_ee81d129:
+    # r1 "Anna! I'm so glad to see you. Don't worry, I already started to change."
+    r1 ""
+
+translate english RebeccaEventOne_82e5b2f1:
+    # r1 "Even though it's been just a couple of hours, I've missed you."
+    r1 ""
+
+translate english RebeccaEventOne_77ce3fc5:
+    # a "Oh, don't be like that, I'm always there when you need me and vice-versa."
+    a ""
+
+translate english RebeccaEventOne_d708354c:
+    # r1 "Always, dear Anna."
+    r1 ""
+
+translate english RebeccaEventOne_97529d6c:
+    # r1 "How has your day been so far?"
+    r1 ""
+
+translate english RebeccaEventOne_c4854e70:
+    # a "Oh... You know... It's has had its fair share of moments already."
+    a ""
+
+translate english RebeccaEventOne_38154360:
+    # r1 "Care to share? I'm curious about your life. Always have been."
+    r1 ""
+
+translate english RebeccaEventOne_f0623e1f:
+    # a "Nothing too exciting, though. Just work and some other things..."
+    a ""
+
+translate english RebeccaEventOne_9d1b583c:
+    # "Anna was reluctant to tell Rebecca about her 'interesting' examination at the doctor's office."
+    ""
+
+translate english RebeccaEventOne_35273c22:
+    # "Anna was wondering if she should talk about her day at the office."
+    ""
+
+translate english RebeccaEventOne_8f20dad3:
+    # a "She is so vile towards me and I don't even really know why..."
+    a ""
+
+translate english RebeccaEventOne_6d1b56ad:
+    # r1 "Oh, well. She's just probably jealous of you. Going up in the world."
+    r1 ""
+
+translate english RebeccaEventOne_22615c48:
+    # a "I don't really want to talk about her."
+    a ""
+
+translate english RebeccaEventOne_b810e426:
+    # a "Also, there is a corporate party in the works... And I forgot to choose a dress!"
+    a ""
+
+translate english RebeccaEventOne_b5cdb886:
+    # r1 "Oh, Anna. I will have to take you shopping, then. You have to look irresistible."
+    r1 ""
+
+translate english RebeccaEventOne_63e65388:
+    # a "Rebecca... Stop it... Haha."
+    a ""
+
+translate english RebeccaEventOne_938c2f20:
+    # a "Their planning to throw a party at Diane's place."
+    a ""
+
+translate english RebeccaEventOne_b810e426_1:
+    # a "Also, there is a corporate party in the works... And I forgot to choose a dress!"
+    a ""
+
+translate english RebeccaEventOne_659e8d7d:
+    # r1 "Oh, Anna. We will have to go shopping then. You have to look irresistible."
+    r1 ""
+
+translate english RebeccaEventOne_63e65388_1:
+    # a "Rebecca... Stop it... Haha."
+    a ""
+
+translate english RebeccaEventOne_190ca1a3:
+    # a "Anyway. I'm just focusing on work right now, a lot of stuff to do."
+    a ""
+
+translate english RebeccaEventOne_774b63e5:
+    # r1 "You got the promotion, right?"
+    r1 ""
+
+translate english RebeccaEventOne_609964c8:
+    # a "Yeah. I'm pretty excited as to how it will turn out. Hopefully I can earn more money."
+    a ""
+
+translate english RebeccaEventOne_c453bef2:
+    # a "And take care of Andrew's condition."
+    a ""
+
+translate english RebeccaEventOne_f8f33760:
+    # r1 "You're still on about him? Anna. Get your mind right about him..."
+    r1 ""
+
+translate english RebeccaEventOne_669c9c3f:
+    # r1 "He's cost us a lot of pain. And I, sure as hell, am not forgiving him..."
+    r1 ""
+
+translate english RebeccaEventOne_e3fbc1d7:
+    # a "I understand you... But still..."
+    a ""
+
+translate english RebeccaEventOne_9d3c866f:
+    # r1 "I'm not going to lecture you on what to do in your life, but a word of advice:"
+    r1 ""
+
+translate english RebeccaEventOne_8883ca22:
+    # r1 "If you decide to help him with the surgery, do it, but after that just forget about him..."
+    r1 ""
+
+translate english RebeccaEventOne_44402242:
+    # r1 "He's nothing but trouble. A guy who first needs to learn how to live his own life without screwing others over..."
+    r1 ""
+
+translate english RebeccaEventOne_81e67f3c:
+    # a "I guess there is some truth to those words."
+    a ""
+
+translate english RebeccaEventOne_c016d63c:
+    # r1 "Yeah, I know."
+    r1 ""
+
+translate english RebeccaEventOne_7b5cb355:
+    # r1 "But... Look at that outfit. Even I'm hardly able to resist, Anna."
+    r1 ""
+
+translate english RebeccaEventOne_b96b2787:
+    # a "Oh, yeah, something that I had stored away for these situations."
+    a ""
+
+translate english RebeccaEventOne_3f27d7ec:
+    # r1 "Well, all I can say is that you've got taste, honey."
+    r1 ""
+
+translate english RebeccaEventOne_37f733ba:
+    # r1 "All the guys at the gym will have difficulty concentrating, I bet."
+    r1 ""
+
+translate english RebeccaEventOne_d198a64f:
+    # a "Haha... Talk about difficulty concentrating, Rebecca. You are the definition of desirable."
+    a ""
+
+translate english RebeccaEventOne_556712c6:
+    # r1 "Now your just talking nonsense. Hehe..."
+    r1 ""
+
+translate english RebeccaEventOne_212480fa:
+    # a "I'm not. Haha."
+    a ""
+
+translate english RebeccaEventOne_652d8bed:
+    # "Both of them had finished the dressing room small talk and now it was time to get to work."
+    ""
+
+translate english RebeccaEventOne_f67c158f:
+    # r1 "So, do you have anything in mind for today? Any specific exercises?"
+    r1 ""
+
+translate english RebeccaEventOne_91754620:
+    # a "Umm... I've been out of practice, lately. I'm still thinking."
+    a ""
+
+translate english RebeccaEventOne_e5605311:
+    # a "I could do some leg workouts today, you know? Squats and such."
+    a ""
+
+translate english RebeccaEventOne_18f64271:
+    # r1 "Read my mind."
+    r1 ""
+
+translate english RebeccaEventOne_ae81b056:
+    # r1 "Look at these guys go. Definitely strong, don't you think?"
+    r1 ""
+
+translate english RebeccaEventOne_9db1ec6f:
+    # a "What? I'm sorry I wasn't listening."
+    a ""
+
+translate english RebeccaEventOne_841d9cfb:
+    # r1 "Oh, that proves my point exactly. Haha."
+    r1 ""
+
+translate english RebeccaEventOne_604fe2dc:
+    # a "I'm thinking since we've come here once, perhaps we should make this a regular thing?"
+    a ""
+
+translate english RebeccaEventOne_806b7704:
+    # r1 "That is an absolutely perfect idea. We won't get those gains if we don't do it consistently."
+    r1 ""
+
+translate english RebeccaEventOne_18e7d1e0:
+    # a "Right."
+    a ""
+
+translate english RebeccaEventOne_9b114663:
+    # "Rebecca was giving the guys seductive looks. But that was Rebecca's demeanor. She usually did those things."
+    ""
+
+translate english RebeccaEventOne_271c004b:
+    # "But the guys had already caught on, seeing two absolutely irresistible women."
+    ""
+
+translate english RebeccaEventOne_378d5cfa:
+    # "Walking around in such sexy, sporty outfits."
+    ""
+
+translate english RebeccaEventOne_92d91da8:
+    # gym1 "Damn, look at those two."
+    gym1 ""
+
+translate english RebeccaEventOne_18550b84:
+    # gym1 "Absolute fucking knockouts, both of them..."
+    gym1 ""
+
+translate english RebeccaEventOne_c9af8606:
+    # gym2 "Focus on my set dude, You're my spotter!"
+    gym2 ""
+
+translate english RebeccaEventOne_192bbb28:
+    # gym2 "I'm barely benching the last rep and... You're looking at some girls."
+    gym2 ""
+
+translate english RebeccaEventOne_13d7405d:
+    # gym1 "Oh, sorry. You looked like you got it all covered."
+    gym1 ""
+
+translate english RebeccaEventOne_2c004f96:
+    # gym2 "Just, help me out, will you?"
+    gym2 ""
+
+translate english RebeccaEventOne_f350a2b3:
+    # a "So, How are things back at home with Carl?"
+    a ""
+
+translate english RebeccaEventOne_f27ab8fc:
+    # r1 "Oh, the usual. We are all good. But I'm curious about you."
+    r1 ""
+
+translate english RebeccaEventOne_b9fb33e4:
+    # r1 "Are you doing alright, all things considered?"
+    r1 ""
+
+translate english RebeccaEventOne_fe833db6:
+    # a "It's hard. I will be honest... But we women often have to deal with those things..."
+    a ""
+
+translate english RebeccaEventOne_62c72ea0:
+    # r1 "'Hard'... Hehe..."
+    r1 ""
+
+translate english RebeccaEventOne_dd4b2edd:
+    # r1 "I'm sorry, Anna. Carry on."
+    r1 ""
+
+translate english RebeccaEventOne_7c8f3e8c:
+    # a "I'm just trying to be hopeful that all this blows over soon and we can get back to normal lives."
+    a ""
+
+translate english RebeccaEventOne_e9603a54:
+    # a "I have plenty of things to worry about..."
+    a ""
+
+translate english RebeccaEventOne_75480670:
+    # "As they were stretching they were discussing the details of Anna's life."
+    ""
+
+translate english RebeccaEventOne_60fb92b6:
+    # r1 "All of this could've been avoided if not for Andrew..."
+    r1 ""
+
+translate english RebeccaEventOne_4ad901fe:
+    # a "Yeah, I know. That is one of the things I have to deal with. But I have to do it on my own."
+    a ""
+
+translate english RebeccaEventOne_b9a085ea:
+    # r1 "I understand, Anna. Just know that I'm here for you..."
+    r1 ""
+
+translate english RebeccaEventOne_cfdd9ecb:
+    # a "Thanks, sis, I know that."
+    a ""
+
+translate english RebeccaEventOne_afc448ba:
+    # a "After the evening with at Sergey's I was going home and I was arrested..."
+    a ""
+
+translate english RebeccaEventOne_eb3aec5f:
+    # r1 "What??? By the investigator?"
+    r1 ""
+
+translate english RebeccaEventOne_01a91177:
+    # a "Yes... I won't go into heavy details right now, but I got a guy who got me out..."
+    a ""
+
+translate english RebeccaEventOne_3af0cd2b:
+    # r1 "Maybe you should have called Carl?"
+    r1 ""
+
+translate english RebeccaEventOne_025fdc43:
+    # a "I don't want to put you in danger..."
+    a ""
+
+translate english RebeccaEventOne_8f19eab3:
+    # r1 "I see, thanks, Anna. But who helped you out?"
+    r1 ""
+
+translate english RebeccaEventOne_eee51a9c:
+    # a "Just a friend who knows the law..."
+    a ""
+
+translate english RebeccaEventOne_ece63197:
+    # r1 "So you've made some good friends in the city, huh?"
+    r1 ""
+
+translate english RebeccaEventOne_5a0aa6ad:
+    # a "You could say that."
+    a ""
+
+translate english RebeccaEventOne_57a73233:
+    # gym2 "Yeah, you were right about them. Total 10s. Don't often see these kinds of girls in this gym."
+    gym2 ""
+
+translate english RebeccaEventOne_cce87a2f:
+    # gym1 "I know right? Maybe we should 'help' them with their workout?"
+    gym1 ""
+
+translate english RebeccaEventOne_dc60ec71:
+    # gym2 "As if we are any professionals."
+    gym2 ""
+
+translate english RebeccaEventOne_c83c1b77:
+    # gym1 "Perhaps we could get their numbers, you know?"
+    gym1 ""
+
+translate english RebeccaEventOne_7da580d9:
+    # gym2 "First I have to finish my benchpress."
+    gym2 ""
+
+translate english RebeccaEventOne_712f0bbf:
+    # a "And when I fix those recent issues, I will finally be able to focus on work properly and get things done."
+    a ""
+
+translate english RebeccaEventOne_42c085ce:
+    # a "My new promotion comes with certain perks. I want to earn as much as possible, you know? Go on a vacation as well."
+    a ""
+
+translate english RebeccaEventOne_af367dc9:
+    # r1 "Ah... Yes... Somewhere warm, preferably with palm trees. Haha..."
+    r1 ""
+
+translate english RebeccaEventOne_21db4606:
+    # a "Exactly, I just want to get away from all of this for some time..."
+    a ""
+
+translate english RebeccaEventOne_7c6a09ce:
+    # a "And perhaps go with Sergey..."
+    a ""
+
+translate english RebeccaEventOne_0cc0ae6b:
+    # r1 "You're still on about that? Perhaps you're just slutty, Anna... Haha..."
+    r1 ""
+
+translate english RebeccaEventOne_c03c0215:
+    # r1 "Not that there is anything wrong with it, you know?"
+    r1 ""
+
+translate english RebeccaEventOne_35a40dbf:
+    # r1 "That's enough stretching, let's get to work, huh?"
+    r1 ""
+
+translate english RebeccaEventOne_479ce0e7:
+    # a "Alright, but it looks like that rack is still taken."
+    a ""
+
+translate english RebeccaEventOne_1bf286da:
+    # r1 "Don't worry. A little bit of me and they won't be able to resist. Haha..."
+    r1 ""
+
+translate english RebeccaEventOne_265cc4de:
+    # a "Oh you devilish minx. You're always ready to get what you want by any means necessary."
+    a ""
+
+translate english RebeccaEventOne_b766e613:
+    # r1 "You know me well."
+    r1 ""
+
+translate english RebeccaEventOne_7fa585da:
+    # r1 "Hey guys, I was just wondering if you are still going to anything on this rack?"
+    r1 ""
+
+translate english RebeccaEventOne_a62ad7d9:
+    # r1 "We just want to do some squats and I wondered if you would allow us, two beautiful ladies, to do them?"
+    r1 ""
+
+translate english RebeccaEventOne_df8c49e0:
+    # gym1 "I'm... Sure... We can do that, sure..."
+    gym1 ""
+
+translate english RebeccaEventOne_433f86a6:
+    # r1 "Thanks. I appreciate that."
+    r1 ""
+
+translate english RebeccaEventOne_1dc726ad:
+    # gym1 "I was also wondering if you need a spotter, perhaps?"
+    gym1 ""
+
+translate english RebeccaEventOne_274ca46d:
+    # gym1 "You know, I could also give you some tips and stuff."
+    gym1 ""
+
+translate english RebeccaEventOne_044e7fc3:
+    # gym2 "Right, like you, did when spotting me..."
+    gym2 ""
+
+translate english RebeccaEventOne_cb5fc76d:
+    # gym1 "Shut it, dude. Haha."
+    gym1 ""
+
+translate english RebeccaEventOne_9ed62bcf:
+    # gym1 "He's just joking."
+    gym1 ""
+
+translate english RebeccaEventOne_fdc6db19:
+    # r1 "I think we will be alright, won't be lifting heavy."
+    r1 ""
+
+translate english RebeccaEventOne_a93fc4b0:
+    # gym1 "Sure, your loss, honey..."
+    gym1 ""
+
+translate english RebeccaEventOne_169dbc28:
+    # gym1 "Help me get those plates off, man!"
+    gym1 ""
+
+translate english RebeccaEventOne_86b0e227:
+    # gym2 "Yeah, got it."
+    gym2 ""
+
+translate english RebeccaEventOne_dedbd39f:
+    # "Anna was not saying anything and just letting Rebecca take care of everything."
+    ""
+
+translate english RebeccaEventOne_b38060f6:
+    # "She was, meanwhile thinking about other things."
+    ""
+
+translate english RebeccaEventOne_b8243b50:
+    # "She was thinking about her session with Carl and how that seemed rather wrong but felt so good..."
+    ""
+
+translate english RebeccaEventOne_68801226:
+    # "Recalling the amazing evening with Sergey, even if it was ruined by the detective..."
+    ""
+
+translate english RebeccaEventOne_cd18c970:
+    # "Remembering the interesting session with the taxman and his obsession with her legs and feet."
+    ""
+
+translate english RebeccaEventOne_3f827577:
+    # r1 "Thanks a lot guys."
+    r1 ""
+
+translate english RebeccaEventOne_26e363b6:
+    # gym1 "You bet."
+    gym1 ""
+
+translate english RebeccaEventOne_00fe22ef:
+    # r1 "Anyway, now that we have the floor, I guess we should do a warm-up set."
+    r1 ""
+
+translate english RebeccaEventOne_ae77d0de:
+    # a "Yeah, It's been a while, but I think I still remember the basics."
+    a ""
+
+translate english RebeccaEventOne_1a9b4ed2:
+    # r1 "Well, You were always the sportier one."
+    r1 ""
+
+translate english RebeccaEventOne_611aa25d:
+    # a "It used to help me take my mind off of things."
+    a ""
+
+translate english RebeccaEventOne_e81d88bd:
+    # a "I will go first, alright?"
+    a ""
+
+translate english RebeccaEventOne_05dd8b01:
+    # r1 "Yeah, absolutely, Anna."
+    r1 ""
+
+translate english RebeccaEventOne_8314f132:
+    # "Anna got into position, back straight, ass out."
+    ""
+
+translate english RebeccaEventOne_c7e80f84:
+    # "It felt natural, and her mind stopped worrying immediately."
+    ""
+
+translate english RebeccaEventOne_11f8ece6:
+    # a "{i}...Alright, I think I got the hang of this. Just warm up set..."
+    a ""
+
+translate english RebeccaEventOne_093f9e29:
+    # "Anna was putting in the effort, feeling strong and confident."
+    ""
+
+translate english RebeccaEventOne_80d3e894:
+    # a "{i}...Alright, a couple of more reps. This feels great..."
+    a ""
+
+translate english RebeccaEventOne_8ace0db6:
+    # "The guys were checking out Anna's form and ass, of course."
+    ""
+
+translate english RebeccaEventOne_008542eb:
+    # gym1 "Damn, This girl got some nice curves... That ass..."
+    gym1 ""
+
+translate english RebeccaEventOne_3f8fb382:
+    # "The guy was whispering to his friend."
+    ""
+
+translate english RebeccaEventOne_49667871:
+    # gym2 "I know... Amazing... It's always great to see girls squatting."
+    gym2 ""
+
+translate english RebeccaEventOne_1ff74545:
+    # "Deep squats, getting the glutes and quads involved effectively."
+    ""
+
+translate english RebeccaEventOne_d4836476:
+    # "The guys watching were as involved in her workout as was Anna."
+    ""
+
+translate english RebeccaEventOne_5473bc6a:
+    # gym1 "{i}...Damn, I would so go to town on her..."
+    gym1 ""
+
+translate english RebeccaEventOne_84a1910d:
+    # gym1 "{i}...She has amazing form, too... I love it when girls workout..."
+    gym1 ""
+
+translate english RebeccaEventOne_a2854a6d:
+    # gym1 "{i}...So fucking hot..."
+    gym1 ""
+
+translate english RebeccaEventOne_8f63ead2:
+    # "Anna finished her set and felt exhilarated."
+    ""
+
+translate english RebeccaEventOne_a2670f35:
+    # a "That was great. I feel so good already. Hehe..."
+    a ""
+
+translate english RebeccaEventOne_7d9e2500:
+    # r1 "I know! Let me go next. I need to get those glutes workin'..."
+    r1 ""
+
+translate english RebeccaEventOne_3be703f3:
+    # a "Sure, the floor's yours, Rebecca."
+    a ""
+
+translate english RebeccaEventOne_609a031e:
+    # r1 "Can't let my sister take all the spotlight, hehe..."
+    r1 ""
+
+translate english RebeccaEventOne_2d5da574:
+    # a "I couldn't do that, even if I tried."
+    a ""
+
+translate english RebeccaEventOne_674bd806:
+    # r1 "Right... If you'd see how the guys were looking at you..."
+    r1 ""
+
+translate english RebeccaEventOne_6ec9a3a4:
+    # r1 "Tell me, is my form correct?"
+    r1 ""
+
+translate english RebeccaEventOne_e9641703:
+    # a "Yeah, it's good. Keep going."
+    a ""
+
+translate english RebeccaEventOne_859c36c4:
+    # r1 "Well? Is my ass bigger already?"
+    r1 ""
+
+translate english RebeccaEventOne_551dea74:
+    # a "Haha... You wish..."
+    a ""
+
+translate english RebeccaEventOne_bb1df7c7:
+    # r1 "Well, my confidence is bigger, definitely."
+    r1 ""
+
+translate english RebeccaEventOne_b29c58ef:
+    # a "Couldn't agree more. I feel great."
+    a ""
+
+translate english RebeccaEventOne_fe264e79:
+    # a "So... Let's add some weight now?"
+    a ""
+
+translate english RebeccaEventOne_b22f008b:
+    # r1 "Are you sure that we should add weight already?"
+    r1 ""
+
+translate english RebeccaEventOne_9844d1e8:
+    # a "Yeah, won't put much."
+    a ""
+
+translate english RebeccaEventOne_b49f5489:
+    # "While Anna and Rebecca were prepping weights, King had arrived."
+    ""
+
+translate english RebeccaEventOne_9e84181d:
+    # k1 "Hey, guys. Slacking off in the gym again? Haha..."
+    k1 ""
+
+translate english RebeccaEventOne_f0fb2c07:
+    # gym2 "Oh, cmon dude, give us a break. We won't look like you anyway."
+    gym2 ""
+
+translate english RebeccaEventOne_07c3d7e4:
+    # k1 "Well, perhaps not like me, but we can all always improve ourselves."
+    k1 ""
+
+translate english RebeccaEventOne_9faf740e:
+    # k1 "Never compare yourself to others. That's an insult to you."
+    k1 ""
+
+translate english RebeccaEventOne_aacdac30:
+    # gym1 "Wise words from an 'actor'... Haha..."
+    gym1 ""
+
+translate english RebeccaEventOne_e9f599fc:
+    # k1 "Hey, listen. No need to be rude, got it? There is already unnecessary stigma around us."
+    k1 ""
+
+translate english RebeccaEventOne_2a1b3758:
+    # k1 "And most of which is untrue. Got it?"
+    k1 ""
+
+translate english RebeccaEventOne_43916b4f:
+    # gym1 "Yeah... Alright..."
+    gym1 ""
+
+translate english RebeccaEventOne_ea2d1847:
+    # "Anna was doing her second set and was very focused and motivated."
+    ""
+
+translate english RebeccaEventOne_f8ecafd0:
+    # "Pushing herself with ever repetition."
+    ""
+
+translate english RebeccaEventOne_6557f803:
+    # "King immediately noticed that it was Anna."
+    ""
+
+translate english RebeccaEventOne_58a6b4eb:
+    # k1 "{i}...Anna? I could recognize those thighs and ass anywhere..."
+    k1 ""
+
+translate english RebeccaEventOne_23117b55:
+    # k1 "Hey, girls. Looking good."
+    k1 ""
+
+translate english RebeccaEventOne_546c8067:
+    # a "King? What are you doing here... Give me a second to finish..."
+    a ""
+
+translate english RebeccaEventOne_8a102639:
+    # k1 "Absolutely, workout comes first."
+    k1 ""
+
+translate english RebeccaEventOne_970f29c6:
+    # r1 "King? Who's this handsome gentleman, Anna?"
+    r1 ""
+
+translate english RebeccaEventOne_1c57ab6f:
+    # a "Umm, This is a colleague from Dilan's shoots. I recently met him."
+    a ""
+
+translate english RebeccaEventOne_647cbb5b:
+    # a "What are you doing here? We haven't had much time to get acquainted."
+    a ""
+
+translate english RebeccaEventOne_4554f1ad:
+    # k1 "No worries, there's always time for that."
+    k1 ""
+
+translate english RebeccaEventOne_bc51310c:
+    # k1 "We will, of course, get to know each other later on, if you know what I mean..."
+    k1 ""
+
+translate english RebeccaEventOne_2bc64ece:
+    # a "That would be nice, I like to know my co-workers."
+    a ""
+
+translate english RebeccaEventOne_f95188b9:
+    # a "Anna? Introduce me?"
+    a ""
+
+translate english RebeccaEventOne_d9cf61c5:
+    # a "Oh, Sorry. This is my lovely sister Rebecca."
+    a ""
+
+translate english RebeccaEventOne_3ee9d909:
+    # k1 "Pleasure... Pleasure, indeed."
+    k1 ""
+
+translate english RebeccaEventOne_91366dbb:
+    # k1 "{i}...Look at those curves..."
+    k1 ""
+
+translate english RebeccaEventOne_901b0b6d:
+    # k1 "{i}...Mmm... I wonder if I could score them both..."
+    k1 ""
+
+translate english RebeccaEventOne_e064e91c:
+    # r1 "Definitely a gentleman, What's your name?"
+    r1 ""
+
+translate english RebeccaEventOne_9f5584eb:
+    # k1 "People just call me King."
+    k1 ""
+
+translate english RebeccaEventOne_ad934c8b:
+    # r1 "Very nice to meet you, King... Hehe..."
+    r1 ""
+
+translate english RebeccaEventOne_04884ad9:
+    # k1 "Anyway, By the looks of it, you girls are doing squats today?"
+    k1 ""
+
+translate english RebeccaEventOne_1350a468:
+    # r1 "Yeah, it's my turn by the way..."
+    r1 ""
+
+translate english RebeccaEventOne_7c0a0a9e:
+    # k1 "Please, the floor's yours."
+    k1 ""
+
+translate english RebeccaEventOne_ba9d8ad1:
+    # "Rebecca got into position and tried to be extra succulent because she seemed to like King."
+    ""
+
+translate english RebeccaEventOne_ab694e85:
+    # "She wanted to get his attention..."
+    ""
+
+translate english RebeccaEventOne_fe2857c0:
+    # k1 "{i}...Damn... She's one fine lady..."
+    k1 ""
+
+translate english RebeccaEventOne_a7e31cbc:
+    # k1 "You got great form, but we can always make it a bit better."
+    k1 ""
+
+translate english RebeccaEventOne_7ee3052a:
+    # k1 "If, I may?"
+    k1 ""
+
+translate english RebeccaEventOne_b6df2751:
+    # r1 "Absolutely... I will take all the help I can get."
+    r1 ""
+
+translate english RebeccaEventOne_e803a7c9:
+    # "King got closer to Rebecca and started to lead her."
+    ""
+
+translate english RebeccaEventOne_63ebabcb:
+    # k1 "On the down movement tried to go slower. Eccentric movement requires slower momentum. Feel the muscle, squeeze it."
+    k1 ""
+
+translate english RebeccaEventOne_36e576b2:
+    # k1 "And when you go up, try explosive strength, and exhale as you go up."
+    k1 ""
+
+translate english RebeccaEventOne_c5f8d273:
+    # k1 "It helps both mentally and physically."
+    k1 ""
+
+translate english RebeccaEventOne_a2f3f531:
+    # r1 "Oh, you know your stuff, huh?"
+    r1 ""
+
+translate english RebeccaEventOne_a3966836:
+    # "Anna also was paying attention, but it seemed that King was paying a lot of attention to Rebecca."
+    ""
+
+translate english RebeccaEventOne_308b5821:
+    # k1 "Excellent. As you come down, squeeze the muscle, feel the tension. And remember to go slow."
+    k1 ""
+
+translate english RebeccaEventOne_a85197be:
+    # r1 "Like this?"
+    r1 ""
+
+translate english RebeccaEventOne_707e050a:
+    # k1 "Yes, exactly. You've got great form. And great structure. It's good to work with people who pay attention."
+    k1 ""
+
+translate english RebeccaEventOne_eca08c2f:
+    # "It looked like Rebecca was enjoying herself a lot. King was doing his best to leave a good impression."
+    ""
+
+translate english RebeccaEventOne_7c1a8d13:
+    # "And he was succeeding..."
+    ""
+
+translate english RebeccaEventOne_7e81e42c:
+    # a "{i}...Rebecca really seems into it now..."
+    a ""
+
+translate english RebeccaEventOne_3f9c0715:
+    # r1 "Damn it's getting a bit too heavy..."
+    r1 ""
+
+translate english RebeccaEventOne_4054971f:
+    # k1 "Just a little bit lower. I will help you."
+    k1 ""
+
+translate english RebeccaEventOne_7b4b12f6:
+    # "King pushed close to Rebecca with his crotch... And she didn't mind..."
+    ""
+
+translate english RebeccaEventOne_796e29ff:
+    # k1 "Let me just adjust your posture a bit. To get most effectiveness."
+    k1 ""
+
+translate english RebeccaEventOne_622829d6:
+    # k1 "With time you will become proficient and won't need anyone behind you."
+    k1 ""
+
+translate english RebeccaEventOne_eeb37440:
+    # k1 "Do you feel it? Do you feel the squeeze?"
+    k1 ""
+
+translate english RebeccaEventOne_5513cd73:
+    # r1 "Yeah... but it's tough..."
+    r1 ""
+
+translate english RebeccaEventOne_99fdaf46:
+    # k1 "Remember to push a bit. But don't overdo it, if it's your first training..."
+    k1 ""
+
+translate english RebeccaEventOne_0054b893:
+    # r1 "Ok..."
+    r1 ""
+
+translate english RebeccaEventOne_e5f882ca:
+    # "Anna was feeling a bit jealous, King wasn't giving her this kind of attention..."
+    ""
+
+translate english RebeccaEventOne_fb41061a:
+    # k1 "And now let's go up. I got you."
+    k1 ""
+
+translate english RebeccaEventOne_4782fea7:
+    # k1 "Yeah, just like that..."
+    k1 ""
+
+translate english RebeccaEventOne_33872371:
+    # k1 "You are doing great..."
+    k1 ""
+
+translate english RebeccaEventOne_2457ea6e:
+    # r1 "{i}...Oh... This man knows what he's doing..."
+    r1 ""
+
+translate english RebeccaEventOne_c1f877f7:
+    # r1 "{i}...I'm already getting hot..."
+    r1 ""
+
+translate english RebeccaEventOne_315de443:
+    # "King had started to touch Rebecca's breasts, but she didn't mind, in fact, she was enjoying it..."
+    ""
+
+translate english RebeccaEventOne_86dc4954:
+    # r1 "{i}...Keep going... Ah..."
+    r1 ""
+
+translate english RebeccaEventOne_b090d301:
+    # r1 "{i}...Maybe I should try something with him..."
+    r1 ""
+
+translate english RebeccaEventOne_7648f513:
+    # r1 "Ouch... I think I hurt myself a bit..."
+    r1 ""
+
+translate english RebeccaEventOne_acab097d:
+    # k1 "Perhaps you overdid it..."
+    k1 ""
+
+translate english RebeccaEventOne_723e5a8c:
+    # k1 "Did you warm-up and stretch?"
+    k1 ""
+
+translate english RebeccaEventOne_2d25d7cd:
+    # r1 "Yeah... I think I just got a bit carried away..."
+    r1 ""
+
+translate english RebeccaEventOne_6bdd0201:
+    # k1 "Ah...It's understandable. What's hurting?"
+    k1 ""
+
+translate english RebeccaEventOne_7ce1e5f7:
+    # r1 "I think I strained my hamstring a bit..."
+    r1 ""
+
+translate english RebeccaEventOne_fb806741:
+    # k1 "Ah... No worries, I can help with that as well..."
+    k1 ""
+
+translate english RebeccaEventOne_cbb09a3f:
+    # k1 "I can massage it for you if you wish?"
+    k1 ""
+
+translate english RebeccaEventOne_0384222d:
+    # r1 "Really? Sure... That would help a lot..."
+    r1 ""
+
+translate english RebeccaEventOne_26947bae:
+    # a "Will you be alright?"
+    a ""
+
+translate english RebeccaEventOne_dbfaa61e:
+    # r1 "Absolutely. I trust that King will take good care of my hamstring..."
+    r1 ""
+
+translate english RebeccaEventOne_15ba2d1b:
+    # k1 "Just to make sure, I'm a certified physician in my free time as well."
+    k1 ""
+
+translate english RebeccaEventOne_4f7827d7:
+    # r1 "Really? That's very interesting."
+    r1 ""
+
+translate english RebeccaEventOne_849c68dd:
+    # k1 "Yeah, so I will do my best to ease your pain..."
+    k1 ""
+
+translate english RebeccaEventOne_f251e49e:
+    # r1 "Alright, We will be going... Take care, Anna."
+    r1 ""
+
+translate english RebeccaEventOne_e65f5571:
+    # k1 "See you at the set... Alright? We can talk more then."
+    k1 ""
+
+translate english RebeccaEventOne_b300723a:
+    # k1 "Don't worry, I will take good care of your sister."
+    k1 ""
+
+translate english RebeccaEventOne_5eaa021a:
+    # a "Sure guys, I'll just finish here and stretch a bit."
+    a ""
+
+translate english RebeccaEventOne_fd6420ba:
+    # a "{i}...What just happened?..."
+    a ""
+
+translate english RebeccaEventOne_52fa7857:
+    # a "{i}...He didn't help me with my sets... Bastard..."
+    a ""
+
+translate english RebeccaEventOne_5a690a75:
+    # a "{i}...Well played, sister..."
+    a ""
+
+translate english RebeccaEventOne_84d7c319:
+    # a "{i}...Well played..."
+    a ""
+
+translate english RebeccaEventOne_7358f94b:
+    # r1 "{i}...I see that Anna is a bit jelly..."
+    r1 ""
+
+translate english RebeccaEventOne_2ef72a64:
+    # r1 "{i}...Since she had some fun with Carl, I will do the same with her friend... hehe..."
+    r1 ""
+
+translate english RebeccaEventOne_b4afe9cc:
+    # "Anna was dumbfounded... She could see that Rebecca was enjoying King's presence."
+    ""
+
+translate english RebeccaEventOne_89d17de6:
+    # "But she didn't know King well and this would have been a good time to get to know him."
+    ""
+
+translate english RebeccaEventOne_601db37f:
+    # a "{i}...Oh well, I guess I will just have to find some time to talk to him at the set..."
+    a ""
+
+translate english RebeccaEventOne_7e32f1d2:
+    # "Anna finished her workout and put the plates back in their place."
+    ""
+
+translate english RebeccaEventOne_ea91de17:
+    # "Her workout was over as well, just to stretch out and warm down after the vigorous workout."
+    ""
+
+translate english RebeccaEventOne_30f2fcc0:
+    # a "{i}...I hope Rebecca will be alright... And since he is a physician she should be fine..."
+    a ""
+
+translate english RebeccaEventOne_4edf7271:
+    # a "{i}...Just got to stretch out and get going... Will have to talk to him later..."
+    a ""
+
+translate english RebeccaEventOne_a7807bb3:
+    # a "{i}...It's today... So I have to be on my A-game..."
+    a ""
+
+translate english RebeccaEventOne_4a6484c5:
+    # a "{i}...This was a very nice workout... Perhaps I should make it a regular thing..."
+    a ""
+
+translate english RebeccaEventOne_03eb0b47:
+    # a "{i}...Perhaps I could even meet King here again... He could give me some useful tips..."
+    a ""
+
+translate english RebeccaEventOne_60f697e0:
+    # a "{i}...This has really helped me take my mind off of things..."
+    a ""
+
+translate english RebeccaEventOne_0cc0ab64:
+    # a "{i}...And I've made some physical progress in the process..."
+    a ""
+
+translate english RebeccaEventOne_41a8647b:
+    # a "Alright, just a little bit more, and then I have to get going."
+    a ""
+
+translate english RebeccaEventOne_b00ccb25:
+    # a "{i}...I wonder if King will fix Rebecca's hamstring before I leave..."
+    a ""
+
+translate english RebeccaEventOne_f56c064b:
+    # "Anna was doing the last stretching exercise to release the tension in the muscles. For better recovery."
+    ""
+
+translate english RebeccaEventOne_c30e612b:
+    # a "{i}...Ok, this is enough... I should get going..."
+    a ""
+
+translate english RebeccaEventOne_b23db318:
+    # gym1 "Hey, You're done already?"
+    gym1 ""
+
+translate english RebeccaEventOne_2b5b66f2:
+    # a "It's enough for the first time."
+    a ""
+
+translate english RebeccaEventOne_9e2d98da:
+    # gym2 "We're glad that there are good-looking girls, such as yourself, coming to the gym."
+    gym2 ""
+
+translate english RebeccaEventOne_bafa9c1a:
+    # gym1 "I hope that you come here again some time."
+    gym1 ""
+
+translate english RebeccaEventOne_9917156d:
+    # a "Well, I'm thinking of making it a habit, so perhaps. Hehe..."
+    a ""
+
+translate english RebeccaEventOne_c7246a7c:
+    # gym1 "Awesome... I mean, great... That's good for you..."
+    gym1 ""
+
+translate english RebeccaEventOne_cb4addb7:
+    # a "I will get going. Bye."
+    a ""
+
+translate english RebeccaEventOne_d2d13e54:
+    # gym1 "Take care."
+    gym1 ""
+
+translate english RebeccaEventOne_0c3890c2:
+    # "The workout had been very exhilarating and did well for Anna's thoughts."
+    ""
+
+translate english RebeccaEventOne_089024f5:
+    # "She had some time to lay off all the problems but also get clear-headed as to what to do."
+    ""
+
+translate english RebeccaEventOne_d33c4d3b:
+    # a "{i}...Ah... Very nice, now for a good shower and then I have to get going..."
+    a ""
+
+translate english RebeccaEventOne_4ec720e3:
+    # a "{i}...Rebecca must be in the shower already..."
+    a ""
+
+translate english RebeccaEventOne_93818401:
+    # "Anna undressed and went to the showers."
+    ""
+
+translate english ShowerFuck_3d93324c:
+    # "She was checking if they were empty, but..."
+    ""
+
+translate english ShowerFuck_ef1d0e71:
+    # "She heard some talking. A low voice and a female voice."
+    ""
+
+translate english ShowerFuck_b46ce8f9:
+    # a "{i}...I wonder what's that about..."
+    a ""
+
+translate english ShowerFuck_e60dee8d:
+    # "As she was entering the showers she saw..."
+    ""
+
+translate english ShowerFuck_8d1cfdeb:
+    # "Rebecca and it was clear that King was in there with her."
+    ""
+
+translate english ShowerFuck_d5d05ee4:
+    # "Anna couldn't get a good look yet, but she was surprised."
+    ""
+
+translate english ShowerFuck_6d3b9de7:
+    # a "{i}...Wait, is Rebecca with King?..."
+    a ""
+
+translate english ShowerFuck_f4b03009:
+    # "Multiple questions filled Anna's mind."
+    ""
+
+translate english ShowerFuck_fb9aeb0a:
+    # a "{i}...Is she up to no good?..."
+    a ""
+
+translate english ShowerFuck_54fa0839:
+    # k1 "You've got some amazing tits, Rebecca."
+    k1 ""
+
+translate english ShowerFuck_299a752e:
+    # r1 "Why, thank you... I can see that you like them... From down there..."
+    r1 ""
+
+translate english ShowerFuck_1601f2f3:
+    # k1 "I know... Would you like to touch it?"
+    k1 ""
+
+translate english ShowerFuck_fd3695df:
+    # r1 "Would I? Yes!"
+    r1 ""
+
+translate english ShowerFuck_43b02827:
+    # "Anna was witnessing all of this unfold..."
+    ""
+
+translate english ShowerFuck_c568db37:
+    # "But she couldn't be completely surprise because of what she had done herself..."
+    ""
+
+translate english ShowerFuck_ab930a5a:
+    # "With Carl..."
+    ""
+
+translate english ShowerFuck_c1102fac:
+    # r1 "Oh, it feels so large in my hand... I'm getting hot..."
+    r1 ""
+
+translate english ShowerFuck_d9d340bb:
+    # k1 "Let me tell you, babe... You are already hot..."
+    k1 ""
+
+translate english ShowerFuck_64a8e4ff:
+    # k1 "I just craved you the moment I saw you in the gym..."
+    k1 ""
+
+translate english ShowerFuck_4fa878e9:
+    # "Anna heard their conversation and was a bit jealous..."
+    ""
+
+translate english ShowerFuck_cef56415:
+    # "She was supposed to work with him later on in the day..."
+    ""
+
+translate english ShowerFuck_a1365c6d:
+    # a "{i}...Oh, you cheeky bastards... Alright, alright... hehe..."
+    a ""
+
+translate english ShowerFuck_699a3fcd:
+    # "Anna was plotting her revenge on King..."
+    ""
+
+translate english ShowerFuck_ec3a61be:
+    # "She was going to torture him during the porn-shoot..."
+    ""
+
+translate english ShowerFuck_36428f13:
+    # r1 "Oh... You sexual monster... Haha..."
+    r1 ""
+
+translate english ShowerFuck_114605b3:
+    # r1 "And you are probably very good in bed... Knowing the fact that you're an actor..."
+    r1 ""
+
+translate english ShowerFuck_743bdbf8:
+    # k1 "Well... I was even before all of that... I'm a natural... Heh..."
+    k1 ""
+
+translate english ShowerFuck_988283a3:
+    # r1 "And very confident. I like that."
+    r1 ""
+
+translate english ShowerFuck_5847668e:
+    # k1 "Come here. I want you... I want you hard, Rebecca..."
+    k1 ""
+
+translate english ShowerFuck_6f417609:
+    # r1 "Oh... Please... Don't keep me waiting... I want you, too."
+    r1 ""
+
+translate english ShowerFuck_9a130337:
+    # "The tension in the shower room was increasing. Rebecca was very aroused and ready."
+    ""
+
+translate english ShowerFuck_fa562c55:
+    # "King just wanted to fuck that perfect pussy..."
+    ""
+
+translate english ShowerFuck_836c4f58:
+    # "He quickly turned Rebecca around."
+    ""
+
+translate english ShowerFuck_b4c914b2:
+    # k1 "Are you ready? Do you want to be fucked by my hard cock?"
+    k1 ""
+
+translate english ShowerFuck_3b7f2ca0:
+    # "She felt his stiff tool pressing against her butt cheeks."
+    ""
+
+translate english ShowerFuck_27563933:
+    # r1 "Yes... Please, penetrate me..."
+    r1 ""
+
+translate english ShowerFuck_78c67b53:
+    # "King went closer to her ear and whispered something to her."
+    ""
+
+translate english ShowerFuck_21caddd2:
+    # k1 "Ce sera une excellente baise..."
+    k1 ""
+
+translate english ShowerFuck_1cc0911d:
+    # r1 "Oh... You know French?"
+    r1 ""
+
+translate english ShowerFuck_fdb3f516:
+    # k1 "Yes... Je vais baiser ta chatte, salope."
+    k1 ""
+
+translate english ShowerFuck_f6592c1b:
+    # "Without any more hesitation, King entered Rebecca's snatch."
+    ""
+
+translate english ShowerFuck_61fa0fb7:
+    # "And it welcomed his dick with open arms..."
+    ""
+
+translate english ShowerFuck_6737b202:
+    # r1 "Oh... Fuck... That feels amazing..."
+    r1 ""
+
+translate english ShowerFuck_f1d36b21:
+    # k1 "Yeah... Your pussy is mesmerizing..."
+    k1 ""
+
+translate english ShowerFuck_e8cabdc8:
+    # r1 "Go faster, please..."
+    r1 ""
+
+translate english ShowerFuck_61062320:
+    # k1 "My thoughts exactly."
+    k1 ""
+
+translate english ShowerFuck_227d84a9:
+    # "They had started to fuck vigorously."
+    ""
+
+translate english ShowerFuck_1774e871:
+    # "Anna felt rather interesting. She was also a bit horny."
+    ""
+
+translate english ShowerFuck_a4b9911a:
+    # "And their passionate fucking wasn't helping her."
+    ""
+
+translate english ShowerFuck_f2ea7547:
+    # a "{i}...They are so loud as well... Rebecca..."
+    a ""
+
+translate english ShowerFuck_b5ea71fc:
+    # a "{i}...What do I do now? Should I watch?..."
+    a ""
+
+translate english ShowerFuck_c6c6cc94:
+    # "Anna couldn't just look away. She was into it..."
+    ""
+
+translate english ShowerFuck_4eb91c4b:
+    # "She liked what she saw... It was so full of emotion..."
+    ""
+
+translate english ShowerFuck_196b3b34:
+    # a "{i}...They look so hot while fucking... Oh..."
+    a ""
+
+translate english ShowerFuck_54e0c630:
+    # a "{i}...I'm starting to get horny as well..."
+    a ""
+
+translate english ShowerFuck_2e74bccc:
+    # "King grabbed Rebecca for more grip and control."
+    ""
+
+translate english ShowerFuck_7524e93f:
+    # "She was completely under his power."
+    ""
+
+translate english ShowerFuck_22b15e44:
+    # "And she liked it..."
+    ""
+
+translate english ShowerFuck_f36a98ec:
+    # r1 "{i}...Oh... Fuck me... He is so good..."
+    r1 ""
+
+translate english ShowerFuck_bf702b68:
+    # r1 "Fuck me... Yes... It's so good... Ah..."
+    r1 ""
+
+translate english ShowerFuck_0bb761dc:
+    # "King was fucking like a bull. Without stopping..."
+    ""
+
+translate english ShowerFuck_53ba49cd:
+    # "Pure thrusting in and out."
+    ""
+
+translate english ShowerFuck_662297a0:
+    # "Rebecca was getting that dick hard. And she wanted nothing less..."
+    ""
+
+translate english ShowerFuck_3d5013d7:
+    # "Completely spaced out in pleasure. She wanted to be rammed like this..."
+    ""
+
+translate english ShowerFuck_3f268d06:
+    # a "{i}...She is so into it... This is weird... What about Carl..."
+    a ""
+
+translate english ShowerFuck_4b59c410:
+    # a "{i}...But then again... Can't say that Carl is any better..."
+    a ""
+
+translate english ShowerFuck_1678cc52:
+    # a "{i}...Or that I'm any better... Oh... This is very interesting..."
+    a ""
+
+translate english ShowerFuck_533c7342:
+    # "The penetration was deep and satisfying for both of them."
+    ""
+
+translate english ShowerFuck_a55c5b9d:
+    # "King was surprised as to how well her pussy was taking his cock."
+    ""
+
+translate english ShowerFuck_4c6f67a6:
+    # k1 "{i}...This girl is so fucking hot... I'm having difficulty focusing..."
+    k1 ""
+
+translate english ShowerFuck_fc241d6a:
+    # "He felt that it was slowly closing in, but he wasn't about to let someone beat him."
+    ""
+
+translate english ShowerFuck_b34785dc:
+    # "For King it was about going longer, being better, doing it faster..."
+    ""
+
+translate english ShowerFuck_b385d795:
+    # r1 "Ah... This is fucking amazing..."
+    r1 ""
+
+translate english ShowerFuck_944f63f6:
+    # r1 "Your cock... It's so great... Ah..."
+    r1 ""
+
+translate english ShowerFuck_97faa37f:
+    # "King picked her leg up."
+    ""
+
+translate english ShowerFuck_306d0051:
+    # k1 "Give me your tongue..."
+    k1 ""
+
+translate english ShowerFuck_41167b84:
+    # r1 "Call me your bitch, please..."
+    r1 ""
+
+translate english ShowerFuck_1bd1a88a:
+    # k1 "I want to kiss you, slut..."
+    k1 ""
+
+translate english ShowerFuck_ef5c44f7:
+    # r1 "Ah...."
+    r1 ""
+
+translate english ShowerFuck_79b55ff9:
+    # "They were kissing passionately."
+    ""
+
+translate english ShowerFuck_a0109248:
+    # "They're intercourse was full of sexual energy."
+    ""
+
+translate english ShowerFuck_43b78554:
+    # "Rebecca was in ecstasy. Enjoying the full length of King's cock."
+    ""
+
+translate english ShowerFuck_e04ebb81:
+    # r1 "Ah... I can't believe how good it is... ah..."
+    r1 ""
+
+translate english ShowerFuck_c6fda4b3:
+    # r1 "Fuck me harder, King! Please..."
+    r1 ""
+
+translate english ShowerFuck_dcaf23c6:
+    # "Anna was so hot from watching that, it was hard to look away."
+    ""
+
+translate english ShowerFuck_87bfe34c:
+    # "The moans could be heard throughout the entire locker room and showers."
+    ""
+
+translate english ShowerFuck_1b1fd61a:
+    # "Ohh my God... So good..."
+    ""
+
+translate english ShowerFuck_0fd8c17a:
+    # k1 "Tu aimes ça, salope?"
+    k1 ""
+
+translate english ShowerFuck_9f08db94:
+    # r1 "Huh? Your french is so hot..."
+    r1 ""
+
+translate english ShowerFuck_f889232b:
+    # k1 "You like it, slut?"
+    k1 ""
+
+translate english ShowerFuck_56e186ee:
+    # r1 "Yes!!! I love it..."
+    r1 ""
+
+translate english ShowerFuck_1925161f:
+    # k1 "Your so hot... I love your fucking curves, I would wanna fuck you so long..."
+    k1 ""
+
+translate english ShowerFuck_d311a065:
+    # "Anna could hear everything and had become really horny."
+    ""
+
+translate english ShowerFuck_788bfa96:
+    # "She had started to touch herself lightly... She hadn't even noticed. She was doing it involuntarily..."
+    ""
+
+translate english ShowerFuck_8f088f07:
+    # a "{i}...Oh... Rebecca... You dirty slut... I love it..."
+    a ""
+
+translate english ShowerFuck_a36ce2f3:
+    # a "{i}...King is pretty hot too actually..."
+    a ""
+
+translate english ShowerFuck_3bafa845:
+    # a "{i}...Whispering some dirty things in French. Who knows what he's saying..."
+    a ""
+
+translate english ShowerFuck_65ce8bb7:
+    # "Anna was overtaken by all those thoughts..."
+    ""
+
+translate english ShowerFuck_761a8f48:
+    # "The penetration was heavenly for Rebecca..."
+    ""
+
+translate english ShowerFuck_007cc5ed:
+    # "It felt so hot for her. She had no idea the day will turn out like this..."
+    ""
+
+translate english ShowerFuck_63c14219:
+    # r1 "Ah... Fuck me harder..."
+    r1 ""
+
+translate english ShowerFuck_22a0c434:
+    # k1 "As you wish..."
+    k1 ""
+
+translate english ShowerFuck_694eb3de:
+    # "King was penetrating her faster and deeper."
+    ""
+
+translate english ShowerFuck_21179970:
+    # "Rebecca's and King's fucking had reached its peak... They were fucking with embellishing moans and heavy breaths."
+    ""
+
+translate english ShowerFuck_1040ad52:
+    # "Rebecca felt intertwined with King... In a sex-induced high."
+    ""
+
+translate english ShowerFuck_bba33c76:
+    # r1 "Fuck... My pussy... King... Oh..."
+    r1 ""
+
+translate english ShowerFuck_13d94af4:
+    # k1 "Ah... Yeah... I love it..."
+    k1 ""
+
+translate english ShowerFuck_674a2689:
+    # r1 "Fuck me, fuck me, fuck me..."
+    r1 ""
+
+translate english ShowerFuck_5d199955:
+    # "The climax was starting to build up..."
+    ""
+
+translate english ShowerFuck_376fca4c:
+    # "King felt as if he was reaching his threshold..."
+    ""
+
+translate english ShowerFuck_d829bea5:
+    # "... And so was Rebecca..."
+    ""
+
+translate english ShowerFuck_f96cc1a5:
+    # "She couldn't hold herself any longer."
+    ""
+
+translate english ShowerFuck_0cfc70d2:
+    # r1 "Fuck... I'm getting so close... Oh my god..."
+    r1 ""
+
+translate english ShowerFuck_49189bd8:
+    # r1 "King... Ah..."
+    r1 ""
+
+translate english ShowerFuck_735a2a25:
+    # k1 "Yeah... I'm getting close, too!!"
+    k1 ""
+
+translate english ShowerFuck_6e277e73:
+    # k1 "Ahhh... You want my cum?"
+    k1 ""
+
+translate english ShowerFuck_2c22e3c9:
+    # r1 "Yes!! Give it all to mee, I'm coming aahhh..."
+    r1 ""
+
+translate english ShowerFuck_c25a9f06:
+    # r1 "Ahh... I'm CUMMIINGGG!!!"
+    r1 ""
+
+translate english ShowerFuck_e5e3479e:
+    # k1 "Fuck me tooo!!! OHHH..."
+    k1 ""
+
+translate english ShowerFuck_ab9be834:
+    # r1 "Flood me with your cum!!"
+    r1 ""
+
+translate english ShowerFuck_6dac9c44:
+    # k1 "FUUUUCKK."
+    k1 ""
+
+translate english ShowerFuck_ac231aa1:
+    # k1 "Prends ma putain de sperme!!"
+    k1 ""
+
+translate english ShowerFuck_417df0cb:
+    # k1 "Ah..."
+    k1 ""
+
+translate english ShowerFuck_d6a3edc4:
+    # "King was filling up Rebecca's hole with his ejaculate."
+    ""
+
+translate english ShowerFuck_6568f350:
+    # "It was leaking all over the place..."
+    ""
+
+translate english ShowerFuck_765cc766:
+    # r1 "Aah.. Fuck..."
+    r1 ""
+
+translate english ShowerFuck_8e5db081:
+    # k1 " Get on your knees!"
+    k1 ""
+
+translate english ShowerFuck_154960ed:
+    # r1 "Yess... rain on me!!!"
+    r1 ""
+
+translate english ShowerFuck_4a305d99:
+    # r1 "Ahh.. Cum on me..."
+    r1 ""
+
+translate english ShowerFuck_33f64de9:
+    # k1 "Ahhh!!!"
+    k1 ""
+
+translate english ShowerFuck_6dac9c44_1:
+    # k1 "FUUUUCKK."
+    k1 ""
+
+translate english ShowerFuck_f2bf9de1:
+    # k1 "Oh shiiit..."
+    k1 ""
+
+translate english ShowerFuck_274f81d1:
+    # "It took them a while to come down from the hot session."
+    ""
+
+translate english ShowerFuck_63da638d:
+    # "They were both very drained, almost as if King had met his match."
+    ""
+
+translate english ShowerFuck_7a057c41:
+    # "The great actor was impressed by Rebecca's skill."
+    ""
+
+translate english ShowerFuck_0b5d45f7:
+    # "They both washed off."
+    ""
+
+translate english ShowerFuck_5ca05d5f:
+    # r1 "I have to admit... That was absolutely amazing..."
+    r1 ""
+
+translate english ShowerFuck_cfc27989:
+    # r1 "I'm still feeling sensation on my body."
+    r1 ""
+
+translate english ShowerFuck_ab6d10d9:
+    # k1 "Yeah, I won't lie. You've got some amazing moves, Rebecca."
+    k1 ""
+
+translate english ShowerFuck_12f8d7e1:
+    # r1 "Well, I can only say the same about you..."
+    r1 ""
+
+translate english ShowerFuck_3412f070:
+    # k1 "You are on par with some of my co-stars... Even better than them..."
+    k1 ""
+
+translate english ShowerFuck_a8f90546:
+    # k1 "Haven't had such an amazing session in some time."
+    k1 ""
+
+translate english ShowerFuck_6310aa77:
+    # k1 "Ok, I guess I should leave before somebody sees us here."
+    k1 ""
+
+translate english ShowerFuck_47145125:
+    # "Anna barely got herself together as King was walking out."
+    ""
+
+translate english ShowerFuck_06187f10:
+    # "She acted as if she didn't know anything..."
+    ""
+
+translate english ShowerFuck_07c82499:
+    # a "Oh... King? What are you doing in here?"
+    a ""
+
+translate english ShowerFuck_80f5d7e9:
+    # k1 "I must have mixed up the showers, sorry. Haha..."
+    k1 ""
+
+translate english ShowerFuck_3a08f405:
+    # a "Right..."
+    a ""
+
+translate english ShowerFuck_92fbd034:
+    # k1 "Anyway, see you on set later today?"
+    k1 ""
+
+translate english ShowerFuck_112ee5b3:
+    # a "Umm... Yeah... Sure..."
+    a ""
+
+translate english ShowerFuck_db34e6a6:
+    # a "{i}...I feel so weird now that he fucked my sister..."
+    a ""
+
+translate english ShowerFuck_4b1c23c0:
+    # k1 "Anyway, see you around?"
+    k1 ""
+
+translate english ShowerFuck_ad8b8b4e:
+    # a "Yeah... Sure, King..."
+    a ""
+
+translate english ShowerFuck_47cd6e43:
+    # r1 "Sooo. How was the rest of your workout?"
+    r1 ""
+
+translate english ShowerFuck_2ec0f1fa:
+    # a "It was good. I stretched and was done..."
+    a ""
+
+translate english ShowerFuck_ffb1bbe5:
+    # a "How is your 'hamstring', Rebecca?"
+    a ""
+
+translate english ShowerFuck_12525e10:
+    # r1 "Umm... It's much better, King did me good..."
+    r1 ""
+
+translate english ShowerFuck_2deebab1:
+    # a "Sorry, what did you say?"
+    a ""
+
+translate english ShowerFuck_5735e382:
+    # r1 "Oh, nothing, he helped me and fixed the problem, yeah..."
+    r1 ""
+
+translate english ShowerFuck_c63626af:
+    # a "Mhm... Hehe..."
+    a ""
+
+translate english ShowerFuck_20023b71:
+    # "Anna washed..."
+    ""
+
+translate english ShowerFuck_0a60186e:
+    # "She came back and Rebecca was getting dressed, slowly..."
+    ""
+
+translate english ShowerFuck_79f79a76:
+    # r1 "So... What do you think about King?"
+    r1 ""
+
+translate english ShowerFuck_4eb3cc60:
+    # a "He seems nice enough..."
+    a ""
+
+translate english ShowerFuck_06c20a19:
+    # r1 "Yeah, he has a very nice 'personality'... Did you know he speaks French?"
+    r1 ""
+
+translate english ShowerFuck_1d936f57:
+    # a "{i}...Yeah, I know... I heard everything, you naughty girl... Hehe..."
+    a ""
+
+translate english ShowerFuck_54ec9b4d:
+    # a "No... Really? That's cool. Haha."
+    a ""
+
+translate english ShowerFuck_d4bd9dea:
+    # r1 "Anyway, I will have to get going now. I've got a couple of things to do..."
+    r1 ""
+
+translate english ShowerFuck_5f21d989:
+    # a "Yeah, likewise. I still have plenty to do today..."
+    a ""
+
+translate english ShowerFuck_1d7b5afe:
+    # r1 "Well... Don't let me keep you..."
+    r1 ""
+
+translate english ShowerFuck_f2c646c5:
+    # r1 "But hey, we should come here again, what do you think?"
+    r1 ""
+
+translate english ShowerFuck_4dea0dda:
+    # a "I think that it's a great idea... And I would love to come here again and workout..."
+    a ""
+
+translate english ShowerFuck_ed09fb7d:
+    # r1 "Yeah... Me too... Workout..."
+    r1 ""
+
+translate english ShowerFuck_49afc589:
+    # "As Anna was walking she got a call from Emily."
+    ""
+
+translate english ShowerFuck_5b514b2b:
+    # e "Anna? Hey what are you doing?"
+    e ""
+
+translate english ShowerFuck_4931660f:
+    # a "Just heading home from a workout."
+    a ""
+
+translate english ShowerFuck_bf5a6329:
+    # e "Awesome. I was wondering if you could help me with something."
+    e ""
+
+translate english ShowerFuck_a43e3d47:
+    # a "Ok?"
+    a ""
+
+translate english ShowerFuck_ffc07a09:
+    # e "I'm looking for a sex shop. I thought that maybe you know a place?"
+    e ""
+
+translate english ShowerFuck_644b0683:
+    # a "Yeah. it's in the shopping district, I will send you the location."
+    a ""
+
+translate english ShowerFuck_a6cdfb88:
+    # e "Haha... My girl. Would you also want to join me?"
+    e ""
+
+translate english ShowerFuck_3d2a6781:
+    # a "Sure. Why not."
+    a ""
 
 
+translate english strings:
+    old "I had an argument with Diane again!"
+    new ""
 
+    old "Had a nice chat with Diane and the colleagues."
+    new ""
 
+    old "Anna decided not to talk about her office drama."
+    new ""
 
-
-
-
-
-    scene 32-6 gym 14 with Dissolve(1)
-    r1 "That's enough stretching, let's get to work, huh?"
-    a "Alright, but it looks like that rack is still taken."
-    r1 "Don't worry. A little bit of me and they won't be able to resist. Haha..."
-    a "Oh you devilish minx. You're always ready to get what you want by any means necessary."
-    r1 "You know me well."
-    play sound surprise
-    scene 32-6 gym 15 with Dissolve(1)
-    r1 "Hey guys, I was just wondering if you are still going to anything on this rack?"
-    r1 "We just want to do some squats and I wondered if you would allow us, two beautiful ladies, to do them?"
-    gym1 "I'm... Sure... We can do that, sure..."
-    r1 "Thanks. I appreciate that."
-    scene 32-6 gym 16 with Dissolve(1)
-    gym1 "I was also wondering if you need a spotter, perhaps?"
-    gym1 "You know, I could also give you some tips and stuff."
-    gym2 "Right, like you, did when spotting me..."
-    gym1 "Shut it, dude. Haha."
-    gym1 "He's just joking."
-    r1 "I think we will be alright, won't be lifting heavy."
-    scene 32-6 gym 17 with Dissolve(1)
-    gym1 "Sure, your loss, honey..."
-    gym1 "Help me get those plates off, man!"
-    gym2 "Yeah, got it."
-    "Anna was not saying anything and just letting Rebecca take care of everything."
-    "She was, meanwhile thinking about other things."
-    if CarlSexContent == True:
-        "She was thinking about her session with Carl and how that seemed rather wrong but felt so good..."
-    if SergeySexContent == True:
-        "Recalling the amazing evening with Sergey, even if it was ruined by the detective..."
-    if TaxmanFootjob == True:
-        "Remembering the interesting session with the taxman and his obsession with her legs and feet."
-    r1 "Thanks a lot guys."
-    gym1 "You bet."
-    scene 32-6 gym 18 with Dissolve(1)
-    r1 "Anyway, now that we have the floor, I guess we should do a warm-up set."
-    a "Yeah, It's been a while, but I think I still remember the basics."
-    r1 "Well, You were always the sportier one."
-    a "It used to help me take my mind off of things."
-    a "I will go first, alright?"
-    r1 "Yeah, absolutely, Anna."
-    scene 32-6 gym 20 with Dissolve(1)
-    "Anna got into position, back straight, ass out."
-    "It felt natural, and her mind stopped worrying immediately."
-    a "{i}...Alright, I think I got the hang of this. Just warm up set..."
-    scene 32-6 gym 21 with Dissolve(1)
-    "Anna was putting in the effort, feeling strong and confident."
-    a "{i}...Alright, a couple of more reps. This feels great..."
-    "The guys were checking out Anna's form and ass, of course."
-    gym1 "Damn, This girl got some nice curves... That ass..."
-    "The guy was whispering to his friend."
-    gym2 "I know... Amazing... It's always great to see girls squatting."
-    scene 32-6 gym 22 with Dissolve(1)
-    "Deep squats, getting the glutes and quads involved effectively."
-    "The guys watching were as involved in her workout as was Anna."
-    gym1 "{i}...Damn, I would so go to town on her..."
-    gym1 "{i}...She has amazing form, too... I love it when girls workout..."
-    gym1 "{i}...So fucking hot..."
-    scene 32-6 gym 23 with Dissolve(1)
-    "Anna finished her set and felt exhilarated."
-    a "That was great. I feel so good already. Hehe..."
-    r1 "I know! Let me go next. I need to get those glutes workin'..."
-    a "Sure, the floor's yours, Rebecca."
-    scene 32-6 gym 24 with Dissolve(1)
-    r1 "Can't let my sister take all the spotlight, hehe..."
-    a "I couldn't do that, even if I tried."
-    r1 "Right... If you'd see how the guys were looking at you..."
-    r1 "Tell me, is my form correct?"
-    a "Yeah, it's good. Keep going."
-    scene 32-6 gym 25 with Dissolve(1)
-    r1 "Well? Is my ass bigger already?"
-    a "Haha... You wish..."
-    r1 "Well, my confidence is bigger, definitely."
-    a "Couldn't agree more. I feel great."
-    a "So... Let's add some weight now?"
-    r1 "Are you sure that we should add weight already?"
-    a "Yeah, won't put much."
-    scene 32-6 gym 26 with Dissolve(1)
-    "While Anna and Rebecca were prepping weights, King had arrived."
-    k1 "Hey, guys. Slacking off in the gym again? Haha..."
-    gym2 "Oh, cmon dude, give us a break. We won't look like you anyway."
-    k1 "Well, perhaps not like me, but we can all always improve ourselves."
-    k1 "Never compare yourself to others. That's an insult to you."
-    gym1 "Wise words from an 'actor'... Haha..."
-    k1 "Hey, listen. No need to be rude, got it? There is already unnecessary stigma around us."
-    k1 "And most of which is untrue. Got it?"
-    gym1 "Yeah... Alright..."
-    scene 32-6 gym 27 with Dissolve(1)
-    "Anna was doing her second set and was very focused and motivated."
-    "Pushing herself with ever repetition."
-    "King immediately noticed that it was Anna."
-    k1 "{i}...Anna? I could recognize those thighs and ass anywhere..."
-    play sound surprise
-    scene 32-6 gym 28 with Dissolve(1)
-    k1 "Hey, girls. Looking good."
-    a "King? What are you doing here... Give me a second to finish..."
-    k1 "Absolutely, workout comes first."
-    r1 "King? Who's this handsome gentleman, Anna?"
-    scene 32-6 gym 29 with Dissolve(1)
-    a "Umm, This is a colleague from Dilan's shoots. I recently met him."
-    a "What are you doing here? We haven't had much time to get acquainted."
-    k1 "No worries, there's always time for that."
-    if DilanPornShoot == True:
-        k1 "We will, of course, get to know each other later on, if you know what I mean..."
-        a "That would be nice, I like to know my co-workers."
-    a "Anna? Introduce me?"
-    scene 32-6 gym 30 with Dissolve(1)
-    a "Oh, Sorry. This is my lovely sister Rebecca."
-    k1 "Pleasure... Pleasure, indeed."
-    k1 "{i}...Look at those curves..."
-    if DilanPornShoot == True:
-        k1 "{i}...Mmm... I wonder if I could score them both..."
-    r1 "Definitely a gentleman, What's your name?"
-    k1 "People just call me King."
-    r1 "Very nice to meet you, King... Hehe..."
-    k1 "Anyway, By the looks of it, you girls are doing squats today?"
-    r1 "Yeah, it's my turn by the way..."
-    k1 "Please, the floor's yours."
-    scene 32-6 gym 31 with Dissolve(1)
-    "Rebecca got into position and tried to be extra succulent because she seemed to like King."
-    "She wanted to get his attention..."
-    k1 "{i}...Damn... She's one fine lady..."
-    k1 "You got great form, but we can always make it a bit better."
-    k1 "If, I may?"
-    r1 "Absolutely... I will take all the help I can get."
-    scene 32-6 gym 32 with Dissolve(1)
-    "King got closer to Rebecca and started to lead her."
-    k1 "On the down movement tried to go slower. Eccentric movement requires slower momentum. Feel the muscle, squeeze it."
-    k1 "And when you go up, try explosive strength, and exhale as you go up."
-    k1 "It helps both mentally and physically."
-    r1 "Oh, you know your stuff, huh?"
-    "Anna also was paying attention, but it seemed that King was paying a lot of attention to Rebecca."
-    scene 32-6 gym 33 with Dissolve(1)
-    k1 "Excellent. As you come down, squeeze the muscle, feel the tension. And remember to go slow."
-    r1 "Like this?"
-    k1 "Yes, exactly. You've got great form. And great structure. It's good to work with people who pay attention."
-    "It looked like Rebecca was enjoying herself a lot. King was doing his best to leave a good impression."
-    "And he was succeeding..."
-    a "{i}...Rebecca really seems into it now..."
-    r1 "Damn it's getting a bit too heavy..."
-    k1 "Just a little bit lower. I will help you."
-    scene 32-6 gym 34 with Dissolve(1)
-    "King pushed close to Rebecca with his crotch... And she didn't mind..."
-    k1 "Let me just adjust your posture a bit. To get most effectiveness."
-    k1 "With time you will become proficient and won't need anyone behind you."
-    k1 "Do you feel it? Do you feel the squeeze?"
-    r1 "Yeah... but it's tough..."
-    k1 "Remember to push a bit. But don't overdo it, if it's your first training..."
-    r1 "Ok..."
-    "Anna was feeling a bit jealous, King wasn't giving her this kind of attention..."
-    k1 "And now let's go up. I got you."
-    scene 32-6 gym 35 with Dissolve(1)
-    k1 "Yeah, just like that..."
-    k1 "You are doing great..."
-    r1 "{i}...Oh... This man knows what he's doing..."
-    r1 "{i}...I'm already getting hot..."
-    "King had started to touch Rebecca's breasts, but she didn't mind, in fact, she was enjoying it..."
-    r1 "{i}...Keep going... Ah..."
-    r1 "{i}...Maybe I should try something with him..."
-    scene 32-6 gym 37 with Dissolve(1)
-    r1 "Ouch... I think I hurt myself a bit..."
-    k1 "Perhaps you overdid it..."
-    k1 "Did you warm-up and stretch?"
-    r1 "Yeah... I think I just got a bit carried away..."
-    k1 "Ah...It's understandable. What's hurting?"
-    r1 "I think I strained my hamstring a bit..."
-    k1 "Ah... No worries, I can help with that as well..."
-    k1 "I can massage it for you if you wish?"
-    r1 "Really? Sure... That would help a lot..."
-    scene 32-6 gym 38 with Dissolve(1)
-    a "Will you be alright?"
-    r1 "Absolutely. I trust that King will take good care of my hamstring..."
-    k1 "Just to make sure, I'm a certified physician in my free time as well."
-    r1 "Really? That's very interesting."
-    k1 "Yeah, so I will do my best to ease your pain..."
-    r1 "Alright, We will be going... Take care, Anna."
-    if DilanPornShoot == True:
-        k1 "See you at the set... Alright? We can talk more then."
-        k1 "Don't worry, I will take good care of your sister."
-    a "Sure guys, I'll just finish here and stretch a bit."
-    scene 32-6 gym 39 with Dissolve(1)
-    a "{i}...What just happened?..."
-    a "{i}...He didn't help me with my sets... Bastard..."
-    a "{i}...Well played, sister..."
-    a "{i}...Well played..."
-    r1 "{i}...I see that Anna is a bit jelly..."
-    if CarlSexContent == True:
-        r1 "{i}...Since she had some fun with Carl, I will do the same with her friend... hehe..."
-    "Anna was dumbfounded... She could see that Rebecca was enjoying King's presence."
-    if DilanPornShoot == True:
-        "But she didn't know King well and this would have been a good time to get to know him."
-        a "{i}...Oh well, I guess I will just have to find some time to talk to him at the set..."
-    "Anna finished her workout and put the plates back in their place."
-    scene 32-6 gym 40 with Dissolve(1)
-    "Her workout was over as well, just to stretch out and warm down after the vigorous workout."
-    a "{i}...I hope Rebecca will be alright... And since he is a physician she should be fine..."
-    if DilanPornShoot == True:
-        a "{i}...Just got to stretch out and get going... Will have to talk to him later..."
-        a "{i}...It's today... So I have to be on my A-game..."
-    scene 32-6 gym 41 with Dissolve(1)
-    a "{i}...This was a very nice workout... Perhaps I should make it a regular thing..."
-    a "{i}...Perhaps I could even meet King here again... He could give me some useful tips..."
-    a "{i}...This has really helped me take my mind off of things..."
-    a "{i}...And I've made some physical progress in the process..."
-    scene 32-6 gym 42 with Dissolve(1)
-    a "Alright, just a little bit more, and then I have to get going."
-    a "{i}...I wonder if King will fix Rebecca's hamstring before I leave..."
-    "Anna was doing the last stretching exercise to release the tension in the muscles. For better recovery."
-    a "{i}...Ok, this is enough... I should get going..."
-    scene 32-6 gym 43 with Dissolve(1)
-    gym1 "Hey, You're done already?"
-    a "It's enough for the first time."
-    gym2 "We're glad that there are good-looking girls, such as yourself, coming to the gym."
-    gym1 "I hope that you come here again some time."
-    a "Well, I'm thinking of making it a habit, so perhaps. Hehe..."
-    gym1 "Awesome... I mean, great... That's good for you..."
-    a "I will get going. Bye."
-    gym1 "Take care."
-    play sound door2
-    scene 32-6 gym 44 with Dissolve(1)
-    "The workout had been very exhilarating and did well for Anna's thoughts."
-    "She had some time to lay off all the problems but also get clear-headed as to what to do."
-    a "{i}...Ah... Very nice, now for a good shower and then I have to get going..."
-    a "{i}...Rebecca must be in the shower already..."
-    play sound undress
-    scene black with Dissolve(1)
-    "Anna undressed and went to the showers."
-label ShowerFuck:
-    scene 32-6 gym 45 with Dissolve(1)
-    "She was checking if they were empty, but..."
-    "She heard some talking. A low voice and a female voice."
-    a "{i}...I wonder what's that about..."
-    "As she was entering the showers she saw..."
-    play sound surprise
-    scene 32-6 gym 46 with Dissolve(1)
-    "Rebecca and it was clear that King was in there with her."
-    "Anna couldn't get a good look yet, but she was surprised."
-    a "{i}...Wait, is Rebecca with King?..."
-    "Multiple questions filled Anna's mind."
-    a "{i}...Is she up to no good?..."
-    play sound shower3
-    scene 32-6 gym 47 with Dissolve(1)
-    k1 "You've got some amazing tits, Rebecca."
-    r1 "Why, thank you... I can see that you like them... From down there..."
-    k1 "I know... Would you like to touch it?"
-    r1 "Would I? Yes!"
-    scene 32-6 gym 48 with Dissolve(1)
-    "Anna was witnessing all of this unfold..."
-    if CarlSexContent == True:
-        "But she couldn't be completely surprise because of what she had done herself..."
-        "With Carl..."
-    r1 "Oh, it feels so large in my hand... I'm getting hot..."
-    k1 "Let me tell you, babe... You are already hot..."
-    k1 "I just craved you the moment I saw you in the gym..."
-    if DilanPornShoot == True:
-        "Anna heard their conversation and was a bit jealous..."
-        "She was supposed to work with him later on in the day..."
-        a "{i}...Oh, you cheeky bastards... Alright, alright... hehe..."
-        "Anna was plotting her revenge on King..."
-        "She was going to torture him during the porn-shoot..."
-    scene 32-6 gym 49 with Dissolve(1)
-    r1 "Oh... You sexual monster... Haha..."
-    r1 "And you are probably very good in bed... Knowing the fact that you're an actor..."
-    k1 "Well... I was even before all of that... I'm a natural... Heh..."
-    r1 "And very confident. I like that."
-    scene 32-6 gym 50 with Dissolve(1)
-    k1 "Come here. I want you... I want you hard, Rebecca..."
-    r1 "Oh... Please... Don't keep me waiting... I want you, too."
-    "The tension in the shower room was increasing. Rebecca was very aroused and ready."
-    "King just wanted to fuck that perfect pussy..."
-    play sound surprise
-    scene 32-6 gym 51 with Dissolve(1)
-    "He quickly turned Rebecca around."
-    k1 "Are you ready? Do you want to be fucked by my hard cock?"
-    "She felt his stiff tool pressing against her butt cheeks."
-    r1 "Yes... Please, penetrate me..."
-    "King went closer to her ear and whispered something to her."
-    k1 "Ce sera une excellente baise..."
-    r1 "Oh... You know French?"
-    k1 "Yes... Je vais baiser ta chatte, salope."
-    scene 32-6 gym 52 with Dissolve(1)
-    "Without any more hesitation, King entered Rebecca's snatch."
-    "And it welcomed his dick with open arms..."
-    r1 "Oh... Fuck... That feels amazing..."
-    k1 "Yeah... Your pussy is mesmerizing..."
-    r1 "Go faster, please..."
-    k1 "My thoughts exactly."
-    play sound moaningone
-    scene 32-6 gym 53 with Dissolve(1)
-    "They had started to fuck vigorously."
-    "Anna felt rather interesting. She was also a bit horny."
-    "And their passionate fucking wasn't helping her."
-    a "{i}...They are so loud as well... Rebecca..."
-    a "{i}...What do I do now? Should I watch?..."
-    scene 32-6 gym 54 with Dissolve(1)
-    "Anna couldn't just look away. She was into it..."
-    "She liked what she saw... It was so full of emotion..."
-    a "{i}...They look so hot while fucking... Oh..."
-    a "{i}...I'm starting to get horny as well..."
-    play sound moaningtwo
-    scene 32-6 gym 55 with Dissolve(1)
-    "King grabbed Rebecca for more grip and control."
-    "She was completely under his power."
-    "And she liked it..."
-    r1 "{i}...Oh... Fuck me... He is so good..."
-    r1 "Fuck me... Yes... It's so good... Ah..."
-    scene 32-6 gym 56 with Dissolve(1)
-    "King was fucking like a bull. Without stopping..."
-    "Pure thrusting in and out."
-    "Rebecca was getting that dick hard. And she wanted nothing less..."
-    "Completely spaced out in pleasure. She wanted to be rammed like this..."
-    a "{i}...She is so into it... This is weird... What about Carl..."
-    if CarlSexContent == True:
-        a "{i}...But then again... Can't say that Carl is any better..."
-        a "{i}...Or that I'm any better... Oh... This is very interesting..."
-    scene 32-6 gym 57 with Dissolve(1)
-    "The penetration was deep and satisfying for both of them."
-    "King was surprised as to how well her pussy was taking his cock."
-    k1 "{i}...This girl is so fucking hot... I'm having difficulty focusing..."
-    "He felt that it was slowly closing in, but he wasn't about to let someone beat him."
-    "For King it was about going longer, being better, doing it faster..."
-    r1 "Ah... This is fucking amazing..."
-    r1 "Your cock... It's so great... Ah..."
-    scene 32-6 gym 58 with Dissolve(1)
-    "King picked her leg up."
-    k1 "Give me your tongue..."
-    r1 "Call me your bitch, please..."
-    k1 "I want to kiss you, slut..."
-    r1 "Ah...."
-    "They were kissing passionately."
-    play sound [moaningtwo, moaningthree] fadein 0.5
-    show RebeccaKingFuckOne
-    "They're intercourse was full of sexual energy."
-    "Rebecca was in ecstasy. Enjoying the full length of King's cock."
-    r1 "Ah... I can't believe how good it is... ah..."
-    r1 "Fuck me harder, King! Please..."
-    "Anna was so hot from watching that, it was hard to look away."
-    "The moans could be heard throughout the entire locker room and showers."
-    scene 32-6 gym 59 with Dissolve(1)
-    hide RebeccaKingFuckOne
-    "Ohh my God... So good..."
-    k1 "Tu aimes ça, salope?"
-    r1 "Huh? Your french is so hot..."
-    k1 "You like it, slut?"
-    r1 "Yes!!! I love it..."
-    k1 "Your so hot... I love your fucking curves, I would wanna fuck you so long..."
-    play audio moaningtwo
-    play audio jerk
-    scene 32-6 gym 60 with Dissolve(1)
-    "Anna could hear everything and had become really horny."
-    "She had started to touch herself lightly... She hadn't even noticed. She was doing it involuntarily..."
-    a "{i}...Oh... Rebecca... You dirty slut... I love it..."
-    a "{i}...King is pretty hot too actually..."
-    a "{i}...Whispering some dirty things in French. Who knows what he's saying..."
-    "Anna was overtaken by all those thoughts..."
-    play sound [moaningthree, moaningtwo] fadein 0.5
-    show RebeccaKingFuckTwo with Dissolve(1)
-    "The penetration was heavenly for Rebecca..."
-    "It felt so hot for her. She had no idea the day will turn out like this..."
-    r1 "Ah... Fuck me harder..."
-    k1 "As you wish..."
-    "King was penetrating her faster and deeper."
-    scene 32-6 gym 61 with Dissolve(1)
-    "Rebecca's and King's fucking had reached its peak... They were fucking with embellishing moans and heavy breaths."
-    "Rebecca felt intertwined with King... In a sex-induced high."
-    r1 "Fuck... My pussy... King... Oh..."
-    k1 "Ah... Yeah... I love it..."
-    r1 "Fuck me, fuck me, fuck me..."
-    play audio jerk2
-    play audio moaningthree
-    show RebeccaKingFuckThree with Dissolve(1)
-    hide RebeccaKingFuckTwo
-    "The climax was starting to build up..."
-    "King felt as if he was reaching his threshold..."
-    "... And so was Rebecca..."
-    "She couldn't hold herself any longer."
-    r1 "Fuck... I'm getting so close... Oh my god..."
-    r1 "King... Ah..."
-    play sound moaningtwo
-    k1 "Yeah... I'm getting close, too!!"
-    k1 "Ahhh... You want my cum?"
-    r1 "Yes!! Give it all to mee, I'm coming aahhh..."
-    menu:
-        "Cum inside her pussy.":
-            r1 "Ahh... I'm CUMMIINGGG!!!"
-            with flash
-            k1 "Fuck me tooo!!! OHHH..."
-            r1 "Flood me with your cum!!"
-            with flash
-            with flash
-            k1 "FUUUUCKK."
-            k1 "Prends ma putain de sperme!!"
-            scene 32-6 gym 62 with flash
-            k1 "Ah..."
-            "King was filling up Rebecca's hole with his ejaculate."
-            "It was leaking all over the place..."
-        "Cum on her face.":
-            play sound jerk
-            r1 "Aah.. Fuck..."
-            k1 " Get on your knees!"
-            scene 32-6 gym 63 with flash
-            r1 "Yess... rain on me!!!"
-            r1 "Ahh.. Cum on me..."
-            with flash
-            k1 "Ahhh!!!"
-            with vpunch
-            with flash
-            k1 "FUUUUCKK."
-            scene 32-6 gym 64 with Dissolve(1)
-            k1 "Oh shiiit..."
-    "It took them a while to come down from the hot session."
-    "They were both very drained, almost as if King had met his match."
-    "The great actor was impressed by Rebecca's skill."
-    scene black with Dissolve(1)
-    play sound shower3
-    "They both washed off."
-    scene 32-6 gym 65 with Dissolve(1)
-    r1 "I have to admit... That was absolutely amazing..."
-    r1 "I'm still feeling sensation on my body."
-    k1 "Yeah, I won't lie. You've got some amazing moves, Rebecca."
-    r1 "Well, I can only say the same about you..."
-    k1 "You are on par with some of my co-stars... Even better than them..."
-    k1 "Haven't had such an amazing session in some time."
-    k1 "Ok, I guess I should leave before somebody sees us here."
-    scene 32-6 gym 66 with Dissolve(1)
-    "Anna barely got herself together as King was walking out."
-    "She acted as if she didn't know anything..."
-    a "Oh... King? What are you doing in here?"
-    k1 "I must have mixed up the showers, sorry. Haha..."
-    a "Right..."
-    if DilanPornShoot == True:
-        k1 "Anyway, see you on set later today?"
-        a "Umm... Yeah... Sure..."
-        a "{i}...I feel so weird now that he fucked my sister..."
-    else:
-        k1 "Anyway, see you around?"
-        a "Yeah... Sure, King..."
-    play sound shower2
-    scene 32-6 gym 67 with Dissolve(1)
-    r1 "Sooo. How was the rest of your workout?"
-    a "It was good. I stretched and was done..."
-    a "How is your 'hamstring', Rebecca?"
-    r1 "Umm... It's much better, King did me good..."
-    a "Sorry, what did you say?"
-    r1 "Oh, nothing, he helped me and fixed the problem, yeah..."
-    a "Mhm... Hehe..."
-    play sound shower2
-    scene black with Dissolve(1)
-    "Anna washed..."
-    scene 32-6 gym 68 with Dissolve(1)
-    "She came back and Rebecca was getting dressed, slowly..."
-    r1 "So... What do you think about King?"
-    a "He seems nice enough..."
-    r1 "Yeah, he has a very nice 'personality'... Did you know he speaks French?"
-    a "{i}...Yeah, I know... I heard everything, you naughty girl... Hehe..."
-    a "No... Really? That's cool. Haha."
-    play sound undress
-    scene 32-6 gym 69 with Dissolve(1)
-    r1 "Anyway, I will have to get going now. I've got a couple of things to do..."
-    a "Yeah, likewise. I still have plenty to do today..."
-    r1 "Well... Don't let me keep you..."
-    r1 "But hey, we should come here again, what do you think?"
-    a "I think that it's a great idea... And I would love to come here again and workout..."
-    r1 "Yeah... Me too... Workout..."
-    play sound walk
-    scene black with Dissolve(2)
-    play sound phonecall
-    scene anna city walking with Dissolve(1)
-    "As Anna was walking she got a call from Emily."
-    e "Anna? Hey what are you doing?"
-    a "Just heading home from a workout."
-    e "Awesome. I was wondering if you could help me with something."
-    a "Ok?"
-    e "I'm looking for a sex shop. I thought that maybe you know a place?"
-    a "Yeah. it's in the shopping district, I will send you the location."
-    e "Haha... My girl. Would you also want to join me?"
-    a "Sure. Why not."
-    jump SexShopEventOne
-    return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+    old "Cum inside her pussy."
+    new ""

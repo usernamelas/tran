@@ -1,3982 +1,8333 @@
-label EP18_Begin:
-    stop music
-    show text "{size=+20}Press Space{/size}"
-    pause
-    play music chill_song_2
-    play sound undress
-    $ EP18_var_1 = True
-    if bar_var_1 == True:
-        scene 47-9 barscene 254 with Dissolve(0.5)
-        a "Who knows..."
-        a "He can be a little unpredictable, that's for sure."
-        e "I don't know him well enough."
-        a "One thing's for sure, it will be something rather exciting..."
-        scene 47-9 barscene 255 with Dissolve(0.5)
-        e "Besides him taking a cut."
-        e "We do all the work."
-        a "True, but without him, we wouldn't have a platform."
-        e "Meaning?"
-        a "Without Patrick, our other option would be working the corner."
-        a "And we both know we wouldn't be doing that."
-        e "Haha. True."
-        a "Let's go."
-    else:
-        scene 47-9 barscene 254 with Dissolve(0.5)
-        a "It's mostly Jim."
-        a "I don't have time for planning."
-        a "But I certainly find the job intriguing."
-        e "So do I. Heh. I wonder how much money we made tonight, though."
-        a "That's a good question."
-        a "We'll get back to it tomorrow."
-        e "Ok."
-        scene 47-9 barscene 255 with Dissolve(0.5)
-        e "I wouldn't say no to a side hustle like this."
-        e "Get paid for having fun?"
-        e "What's not to like?"
-        a "True, haha."
-    play sound door2
-    scene 47-9 barscene 255_0 with Dissolve(0.5)
-    ga "Hey, girls!"
-    ga "Productive night, eh?"
-    a "Hah, you bet!"
-    ga "I'm sure we earned a pretty penny."
-    a "Indeed we did."
-    scene 47-9 barscene 256 with Dissolve(0.5)
-    a "We couldn't do our job properly without a guard."
-    a "Making sure nobody gets too handsy or rough."
-    ga "My main priority, girls."
-    ga "Won't let anything happen to you on my watch."
-    scene 47-9 barscene 257 with Dissolve(0.5)
-    j3 "Good job, girls."
-    if bar_var_1 == True:
-        j3 "Patrick will count the money and tell us tomorrow."
-    else:
-        j3 "I'll get to counting money later, will give you the numbers tomorrow."
-    a "Better not skimp on anything."
-    j3 "You'll get your dues, that I'm sure of."
-    scene 47-9 barscene 258 with Dissolve(0.5)
-    e "So what now?"
-    e "We going partying?"
-    a "This late?"
-    e "Why not?"
-    a "I'm spent, Emily."
-    a "I want to get some sleep asap."
-    e "Fiiine. I'll just do the same."
-    scene black with Dissolve(0.5)
-    pause 1
-label EP18_Morning:
-    $ EP18_var_2 = True
-    stop music
-    play sound interface_sound
-    show text "Saturday Morning..." with Dissolve(0.5)
-    pause 2
-    play music tranquility
-    scene 48-1 morning 1 with Dissolve(0.5)
-    if bar_var_1 == True:
-        a "{i}...I wonder what Patrick has planned for today...{/i}"
-        a "{i}...Things keep heating up at the bar...{/i}"
-    else:
-        a "{i}...I wonder how we could pump up the action more...{/i}"
-        a "{i}...Making that business more lucrative is not a bad thing...{/i}"
-        a "{i}...Perhaps I could even involve more and more girls...{/i}"
-    scene 48-1 morning 2 with Dissolve(0.5)
-    a1 "Hey... Anna."
-    a1 "A dream come true for a man. Seeing such a beautiful woman as I wake up..."
-    a1 "Wow."
-    scene 48-1 morning 3 with Dissolve(0.5)
-    a "Heh. You're making me blush, Andrew."
-    a1 "Everything for you, Anna."
-    a "Everything?"
-    a1 "Whatever you say, goes."
-    scene 48-1 morning 4 with Dissolve(0.5)
-    a1 "You sleep well?"
-    a "Yeah."
-    a "Can't complain."
-    scene 48-1 morning 5 with Dissolve(0.5)
-    a1 "It's finally weekend."
-    a1 "And you're free."
-    a1 "I thought that, perhaps, we could do some things together today?"
-    a1 "It's been a while since we've done something, just the two of us."
-    scene 48-1 morning 6 with Dissolve(0.5)
-    a "Oh?"
-    a "Got anything particular in mind?"
-    a1 "Eh. No. Hadn't gotten that far. Haha."
-    play sound undress
-    scene 48-1 morning 7 with Dissolve(0.5)
-    a "Hmm..."
-    a1 "Well, I haven't been to the beach for a while."
-    a1 "Or the pool or something, we could do that?"
-    a "I like the idea."
-    scene 48-1 morning 8 with Dissolve(0.5)
-    a1 "Nice!"
-    a1 "It's settled then."
-    a "Alright, heh."
-    scene 48-1 morning 9 with Dissolve(0.5)
-    a "But I'd first like to eat some breakfast."
-    a "Didn't eat anything yesterday in the evening..."
-    scene 48-1 morning 10 with Dissolve(0.5)
-    a1 "I agree. Pretty hungry."
-    a1 "How about we eat outside?"
-    a1 "Find a nice cafe and indulge a little?"
-    a "Great idea, Andrew!"
-    a "Let's go."
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound door2
-    scene 48-1 morning 12 with Dissolve(0.5)
-    a1 "Got any ideas where we could go?"
-    a "Not really."
-    a1 "Hmm... I think I might know a place."
-    a "Nice."
-    scene 48-1 morning 13 with Dissolve(0.5)
-    j4 "Morning, sleepyheads."
-    a1 "Hey, dad."
-    a "Morning, John."
-    j4 "I'm cooking some food."
-    scene 48-1 morning 14 with Dissolve(0.5)
-    j4 "Want some?"
-    j4 "Making enchiladas."
-    j4 "And a bit of whiskey, hehe."
-    a1 "We're good. Thanks."
-    scene 48-1 morning 15 with Dissolve(0.5)
-    a1 "Why you gotta be half naked, though?"
-    a "Heh. It's alright..."
-    scene 48-1 morning 16 with Dissolve(0.5)
-    j4 "What, jealous of my physique?"
-    a1 "Yeah. Right..."
-    a "We'll head out, eat at a cafe or something."
-    j4 "Your loss."
-    j4 "Where you going?"
-    a "To the cafe first, then to the beach."
-    j4 "Can I join you later?"
-    a1 "Sorry. No. We want to spend some time together, just the two of us."
-    j4 "Oh... Ok..."
-    scene 48-1 morning 17 with Dissolve(0.5)
-    a1 "For some reason, he continues to be an asshole."
-    a1 "Hate it."
-    a "Don't worry about it."
-    a1 "Whatever..."
-    j4 "{i}...Perhaps I can still join Anna later...{/i}"
-    play sound door2
-    scene black with Dissolve(0.5)
-    pause 1
-    play ambient citytraffic
-    scene 48-1 morning 18 with Dissolve(0.5)
-    a1 "The place isn't far."
-    a1 "I think I've been there a few times."
-    a "Anything good?"
-    a1 "Well. Cheesecake is good."
-    a "Oh, yummy."
-    scene 48-1 morning 19 with Dissolve(0.5)
-    a1 "Not as yummy as you, Anna."
-    a "Oh, Andrew."
-    a "Hehe."
-    a1 "I mean it. so beautiful."
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound door2
-    scene 48-1 morning 20 with Dissolve(0.5)
-    a "Hmm. I've been here, too."
-    a1 "Really?"
-    a1 "And?"
-    a "It's a nice place, indeed."
-    a "A cute waitress. You'd like her."
-    scene 48-1 morning 21 with Dissolve(0.5)
-    a1 "Hi."
-    a1 "What's your breakfast offer?"
-    barista "Cheese sandwiches and coffee."
-    barista "Will that do?"
-    scene 48-1 morning 22 with Dissolve(0.5)
-    a1 "Um. Sure."
-    a1 "No cheesecake?"
-    barista "Unfortunately, no."
-    barista "They could't deliver it today..."
-    barista "Sorry."
-    a1 "It's ok."
-    scene 48-1 morning 23 with Dissolve(0.5)
-    a1 "We'll manage, right Anna?"
-    a "Heh. Yeah. It's ok."
-    a "Lovely day, isn't it?"
-    barista "Couldn't agree more."
-    a "Perfect for a trip to the beach."
-    barista "Yeah..."
-    a "{i}...Hehe, should tease Andrew a bit...{/i}"
-    a "Care to join?"
-    barista "Umm... That sounds fun, but I have to see if I can make it..."
-    barista "If I can, I'll surely go."
-    a "We'll keep our eyes and ears open."
-    barista "Ok, heh."
-    scene 48-1 morning 24 with Dissolve(0.5)
-    barista "Alright. Here are the sandwiches."
-    barista "And the coffee."
-    a "Mmm... The coffee smells so good."
-    barista "Only the best at our cafe."
-    scene 48-1 morning 25 with Dissolve(0.5)
-    barista "That will be 8.50$."
-    a1 "Here. Let me pay for it."
-    scene 48-1 morning 26 with Dissolve(0.5)
-    barista "Thank you. Enjoy your meal!"
-    a1 "Thanks!"
-    scene 48-1 morning 27 with Dissolve(0.5)
-    a "So. what did you think about the waitress?"
-    a "Wasn't she attractive?"
-    scene 48-1 morning 28 with Dissolve(0.5)
-    a1 "Oh? This feels like a trap."
-    a "It isn't, so don't worry. I'm not that jealous type of a girlfriend."
-    a1 "Well. Yeah. She was cute."
-    a "Heh, indeed."
-    scene 48-1 morning 29 with Dissolve(0.5)
-    a1 "But. I'd never choose her over you."
-    a "Are you sure?"
-    a1 "Yeah. You're perfection."
-    scene 48-1 morning 30 with Dissolve(0.5)
-    a "Ah so tasty..."
-    a "I do wonder."
-    a1 "What about?"
-    scene 48-1 morning 31 with Dissolve(0.5)
-    a "If she joined us at the beach."
-    a "Hypothetically, of course..."
-    a "It would be funny if we, the three of us, did some stuff."
-    a "You know?"
-    a1 "Meaning?"
-    a "You know. menage a troi."
-    a1 "Like the three of us?"
-    a "Hehe... It would be interesting."
-    scene 48-1 morning 29 with Dissolve(0.5)
-    a1 "I... Um... I mean. Yeah."
-    a1 "Heh... Only if it was ok with you."
-    a "It would be heh."
-    a "I bet you'd like it."
-    scene 48-1 morning 31 with Dissolve(0.5)
-    a "Even if you find only me perfect."
-    a1 "I uhh..."
-    a "Haha. I'm just messing around, Andrew."
-    a1 "Right. heh."
-    a "Anyway. I'm all done. Let's go?"
-    a1 "Yeah."
-    scene 48-1 morning 32 with Dissolve(0.5)
-    a "Thank you for the coffee and sandwiches."
-    a "They never fail us."
-    scene 48-1 morning 33 with Dissolve(0.5)
-    barista "You're welcome!"
-    a "See you later then, maybe?"
-    barista "Maybe..."
-    scene 48-1 morning 34 with Dissolve(0.5)
-    a1 "So. The beach now?"
-    a "Oh yes!"
-    a "Can't wait. I want that sun on my skin!"
-    a1 "I want a cold beer!"
-    a "Same."
-    scene black with Dissolve(0.5)
-    pause 1
-label EP18_Beach_1:
-    $ EP18_var_3 = True
-    play music Chill_Song_1
-    stop ambient
-    scene 48-2 beach 1 with Dissolve(0.5)
-    a1 "Wow."
-    a "Yeah."
-    a1 "To be honest. I've never been here."
-    a "Really?"
-    a "Make a wish, hehe."
-    a1 "It alread came true."
-    a1 "Being here with you."
-    scene 48-2 beach 2 with Dissolve(0.5)
-    a1 "Let's go grab a drink then?"
-    a1 "I really want that beer."
-    scene 48-2 beach 3 with Dissolve(0.5)
-    a "First, Let's go get changed."
-    a "I want to get into my bikini as soon as possible."
-    a "And I'm pretty sure you'll like it hehe."
-    a1 "Interesting..."
-    scene 48-2 beach 4 with Dissolve(0.5)
-    a1 "You come here often?"
-    a "Not often, but I do."
-    a "Usually a lot of people here."
-    scene 48-2 beach 5 with Dissolve(0.5)
-    a "Sometimes I've been here with Rebecca."
-    a1 "Oh."
-    a "No better place to be on a sunny day."
-    scene 48-2 beach 6 with Dissolve(0.5)
-    a "I'll 'accidentaly' leave the door open."
-    a1 "In public?"
-    a "Got a problem with that?"
-    a "And not like I'm walking nude in the city center."
-    scene 48-2 beach 7 with Dissolve(0.5)
-    a1 "Fair point."
-    a "Besides, I thought you liked seeing me."
-    a1 "I do indeed."
-    a "Then, shush and enjoy."
-    play sound jacketcloth
-    scene 48-2 beach 8 with Dissolve(0.5)
-    a "Mm..."
-    a "You like my curves?"
-    a1 "Whaaaa..."
-    scene 48-2 beach 9 with Dissolve(0.5)
-    a1 "DAMN!"
-    a1 "So hot, Anna!"
-    scene 48-2 beach 10 with Dissolve(0.5)
-    a "What's that?"
-    a "I can't hear you behind that huge ass. Hehe."
-    a1 "Haha."
-    scene 48-2 beach 11 with Dissolve(0.5)
-    a1 "A queen if I ever saw one."
-    a "That's right!"
-    a "And you better not forget it."
-    a1 "I wont!"
-    play sound undress
-    scene 48-2 beach 12 with Dissolve(0.5)
-    a1 "What?"
-    a1 "Whoa."
-    a "Hm?"
-    scene 48-2 beach 13 with Dissolve(0.5)
-    a1 "Wooow."
-    a1 "Umm..."
-    a1 "That's... Like. Not a lot of coverage."
-    scene 48-2 beach 14 with Dissolve(0.5)
-    a "What?"
-    a "Everyone at the beach wears minimal clothing."
-    a1 "There's minimal and then there's this."
-    a1 "You sure this is what you want to wear?"
-    a "Yeah, why not? Don't like it?"
-    play sound whoosh
-    scene 48-2 beach 15-1 with flash:
-        yalign 1
-        linear 8 yalign 0.0
-    pause 8
-    scene 48-2 beach 15 with Dissolve(0.5)
-    a1 "I do, but... It just barely covers anything..."
-    a "Oh c'mon, Andrew. It's just the beach."
-    a "Not like I'm walking down main street in this."
-    scene 48-2 beach 16-1 with Dissolve(0.5)
-    a1 "Holy..."
-    a1 "Such a hot body."
-    scene 48-2 beach 16 with Dissolve(0.5)
-    a "Go get changed."
-    a "I really want to get some nice tan today."
-    a1 "Uhh... Sure."
-    scene 48-2 beach 17 with Dissolve(0.5)
-    a1 "I just hope everyone won't stare at you."
-    a "And even if they will, so what?"
-    a "You know they can't get me."
-    a "They'll just get jealous. But you'll be the one taking me home."
-    a1 "Heh. True."
-    scene 48-2 beach 18 with Dissolve(0.5)
-    a "Hurry up."
-    scene 48-2 beach 19 with Dissolve(0.5)
-    a1 "All done."
-    a1 "Let's go."
-    a "Yes, yes, yes. Hehe."
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 20 with Dissolve(0.5)
-    a "Hey!"
-    barten "Hello, Anna!"
-    barten "Back again, I see."
-    a "Of course. Whenever I got some free time, I come here."
-    scene 48-2 beach 21 with Dissolve(0.5)
-    barten "I've noticed."
-    a "Not a lot of people I see."
-    barten "Still early morning."
-    barten "People will show up."
-    a "True."
-    scene 48-2 beach 22 with Dissolve(0.5)
-    barten "Remember last time you were here."
-    barten "Had a great volleybal game, ye?"
-    a "Oh the best. Hehe."
-    barten "Indeed."
-    scene 48-2 beach 23 with Dissolve(0.5)
-    a "The stakes were high."
-    barten "Oh I saw."
-    scene 48-2 beach 24 with Dissolve(0.5)
-    a1 "{i}...He's staring at her...{/i}"
-    a1 "{i}...I knew I was right... But... Anna insists...{/i}"
-    a1 "{i}...I suppose she's right, though... People stare but only I take her home...{/i}"
-    scene 48-2 beach 25 with Dissolve(0.5)
-    barten "So where's Rebecca?"
-    a "Oh. She's pretty busy with... Stuff."
-    barten "Aren't we all."
-    barten "Alright, what'll you have today?"
-    a "Just two beers, thanks."
-    barten "Coming right up."
-    scene 48-2 beach 26 with Dissolve(0.5)
-    barten "Anyway, hope you've enjoy your day here today."
-    a "I certainly will."
-    a "Finaly here with my boyfriend."
-    barten "Great!"
-    scene 48-2 beach 27 with Dissolve(0.5)
-    a1 "I was right, people are staring..."
-    a "So?"
-    a "It's not that big of a deal, Andrew."
-    a "Quit making it so."
-    a1 "Alright, alright."
-    scene 48-2 beach 28 with Dissolve(0.5)
-    a1 "Perfect, two chairs for us. No one has taken them."
-    a "Yeah. Looks like luck is on our side."
-    a1 "Hah."
-    scene 48-2 beach 29 with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 30 with Dissolve(0.5)
-    beachguy1 "Damn..."
-    beachguy1 "It's that girl."
-    beachguy2 "Yeah,the same one from some days ago."
-    scene 48-2 beach 31 with Dissolve(0.5)
-    beachguy2 "She's such a badie. Look at those tits."
-    beachguy1 "Her outfit barely covers anything at all..."
-    beachguy2 "What I wouldn't do... Damn..."
-    scene 48-2 beach 32-1 with Dissolve(0.5)
-    beachguy2 "Def would tap that ass more than once."
-    beachguy1 "We'd double team her, hehe."
-    beachguy2 "Call in the rest of the guys, and give her a good one."
-    scene 48-2 beach 32-2 with Dissolve(0.5)
-    a "{i}...Very vulgar comments...{/i}"
-    a "{i}...I wonder what Andrew thinks about those comments...{/i}"
-    scene 48-2 beach 32 with Dissolve(0.5)
-    a1 "{i}...Fuckers talking like that about Anna...{/i}"
-    a1 "{i}...But I don't want a fight...{/i}"
-    a1 "{i}...But... They are right... She is kinda slutty in this outfit...{/i}"
-    scene 48-2 beach 33 with Dissolve(0.5)
-    a1 "Alright."
-    a1 "I kinda wanna lay down and enjoy the sun, too."
-    a "Hehe. Good to hear."
-    scene 48-2 beach 34 with Dissolve(0.5)
-    a1 "But I gotta say, I heard the way the talked..."
-    a1 "I'm not sure how to feel."
-    a "What, you gonna take what everyone says serious?"
-    a "They don't matter."
-    a1 "Eh, sure."
-    scene 48-2 beach 35 with Dissolve(0.5)
-    a "Besides, you men look at every girl that has curves."
-    a "What am I supposed to do? Just not exist?"
-    a1 "You're right, Anna. You're always right."
-    play sound drinkingBeverage
-    scene 48-2 beach 36 with Dissolve(0.5)
-    a1 "Mmm!"
-    a1 "So fucking good."
-    play sound drinkingBeverage
-    scene 48-2 beach 37 with Dissolve(0.5)
-    a "Oh."
-    a "You're right!"
-    scene 48-2 beach 38 with Dissolve(0.5)
-    a1 "So. How's work, and everything else?"
-    a1 "You know... The Carl situation?"
-    a "Oh that..."
-    a "Well, there have been developements."
-    a "It's complicated."
-    a "I don't really want to talk about it."
-    a "I'd rather lay down and rest."
-    scene 48-2 beach 39 with Dissolve(0.5)
-    a "Ahh.."
-    a "Soo goood."
-    a1 "Overheard the bartender talk about volleyball."
-    a "Oh, yeah."
-    a1 "What's that all about?"
-    scene 48-2 beach 40 with Dissolve(0.5)
-    a "Oh. You know."
-    a "Some friends and I came here to play volleyball."
-    a "That's all."
-    a1 "I know them?"
-    a "People from work."
-    a1 "I see."
-    a "Hey, you mind if I uncover my breasts?"
-    scene 48-2 beach 41 with Dissolve(0.5)
-    a1 "There's not much covering them to begin with, but..."
-    a1 "Still. What if someone sees?"
-    a "C'mon, Andrew."
-    scene 48-2 beach 42 with Dissolve(0.5)
-    a "No one will see. We're facing away from people."
-    a "Besides, I need to tan my breasts."
-    a "I want to look good for you."
-    scene 48-2 beach 43 with Dissolve(0.5)
-    a1 "Eh. Sure."
-    a1 "Not like I can do much to stop you."
-    a "You can, just say no."
-    a "But I know you wont."
-    a "You wanna see my luscious breasts, Andrew."
-    play sound undress
-    scene 48-2 beach 44 with Dissolve(0.5)
-    a "See."
-    a "It's all good."
-    a "The world didn't collapse just because I revealed my breasts."
-    a1 "Oh I don't know... Anything can happen."
-    scene 48-2 beach 45 with Dissolve(0.5)
-    a1 "But I cannot deny how sexy you are, Anna."
-    a "You're definitely a lucky, Andrew."
-    a1 "Oh yeah! I tell myself that everyday."
-    a "Hehe."
-    scene 48-2 beach 46 with Dissolve(0.5)
-    a "Ah. This is nice."
-    a "Perhaps I should get a beach side property so I could do this everyday after I get home."
-    a "Just imagine a house with a view of the sea."
-    a "Wow..."
-    scene 48-2 beach 47 with Dissolve(0.5)
-    a1 "Hah, yeah."
-    a1 "I'll be realistic. I don't see myself being able to afford it."
-    a1 "At least not in the forseeable future."
-    a "You never know."
-    scene 48-2 beach 48 with Dissolve(0.5)
-    a1 "Jeez."
-    a1 "I feel kinda dizzy..."
-    a1 "And... sleepy..."
-    a1 "Fuck, maybe the medicine and the alcohol don't mix..."
-    a "Andrew? You ok?"
-    a1 "AAahhh... Yeah. Just..."
-    scene 48-2 beach 49 with Dissolve(0.5)
-    a1 "I'll... Take a little nap. Ok?"
-    a "Sure, just relax."
-    a "No rush today."
-    a1 "Ah..."
-    scene 48-2 beach 50 with Dissolve(0.5)
-    a "That's unexpected."
-    a "Didn't know the medicine would do that."
-    a "Well... I'll just relax in silence."
-    a "Nothing wrong with that."
-    scene 48-2 beach 51 with Dissolve(0.5)
-    a "I'm out of beer, though..."
-    a "And Andrew's asleep."
-    a "Perhaps I should..."
-    scene 48-2 beach 52 with Dissolve(0.5)
-    a "Yoohoo?"
-    a "Come over here?"
-    beachguy1 "Wait, what?"
-    scene 48-2 beach 53 with Dissolve(0.5)
-    beachguy2 "She's calling us over, let's go dude."
-    beachguy1 "For real?"
-    beachguy2 "Haha, that's interesting. Let's go check it out."
-    scene 48-2 beach 54 with Dissolve(0.5)
-    a "I'll just ask them."
-    a "Don't want to pester Andrew. He still needs his rest."
-    scene 48-2 beach 55 with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 57 with Dissolve(0.5)
-    beachguy1 "Yes?"
-    beachguy1 "{i}...Holy fuck... Her tits are bare...{/i}"
-    beachguy1 "What does such a wonderful lady like you want?"
-    scene 48-2 beach 56 with Dissolve(0.5)
-    a "Oh. heh. Hey. I just drank all of my beer..."
-    a "And I need a new one."
-    a "Heh. I really went through it fast."
-    scene 48-2 beach 58 with Dissolve(0.5)
-    a "As you can see, my boyfriend is asleep..."
-    a "And I don't want to wake him."
-    a "I don't want to walk around half naked like this and a bit too lazy to do it myself."
-    a "Soo..."
-    a "Perhaps I could ask you guys?"
-    scene 48-2 beach 59 with Dissolve(0.5)
-    beachguy2 "Sure. That can be arranged."
-    a "Oh you're so nice. Thank you."
-    beachguy2 "I'll be right back."
-    scene 48-2 beach 60 with Dissolve(0.5)
-    a "Thank you!"
-    scene 48-2 beach 61 with Dissolve(0.5)
-    a "Oh, that reminds me."
-    a "I really need someone to wipe some sunscreen on me."
-    a "My boyfriend would do it..."
-    a "But as you can see, he's not exactly capable."
-    a "Would you mind?"
-    scene 48-2 beach 62 with Dissolve(0.5)
-    beachguy1 "Oh I don't mind at all."
-    beachguy1 "What ever you need."
-    a "Good, hehe."
-    scene 48-2 beach 63 with Dissolve(0.5)
-    beachguy1 "You're the volleyball girl right?"
-    a "What do you mean?"
-    beachguy1 "I saw you playing volleyball with some young dudes here before."
-    a "Oh, hehe... Yes."
-    beachguy1 "Things got pretty interesting towards the end."
-    a "They sure did."
-    scene 48-2 beach 64 with Dissolve(0.5)
-    beachguy1 "You sure your boyfriend doesn't mind?"
-    a "Well, he's asleep. I don't see a problem with someone else helping out meanwhile."
-    a "You know?"
-    beachguy1 "Hehe. Sure."
-    scene 48-2 beach 65 with Dissolve(0.5)
-    a "I mean, we aren't exactly doing anything bad, are we?"
-    beachguy1 "Absolutely not."
-    a "You're just a nice man helping out someone in need."
-    a "That's all."
-    beachguy1 "True."
-    scene 48-2 beach 66 with Dissolve(0.5)
-    a1 "Ahh... Wha."
-    a1 "{i}...What the... Is this a dream...{/i}"
-    a1 "{i}...I'm so confused right now...{/i}"
-    scene 48-2 beach 67 with Dissolve(0.5)
-    a1 "{i}...Some dude massaging Anna...{/i}"
-    a1 "{i}...Damn, that medicine and alcohol definitely doesn't mix...{/i}"
-    a1 "{i}...I'm... Whoa... So confused...{/i}"
-    scene 48-2 beach 68 with Dissolve(0.5)
-    a1 "{i}...That's... Weird... I don't think some random should touch Anna like that...{/i}"
-    a1 "{i}..C'mon Andrew... Don't complicate it... It's not that big of a deal...{/i}"
-    a1 "{i}...He's just... Doing something to her... Putting on sunscreen...{/i}"
-    a1 "{i}...Perhaps I'm just seeing things...{/i}"
-    scene 48-2 beach 69 with Dissolve(0.5)
-    beachguy2 "Well. I'm back."
-    beachguy2 "Got the beer, as requested."
-    a "Hehe, great!"
-    a1 "Thank you!"
-    scene 48-2 beach 70 with Dissolve(0.5)
-    beachguy2 "You're very welcome."
-    a "I'm Anna."
-    beachguy2 "Awesome."
-    scene 48-2 beach 71 with Dissolve(0.5)
-    beachguy2 "You know..."
-    beachguy2 "I think I deserve a little 'reward' for bringing you beer."
-    beachguy2 "Don't you think?"
-    a "Oh. hehe... Well you've both been rather helpful."
-    scene 48-2 beach 72 with Dissolve(0.5)
-    a "Would be callous of me not to say thanks in some way, now would it."
-    beachguy1 "Correct, hehe."
-    scene 48-2 beach 73 with Dissolve(0.5)
-    a1 "{i}... Whaaat?{/i}"
-    a1 "{i}...I definitely must be dreaming...{/i}"
-    a1 "{i}...Anna isn't that naughty... Is she?...{/i}"
-    scene 48-2 beach 74 with Dissolve(0.5)
-    a "How about you help me take off this micro bikini."
-    a "I was going to lose it anyway."
-    beachguy1 "Hehe. Of course!"
-    play sound undress
-    scene 48-2 beach 75 with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 76 with Dissolve(0.5)
-    beachguy1 "There."
-    beachguy1 "That should make it easier for you to get a good tan."
-    a "You're absolutely right."
-    beachguy2 "Wow!"
-    beachguy1 "Yeah!"
-    scene 48-2 beach 77 with Dissolve(0.5)
-    a1 "{i}...Wait... I'm... Not dreaming...{/i}"
-    a1 "{i}...She's actually being undressed by some strangers...{/i}"
-    a1 "{i}...There must be a good reason for that, totally...{/i}"
-    scene 48-2 beach 78 with Dissolve(0.5)
-    a1 "{i}...You can almost see her pussy...{/i}"
-    a1 "{i}...That's... Is that a good thing to do...{/i}"
-    a1 "{i}...It's Anna, she knows what she's doing, though...{/i}"
-    scene 48-2 beach 79 with Dissolve(0.5)
-    a "How's that for a reward?"
-    beachguy2 "Absolutely perfect!"
-    a "I knew you'd like it, hehe."
-    scene 48-2 beach 80 with Dissolve(0.5)
-    a "Thank you for the help!"
-    beachguy2 "No problem at all."
-    beachguy2 "Any time you need some help."
-    beachguy2 "If we're here. We'll help!"
-    a "Thanks!"
-    scene 48-2 beach 81 with Dissolve(0.5)
-    a1 "What's going on?"
-    scene 48-2 beach 82 with Dissolve(0.5)
-    a "Oh, you're awake. heh."
-    a1 "What you all doing?"
-    scene 48-2 beach 83 with Dissolve(0.5)
-    beachguy1 "Uhh... Nothing much."
-    beachguy1 "You just fell asleep."
-    beachguy1 "Anna here needed some help with some stuff."
-    beachguy1 "We just helped out, that's all."
-    scene 48-2 beach 84 with Dissolve(0.5)
-    a "Thank you again, heh."
-    beachguy1 "We'll leave you to it."
-    a "Heh."
-    scene 48-2 beach 85 with Dissolve(0.5)
-    beachguy2 "See you around."
-    a "Cheers!"
-    scene 48-2 beach 86 with Dissolve(0.5)
-    a1 "Anna?"
-    a1 "What was that all about?"
-    a1 "They saw you naked?"
-    a "Oh, Andrew."
-    a "Not like people haven't seen titties before."
-    a1 "I'm not even talking about that. Your pussy."
-    a "C'mon. They didn't see it. It was all behind my big ass."
-    $ persistent.scene_54 = True
-    label EP18_Andrew_Sex_Scene_Label_Gallery:
-    $ renpy.music.play("audio/sounds/Chill_Song_1.mp3", channel = 'music', if_changed = True)
-    scene 48-2 beach 87 with Dissolve(0.5)
-    a1 "But..."
-    a "What. Lost your tongue?"
-    a1 "Whaa..."
-    a "You like what you're seeing?"
-    scene 48-2 beach 88 with Dissolve(0.5)
-    a1 "Yeah..."
-    a1 "But."
-    a "But what?"
-    a "Want me to cover up now?"
-    a1 "I... No..."
-    a "Hehe."
-    scene 48-2 beach 89 with Dissolve(0.5)
-    beachguy2 "Dude, that girl's a freak!"
-    beachguy1 "Right?"
-    beachguy1 "Let's hope she comes here again."
-    beachguy1 "We could def talk her into some freaky shit."
-    scene 48-2 beach 90 with Dissolve(0.5)
-    a "Just say the word and I'll cover up."
-    a1 "I..."
-    a "I know you won't cause you like seeing my sexy body."
-    scene 48-2 beach 91 with Dissolve(0.5)
-    a "Oh..."
-    a "You like when touch myself like this?"
-    a1 "Ummm..."
-    a1 "It's..."
-    scene 48-2 beach 92 with Dissolve(0.5)
-    a1 "I just think..."
-    a1 "It's inappropriate to do it..."
-    a1 "Um..."
-    a1 "I forgot what I was saying."
-    scene 48-2 beach 93 with Dissolve(0.5)
-    a "Exactly. Cause it's not important."
-    a1 "WOOOW!"
-    a "You know you like what you saw. Now and before, right?"
-    a1 "I... I don't think so..."
-    a "You sure?"
-    a1 "Yeah..."
-    scene 48-2 beach 94 with Dissolve(0.5)
-    a "Then why is your cock hard?"
-    a "You have to admit, maybe just a little part of you liked what you saw before."
-    a "Someone massaging my body."
-    scene 48-2 beach 95 with Dissolve(0.5)
-    a1 "Umm..."
-    a1 "I'm not sure..."
-    a "Hehe..."
-    a "That's ok..."
-    play sound undress
-    scene 48-2 beach 96 with Dissolve(0.5)
-    a "I can help you with your 'problem.'"
-    a1 "oooOOOHHHH."
-    a "Yeah?"
-    a1 "OH, Anna!"
-    show EP18_Andrew_Anim_1 with Dissolve(0.5)
-    pause
-    a1 "Ah..."
-    pause
-    show EP18_Andrew_Anim_2 with Dissolve(0.5)
-    hide EP18_Andrew_Anim_1
-    pause
-    a "Yeah. You like this stroking?"
-    a1 "Yeah... Fuck..."
-    a "Ah."
-    scene 48-2 beach 97 with Dissolve(0.5)
-    hide EP18_Andrew_Anim_2
-    a1 "This is... Not... A good idea."
-    a "What?"
-    a "Are you seriously saying you don't want me to touch you like this?"
-    a1 "I..."
-    a "Now or never."
-    a1 "Fuuckk..."
-    scene 48-2 beach 98 with Dissolve(0.5)
-    a "MMm... This whole ordeal is making me wet!"
-    a1 "WHAAA?!"
-    a1 "WOW!"
-    a "Yeah... I bet you want that cock inside me."
-    scene 48-2 beach 99 with Dissolve(0.5)
-    a "Ohh... So hot..."
-    a "Don't you agree?"
-    a "{i}...When people look at me like this...{/i}"
-    scene 48-2 beach 99-1 with Dissolve(0.5)
-    beachguy1 "Dammnn..."
-    beachguy2 "I don't think I've ever seen something like this at the beach."
-    beachguy1 "Yeah. Crazy!"
-    show EP18_Andrew_Anim_3 with Dissolve(0.5)
-    a "Mmm..."
-    a "{i}...So hot...{/i}"
-    a "{i}...They're just staring at me...{/i}"
-    a "{i}...Dirty men... Hehe...{/i}"
-    scene 48-2 beach 100 with Dissolve(0.5)
-    hide EP18_Andrew_Anim_3
-    a1 "Oh... Anna..."
-    a1 "Your hands are so soft on my cock."
-    a1 "Like silk."
-    a "Hehe... Hold on just a moment."
-    a1 "I can barely do it..."
-    play sound cloth_sound1
-    scene 48-2 beach 101 with Dissolve(0.5)
-    a1 "OOHOHHH!"
-    a "You like that, yeah?"
-    a1 "YES!"
-    a1 "SO HOT!"
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Andrew_Anim_4 with Dissolve(0.5)
-    label EP18_Andrew_Sex_Label_1:
-    a1 "OH shit!"
-    a1 "Your tits are so hot!"
-    a "Hmmph..."
-    menu EP18_Andrew_Anim_Menu_1:
-        "View 1":
-            hide EP18_Andrew_Anim_4
-            hide EP18_Andrew_Anim_5
-            hide EP18_Andrew_Anim_6
-            hide EP18_Andrew_Anim_7
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Andrew_Anim_4 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Andrew_Anim_5 with Dissolve(0.5)
-            jump EP18_Andrew_Anim_Menu_1
-        "View 2":
-            hide EP18_Andrew_Anim_4
-            hide EP18_Andrew_Anim_5
-            hide EP18_Andrew_Anim_6
-            hide EP18_Andrew_Anim_7
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Andrew_Anim_6 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Andrew_Anim_7 with Dissolve(0.5)
-            jump EP18_Andrew_Anim_Menu_1
-        "Slower":
-            hide EP18_Andrew_Anim_4
-            hide EP18_Andrew_Anim_5
-            hide EP18_Andrew_Anim_6
-            hide EP18_Andrew_Anim_7
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Andrew_Anim_4 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Andrew_Anim_6 with Dissolve(0.5)
-            jump EP18_Andrew_Anim_Menu_1
-        "Faster":
-            hide EP18_Andrew_Anim_4
-            hide EP18_Andrew_Anim_5
-            hide EP18_Andrew_Anim_6
-            hide EP18_Andrew_Anim_7
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Andrew_Anim_5 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Andrew_Anim_7 with Dissolve(0.5)
-            jump EP18_Andrew_Anim_Menu_1
-        "Continue":
-            hide EP18_Andrew_Anim_4
-            hide EP18_Andrew_Anim_5
-            hide EP18_Andrew_Anim_6
-            hide EP18_Andrew_Anim_7
-            $ different_choice_menu = False
-            pass
-    scene 48-2 beach 102 with Dissolve(0.5)
-    a1 "FUCK FUCK FUCK..."
-    a1 "I'm... Cumming!"
-    a1 "FUUCK!"
-    play sound cum_sound
-    scene 48-2 beach 103 with flash_vpunch
-    a1 "AHHH!!"
-    a "OH!"
-    a1 "FUUCK!"
-    scene 48-2 beach 104 with Dissolve(0.5)
-    a "Oh... How awkward..."
-    a1 "I'm... Sorry..."
-    a1 "I didn't expect that..."
-    a "Neither did I."
-    a1 "You have to understand. I've not done anything."
-    a "Not even masturbated?"
-    a1 "No...I wanted to keep all that semen for you."
-    a1 "And now it's wasted."
-    $ renpy.end_replay()
-    scene 48-2 beach 105 with Dissolve(0.5)
-    a "Not all of it."
-    a "I can still manage to 'reclaim' some."
-    a1 "Serious?"
-    a "Totaly."
-    play sound licking_1
-    scene 48-2 beach 106 with Dissolve(0.5)
-    a1 "Oh shit!"
-    a1 "That's good!"
-    a "You like it?"
-    a1 "YEAH!"
-    show EP18_Andrew_Anim_8 with Dissolve(0.5)
-    pause
-    a1 "Ah!"
-    a1 "AH!"
-    a1 "It's a bit sensitive."
-    a "Hehe."
-    scene 48-2 beach 107 with Dissolve(0.5)
-    hide EP18_Andrew_Anim_8
-    a1 "Oh, Anna. Sweet Anna!"
-    a1 "Such a good girlfriend!"
-    if AnnaCorruption >=30:
-        a "{i}...If only he knew...{/i}"
-    play sound licking_2
-    scene 48-2 beach 108 with Dissolve(0.5)
-    a1 "You're really sucking it all up..."
-    a1 "Damn!"
-    a "Hehe..."
-    scene 48-2 beach 109 with Dissolve(0.5)
-    a "You sure you came so fast because you hadn't done it for a while?"
-    a "Or maybe it was because of something else?"
-    a1 "What do you mean?"
-    a "Maybe you liked what you saw with the guys, and that really turned you on."
-    scene 48-2 beach 110 with Dissolve(0.5)
-    a1 "I don't know, Anna..."
-    a1 "It's all confusing..."
-    a "Hehe..."
-    a1 "Please forgive me for cumming so fast."
-    a1 "I know I left you wanting."
-    scene 48-2 beach 111 with Dissolve(0.5)
-    a "Eh. It's ok."
-    a "There will be other times..."
-    if AnnaCorruption >= 40:
-        a "{i}...And other men...{/i}"
-    scene 48-2 beach 112 with Dissolve(0.5)
-    a1 "Yeah. I don't know what came over me."
-    a1 "Cumming so fast..."
-    a "{i}...Even for him, that was fast...{/i}"
-    a "{i}...Perhaps he did actually like what he saw, and that sent him over the edge...{/i}"
-    scene 48-2 beach 113 with Dissolve(0.5)
-    a "There are still reasons to consider..."
-    a1 "Maybe..."
-    scene 48-2 beach 114 with Dissolve(0.5)
-    a "I mean. It's normal for other guys to find me hot."
-    a "That just means you've got a trophy at home. A grand prize that you own."
-    a1 "Well..."
-    scene 48-2 beach 115 with Dissolve(0.5)
-    a "You sure you don't find it hot when other men crave me?"
-    a1 "I..."
-    a "It just means you've got something everyone wants..."
-    a1 "When you put it that way... It makes sense..."
-    scene 48-2 beach 116 with Dissolve(0.5)
-    a "Hehe... Exactly..."
-    a "Anyway. I think it's time to get going."
-    a1 "Yeah. I feel a bit weird because of the... Alcohol and medicine mixing."
-    a "Ok."
-    play sound undress
-    scene 48-2 beach 117 with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 118 with Dissolve(0.5)
-    a1 "I still think this outfit is too minimal."
-    a1 "Buut... I suppose it's all ok."
-    a "Heh."
-    scene 48-2 beach 119 with Dissolve(0.5)
-    a "I knew you'd warm up to it."
-    a "I know you like seeing it anyway. My body half covered."
-    a "For all to see."
-    a1 "Umm... I suppose..."
-    a1 "{i}...Not sure how I feel about all of this...{/i}"
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-2 beach 120 with Dissolve(0.5)
-    a1 "I mean... All in all, a nice day at the beach."
-    a "Indeed."
-    scene black with Dissolve(0.5)
-    pause 1
-    play music chill_song_2
-    play ambient citytraffic
-    scene 48-2 beach 121 with Dissolve(0.5)
-    a "What are you planning to do next?"
-    a1 "Not sure."
-    a1 "Will lay down at home at first."
-    a1 "Then figure it out."
-    if BenjaminContent == True:
-        b1 "{i}...That's Anna!{/i}"
-        scene 48-2 beach 122 with Dissolve(0.5)
-        b1 "{i}...As beautiful as ever...{/i}"
-        b1 "{i}...I should talk to her...{/i}"
-        scene 48-2 beach 123 with Dissolve(0.5)
-        b1 "Anna! Hey!"
-        a1 "Go away, dude!"
-        a1 "Stop pestering us!"
-        scene 48-2 beach 124 with Dissolve(0.5)
-        a "Wait. No."
-        a "I know him?"
-        a1 "You know this bum?"
-        a "Well... I'll have you know, he is not a bum anymore."
-        b1 "That's right!"
-        b1 "Now I'm a citizen with rights!"
-        scene 48-2 beach 125 with Dissolve(0.5)
-        b1 "How are you doing?"
-        a "I'm good! Went to the beach."
-        a "I'm more curious about you?"
-        a "You settled in at work?"
-        b1 "Hehe... I am!"
-        b1 "As you can see, I've got a bunch of groceries bought."
-        scene 48-2 beach 126 with Dissolve(0.5)
-        a "Indeed."
-        a "You should also get some new clothing."
-        a "These old rags don't let you shine."
-        b1 "Oh. Heh... You're right, but I just don't know where."
-        a "I know a place where we could get something for you."
-        a "At a discount."
-        b1 "That sounds like a great idea!"
-        a1 "{i}...How does Anna know him... Hmmm...{/i}"
-        scene 48-2 beach 127 with Dissolve(0.5)
-        b1 "Wait a minute..."
-        scene 48-2 beach 128 with Dissolve(0.5)
-        b1 "Sorry to cut it short... But... That's a great idea!"
-        b1 "I forgot to turn the stove off, I gotta run!"
-        a "Let's meet again today, a bit later, regarding clothes, ok?"
-        a "There's the clothing shop in the shopping district. Alfred's clothing."
-        b1 "Hmm... I'll find it."
-        scene 48-2 beach 129 with Dissolve(0.5)
-        b1 "Bye!"
-        b1 "See you later!"
-        a1 "Who was that guy?"
-        a "Oh, Benjamin?"
-        a "Just someone I've been helping out."
-        a1 "You've been helping out a homeless guy?"
-        a "Yeah, what of it?"
-        scene 48-2 beach 130 with Dissolve(0.5)
-        a1 "Nothing... That sounds very nice."
-        b1 "{i}...Hehe, if only he knew what 'nice' things she has done for me...{/i}"
-        b1 "{i}...With her mouth... with her nether regions... hehe...{/i}"
-    scene 48-2 beach 131 with Dissolve(0.5)
-    a1 "Oh, just remembered. Have to meet Ashley later."
-    a1 "What are you going to do?"
-    scene 48-2 beach 131-1 with Dissolve(0.5)
-    a "Got some things to do."
-    a "Will see."
-    if BenjaminContent == True:
-        a "Like you just heard, will meet Benjamin and help him with some clothing."
-        a "I know the store owner, and he'd help out me and Benjamin."
-        a1 "That's cool."
-    else:
-        a "Got some things to do... But one thing at a time, I'll also get home and rest a little..."
-    scene black with Dissolve(0.5)
-    pause 1
-    stop ambient
-    if BenjaminContent == True:
-        scene 48-2 beach 132 with Dissolve(0.5)
-        a "{i}...What we did at the beach was interesting...{/i}"
-        a "{i}...Andrew looked conflicted, but not completely against the idea...{/i}"
-        a "{i}...Perhaps he'd actually like it, with some encouragement...{/i}"
-        a "{i}...Will see...{/i}"
-        a "{i}...I guess I'll change back into my regular outfit...{/i}"
-    else:
-        jump EP18_John_1
-    play sound undress
-    scene black with Dissolve(0.5)
-    pause 1
-    if BenjaminContent == True:
-        jump EP18_Benjamin_1
-    else:
-        jump EP18_John_1
-label EP18_Benjamin_1:
-    $ EP18_var_4 = True
-    play ambient citytraffic
-    play music chill_song_3
-    scene 48-3 ben 1 with Dissolve(0.5)
-    b1 "Anna!"
-    b1 "So good to see you again!"
-    a "Benjamin, hello."
-    a "Managed to get home in time?"
-    b1 "Yeah, all good. Heh."
-    scene 48-3 ben 2 with Dissolve(0.5)
-    b1 "You know. It's been a looong time since I've bought clothes at a normal shop..."
-    b1 "Have to cherish this moment."
-    a "Heh indeed."
-    a "I'm glad you're getting back on track."
-    b1 "You have no idea how happy I am about all this."
-    play sound door2
-    scene 48-3 ben 3 with Dissolve(0.5)
-    a "So I know the owner of the shop as well as the assistant."
-    a "Patricia. She's a wonderful girl. I bet she'll help us with some outfits for you."
-    b1 "That's nice to hear."
-    stop ambient
-    scene 48-3 ben 4 with Dissolve(0.5)
-    a "There she is."
-    b1 "Oh she's beautiful."
-    scene 48-3 ben 5 with Dissolve(0.5)
-    a "Hello, Patricia!"
-    p2 "Anna?"
-    p2 "It's been a while since I've seen you!"
-    p2 "I mean, don't get me wrong. I'm happy to see you!"
-    scene 48-3 ben 6 with Dissolve(0.5)
-    a "Oh... Sorry, I've been pretty busy lately."
-    a "There's always something going on in my life, hehe."
-    p2 "So. Who have you brought me today?"
-    a "Oh. This is Benjamin. A friend of mine."
-    a "I met him at the bar, and we're just picking out some new clothes for him."
-    a "I also need something for an occasion."
-    scene 48-3 ben 7 with Dissolve(0.5)
-    b1 "Hello. Heh."
-    b1 "Haven't been in a shop like this for quite some time."
-    b1 "So I apologize for looking like this..."
-    p2 "Not to worry, any friend of Anna's is a friend of mine."
-    scene 48-3 ben 8 with Dissolve(0.5)
-    p2 "Follow me to the changing cabin, and we'll pick out something for you."
-    b1 "Sounds great!"
-    scene 48-3 ben 9 with Dissolve(0.5)
-    p2 "So. I'd like you to undress."
-    b1 "Wha?"
-    p2 "Meanwhile, I will choose something for you."
-    a "She's good at finding nice-looking fits. Trust me."
-    scene 48-3 ben 10 with Dissolve(0.5)
-    p2 "Well, I didn't go to design school for no reason, hehe."
-    p2 "So. Yeah. My specialty is giving people outfits that match their style, persona, and overall aesthetic."
-    b1 "Wow. I'm impressed."
-    p2 "Alright, Anna and I will pick something out."
-    scene 48-3 ben 11 with Dissolve(0.5)
-    p2 "So. Tough day, I see?"
-    a "What do you mean?"
-    scene 48-3 ben 12 with Dissolve(0.5)
-    p2 "C'mon, Anna."
-    p2 "It's obvious that man is a homeless guy or something."
-    a "Technically not anymore. He has a place of his own."
-    p2 "Why exactly are you helping him?"
-    p2 "He's probably just some drunk that's gonna leech off you."
-    scene 48-3 ben 13 with Dissolve(0.5)
-    a "Don't say that."
-    a "He's a lot better of a person than you'd think."
-    a "Besides. I remember my grandpa. This man is also of older age and..."
-    a "I just have a soft spot for older men in need."
-    a "I can't help it. Won't let that nice man suffer on the street."
-    scene 48-3 ben 14 with Dissolve(0.5)
-    p2 "Oh, Anna."
-    p2 "You with your kind heart."
-    p2 "One of these days, someone will take advantage..."
-    p2 "But if they do, I will tear their hair out, hehe."
-    a "Haha. Patricia, always such a loyal friend."
-    p2 "I've got something for him, let's go."
-    scene 48-3 ben 15 with Dissolve(0.5)
-    p2 "Alright, we're back!"
-    p2 "You can open the door!"
-    b1 "Umm... I'm a bit shy. I don't think we should do this."
-    p2 "You mean you'll just stand there without new clothing?"
-    b1 "Umm... I didn't think it through."
-    p2 "Just open up."
-    scene 48-3 ben 16 with Dissolve(0.5)
-    p2 "Heh, a bit shy."
-    a "See, I told you."
-    a "He's just a kind old man who doesn't want to burden anyone..."
-    a "But deserves things like these."
-    b1 "Alright. I'll open it so you can give me clothes."
-    scene 48-3 ben 17 with Dissolve(0.5)
-    a "Oh."
-    scene 48-3 ben 18 with Dissolve(0.5)
-    p2 "WHAAA?"
-    p2 "That's a..."
-    p2 "{i}...Biig cock... Fucking hell...{/i}"
-    p2 "Wait..."
-    p2 "Why are you naked?"
-    scene 48-3 ben 19 with Dissolve(0.5)
-    b1 "You asked me to undress?!"
-    p2 "Yeah, but obviously to leave underpants on or something."
-    b1 "Shiet."
-    scene 48-3 ben 20 with Dissolve(0.5)
-    b1 "I didn't have anyone to begin with."
-    b1 "I'm sorry for this..."
-    b1 "I didn't mean to be this unprofessional."
-    scene 48-3 ben 21 with Dissolve(0.5)
-    p2 "It's umm... Ok."
-    p2 "Here. Take the clothes."
-    play sound cloth_sound1
-    scene 48-3 ben 22 with Dissolve(0.5)
-    b1 "Thanks. I'll get changed real quick."
-    p2 "Umm... Yeah. Ok."
-    a "Hehe..."
-    scene 48-3 ben 23 with Dissolve(0.5)
-    p2 "Oh my god..."
-    p2 "That was the largest penis I've ever seen. What the..."
-    p2 "Have you seen it before?"
-    p2 "You didn't look as surprised."
-    scene 48-3 ben 24 with Dissolve(0.5)
-    a "Between you and I."
-    a "I have..."
-    p2 "What?"
-    a "There was an accident once..."
-    a "And I saw it, right up in my face..."
-    p2 "Jeez."
-    scene 48-3 ben 25 with Dissolve(0.5)
-    b1 "Hmm..."
-    b1 "What if I asked Anna for help, heh."
-    b1 "I want to see her touch me..."
-    scene 48-3 ben 26 with Dissolve(0.5)
-    b1 "Hey, Anna?!"
-    b1 "Anna?"
-    a "Yes, Benjamin?"
-    b1 "I've got this problem!"
-    b1 "I can't bend down to put on the pants."
-    b1 "It's my back... Been slowly giving out for a while now."
-    b1 "Could you come in here and help out?"
-    scene 48-3 ben 27 with Dissolve(0.5)
-    p2 "Oh my... Heh..."
-    a "Oh... That's... Since he doesn't have underpants..."
-    p2 "Well, not to sound jealous, but you will see that big cock once more..."
-    p2 "That's the upside, at least."
-    a "Don't be so vulgar, Patricia."
-    scene 48-3 ben 28 with Dissolve(0.5)
-    p2 "What?"
-    p2 "Just stating the obvious."
-    p2 "Regardless if he's a homeless man, a girl can still appreciate a nice cock when she sees one."
-    a "True."
-    scene 48-3 ben 29 with Dissolve(0.5)
-    p2 "I'll be right back, ok?"
-    p2 "Will look for an outfit for you, too."
-    a "Alright, I'll help the poor man, hehe."
-    scene 48-3 ben 30 with Dissolve(0.5)
-    a "Um..."
-    a "Just... Let's get this over quickly, okay?"
-    scene 48-3 ben 31 with Dissolve(0.5)
-    b1 "Oh, absolutely. I just need a bit of help."
-    a "Sure, sure."
-    b1 "Come on in."
-    b1 "You know, this cabin is larger than some of the places I used to live in..."
-    a "What?"
-    b1 "Crazy, I know."
-    scene 48-3 ben 32 with Dissolve(0.5)
-    a "Heh... This is a bit awkward."
-    b1 "Yeah... I'm... Sorry..."
-    b1 "{i}...Hehe... No, I'm not... I want her to check out my cock...{/i}"
-    scene 48-3 ben 33 with Dissolve(0.5)
-    a "Umm... Wait."
-    a "You haven't even put on the top or anything."
-    b1 "I always start with the pants."
-    a "Alright, alright."
-    scene 48-3 ben 34 with Dissolve(0.5)
-    b1 "Juicy..."
-    a "What?"
-    b1 "Nothing, nothing. Heh."
-    play sound jacketcloth
-    scene 48-3 ben 35 with Dissolve(0.5)
-    b1 "{i}...Yes... YES!... Hehe...{/i}"
-    b1 "{i}..Hot Anna in front of me...{/i}"
-    b1 "{i}...Again!... Hehe...{/i}"
-    scene 48-3 ben 36 with Dissolve(0.5)
-    a "{i}...It's so big...{/i}"
-    a "{i}...Fuck...{/i}"
-    a "{i}...Again, I'm starting to feel drawn to it...{/i}"
-    play sound undress
-    scene 48-3 ben 37 with Dissolve(0.5)
-    a "Almost there."
-    a "{i}...Such a nice cock...{/i}"
-    a "{i}...Almost like it needs to be sucked...{/i}"
-    scene 48-3 ben 38 with Dissolve(0.5)
-    a "Your cock is in the way..."
-    b1 "I can't help it, Anna..."
-    b1 "It's just that big, and I have to deal with it."
-    play sound jacketcloth
-    scene 48-3 ben 39 with Dissolve(0.5)
-    a "Oh..."
-    b1 "Niice..."
-    a "What?"
-    b1 "Nothing... Nothing..."
-    scene 48-3 ben 40 with Dissolve(0.5)
-    pause 1
-    play sound undress
-    scene 48-3 ben 44 with Dissolve(0.5)
-    b1 "Ahh..."
-    b1 "Yeah."
-    scene 48-3 ben 45 with Dissolve(0.5)
-    b1 "You know..."
-    b1 "You can get it whenever you want. Hehe..."
-    a "What?"
-    scene 48-3 ben 46 with Dissolve(0.5)
-    a "Stop fooling around, Ben."
-    a "We can't do some naughty stuff in here."
-    b1 "Why not?"
-    b1 "Worried someone will hear?"
-    a "Umm..."
-    a "No..."
-    a "Just. Not appropriate."
-    b1 "Heh. I've seen that look on your face before."
-    play sound undress
-    scene 48-3 ben 47 with Dissolve(0.5)
-    b1 "Ok, All done."
-    b1 "Gotta say, I feel nice in a new set of clothes."
-    a "You also look outstanding."
-    b1 "Thank you..."
-    scene 48-3 ben 48 with Dissolve(0.5)
-    a "Patricia!"
-    scene 48-3 ben 49 with Dissolve(0.5)
-    p2 "Yes?"
-    a "We're all done here."
-    a "And I gotta say, you've picked out something really nice for him."
-    p2 "Thank you. My aim is to please."
-    scene 48-3 ben 50 with Dissolve(0.5)
-    b1 "I feel so good in this. Thank you!"
-    b1 "I mean, it looks good, feels good, smells good."
-    p2 "I'm glad I could put a smile on your face."
-    b1 "Looking this fresh, I guess I'm going to have to invite Anna to dinner, hehe."
-    p2 "Interesting."
-    scene 48-3 ben 51 with Dissolve(0.5)
-    p2 "So. All done here?"
-    a "I think so."
-    p2 "Let's go and finalize this thing."
-    b1 "Alright!"
-    scene 48-3 ben 53 with Dissolve(0.5)
-    b1 "So how much will that set me back?"
-    a "Oh, don't worry about this."
-    a "I'll cover it."
-    scene 48-3 ben 54 with Dissolve(0.5)
-    p2 "Don't forget, I also picked out something for you."
-    a "Oh. hehe. Thanks."
-    a "I wonder what it is."
-    p2 "Trust me, you won't be disappointed."
-    a "I'll keep you to it, Patricia. Haha."
-    scene 48-3 ben 55 with Dissolve(0.5)
-    p2 "I'll also give you a generous discount since you're a regular here."
-    p2 "And knowing Alfred, he wouldn't mind."
-    p2 "In fact, sales have been up since that fashion show."
-    b1 "Thank you once more."
-    b1 "Let me carry that for you."
-    scene 48-3 ben 56 with Dissolve(0.5)
-    a "Thanks."
-    b1 "You sure you can pay?"
-    a "Easily."
-    b1 "I will repay you 10 fold."
-    a "Hehe. I'll keep you to it."
-    scene 48-3 ben 57 with Dissolve(0.5)
-    p2 "Thanks for shopping with us!"
-    p2 "Nice to see you, Benjamin."
-    p2 "See you around, Anna!"
-    b1 "Bye, lovely Patricia!"
-    scene 48-3 ben 58 with Dissolve(0.5)
-    p2 "Take care!"
-    a "Bye!"
-    play sound door2
-    scene 48-3 ben 60 with Dissolve(0.5)
-    b1 "That was great."
-    b1 "I will certainly try to keep this outfit in good condition."
-    b1 "It's excellent."
-    b1 "Thank you so much."
-    b1 "Anyway. You up for that dinner?"
-    a "At your place?"
-    b1 "Yeah. To celebrate the occasion. Besides, you bought this outfit for me. The least I can do is cook you something nice."
-    b1 "I do know how to cook some nice dishes. And I promise, they will contain good ingredients."
-    scene 48-3 ben 59 with Dissolve(0.5)
-    a "Hehe. Alright. You convinced me."
-    a "This evening then?"
-    b1 "Absolutely!"
-    a "I'd be glad to have dinner at your place, Benjamin."
-    b1 "Oh, Yes!"
-    b1 "I'll cook something very nice."
-    a "I will. See you in the evening."
-    b1 "Bye, Anna!"
-    scene black with Dissolve(0.5)
-    pause 1
-    jump EP18_John_1
-label EP18_Benjamin_2:
-    $ EP18_var_8 = True
-    stop ambient
-    play music chill_song_6
-    scene 48-5 ben 1 with Dissolve(0.5)
-    b1 "Anna! You're finally here."
-    a "MMm... Smells great!"
-    b1 "I've been cooking since we last spoke, hehe."
-    a "Impressive. You've been a busy bee."
-    scene 48-5 ben 2 with Dissolve(0.5)
-    b1 "Indeed."
-    b1 "But only the best for you, Anna."
-    b1 "I've been out of practice for a bit, but that's why I've been cooking non-stop since then."
-    a "I'm sure it's going to be lovely."
-    scene 48-5 ben 3 with Dissolve(0.5)
-    a "{i}...Mmm... Smells really good...{/i}"
-    a "{i}...Last time I was here...{/i}"
-    a "{i}...Benny penetrated me on that table...{/i}"
-    scene 48-5 ben 4 with Dissolve(0.5)
-    a "I hope you don't mind. I'll go to the toilet real quick."
-    a "{i}...And change into the outfit that Patricia gave me...{/i}"
-    a "{i}...Surprise Benny...{/i}"
-    b1 "Absolutely!"
-    b1 "Do whatever you'd like. Toilet, bath, TV."
-    a "Thanks, heh."
-    scene 48-5 ben 6 with Dissolve(0.5)
-    a "I'll be back soon, ok?"
-    b1 "No rush."
-    scene 48-5 ben 7 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 8 with Dissolve(0.5)
-    a "Alright."
-    a "Let's see what kind of an outfit Patricia picked out for me."
-    play sound undress
-    scene 48-5 ben 9 with Dissolve(0.5)
-    pause 1
-    play sound cloth_sound1
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound jacketcloth
-    scene 48-5 ben 10 with Dissolve(0.5)
-    a "The front is nice, but..."
-    scene 48-5 ben 11 with Dissolve(0.5)
-    a "Whaat?"
-    a "There's absolutely nothing covering my back..."
-    a "Oh Patricia, you naughty, naughty girl."
-    a "Didn't expect anything less from that minx."
-    a "Let's see what Benjamin thinks."
-    scene 48-5 ben 12 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 13 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 14 with Dissolve(0.5)
-    b1 "That's a nice outfit, Anna."
-    b1 "Proper and beautiful."
-    a "{i}...He hasn't noticed the back yet, heh...{/i}"
-    a "{i}...He's in for a nice surprise...{/i}"
-    scene 48-5 ben 15 with Dissolve(0.5)
-    b1 "I like it."
-    a "Me too."
-    a "It also has a little surprise."
-    b1 "Oh?"
-    scene 48-5 ben 16 with Dissolve(0.5)
-    b1 "I wonder what the surprise is."
-    a "You'll see soon."
-    b1 "Can't wait, hehe."
-    scene 48-5 ben 17 with Dissolve(0.5)
-    b1 "Could you help me out with the dishes?"
-    a "Sure."
-    b1 "Just put everything on the table."
-    b1 "The food is almost ready."
-    scene 48-5 ben 18 with Dissolve(0.5)
-    b1 "I'm sure you will love what I've prepared for the both of us."
-    a "Hehe. I trust you."
-    scene 48-5 ben 19 with Dissolve(0.5)
-    pause 1
-    play sound surprise2
-    scene 48-5 ben 20 with Dissolve(0.5)
-    b1 "{i}....OoooOOOoooOOAAAAA!!!...{/i}"
-    b1 "{i}..SHIEEEETT!!...{/i}"
-    b1 "{i}...She got nothing covering that... WHAA?{/i}"
-    scene 48-5 ben 21 with Dissolve(0.5)
-    b1 "{i}...She nastyyyy!!!...{/i}"
-    b1 "Just the way I like it!"
-    a "What's that?"
-    b1 "Ummm... Nothing, did I say that out loud?"
-    a "Yeah..."
-    scene 48-5 ben 22 with Dissolve(0.5)
-    a "Hold on. those dishes are a bit lower."
-    a "Just... Have to reach down there."
-    b1 "{i}..AaaaaaaAAAAAaAAAAAHHHOOOO!...{/i}"
-    b1 "{i}...THAT ASSSS!!!{/i}"
-    scene 48-5 ben 23 with Dissolve(0.5)
-    a "{i}...Hehe...{/i}"
-    a "{i}...I can feel his gaze on my luscious butt...{/i}"
-    scene 48-5 ben 24 with Dissolve(0.5)
-    a "That's all?"
-    b1 "Yeah, these will do."
-    b1 "Khem."
-    scene 48-5 ben 25 with Dissolve(0.5)
-    b1 "Just put them on the counter."
-    b1 "I'll do the rest."
-    a "Ok."
-    scene 48-5 ben 26 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 27 with Dissolve(0.5)
-    b1 "{i}...I feel like I'm going to get LUCKYYYY...{/i}"
-    b1 "You can just sit at the table. Be right with ya."
-    a "Can't wait. It smells amazing!"
-    b1 "Trust me, it is."
-    scene 48-5 ben 28 with Dissolve(0.5)
-    a "I know what you saw back there."
-    a "When I leaned over."
-    a "We will manage to finish our food, right?"
-    a "I'm hungry."
-    scene 48-5 ben 29 with Dissolve(0.5)
-    b1 "As you command, Anna."
-    b1 "I shall keep my composure."
-    b1 "Besides, you have to taste this soup. It's exquisite."
-    scene 48-5 ben 30 with Dissolve(0.5)
-    b1 "You know..."
-    b1 "I used to be a chef."
-    b1 "And Ramen soup was one of my specialties."
-    a "Really?"
-    a "I never knew."
-    scene 48-5 ben 31 with Dissolve(0.5)
-    b1 "Eh. That time has long since passed."
-    b1 "Now I'm a degenerate with good taste, that be all."
-    a "You are not a degenerate."
-    b1 "Heh, you know what I mean."
-    scene 48-5 ben 32 with Dissolve(0.5)
-    b1 "Here."
-    b1 "Best I can offer."
-    a "I'm sure it will exceed expectations."
-    b1 "I'll let you be the judge of that."
-    scene 48-5 ben 33 with Dissolve(0.5)
-    a "Thank you, Benjamin."
-    b1 "Only the best for you."
-    play sound jacketcloth
-    scene 48-5 ben 34 with Dissolve(0.5)
-    b1 "Let's dig in. I'm starving."
-    a "Me too."
-    scene 48-5 ben 35 with Dissolve(0.5)
-    a "I can't remember the last time I had food from Asian cuisine."
-    b1 "Indeed, I am in the same situation."
-    b1 "Now that I get a paycheck, I can finally afford to eat proper food again."
-    b1 "Before it was scraps, leftovers... Eh..."
-    a "But not anymore, Benjamin."
-    scene 48-5 ben 36 with Dissolve(0.5)
-    a "Alright, let's see what you've cooked up."
-    scene 48-5 ben 37 with Dissolve(0.5)
-    b1 "Classic ramen soup recipe."
-    scene 48-5 ben 38 with Dissolve(0.5)
-    a "MMMmmmmm!"
-    a "It's so GOOD!"
-    b1 "Really?"
-    a "Oh yeah!"
-    a "Wow!"
-    a "So much flavor."
-    b1 "Heh..."
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 39 with Dissolve(0.5)
-    a "Wow. I can't believe I finished it all so fast."
-    b1 "That's how the ramen soup is."
-    b1 "It gets ya."
-    a "And a bit spicy."
-    scene 48-5 ben 40 with Dissolve(0.5)
-    b1 "Wouldn't have it any other way."
-    a "I'm not against it. It's great!"
-    a "Wow, I'm still in disbelief."
-    a "I didn't know you cooked such great food."
-    b1 "I really tried my best."
-    scene 48-5 ben 41 with Dissolve(0.5)
-    b1 "Alright, that's that."
-    b1 "Heh."
-    b1 "I'll just clean up."
-    scene 48-5 ben 42 with Dissolve(0.5)
-    a "You know. I'll help out."
-    b1 "You don't have to."
-    a "It's the least I can do to help out."
-    a "The meal was worth it."
-    scene 48-5 ben 43 with Dissolve(0.5)
-    b1 "Thanks, Anna."
-    a "Thank you for the tasty, tasty food."
-    scene 48-5 ben 44 with Dissolve(0.5)
-    a "Lemme just."
-    b1 "Ok..."
-    b1 "{i}...Wha...{/i}"
-    b1 "{i}...Fucking amazing ass... FUCK!{/i}"
-    scene 48-5 ben 45 with Dissolve(0.5)
-    a "You all good there, Benjamin?"
-    b1 "I... Umm..."
-    b1 "I think."
-    scene 48-5 ben 46 with Dissolve(0.5)
-    b1 "{i}..OH MY GOD!!!!!...{/i}"
-    b1 "{i}...I WANNA SNIFF HER ASS SO BAD!...{/i}"
-    a "You mentioned you were a chef before."
-    a "Perhaps in the near future, it's worth trying to find a job somewhere in that field."
-    scene 48-5 ben 47 with Dissolve(0.5)
-    a "You know?"
-    a "Benjamin?"
-    b1 "MMMMMMM."
-    scene 48-5 ben 48 with Dissolve(0.5)
-    a "Oh..."
-    b1 "Soo... Soft..."
-    scene 48-5 ben 49 with Dissolve(0.5)
-    a "Oh... Ah..."
-    b1 "Yes, yes, yes."
-    scene 48-5 ben 50 with Dissolve(0.5)
-    a "Haha... Benjamin."
-    a "It's... A bit inappropriate, don't you think?"
-    b1 "I... Think it's fine, hehe."
-    scene 48-5 ben 51 with Dissolve(0.5)
-    b1 "Let me know if you'd like me to stop. Heh."
-    a "Um..."
-    $ persistent.scene_52 = True
-    label EP18_Benjamin_Sex_1:
-    $ renpy.music.play("audio/sounds/chill_song_6.mp3", channel = 'music', if_changed = True)
-    scene 48-5 ben 52 with Dissolve(0.5)
-    a "Ok..."
-    b1 "Should I stop?"
-    a "N... No..."
-    scene 48-5 ben 53 with Dissolve(0.5)
-    b1 "Good, heh."
-    b1 "I thought as much."
-    scene 48-5 ben 54 with Dissolve(0.5)
-    b1 "{b}*Sniff*{/b}"
-    b1 "AAHHH!"
-    b1 "YEAH!"
-    play audio female_moan_1
-    scene 48-5 ben 55 with Dissolve(0.5)
-    a "Ooh... Benny."
-    b1 "MHMM!"
-    scene 48-5 ben 56 with Dissolve(0.5)
-    a "Sniff that asshole!"
-    a "And lick that pussy!"
-    a "Oh... Benny!"
-    play sound jerk3 loop
-    scene 48-5 ben 57 with Dissolve(0.5)
-    b1 "Barely got in there, and that pussy's already moist."
-    b1 "Now ain't that peculiar."
-    play audio female_moan_2
-    a "I... I would agree..."
-    scene 48-5 ben 58 with Dissolve(0.5)
-    b1 "MM!"
-    b1 "That crack is full of your sweat and juices."
-    b1 "I fucking love a sweaty woman!"
-    stop sound
-    scene 48-5 ben 59 with Dissolve(0.5)
-    b1 "Come here!"
-    scene 48-5 ben 60 with Dissolve(0.5)
-    b1 "How about you lose that beautiful, beautiful dress for me."
-    b1 "The only thing that looks better on you is nothing."
-    b1 "When absolutely nothing covers you. THAT looks just so amazing!"
-    play sound undress
-    scene 48-5 ben 61 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 62 with Dissolve(0.5)
-    b1 "You are such a pleasing woman."
-    b1 "Anna, oh Anna."
-    b1 "What fortunes favor me to see such a woman naked."
-    play sound cloth_sound1
-    scene 48-5 ben 63 with Dissolve(0.5)
-    a "Hehe."
-    a "Perhaps you'd like it if I touched you. That would make things even better, wouldn't it?"
-    b1 "OH YES, YES!"
-    scene 48-5 ben 64 with Dissolve(0.5)
-    b1 "YES!"
-    b1 "OH..."
-    b1 "Never get used to the sensation your hands bring."
-    scene 48-5 ben 65 with Dissolve(0.5)
-    a "Come with me."
-    b1 "Oh... Hah."
-    b1 "Lead the way."
-    b1 "You control my body now anyway."
-    scene 48-5 ben 66 with Dissolve(0.5)
-    a "You're telling me that if I wanted, I could rob a bank with your body?"
-    b1 "Anything for you, Anna!"
-    a "Hehe."
-    play audio surprise
-    play sound jacketcloth
-    scene 48-5 ben 67 with Dissolve(0.5)
-    b1 "OH."
-    b1 "Hah."
-    a "Now. Where were we?"
-    scene 48-5 ben 68 with Dissolve(0.5)
-    a "Perhaps a little..."
-    a "Mouth would make you feel a bit better?"
-    b1 "Oh, please, please!"
-    b1 "Anna, YES!"
-    play sound undress
-    scene 48-5 ben 69 with Dissolve(0.5)
-    a "There we go."
-    scene 48-5 ben 70 with Dissolve(0.5)
-    b1 "YOUR HANDS!"
-    b1 "Soo... Nice..."
-    a "I know, Benny."
-    a "I know."
-    scene 48-5 ben 71 with Dissolve(0.5)
-    b1 "I'm the luckiest son of a bitch to walk this earthly plane."
-    a "Hehe."
-    a "You always had a way with words."
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_1 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_1:
-    b1 "OH shit!"
-    b1 "Them HANDS! THEM HANNNDS!"
-    b1 "OHHAAA!"
-    menu EP18_Benny_Anim_Menu_1:
-        "View 1":
-            hide EP18_Benny_Anim_1
-            hide EP18_Benny_Anim_2
-            hide EP18_Benny_Anim_3
-            hide EP18_Benny_Anim_4
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_1 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_2 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_1
-        "View 2":
-            hide EP18_Benny_Anim_1
-            hide EP18_Benny_Anim_2
-            hide EP18_Benny_Anim_3
-            hide EP18_Benny_Anim_4
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_3 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_4 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_1
-        "Slower":
-            hide EP18_Benny_Anim_1
-            hide EP18_Benny_Anim_2
-            hide EP18_Benny_Anim_3
-            hide EP18_Benny_Anim_4
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_1 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_3 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_1
-        "Faster":
-            hide EP18_Benny_Anim_1
-            hide EP18_Benny_Anim_2
-            hide EP18_Benny_Anim_3
-            hide EP18_Benny_Anim_4
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_2 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_4 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_1
-        "Continue":
-            hide EP18_Benny_Anim_1
-            hide EP18_Benny_Anim_2
-            hide EP18_Benny_Anim_3
-            hide EP18_Benny_Anim_4
-            $ different_choice_menu = False
-            pass
-    scene 48-5 ben 72 with Dissolve(0.5)
-    a "Looks so good up close."
-    b1 "I took good care of it for you."
-    a "Hehe."
-    scene 48-5 ben 73 with Dissolve(0.5)
-    a "Mmm..."
-    a "MMMM!"
-    b1 "OH, YES!"
-    scene 48-5 ben 74 with Dissolve(0.5)
-    b1 "AAHHHH!"
-    a "KHA. KHA!"
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_5 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_2:
-    b1 "FUUUUUUUUUUUUUU..."
-    a "AH. KHAA!"
-    menu EP18_Benny_Anim_Menu_2:
-        "View 1":
-            hide EP18_Benny_Anim_5
-            hide EP18_Benny_Anim_6
-            hide EP18_Benny_Anim_7
-            hide EP18_Benny_Anim_8
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_5 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_6 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_2
-        "View 2":
-            hide EP18_Benny_Anim_5
-            hide EP18_Benny_Anim_6
-            hide EP18_Benny_Anim_7
-            hide EP18_Benny_Anim_8
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_7 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_8 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_2
-        "Slower":
-            hide EP18_Benny_Anim_5
-            hide EP18_Benny_Anim_6
-            hide EP18_Benny_Anim_7
-            hide EP18_Benny_Anim_8
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_5 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_7 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_2
-        "Faster":
-            hide EP18_Benny_Anim_5
-            hide EP18_Benny_Anim_6
-            hide EP18_Benny_Anim_7
-            hide EP18_Benny_Anim_8
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_6 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_8 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_2
-        "Continue":
-            hide EP18_Benny_Anim_5
-            hide EP18_Benny_Anim_6
-            hide EP18_Benny_Anim_7
-            hide EP18_Benny_Anim_8
-            $ different_choice_menu = False
-            pass
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_9 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_3:
-    b1 "FUUUUUUUUUUUUUU..."
-    a "AH. KHAA!"
-    menu EP18_Benny_Anim_Menu_3:
-        "View 1":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_9 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_10 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_3
-        "View 2":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_11 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_12 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_3
-        "View 3":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ EP18_Anim_Option = 3
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_13 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_14 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_3
-        "Slower":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_5 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_7 with Dissolve(0.5)
-            elif EP18_Anim_Option == 3:
-                show EP18_Benny_Anim_13 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_3
-        "Faster":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_6 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_8 with Dissolve(0.5)
-            elif EP18_Anim_Option == 3:
-                show EP18_Benny_Anim_14 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_3
-        "Continue":
-            hide EP18_Benny_Anim_9
-            hide EP18_Benny_Anim_10
-            hide EP18_Benny_Anim_11
-            hide EP18_Benny_Anim_12
-            hide EP18_Benny_Anim_13
-            hide EP18_Benny_Anim_14
-            $ different_choice_menu = False
-            pass
-    scene 48-5 ben 75 with Dissolve(0.5)
-    a "I bet you liked that."
-    b1 "Liked that?"
-    b1 "I fuckity LOVED that!"
-    scene 48-5 ben 76 with Dissolve(0.5)
-    a "Hehe..."
-    a "I'm glad to hear that."
-    b1 "Can't wait what else you've got in mind."
-    a "Well... I... Pretty wet down there."
-    a "I have to bring down the excitement levels."
-    a "For the both of us..."
-    scene 48-5 ben 77 with Dissolve(0.5)
-    b1 "OOh... Heh."
-    b1 "You know how to intrigue an old homeless man."
-    a "Now, now. You aren't homeless anymore."
-    b1 "Heh. You're right!"
-    scene 48-5 ben 78 with Dissolve(0.5)
-    a "Let me just get comfortable."
-    b1 "Oh... Take all the time you need."
-    play sound undress
-    scene 48-5 ben 79 with Dissolve(0.5)
-    pause 1
-    scene 48-5 ben 80 with Dissolve(0.5)
-    a "You ready?"
-    b1 "Never been more ready."
-    play sound femmoan_1
-    scene 48-5 ben 81 with Dissolve(0.5)
-    a "AHH!"
-    b1 "Oh, jolly good!"
-    b1 "OH SO GOOOD!"
-    play sound femmoan_2
-    a "Benny!"
-    b1 "Anna!"
-    scene 48-5 ben 82 with Dissolve(0.5)
-    a "Let me give you a nice ride, ok?"
-    b1 "Be my guest!"
-    play sound femmoan_3
-    b1 "I want all of that!"
-    scene 48-5 ben 83 with Dissolve(0.5)
-    a "So do I..."
-    a "Oh... That dick..."
-    a "Patricia also saw it... She also fucking enjoyed seeing that huge cock of yours."
-    scene 48-5 ben 84 with Dissolve(0.5)
-    b1 "You're just... Saying that to be nice."
-    b1 "Ahhh..."
-    play sound femmoan_3
-    a "Only the truth for you."
-    scene 48-5 ben 85 with Dissolve(0.5)
-    a "FUCK!"
-    a "It hits so deep!"
-    b1 "I know!"
-    play audio female_moan_2
-    b1 "I feel like I'm almost hitting your cervix!"
-    a "Almost?"
-    a "You're already there!"
-    play audio female_moan_4
-    a "AHHH!"
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_15 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_4:
-    b1 "OH GIRL!"
-    a "AH. BENNY!"
-    play audio female_moan_3
-    a "YOU'RE SO HUGE!"
-    menu EP18_Benny_Anim_Menu_4:
-        "View 1":
-            hide EP18_Benny_Anim_15
-            hide EP18_Benny_Anim_16
-            hide EP18_Benny_Anim_17
-            hide EP18_Benny_Anim_18
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_15 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_16 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_4
-        "View 2":
-            hide EP18_Benny_Anim_15
-            hide EP18_Benny_Anim_16
-            hide EP18_Benny_Anim_17
-            hide EP18_Benny_Anim_18
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_17 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_18 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_4
-        "Slower":
-            hide EP18_Benny_Anim_15
-            hide EP18_Benny_Anim_16
-            hide EP18_Benny_Anim_17
-            hide EP18_Benny_Anim_18
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_15 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_17 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_4
-        "Faster":
-            hide EP18_Benny_Anim_15
-            hide EP18_Benny_Anim_16
-            hide EP18_Benny_Anim_17
-            hide EP18_Benny_Anim_18
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_16 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_18 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_4
-        "Continue":
-            hide EP18_Benny_Anim_15
-            hide EP18_Benny_Anim_16
-            hide EP18_Benny_Anim_17
-            hide EP18_Benny_Anim_18
-            $ different_choice_menu = False
-            pass
-    scene 48-5 ben 86 with Dissolve(0.5)
-    a "AAHHHH!!"
-    b1 "ANNNAAA!"
-    a "FUCK YES!"
-    b1 "You like that cock, eh?"
-    b1 "You like how I fuck your hot, hot pussy with it?"
-    a "MHMMM!!!"
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_19 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_5:
-    a "OH... SO GOOOD!!!"
-    play sound femmoan_3
-    b1 "BABYYY!"
-    menu EP18_Benny_Anim_Menu_5:
-        "View 1":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_19 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_20 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_5
-        "View 2":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_21 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_22 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_5
-        "View 3":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ EP18_Anim_Option = 3
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_39 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_40 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_5
-        "Slower":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_19 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_21 with Dissolve(0.5)
-            elif EP18_Anim_Option == 3:
-                show EP18_Benny_Anim_39 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_5
-        "Faster":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_20 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_22 with Dissolve(0.5)
-            elif EP18_Anim_Option == 3:
-                show EP18_Benny_Anim_40 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_5
-        "Continue":
-            hide EP18_Benny_Anim_19
-            hide EP18_Benny_Anim_20
-            hide EP18_Benny_Anim_21
-            hide EP18_Benny_Anim_22
-            hide EP18_Benny_Anim_39
-            hide EP18_Benny_Anim_40
-            $ different_choice_menu = False
-            pass
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_23 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_6:
-    play audio female_moan_3
-    a "This is perfect!"
-    menu EP18_Benny_Anim_Menu_6:
-        "View 1":
-            hide EP18_Benny_Anim_23
-            hide EP18_Benny_Anim_24
-            hide EP18_Benny_Anim_25
-            hide EP18_Benny_Anim_26
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_23 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_24 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_6
-        "View 2":
-            hide EP18_Benny_Anim_23
-            hide EP18_Benny_Anim_24
-            hide EP18_Benny_Anim_25
-            hide EP18_Benny_Anim_26
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_25 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_26 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_6
-        "Slower":
-            hide EP18_Benny_Anim_23
-            hide EP18_Benny_Anim_24
-            hide EP18_Benny_Anim_25
-            hide EP18_Benny_Anim_26
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_23 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_25 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_6
-        "Faster":
-            hide EP18_Benny_Anim_23
-            hide EP18_Benny_Anim_24
-            hide EP18_Benny_Anim_25
-            hide EP18_Benny_Anim_26
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_24 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_26 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_6
-        "Continue":
-            hide EP18_Benny_Anim_23
-            hide EP18_Benny_Anim_24
-            hide EP18_Benny_Anim_25
-            hide EP18_Benny_Anim_26
-            $ different_choice_menu = False
-            pass
-    scene 48-5 ben 87 with Dissolve(0.5)
-    a "So fucking good..."
-    play sound cloth_sound1
-    scene 48-5 ben 88 with Dissolve(0.5)
-    a "Come. Penetrate me with that rod."
-    b1 "Just the pose I wanted!"
-    b1 "You know how to make a man happy!"
-    a "And you know how to make a woman happy!"
-    scene 48-5 ben 89 with Dissolve(0.5)
-    b1 "Such a sweet, sweet thing."
-    a "C'mon."
-    a "Give me what I want."
-    b1 "Hehe... As you command!"
-    scene 48-5 ben 90 with Dissolve(0.5)
-    a "Fuck..."
-    scene 48-5 ben 91 with Dissolve(0.5)
-    a "AHHH!"
-    b1 "YEAH!"
-    b1 "That pussy just gets better and better!"
-    a "And so does your cock!"
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_27 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_7:
-    b1 "The... Hottest... Woman... Ever..."
-    b1 "YEEEHAAAWW!"
-    menu EP18_Benny_Anim_Menu_7:
-        "View 1":
-            hide EP18_Benny_Anim_27
-            hide EP18_Benny_Anim_28
-            hide EP18_Benny_Anim_29
-            hide EP18_Benny_Anim_30
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_27 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_28 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_7
-        "View 2":
-            hide EP18_Benny_Anim_27
-            hide EP18_Benny_Anim_28
-            hide EP18_Benny_Anim_29
-            hide EP18_Benny_Anim_30
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_29 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_30 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_7
-        "Slower":
-            hide EP18_Benny_Anim_27
-            hide EP18_Benny_Anim_28
-            hide EP18_Benny_Anim_29
-            hide EP18_Benny_Anim_30
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_27 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_29 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_7
-        "Faster":
-            hide EP18_Benny_Anim_27
-            hide EP18_Benny_Anim_28
-            hide EP18_Benny_Anim_29
-            hide EP18_Benny_Anim_30
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_28 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_30 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_7
-        "Continue":
-            hide EP18_Benny_Anim_27
-            hide EP18_Benny_Anim_28
-            hide EP18_Benny_Anim_29
-            hide EP18_Benny_Anim_30
-            $ different_choice_menu = False
-            pass
-    scene 48-5 ben 92 with Dissolve(0.5)
-    a "OHHH!!!"
-    b1 "YEEEHAAW!"
-    scene 48-5 ben 93 with Dissolve(0.5)
-    a "OH... FUCk... Yes... Yesss....!"
-    a "FUCK... FUCKK!!!!"
-    b1 "Looks like you're brain is getting fried from my cock?!"
-    scene 48-5 ben 94 with Dissolve(0.5)
-    b1 "YEAH!"
-    b1 "You dirty girl!"
-    b1 "You like when a homeless man fucks your brains out?"
-    a "OHHH... Yes!"
-    menu:
-        "I'll stick to fucking her pussy!":
-            pass
-            $ different_choice_menu = True
-            $ EP18_Anim_Option = 1
-            $ EP18_Anim_Speed = 1
-            scene black
-            play sound jerk loop
-            show EP18_Benny_Anim_35 with Dissolve(0.5)
-            label EP18_Benny_Sex_Label_8:
-            $ different_choice_menu = True
-            a "SO big... So big... So big..."
-            play audio female_moan_5
-            a "FFFFFUUCK!"
-            menu EP18_Benny_Anim_Menu_8:
-                "View 1":
-                    hide EP18_Benny_Anim_35
-                    hide EP18_Benny_Anim_36
-                    hide EP18_Benny_Anim_37
-                    hide EP18_Benny_Anim_38
-                    $ EP18_Anim_Option = 1
-                    if EP18_Anim_Speed == 1:
-                        show EP18_Benny_Anim_35 with Dissolve(0.5)
-                    if EP18_Anim_Speed == 2:
-                        show EP18_Benny_Anim_36 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_8
-                "View 2":
-                    hide EP18_Benny_Anim_35
-                    hide EP18_Benny_Anim_36
-                    hide EP18_Benny_Anim_37
-                    hide EP18_Benny_Anim_38
-                    $ EP18_Anim_Option = 2
-                    if EP18_Anim_Speed == 1:
-                        show EP18_Benny_Anim_37 with Dissolve(0.5)
-                    elif EP18_Anim_Speed == 2:
-                        show EP18_Benny_Anim_38 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_8
-                "Slower":
-                    hide EP18_Benny_Anim_35
-                    hide EP18_Benny_Anim_36
-                    hide EP18_Benny_Anim_37
-                    hide EP18_Benny_Anim_38
-                    $ EP18_Anim_Speed = 1
-                    if EP18_Anim_Option == 1:
-                        show EP18_Benny_Anim_35 with Dissolve(0.5)
-                    elif EP18_Anim_Option == 2:
-                        show EP18_Benny_Anim_37 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_8
-                "Faster":
-                    hide EP18_Benny_Anim_35
-                    hide EP18_Benny_Anim_36
-                    hide EP18_Benny_Anim_37
-                    hide EP18_Benny_Anim_38
-                    $ EP18_Anim_Speed = 2
-                    if EP18_Anim_Option == 1:
-                        show EP18_Benny_Anim_36 with Dissolve(0.5)
-                    elif EP18_Anim_Option == 2:
-                        show EP18_Benny_Anim_38 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_8
-                "Continue":
-                    hide EP18_Benny_Anim_35
-                    hide EP18_Benny_Anim_36
-                    hide EP18_Benny_Anim_37
-                    hide EP18_Benny_Anim_38
-                    $ different_choice_menu = False
-                    pass
-            show EP18_Benny_Anim_38 with Dissolve(0.5)
-        "Put it in Anna's asshole!":
-            scene 48-5 ben 95 with Dissolve(0.5)
-            a "Put it in my ass."
-            b1 "What?"
-            a "PUT. IT. In MY FUCKING ASSHOLE!"
-            a "I NEED IT!"
-            scene 48-5 ben 96 with Dissolve(0.5)
-            b1 "You're the nastiest piece of ass I know."
-            b1 "I will do as you wish!"
-            scene 48-5 ben 97 with Dissolve(0.5)
-            a "Good... Ahh..."
-            scene 48-5 ben 98 with Dissolve(0.5)
-            pause 1
-            scene 48-5 ben 99 with Dissolve(0.5)
-            pause 1
-            scene 48-5 ben 100 with Dissolve(0.5)
-            a "AAHHH!"
-            b1 "DAMN!"
-            b1 "SO TIGHT!"
-            b1 "Almost need some vaseline!"
-            b1 "But all the juices from your ass are making it all moist down there too!"
-            $ different_choice_menu = True
-            $ EP18_Anim_Option = 1
-            $ EP18_Anim_Speed = 1
-            scene black
-            play sound jerk loop
-            show EP18_Benny_Anim_31 with Dissolve(0.5)
-            label EP18_Benny_Sex_Label_9:
-            a "SO big... So big... So big..."
-            play audio female_moan_5
-            a "FFFFFUUCK!"
-            menu EP18_Benny_Anim_Menu_9:
-                "View 1":
-                    hide EP18_Benny_Anim_31
-                    hide EP18_Benny_Anim_32
-                    hide EP18_Benny_Anim_33
-                    hide EP18_Benny_Anim_34
-                    $ EP18_Anim_Option = 1
-                    if EP18_Anim_Speed == 1:
-                        show EP18_Benny_Anim_31 with Dissolve(0.5)
-                    if EP18_Anim_Speed == 2:
-                        show EP18_Benny_Anim_32 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_9
-                "View 2":
-                    hide EP18_Benny_Anim_31
-                    hide EP18_Benny_Anim_32
-                    hide EP18_Benny_Anim_33
-                    hide EP18_Benny_Anim_34
-                    $ EP18_Anim_Option = 2
-                    if EP18_Anim_Speed == 1:
-                        show EP18_Benny_Anim_33 with Dissolve(0.5)
-                    elif EP18_Anim_Speed == 2:
-                        show EP18_Benny_Anim_34 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_9
-                "Slower":
-                    hide EP18_Benny_Anim_31
-                    hide EP18_Benny_Anim_32
-                    hide EP18_Benny_Anim_33
-                    hide EP18_Benny_Anim_34
-                    $ EP18_Anim_Speed = 1
-                    if EP18_Anim_Option == 1:
-                        show EP18_Benny_Anim_31 with Dissolve(0.5)
-                    elif EP18_Anim_Option == 2:
-                        show EP18_Benny_Anim_33 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_9
-                "Faster":
-                    hide EP18_Benny_Anim_31
-                    hide EP18_Benny_Anim_32
-                    hide EP18_Benny_Anim_33
-                    hide EP18_Benny_Anim_34
-                    $ EP18_Anim_Speed = 2
-                    if EP18_Anim_Option == 1:
-                        show EP18_Benny_Anim_32 with Dissolve(0.5)
-                    elif EP18_Anim_Option == 2:
-                        show EP18_Benny_Anim_34 with Dissolve(0.5)
-                    jump EP18_Benny_Anim_Menu_9
-                "Continue":
-                    hide EP18_Benny_Anim_31
-                    hide EP18_Benny_Anim_32
-                    hide EP18_Benny_Anim_33
-                    hide EP18_Benny_Anim_34
-                    $ different_choice_menu = False
-                    pass
-            scene 48-5 ben 101 with Dissolve(0.5)
-            a "Keep fucking me..."
-            a "Keep fucking me, you dirty, dirty man!"
-            b1 "HEHE... YES!"
-            b1 "You like getting your ass filled up, don't you?"
-            a "MHM!!!"
-            scene 48-5 ben 102 with Dissolve(0.5)
-            a "OH... GOD!"
-            b1 "YES, YES!"
-            scene 48-5 ben 103 with Dissolve(0.5)
-            b1 "Perfect!"
-            b1 "AHH!"
-            a "OOHH!!!"
-            show EP18_Benny_Anim_34 with Dissolve(0.5)
-            menu:
-                "Put it back into Anna's pussy?":
-                    show EP18_Benny_Anim_38 with Dissolve(0.5)
-                    hide EP18_Benny_Anim_34
-                    jump EP18_Benny_Sex_Label_8
-                "CUMMM!!!":
-                    pass
-    menu:
-        "Cum on Anna's belly!":
-            b1 "I'm ABOUT TO BUUUST!"
-            a "COME ON!"
-            play audio moaninglong_1
-            a "SHOOT IT ALL OVER MY BODY!"
-            b1 "YES, bitch!"
-            a "That's right... Paint your bitch!"
-            b1 "AHAHHAAA!!!!"
-            with flash
-            play sound cum_sound
-            scene 48-5 ben 114 with flash_vpunch
-            b1 "HAAA!"
-            with flash_vpunch
-            b1 "YAAAHHAAA!"
-            with flash_vpunch
-            b1 "HUUAAAAAHHAAA!"
-            scene 48-5 ben 115 with Dissolve(0.5)
-            b1 "SHAIZE!"
-            b1 "FUCK!"
-            scene 48-5 ben 116 with Dissolve(0.5)
-            a "OH wow..."
-            a "You're still hard?"
-            b1 "I am... Not for long... But..."
-        "Fill that vagina up!":
-            b1 "FUCK!"
-            b1 "ANNA!"
-            play audio moaninglong_1
-            b1 "I'm closing in!!!!"
-            a "THEN DON'T STOP!"
-            a "CUM!"
-            with flash
-            a "GIVE IT ALL TO ME!"
-            play sound cum_sound
-            scene 48-5 ben 111 with flash_vpunch
-            b1 "AAAaaaaaAAAAAAaaaaAAAHHHAaaaaAA!!!"
-            play sound cum_sound
-            with flash
-            with flash
-            b1 "YAAEEAEAAHHH!!!!"
-            b1 "FUCKING DAAAAM!"
-            with flash
-            scene 48-5 ben 112 with Dissolve(0.5)
-            b1 "All in the cum drain!"
-            a "YES!"
-            scene 48-5 ben 113 with Dissolve(0.5)
-            b1 "Fucking DAMN!"
-            a "I can feel it all inside me!"
-            scene 48-5 ben 116 with Dissolve(0.5)
-            a "OH wow..."
-            a "You're still hard?"
-            b1 "I am... Not for long... But..."
-        "Give her asshole all that cum!":
-            scene 48-5 ben 104 with Dissolve(0.5)
-            b1 "FUCK!"
-            play audio moaninglong_1
-            b1 "I'm... GETTING CLOSE!"
-            b1 "FUCKK!"
-            b1 "HERE I!"
-            scene 48-5 ben 105 with Dissolve(0.5)
-            b1 "COMMEEEE!!!!"
-            b1 "AAAHHHHAAAA!!!"
-            play sound cum_sound
-            scene 48-5 ben 106 with flash_vpunch
-            a "AOHHH!"
-            play sound cum_sound
-            with vpunch
-            b1 "YAH!"
-            play sound cum_sound
-            with flash
-            with flash
-            b1 "YAH!"
-            b1 "YOOAAHHHHAAA!"
-            with flash
-            pause
-            scene 48-5 ben 107 with Dissolve(0.5)
-            b1 "FUCKING DAMN!"
-            b1 "THAT ASSHOLE ROCKS!"
-            scene 48-5 ben 108 with Dissolve(0.5)
-            a "OH wow..."
-            a "You're still hard?"
-            b1 "I am... Not for long... But..."
-    $ different_choice_menu = True
-    $ EP18_Anim_Option = 1
-    $ EP18_Anim_Speed = 1
-    scene 48-5 ben 117 with Dissolve(0.5)
-    b1 "Oh... Boy..."
-    b1 "I'm lightheaded."
-    a "Hehe. You did really work me out."
-    scene 48-5 ben 118 with Dissolve(0.5)
-    a "And even kept fucking my hole after finishing."
-    b1 "I do whatever you command of me, Anna."
-    b1 "Hehe."
-    b1 "Good!"
-    b1 "I feel like I could almost go for more..."
-    scene 48-5 ben 119 with Dissolve(0.5)
-    a "I don't know if I can take it."
-    b1 "Come on. At least while I'm still hard!"
-    scene 48-4 ben 129 with Dissolve(0.5)
-    b1 "Just for a bit more. Eh?"
-    a "Oh... Heh. Fine."
-    play sound undress
-    scene 48-4 ben 130 with Dissolve(0.5)
-    b1 "Oh YEAH!"
-    b1 "Girl you got me GOING AGAIN!"
-    scene black
-    play sound jerk loop
-    show EP18_Benny_Anim_41 with Dissolve(0.5)
-    label EP18_Benny_Sex_Label_10:
-    a "SO big... So big... So big..."
-    play audio female_moan_5
-    a "FFFFFUUCK!"
-    menu EP18_Benny_Anim_Menu_10:
-        "View 1":
-            hide EP18_Benny_Anim_41
-            hide EP18_Benny_Anim_42
-            hide EP18_Benny_Anim_43
-            hide EP18_Benny_Anim_44
-            $ EP18_Anim_Option = 1
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_41 with Dissolve(0.5)
-            if EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_42 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_10
-        "View 2":
-            hide EP18_Benny_Anim_41
-            hide EP18_Benny_Anim_42
-            hide EP18_Benny_Anim_43
-            hide EP18_Benny_Anim_44
-            $ EP18_Anim_Option = 2
-            if EP18_Anim_Speed == 1:
-                show EP18_Benny_Anim_43 with Dissolve(0.5)
-            elif EP18_Anim_Speed == 2:
-                show EP18_Benny_Anim_44 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_10
-        "Slower":
-            hide EP18_Benny_Anim_41
-            hide EP18_Benny_Anim_42
-            hide EP18_Benny_Anim_43
-            hide EP18_Benny_Anim_44
-            $ EP18_Anim_Speed = 1
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_41 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_43 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_10
-        "Faster":
-            hide EP18_Benny_Anim_41
-            hide EP18_Benny_Anim_42
-            hide EP18_Benny_Anim_43
-            hide EP18_Benny_Anim_44
-            $ EP18_Anim_Speed = 2
-            if EP18_Anim_Option == 1:
-                show EP18_Benny_Anim_42 with Dissolve(0.5)
-            elif EP18_Anim_Option == 2:
-                show EP18_Benny_Anim_44 with Dissolve(0.5)
-            jump EP18_Benny_Anim_Menu_10
-        "Continue":
-            hide EP18_Benny_Anim_41
-            hide EP18_Benny_Anim_42
-            hide EP18_Benny_Anim_43
-            hide EP18_Benny_Anim_44
-            $ different_choice_menu = False
-            pass
-    show EP18_Benny_Anim_44 with Dissolve(0.5)
-    b1 "AHHH!"
-    b1 "AHHHHOHOHO!!!"
-    b1 "FUCKING GOOD!"
-    a "You coming?"
-    b1 "YESS YES!"
-    with flash
-    with flash
-    play sound cum_sound
-    scene 48-4 ben 133 with flash_vpunch
-    b1 "AAHHHH!!"
-    with flash
-    with vpunch
-    b1 "FUCK.... YEEAAAAAAAAAHHHH!!"
-    with flash
-    pause 1
-    scene 48-4 ben 134 with Dissolve(0.5)
-    b1 "Wow..."
-    b1 "Another proper load..."
-    b1 "You wake a monster in me."
-    scene 48-4 ben 135 with Dissolve(0.5)
-    a "Wow... My pussy's so sore right now."
-    a "I'm still surprised you could go again."
-    scene 48-4 ben 136 with Dissolve(0.5)
-    b1 "Girl... So am I!"
-    scene 48-5 ben 119 with Dissolve(0.5)
-    a "Ah."
-    a "This was fun."
-    b1 "Wow... It was quite something if you ask me."
-    a "Indeed, Benjamin."
-    a "I will go clean up, ok?"
-    scene 48-5 ben 120 with Dissolve(0.5)
-    a "Can you stand up?"
-    b1 "I don't have the power."
-    b1 "I'll probably have the best night's sleep tonight."
-    play sound door2
-    scene 48-5 ben 121 with Dissolve(0.5)
-    a "{i}...He was a beast...{/i}"
-    a "{i}...How can such an old man still fuck so hard...{/i}"
-    a "{i}...Considering the size of his body in relation to his huge cock...{/i}"
-    a "{i}...Wow...{/i}"
-    scene black with Dissolve(0.5)
-    play sound undress
-    pause 1
-    scene 48-5 ben 122 with Dissolve(0.5)
-    b1 "Hehe... You look great!"
-    a "Thanks."
-    $ renpy.end_replay()
-    scene 48-5 ben 123 with Dissolve(0.5)
-    a "Well, well..."
-    a "I spy with my little eye a naughty magazine."
-    a "With me as the cover girl."
-    scene 48-5 ben 124 with Dissolve(0.5)
-    a "What is that doing there?"
-    b1 "Oh... Heh."
-    b1 "Just something to kill the time on long evenings."
-    scene 48-5 ben 125 with Dissolve(0.5)
-    b1 "You have to understand."
-    b1 "I'm your biggest fan!"
-    b1 "And... To be able to fuck you!"
-    b1 "It's like I live in a fantasy world!"
-    a "Hehe."
-    scene 48-5 ben 126 with Dissolve(0.5)
-    a "Anyway. I'll get going."
-    a "I've got other things to do."
-    a "Just as important."
-    a "Will you be ok?"
-    b1 "Oh, yes!"
-    b1 "Better than ok!"
-    b1 "Everything feels more vibrant, the colors, the sounds."
-    b1 "It's like I just had surgery to enhance all my senses."
-    scene 48-5 ben 127 with Dissolve(0.5)
-    a "Perhaps I'm just a very special doctor. Who helps people get better."
-    b1 "Indeed. Hehe..."
-    a "See you later, Benny."
-    b1 "Goodbye, Anna!"
-    scene black with Dissolve(0.5)
-    pause 1
-    jump EP18_Ruby_1
-label EP18_John_1:
-    $ EP18_var_5 = True
-    play music Chill_Song_1
-    if BenjaminContent == False:
-        scene 48-4 john 1 with Dissolve(0.5)
-        j4 "Anna!"
-        j4 "Hey."
-        a "Hey, John."
-        j4 "How are you doing?"
-        scene 48-4 john 2 with Dissolve(0.5)
-        a "Pretty good."
-        j4 "How was the beach?"
-        a "Oh. It was lovely."
-        scene 48-4 john 3 with Dissolve(0.5)
-        j4 "Wish I could've joined."
-        a "Don't take it the wrong way, but I'm glad you didn't."
-        a "It was a moment Andrew and I could finally spend together..."
-        a "Just the two of us."
-        j4 "Oh. OK, OK."
-        j4 "Sorry."
-        a "It's OK. What you up to?"
-        scene 48-4 john 1 with Dissolve(0.5)
-        j4 "Just gonna go ride my motorcycle around."
-        j4 "Meet with some biker buddies of mine."
-        j4 "You wanna join?"
-        scene 48-4 john 4 with Dissolve(0.5)
-        a "Oh. I'm good, thanks. Kind of tired."
-        j4 "Right. Well, your loss, honey."
-        scene 48-4 john 5 with Dissolve(0.5)
-        a "{i}...Hmm... He mentioned the bikers...{/i}"
-        a "{i}...I do need to expand the distribution to sell the 'product' faster...{/i}"
-        scene 48-4 john 6 with Dissolve(0.5)
-        a "Hold on!"
-        a "Sorry, you said ride the motorcycle?"
-        j4 "Yeah?"
-        a "I misheard you before."
-        a "I'd actually like to join you."
-        scene 48-4 john 7 with Dissolve(0.5)
-        j4 "Sure. you gonna come like this?"
-        a "Umm... No."
-        a "I'm just quickly going to change."
-        scene 48-4 john 8 with Dissolve(0.5)
-        a "Something..."
-        a "More appropriate. Heh."
-        j4 "Can't wait, heh."
-        scene black with Dissolve(0.5)
-        pause 1
-        play sound door2
-        scene 48-4 john 9 with Dissolve(0.5)
-    else:
-        scene 48-4 john 2-1 with Dissolve(0.5)
-        j4 "Anna!"
-        j4 "Hey."
-        a "Hey, John."
-        j4 "How are you doing?"
-        scene 48-4 john 3-1 with Dissolve(0.5)
-        a "Pretty good."
-        j4 "What you've been up to?"
-        j4 "How was the beach?"
-        a "Oh. It was lovely."
-        a "I just helped out a friend."
-        j4 "Wish I could've joined."
-        a "Don't take it the wrong way, but I'm glad you didn't."
-        a "It was a moment Andrew and I could finally spend together..."
-        a "Just the two of us."
-        j4 "Oh. OK, OK."
-        j4 "Sorry."
-        a "It's OK. What you up to?"
-        scene 48-4 john 4-1 with Dissolve(0.5)
-        j4 "Just gonna go ride my motorcycle around."
-        j4 "Meet with some biker buddies of mine."
-        j4 "You wanna join?"
-        a "Oh. I'm good, thanks. Kind of tired."
-        j4 "Right. Well, your loss, honey."
-        scene 48-4 john 5-1 with Dissolve(0.5)
-        a "{i}...Hmm... He mentioned the bikers...{/i}"
-        a "{i}...I do need to expand the distribution to sell the 'product' faster...{/i}"
-        scene 48-4 john 6-1 with Dissolve(0.5)
-        a "Hold on!"
-        a "Sorry, you said ride the motorcycle?"
-        j4 "Yeah?"
-        a "I misheard you before."
-        a "I'd actually like to join you."
-        scene 48-4 john 7-1 with Dissolve(0.5)
-        j4 "Sure. you gonna come like this?"
-        a "Umm... No."
-        a "I'm just quickly going to change."
-        scene 48-4 john 8-1 with Dissolve(0.5)
-        a "Something..."
-        a "More appropriate. Heh."
-        j4 "Can't wait, heh."
-        scene black with Dissolve(0.5)
-        pause 1
-        play sound door2
-    a "Hmm..."
-    a "What would be 'more appropriate'..."
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound undress
-    scene 48-4 john 10 with Dissolve(0.5)
-    a "Perfect."
-    a "This will be very, very persuasive."
-    scene 48-4 john 11 with Dissolve(0.5)
-    a "And the hair."
-    a "A little innocence in the mix."
-    scene 48-4 john 12 with Dissolve(0.5)
-    a "What do you think?"
-    a "This is better?"
-    j4 "Huh?"
-    scene 48-4 john 13 with Dissolve(0.5)
-    j4 "Heh. That's..."
-    j4 "You sure?"
-    j4 "Quite revealing."
-    a "Revealing?"
-    a "I thought all biker girls dressed similar to this."
-    a "You don't like it? I can change."
-    scene 48-4 john 14 with Dissolve(0.5)
-    j4 "No, no."
-    j4 "It's fine. No need to change, heh."
-    a "That's what I thought."
-    play sound door2
-    scene black with Dissolve(0.5)
-    pause 1
-    play ambient citytraffic
-    scene 48-4 john 15 with Dissolve(0.5)
-    a "Wow!"
-    a "That's yours?"
-    j4 "It is."
-    j4 "My baby."
-    j4 "Have you been on one before?"
-    a "Many years ago."
-    scene 48-4 john 16 with Dissolve(0.5)
-    a "It's beautiful."
-    j4 "Thanks."
-    j4 "The love of my life."
-    a "The only one?"
-    j4 "Heh. Perhaps not..."
-    scene 48-4 john 17 with Dissolve(0.5)
-    j4 "Hop on."
-    a "Just like that?"
-    scene 48-4 john 18 with Dissolve(0.5)
-    j4 "What of it?"
-    a "What about helmets?"
-    j4 "Will be fine, not a long ride anyway."
-    scene 48-4 john 19 with Dissolve(0.5)
-    a "You sure?"
-    j4 "Definitely, I've learned to control this beauty well."
-    a "Hmm. OK."
-    scene 48-4 john 20 with Dissolve(0.5)
-    j4 "Just hold on tight!"
-    a "OK! Hah!"
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound motorcycle_sound_1
-    scene 48-4 john 21 with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 22 with Dissolve(0.5)
-    pause 1
-    a "HAHA!"
-    a "This is fun!"
-    j4 "FUCK YEAH!"
-    play sound motorcycle_sound_1
-    scene 48-4 john 23 with Dissolve(0.5)
-    j4 "Wanna go faster?"
-    a "You sure we should?"
-    j4 "Oh yeah!"
-    scene 48-4 john 24 with Dissolve(0.5)
-    a "AAHHH!!"
-    j4 "Haha! Don't worry!"
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 25 with Dissolve(0.5)
-    j4 "Alright. We're here."
-    scene 48-4 john 26 with Dissolve(0.5)
-    j4 "This is the bar where we usually meet."
-    a "You and the bikers?"
-    j4 "Yeah."
-    j4 "Our hang-out spot."
-    scene 48-4 john 27 with Dissolve(0.5)
-    j4 "You sure you're gonna be OK?"
-    a "What do you mean?"
-    j4 "The outfit."
-    j4 "They can be a rowdy bunch."
-    a "Heh, yeah. I will be fine."
-    scene 48-4 john 28 with Dissolve(0.5)
-    a "{i}...I think I've been here before, though.{/i}"
-    j4 "C'mon. Let's go."
-    scene black with Dissolve(0.5)
-    pause 1
-    stop ambient
-    play sound door2
-    play music barsong
-    scene 48-4 john 29 with Dissolve(0.5)
-    a "Hmm..."
-    scene 48-4 john 30 with Dissolve(0.5)
-    j4 "You good?"
-    a "Uh. what?"
-    a "Yeah, yeah."
+translate english EP18_Begin_d3ed16cb:
+    # a "Who knows..."
+    a ""
 
-    scene 48-4 john 31 with Dissolve(0.5)
-    a "Never better. hehe."
-    j4 "You seem a bit lost in thought."
-    a "Oh. Heh. Maybe a little."
-    scene 48-4 john 32 with Dissolve(0.5)
-    j4 "Guys."
-    bi1 "John."
-    bi2 "What's up, wood."
-    j4 "You doing well?"
-    scene 48-4 john 33 with Dissolve(0.5)
-    bi2 "Pretty alright, all things considered."
-    bi2 "Going for round two."
-    j4 "That's my boy, haha!"
-    scene 48-4 john 34 with Dissolve(0.5)
-    menu:
-        "Anna has had previous 'engagements' with these two.":
-            $ EP18_Bikers_History = True
-            a "Hello there."
-            bi2 "Well, well. Heh."
-            bi2 "Been a while since I've seen you around, Anna."
-            j4 "Huh?"
-            scene 48-4 john 35 with Dissolve(0.5)
-            j4 "You know her?"
-            bi2 "We know of each other, yeah."
-            j4 "Interesting. Heh."
-            scene 48-4 john 36 with Dissolve(0.5)
-            j4 "Didn't know you were a regular in these parts."
-            a "Not a local, no."
-            a "Just had an occasion here."
-            j4 "Alright, alright."
-        "Anna is not involved with them.":
-            a "Hello there."
-            bi2 "Heh, hey, back to you."
-            bi2 "Who's this?"
-            scene 48-4 john 35 with Dissolve(0.5)
-            j4 "A friend. heh."
-            bi2 "A beautiful one."
-            j4 "Alright, alright."
-            pass
-    scene 48-4 john 37 with Dissolve(0.5)
-    bi2 "We were about to get our third round."
-    bi2 "You guys in or out?"
-    a "At this time of the day?"
-    bi2 "It's weekend."
-    j4 "We'll join you, of course!"
-    scene 48-4 john 38 with Dissolve(0.5)
-    j4 "Hey, Jill."
-    barji1 "John! Good to see you here."
-    barji1 "You doing good?"
-    barji1 "Heard you guys got pretty rowdy yesterday."
-    j4 "Always, haha."
-    scene 48-4 john 39 with Dissolve(0.5)
-    barji1 "What can I get you two?"
-    j4 "Give us two Venebera IPAs."
-    barji1 "Coming right up!"
-    scene 48-4 john 40 with Dissolve(0.5)
-    a "You sure we should?"
-    a "How will you ride the bike?"
-    j4 "C'mon. One drink won't do any harm."
-    j4 "Trust me."
-    j4 "We drive better with one beer inside."
-    scene 48-4 john 41 with Dissolve(0.5)
-    barji1 "There you go."
-    j4 "Thanks, Jill."
-    j4 "Say hi to Monica from me."
-    barji1 "Will do, hehe."
-    scene 48-4 john 42 with Dissolve(0.5)
-    j4 "Mmm... I can almost feel the taste..."
-    scene 48-4 john 43 with Dissolve(0.5)
-    j4 "You know, we have a saying around here."
-    a "What do you mean?"
-    j4 "When we drink."
-    j4 "The rest of the bikers are not around, but it's sort of our motto."
-    scene 48-4 john 44 with Dissolve(0.5)
-    j4 "Ride or die, and when you die, you'll ride forever!"
-    j4 "It's a life we choose, cheers!"
-    a "Hehe. Cheers!"
-    j4 "One more thing. Bottoms up."
-    play sound drinkingBeverage
-    scene 48-4 john 45 with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 46 with Dissolve(0.5)
-    bi1 "It's good, isn't it hehe?"
-    a "It's... Umm... Whoa... Hehe."
-    bi2 "A bit too fast. We got a lightweight here, Haha."
-    bi1 "C'mon, give her a break man."
-    scene 48-4 john 47 with Dissolve(0.5)
-    bi2 "We're gonna go outside for a smoke."
-    bi2 "You guys coming?"
-    scene 48-4 john 48 with Dissolve(0.5)
-    a "Why not."
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 49 with Dissolve(0.5)
-    bi1 "You smoke?"
-    a "Uhh..."
-    a "I don't."
-    bi1 "Suit yourself."
-    bi2 "By the way, John."
-    bi2 "We got that package for you."
-    bi2 "Our boy retrieved it from the stolen vehicle."
-    scene 48-4 john 50 with Dissolve(0.5)
-    j4 "Uh... Heh."
-    j4 "He's joking around."
-    j4 "No stolen vehicles here."
-    scene 48-4 john 51 with Dissolve(0.5)
-    bi2 "Hehe..."
-    bi2 "Oh, Johnny boy."
-    bi2 "If only you knew."
-    scene 48-4 john 52 with Dissolve(0.5)
-    j4 "What are you talking about?"
-    scene 48-4 john 53 with Dissolve(0.5)
-    if EP18_Bikers_History == True:
-        bi1 "We've met this girl before."
-        bi1 "We know some stuff about her."
-        j4 "Meaning?"
-        bi1 "She's not exactly an angel either."
-        bi1 "Into some shady shit, just as we are."
-        bi1 "So no point in playing saint."
-    else:
-        bi1 "We may not have met her before..."
-        bi1 "But our contacts have."
-        j4 "What do you mean?"
-        bi1 "She's not exactly an angel either."
-        bi1 "Into some shady shit, just as we are."
-        bi1 "So no point in playing saint."
-    scene 48-4 john 54 with Dissolve(0.5)
-    j4 "Anna?"
-    a "Oh..."
-    bi1 "Oh, yeah, dude."
-    bi1 "She's into some criminal shit, same as us."
-    play music tense2
-    scene 48-4 john 55 with Dissolve(0.5)
-    j4 "Seriously?"
-    j4 "Are they joking?"
-    bi1 "Just tell her, Anna."
-    a "I... Well..."
-    a "I'm... I've done some shady stuff, yeah."
-    scene 48-4 john 56 with Dissolve(0.5)
-    j4 "Wow."
-    j4 "I didn't expect that at all."
-    j4 "I thought she was just an office lady."
-    bi2 "Been living under a rock, John."
-    scene 48-4 john 57 with Dissolve(0.5)
-    bi2 "She's been seen doing work Sergey for 'The Bear.'"
-    j4 "WHAT?"
-    j4 "Wait."
-    scene 48-4 john 58 with Dissolve(0.5)
-    j4 "Why did you come here?"
-    j4 "Was it on 'business'?"
-    a "Well..."
-    j4 "Wow."
-    j4 "Alright, the less I know, the better."
-    scene 48-4 john 59 with Dissolve(0.5)
-    a "I did come with some proposals... I won't hide it anymore."
-    a "But It's between them and me..."
-    j4 "Damn... I'm perplexed, to be honest."
-    j4 "You know what?"
-    scene 48-4 john 60 with Dissolve(0.5)
-    j4 "I really don't want to be a part of this whole ordeal. I'll just go recover the package."
-    j4 "Meanwhile, you can deal with your business."
-    scene 48-4 john 61 with Dissolve(0.5)
-    if EP18_Bikers_History == True:
-        bi2 "I still remember our previous 'encounter.'"
-        bi1 "Hah. Yeah."
-        bi2 "It was pretty 'interesting.'"
-        scene 48-4 john 62 with Dissolve(0.5)
-        a "Oh c'mon. That was a while ago."
-        a "Besides, it wasn't a big deal."
-        bi2 "Oh really?"
-        scene 48-4 john 63 with Dissolve(0.5)
-        bi2 "Still fresh in my mind."
-        bi2 "Kind of seemed like a big deal."
-        bi1 "He's right, you've got a big deal in the back."
-        a "Anyway. snap back."
-    a "I'm here to discuss business."
-    a "I know what you guys do and..."
-    a "I've got some product."
-    scene 48-4 john 62 with Dissolve(0.5)
-    a "I'm looking for new distribution."
-    bi2 "And you've come to us..."
-    bi2 "What makes you think we'd deal with you."
-    bi2 "We're doing just fine without new involvements."
-    scene 48-4 john 64 with Dissolve(0.5)
-    a "Fine..."
-    a "I hadn't even gotten to the best bit..."
-    a "But if you'll shut me down before I've shown you how good the product is..."
-    a "Then I'm out."
-    scene 48-4 john 65 with Dissolve(0.5)
-    bi2 "Wait, wait."
-    bi2 "Alright."
-    bi2 "I'm just joking around."
-    scene 48-4 john 66 with Dissolve(0.5)
-    bi2 "We can hear you out."
-    bi2 "Since you used to work for Sergey."
-    a "Oh, now you want to play ball?"
-    bi2 "Yeah. show us the product."
-    scene 48-4 john 67 with Dissolve(0.5)
-    bi2 "Who are you calling?"
-    a "C'mon."
-    a "I worked for Sergey. You think I'd just walk around with a pound of cocaine?"
-    a "I got my contacts, my safe locations."
-    a "Not my first rodeo."
-    bi2 "Damn."
-    "..."
-    a "Hey!"
-    a "You on the spot?"
-    m2 "Yeah. What's up?"
-    scene 48-4 john 68 with Dissolve(0.5)
-    a "Meet me near your house. I need some product."
-    m2 "Alright, girl."
-    m2 "Got some ready to go."
-    bi1 "She's for real, sounds like."
-    a "I'll be there in five."
-    m2 "Got it."
-    scene 48-4 john 69 with Dissolve(0.5)
-    a "See. I'm not some amateur."
-    a "Trust me when I say that this could be very beneficial."
-    bi1 "Sure, sure. Obviously, we'll want to test it out."
-    a "Why do you think I'm going to meet my contact now?"
-    scene 48-4 john 70 with Dissolve(0.5)
-    a "I'll be back in a while. Don't go anywhere."
-    bi2 "You got some balls, girl."
-    bi2 "Respect."
-    a "Hehe..."
-    scene 48-4 john 71 with Dissolve(0.5)
-    bi1 "Among other things..."
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 72 with Dissolve(0.5)
-    m2 "Anna."
-    m2 "What's up?"
-    m2 "Looking good!"
-    scene 48-4 john 73 with Dissolve(0.5)
-    m2 "What do you need the product for?"
-    a "I'm out working, getting distribution contacts. Need a package of your finest."
-    m2 "Already ready."
-    scene 48-4 john 74 with Dissolve(0.5)
-    m2 "Gotta say."
-    m2 "You've been really putting in work."
-    a "Eh. You don't know the half of it."
-    if EarlHelp == False:
-        m2 "Well. Sergey hasn't really explained everything to me."
-        a "Yeah, he's a lot more cautious."
-        m2 "All I know is I gotta hustle double now."
-        m2 "And keep my eyes peeled for Carl."
-        a "Yeah..."
-    else:
-        m2 "I don't really know a lot."
-        m2 "Just some bits that you've told me."
-        m2 "All I know is I gotta hustle double now."
-        m2 "And keep my eyes peeled for Carl."
-        a "Yeah..."
-        a "Things will get more clear in the future."
-        m2 "I'm trusting you on this one, Anna."
-    scene 48-4 john 75 with Dissolve(0.5)
-    a "Anyway."
-    scene 48-4 john 76 with Dissolve(0.5)
-    m2 "Here's the stuff, as asked."
-    a "A whole package?"
-    m2 "Exactly."
-    scene 48-4 john 77 with Dissolve(0.5)
-    a "Thanks, Michael."
-    a "You're awesome."
-    a "If I can land this deal, that should really speed things up for us."
-    m2 "But you owe me some answers."
-    m2 "OK?"
-    scene 48-4 john 78 with Dissolve(0.5)
-    a "You got it."
-    a "I'll tell you everything."
-    m2 "Good luck, girl."
-    scene black with Dissolve(0.5)
-    pause 1
-    scene 48-4 john 79 with Dissolve(0.5)
-    bi2 "Well, well."
-    a "You doubted me?"
-    bi2 "Not for a second, hehe."
-    scene 48-4 john 80 with Dissolve(0.5)
-    a "I've got the stuff."
-    a "If you want to test it out."
-    a "Trust me, this shit is good."
-    a "Not some diluted off-brand bullshit a lot of other places are selling."
-    scene 48-4 john 81 with Dissolve(0.5)
-    bi2 "Hmm."
-    bi2 "I'll be the judge of that."
-    a "Go right ahead."
-    scene 48-4 john 82 with Dissolve(0.5)
-    bi2 "That's a big tester."
-    a "I know. We've got plenty more where that came from."
-    a "Consider this an 'onboarding' gift."
-    scene 48-4 john 83 with Dissolve(0.5)
-    bi2 "Spoken like a true 'office lady.'"
-    bi2 "As John put it."
-    a "I have my moments, hehe."
-    bi2 "Alright, be back in a sec."
-    scene 48-4 john 84 with Dissolve(0.5)
-    bi1 "You're not scared he'll just disappear with the stuff."
-    a "He may. But then we'll just blacklist your entire organization."
-    a "And that's the last of our cocaine he and anyone he's affiliated with will see."
-    bi1 "Impressive."
-    scene 48-4 john 85 with Dissolve(0.5)
-    bi1 "Don't take it as a threat, but you should be more careful."
-    a "From what?"
-    bi1 "Big hulking dudes."
-    a "You'll harm me?"
-    a "You do know what happens to you if you harm a negotiator."
-    bi1 "You talk big, but can you back it up?"
-    a "I used to work for Sergey. Guess who He worked for..."
-    bi1 "I always thought he was the big dog."
-    a "Trust me, he is simply a pawn. And if that crazy man was the pawn, imagine who's at the top."
-    scene 48-4 john 86 with Dissolve(0.5)
-    bi1 "Khem..."
-    bi1 "Um... Nice outfit."
-    a "Hehe... Thought you'd come to your senses."
-    a "And thank you."
-    a "I picked it out specifically for this occasion."
-    bi1 "We so special?"
-    scene 48-4 john 87 with Dissolve(0.5)
-    a "If you help me distribute this product, you will be very... Very special."
-    bi1 "Hehe..."
-    bi1 "They definitely found a good negotiator."
-    a "I'm pretty good at convincing people. Stick around, and you'll find out why."
-    scene 48-4 john 88 with Dissolve(0.5)
-    bi2 "{b}*Sniff*{/b}"
-    scene 48-4 john 90 with Dissolve(0.5)
-    bi2 "{b}*Sniff*{/b}"
-    bi2 "{b}*Sniff*{/b}"
-    bi2 "Damn."
-    scene 48-4 john 91 with Dissolve(0.5)
-    bi2 "She's fucking right."
-    bi2 "This shit is like gold dust."
-    bi2 "Haven't had a hit like this since our party in Fort Bailey Glade."
-    bi1 "That good?"
-    bi2 "Oh yeah. It's fucking POWERFUL!"
-    scene 48-4 john 92 with Dissolve(0.5)
-    a "I'm a woman of my word."
-    bi2 "You weren't lying... Damn..."
-    scene 48-4 john 93 with Dissolve(0.5)
-    bi2 "Alright. You win."
-    bi2 "We'll sell this stuff."
-    bi2 "But... There's the question of percentages."
-    a "80:20"
-    bi2 "60:40"
-    a "Hmm..."
-    scene 48-4 john 94 with Dissolve(0.5)
-    menu:
-        "65:35, and I'll let you touch me and show you something.":
-            play music SexyTimeSong7
-            bi2 "Oh... What you've got in mind?"
-            scene 48-4 john 95 with Dissolve(0.5)
-            a "Well... I know everyone likes my melons."
-            if EP18_Bikers_History == True:
-                a "And I bet you'd want to see them again."
-            else:
-                a "And I bet you'd LOVE to see them."
-            scene 48-4 john 96 with Dissolve(0.5)
-            bi1 "For 5%%. Why not. Not a big deal."
-            a "Hehe..."
-            a "Good."
-            scene 48-4 john 97 with Dissolve(0.5)
-            bi2 "I'm starting to see why you're the negotiator."
-            a "Indeed. I do have a particular set of skills. Don't I?"
-            bi2 "Oh yeah."
-            scene 48-4 john 98 with Dissolve(0.5)
-            bi2 "These are fucking nice."
-            a "C'mon."
-            a "You can do more."
-            scene 48-4 john 99 with Dissolve(0.5)
-            a "{i}...Men... Show them boobs, and they forget about percentages...{/i}"
-            a "{i}...What if I pushed for more...{/i}"
-            play sound undress
-            scene 48-4 john 100 with Dissolve(0.5)
-            bi2 "Whoa..."
-            bi2 "That's quite something."
-            a "I told you."
-            scene 48-4 john 101 with Dissolve(0.5)
-            a "..."
-            menu:
-                "75:25, and You can go all the way.":
-                    $ persistent.scene_53 = True
-                    label EP18_Bikers_Sex_Scene_Label_Gallery:
-                    $ renpy.music.play("audio/sounds/ikoliks - Need You Tonight.mp3", channel = 'music', if_changed = True)
-                    $ EP18_Bikers_75_Percent = True
-                    a "Trust me. I'm part of the benefits... If you go this direction."
-                    a "A reoccurring privilege..."
-                    bi2 "Really?"
-                    bi2 "Well..."
-                    bi2 "Heh..."
-                    scene 48-4 john 102 with Dissolve(0.5)
-                    bi2 "You've got a deal, babe."
-                    a "I knew I could persuade you."
-                    a "Trust me, you won't be disappointed."
-                    scene 48-4 john 103 with Dissolve(0.5)
-                    bi1 "This will be fucking good."
-                    a "Oh, you can count on that, big boy."
-                    scene 48-4 john 104 with Dissolve(0.5)
-                    pause 1
-                    play sound undress
-                    scene 48-4 john 105 with Dissolve(0.5)
-                    pause 1
-                    scene 48-4 john 106 with Dissolve(0.5)
-                    a "C'mon."
-                    a "Go ahead."
-                    a "I know you want to."
-                    scene 48-4 john 107 with Dissolve(0.5)
-                    pause 1
-                    scene 48-4 john 108 with Dissolve(0.5)
-                    bi1 "Nice!"
-                    bi1 "That's what I like to see."
-                    a "You are allowed to do more than just look."
-                    bi1 "OH YEAH!"
-                    scene 48-4 john 109 with Dissolve(0.5)
-                    a "AAH!"
-                    a "Oh..."
-                    scene 48-4 john 110 with Dissolve(0.5)
-                    bi1 "Looks like you're enjoying those fingers."
-                    bi1 "Moist already."
-                    a "Always ready to negotiate... Hehe."
-                    bi1 "That's apparent, indeed."
-                    scene 48-4 john 111 with Dissolve(0.5)
-                    a "Oh."
-                    play sound ripcloth
-                    scene 48-4 john 112 with Dissolve(0.5)
-                    pause
-                    scene 48-4 john 113 with Dissolve(0.5)
-                    bi1 "Nice!"
-                    a "Mhm."
-                    a "Keep doing that!"
-                    scene 48-4 john 114 with Dissolve(0.5)
-                    a "Aah... I believe that 75:25 is a good deal, considering other 'benefits' you are getting."
-                    bi2 "You sound more and more convincing every second."
-                    scene 48-4 john 115 with Dissolve(0.5)
-                    bi2 "C'mon."
-                    bi2 "Time to earn your keep!"
-                    a "I could tell you the same thing."
-                    a "If you fail to give me a good fucking..."
-                    a "I might have to look elsewhere."
-                    scene 48-4 john 116 with Dissolve(0.5)
-                    bi2 "Oh Heh."
-                    bi2 "You'll enjoy this, I promise!"
-                    a "I better!"
-                    bi2 "You are a good slut, you know that?"
-                    a "Mhmmm."
-                    scene 48-4 john 117 with Dissolve(0.5)
-                    a "OH!"
-                    a "C'mon. Give me what I want!"
-                    bi2 "Fuck you are so good!"
-                    play sound female_moan_3
-                    scene 48-4 john 118 with Dissolve(0.5)
-                    a "AAHHHAA!!!"
-                    bi2 "OOHHH YEAH!!!"
-                    play sound female_moan_1
-                    bi2 "THAT PUSSY FUCKING SLAPS!"
-                    bi2 "You're so FUCKING WET!"
-                    $ different_choice_menu = True
-                    $ EP18_Anim_Option = 1
-                    $ EP18_Anim_Speed = 1
-                    scene black
-                    play sound jerk loop
-                    show EP18_Biker_Anim_1 with Dissolve(0.5)
-                    label EP18_Biker_Sex_Label_1:
-                    bi2 "OH shit!"
-                    bi2 "THIS SHIT IS GOOD AS FUCK!"
-                    play audio female_moan_5
-                    a "MHMMM..."
-                    menu EP18_Biker_Anim_Menu_1:
-                        "View 1":
-                            hide EP18_Biker_Anim_1
-                            hide EP18_Biker_Anim_2
-                            hide EP18_Biker_Anim_3
-                            hide EP18_Biker_Anim_4
-                            $ EP18_Anim_Option = 1
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_1 with Dissolve(0.5)
-                            if EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_2 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_1
-                        "View 2":
-                            hide EP18_Biker_Anim_1
-                            hide EP18_Biker_Anim_2
-                            hide EP18_Biker_Anim_3
-                            hide EP18_Biker_Anim_4
-                            $ EP18_Anim_Option = 2
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_3 with Dissolve(0.5)
-                            elif EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_4 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_1
-                        "Slower":
-                            hide EP18_Biker_Anim_1
-                            hide EP18_Biker_Anim_2
-                            hide EP18_Biker_Anim_3
-                            hide EP18_Biker_Anim_4
-                            $ EP18_Anim_Speed = 1
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_1 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_3 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_1
-                        "Faster":
-                            hide EP18_Biker_Anim_1
-                            hide EP18_Biker_Anim_2
-                            hide EP18_Biker_Anim_3
-                            hide EP18_Biker_Anim_4
-                            $ EP18_Anim_Speed = 2
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_2 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_4 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_1
-                        "Continue":
-                            hide EP18_Biker_Anim_1
-                            hide EP18_Biker_Anim_2
-                            hide EP18_Biker_Anim_3
-                            hide EP18_Biker_Anim_4
-                            $ different_choice_menu = False
-                            pass
-                    scene 48-4 john 119 with Dissolve(0.5)
-                    a "AH!"
-                    a "OOHHAAAA!"
-                    play sound female_moan_2
-                    a "AHHHH!!!!"
-                    bi1 "I feel like that mouth oughta do some work."
-                    scene 48-4 john 122 with Dissolve(0.5)
-                    bi1 "Oh yeah!"
-                    play audio femmoan_3
-                    a "Mmm..."
-                    play sound licking_2
-                    bi1 "Wish every negotiation went like this."
-                    bi2 "Haha. damn straight."
-                    scene 48-4 john 123 with Dissolve(0.5)
-                    a "KHHAAAA!"
-                    bi1 "OH YEAH!"
-                    bi1 "Such a good mouth."
-                    $ different_choice_menu = True
-                    $ EP18_Anim_Option = 1
-                    $ EP18_Anim_Speed = 1
-                    scene black
-                    play sound jerk loop
-                    show EP18_Biker_Anim_5 with Dissolve(0.5)
-                    label EP18_Biker_Sex_Label_2:
-                    bi1 "That mouth WORKING!"
-                    a "Hmmph..."
-                    menu EP18_Biker_Anim_Menu_2:
-                        "View 1":
-                            hide EP18_Biker_Anim_5
-                            hide EP18_Biker_Anim_6
-                            hide EP18_Biker_Anim_17
-                            hide EP18_Biker_Anim_18
-                            $ EP18_Anim_Option = 1
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_5 with Dissolve(0.5)
-                            if EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_6 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_2
-                        "View 2":
-                            hide EP18_Biker_Anim_5
-                            hide EP18_Biker_Anim_6
-                            hide EP18_Biker_Anim_17
-                            hide EP18_Biker_Anim_18
-                            $ EP18_Anim_Option = 2
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_17 with Dissolve(0.5)
-                            elif EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_18 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_2
-                        "Slower":
-                            hide EP18_Biker_Anim_5
-                            hide EP18_Biker_Anim_6
-                            hide EP18_Biker_Anim_17
-                            hide EP18_Biker_Anim_18
-                            $ EP18_Anim_Speed = 1
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_5 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_17 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_2
-                        "Faster":
-                            hide EP18_Biker_Anim_5
-                            hide EP18_Biker_Anim_6
-                            hide EP18_Biker_Anim_17
-                            hide EP18_Biker_Anim_18
-                            $ EP18_Anim_Speed = 2
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_6 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_18 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_2
-                        "Continue":
-                            hide EP18_Biker_Anim_5
-                            hide EP18_Biker_Anim_6
-                            hide EP18_Biker_Anim_17
-                            hide EP18_Biker_Anim_18
-                            $ different_choice_menu = False
-                            pass
-                    scene 48-4 john 124 with Dissolve(0.5)
-                    a "Mmmm.!"
-                    bi1 "Fuck!"
-                    scene 48-4 john 125 with Dissolve(0.5)
-                    bi1 "AAHHH!"
-                    bi1 "Take my entire cock!"
-                    scene 48-4 john 126 with Dissolve(0.5)
-                    bi1 "C'mon girl."
-                    bi1 "I gotta test that pussy out."
-                    a "OK."
-                    scene 48-4 john 127 with Dissolve(0.5)
-                    bi1 "Come here."
-                    bi1 "Fuuck."
-                    bi1 "I can't wait a moment longer."
-                    a "Then we have a deal?"
-                    bi1 "Yeah, yeah."
-                    bi1 "Just ride me, girl."
-                    scene 48-4 john 128 with Dissolve(0.5)
-                    pause 1
-                    scene 48-4 john 129 with Dissolve(0.5)
-                    bi1 "WOOW!"
-                    bi1 "That looks fucking fantastic!"
-                    a "You like it, yeah?"
-                    bi1 "Better than anything I've seen before."
-                    scene 48-4 john 130 with Dissolve(0.5)
-                    a "Hehe."
-                    a "Let me give you an enjoyable ride then."
-                    bi1 "Fuck YEAH!"
-                    play audio femmoan_4
-                    scene 48-4 john 131 with Dissolve(0.5)
-                    a "AAHHh!"
-                    play audio female_moan_2
-                    bi1 "FUUUUCK!"
-                    play audio femmoan_1
-                    scene 48-4 john 132 with Dissolve(0.5)
-                    a "OooAAAHHH!"
-                    bi1 "SHIIIT!"
-                    bi1 "THAT PUSSY DOING GOOD WORK!"
-                    scene 48-4 john 133 with Dissolve(0.5)
-                    a "FUCK!"
-                    a "{i}...So hot... Getting fucked by two random bikers...{/i}"
-                    a "{i}...I can't hold my excitement fuck...{/i}"
-                    $ different_choice_menu = True
-                    $ EP18_Anim_Option = 1
-                    $ EP18_Anim_Speed = 1
-                    scene black
-                    play sound jerk loop
-                    show EP18_Biker_Anim_7 with Dissolve(0.5)
-                    label EP18_Biker_Sex_Label_3:
-                    play audio femmoan_3
-                    a "AHHH!"
-                    menu EP18_Biker_Anim_Menu_3:
-                        "View 1":
-                            hide EP18_Biker_Anim_7
-                            hide EP18_Biker_Anim_8
-                            hide EP18_Biker_Anim_9
-                            hide EP18_Biker_Anim_10
-                            $ EP18_Anim_Option = 1
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_7 with Dissolve(0.5)
-                            if EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_8 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_3
-                        "View 2":
-                            hide EP18_Biker_Anim_7
-                            hide EP18_Biker_Anim_8
-                            hide EP18_Biker_Anim_9
-                            hide EP18_Biker_Anim_10
-                            $ EP18_Anim_Option = 2
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_9 with Dissolve(0.5)
-                            elif EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_10 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_3
-                        "Slower":
-                            hide EP18_Biker_Anim_7
-                            hide EP18_Biker_Anim_8
-                            hide EP18_Biker_Anim_9
-                            hide EP18_Biker_Anim_10
-                            $ EP18_Anim_Speed = 1
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_7 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_9 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_3
-                        "Faster":
-                            hide EP18_Biker_Anim_7
-                            hide EP18_Biker_Anim_8
-                            hide EP18_Biker_Anim_9
-                            hide EP18_Biker_Anim_10
-                            $ EP18_Anim_Speed = 2
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_8 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_10 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_3
-                        "Continue":
-                            hide EP18_Biker_Anim_7
-                            hide EP18_Biker_Anim_8
-                            hide EP18_Biker_Anim_9
-                            hide EP18_Biker_Anim_10
-                            $ different_choice_menu = False
-                            pass
-                    play sound femgasp_1
-                    scene 48-4 john 134 with Dissolve(0.5)
-                    a "AAHHHAAA!"
-                    bi1 "OHH SHIT!"
-                    bi1 "FUCK FUCK!"
-                    a "MHMM!"
-                    scene 48-4 john 135 with Dissolve(0.5)
-                    bi2 "C'mon girl. I'm ready to shoot a load."
-                    bi2 "Get up against that wall."
-                    a "Hehe. OK."
-                    scene 48-4 john 136 with Dissolve(0.5)
-                    bi2 "You're the hottest bitch in town for sure."
-                    bi2 "And the best negotiator I've met."
-                    a "Oh I bet."
-                    a "Now give me some more of that cock!"
-                    scene 48-4 john 137 with Dissolve(0.5)
-                    pause 1
-                    scene 48-4 john 138 with Dissolve(0.5)
-                    a "AAAAAAAA!"
-                    a "Yeah!"
-                    a "COCK... SO... Good..."
-                    scene 48-4 john 139 with Dissolve(0.5)
-                    bi2 "I'm going to power fuck you!"
-                    bi2 "Give you all that spunk!"
-                    bi2 "Fill you up so much!"
-                    a "YES PLEASE!"
-                    $ different_choice_menu = True
-                    $ EP18_Anim_Option = 1
-                    $ EP18_Anim_Speed = 1
-                    scene black
-                    play sound jerk loop
-                    show EP18_Biker_Anim_11 with Dissolve(0.5)
-                    label EP18_Biker_Sex_Label_4:
-                    play audio femmoan_3
-                    a "AHHH!"
-                    a "YEAH!"
-                    bi2 "FUCK THIS SHIT IS GETTING ME GOINNNG!!!"
-                    menu EP18_Biker_Anim_Menu_4:
-                        "View 1":
-                            hide EP18_Biker_Anim_11
-                            hide EP18_Biker_Anim_12
-                            hide EP18_Biker_Anim_13
-                            hide EP18_Biker_Anim_14
-                            $ EP18_Anim_Option = 1
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_11 with Dissolve(0.5)
-                            if EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_12 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_4
-                        "View 2":
-                            hide EP18_Biker_Anim_11
-                            hide EP18_Biker_Anim_12
-                            hide EP18_Biker_Anim_13
-                            hide EP18_Biker_Anim_14
-                            $ EP18_Anim_Option = 2
-                            if EP18_Anim_Speed == 1:
-                                show EP18_Biker_Anim_13 with Dissolve(0.5)
-                            elif EP18_Anim_Speed == 2:
-                                show EP18_Biker_Anim_14 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_4
-                        "Slower":
-                            hide EP18_Biker_Anim_11
-                            hide EP18_Biker_Anim_12
-                            hide EP18_Biker_Anim_13
-                            hide EP18_Biker_Anim_14
-                            $ EP18_Anim_Speed = 1
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_11 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_13 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_4
-                        "Faster":
-                            hide EP18_Biker_Anim_11
-                            hide EP18_Biker_Anim_12
-                            hide EP18_Biker_Anim_13
-                            hide EP18_Biker_Anim_14
-                            $ EP18_Anim_Speed = 2
-                            if EP18_Anim_Option == 1:
-                                show EP18_Biker_Anim_12 with Dissolve(0.5)
-                            elif EP18_Anim_Option == 2:
-                                show EP18_Biker_Anim_14 with Dissolve(0.5)
-                            jump EP18_Biker_Anim_Menu_4
-                        "Continue":
-                            hide EP18_Biker_Anim_11
-                            hide EP18_Biker_Anim_12
-                            hide EP18_Biker_Anim_13
-                            hide EP18_Biker_Anim_14
-                            $ different_choice_menu = False
-                            pass
-                    scene 48-4 john 140 with Dissolve(0.5)
-                    "Moans could be heard throughout the entire alley."
-                    "Echoing off the walls and into the windows of the buildings."
-                    "Hot depravities were taking place..."
-                    scene 48-4 john 141 with Dissolve(0.5)
-                    bi2 "FUUCK!"
-                    bi2 "GETTING CLOSE!"
-                    scene 48-4 john 142 with Dissolve(0.5)
-                    a "Fill... Me... UP!"
-                    scene 48-4 john 143 with Dissolve(0.5)
-                    bi2 "FUUCK!"
-                    bi2 "YEAAHHH!"
-                    show EP18_Biker_Anim_14 with Dissolve(0.5)
-                    play audio moaningfive
-                    with flash
-                    pause 2
-                    with flash
-                    play sound cum_sound
-                    pause
-                    play sound cum_sound
-                    scene 48-4 john 144 with flash_vpunch
-                    hide EP18_Biker_Anim_14
-                    bi1 "AAAAHHHA!"
-                    with flash
-                    a "OHHH!"
-                    with vpunch
-                    scene 48-4 john 145 with Dissolve(0.5)
-                    bi2 "That's a good one!"
-                    a "Got it all out?"
-                    bi2 "Yeah... Wheew."
-                    scene 48-4 john 146 with Dissolve(0.5)
-                    a "C'mon."
-                    a "I ain't done yet."
-                    a "And I'm sure you aren't either."
-                    scene 48-4 john 147 with Dissolve(0.5)
-                    bi1 "Hehe. I bet there's some room left there."
-                    a "There is... Besides, that cum is already leaking out. Leaving new room."
-                    scene 48-4 john 148 with Dissolve(0.5)
-                    a "Give me your load too."
-                    a "Enjoy the benefits of working with us!"
-                    bi1 "FUCK YEAH!"
-                    scene 48-4 john 149 with Dissolve(0.5)
-                    bi1 "FUCK!"
-                    bi1 "YEAHHHH!"
-                    scene 48-4 john 150 with Dissolve(0.5)
-                    pause 1
-                    scene 48-4 john 151 with Dissolve(0.5)
-                    a "OHH!"
-                    a "That's right!"
-                    a "Give me that cock!"
-                    a "And don't stop until you cum!"
-                    $ different_choice_menu = True
-                    $ EP18_Anim_Option = 1
-                    $ EP18_Anim_Speed = 1
-                    scene black
-                    play sound jerk loop
-                    show EP18_Biker_Anim_15 with Dissolve(0.5)
-                    label EP18_Biker_Sex_Label_5:
-                    play audio femmoan_3
-                    a "AHHH!"
-                    a "YEAH!"
-                    bi1 "I'm about to bust a fat one too!"
-                    menu EP18_Biker_Anim_Menu_5:
-                        "Slower":
-                            hide EP18_Biker_Anim_15
-                            hide EP18_Biker_Anim_16
-                            show EP18_Biker_Anim_15 with Dissolve(0.5)
-                            $ EP18_Anim_Speed = 1
-                            jump EP18_Biker_Anim_Menu_5
-                        "Faster":
-                            hide EP18_Biker_Anim_15
-                            hide EP18_Biker_Anim_16
-                            show EP18_Biker_Anim_16 with Dissolve(0.5)
-                            $ EP18_Anim_Speed = 2
-                            jump EP18_Biker_Anim_Menu_5
-                        "Continue":
-                            hide EP18_Biker_Anim_15
-                            hide EP18_Biker_Anim_16
-                            $ different_choice_menu = False
-                            pass
-                    scene 48-4 john 152 with Dissolve(0.5)
-                    bi1 "You're one nasty bitch, you know that?"
-                    a "Hehe, I do."
-                    a "And you love it."
-                    bi1 "Oh yeah!"
-                    scene 48-4 john 153 with Dissolve(0.5)
-                    a "AHHH!!!"
-                    with flash
-                    play sound cum_sound
-                    play sound moaninglong_1
-                    scene 48-4 john 154 with Dissolve(0.5)
-                    a "FUCK FUCK FUCK!"
-                    show EP18_Biker_Anim_16 with Dissolve(0.5)
-                    bi1 "I'm GETTING CLOSE!!!!"
-                    play audio cum_sound
-                    with flash
-                    bi1 "YEAHHH!"
-                    bi1 "TAKE MY LOAD TOO!"
-                    with flash
-                    with flash
-                    scene 48-4 john 155 with Dissolve(0.5)
-                    hide EP18_Biker_Anim_16
-                    bi1 "Wow."
-                    bi1 "I'm fucking empty."
-                    stop sound
-                    scene 48-4 john 156 with Dissolve(0.5)
-                    a "Good!"
-                    bi1 "Yeah."
-                    scene 48-4 john 157 with Dissolve(0.5)
-                    a "There's so much."
-                    a "I can feel it dripping down my leg."
-                    scene 48-4 john 158 with Dissolve(0.5)
-                    a "Didn't know you two would have that much ready to shoot."
-                    bi1 "You are one of a kind."
-                    bi2 "Yeah, I also didn't know I'd cum so much."
-                    bi2 "Instincts. When you see a woman like that, you shoot as much as you can."
-                    bi1 "Hehe."
-                    scene 48-4 john 159 with Dissolve(0.5)
-                    a "SO?"
-                    bi1 "Yes. We'll deal your product."
-                    bi1 "75:25, as discussed."
-                    a "Good."
-                    scene black with Dissolve(0.5)
-                    pause 1
-                    play sound undress
-                    scene 48-4 john 160 with Dissolve(0.5)
-                    a "If you do good work... You'll receive those extra benefits again."
-                    bi1 "Hehe."
-                    bi1 "Glad to hear it."
-                "That's all.":
+translate english EP18_Begin_dfdebae6:
+    # a "He can be a little unpredictable, that's for sure."
+    a ""
 
-                    $ EP18_Bikers_65_Percent = True
-                    pass
-        "Deal.":
-            $ EP18_Bikers_60_Percent = True
-    scene 48-4 john 161 with Dissolve(0.5)
-    a "Just don't mess around and try to rip us off."
-    a "My superiors won't take that well."
-    a "I will be fine, but those who mess with us... Those will have problems."
-    bi1 "You got it, girl."
-    bi1 "You'll have no problems with us."
-    $ renpy.end_replay()
-    scene 48-4 john 162 with Dissolve(0.5)
-    j4 "So umm..."
-    j4 "You all done?"
-    scene 48-4 john 163 with Dissolve(0.5)
-    a "Just finished."
-    bi1 "Listen, we'll have a new bit of business to take care of."
-    j4 "I assume that's what you three discussed?"
-    bi1 "Yeah."
-    bi1 "We'll probably have to expand."
-    scene 48-4 john 164 with Dissolve(0.5)
-    bi1 "Anyway, we'll get moving."
-    a "I will stay in contact."
-    bi1 "Got it."
-    scene 48-4 john 165 with Dissolve(0.5)
-    j4 "What was that 'business' that you talked about?"
-    a "Well..."
-    a "I'll tell you some other time."
-    j4 "I. I think it's important if you do it now."
-    scene 48-4 john 166 with Dissolve(0.5)
-    a "..."
-    a "I'm involved in some 'business,' and I've been assigned to find new ways to distribute our product."
-    j4 "Mhm..."
-    j4 "That product being cocaine or something, right?"
-    a "Well..."
-    j4 "You never cease to surprise... I'm not sure how I feel about this..."
-    a "Me?"
-    a "I also just found out you're involved in some dealings. Illegal ones, I might add."
-    j4 "Fine, fine..."
-    scene 48-4 john 167 with Dissolve(0.5)
-    j4 "I'm kind of tired. You wanna head home?"
-    a "Sure."
-    j4 "We should talk about this some more."
-    j4 "OK?"
-    a "We'll see..."
-    scene 48-4 john 168 with Dissolve(0.5)
-    j4 "Regardless of what you're into..."
-    j4 "You're still one amazing woman, Anna."
-    j4 "That much I can tell you..."
-    j4 "I still admire you."
-    scene 48-4 john 169 with Dissolve(0.5)
-    a "I wouldn't have it any other way, hehe."
-    j4 "Heh."
-    scene black with Dissolve(0.5)
-    pause 1
-    play sound door2
-    play music tranquility
-    scene 48-4 john 170 with Dissolve(0.5)
-    j4 "I'll take it easy the rest of the day."
-    j4 "Wanna just hang around?"
-    a "Uh... I can't. I've got other things to attend to."
-    scene 48-4 john 171 with Dissolve(0.5)
-    j4 "Heh. You always do."
-    j4 "Alright. Your loss."
-    scene 48-4 john 172 with Dissolve(0.5)
-    a "I wouldn't be so sure, John."
-    a "It's usually everyone else who wants my attention."
-    j4 "Touche, hehe."
-    play sound door2
-    scene 48-4 john 173 with Dissolve(0.5)
-    if BenjaminContent == True:
-        a "Should get prepped and go meet Benjamin at his place."
-    else:
-        a "Just going to get changed..."
-        a "See what's what."
-    play sound undress
-    scene 48-4 john 174 with Dissolve(0.5)
-    a "There. That's better."
-    if BenjaminContent == True:
-        jump EP18_Benjamin_2
-    scene black with Dissolve(0.5)
-    pause 1
-    jump EP18_Ruby_1
-label EP18_Ruby_1:
-    $ EP18_var_6 = True
-    play music PPMEtheralEternity
-    if BenjaminContent == True:
-        scene 48-6 shop 1-1 with Dissolve(0.5)
-        a "Oh... What's this..."
-        if bar_var_1 == True:
-            a "It's Patrick..."
-            scene 48-6 shop 2-1 with Dissolve(0.5)
-            a "Hello?"
-            pa "Hello, Anna."
-            pa "You know that we're working today, yes?"
-            a "Yeah, I'm aware."
-            scene 48-6 shop 3-2 with Dissolve(0.5)
-            pa "I need you to run an errand before you come."
-            a "What is it?"
-            pa "Go to the local sex shop."
-            pa "We need to buy some... Toys..."
-            a "Oh... Ok."
-            pa "Good. When you're done with that, come straight to the bar."
-        else:
-            a "It's Jim... Ok..."
-            scene 48-6 shop 2-2 with Dissolve(0.5)
-            a "Hello?"
-            j3 "Hey, Anna. You good?"
-            a "I'm ok, yeah."
-            j3 "Listen. I was wondering, what could we do today at the bar?"
-            j3 "Got any ideas?"
-            scene 48-6 shop 3-3 with Dissolve(0.5)
-            a "Hmm... Not really."
-            a "You?"
-            j3 "Well, I do... But will you like it?"
-            a "Just tell me."
-            j3 "We'd need some sex toys."
-            a "Oh. Heh. Intriguing."
-            j3 "Could you go get them at a local sex shop before coming in?"
-            a "Sure, I'll get to it."
-            j3 "I'll reimburse you after."
-    else:
-        scene 48-6 shop 1 with Dissolve(0.5)
-        a "Oh... What's this..."
-        if bar_var_1 == True:
-            a "It's Patrick..."
-            scene 48-6 shop 2 with Dissolve(0.5)
-            a "Hello?"
-            pa "Hello, Anna."
-            pa "You know that we're working today, yes?"
-            a "Yeah, I'm aware."
-            scene 48-6 shop 3 with Dissolve(0.5)
-            pa "I need you to run an errand before you come."
-            a "What is it?"
-            pa "Go to the local sex shop."
-            pa "We need to buy some... Toys..."
-            a "Oh... Ok."
-            pa "Good. When you're done with that, come straight to the bar."
-        else:
-            a "It's Jim... Ok..."
-            scene 48-6 shop 2 with Dissolve(0.5)
-            a "Hello?"
-            j3 "Hey, Anna. You good?"
-            a "I'm ok, yeah."
-            j3 "Listen. I was wondering, what could we do today at the bar?"
-            j3 "Got any ideas?"
-            scene 48-6 shop 3-1 with Dissolve(0.5)
-            a "Hmm... Not really."
-            a "You?"
-            j3 "Well, I do... But will you like it?"
-            a "Just tell me."
-            j3 "We'd need some sex toys."
-            a "Oh. Heh. Intriguing."
-            j3 "Could you go get them at a local sex shop before coming in?"
-            a "Sure, I'll get to it."
-            j3 "I'll reimburse you after."
-    jump EP18_Ruby_2
-label EP18_Ruby_2:
-    $ EP18_var_7 = True
-    scene 48-6 shop 4 with Dissolve(0.5)
-    r2 "Anna!"
-    r2 "Hey!"
-    r2 "Haven't seen you in a while."
-    a "Hey, Ruby."
-    scene 48-6 shop 6 with Dissolve(0.5)
-    a "Been pretty busy."
-    r2 "So. What brings you to me?"
-    if bar_var_1 == True:
-        a "Patrick sent me to pick up some items for the bar."
-        r2 "Oh. Right!"
-    else:
-        a "I came to pick up some stuff for the bar. Jim might've called ahead?"
-        r2 "Yeah, he did."
-    scene 48-6 shop 5 with Dissolve(0.5)
-    r2 "Got them already prepped."
-    r2 "Give me a sec?"
-    a "Sure."
-    scene 48-6 shop 7 with Dissolve(0.5)
-    r2 "Your old toys still keeping you satisfied?"
-    a "Heh. I don't have much time to use them... Pretty busy."
-    r2 "That's a pity."
-    scene 48-6 shop 8 with Dissolve(0.5)
-    r2 "Let me see..."
-    r2 "Ok... Ok..."
-    r2 "Alright."
-    scene 48-6 shop 9 with Dissolve(0.5)
-    r2 "This is the order for the bar."
-    scene 48-6 shop 10 with Dissolve(0.5)
-    a "Oh wow..."
-    a "An interesting selection."
-    scene 48-6 shop 11 with Dissolve(0.5)
-    r2 "Since you're a very special customer."
-    r2 "I'll pack something extra in this bag."
-    r2 "As a surprise for you."
-    a "Thank you, Ruby."
-    scene 48-6 shop 12 with Dissolve(0.5)
-    r2 "I hope you enjoy these."
-    a "Heh... Thanks."
-    a "{i}...I wonder what is the surprise for me...{/i}"
-    if bar_var_1 == True:
-        scene 48-6 shop 13-1 with Dissolve(0.5)
-        a "{i}...I wonder what Patrick has planned...{/i}"
-        a "{i}...If I know him at all... He's got some depravities planned...{/i}"
-    else:
-        a "{i}...I wonder what Jim had in mind... I'm the leader, but he ends up planning everything...{/i}"
-        a "It could be fun."
-    scene black with Dissolve(3)
-    pause 1
-label EP18_Ending:
-    jump EP19_Begin
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+translate english EP18_Begin_fa65d4fe:
+    # e "I don't know him well enough."
+    e ""
+
+translate english EP18_Begin_5b2b1761:
+    # a "One thing's for sure, it will be something rather exciting..."
+    a ""
+
+translate english EP18_Begin_be281861:
+    # e "Besides him taking a cut."
+    e ""
+
+translate english EP18_Begin_8ed5da9c:
+    # e "We do all the work."
+    e ""
+
+translate english EP18_Begin_f1ed2d07:
+    # a "True, but without him, we wouldn't have a platform."
+    a ""
+
+translate english EP18_Begin_a34e6b31:
+    # e "Meaning?"
+    e ""
+
+translate english EP18_Begin_efcc3c63:
+    # a "Without Patrick, our other option would be working the corner."
+    a ""
+
+translate english EP18_Begin_b93343f8:
+    # a "And we both know we wouldn't be doing that."
+    a ""
+
+translate english EP18_Begin_e9e9d739:
+    # e "Haha. True."
+    e ""
+
+translate english EP18_Begin_5a1d1082:
+    # a "Let's go."
+    a ""
+
+translate english EP18_Begin_8f93cde4:
+    # a "It's mostly Jim."
+    a ""
+
+translate english EP18_Begin_4fbc49a2:
+    # a "I don't have time for planning."
+    a ""
+
+translate english EP18_Begin_7aff319f:
+    # a "But I certainly find the job intriguing."
+    a ""
+
+translate english EP18_Begin_63bd634e:
+    # e "So do I. Heh. I wonder how much money we made tonight, though."
+    e ""
+
+translate english EP18_Begin_e5711d89:
+    # a "That's a good question."
+    a ""
+
+translate english EP18_Begin_62ef0ac8:
+    # a "We'll get back to it tomorrow."
+    a ""
+
+translate english EP18_Begin_d35aaf4c:
+    # e "Ok."
+    e ""
+
+translate english EP18_Begin_aee182f4:
+    # e "I wouldn't say no to a side hustle like this."
+    e ""
+
+translate english EP18_Begin_ae689401:
+    # e "Get paid for having fun?"
+    e ""
+
+translate english EP18_Begin_a870e4ca:
+    # e "What's not to like?"
+    e ""
+
+translate english EP18_Begin_3a578427:
+    # a "True, haha."
+    a ""
+
+translate english EP18_Begin_dc18f313:
+    # ga "Hey, girls!"
+    ga ""
+
+translate english EP18_Begin_3450d2e0:
+    # ga "Productive night, eh?"
+    ga ""
+
+translate english EP18_Begin_23dce960:
+    # a "Hah, you bet!"
+    a ""
+
+translate english EP18_Begin_34b0f311:
+    # ga "I'm sure we earned a pretty penny."
+    ga ""
+
+translate english EP18_Begin_06b0d631:
+    # a "Indeed we did."
+    a ""
+
+translate english EP18_Begin_897bcc75:
+    # a "We couldn't do our job properly without a guard."
+    a ""
+
+translate english EP18_Begin_3237df95:
+    # a "Making sure nobody gets too handsy or rough."
+    a ""
+
+translate english EP18_Begin_461e950e:
+    # ga "My main priority, girls."
+    ga ""
+
+translate english EP18_Begin_c06718ce:
+    # ga "Won't let anything happen to you on my watch."
+    ga ""
+
+translate english EP18_Begin_3e8d6d0e:
+    # j3 "Good job, girls."
+    j3 ""
+
+translate english EP18_Begin_386f4294:
+    # j3 "Patrick will count the money and tell us tomorrow."
+    j3 ""
+
+translate english EP18_Begin_ff5de2b2:
+    # j3 "I'll get to counting money later, will give you the numbers tomorrow."
+    j3 ""
+
+translate english EP18_Begin_7e10e851:
+    # a "Better not skimp on anything."
+    a ""
+
+translate english EP18_Begin_73f04749:
+    # j3 "You'll get your dues, that I'm sure of."
+    j3 ""
+
+translate english EP18_Begin_98171ae1:
+    # e "So what now?"
+    e ""
+
+translate english EP18_Begin_71056ee8:
+    # e "We going partying?"
+    e ""
+
+translate english EP18_Begin_d21e4f05:
+    # a "This late?"
+    a ""
+
+translate english EP18_Begin_bb77350a:
+    # e "Why not?"
+    e ""
+
+translate english EP18_Begin_ebec2e6e:
+    # a "I'm spent, Emily."
+    a ""
+
+translate english EP18_Begin_b1a93628:
+    # a "I want to get some sleep asap."
+    a ""
+
+translate english EP18_Begin_811dfbd6:
+    # e "Fiiine. I'll just do the same."
+    e ""
+
+translate english EP18_Morning_54704297:
+    # a "{i}...I wonder what Patrick has planned for today...{/i}"
+    a ""
+
+translate english EP18_Morning_e37e418e:
+    # a "{i}...Things keep heating up at the bar...{/i}"
+    a ""
+
+translate english EP18_Morning_b3940a35:
+    # a "{i}...I wonder how we could pump up the action more...{/i}"
+    a ""
+
+translate english EP18_Morning_bcb4241e:
+    # a "{i}...Making that business more lucrative is not a bad thing...{/i}"
+    a ""
+
+translate english EP18_Morning_2e6b0fb2:
+    # a "{i}...Perhaps I could even involve more and more girls...{/i}"
+    a ""
+
+translate english EP18_Morning_e982851d:
+    # a1 "Hey... Anna."
+    a1 ""
+
+translate english EP18_Morning_fde5702a:
+    # a1 "A dream come true for a man. Seeing such a beautiful woman as I wake up..."
+    a1 ""
+
+translate english EP18_Morning_b2197f5d:
+    # a1 "Wow."
+    a1 ""
+
+translate english EP18_Morning_e4cc14db:
+    # a "Heh. You're making me blush, Andrew."
+    a ""
+
+translate english EP18_Morning_6bf8d1ae:
+    # a1 "Everything for you, Anna."
+    a1 ""
+
+translate english EP18_Morning_4fd3f771:
+    # a "Everything?"
+    a ""
+
+translate english EP18_Morning_91f52862:
+    # a1 "Whatever you say, goes."
+    a1 ""
+
+translate english EP18_Morning_7168f70d:
+    # a1 "You sleep well?"
+    a1 ""
+
+translate english EP18_Morning_f6b4d71c:
+    # a "Yeah."
+    a ""
+
+translate english EP18_Morning_d3c30d10:
+    # a "Can't complain."
+    a ""
+
+translate english EP18_Morning_251774e0:
+    # a1 "It's finally weekend."
+    a1 ""
+
+translate english EP18_Morning_5f664cfc:
+    # a1 "And you're free."
+    a1 ""
+
+translate english EP18_Morning_7846f9ab:
+    # a1 "I thought that, perhaps, we could do some things together today?"
+    a1 ""
+
+translate english EP18_Morning_bcaa2920:
+    # a1 "It's been a while since we've done something, just the two of us."
+    a1 ""
+
+translate english EP18_Morning_fe6f6154:
+    # a "Oh?"
+    a ""
+
+translate english EP18_Morning_e5a9870a:
+    # a "Got anything particular in mind?"
+    a ""
+
+translate english EP18_Morning_6d0860c0:
+    # a1 "Eh. No. Hadn't gotten that far. Haha."
+    a1 ""
+
+translate english EP18_Morning_559b7537:
+    # a "Hmm..."
+    a ""
+
+translate english EP18_Morning_c03509f9:
+    # a1 "Well, I haven't been to the beach for a while."
+    a1 ""
+
+translate english EP18_Morning_0ec6c054:
+    # a1 "Or the pool or something, we could do that?"
+    a1 ""
+
+translate english EP18_Morning_49320175:
+    # a "I like the idea."
+    a ""
+
+translate english EP18_Morning_34e41c08:
+    # a1 "Nice!"
+    a1 ""
+
+translate english EP18_Morning_bf1865a9:
+    # a1 "It's settled then."
+    a1 ""
+
+translate english EP18_Morning_586a8893:
+    # a "Alright, heh."
+    a ""
+
+translate english EP18_Morning_84219572:
+    # a "But I'd first like to eat some breakfast."
+    a ""
+
+translate english EP18_Morning_8d2eedd9:
+    # a "Didn't eat anything yesterday in the evening..."
+    a ""
+
+translate english EP18_Morning_411bb608:
+    # a1 "I agree. Pretty hungry."
+    a1 ""
+
+translate english EP18_Morning_ad758c70:
+    # a1 "How about we eat outside?"
+    a1 ""
+
+translate english EP18_Morning_11eef279:
+    # a1 "Find a nice cafe and indulge a little?"
+    a1 ""
+
+translate english EP18_Morning_45522e73:
+    # a "Great idea, Andrew!"
+    a ""
+
+translate english EP18_Morning_5a1d1082:
+    # a "Let's go."
+    a ""
+
+translate english EP18_Morning_f46abeae:
+    # a1 "Got any ideas where we could go?"
+    a1 ""
+
+translate english EP18_Morning_9d1c8467:
+    # a "Not really."
+    a ""
+
+translate english EP18_Morning_27e1b06e:
+    # a1 "Hmm... I think I might know a place."
+    a1 ""
+
+translate english EP18_Morning_0d461e28:
+    # a "Nice."
+    a ""
+
+translate english EP18_Morning_0a85d3cd:
+    # j4 "Morning, sleepyheads."
+    j4 ""
+
+translate english EP18_Morning_f158dcc0:
+    # a1 "Hey, dad."
+    a1 ""
+
+translate english EP18_Morning_ee9525cd:
+    # a "Morning, John."
+    a ""
+
+translate english EP18_Morning_16811b2a:
+    # j4 "I'm cooking some food."
+    j4 ""
+
+translate english EP18_Morning_6269e065:
+    # j4 "Want some?"
+    j4 ""
+
+translate english EP18_Morning_15964ab2:
+    # j4 "Making enchiladas."
+    j4 ""
+
+translate english EP18_Morning_7297f10b:
+    # j4 "And a bit of whiskey, hehe."
+    j4 ""
+
+translate english EP18_Morning_a5d09b6a:
+    # a1 "We're good. Thanks."
+    a1 ""
+
+translate english EP18_Morning_955a6a2b:
+    # a1 "Why you gotta be half naked, though?"
+    a1 ""
+
+translate english EP18_Morning_c9d9f4b1:
+    # a "Heh. It's alright..."
+    a ""
+
+translate english EP18_Morning_19b2ae08:
+    # j4 "What, jealous of my physique?"
+    j4 ""
+
+translate english EP18_Morning_2ca3a5ef:
+    # a1 "Yeah. Right..."
+    a1 ""
+
+translate english EP18_Morning_7fe99850:
+    # a "We'll head out, eat at a cafe or something."
+    a ""
+
+translate english EP18_Morning_b51c0113:
+    # j4 "Your loss."
+    j4 ""
+
+translate english EP18_Morning_08b8c9c3:
+    # j4 "Where you going?"
+    j4 ""
+
+translate english EP18_Morning_4385698f:
+    # a "To the cafe first, then to the beach."
+    a ""
+
+translate english EP18_Morning_979a9174:
+    # j4 "Can I join you later?"
+    j4 ""
+
+translate english EP18_Morning_aa8e7d46:
+    # a1 "Sorry. No. We want to spend some time together, just the two of us."
+    a1 ""
+
+translate english EP18_Morning_e8a88e5f:
+    # j4 "Oh... Ok..."
+    j4 ""
+
+translate english EP18_Morning_befa3cd9:
+    # a1 "For some reason, he continues to be an asshole."
+    a1 ""
+
+translate english EP18_Morning_614d268d:
+    # a1 "Hate it."
+    a1 ""
+
+translate english EP18_Morning_591197b5:
+    # a "Don't worry about it."
+    a ""
+
+translate english EP18_Morning_97abe9dd:
+    # a1 "Whatever..."
+    a1 ""
+
+translate english EP18_Morning_95be127b:
+    # j4 "{i}...Perhaps I can still join Anna later...{/i}"
+    j4 ""
+
+translate english EP18_Morning_8a80494c:
+    # a1 "The place isn't far."
+    a1 ""
+
+translate english EP18_Morning_7fc0a466:
+    # a1 "I think I've been there a few times."
+    a1 ""
+
+translate english EP18_Morning_ebff509f:
+    # a "Anything good?"
+    a ""
+
+translate english EP18_Morning_00e14383:
+    # a1 "Well. Cheesecake is good."
+    a1 ""
+
+translate english EP18_Morning_2c35ff89:
+    # a "Oh, yummy."
+    a ""
+
+translate english EP18_Morning_e39ccdc1:
+    # a1 "Not as yummy as you, Anna."
+    a1 ""
+
+translate english EP18_Morning_a9128a94:
+    # a "Oh, Andrew."
+    a ""
+
+translate english EP18_Morning_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Morning_4f3dd1cf:
+    # a1 "I mean it. so beautiful."
+    a1 ""
+
+translate english EP18_Morning_14c50115:
+    # a "Hmm. I've been here, too."
+    a ""
+
+translate english EP18_Morning_218787a5:
+    # a1 "Really?"
+    a1 ""
+
+translate english EP18_Morning_9f33ea43:
+    # a1 "And?"
+    a1 ""
+
+translate english EP18_Morning_5e2a20dd:
+    # a "It's a nice place, indeed."
+    a ""
+
+translate english EP18_Morning_e77e0aad:
+    # a "A cute waitress. You'd like her."
+    a ""
+
+translate english EP18_Morning_e95b9b40:
+    # a1 "Hi."
+    a1 ""
+
+translate english EP18_Morning_83dba16b:
+    # a1 "What's your breakfast offer?"
+    a1 ""
+
+translate english EP18_Morning_0c4e8720:
+    # barista "Cheese sandwiches and coffee."
+    barista ""
+
+translate english EP18_Morning_39ffde88:
+    # barista "Will that do?"
+    barista ""
+
+translate english EP18_Morning_a824e092:
+    # a1 "Um. Sure."
+    a1 ""
+
+translate english EP18_Morning_0216a86a:
+    # a1 "No cheesecake?"
+    a1 ""
+
+translate english EP18_Morning_c3fd3ac2:
+    # barista "Unfortunately, no."
+    barista ""
+
+translate english EP18_Morning_289737fa:
+    # barista "They could't deliver it today..."
+    barista ""
+
+translate english EP18_Morning_00ea2f52:
+    # barista "Sorry."
+    barista ""
+
+translate english EP18_Morning_5657110b:
+    # a1 "It's ok."
+    a1 ""
+
+translate english EP18_Morning_0a39efb0:
+    # a1 "We'll manage, right Anna?"
+    a1 ""
+
+translate english EP18_Morning_8ac1637d:
+    # a "Heh. Yeah. It's ok."
+    a ""
+
+translate english EP18_Morning_4a29225f:
+    # a "Lovely day, isn't it?"
+    a ""
+
+translate english EP18_Morning_d45c94da:
+    # barista "Couldn't agree more."
+    barista ""
+
+translate english EP18_Morning_5a2f2998:
+    # a "Perfect for a trip to the beach."
+    a ""
+
+translate english EP18_Morning_dfcf379d:
+    # barista "Yeah..."
+    barista ""
+
+translate english EP18_Morning_c010e5df:
+    # a "{i}...Hehe, should tease Andrew a bit...{/i}"
+    a ""
+
+translate english EP18_Morning_271bef17:
+    # a "Care to join?"
+    a ""
+
+translate english EP18_Morning_ff773915:
+    # barista "Umm... That sounds fun, but I have to see if I can make it..."
+    barista ""
+
+translate english EP18_Morning_f88a9796:
+    # barista "If I can, I'll surely go."
+    barista ""
+
+translate english EP18_Morning_aebde9c6:
+    # a "We'll keep our eyes and ears open."
+    a ""
+
+translate english EP18_Morning_bb65733e:
+    # barista "Ok, heh."
+    barista ""
+
+translate english EP18_Morning_0f0b4f91:
+    # barista "Alright. Here are the sandwiches."
+    barista ""
+
+translate english EP18_Morning_e51db62a:
+    # barista "And the coffee."
+    barista ""
+
+translate english EP18_Morning_d2f17108:
+    # a "Mmm... The coffee smells so good."
+    a ""
+
+translate english EP18_Morning_5976a241:
+    # barista "Only the best at our cafe."
+    barista ""
+
+translate english EP18_Morning_3091e155:
+    # barista "That will be 8.50$."
+    barista ""
+
+translate english EP18_Morning_7fc4bf21:
+    # a1 "Here. Let me pay for it."
+    a1 ""
+
+translate english EP18_Morning_01b03b4a:
+    # barista "Thank you. Enjoy your meal!"
+    barista ""
+
+translate english EP18_Morning_ee0e2308:
+    # a1 "Thanks!"
+    a1 ""
+
+translate english EP18_Morning_433d0a02:
+    # a "So. what did you think about the waitress?"
+    a ""
+
+translate english EP18_Morning_7c544599:
+    # a "Wasn't she attractive?"
+    a ""
+
+translate english EP18_Morning_5ca1f281:
+    # a1 "Oh? This feels like a trap."
+    a1 ""
+
+translate english EP18_Morning_2eb4a935:
+    # a "It isn't, so don't worry. I'm not that jealous type of a girlfriend."
+    a ""
+
+translate english EP18_Morning_54ef833a:
+    # a1 "Well. Yeah. She was cute."
+    a1 ""
+
+translate english EP18_Morning_f4ea432b:
+    # a "Heh, indeed."
+    a ""
+
+translate english EP18_Morning_ef6089a6:
+    # a1 "But. I'd never choose her over you."
+    a1 ""
+
+translate english EP18_Morning_36fd9ce1:
+    # a "Are you sure?"
+    a ""
+
+translate english EP18_Morning_753dfb1f:
+    # a1 "Yeah. You're perfection."
+    a1 ""
+
+translate english EP18_Morning_e077189d:
+    # a "Ah so tasty..."
+    a ""
+
+translate english EP18_Morning_1bce4782:
+    # a "I do wonder."
+    a ""
+
+translate english EP18_Morning_18a7ed1f:
+    # a1 "What about?"
+    a1 ""
+
+translate english EP18_Morning_d516fba2:
+    # a "If she joined us at the beach."
+    a ""
+
+translate english EP18_Morning_98729e2e:
+    # a "Hypothetically, of course..."
+    a ""
+
+translate english EP18_Morning_7a3a28fa:
+    # a "It would be funny if we, the three of us, did some stuff."
+    a ""
+
+translate english EP18_Morning_3e5082d4:
+    # a "You know?"
+    a ""
+
+translate english EP18_Morning_0c683b88:
+    # a1 "Meaning?"
+    a1 ""
+
+translate english EP18_Morning_51be3387:
+    # a "You know. menage a troi."
+    a ""
+
+translate english EP18_Morning_03078893:
+    # a1 "Like the three of us?"
+    a1 ""
+
+translate english EP18_Morning_1404c5ee:
+    # a "Hehe... It would be interesting."
+    a ""
+
+translate english EP18_Morning_3cd2ae8c:
+    # a1 "I... Um... I mean. Yeah."
+    a1 ""
+
+translate english EP18_Morning_28acf103:
+    # a1 "Heh... Only if it was ok with you."
+    a1 ""
+
+translate english EP18_Morning_ee875e51:
+    # a "It would be heh."
+    a ""
+
+translate english EP18_Morning_45aefc82:
+    # a "I bet you'd like it."
+    a ""
+
+translate english EP18_Morning_af5a185f:
+    # a "Even if you find only me perfect."
+    a ""
+
+translate english EP18_Morning_68ec15ad:
+    # a1 "I uhh..."
+    a1 ""
+
+translate english EP18_Morning_69e7e551:
+    # a "Haha. I'm just messing around, Andrew."
+    a ""
+
+translate english EP18_Morning_06122113:
+    # a1 "Right. heh."
+    a1 ""
+
+translate english EP18_Morning_6b43c73e:
+    # a "Anyway. I'm all done. Let's go?"
+    a ""
+
+translate english EP18_Morning_b3762b81:
+    # a1 "Yeah."
+    a1 ""
+
+translate english EP18_Morning_12773dc9:
+    # a "Thank you for the coffee and sandwiches."
+    a ""
+
+translate english EP18_Morning_3d2727d7:
+    # a "They never fail us."
+    a ""
+
+translate english EP18_Morning_5ac34890:
+    # barista "You're welcome!"
+    barista ""
+
+translate english EP18_Morning_efbf8e08:
+    # a "See you later then, maybe?"
+    a ""
+
+translate english EP18_Morning_77c57f5d:
+    # barista "Maybe..."
+    barista ""
+
+translate english EP18_Morning_50374790:
+    # a1 "So. The beach now?"
+    a1 ""
+
+translate english EP18_Morning_2996a8c3:
+    # a "Oh yes!"
+    a ""
+
+translate english EP18_Morning_fd9f83da:
+    # a "Can't wait. I want that sun on my skin!"
+    a ""
+
+translate english EP18_Morning_955a3ec8:
+    # a1 "I want a cold beer!"
+    a1 ""
+
+translate english EP18_Morning_f626c495:
+    # a "Same."
+    a ""
+
+translate english EP18_Beach_1_b2197f5d:
+    # a1 "Wow."
+    a1 ""
+
+translate english EP18_Beach_1_f6b4d71c:
+    # a "Yeah."
+    a ""
+
+translate english EP18_Beach_1_783d8ad0:
+    # a1 "To be honest. I've never been here."
+    a1 ""
+
+translate english EP18_Beach_1_a7aa6170:
+    # a "Really?"
+    a ""
+
+translate english EP18_Beach_1_53f50579:
+    # a "Make a wish, hehe."
+    a ""
+
+translate english EP18_Beach_1_e9e90efb:
+    # a1 "It alread came true."
+    a1 ""
+
+translate english EP18_Beach_1_b0f9671e:
+    # a1 "Being here with you."
+    a1 ""
+
+translate english EP18_Beach_1_4d0f0094:
+    # a1 "Let's go grab a drink then?"
+    a1 ""
+
+translate english EP18_Beach_1_c08244db:
+    # a1 "I really want that beer."
+    a1 ""
+
+translate english EP18_Beach_1_c2a5283f:
+    # a "First, Let's go get changed."
+    a ""
+
+translate english EP18_Beach_1_12f1b4e8:
+    # a "I want to get into my bikini as soon as possible."
+    a ""
+
+translate english EP18_Beach_1_d1bc9983:
+    # a "And I'm pretty sure you'll like it hehe."
+    a ""
+
+translate english EP18_Beach_1_b7d1648a:
+    # a1 "Interesting..."
+    a1 ""
+
+translate english EP18_Beach_1_75e07355:
+    # a1 "You come here often?"
+    a1 ""
+
+translate english EP18_Beach_1_69aca8d2:
+    # a "Not often, but I do."
+    a ""
+
+translate english EP18_Beach_1_0b53e964:
+    # a "Usually a lot of people here."
+    a ""
+
+translate english EP18_Beach_1_5b6efa4b:
+    # a "Sometimes I've been here with Rebecca."
+    a ""
+
+translate english EP18_Beach_1_96f9abb2:
+    # a1 "Oh."
+    a1 ""
+
+translate english EP18_Beach_1_9830111b:
+    # a "No better place to be on a sunny day."
+    a ""
+
+translate english EP18_Beach_1_ef441dc5:
+    # a "I'll 'accidentaly' leave the door open."
+    a ""
+
+translate english EP18_Beach_1_114504b3:
+    # a1 "In public?"
+    a1 ""
+
+translate english EP18_Beach_1_586d116a:
+    # a "Got a problem with that?"
+    a ""
+
+translate english EP18_Beach_1_f231c68a:
+    # a "And not like I'm walking nude in the city center."
+    a ""
+
+translate english EP18_Beach_1_7d806381:
+    # a1 "Fair point."
+    a1 ""
+
+translate english EP18_Beach_1_debae5a3:
+    # a "Besides, I thought you liked seeing me."
+    a ""
+
+translate english EP18_Beach_1_22db0326:
+    # a1 "I do indeed."
+    a1 ""
+
+translate english EP18_Beach_1_5b22089f:
+    # a "Then, shush and enjoy."
+    a ""
+
+translate english EP18_Beach_1_b598c8b5:
+    # a "Mm..."
+    a ""
+
+translate english EP18_Beach_1_30efdc8d:
+    # a "You like my curves?"
+    a ""
+
+translate english EP18_Beach_1_17c4d90a:
+    # a1 "Whaaaa..."
+    a1 ""
+
+translate english EP18_Beach_1_a3a8e9e4:
+    # a1 "DAMN!"
+    a1 ""
+
+translate english EP18_Beach_1_da06a4d4:
+    # a1 "So hot, Anna!"
+    a1 ""
+
+translate english EP18_Beach_1_1a6bdc6f:
+    # a "What's that?"
+    a ""
+
+translate english EP18_Beach_1_06b16fd8:
+    # a "I can't hear you behind that huge ass. Hehe."
+    a ""
+
+translate english EP18_Beach_1_bc33e097:
+    # a1 "Haha."
+    a1 ""
+
+translate english EP18_Beach_1_637b0122:
+    # a1 "A queen if I ever saw one."
+    a1 ""
+
+translate english EP18_Beach_1_099f66fc:
+    # a "That's right!"
+    a ""
+
+translate english EP18_Beach_1_ec7c417b:
+    # a "And you better not forget it."
+    a ""
+
+translate english EP18_Beach_1_3aa2f856:
+    # a1 "I wont!"
+    a1 ""
+
+translate english EP18_Beach_1_d0312fa4:
+    # a1 "What?"
+    a1 ""
+
+translate english EP18_Beach_1_b40ae41b:
+    # a1 "Whoa."
+    a1 ""
+
+translate english EP18_Beach_1_32fb53c2:
+    # a "Hm?"
+    a ""
+
+translate english EP18_Beach_1_f85146f0:
+    # a1 "Wooow."
+    a1 ""
+
+translate english EP18_Beach_1_87ead91d:
+    # a1 "Umm..."
+    a1 ""
+
+translate english EP18_Beach_1_a1fa1d86:
+    # a1 "That's... Like. Not a lot of coverage."
+    a1 ""
+
+translate english EP18_Beach_1_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP18_Beach_1_24dca83b:
+    # a "Everyone at the beach wears minimal clothing."
+    a ""
+
+translate english EP18_Beach_1_1e191a05:
+    # a1 "There's minimal and then there's this."
+    a1 ""
+
+translate english EP18_Beach_1_75fb16e7:
+    # a1 "You sure this is what you want to wear?"
+    a1 ""
+
+translate english EP18_Beach_1_4df021e9:
+    # a "Yeah, why not? Don't like it?"
+    a ""
+
+translate english EP18_Beach_1_82840515:
+    # a1 "I do, but... It just barely covers anything..."
+    a1 ""
+
+translate english EP18_Beach_1_b0044d46:
+    # a "Oh c'mon, Andrew. It's just the beach."
+    a ""
+
+translate english EP18_Beach_1_47f998fe:
+    # a "Not like I'm walking down main street in this."
+    a ""
+
+translate english EP18_Beach_1_e6bf2d33:
+    # a1 "Holy..."
+    a1 ""
+
+translate english EP18_Beach_1_d0566b84:
+    # a1 "Such a hot body."
+    a1 ""
+
+translate english EP18_Beach_1_d43a1a45:
+    # a "Go get changed."
+    a ""
+
+translate english EP18_Beach_1_0ed83d7c:
+    # a "I really want to get some nice tan today."
+    a ""
+
+translate english EP18_Beach_1_54d409cd:
+    # a1 "Uhh... Sure."
+    a1 ""
+
+translate english EP18_Beach_1_0d0ece8a:
+    # a1 "I just hope everyone won't stare at you."
+    a1 ""
+
+translate english EP18_Beach_1_771595a7:
+    # a "And even if they will, so what?"
+    a ""
+
+translate english EP18_Beach_1_fd4240b7:
+    # a "You know they can't get me."
+    a ""
+
+translate english EP18_Beach_1_9a7d97ff:
+    # a "They'll just get jealous. But you'll be the one taking me home."
+    a ""
+
+translate english EP18_Beach_1_2fd05bda:
+    # a1 "Heh. True."
+    a1 ""
+
+translate english EP18_Beach_1_d8703e59:
+    # a "Hurry up."
+    a ""
+
+translate english EP18_Beach_1_d506418c:
+    # a1 "All done."
+    a1 ""
+
+translate english EP18_Beach_1_79a4517c:
+    # a1 "Let's go."
+    a1 ""
+
+translate english EP18_Beach_1_aadfeb71:
+    # a "Yes, yes, yes. Hehe."
+    a ""
+
+translate english EP18_Beach_1_bb28bba5:
+    # a "Hey!"
+    a ""
+
+translate english EP18_Beach_1_f1a7e53d:
+    # barten "Hello, Anna!"
+    barten ""
+
+translate english EP18_Beach_1_ee27782a:
+    # barten "Back again, I see."
+    barten ""
+
+translate english EP18_Beach_1_58ef3cac:
+    # a "Of course. Whenever I got some free time, I come here."
+    a ""
+
+translate english EP18_Beach_1_2fe69cc2:
+    # barten "I've noticed."
+    barten ""
+
+translate english EP18_Beach_1_9f7da32c:
+    # a "Not a lot of people I see."
+    a ""
+
+translate english EP18_Beach_1_7c5b4d5d:
+    # barten "Still early morning."
+    barten ""
+
+translate english EP18_Beach_1_33003295:
+    # barten "People will show up."
+    barten ""
+
+translate english EP18_Beach_1_7721e4ee:
+    # a "True."
+    a ""
+
+translate english EP18_Beach_1_65d2ef18:
+    # barten "Remember last time you were here."
+    barten ""
+
+translate english EP18_Beach_1_d26e65bf:
+    # barten "Had a great volleybal game, ye?"
+    barten ""
+
+translate english EP18_Beach_1_6cfe2de3:
+    # a "Oh the best. Hehe."
+    a ""
+
+translate english EP18_Beach_1_4ccae503:
+    # barten "Indeed."
+    barten ""
+
+translate english EP18_Beach_1_b1e4ce91:
+    # a "The stakes were high."
+    a ""
+
+translate english EP18_Beach_1_3986651c:
+    # barten "Oh I saw."
+    barten ""
+
+translate english EP18_Beach_1_7b606c5c:
+    # a1 "{i}...He's staring at her...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_087fc40c:
+    # a1 "{i}...I knew I was right... But... Anna insists...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_24590463:
+    # a1 "{i}...I suppose she's right, though... People stare but only I take her home...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_adcbf7c8:
+    # barten "So where's Rebecca?"
+    barten ""
+
+translate english EP18_Beach_1_6f1bf43a:
+    # a "Oh. She's pretty busy with... Stuff."
+    a ""
+
+translate english EP18_Beach_1_aa21cbd8:
+    # barten "Aren't we all."
+    barten ""
+
+translate english EP18_Beach_1_6f89f7cf:
+    # barten "Alright, what'll you have today?"
+    barten ""
+
+translate english EP18_Beach_1_1126626c:
+    # a "Just two beers, thanks."
+    a ""
+
+translate english EP18_Beach_1_1f84f318:
+    # barten "Coming right up."
+    barten ""
+
+translate english EP18_Beach_1_8c4998c2:
+    # barten "Anyway, hope you've enjoy your day here today."
+    barten ""
+
+translate english EP18_Beach_1_3b07c297:
+    # a "I certainly will."
+    a ""
+
+translate english EP18_Beach_1_58b6b789:
+    # a "Finaly here with my boyfriend."
+    a ""
+
+translate english EP18_Beach_1_5013ce21:
+    # barten "Great!"
+    barten ""
+
+translate english EP18_Beach_1_b6729c2d:
+    # a1 "I was right, people are staring..."
+    a1 ""
+
+translate english EP18_Beach_1_65258e71:
+    # a "So?"
+    a ""
+
+translate english EP18_Beach_1_0c5357c0:
+    # a "It's not that big of a deal, Andrew."
+    a ""
+
+translate english EP18_Beach_1_59d54426:
+    # a "Quit making it so."
+    a ""
+
+translate english EP18_Beach_1_3a12260d:
+    # a1 "Alright, alright."
+    a1 ""
+
+translate english EP18_Beach_1_e0fec748:
+    # a1 "Perfect, two chairs for us. No one has taken them."
+    a1 ""
+
+translate english EP18_Beach_1_3edab0d5:
+    # a "Yeah. Looks like luck is on our side."
+    a ""
+
+translate english EP18_Beach_1_79e01764:
+    # a1 "Hah."
+    a1 ""
+
+translate english EP18_Beach_1_0391731c:
+    # beachguy1 "Damn..."
+    beachguy1 ""
+
+translate english EP18_Beach_1_adfe5806:
+    # beachguy1 "It's that girl."
+    beachguy1 ""
+
+translate english EP18_Beach_1_a80eafa2:
+    # beachguy2 "Yeah,the same one from some days ago."
+    beachguy2 ""
+
+translate english EP18_Beach_1_64af7c5c:
+    # beachguy2 "She's such a badie. Look at those tits."
+    beachguy2 ""
+
+translate english EP18_Beach_1_5f9f5c13:
+    # beachguy1 "Her outfit barely covers anything at all..."
+    beachguy1 ""
+
+translate english EP18_Beach_1_69c730f0:
+    # beachguy2 "What I wouldn't do... Damn..."
+    beachguy2 ""
+
+translate english EP18_Beach_1_cd57caed:
+    # beachguy2 "Def would tap that ass more than once."
+    beachguy2 ""
+
+translate english EP18_Beach_1_aa68bc35:
+    # beachguy1 "We'd double team her, hehe."
+    beachguy1 ""
+
+translate english EP18_Beach_1_20d2b748:
+    # beachguy2 "Call in the rest of the guys, and give her a good one."
+    beachguy2 ""
+
+translate english EP18_Beach_1_ae947658:
+    # a "{i}...Very vulgar comments...{/i}"
+    a ""
+
+translate english EP18_Beach_1_237c9211:
+    # a "{i}...I wonder what Andrew thinks about those comments...{/i}"
+    a ""
+
+translate english EP18_Beach_1_9941d7ca:
+    # a1 "{i}...Fuckers talking like that about Anna...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_e3456086:
+    # a1 "{i}...But I don't want a fight...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_62a11a02:
+    # a1 "{i}...But... They are right... She is kinda slutty in this outfit...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_9028b29e:
+    # a1 "Alright."
+    a1 ""
+
+translate english EP18_Beach_1_cc2fbc79:
+    # a1 "I kinda wanna lay down and enjoy the sun, too."
+    a1 ""
+
+translate english EP18_Beach_1_4a8dad7c:
+    # a "Hehe. Good to hear."
+    a ""
+
+translate english EP18_Beach_1_8357ab44:
+    # a1 "But I gotta say, I heard the way the talked..."
+    a1 ""
+
+translate english EP18_Beach_1_1f7abc4c:
+    # a1 "I'm not sure how to feel."
+    a1 ""
+
+translate english EP18_Beach_1_8dd2858f:
+    # a "What, you gonna take what everyone says serious?"
+    a ""
+
+translate english EP18_Beach_1_9028d447:
+    # a "They don't matter."
+    a ""
+
+translate english EP18_Beach_1_061bcd4b:
+    # a1 "Eh, sure."
+    a1 ""
+
+translate english EP18_Beach_1_3b1a20ab:
+    # a "Besides, you men look at every girl that has curves."
+    a ""
+
+translate english EP18_Beach_1_3a9fc60a:
+    # a "What am I supposed to do? Just not exist?"
+    a ""
+
+translate english EP18_Beach_1_1c0f796e:
+    # a1 "You're right, Anna. You're always right."
+    a1 ""
+
+translate english EP18_Beach_1_3dd9fe64:
+    # a1 "Mmm!"
+    a1 ""
+
+translate english EP18_Beach_1_9027bf5f:
+    # a1 "So fucking good."
+    a1 ""
+
+translate english EP18_Beach_1_7891e355:
+    # a "Oh."
+    a ""
+
+translate english EP18_Beach_1_941ff5f7:
+    # a "You're right!"
+    a ""
+
+translate english EP18_Beach_1_d27c2c58:
+    # a1 "So. How's work, and everything else?"
+    a1 ""
+
+translate english EP18_Beach_1_41c6488c:
+    # a1 "You know... The Carl situation?"
+    a1 ""
+
+translate english EP18_Beach_1_27ad3240:
+    # a "Oh that..."
+    a ""
+
+translate english EP18_Beach_1_cac4b744:
+    # a "Well, there have been developements."
+    a ""
+
+translate english EP18_Beach_1_a2e9b262:
+    # a "It's complicated."
+    a ""
+
+translate english EP18_Beach_1_7b3cfaaf:
+    # a "I don't really want to talk about it."
+    a ""
+
+translate english EP18_Beach_1_2d9c5caa:
+    # a "I'd rather lay down and rest."
+    a ""
+
+translate english EP18_Beach_1_867f1cba:
+    # a "Ahh.."
+    a ""
+
+translate english EP18_Beach_1_f6dc93cf:
+    # a "Soo goood."
+    a ""
+
+translate english EP18_Beach_1_75014dde:
+    # a1 "Overheard the bartender talk about volleyball."
+    a1 ""
+
+translate english EP18_Beach_1_373126e1:
+    # a "Oh, yeah."
+    a ""
+
+translate english EP18_Beach_1_f3ed5d38:
+    # a1 "What's that all about?"
+    a1 ""
+
+translate english EP18_Beach_1_45bca881:
+    # a "Oh. You know."
+    a ""
+
+translate english EP18_Beach_1_35a91104:
+    # a "Some friends and I came here to play volleyball."
+    a ""
+
+translate english EP18_Beach_1_98939f40:
+    # a "That's all."
+    a ""
+
+translate english EP18_Beach_1_77e8eaa4:
+    # a1 "I know them?"
+    a1 ""
+
+translate english EP18_Beach_1_335dbfc1:
+    # a "People from work."
+    a ""
+
+translate english EP18_Beach_1_1b7d15ab:
+    # a1 "I see."
+    a1 ""
+
+translate english EP18_Beach_1_ac658b96:
+    # a "Hey, you mind if I uncover my breasts?"
+    a ""
+
+translate english EP18_Beach_1_46241f67:
+    # a1 "There's not much covering them to begin with, but..."
+    a1 ""
+
+translate english EP18_Beach_1_d1d8ad2b:
+    # a1 "Still. What if someone sees?"
+    a1 ""
+
+translate english EP18_Beach_1_a7b8c21c:
+    # a "C'mon, Andrew."
+    a ""
+
+translate english EP18_Beach_1_2aa00b5b:
+    # a "No one will see. We're facing away from people."
+    a ""
+
+translate english EP18_Beach_1_7c10ad86:
+    # a "Besides, I need to tan my breasts."
+    a ""
+
+translate english EP18_Beach_1_7b3b6001:
+    # a "I want to look good for you."
+    a ""
+
+translate english EP18_Beach_1_fcb479b2:
+    # a1 "Eh. Sure."
+    a1 ""
+
+translate english EP18_Beach_1_63e10152:
+    # a1 "Not like I can do much to stop you."
+    a1 ""
+
+translate english EP18_Beach_1_00d69a4c:
+    # a "You can, just say no."
+    a ""
+
+translate english EP18_Beach_1_29bc0929:
+    # a "But I know you wont."
+    a ""
+
+translate english EP18_Beach_1_d8183529:
+    # a "You wanna see my luscious breasts, Andrew."
+    a ""
+
+translate english EP18_Beach_1_5399b10a:
+    # a "See."
+    a ""
+
+translate english EP18_Beach_1_8c88acd8:
+    # a "It's all good."
+    a ""
+
+translate english EP18_Beach_1_bd428ddb:
+    # a "The world didn't collapse just because I revealed my breasts."
+    a ""
+
+translate english EP18_Beach_1_f0842594:
+    # a1 "Oh I don't know... Anything can happen."
+    a1 ""
+
+translate english EP18_Beach_1_9abebec4:
+    # a1 "But I cannot deny how sexy you are, Anna."
+    a1 ""
+
+translate english EP18_Beach_1_8ee03988:
+    # a "You're definitely a lucky, Andrew."
+    a ""
+
+translate english EP18_Beach_1_bcf6331b:
+    # a1 "Oh yeah! I tell myself that everyday."
+    a1 ""
+
+translate english EP18_Beach_1_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Beach_1_e28a4642:
+    # a "Ah. This is nice."
+    a ""
+
+translate english EP18_Beach_1_327cd1c5:
+    # a "Perhaps I should get a beach side property so I could do this everyday after I get home."
+    a ""
+
+translate english EP18_Beach_1_2f429607:
+    # a "Just imagine a house with a view of the sea."
+    a ""
+
+translate english EP18_Beach_1_fb394b4c:
+    # a "Wow..."
+    a ""
+
+translate english EP18_Beach_1_fa103e2d:
+    # a1 "Hah, yeah."
+    a1 ""
+
+translate english EP18_Beach_1_83b95283:
+    # a1 "I'll be realistic. I don't see myself being able to afford it."
+    a1 ""
+
+translate english EP18_Beach_1_e1a83354:
+    # a1 "At least not in the forseeable future."
+    a1 ""
+
+translate english EP18_Beach_1_a4a46b22:
+    # a "You never know."
+    a ""
+
+translate english EP18_Beach_1_55e2e382:
+    # a1 "Jeez."
+    a1 ""
+
+translate english EP18_Beach_1_6b670085:
+    # a1 "I feel kinda dizzy..."
+    a1 ""
+
+translate english EP18_Beach_1_9002d30c:
+    # a1 "And... sleepy..."
+    a1 ""
+
+translate english EP18_Beach_1_87210b0c:
+    # a1 "Fuck, maybe the medicine and the alcohol don't mix..."
+    a1 ""
+
+translate english EP18_Beach_1_d739aca8:
+    # a "Andrew? You ok?"
+    a ""
+
+translate english EP18_Beach_1_7c15a59e:
+    # a1 "AAahhh... Yeah. Just..."
+    a1 ""
+
+translate english EP18_Beach_1_bcf4859a:
+    # a1 "I'll... Take a little nap. Ok?"
+    a1 ""
+
+translate english EP18_Beach_1_3c499f55:
+    # a "Sure, just relax."
+    a ""
+
+translate english EP18_Beach_1_82fcf99c:
+    # a "No rush today."
+    a ""
+
+translate english EP18_Beach_1_96c45d78:
+    # a1 "Ah..."
+    a1 ""
+
+translate english EP18_Beach_1_ab41c945:
+    # a "That's unexpected."
+    a ""
+
+translate english EP18_Beach_1_2cda9751:
+    # a "Didn't know the medicine would do that."
+    a ""
+
+translate english EP18_Beach_1_44cffb4e:
+    # a "Well... I'll just relax in silence."
+    a ""
+
+translate english EP18_Beach_1_2f001f98:
+    # a "Nothing wrong with that."
+    a ""
+
+translate english EP18_Beach_1_0116c25d:
+    # a "I'm out of beer, though..."
+    a ""
+
+translate english EP18_Beach_1_d5d14ea7:
+    # a "And Andrew's asleep."
+    a ""
+
+translate english EP18_Beach_1_c314a7bc:
+    # a "Perhaps I should..."
+    a ""
+
+translate english EP18_Beach_1_3d5adad8:
+    # a "Yoohoo?"
+    a ""
+
+translate english EP18_Beach_1_5e896023:
+    # a "Come over here?"
+    a ""
+
+translate english EP18_Beach_1_8f8fadc1:
+    # beachguy1 "Wait, what?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_16ac5e06:
+    # beachguy2 "She's calling us over, let's go dude."
+    beachguy2 ""
+
+translate english EP18_Beach_1_74c66545:
+    # beachguy1 "For real?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_df3855b4:
+    # beachguy2 "Haha, that's interesting. Let's go check it out."
+    beachguy2 ""
+
+translate english EP18_Beach_1_80c23be9:
+    # a "I'll just ask them."
+    a ""
+
+translate english EP18_Beach_1_f208bbfc:
+    # a "Don't want to pester Andrew. He still needs his rest."
+    a ""
+
+translate english EP18_Beach_1_1fea0f47:
+    # beachguy1 "Yes?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_07e57b91:
+    # beachguy1 "{i}...Holy fuck... Her tits are bare...{/i}"
+    beachguy1 ""
+
+translate english EP18_Beach_1_5e0c5ff2:
+    # beachguy1 "What does such a wonderful lady like you want?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_35f95d6f:
+    # a "Oh. heh. Hey. I just drank all of my beer..."
+    a ""
+
+translate english EP18_Beach_1_dc1d4bbf:
+    # a "And I need a new one."
+    a ""
+
+translate english EP18_Beach_1_a3f9e919:
+    # a "Heh. I really went through it fast."
+    a ""
+
+translate english EP18_Beach_1_025c1ff0:
+    # a "As you can see, my boyfriend is asleep..."
+    a ""
+
+translate english EP18_Beach_1_4d1422b4:
+    # a "And I don't want to wake him."
+    a ""
+
+translate english EP18_Beach_1_ba88ee00:
+    # a "I don't want to walk around half naked like this and a bit too lazy to do it myself."
+    a ""
+
+translate english EP18_Beach_1_6386a3f3:
+    # a "Soo..."
+    a ""
+
+translate english EP18_Beach_1_141598ba:
+    # a "Perhaps I could ask you guys?"
+    a ""
+
+translate english EP18_Beach_1_4de27033:
+    # beachguy2 "Sure. That can be arranged."
+    beachguy2 ""
+
+translate english EP18_Beach_1_c62d2c1f:
+    # a "Oh you're so nice. Thank you."
+    a ""
+
+translate english EP18_Beach_1_ea0ebf0b:
+    # beachguy2 "I'll be right back."
+    beachguy2 ""
+
+translate english EP18_Beach_1_6c102ddf:
+    # a "Thank you!"
+    a ""
+
+translate english EP18_Beach_1_b911203e:
+    # a "Oh, that reminds me."
+    a ""
+
+translate english EP18_Beach_1_6bf38f40:
+    # a "I really need someone to wipe some sunscreen on me."
+    a ""
+
+translate english EP18_Beach_1_f90a2b4c:
+    # a "My boyfriend would do it..."
+    a ""
+
+translate english EP18_Beach_1_ba00c570:
+    # a "But as you can see, he's not exactly capable."
+    a ""
+
+translate english EP18_Beach_1_f2040e1e:
+    # a "Would you mind?"
+    a ""
+
+translate english EP18_Beach_1_0eba5e2a:
+    # beachguy1 "Oh I don't mind at all."
+    beachguy1 ""
+
+translate english EP18_Beach_1_9174bac2:
+    # beachguy1 "What ever you need."
+    beachguy1 ""
+
+translate english EP18_Beach_1_fd048676:
+    # a "Good, hehe."
+    a ""
+
+translate english EP18_Beach_1_ea307db7:
+    # beachguy1 "You're the volleyball girl right?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_2813e28f:
+    # a "What do you mean?"
+    a ""
+
+translate english EP18_Beach_1_4f9cb393:
+    # beachguy1 "I saw you playing volleyball with some young dudes here before."
+    beachguy1 ""
+
+translate english EP18_Beach_1_707592f9:
+    # a "Oh, hehe... Yes."
+    a ""
+
+translate english EP18_Beach_1_41c5edea:
+    # beachguy1 "Things got pretty interesting towards the end."
+    beachguy1 ""
+
+translate english EP18_Beach_1_8c4ae250:
+    # a "They sure did."
+    a ""
+
+translate english EP18_Beach_1_a0a46403:
+    # beachguy1 "You sure your boyfriend doesn't mind?"
+    beachguy1 ""
+
+translate english EP18_Beach_1_9bfb53ce:
+    # a "Well, he's asleep. I don't see a problem with someone else helping out meanwhile."
+    a ""
+
+translate english EP18_Beach_1_3e5082d4:
+    # a "You know?"
+    a ""
+
+translate english EP18_Beach_1_8ab2a50d:
+    # beachguy1 "Hehe. Sure."
+    beachguy1 ""
+
+translate english EP18_Beach_1_ca2fbfc3:
+    # a "I mean, we aren't exactly doing anything bad, are we?"
+    a ""
+
+translate english EP18_Beach_1_00d3ebc2:
+    # beachguy1 "Absolutely not."
+    beachguy1 ""
+
+translate english EP18_Beach_1_83e3f02f:
+    # a "You're just a nice man helping out someone in need."
+    a ""
+
+translate english EP18_Beach_1_98939f40_1:
+    # a "That's all."
+    a ""
+
+translate english EP18_Beach_1_49521f29:
+    # beachguy1 "True."
+    beachguy1 ""
+
+translate english EP18_Beach_1_db8e1629:
+    # a1 "Ahh... Wha."
+    a1 ""
+
+translate english EP18_Beach_1_6ed5708d:
+    # a1 "{i}...What the... Is this a dream...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_d779d497:
+    # a1 "{i}...I'm so confused right now...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_299bde6c:
+    # a1 "{i}...Some dude massaging Anna...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_baf67673:
+    # a1 "{i}...Damn, that medicine and alcohol definitely doesn't mix...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_23196e6e:
+    # a1 "{i}...I'm... Whoa... So confused...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_48f666b2:
+    # a1 "{i}...That's... Weird... I don't think some random should touch Anna like that...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_aea8ad87:
+    # a1 "{i}..C'mon Andrew... Don't complicate it... It's not that big of a deal...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_485c28da:
+    # a1 "{i}...He's just... Doing something to her... Putting on sunscreen...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_cff9a98a:
+    # a1 "{i}...Perhaps I'm just seeing things...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_1416faa0:
+    # beachguy2 "Well. I'm back."
+    beachguy2 ""
+
+translate english EP18_Beach_1_72d06282:
+    # beachguy2 "Got the beer, as requested."
+    beachguy2 ""
+
+translate english EP18_Beach_1_9972cffc:
+    # a "Hehe, great!"
+    a ""
+
+translate english EP18_Beach_1_d5461ce9:
+    # a1 "Thank you!"
+    a1 ""
+
+translate english EP18_Beach_1_81230b28:
+    # beachguy2 "You're very welcome."
+    beachguy2 ""
+
+translate english EP18_Beach_1_c4b53b22:
+    # a "I'm Anna."
+    a ""
+
+translate english EP18_Beach_1_8afda71c:
+    # beachguy2 "Awesome."
+    beachguy2 ""
+
+translate english EP18_Beach_1_0c75f56a:
+    # beachguy2 "You know..."
+    beachguy2 ""
+
+translate english EP18_Beach_1_37de4ca5:
+    # beachguy2 "I think I deserve a little 'reward' for bringing you beer."
+    beachguy2 ""
+
+translate english EP18_Beach_1_99c48338:
+    # beachguy2 "Don't you think?"
+    beachguy2 ""
+
+translate english EP18_Beach_1_c9c2a1b1:
+    # a "Oh. hehe... Well you've both been rather helpful."
+    a ""
+
+translate english EP18_Beach_1_af34a709:
+    # a "Would be callous of me not to say thanks in some way, now would it."
+    a ""
+
+translate english EP18_Beach_1_6c883947:
+    # beachguy1 "Correct, hehe."
+    beachguy1 ""
+
+translate english EP18_Beach_1_7e89a75a:
+    # a1 "{i}... Whaaat?{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_095b651d:
+    # a1 "{i}...I definitely must be dreaming...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_4ba63b83:
+    # a1 "{i}...Anna isn't that naughty... Is she?...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_87c8f57e:
+    # a "How about you help me take off this micro bikini."
+    a ""
+
+translate english EP18_Beach_1_c4bb011b:
+    # a "I was going to lose it anyway."
+    a ""
+
+translate english EP18_Beach_1_da7a1dd2:
+    # beachguy1 "Hehe. Of course!"
+    beachguy1 ""
+
+translate english EP18_Beach_1_5b663f61:
+    # beachguy1 "There."
+    beachguy1 ""
+
+translate english EP18_Beach_1_08c7c984:
+    # beachguy1 "That should make it easier for you to get a good tan."
+    beachguy1 ""
+
+translate english EP18_Beach_1_9a64f544:
+    # a "You're absolutely right."
+    a ""
+
+translate english EP18_Beach_1_dd55e4ad:
+    # beachguy2 "Wow!"
+    beachguy2 ""
+
+translate english EP18_Beach_1_0cde8b48:
+    # beachguy1 "Yeah!"
+    beachguy1 ""
+
+translate english EP18_Beach_1_c5b8ce23:
+    # a1 "{i}...Wait... I'm... Not dreaming...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_6bd782c7:
+    # a1 "{i}...She's actually being undressed by some strangers...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_2abbc2d9:
+    # a1 "{i}...There must be a good reason for that, totally...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_f55af85b:
+    # a1 "{i}...You can almost see her pussy...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_d1df2416:
+    # a1 "{i}...That's... Is that a good thing to do...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_0e0f1dd9:
+    # a1 "{i}...It's Anna, she knows what she's doing, though...{/i}"
+    a1 ""
+
+translate english EP18_Beach_1_7c1359c0:
+    # a "How's that for a reward?"
+    a ""
+
+translate english EP18_Beach_1_89d66ffa:
+    # beachguy2 "Absolutely perfect!"
+    beachguy2 ""
+
+translate english EP18_Beach_1_b940e0d6:
+    # a "I knew you'd like it, hehe."
+    a ""
+
+translate english EP18_Beach_1_b5470a7c:
+    # a "Thank you for the help!"
+    a ""
+
+translate english EP18_Beach_1_545b8f68:
+    # beachguy2 "No problem at all."
+    beachguy2 ""
+
+translate english EP18_Beach_1_0236a820:
+    # beachguy2 "Any time you need some help."
+    beachguy2 ""
+
+translate english EP18_Beach_1_4b998d03:
+    # beachguy2 "If we're here. We'll help!"
+    beachguy2 ""
+
+translate english EP18_Beach_1_c72b5e4f:
+    # a "Thanks!"
+    a ""
+
+translate english EP18_Beach_1_f4894b0f:
+    # a1 "What's going on?"
+    a1 ""
+
+translate english EP18_Beach_1_fdae5e06:
+    # a "Oh, you're awake. heh."
+    a ""
+
+translate english EP18_Beach_1_ce3c2e88:
+    # a1 "What you all doing?"
+    a1 ""
+
+translate english EP18_Beach_1_e806d0c8:
+    # beachguy1 "Uhh... Nothing much."
+    beachguy1 ""
+
+translate english EP18_Beach_1_ed0ff14d:
+    # beachguy1 "You just fell asleep."
+    beachguy1 ""
+
+translate english EP18_Beach_1_eeb52325:
+    # beachguy1 "Anna here needed some help with some stuff."
+    beachguy1 ""
+
+translate english EP18_Beach_1_6612297f:
+    # beachguy1 "We just helped out, that's all."
+    beachguy1 ""
+
+translate english EP18_Beach_1_6631f675:
+    # a "Thank you again, heh."
+    a ""
+
+translate english EP18_Beach_1_9cedbfa5:
+    # beachguy1 "We'll leave you to it."
+    beachguy1 ""
+
+translate english EP18_Beach_1_293f9a0b:
+    # a "Heh."
+    a ""
+
+translate english EP18_Beach_1_414b45ce:
+    # beachguy2 "See you around."
+    beachguy2 ""
+
+translate english EP18_Beach_1_ce70935d:
+    # a "Cheers!"
+    a ""
+
+translate english EP18_Beach_1_b5b1ebeb:
+    # a1 "Anna?"
+    a1 ""
+
+translate english EP18_Beach_1_8c61eac8:
+    # a1 "What was that all about?"
+    a1 ""
+
+translate english EP18_Beach_1_014220d3:
+    # a1 "They saw you naked?"
+    a1 ""
+
+translate english EP18_Beach_1_a9128a94:
+    # a "Oh, Andrew."
+    a ""
+
+translate english EP18_Beach_1_dae5a6dd:
+    # a "Not like people haven't seen titties before."
+    a ""
+
+translate english EP18_Beach_1_3737c9bc:
+    # a1 "I'm not even talking about that. Your pussy."
+    a1 ""
+
+translate english EP18_Beach_1_e3ba1dec:
+    # a "C'mon. They didn't see it. It was all behind my big ass."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_eafd78cc:
+    # a1 "But..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_b3bbcf42:
+    # a "What. Lost your tongue?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_a403c7f9:
+    # a1 "Whaa..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_03ae7677:
+    # a "You like what you're seeing?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_07d305ba:
+    # a1 "Yeah..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_e0f7a3ae:
+    # a1 "But."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_3f507f61:
+    # a "But what?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ce29522e:
+    # a "Want me to cover up now?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_2058de44:
+    # a1 "I... No..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_71b9e8b6:
+    # beachguy2 "Dude, that girl's a freak!"
+    beachguy2 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_dd2629af:
+    # beachguy1 "Right?"
+    beachguy1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c4404c6e:
+    # beachguy1 "Let's hope she comes here again."
+    beachguy1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_4f7dcb74:
+    # beachguy1 "We could def talk her into some freaky shit."
+    beachguy1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_5bcd30f1:
+    # a "Just say the word and I'll cover up."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_222fe816:
+    # a1 "I..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_3cb4ea73:
+    # a "I know you won't cause you like seeing my sexy body."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_f49fc8b9:
+    # a "You like when touch myself like this?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ea87edb1:
+    # a1 "Ummm..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_332a01a5:
+    # a1 "It's..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_948d8027:
+    # a1 "I just think..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ffdebb69:
+    # a1 "It's inappropriate to do it..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_72542112:
+    # a1 "Um..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_12175eeb:
+    # a1 "I forgot what I was saying."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_141fbcc5:
+    # a "Exactly. Cause it's not important."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_5165e53e:
+    # a1 "WOOOW!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_2370216e:
+    # a "You know you like what you saw. Now and before, right?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_dff719d0:
+    # a1 "I... I don't think so..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_7ca1e6aa:
+    # a "You sure?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_07d305ba_1:
+    # a1 "Yeah..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c36bb46f:
+    # a "Then why is your cock hard?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_3f8f6b43:
+    # a "You have to admit, maybe just a little part of you liked what you saw before."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_d4b35a63:
+    # a "Someone massaging my body."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_87ead91d:
+    # a1 "Umm..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_fe2e4c67:
+    # a1 "I'm not sure..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_7ad4c9bf:
+    # a "That's ok..."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_a4de337c:
+    # a "I can help you with your 'problem.'"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_fad826a9:
+    # a1 "oooOOOHHHH."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_4da6c665:
+    # a "Yeah?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ce1bd25c:
+    # a1 "OH, Anna!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_96c45d78:
+    # a1 "Ah..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_0fdaea5c:
+    # a "Yeah. You like this stroking?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_db1b0879:
+    # a1 "Yeah... Fuck..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_3320c3ed:
+    # a "Ah."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_af9960ea:
+    # a1 "This is... Not... A good idea."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c2cd4e00:
+    # a "Are you seriously saying you don't want me to touch you like this?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_222fe816_1:
+    # a1 "I..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_29f53eb9:
+    # a "Now or never."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_d727e872:
+    # a1 "Fuuckk..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_9d5250bf:
+    # a "MMm... This whole ordeal is making me wet!"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_6709bb2d:
+    # a1 "WHAAA?!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_2870cb32:
+    # a1 "WOW!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_6ea08699:
+    # a "Yeah... I bet you want that cock inside me."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_a8421791:
+    # a "Ohh... So hot..."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_99537212:
+    # a "Don't you agree?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_f958da51:
+    # a "{i}...When people look at me like this...{/i}"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_b2e3a5c7:
+    # beachguy1 "Dammnn..."
+    beachguy1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c541ac02:
+    # beachguy2 "I don't think I've ever seen something like this at the beach."
+    beachguy2 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_a83ad0a4:
+    # beachguy1 "Yeah. Crazy!"
+    beachguy1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_4452b55b:
+    # a "Mmm..."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_80c5a0da:
+    # a "{i}...So hot...{/i}"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_30d01d67:
+    # a "{i}...They're just staring at me...{/i}"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_cb753898:
+    # a "{i}...Dirty men... Hehe...{/i}"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ad29562b:
+    # a1 "Oh... Anna..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_f936366b:
+    # a1 "Your hands are so soft on my cock."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_ea3ec2ec:
+    # a1 "Like silk."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_c7a4d8a0:
+    # a "Hehe... Hold on just a moment."
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_cb42fa8b:
+    # a1 "I can barely do it..."
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_8b30e6fe:
+    # a1 "OOHOHHH!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_87a995a3:
+    # a "You like that, yeah?"
+    a ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_a37f0cbb:
+    # a1 "YES!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Scene_Label_Gallery_24b88c2c:
+    # a1 "SO HOT!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Label_1_d4bd6687:
+    # a1 "OH shit!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Label_1_055d2a02:
+    # a1 "Your tits are so hot!"
+    a1 ""
+
+translate english EP18_Andrew_Sex_Label_1_c153bca0:
+    # a "Hmmph..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_3d7419bc:
+    # a1 "FUCK FUCK FUCK..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_1be4248e:
+    # a1 "I'm... Cumming!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_9e5e8a47:
+    # a1 "FUUCK!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_8a1c9733:
+    # a1 "AHHH!!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_1f05ef17:
+    # a "OH!"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_9e5e8a47_1:
+    # a1 "FUUCK!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_9d471596:
+    # a "Oh... How awkward..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_3181064a:
+    # a1 "I'm... Sorry..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_306c36dd:
+    # a1 "I didn't expect that..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_a43bc603:
+    # a "Neither did I."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_721fc6a0:
+    # a1 "You have to understand. I've not done anything."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_99f668c5:
+    # a "Not even masturbated?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_75e6ce8a:
+    # a1 "No...I wanted to keep all that semen for you."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_a3937268:
+    # a1 "And now it's wasted."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_32802e4d:
+    # a "Not all of it."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_7b984559:
+    # a "I can still manage to 'reclaim' some."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_2ee9026b:
+    # a1 "Serious?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_a8b840ca:
+    # a "Totaly."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_4044e164:
+    # a1 "Oh shit!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_3897bdd5:
+    # a1 "That's good!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_d6e2a153:
+    # a "You like it?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_9f53b2b5:
+    # a1 "YEAH!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_68556305:
+    # a1 "Ah!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_8c41a091:
+    # a1 "AH!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_da5042bc:
+    # a1 "It's a bit sensitive."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_e2b32983:
+    # a1 "Oh, Anna. Sweet Anna!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_3e19c0b0:
+    # a1 "Such a good girlfriend!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_b25d646e:
+    # a "{i}...If only he knew...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_3c91ab1a:
+    # a1 "You're really sucking it all up..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_522a4053:
+    # a1 "Damn!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_ffc67f0a:
+    # a "You sure you came so fast because you hadn't done it for a while?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_9449e5e1:
+    # a "Or maybe it was because of something else?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_0d0d4fd3:
+    # a1 "What do you mean?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_3787ff0f:
+    # a "Maybe you liked what you saw with the guys, and that really turned you on."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_5b203478:
+    # a1 "I don't know, Anna..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_190d3779:
+    # a1 "It's all confusing..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_c82b667e_1:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_fe3b4ce6:
+    # a1 "Please forgive me for cumming so fast."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_88218d40:
+    # a1 "I know I left you wanting."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_a268b613:
+    # a "Eh. It's ok."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_638af028:
+    # a "There will be other times..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_324d95e5:
+    # a "{i}...And other men...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_2b3696b6:
+    # a1 "Yeah. I don't know what came over me."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_43f16c2d:
+    # a1 "Cumming so fast..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_d532eb84:
+    # a "{i}...Even for him, that was fast...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_672a4bac:
+    # a "{i}...Perhaps he did actually like what he saw, and that sent him over the edge...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_c641f786:
+    # a "There are still reasons to consider..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_c265b5c8:
+    # a1 "Maybe..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_2bd5a6ec:
+    # a "I mean. It's normal for other guys to find me hot."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_a7ee75b4:
+    # a "That just means you've got a trophy at home. A grand prize that you own."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_6ec31794:
+    # a1 "Well..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_777209be:
+    # a "You sure you don't find it hot when other men crave me?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_222fe816:
+    # a1 "I..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_d5ca4b96:
+    # a "It just means you've got something everyone wants..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_a862e302:
+    # a1 "When you put it that way... It makes sense..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_8255ee2b:
+    # a "Hehe... Exactly..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_c8e363c5:
+    # a "Anyway. I think it's time to get going."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_8381f62c:
+    # a1 "Yeah. I feel a bit weird because of the... Alcohol and medicine mixing."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_48326af6:
+    # a "Ok."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_389e327f:
+    # a1 "I still think this outfit is too minimal."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_ac010380:
+    # a1 "Buut... I suppose it's all ok."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_293f9a0b:
+    # a "Heh."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_bf0d6340:
+    # a "I knew you'd warm up to it."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_c72a3c9e:
+    # a "I know you like seeing it anyway. My body half covered."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_f8db4ff6:
+    # a "For all to see."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_a889b58e:
+    # a1 "Umm... I suppose..."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_b321a066:
+    # a1 "{i}...Not sure how I feel about all of this...{/i}"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_abfdd883:
+    # a1 "I mean... All in all, a nice day at the beach."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_bd274b0c:
+    # a "Indeed."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_228bb14d:
+    # a "What are you planning to do next?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_1d307f62:
+    # a1 "Not sure."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_1670d8b5:
+    # a1 "Will lay down at home at first."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_0ff1450f:
+    # a1 "Then figure it out."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_e0620d30:
+    # b1 "{i}...That's Anna!{/i}"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_3ba5d385:
+    # b1 "{i}...As beautiful as ever...{/i}"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_f96061f7:
+    # b1 "{i}...I should talk to her...{/i}"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_b4d9e220:
+    # b1 "Anna! Hey!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_9bb67581:
+    # a1 "Go away, dude!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_63e515e2:
+    # a1 "Stop pestering us!"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_9b63956a:
+    # a "Wait. No."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_79cb7115:
+    # a "I know him?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_c38047c3:
+    # a1 "You know this bum?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_110f390a:
+    # a "Well... I'll have you know, he is not a bum anymore."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_358c5fba:
+    # b1 "That's right!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_1bfe39f4:
+    # b1 "Now I'm a citizen with rights!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_7c0b1f50:
+    # b1 "How are you doing?"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_09f417ae:
+    # a "I'm good! Went to the beach."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_f9310b55:
+    # a "I'm more curious about you?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_6b67d595:
+    # a "You settled in at work?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_12219610:
+    # b1 "Hehe... I am!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_9a9d4483:
+    # b1 "As you can see, I've got a bunch of groceries bought."
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_bd274b0c_1:
+    # a "Indeed."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_71f68f05:
+    # a "You should also get some new clothing."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_70a9627d:
+    # a "These old rags don't let you shine."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_3465d5b6:
+    # b1 "Oh. Heh... You're right, but I just don't know where."
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_4f018b56:
+    # a "I know a place where we could get something for you."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_b4bbb6d5:
+    # a "At a discount."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_f7b2af64:
+    # b1 "That sounds like a great idea!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_1f60d46f:
+    # a1 "{i}...How does Anna know him... Hmmm...{/i}"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_5b92f09f:
+    # b1 "Wait a minute..."
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_16021340:
+    # b1 "Sorry to cut it short... But... That's a great idea!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_5c5464e3:
+    # b1 "I forgot to turn the stove off, I gotta run!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_6a337c19:
+    # a "Let's meet again today, a bit later, regarding clothes, ok?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_8a48df65:
+    # a "There's the clothing shop in the shopping district. Alfred's clothing."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_da098ccf:
+    # b1 "Hmm... I'll find it."
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_b41f5794:
+    # b1 "Bye!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_15676813:
+    # b1 "See you later!"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_c7ef8680:
+    # a1 "Who was that guy?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_ca43a2f9:
+    # a "Oh, Benjamin?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_1e02580f:
+    # a "Just someone I've been helping out."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_9fbdb3e1:
+    # a1 "You've been helping out a homeless guy?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_d33b6e8b:
+    # a "Yeah, what of it?"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_0c489e3e:
+    # a1 "Nothing... That sounds very nice."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_de7adef5:
+    # b1 "{i}...Hehe, if only he knew what 'nice' things she has done for me...{/i}"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_2b4deb07:
+    # b1 "{i}...With her mouth... with her nether regions... hehe...{/i}"
+    b1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_37323bb8:
+    # a1 "Oh, just remembered. Have to meet Ashley later."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_ed461ab8:
+    # a1 "What are you going to do?"
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_aaf27f46:
+    # a "Got some things to do."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_9940f09e:
+    # a "Will see."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_caa94986:
+    # a "Like you just heard, will meet Benjamin and help him with some clothing."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_dc940bf1:
+    # a "I know the store owner, and he'd help out me and Benjamin."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_2b888d75:
+    # a1 "That's cool."
+    a1 ""
+
+translate english EP18_Andrew_Anim_Menu_1_53c14bc0:
+    # a "Got some things to do... But one thing at a time, I'll also get home and rest a little..."
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_55fb6af0:
+    # a "{i}...What we did at the beach was interesting...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_46aee4a7:
+    # a "{i}...Andrew looked conflicted, but not completely against the idea...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_1709ec91:
+    # a "{i}...Perhaps he'd actually like it, with some encouragement...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_2632d6b7:
+    # a "{i}...Will see...{/i}"
+    a ""
+
+translate english EP18_Andrew_Anim_Menu_1_7330ac50:
+    # a "{i}...I guess I'll change back into my regular outfit...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_7cbac18a:
+    # b1 "Anna!"
+    b1 ""
+
+translate english EP18_Benjamin_1_52969b8f:
+    # b1 "So good to see you again!"
+    b1 ""
+
+translate english EP18_Benjamin_1_b13c6e8e:
+    # a "Benjamin, hello."
+    a ""
+
+translate english EP18_Benjamin_1_7af02f32:
+    # a "Managed to get home in time?"
+    a ""
+
+translate english EP18_Benjamin_1_a2ae9610:
+    # b1 "Yeah, all good. Heh."
+    b1 ""
+
+translate english EP18_Benjamin_1_be562b81:
+    # b1 "You know. It's been a looong time since I've bought clothes at a normal shop..."
+    b1 ""
+
+translate english EP18_Benjamin_1_5fdde4cc:
+    # b1 "Have to cherish this moment."
+    b1 ""
+
+translate english EP18_Benjamin_1_432cb3c7:
+    # a "Heh indeed."
+    a ""
+
+translate english EP18_Benjamin_1_91ceca41:
+    # a "I'm glad you're getting back on track."
+    a ""
+
+translate english EP18_Benjamin_1_bad84c80:
+    # b1 "You have no idea how happy I am about all this."
+    b1 ""
+
+translate english EP18_Benjamin_1_fcb04f29:
+    # a "So I know the owner of the shop as well as the assistant."
+    a ""
+
+translate english EP18_Benjamin_1_b9ee2001:
+    # a "Patricia. She's a wonderful girl. I bet she'll help us with some outfits for you."
+    a ""
+
+translate english EP18_Benjamin_1_0bb44213:
+    # b1 "That's nice to hear."
+    b1 ""
+
+translate english EP18_Benjamin_1_cb8daaf3:
+    # a "There she is."
+    a ""
+
+translate english EP18_Benjamin_1_80c02d2a:
+    # b1 "Oh she's beautiful."
+    b1 ""
+
+translate english EP18_Benjamin_1_8cfb7c6c:
+    # a "Hello, Patricia!"
+    a ""
+
+translate english EP18_Benjamin_1_57dc4879:
+    # p2 "Anna?"
+    p2 ""
+
+translate english EP18_Benjamin_1_f3d4d36a:
+    # p2 "It's been a while since I've seen you!"
+    p2 ""
+
+translate english EP18_Benjamin_1_d8df6903:
+    # p2 "I mean, don't get me wrong. I'm happy to see you!"
+    p2 ""
+
+translate english EP18_Benjamin_1_1971286b:
+    # a "Oh... Sorry, I've been pretty busy lately."
+    a ""
+
+translate english EP18_Benjamin_1_ae0746e5:
+    # a "There's always something going on in my life, hehe."
+    a ""
+
+translate english EP18_Benjamin_1_a405a8bf:
+    # p2 "So. Who have you brought me today?"
+    p2 ""
+
+translate english EP18_Benjamin_1_9aff6386:
+    # a "Oh. This is Benjamin. A friend of mine."
+    a ""
+
+translate english EP18_Benjamin_1_fb7e4adc:
+    # a "I met him at the bar, and we're just picking out some new clothes for him."
+    a ""
+
+translate english EP18_Benjamin_1_040d73bd:
+    # a "I also need something for an occasion."
+    a ""
+
+translate english EP18_Benjamin_1_5c36ee96:
+    # b1 "Hello. Heh."
+    b1 ""
+
+translate english EP18_Benjamin_1_4cdbbb3d:
+    # b1 "Haven't been in a shop like this for quite some time."
+    b1 ""
+
+translate english EP18_Benjamin_1_ded388d4:
+    # b1 "So I apologize for looking like this..."
+    b1 ""
+
+translate english EP18_Benjamin_1_75a048e4:
+    # p2 "Not to worry, any friend of Anna's is a friend of mine."
+    p2 ""
+
+translate english EP18_Benjamin_1_452cd72d:
+    # p2 "Follow me to the changing cabin, and we'll pick out something for you."
+    p2 ""
+
+translate english EP18_Benjamin_1_2610a91f:
+    # b1 "Sounds great!"
+    b1 ""
+
+translate english EP18_Benjamin_1_e145d3ad:
+    # p2 "So. I'd like you to undress."
+    p2 ""
+
+translate english EP18_Benjamin_1_6734f114:
+    # b1 "Wha?"
+    b1 ""
+
+translate english EP18_Benjamin_1_052c4656:
+    # p2 "Meanwhile, I will choose something for you."
+    p2 ""
+
+translate english EP18_Benjamin_1_ba81fd05:
+    # a "She's good at finding nice-looking fits. Trust me."
+    a ""
+
+translate english EP18_Benjamin_1_c1b6020c:
+    # p2 "Well, I didn't go to design school for no reason, hehe."
+    p2 ""
+
+translate english EP18_Benjamin_1_6c19baa4:
+    # p2 "So. Yeah. My specialty is giving people outfits that match their style, persona, and overall aesthetic."
+    p2 ""
+
+translate english EP18_Benjamin_1_370fa4c1:
+    # b1 "Wow. I'm impressed."
+    b1 ""
+
+translate english EP18_Benjamin_1_55b0b40f:
+    # p2 "Alright, Anna and I will pick something out."
+    p2 ""
+
+translate english EP18_Benjamin_1_67dc1a77:
+    # p2 "So. Tough day, I see?"
+    p2 ""
+
+translate english EP18_Benjamin_1_2813e28f:
+    # a "What do you mean?"
+    a ""
+
+translate english EP18_Benjamin_1_b9fef58b:
+    # p2 "C'mon, Anna."
+    p2 ""
+
+translate english EP18_Benjamin_1_3a088779:
+    # p2 "It's obvious that man is a homeless guy or something."
+    p2 ""
+
+translate english EP18_Benjamin_1_3383fa00:
+    # a "Technically not anymore. He has a place of his own."
+    a ""
+
+translate english EP18_Benjamin_1_cb80307e:
+    # p2 "Why exactly are you helping him?"
+    p2 ""
+
+translate english EP18_Benjamin_1_97b9d0f4:
+    # p2 "He's probably just some drunk that's gonna leech off you."
+    p2 ""
+
+translate english EP18_Benjamin_1_7b711ce8:
+    # a "Don't say that."
+    a ""
+
+translate english EP18_Benjamin_1_4067a179:
+    # a "He's a lot better of a person than you'd think."
+    a ""
+
+translate english EP18_Benjamin_1_168aba6c:
+    # a "Besides. I remember my grandpa. This man is also of older age and..."
+    a ""
+
+translate english EP18_Benjamin_1_2453693e:
+    # a "I just have a soft spot for older men in need."
+    a ""
+
+translate english EP18_Benjamin_1_74264cc9:
+    # a "I can't help it. Won't let that nice man suffer on the street."
+    a ""
+
+translate english EP18_Benjamin_1_87b0e4a2:
+    # p2 "Oh, Anna."
+    p2 ""
+
+translate english EP18_Benjamin_1_ccc12a49:
+    # p2 "You with your kind heart."
+    p2 ""
+
+translate english EP18_Benjamin_1_ca93bb39:
+    # p2 "One of these days, someone will take advantage..."
+    p2 ""
+
+translate english EP18_Benjamin_1_54dcec10:
+    # p2 "But if they do, I will tear their hair out, hehe."
+    p2 ""
+
+translate english EP18_Benjamin_1_775c14c5:
+    # a "Haha. Patricia, always such a loyal friend."
+    a ""
+
+translate english EP18_Benjamin_1_a11e40f3:
+    # p2 "I've got something for him, let's go."
+    p2 ""
+
+translate english EP18_Benjamin_1_5054f521:
+    # p2 "Alright, we're back!"
+    p2 ""
+
+translate english EP18_Benjamin_1_45424a47:
+    # p2 "You can open the door!"
+    p2 ""
+
+translate english EP18_Benjamin_1_7f8547de:
+    # b1 "Umm... I'm a bit shy. I don't think we should do this."
+    b1 ""
+
+translate english EP18_Benjamin_1_7238bdee:
+    # p2 "You mean you'll just stand there without new clothing?"
+    p2 ""
+
+translate english EP18_Benjamin_1_31da10d9:
+    # b1 "Umm... I didn't think it through."
+    b1 ""
+
+translate english EP18_Benjamin_1_6caadb7e:
+    # p2 "Just open up."
+    p2 ""
+
+translate english EP18_Benjamin_1_1543bc98:
+    # p2 "Heh, a bit shy."
+    p2 ""
+
+translate english EP18_Benjamin_1_d054a740:
+    # a "See, I told you."
+    a ""
+
+translate english EP18_Benjamin_1_20db5af2:
+    # a "He's just a kind old man who doesn't want to burden anyone..."
+    a ""
+
+translate english EP18_Benjamin_1_9ce7fa95:
+    # a "But deserves things like these."
+    a ""
+
+translate english EP18_Benjamin_1_525c1b0d:
+    # b1 "Alright. I'll open it so you can give me clothes."
+    b1 ""
+
+translate english EP18_Benjamin_1_7891e355:
+    # a "Oh."
+    a ""
+
+translate english EP18_Benjamin_1_cfaab300:
+    # p2 "WHAAA?"
+    p2 ""
+
+translate english EP18_Benjamin_1_dae244a4:
+    # p2 "That's a..."
+    p2 ""
+
+translate english EP18_Benjamin_1_7099a4d8:
+    # p2 "{i}...Biig cock... Fucking hell...{/i}"
+    p2 ""
+
+translate english EP18_Benjamin_1_f34b1bd6:
+    # p2 "Wait..."
+    p2 ""
+
+translate english EP18_Benjamin_1_7aac9cfb:
+    # p2 "Why are you naked?"
+    p2 ""
+
+translate english EP18_Benjamin_1_8a517090:
+    # b1 "You asked me to undress?!"
+    b1 ""
+
+translate english EP18_Benjamin_1_566ea7d8:
+    # p2 "Yeah, but obviously to leave underpants on or something."
+    p2 ""
+
+translate english EP18_Benjamin_1_ede29b55:
+    # b1 "Shiet."
+    b1 ""
+
+translate english EP18_Benjamin_1_137de3b2:
+    # b1 "I didn't have anyone to begin with."
+    b1 ""
+
+translate english EP18_Benjamin_1_7ec446e4:
+    # b1 "I'm sorry for this..."
+    b1 ""
+
+translate english EP18_Benjamin_1_729bd250:
+    # b1 "I didn't mean to be this unprofessional."
+    b1 ""
+
+translate english EP18_Benjamin_1_7da3cc4f:
+    # p2 "It's umm... Ok."
+    p2 ""
+
+translate english EP18_Benjamin_1_9cdacc80:
+    # p2 "Here. Take the clothes."
+    p2 ""
+
+translate english EP18_Benjamin_1_e4bc19f8:
+    # b1 "Thanks. I'll get changed real quick."
+    b1 ""
+
+translate english EP18_Benjamin_1_7673dd61:
+    # p2 "Umm... Yeah. Ok."
+    p2 ""
+
+translate english EP18_Benjamin_1_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_Benjamin_1_a7427011:
+    # p2 "Oh my god..."
+    p2 ""
+
+translate english EP18_Benjamin_1_3ad631fc:
+    # p2 "That was the largest penis I've ever seen. What the..."
+    p2 ""
+
+translate english EP18_Benjamin_1_441f8aac:
+    # p2 "Have you seen it before?"
+    p2 ""
+
+translate english EP18_Benjamin_1_d3ff35c0:
+    # p2 "You didn't look as surprised."
+    p2 ""
+
+translate english EP18_Benjamin_1_ef6ffb42:
+    # a "Between you and I."
+    a ""
+
+translate english EP18_Benjamin_1_ed7ab874:
+    # a "I have..."
+    a ""
+
+translate english EP18_Benjamin_1_8b82f66a:
+    # p2 "What?"
+    p2 ""
+
+translate english EP18_Benjamin_1_d7088959:
+    # a "There was an accident once..."
+    a ""
+
+translate english EP18_Benjamin_1_9eb30c5b:
+    # a "And I saw it, right up in my face..."
+    a ""
+
+translate english EP18_Benjamin_1_974721bc:
+    # p2 "Jeez."
+    p2 ""
+
+translate english EP18_Benjamin_1_6bf26505:
+    # b1 "Hmm..."
+    b1 ""
+
+translate english EP18_Benjamin_1_9f48afcd:
+    # b1 "What if I asked Anna for help, heh."
+    b1 ""
+
+translate english EP18_Benjamin_1_b770d6e7:
+    # b1 "I want to see her touch me..."
+    b1 ""
+
+translate english EP18_Benjamin_1_d139d8bf:
+    # b1 "Hey, Anna?!"
+    b1 ""
+
+translate english EP18_Benjamin_1_25d47062:
+    # b1 "Anna?"
+    b1 ""
+
+translate english EP18_Benjamin_1_22fe3d0c:
+    # a "Yes, Benjamin?"
+    a ""
+
+translate english EP18_Benjamin_1_629f9493:
+    # b1 "I've got this problem!"
+    b1 ""
+
+translate english EP18_Benjamin_1_a1b7005b:
+    # b1 "I can't bend down to put on the pants."
+    b1 ""
+
+translate english EP18_Benjamin_1_a2d76b49:
+    # b1 "It's my back... Been slowly giving out for a while now."
+    b1 ""
+
+translate english EP18_Benjamin_1_6a1880cc:
+    # b1 "Could you come in here and help out?"
+    b1 ""
+
+translate english EP18_Benjamin_1_9af9f88f:
+    # p2 "Oh my... Heh..."
+    p2 ""
+
+translate english EP18_Benjamin_1_e0a4960e:
+    # a "Oh... That's... Since he doesn't have underpants..."
+    a ""
+
+translate english EP18_Benjamin_1_fb8ea5a8:
+    # p2 "Well, not to sound jealous, but you will see that big cock once more..."
+    p2 ""
+
+translate english EP18_Benjamin_1_f1f33ea7:
+    # p2 "That's the upside, at least."
+    p2 ""
+
+translate english EP18_Benjamin_1_c3a5f18e:
+    # a "Don't be so vulgar, Patricia."
+    a ""
+
+translate english EP18_Benjamin_1_8b82f66a_1:
+    # p2 "What?"
+    p2 ""
+
+translate english EP18_Benjamin_1_48eeeadc:
+    # p2 "Just stating the obvious."
+    p2 ""
+
+translate english EP18_Benjamin_1_052417d9:
+    # p2 "Regardless if he's a homeless man, a girl can still appreciate a nice cock when she sees one."
+    p2 ""
+
+translate english EP18_Benjamin_1_7721e4ee:
+    # a "True."
+    a ""
+
+translate english EP18_Benjamin_1_fe0bdf5f:
+    # p2 "I'll be right back, ok?"
+    p2 ""
+
+translate english EP18_Benjamin_1_537b522f:
+    # p2 "Will look for an outfit for you, too."
+    p2 ""
+
+translate english EP18_Benjamin_1_76323bf8:
+    # a "Alright, I'll help the poor man, hehe."
+    a ""
+
+translate english EP18_Benjamin_1_ec18a212:
+    # a "Um..."
+    a ""
+
+translate english EP18_Benjamin_1_07c5055c:
+    # a "Just... Let's get this over quickly, okay?"
+    a ""
+
+translate english EP18_Benjamin_1_90cf8bfa:
+    # b1 "Oh, absolutely. I just need a bit of help."
+    b1 ""
+
+translate english EP18_Benjamin_1_0f2ed79f:
+    # a "Sure, sure."
+    a ""
+
+translate english EP18_Benjamin_1_aec608d7:
+    # b1 "Come on in."
+    b1 ""
+
+translate english EP18_Benjamin_1_4f008e25:
+    # b1 "You know, this cabin is larger than some of the places I used to live in..."
+    b1 ""
+
+translate english EP18_Benjamin_1_419d5750:
+    # a "What?"
+    a ""
+
+translate english EP18_Benjamin_1_3429b6fc:
+    # b1 "Crazy, I know."
+    b1 ""
+
+translate english EP18_Benjamin_1_49b994ee:
+    # a "Heh... This is a bit awkward."
+    a ""
+
+translate english EP18_Benjamin_1_f178c54a:
+    # b1 "Yeah... I'm... Sorry..."
+    b1 ""
+
+translate english EP18_Benjamin_1_826c40f8:
+    # b1 "{i}...Hehe... No, I'm not... I want her to check out my cock...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_1_cda0b252:
+    # a "Umm... Wait."
+    a ""
+
+translate english EP18_Benjamin_1_b4238fce:
+    # a "You haven't even put on the top or anything."
+    a ""
+
+translate english EP18_Benjamin_1_c9f72fc0:
+    # b1 "I always start with the pants."
+    b1 ""
+
+translate english EP18_Benjamin_1_b5ffdd14:
+    # a "Alright, alright."
+    a ""
+
+translate english EP18_Benjamin_1_39bd50b3:
+    # b1 "Juicy..."
+    b1 ""
+
+translate english EP18_Benjamin_1_419d5750_1:
+    # a "What?"
+    a ""
+
+translate english EP18_Benjamin_1_b56556b3:
+    # b1 "Nothing, nothing. Heh."
+    b1 ""
+
+translate english EP18_Benjamin_1_812a35c9:
+    # b1 "{i}...Yes... YES!... Hehe...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_1_9f88c031:
+    # b1 "{i}..Hot Anna in front of me...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_1_aff77080:
+    # b1 "{i}...Again!... Hehe...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_1_83f1319b:
+    # a "{i}...It's so big...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_0c1bc829:
+    # a "{i}...Fuck...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_84ad1481:
+    # a "{i}...Again, I'm starting to feel drawn to it...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_55c6ce16:
+    # a "Almost there."
+    a ""
+
+translate english EP18_Benjamin_1_0cdc0b0a:
+    # a "{i}...Such a nice cock...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_fe05a443:
+    # a "{i}...Almost like it needs to be sucked...{/i}"
+    a ""
+
+translate english EP18_Benjamin_1_c851e36e:
+    # a "Your cock is in the way..."
+    a ""
+
+translate english EP18_Benjamin_1_791f3540:
+    # b1 "I can't help it, Anna..."
+    b1 ""
+
+translate english EP18_Benjamin_1_bb835777:
+    # b1 "It's just that big, and I have to deal with it."
+    b1 ""
+
+translate english EP18_Benjamin_1_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP18_Benjamin_1_621dcf78:
+    # b1 "Niice..."
+    b1 ""
+
+translate english EP18_Benjamin_1_419d5750_2:
+    # a "What?"
+    a ""
+
+translate english EP18_Benjamin_1_bb023ad7:
+    # b1 "Nothing... Nothing..."
+    b1 ""
+
+translate english EP18_Benjamin_1_3ee6b5ab:
+    # b1 "Ahh..."
+    b1 ""
+
+translate english EP18_Benjamin_1_bec67c16:
+    # b1 "Yeah."
+    b1 ""
+
+translate english EP18_Benjamin_1_9247b6c6:
+    # b1 "You know..."
+    b1 ""
+
+translate english EP18_Benjamin_1_65878a68:
+    # b1 "You can get it whenever you want. Hehe..."
+    b1 ""
+
+translate english EP18_Benjamin_1_419d5750_3:
+    # a "What?"
+    a ""
+
+translate english EP18_Benjamin_1_256d57e3:
+    # a "Stop fooling around, Ben."
+    a ""
+
+translate english EP18_Benjamin_1_c8a74b29:
+    # a "We can't do some naughty stuff in here."
+    a ""
+
+translate english EP18_Benjamin_1_ce2fcfc7:
+    # b1 "Why not?"
+    b1 ""
+
+translate english EP18_Benjamin_1_5c3e58af:
+    # b1 "Worried someone will hear?"
+    b1 ""
+
+translate english EP18_Benjamin_1_b5193188:
+    # a "Umm..."
+    a ""
+
+translate english EP18_Benjamin_1_848cdad5:
+    # a "No..."
+    a ""
+
+translate english EP18_Benjamin_1_74457ab3:
+    # a "Just. Not appropriate."
+    a ""
+
+translate english EP18_Benjamin_1_aa47529c:
+    # b1 "Heh. I've seen that look on your face before."
+    b1 ""
+
+translate english EP18_Benjamin_1_24be453c:
+    # b1 "Ok, All done."
+    b1 ""
+
+translate english EP18_Benjamin_1_aaf7feea:
+    # b1 "Gotta say, I feel nice in a new set of clothes."
+    b1 ""
+
+translate english EP18_Benjamin_1_c62b3414:
+    # a "You also look outstanding."
+    a ""
+
+translate english EP18_Benjamin_1_2522ae00:
+    # b1 "Thank you..."
+    b1 ""
+
+translate english EP18_Benjamin_1_428c3ff3:
+    # a "Patricia!"
+    a ""
+
+translate english EP18_Benjamin_1_94b799c2:
+    # p2 "Yes?"
+    p2 ""
+
+translate english EP18_Benjamin_1_89f8a542:
+    # a "We're all done here."
+    a ""
+
+translate english EP18_Benjamin_1_32b82255:
+    # a "And I gotta say, you've picked out something really nice for him."
+    a ""
+
+translate english EP18_Benjamin_1_2ce03166:
+    # p2 "Thank you. My aim is to please."
+    p2 ""
+
+translate english EP18_Benjamin_1_0e88e6aa:
+    # b1 "I feel so good in this. Thank you!"
+    b1 ""
+
+translate english EP18_Benjamin_1_1ea626dd:
+    # b1 "I mean, it looks good, feels good, smells good."
+    b1 ""
+
+translate english EP18_Benjamin_1_dd18df8f:
+    # p2 "I'm glad I could put a smile on your face."
+    p2 ""
+
+translate english EP18_Benjamin_1_6561a1c6:
+    # b1 "Looking this fresh, I guess I'm going to have to invite Anna to dinner, hehe."
+    b1 ""
+
+translate english EP18_Benjamin_1_7fe7a32e:
+    # p2 "Interesting."
+    p2 ""
+
+translate english EP18_Benjamin_1_1f319c12:
+    # p2 "So. All done here?"
+    p2 ""
+
+translate english EP18_Benjamin_1_862d1ce8:
+    # a "I think so."
+    a ""
+
+translate english EP18_Benjamin_1_d232cd64:
+    # p2 "Let's go and finalize this thing."
+    p2 ""
+
+translate english EP18_Benjamin_1_2855c10f:
+    # b1 "Alright!"
+    b1 ""
+
+translate english EP18_Benjamin_1_193ec8b1:
+    # b1 "So how much will that set me back?"
+    b1 ""
+
+translate english EP18_Benjamin_1_c3443b99:
+    # a "Oh, don't worry about this."
+    a ""
+
+translate english EP18_Benjamin_1_a0a2f5ea:
+    # a "I'll cover it."
+    a ""
+
+translate english EP18_Benjamin_1_dd1981d9:
+    # p2 "Don't forget, I also picked out something for you."
+    p2 ""
+
+translate english EP18_Benjamin_1_06013f03:
+    # a "Oh. hehe. Thanks."
+    a ""
+
+translate english EP18_Benjamin_1_7ad628c9:
+    # a "I wonder what it is."
+    a ""
+
+translate english EP18_Benjamin_1_cb01ce03:
+    # p2 "Trust me, you won't be disappointed."
+    p2 ""
+
+translate english EP18_Benjamin_1_3cac5792:
+    # a "I'll keep you to it, Patricia. Haha."
+    a ""
+
+translate english EP18_Benjamin_1_52041caf:
+    # p2 "I'll also give you a generous discount since you're a regular here."
+    p2 ""
+
+translate english EP18_Benjamin_1_127276cf:
+    # p2 "And knowing Alfred, he wouldn't mind."
+    p2 ""
+
+translate english EP18_Benjamin_1_ac80d7ee:
+    # p2 "In fact, sales have been up since that fashion show."
+    p2 ""
+
+translate english EP18_Benjamin_1_143c1357:
+    # b1 "Thank you once more."
+    b1 ""
+
+translate english EP18_Benjamin_1_14fe262d:
+    # b1 "Let me carry that for you."
+    b1 ""
+
+translate english EP18_Benjamin_1_dd18b1c2:
+    # a "Thanks."
+    a ""
+
+translate english EP18_Benjamin_1_ef18f238:
+    # b1 "You sure you can pay?"
+    b1 ""
+
+translate english EP18_Benjamin_1_890a5590:
+    # a "Easily."
+    a ""
+
+translate english EP18_Benjamin_1_06cb8c7f:
+    # b1 "I will repay you 10 fold."
+    b1 ""
+
+translate english EP18_Benjamin_1_49c99887:
+    # a "Hehe. I'll keep you to it."
+    a ""
+
+translate english EP18_Benjamin_1_d18f07b4:
+    # p2 "Thanks for shopping with us!"
+    p2 ""
+
+translate english EP18_Benjamin_1_a25ca732:
+    # p2 "Nice to see you, Benjamin."
+    p2 ""
+
+translate english EP18_Benjamin_1_90586179:
+    # p2 "See you around, Anna!"
+    p2 ""
+
+translate english EP18_Benjamin_1_167ff1b4:
+    # b1 "Bye, lovely Patricia!"
+    b1 ""
+
+translate english EP18_Benjamin_1_f7ad5875:
+    # p2 "Take care!"
+    p2 ""
+
+translate english EP18_Benjamin_1_88c499ce:
+    # a "Bye!"
+    a ""
+
+translate english EP18_Benjamin_1_b8e06f25:
+    # b1 "That was great."
+    b1 ""
+
+translate english EP18_Benjamin_1_81654b87:
+    # b1 "I will certainly try to keep this outfit in good condition."
+    b1 ""
+
+translate english EP18_Benjamin_1_3627681d:
+    # b1 "It's excellent."
+    b1 ""
+
+translate english EP18_Benjamin_1_60b1e0ba:
+    # b1 "Thank you so much."
+    b1 ""
+
+translate english EP18_Benjamin_1_ec4fa9da:
+    # b1 "Anyway. You up for that dinner?"
+    b1 ""
+
+translate english EP18_Benjamin_1_b61aa904:
+    # a "At your place?"
+    a ""
+
+translate english EP18_Benjamin_1_ce2986dc:
+    # b1 "Yeah. To celebrate the occasion. Besides, you bought this outfit for me. The least I can do is cook you something nice."
+    b1 ""
+
+translate english EP18_Benjamin_1_5ed75602:
+    # b1 "I do know how to cook some nice dishes. And I promise, they will contain good ingredients."
+    b1 ""
+
+translate english EP18_Benjamin_1_747612cc:
+    # a "Hehe. Alright. You convinced me."
+    a ""
+
+translate english EP18_Benjamin_1_323f9505:
+    # a "This evening then?"
+    a ""
+
+translate english EP18_Benjamin_1_f12b7357:
+    # b1 "Absolutely!"
+    b1 ""
+
+translate english EP18_Benjamin_1_2836510a:
+    # a "I'd be glad to have dinner at your place, Benjamin."
+    a ""
+
+translate english EP18_Benjamin_1_deabe6c8:
+    # b1 "Oh, Yes!"
+    b1 ""
+
+translate english EP18_Benjamin_1_24401d60:
+    # b1 "I'll cook something very nice."
+    b1 ""
+
+translate english EP18_Benjamin_1_1b32674f:
+    # a "I will. See you in the evening."
+    a ""
+
+translate english EP18_Benjamin_1_2be990e8:
+    # b1 "Bye, Anna!"
+    b1 ""
+
+translate english EP18_Benjamin_2_3656f8c3:
+    # b1 "Anna! You're finally here."
+    b1 ""
+
+translate english EP18_Benjamin_2_c126e3e9:
+    # a "MMm... Smells great!"
+    a ""
+
+translate english EP18_Benjamin_2_f1e98aad:
+    # b1 "I've been cooking since we last spoke, hehe."
+    b1 ""
+
+translate english EP18_Benjamin_2_8f35d4df:
+    # a "Impressive. You've been a busy bee."
+    a ""
+
+translate english EP18_Benjamin_2_98b69468:
+    # b1 "Indeed."
+    b1 ""
+
+translate english EP18_Benjamin_2_9cf6c456:
+    # b1 "But only the best for you, Anna."
+    b1 ""
+
+translate english EP18_Benjamin_2_55f9fb4e:
+    # b1 "I've been out of practice for a bit, but that's why I've been cooking non-stop since then."
+    b1 ""
+
+translate english EP18_Benjamin_2_fd5dc94a:
+    # a "I'm sure it's going to be lovely."
+    a ""
+
+translate english EP18_Benjamin_2_d3c58bc9:
+    # a "{i}...Mmm... Smells really good...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_eacc6d97:
+    # a "{i}...Last time I was here...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_1edd72e5:
+    # a "{i}...Benny penetrated me on that table...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_9a8d589b:
+    # a "I hope you don't mind. I'll go to the toilet real quick."
+    a ""
+
+translate english EP18_Benjamin_2_fe6f1a60:
+    # a "{i}...And change into the outfit that Patricia gave me...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_fe25e357:
+    # a "{i}...Surprise Benny...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_f12b7357:
+    # b1 "Absolutely!"
+    b1 ""
+
+translate english EP18_Benjamin_2_d1b39890:
+    # b1 "Do whatever you'd like. Toilet, bath, TV."
+    b1 ""
+
+translate english EP18_Benjamin_2_4da55aef:
+    # a "Thanks, heh."
+    a ""
+
+translate english EP18_Benjamin_2_60254288:
+    # a "I'll be back soon, ok?"
+    a ""
+
+translate english EP18_Benjamin_2_6e8db8a7:
+    # b1 "No rush."
+    b1 ""
+
+translate english EP18_Benjamin_2_9a47eaeb:
+    # a "Alright."
+    a ""
+
+translate english EP18_Benjamin_2_81d575f7:
+    # a "Let's see what kind of an outfit Patricia picked out for me."
+    a ""
+
+translate english EP18_Benjamin_2_48a90e86:
+    # a "The front is nice, but..."
+    a ""
+
+translate english EP18_Benjamin_2_cd1115fe:
+    # a "Whaat?"
+    a ""
+
+translate english EP18_Benjamin_2_a92a9ae3:
+    # a "There's absolutely nothing covering my back..."
+    a ""
+
+translate english EP18_Benjamin_2_8f45c47c:
+    # a "Oh Patricia, you naughty, naughty girl."
+    a ""
+
+translate english EP18_Benjamin_2_496f436d:
+    # a "Didn't expect anything less from that minx."
+    a ""
+
+translate english EP18_Benjamin_2_bd975c51:
+    # a "Let's see what Benjamin thinks."
+    a ""
+
+translate english EP18_Benjamin_2_fb8f62ca:
+    # b1 "That's a nice outfit, Anna."
+    b1 ""
+
+translate english EP18_Benjamin_2_650da4b1:
+    # b1 "Proper and beautiful."
+    b1 ""
+
+translate english EP18_Benjamin_2_1ff532da:
+    # a "{i}...He hasn't noticed the back yet, heh...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_95252a06:
+    # a "{i}...He's in for a nice surprise...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_a60620f1:
+    # b1 "I like it."
+    b1 ""
+
+translate english EP18_Benjamin_2_3dad7718:
+    # a "Me too."
+    a ""
+
+translate english EP18_Benjamin_2_27b8d9b8:
+    # a "It also has a little surprise."
+    a ""
+
+translate english EP18_Benjamin_2_507a49b4:
+    # b1 "Oh?"
+    b1 ""
+
+translate english EP18_Benjamin_2_4793137f:
+    # b1 "I wonder what the surprise is."
+    b1 ""
+
+translate english EP18_Benjamin_2_5c9085a8:
+    # a "You'll see soon."
+    a ""
+
+translate english EP18_Benjamin_2_c5026105:
+    # b1 "Can't wait, hehe."
+    b1 ""
+
+translate english EP18_Benjamin_2_f0c87ee6:
+    # b1 "Could you help me out with the dishes?"
+    b1 ""
+
+translate english EP18_Benjamin_2_ebb2afb6:
+    # a "Sure."
+    a ""
+
+translate english EP18_Benjamin_2_6ab39136:
+    # b1 "Just put everything on the table."
+    b1 ""
+
+translate english EP18_Benjamin_2_424e6e50:
+    # b1 "The food is almost ready."
+    b1 ""
+
+translate english EP18_Benjamin_2_0d4fffdd:
+    # b1 "I'm sure you will love what I've prepared for the both of us."
+    b1 ""
+
+translate english EP18_Benjamin_2_e3adb1fc:
+    # a "Hehe. I trust you."
+    a ""
+
+translate english EP18_Benjamin_2_c59e7ef9:
+    # b1 "{i}....OoooOOOoooOOAAAAA!!!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_354a8ee1:
+    # b1 "{i}..SHIEEEETT!!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_84876a81:
+    # b1 "{i}...She got nothing covering that... WHAA?{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_93f94033:
+    # b1 "{i}...She nastyyyy!!!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_e1dcb2af:
+    # b1 "Just the way I like it!"
+    b1 ""
+
+translate english EP18_Benjamin_2_1a6bdc6f:
+    # a "What's that?"
+    a ""
+
+translate english EP18_Benjamin_2_39c63a67:
+    # b1 "Ummm... Nothing, did I say that out loud?"
+    b1 ""
+
+translate english EP18_Benjamin_2_c55fa757:
+    # a "Yeah..."
+    a ""
+
+translate english EP18_Benjamin_2_c58361cc:
+    # a "Hold on. those dishes are a bit lower."
+    a ""
+
+translate english EP18_Benjamin_2_8c2113ed:
+    # a "Just... Have to reach down there."
+    a ""
+
+translate english EP18_Benjamin_2_908fdf82:
+    # b1 "{i}..AaaaaaaAAAAAaAAAAAHHHOOOO!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_fabf3681:
+    # b1 "{i}...THAT ASSSS!!!{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_f91460b8:
+    # a "{i}...Hehe...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_f7aae14a:
+    # a "{i}...I can feel his gaze on my luscious butt...{/i}"
+    a ""
+
+translate english EP18_Benjamin_2_3df0fd3e:
+    # a "That's all?"
+    a ""
+
+translate english EP18_Benjamin_2_c07b9192:
+    # b1 "Yeah, these will do."
+    b1 ""
+
+translate english EP18_Benjamin_2_b8fbc2e3:
+    # b1 "Khem."
+    b1 ""
+
+translate english EP18_Benjamin_2_e341747d:
+    # b1 "Just put them on the counter."
+    b1 ""
+
+translate english EP18_Benjamin_2_56e40de0:
+    # b1 "I'll do the rest."
+    b1 ""
+
+translate english EP18_Benjamin_2_48326af6:
+    # a "Ok."
+    a ""
+
+translate english EP18_Benjamin_2_ea723737:
+    # b1 "{i}...I feel like I'm going to get LUCKYYYY...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_58c62d62:
+    # b1 "You can just sit at the table. Be right with ya."
+    b1 ""
+
+translate english EP18_Benjamin_2_9d3bee7e:
+    # a "Can't wait. It smells amazing!"
+    a ""
+
+translate english EP18_Benjamin_2_b4ede671:
+    # b1 "Trust me, it is."
+    b1 ""
+
+translate english EP18_Benjamin_2_16e6d798:
+    # a "I know what you saw back there."
+    a ""
+
+translate english EP18_Benjamin_2_bbdaecce:
+    # a "When I leaned over."
+    a ""
+
+translate english EP18_Benjamin_2_782526ed:
+    # a "We will manage to finish our food, right?"
+    a ""
+
+translate english EP18_Benjamin_2_c1b4762f:
+    # a "I'm hungry."
+    a ""
+
+translate english EP18_Benjamin_2_9fc66543:
+    # b1 "As you command, Anna."
+    b1 ""
+
+translate english EP18_Benjamin_2_5f2adac4:
+    # b1 "I shall keep my composure."
+    b1 ""
+
+translate english EP18_Benjamin_2_55be3998:
+    # b1 "Besides, you have to taste this soup. It's exquisite."
+    b1 ""
+
+translate english EP18_Benjamin_2_9247b6c6:
+    # b1 "You know..."
+    b1 ""
+
+translate english EP18_Benjamin_2_2e94a729:
+    # b1 "I used to be a chef."
+    b1 ""
+
+translate english EP18_Benjamin_2_8bd3eae2:
+    # b1 "And Ramen soup was one of my specialties."
+    b1 ""
+
+translate english EP18_Benjamin_2_a7aa6170:
+    # a "Really?"
+    a ""
+
+translate english EP18_Benjamin_2_6ae0b647:
+    # a "I never knew."
+    a ""
+
+translate english EP18_Benjamin_2_6466c25e:
+    # b1 "Eh. That time has long since passed."
+    b1 ""
+
+translate english EP18_Benjamin_2_f0619e4b:
+    # b1 "Now I'm a degenerate with good taste, that be all."
+    b1 ""
+
+translate english EP18_Benjamin_2_e3d9a291:
+    # a "You are not a degenerate."
+    a ""
+
+translate english EP18_Benjamin_2_664e839b:
+    # b1 "Heh, you know what I mean."
+    b1 ""
+
+translate english EP18_Benjamin_2_0131a775:
+    # b1 "Here."
+    b1 ""
+
+translate english EP18_Benjamin_2_5772fe37:
+    # b1 "Best I can offer."
+    b1 ""
+
+translate english EP18_Benjamin_2_6b7ae223:
+    # a "I'm sure it will exceed expectations."
+    a ""
+
+translate english EP18_Benjamin_2_0922907c:
+    # b1 "I'll let you be the judge of that."
+    b1 ""
+
+translate english EP18_Benjamin_2_2f72dc76:
+    # a "Thank you, Benjamin."
+    a ""
+
+translate english EP18_Benjamin_2_301973f6:
+    # b1 "Only the best for you."
+    b1 ""
+
+translate english EP18_Benjamin_2_1dddbfad:
+    # b1 "Let's dig in. I'm starving."
+    b1 ""
+
+translate english EP18_Benjamin_2_3dad7718_1:
+    # a "Me too."
+    a ""
+
+translate english EP18_Benjamin_2_c3943fd4:
+    # a "I can't remember the last time I had food from Asian cuisine."
+    a ""
+
+translate english EP18_Benjamin_2_85a282d4:
+    # b1 "Indeed, I am in the same situation."
+    b1 ""
+
+translate english EP18_Benjamin_2_0fb18459:
+    # b1 "Now that I get a paycheck, I can finally afford to eat proper food again."
+    b1 ""
+
+translate english EP18_Benjamin_2_2324c847:
+    # b1 "Before it was scraps, leftovers... Eh..."
+    b1 ""
+
+translate english EP18_Benjamin_2_0fb926cb:
+    # a "But not anymore, Benjamin."
+    a ""
+
+translate english EP18_Benjamin_2_6bbc4d77:
+    # a "Alright, let's see what you've cooked up."
+    a ""
+
+translate english EP18_Benjamin_2_e28eb340:
+    # b1 "Classic ramen soup recipe."
+    b1 ""
+
+translate english EP18_Benjamin_2_5b68ab8a:
+    # a "MMMmmmmm!"
+    a ""
+
+translate english EP18_Benjamin_2_38740f77:
+    # a "It's so GOOD!"
+    a ""
+
+translate english EP18_Benjamin_2_94b453e1:
+    # b1 "Really?"
+    b1 ""
+
+translate english EP18_Benjamin_2_d5e421c4:
+    # a "Oh yeah!"
+    a ""
+
+translate english EP18_Benjamin_2_25a957e7:
+    # a "Wow!"
+    a ""
+
+translate english EP18_Benjamin_2_42dcd61a:
+    # a "So much flavor."
+    a ""
+
+translate english EP18_Benjamin_2_aa694ca2:
+    # b1 "Heh..."
+    b1 ""
+
+translate english EP18_Benjamin_2_f84053d6:
+    # a "Wow. I can't believe I finished it all so fast."
+    a ""
+
+translate english EP18_Benjamin_2_bf1fbcb0:
+    # b1 "That's how the ramen soup is."
+    b1 ""
+
+translate english EP18_Benjamin_2_98dfe70e:
+    # b1 "It gets ya."
+    b1 ""
+
+translate english EP18_Benjamin_2_f2cd4ee6:
+    # a "And a bit spicy."
+    a ""
+
+translate english EP18_Benjamin_2_97f61350:
+    # b1 "Wouldn't have it any other way."
+    b1 ""
+
+translate english EP18_Benjamin_2_f0dec0ca:
+    # a "I'm not against it. It's great!"
+    a ""
+
+translate english EP18_Benjamin_2_8c254a82:
+    # a "Wow, I'm still in disbelief."
+    a ""
+
+translate english EP18_Benjamin_2_7fffa41f:
+    # a "I didn't know you cooked such great food."
+    a ""
+
+translate english EP18_Benjamin_2_a68392f0:
+    # b1 "I really tried my best."
+    b1 ""
+
+translate english EP18_Benjamin_2_bba21a05:
+    # b1 "Alright, that's that."
+    b1 ""
+
+translate english EP18_Benjamin_2_02fa1977:
+    # b1 "Heh."
+    b1 ""
+
+translate english EP18_Benjamin_2_d819dce5:
+    # b1 "I'll just clean up."
+    b1 ""
+
+translate english EP18_Benjamin_2_eee07a2d:
+    # a "You know. I'll help out."
+    a ""
+
+translate english EP18_Benjamin_2_767fe68c:
+    # b1 "You don't have to."
+    b1 ""
+
+translate english EP18_Benjamin_2_29daf4f9:
+    # a "It's the least I can do to help out."
+    a ""
+
+translate english EP18_Benjamin_2_1cdf4f3d:
+    # a "The meal was worth it."
+    a ""
+
+translate english EP18_Benjamin_2_c2fc8a34:
+    # b1 "Thanks, Anna."
+    b1 ""
+
+translate english EP18_Benjamin_2_ed07668e:
+    # a "Thank you for the tasty, tasty food."
+    a ""
+
+translate english EP18_Benjamin_2_26a4e590:
+    # a "Lemme just."
+    a ""
+
+translate english EP18_Benjamin_2_65e93edc:
+    # b1 "Ok..."
+    b1 ""
+
+translate english EP18_Benjamin_2_fb8c94c3:
+    # b1 "{i}...Wha...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_4d33ac6d:
+    # b1 "{i}...Fucking amazing ass... FUCK!{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_e096f581:
+    # a "You all good there, Benjamin?"
+    a ""
+
+translate english EP18_Benjamin_2_e6f18ae0:
+    # b1 "I... Umm..."
+    b1 ""
+
+translate english EP18_Benjamin_2_9ba2b23d:
+    # b1 "I think."
+    b1 ""
+
+translate english EP18_Benjamin_2_f69c4408:
+    # b1 "{i}..OH MY GOD!!!!!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_2c18165b:
+    # b1 "{i}...I WANNA SNIFF HER ASS SO BAD!...{/i}"
+    b1 ""
+
+translate english EP18_Benjamin_2_e8edf341:
+    # a "You mentioned you were a chef before."
+    a ""
+
+translate english EP18_Benjamin_2_9a17d9d1:
+    # a "Perhaps in the near future, it's worth trying to find a job somewhere in that field."
+    a ""
+
+translate english EP18_Benjamin_2_3e5082d4:
+    # a "You know?"
+    a ""
+
+translate english EP18_Benjamin_2_722f446e:
+    # a "Benjamin?"
+    a ""
+
+translate english EP18_Benjamin_2_a2c3538f:
+    # b1 "MMMMMMM."
+    b1 ""
+
+translate english EP18_Benjamin_2_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP18_Benjamin_2_611895ac:
+    # b1 "Soo... Soft..."
+    b1 ""
+
+translate english EP18_Benjamin_2_dcb535b0:
+    # a "Oh... Ah..."
+    a ""
+
+translate english EP18_Benjamin_2_cbc85472:
+    # b1 "Yes, yes, yes."
+    b1 ""
+
+translate english EP18_Benjamin_2_484c6694:
+    # a "Haha... Benjamin."
+    a ""
+
+translate english EP18_Benjamin_2_b20ac80f:
+    # a "It's... A bit inappropriate, don't you think?"
+    a ""
+
+translate english EP18_Benjamin_2_a52b576c:
+    # b1 "I... Think it's fine, hehe."
+    b1 ""
+
+translate english EP18_Benjamin_2_a058d591:
+    # b1 "Let me know if you'd like me to stop. Heh."
+    b1 ""
+
+translate english EP18_Benjamin_2_ec18a212:
+    # a "Um..."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_4ff79f50:
+    # a "Ok..."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_7f4f867d:
+    # b1 "Should I stop?"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_87d37f98:
+    # a "N... No..."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_532bb1b9:
+    # b1 "Good, heh."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_88b261ce:
+    # b1 "I thought as much."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_d944ef14:
+    # b1 "{b}*Sniff*{/b}"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_30938f56:
+    # b1 "AAHHH!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_141ccaf6:
+    # b1 "YEAH!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_24c7983c:
+    # a "Ooh... Benny."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_0e5da44d:
+    # b1 "MHMM!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_bbdb7e4f:
+    # a "Sniff that asshole!"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_e099baa1:
+    # a "And lick that pussy!"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_6f2b6fe3:
+    # a "Oh... Benny!"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_043e5600:
+    # b1 "Barely got in there, and that pussy's already moist."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_0dcd3581:
+    # b1 "Now ain't that peculiar."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_408b3537:
+    # a "I... I would agree..."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_38c46ad1:
+    # b1 "MM!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_ffc13cfb:
+    # b1 "That crack is full of your sweat and juices."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_5ee01bac:
+    # b1 "I fucking love a sweaty woman!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_8dcd597a:
+    # b1 "Come here!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_e429ab91:
+    # b1 "How about you lose that beautiful, beautiful dress for me."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_b4d14006:
+    # b1 "The only thing that looks better on you is nothing."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_3e3b733d:
+    # b1 "When absolutely nothing covers you. THAT looks just so amazing!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_bf43c256:
+    # b1 "You are such a pleasing woman."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_1115cbef:
+    # b1 "Anna, oh Anna."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_8707acec:
+    # b1 "What fortunes favor me to see such a woman naked."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_0e747d77:
+    # a "Perhaps you'd like it if I touched you. That would make things even better, wouldn't it?"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_f171ee48:
+    # b1 "OH YES, YES!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_17d02f18:
+    # b1 "YES!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_10ab2835:
+    # b1 "OH..."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_2b73c627:
+    # b1 "Never get used to the sensation your hands bring."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_08d9a2f8:
+    # a "Come with me."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_300ccc1d:
+    # b1 "Oh... Hah."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_78367fde:
+    # b1 "Lead the way."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_aae665f9:
+    # b1 "You control my body now anyway."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_b4dbc431:
+    # a "You're telling me that if I wanted, I could rob a bank with your body?"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_491d64f1:
+    # b1 "Anything for you, Anna!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_7f108f9a_1:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_8192f9be:
+    # b1 "OH."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_642d9ba5:
+    # b1 "Hah."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_963b8a31:
+    # a "Now. Where were we?"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_009c7184:
+    # a "Perhaps a little..."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_8f5ae050:
+    # a "Mouth would make you feel a bit better?"
+    a ""
+
+translate english EP18_Benjamin_Sex_1_99033f60:
+    # b1 "Oh, please, please!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_6c616878:
+    # b1 "Anna, YES!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_e18f76e9:
+    # a "There we go."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_8587a1db:
+    # b1 "YOUR HANDS!"
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_5a94df93:
+    # b1 "Soo... Nice..."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_cc83c577:
+    # a "I know, Benny."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_f692bdb7:
+    # a "I know."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_e3dcb146:
+    # b1 "I'm the luckiest son of a bitch to walk this earthly plane."
+    b1 ""
+
+translate english EP18_Benjamin_Sex_1_7f108f9a_2:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Benjamin_Sex_1_c7080b62:
+    # a "You always had a way with words."
+    a ""
+
+translate english EP18_Benny_Sex_Label_1_860654a3:
+    # b1 "OH shit!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_1_f9bd09f9:
+    # b1 "Them HANDS! THEM HANNNDS!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_1_b4f9ec42:
+    # b1 "OHHAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_1_4798c804:
+    # a "Looks so good up close."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_1_af2b7b4b:
+    # b1 "I took good care of it for you."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_1_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_1_4452b55b:
+    # a "Mmm..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_1_25e7bb50:
+    # a "MMMM!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_1_a0ceeddb:
+    # b1 "OH, YES!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_1_8cb6a62a:
+    # b1 "AAHHHH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_1_ba22169c:
+    # a "KHA. KHA!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_2_2533fe63:
+    # b1 "FUUUUUUUUUUUUUU..."
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_2_71dd9525:
+    # a "AH. KHAA!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_3_2533fe63:
+    # b1 "FUUUUUUUUUUUUUU..."
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_3_71dd9525:
+    # a "AH. KHAA!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_90c990ec:
+    # a "I bet you liked that."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_2eb0a2b9:
+    # b1 "Liked that?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_27b6c61f:
+    # b1 "I fuckity LOVED that!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_ee65daeb:
+    # a "I'm glad to hear that."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_aa2768b7:
+    # b1 "Can't wait what else you've got in mind."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_580d88b5:
+    # a "Well... I... Pretty wet down there."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_45459c2b:
+    # a "I have to bring down the excitement levels."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_c42f5836:
+    # a "For the both of us..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_bee3977a:
+    # b1 "OOh... Heh."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_67c59f78:
+    # b1 "You know how to intrigue an old homeless man."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_60d68eba:
+    # a "Now, now. You aren't homeless anymore."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_4a489ed2:
+    # b1 "Heh. You're right!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_75db624d:
+    # a "Let me just get comfortable."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_93fa8604:
+    # b1 "Oh... Take all the time you need."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_077ccb2c:
+    # a "You ready?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_e12b09d5:
+    # b1 "Never been more ready."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_324398c9:
+    # a "AHH!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_a23075a7:
+    # b1 "Oh, jolly good!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_8821edbc:
+    # b1 "OH SO GOOOD!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_4371ee4e:
+    # a "Benny!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_7cbac18a:
+    # b1 "Anna!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_eb7d5160:
+    # a "Let me give you a nice ride, ok?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_ffe98a06:
+    # b1 "Be my guest!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_fc85ed19:
+    # b1 "I want all of that!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_f0ceb336:
+    # a "So do I..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_9e8bfb7c:
+    # a "Oh... That dick..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_accdec6d:
+    # a "Patricia also saw it... She also fucking enjoyed seeing that huge cock of yours."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_99014a0c:
+    # b1 "You're just... Saying that to be nice."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_5dc1fa9f:
+    # b1 "Ahhh..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_0a568733:
+    # a "Only the truth for you."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_18f7e16e:
+    # a "FUCK!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_872fc179:
+    # a "It hits so deep!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_0a902ac2:
+    # b1 "I know!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_7f63618f:
+    # b1 "I feel like I'm almost hitting your cervix!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_3_02afde1a:
+    # a "Almost?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_986b50a5:
+    # a "You're already there!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_3_e65f93f1:
+    # a "AHHH!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_4_93152edb:
+    # b1 "OH GIRL!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_4_e403e8c4:
+    # a "AH. BENNY!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_4_1b3097ca:
+    # a "YOU'RE SO HUGE!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_4_84aceaaf:
+    # a "AAHHHH!!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_4_72ed7da4:
+    # b1 "ANNNAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_4_d92532e6:
+    # a "FUCK YES!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_4_f49ebc39:
+    # b1 "You like that cock, eh?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_4_269ada45:
+    # b1 "You like how I fuck your hot, hot pussy with it?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_4_220303e4:
+    # a "MHMMM!!!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_5_989c4354:
+    # a "OH... SO GOOOD!!!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_5_85550d8e:
+    # b1 "BABYYY!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_6_f99b1d25:
+    # a "This is perfect!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_1e00608c:
+    # a "So fucking good..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_d91528b4:
+    # a "Come. Penetrate me with that rod."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_4d6533f2:
+    # b1 "Just the pose I wanted!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_98b80c36:
+    # b1 "You know how to make a man happy!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_ab8aec5e:
+    # a "And you know how to make a woman happy!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_54c1ca0c:
+    # b1 "Such a sweet, sweet thing."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_e492a961:
+    # a "C'mon."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_7fc7bf0c:
+    # a "Give me what I want."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_9449b244:
+    # b1 "Hehe... As you command!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_e6515c6a:
+    # a "Fuck..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_e65f93f1:
+    # a "AHHH!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_6_141ccaf6:
+    # b1 "YEAH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_f5df93ec:
+    # b1 "That pussy just gets better and better!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_6_d14de3f2:
+    # a "And so does your cock!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_7_73de2805:
+    # b1 "The... Hottest... Woman... Ever..."
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_7_b7d75984:
+    # b1 "YEEEHAAAWW!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_ae0508ce:
+    # a "OHHH!!!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_7_1dd9a645:
+    # b1 "YEEEHAAW!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_064699c7:
+    # a "OH... FUCk... Yes... Yesss....!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_7_3b36ed14:
+    # a "FUCK... FUCKK!!!!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_7_c74719bd:
+    # b1 "Looks like you're brain is getting fried from my cock?!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_141ccaf6:
+    # b1 "YEAH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_febdd75b:
+    # b1 "You dirty girl!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_e3ce0f68:
+    # b1 "You like when a homeless man fucks your brains out?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_7_1aedfad3:
+    # a "OHHH... Yes!"
+    a ""
+
+translate english EP18_Benny_Sex_Label_8_ebe0ab07:
+    # a "SO big... So big... So big..."
+    a ""
+
+translate english EP18_Benny_Sex_Label_8_ab411846:
+    # a "FFFFFUUCK!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_666ed743:
+    # a "Put it in my ass."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_c8b8ea2b:
+    # b1 "What?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_2bab56fd:
+    # a "PUT. IT. In MY FUCKING ASSHOLE!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_1e1123ff:
+    # a "I NEED IT!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_bf08af55:
+    # b1 "You're the nastiest piece of ass I know."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_307e4444:
+    # b1 "I will do as you wish!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_29254cd4:
+    # a "Good... Ahh..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_233b13cb:
+    # a "AAHHH!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_8_ee4d1873:
+    # b1 "DAMN!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_7716ee5e:
+    # b1 "SO TIGHT!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_44084e6f:
+    # b1 "Almost need some vaseline!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_8_2bd01131:
+    # b1 "But all the juices from your ass are making it all moist down there too!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_9_ebe0ab07:
+    # a "SO big... So big... So big..."
+    a ""
+
+translate english EP18_Benny_Sex_Label_9_ab411846:
+    # a "FFFFFUUCK!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_a0c86990:
+    # a "Keep fucking me..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_5497d7ac:
+    # a "Keep fucking me, you dirty, dirty man!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_c8881528:
+    # b1 "HEHE... YES!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_886a9737:
+    # b1 "You like getting your ass filled up, don't you?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_6777fe48:
+    # a "MHM!!!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_5417db31:
+    # a "OH... GOD!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_ce8fa512:
+    # b1 "YES, YES!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_1598f22a:
+    # b1 "Perfect!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_97020d34:
+    # b1 "AHH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_8a089422:
+    # a "OOHH!!!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_7efcfad8:
+    # b1 "I'm ABOUT TO BUUUST!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_7720fcf4:
+    # a "COME ON!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_bf14ed89:
+    # a "SHOOT IT ALL OVER MY BODY!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_25b8afea:
+    # b1 "YES, bitch!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_d86654fb:
+    # a "That's right... Paint your bitch!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_5d21f3ba:
+    # b1 "AHAHHAAA!!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_955f723e:
+    # b1 "HAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_f462b273:
+    # b1 "YAAAHHAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_b40090dd:
+    # b1 "HUUAAAAAHHAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_400c3782:
+    # b1 "SHAIZE!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_472cb06d:
+    # b1 "FUCK!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_0b7d88a9:
+    # a "OH wow..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_dc9a56ca:
+    # a "You're still hard?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_230d70db:
+    # b1 "I am... Not for long... But..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_472cb06d_1:
+    # b1 "FUCK!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_bc7116f2:
+    # b1 "ANNA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_d58aeefe:
+    # b1 "I'm closing in!!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_895f37eb:
+    # a "THEN DON'T STOP!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_d97677d1:
+    # a "CUM!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_1e900070:
+    # a "GIVE IT ALL TO ME!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_badbf742:
+    # b1 "AAAaaaaaAAAAAAaaaaAAAHHHAaaaaAA!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_e826a8c9:
+    # b1 "YAAEEAEAAHHH!!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_35d6b49c:
+    # b1 "FUCKING DAAAAM!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_9e7d61da:
+    # b1 "All in the cum drain!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_c673ac42:
+    # a "YES!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_d30c7424:
+    # b1 "Fucking DAMN!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_1c87efbe:
+    # a "I can feel it all inside me!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_0b7d88a9_1:
+    # a "OH wow..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_dc9a56ca_1:
+    # a "You're still hard?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_230d70db_1:
+    # b1 "I am... Not for long... But..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_472cb06d_2:
+    # b1 "FUCK!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_a8f14b7b:
+    # b1 "I'm... GETTING CLOSE!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_8529bb4c:
+    # b1 "FUCKK!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_f160bf48:
+    # b1 "HERE I!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_dd53465c:
+    # b1 "COMMEEEE!!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_ac1aa66d:
+    # b1 "AAAHHHHAAAA!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_d7762213:
+    # a "AOHHH!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_990ed2ee:
+    # b1 "YAH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_990ed2ee_1:
+    # b1 "YAH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_a0b3cffb:
+    # b1 "YOOAAHHHHAAA!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_74eea39d:
+    # b1 "FUCKING DAMN!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_1a698a46:
+    # b1 "THAT ASSHOLE ROCKS!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_0b7d88a9_2:
+    # a "OH wow..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_dc9a56ca_2:
+    # a "You're still hard?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_230d70db_2:
+    # b1 "I am... Not for long... But..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_3e0006f7:
+    # b1 "Oh... Boy..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_1cf472e5:
+    # b1 "I'm lightheaded."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_d8178383:
+    # a "Hehe. You did really work me out."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_98ccbbc5:
+    # a "And even kept fucking my hole after finishing."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_7bf4610e:
+    # b1 "I do whatever you command of me, Anna."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_9f75ad5a:
+    # b1 "Hehe."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_54ea337c:
+    # b1 "Good!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_7902288b:
+    # b1 "I feel like I could almost go for more..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_cf7777c4:
+    # a "I don't know if I can take it."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_1a6cba51:
+    # b1 "Come on. At least while I'm still hard!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_88c73864:
+    # b1 "Just for a bit more. Eh?"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_0df5a02e:
+    # a "Oh... Heh. Fine."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_9_3bd92cd2:
+    # b1 "Oh YEAH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_9_0c5811f6:
+    # b1 "Girl you got me GOING AGAIN!"
+    b1 ""
+
+translate english EP18_Benny_Sex_Label_10_ebe0ab07:
+    # a "SO big... So big... So big..."
+    a ""
+
+translate english EP18_Benny_Sex_Label_10_ab411846:
+    # a "FFFFFUUCK!"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_6f98ddff:
+    # b1 "AHHH!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_aee6d872:
+    # b1 "AHHHHOHOHO!!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_a147d0da:
+    # b1 "FUCKING GOOD!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_40b36c10:
+    # a "You coming?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_7d1053c7:
+    # b1 "YESS YES!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_98aedb28:
+    # b1 "AAHHHH!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_d1b83144:
+    # b1 "FUCK.... YEEAAAAAAAAAHHHH!!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_11caf6c2:
+    # b1 "Wow..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_3b7013c1:
+    # b1 "Another proper load..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_1ac51fdd:
+    # b1 "You wake a monster in me."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_b146fdb5:
+    # a "Wow... My pussy's so sore right now."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_9a9ae050:
+    # a "I'm still surprised you could go again."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_8822a9e4:
+    # b1 "Girl... So am I!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_3320c3ed:
+    # a "Ah."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_beb161dc:
+    # a "This was fun."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_51382ffd:
+    # b1 "Wow... It was quite something if you ask me."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_3445aeb7:
+    # a "Indeed, Benjamin."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_9dde644b:
+    # a "I will go clean up, ok?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_202baf2d:
+    # a "Can you stand up?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_69ae0426:
+    # b1 "I don't have the power."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_399ffe35:
+    # b1 "I'll probably have the best night's sleep tonight."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_0ab4112a:
+    # a "{i}...He was a beast...{/i}"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_abd4d76f:
+    # a "{i}...How can such an old man still fuck so hard...{/i}"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_bc21cf29:
+    # a "{i}...Considering the size of his body in relation to his huge cock...{/i}"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_596fb817:
+    # a "{i}...Wow...{/i}"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_be10cb51:
+    # b1 "Hehe... You look great!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_dd18b1c2:
+    # a "Thanks."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_c0fd56d1:
+    # a "Well, well..."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_2e7802f0:
+    # a "I spy with my little eye a naughty magazine."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_1bc895fc:
+    # a "With me as the cover girl."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_5665c954:
+    # a "What is that doing there?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_747078f9:
+    # b1 "Oh... Heh."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_3ebdca09:
+    # b1 "Just something to kill the time on long evenings."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_1b48bafd:
+    # b1 "You have to understand."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_f721a1f1:
+    # b1 "I'm your biggest fan!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_e7c9e9cd:
+    # b1 "And... To be able to fuck you!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_3b45d5f0:
+    # b1 "It's like I live in a fantasy world!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_1cb9a682:
+    # a "Anyway. I'll get going."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_28911271:
+    # a "I've got other things to do."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_d84b0201:
+    # a "Just as important."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_c44e6120:
+    # a "Will you be ok?"
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_39f928c5:
+    # b1 "Oh, yes!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_989e17e3:
+    # b1 "Better than ok!"
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_cf197956:
+    # b1 "Everything feels more vibrant, the colors, the sounds."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_813d34ee:
+    # b1 "It's like I just had surgery to enhance all my senses."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_d343a5df:
+    # a "Perhaps I'm just a very special doctor. Who helps people get better."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_c7d07c28:
+    # b1 "Indeed. Hehe..."
+    b1 ""
+
+translate english EP18_Benny_Anim_Menu_10_790322d4:
+    # a "See you later, Benny."
+    a ""
+
+translate english EP18_Benny_Anim_Menu_10_f8c557c7:
+    # b1 "Goodbye, Anna!"
+    b1 ""
+
+translate english EP18_John_1_739dd027:
+    # j4 "Anna!"
+    j4 ""
+
+translate english EP18_John_1_53d66465:
+    # j4 "Hey."
+    j4 ""
+
+translate english EP18_John_1_f0906f74:
+    # a "Hey, John."
+    a ""
+
+translate english EP18_John_1_31f4f57e:
+    # j4 "How are you doing?"
+    j4 ""
+
+translate english EP18_John_1_325fc7cb:
+    # a "Pretty good."
+    a ""
+
+translate english EP18_John_1_e0b16ff2:
+    # j4 "How was the beach?"
+    j4 ""
+
+translate english EP18_John_1_91191ce1:
+    # a "Oh. It was lovely."
+    a ""
+
+translate english EP18_John_1_501f4bd1:
+    # j4 "Wish I could've joined."
+    j4 ""
+
+translate english EP18_John_1_b04731a7:
+    # a "Don't take it the wrong way, but I'm glad you didn't."
+    a ""
+
+translate english EP18_John_1_d7690b73:
+    # a "It was a moment Andrew and I could finally spend together..."
+    a ""
+
+translate english EP18_John_1_0839bc27:
+    # a "Just the two of us."
+    a ""
+
+translate english EP18_John_1_5be858aa:
+    # j4 "Oh. OK, OK."
+    j4 ""
+
+translate english EP18_John_1_9a4323d2:
+    # j4 "Sorry."
+    j4 ""
+
+translate english EP18_John_1_fc3a046f:
+    # a "It's OK. What you up to?"
+    a ""
+
+translate english EP18_John_1_672a52ca:
+    # j4 "Just gonna go ride my motorcycle around."
+    j4 ""
+
+translate english EP18_John_1_145eb31d:
+    # j4 "Meet with some biker buddies of mine."
+    j4 ""
+
+translate english EP18_John_1_22faf597:
+    # j4 "You wanna join?"
+    j4 ""
+
+translate english EP18_John_1_268403ef:
+    # a "Oh. I'm good, thanks. Kind of tired."
+    a ""
+
+translate english EP18_John_1_6c74b070:
+    # j4 "Right. Well, your loss, honey."
+    j4 ""
+
+translate english EP18_John_1_964ece6f:
+    # a "{i}...Hmm... He mentioned the bikers...{/i}"
+    a ""
+
+translate english EP18_John_1_3b122753:
+    # a "{i}...I do need to expand the distribution to sell the 'product' faster...{/i}"
+    a ""
+
+translate english EP18_John_1_fb318693:
+    # a "Hold on!"
+    a ""
+
+translate english EP18_John_1_a95266ae:
+    # a "Sorry, you said ride the motorcycle?"
+    a ""
+
+translate english EP18_John_1_65b3a1e8:
+    # j4 "Yeah?"
+    j4 ""
+
+translate english EP18_John_1_b66a285c:
+    # a "I misheard you before."
+    a ""
+
+translate english EP18_John_1_0c0d3e82:
+    # a "I'd actually like to join you."
+    a ""
+
+translate english EP18_John_1_d285af5b:
+    # j4 "Sure. you gonna come like this?"
+    j4 ""
+
+translate english EP18_John_1_a6494922:
+    # a "Umm... No."
+    a ""
+
+translate english EP18_John_1_08218390:
+    # a "I'm just quickly going to change."
+    a ""
+
+translate english EP18_John_1_86d5c32b:
+    # a "Something..."
+    a ""
+
+translate english EP18_John_1_64a34d68:
+    # a "More appropriate. Heh."
+    a ""
+
+translate english EP18_John_1_a4ad4201:
+    # j4 "Can't wait, heh."
+    j4 ""
+
+translate english EP18_John_1_739dd027_1:
+    # j4 "Anna!"
+    j4 ""
+
+translate english EP18_John_1_53d66465_1:
+    # j4 "Hey."
+    j4 ""
+
+translate english EP18_John_1_f0906f74_1:
+    # a "Hey, John."
+    a ""
+
+translate english EP18_John_1_31f4f57e_1:
+    # j4 "How are you doing?"
+    j4 ""
+
+translate english EP18_John_1_325fc7cb_1:
+    # a "Pretty good."
+    a ""
+
+translate english EP18_John_1_bb373f4a:
+    # j4 "What you've been up to?"
+    j4 ""
+
+translate english EP18_John_1_e0b16ff2_1:
+    # j4 "How was the beach?"
+    j4 ""
+
+translate english EP18_John_1_91191ce1_1:
+    # a "Oh. It was lovely."
+    a ""
+
+translate english EP18_John_1_09e9651a:
+    # a "I just helped out a friend."
+    a ""
+
+translate english EP18_John_1_501f4bd1_1:
+    # j4 "Wish I could've joined."
+    j4 ""
+
+translate english EP18_John_1_b04731a7_1:
+    # a "Don't take it the wrong way, but I'm glad you didn't."
+    a ""
+
+translate english EP18_John_1_d7690b73_1:
+    # a "It was a moment Andrew and I could finally spend together..."
+    a ""
+
+translate english EP18_John_1_0839bc27_1:
+    # a "Just the two of us."
+    a ""
+
+translate english EP18_John_1_5be858aa_1:
+    # j4 "Oh. OK, OK."
+    j4 ""
+
+translate english EP18_John_1_9a4323d2_1:
+    # j4 "Sorry."
+    j4 ""
+
+translate english EP18_John_1_fc3a046f_1:
+    # a "It's OK. What you up to?"
+    a ""
+
+translate english EP18_John_1_672a52ca_1:
+    # j4 "Just gonna go ride my motorcycle around."
+    j4 ""
+
+translate english EP18_John_1_145eb31d_1:
+    # j4 "Meet with some biker buddies of mine."
+    j4 ""
+
+translate english EP18_John_1_22faf597_1:
+    # j4 "You wanna join?"
+    j4 ""
+
+translate english EP18_John_1_268403ef_1:
+    # a "Oh. I'm good, thanks. Kind of tired."
+    a ""
+
+translate english EP18_John_1_6c74b070_1:
+    # j4 "Right. Well, your loss, honey."
+    j4 ""
+
+translate english EP18_John_1_964ece6f_1:
+    # a "{i}...Hmm... He mentioned the bikers...{/i}"
+    a ""
+
+translate english EP18_John_1_3b122753_1:
+    # a "{i}...I do need to expand the distribution to sell the 'product' faster...{/i}"
+    a ""
+
+translate english EP18_John_1_fb318693_1:
+    # a "Hold on!"
+    a ""
+
+translate english EP18_John_1_a95266ae_1:
+    # a "Sorry, you said ride the motorcycle?"
+    a ""
+
+translate english EP18_John_1_65b3a1e8_1:
+    # j4 "Yeah?"
+    j4 ""
+
+translate english EP18_John_1_b66a285c_1:
+    # a "I misheard you before."
+    a ""
+
+translate english EP18_John_1_0c0d3e82_1:
+    # a "I'd actually like to join you."
+    a ""
+
+translate english EP18_John_1_d285af5b_1:
+    # j4 "Sure. you gonna come like this?"
+    j4 ""
+
+translate english EP18_John_1_a6494922_1:
+    # a "Umm... No."
+    a ""
+
+translate english EP18_John_1_08218390_1:
+    # a "I'm just quickly going to change."
+    a ""
+
+translate english EP18_John_1_86d5c32b_1:
+    # a "Something..."
+    a ""
+
+translate english EP18_John_1_64a34d68_1:
+    # a "More appropriate. Heh."
+    a ""
+
+translate english EP18_John_1_a4ad4201_1:
+    # j4 "Can't wait, heh."
+    j4 ""
+
+translate english EP18_John_1_559b7537:
+    # a "Hmm..."
+    a ""
+
+translate english EP18_John_1_40c28505:
+    # a "What would be 'more appropriate'..."
+    a ""
+
+translate english EP18_John_1_cdf67ced:
+    # a "Perfect."
+    a ""
+
+translate english EP18_John_1_92f45068:
+    # a "This will be very, very persuasive."
+    a ""
+
+translate english EP18_John_1_2fd78b17:
+    # a "And the hair."
+    a ""
+
+translate english EP18_John_1_2d0acc63:
+    # a "A little innocence in the mix."
+    a ""
+
+translate english EP18_John_1_50014d20:
+    # a "What do you think?"
+    a ""
+
+translate english EP18_John_1_227fb3e1:
+    # a "This is better?"
+    a ""
+
+translate english EP18_John_1_37eef28c:
+    # j4 "Huh?"
+    j4 ""
+
+translate english EP18_John_1_f2679403:
+    # j4 "Heh. That's..."
+    j4 ""
+
+translate english EP18_John_1_d8de2116:
+    # j4 "You sure?"
+    j4 ""
+
+translate english EP18_John_1_002591ef:
+    # j4 "Quite revealing."
+    j4 ""
+
+translate english EP18_John_1_25695ed8:
+    # a "Revealing?"
+    a ""
+
+translate english EP18_John_1_6074b408:
+    # a "I thought all biker girls dressed similar to this."
+    a ""
+
+translate english EP18_John_1_70b32552:
+    # a "You don't like it? I can change."
+    a ""
+
+translate english EP18_John_1_d0b20947:
+    # j4 "No, no."
+    j4 ""
+
+translate english EP18_John_1_727492f8:
+    # j4 "It's fine. No need to change, heh."
+    j4 ""
+
+translate english EP18_John_1_6ca770d1:
+    # a "That's what I thought."
+    a ""
+
+translate english EP18_John_1_25a957e7:
+    # a "Wow!"
+    a ""
+
+translate english EP18_John_1_73657513:
+    # a "That's yours?"
+    a ""
+
+translate english EP18_John_1_1b1bc706:
+    # j4 "It is."
+    j4 ""
+
+translate english EP18_John_1_e2d84f84:
+    # j4 "My baby."
+    j4 ""
+
+translate english EP18_John_1_ab5af3ff:
+    # j4 "Have you been on one before?"
+    j4 ""
+
+translate english EP18_John_1_30bb47e8:
+    # a "Many years ago."
+    a ""
+
+translate english EP18_John_1_00db5b5b:
+    # a "It's beautiful."
+    a ""
+
+translate english EP18_John_1_f3014ed9:
+    # j4 "Thanks."
+    j4 ""
+
+translate english EP18_John_1_08b4b711:
+    # j4 "The love of my life."
+    j4 ""
+
+translate english EP18_John_1_6f41dae5:
+    # a "The only one?"
+    a ""
+
+translate english EP18_John_1_cbbd42f4:
+    # j4 "Heh. Perhaps not..."
+    j4 ""
+
+translate english EP18_John_1_09459ee7:
+    # j4 "Hop on."
+    j4 ""
+
+translate english EP18_John_1_75f95444:
+    # a "Just like that?"
+    a ""
+
+translate english EP18_John_1_ad580d31:
+    # j4 "What of it?"
+    j4 ""
+
+translate english EP18_John_1_39add53e:
+    # a "What about helmets?"
+    a ""
+
+translate english EP18_John_1_260c8742:
+    # j4 "Will be fine, not a long ride anyway."
+    j4 ""
+
+translate english EP18_John_1_7ca1e6aa:
+    # a "You sure?"
+    a ""
+
+translate english EP18_John_1_99653044:
+    # j4 "Definitely, I've learned to control this beauty well."
+    j4 ""
+
+translate english EP18_John_1_f383fa76:
+    # a "Hmm. OK."
+    a ""
+
+translate english EP18_John_1_987b7f7e:
+    # j4 "Just hold on tight!"
+    j4 ""
+
+translate english EP18_John_1_fc22a111:
+    # a "OK! Hah!"
+    a ""
+
+translate english EP18_John_1_bc28c5a9:
+    # a "HAHA!"
+    a ""
+
+translate english EP18_John_1_ee284cd3:
+    # a "This is fun!"
+    a ""
+
+translate english EP18_John_1_9042c941:
+    # j4 "FUCK YEAH!"
+    j4 ""
+
+translate english EP18_John_1_abc7544f:
+    # j4 "Wanna go faster?"
+    j4 ""
+
+translate english EP18_John_1_e572384a:
+    # a "You sure we should?"
+    a ""
+
+translate english EP18_John_1_5d895137:
+    # j4 "Oh yeah!"
+    j4 ""
+
+translate english EP18_John_1_3bccb6f2:
+    # a "AAHHH!!"
+    a ""
+
+translate english EP18_John_1_a07d1d76:
+    # j4 "Haha! Don't worry!"
+    j4 ""
+
+translate english EP18_John_1_5ab618e7:
+    # j4 "Alright. We're here."
+    j4 ""
+
+translate english EP18_John_1_8018a713:
+    # j4 "This is the bar where we usually meet."
+    j4 ""
+
+translate english EP18_John_1_4a1ae36a:
+    # a "You and the bikers?"
+    a ""
+
+translate english EP18_John_1_b7897d5b:
+    # j4 "Yeah."
+    j4 ""
+
+translate english EP18_John_1_93d4eaf2:
+    # j4 "Our hang-out spot."
+    j4 ""
+
+translate english EP18_John_1_277a3dd9:
+    # j4 "You sure you're gonna be OK?"
+    j4 ""
+
+translate english EP18_John_1_2813e28f:
+    # a "What do you mean?"
+    a ""
+
+translate english EP18_John_1_73eaf6c9:
+    # j4 "The outfit."
+    j4 ""
+
+translate english EP18_John_1_32936ad0:
+    # j4 "They can be a rowdy bunch."
+    j4 ""
+
+translate english EP18_John_1_5c2d09db:
+    # a "Heh, yeah. I will be fine."
+    a ""
+
+translate english EP18_John_1_25f7532d:
+    # a "{i}...I think I've been here before, though.{/i}"
+    a ""
+
+translate english EP18_John_1_a61c1628:
+    # j4 "C'mon. Let's go."
+    j4 ""
+
+translate english EP18_John_1_559b7537_1:
+    # a "Hmm..."
+    a ""
+
+translate english EP18_John_1_2e2ba499:
+    # j4 "You good?"
+    j4 ""
+
+translate english EP18_John_1_bc74b111:
+    # a "Uh. what?"
+    a ""
+
+translate english EP18_John_1_babe8a25:
+    # a "Yeah, yeah."
+    a ""
+
+translate english EP18_John_1_d61c5a4c:
+    # a "Never better. hehe."
+    a ""
+
+translate english EP18_John_1_ac6db157:
+    # j4 "You seem a bit lost in thought."
+    j4 ""
+
+translate english EP18_John_1_413b555d:
+    # a "Oh. Heh. Maybe a little."
+    a ""
+
+translate english EP18_John_1_89d25dcf:
+    # j4 "Guys."
+    j4 ""
+
+translate english EP18_John_1_640b3873:
+    # bi1 "John."
+    bi1 ""
+
+translate english EP18_John_1_7ae99198:
+    # bi2 "What's up, wood."
+    bi2 ""
+
+translate english EP18_John_1_8526cabe:
+    # j4 "You doing well?"
+    j4 ""
+
+translate english EP18_John_1_42b7fd92:
+    # bi2 "Pretty alright, all things considered."
+    bi2 ""
+
+translate english EP18_John_1_f2dcf087:
+    # bi2 "Going for round two."
+    bi2 ""
+
+translate english EP18_John_1_5ac22f53:
+    # j4 "That's my boy, haha!"
+    j4 ""
+
+translate english EP18_John_1_41511409:
+    # a "Hello there."
+    a ""
+
+translate english EP18_John_1_eba39d39:
+    # bi2 "Well, well. Heh."
+    bi2 ""
+
+translate english EP18_John_1_8c331bdd:
+    # bi2 "Been a while since I've seen you around, Anna."
+    bi2 ""
+
+translate english EP18_John_1_37eef28c_1:
+    # j4 "Huh?"
+    j4 ""
+
+translate english EP18_John_1_2fd0482d:
+    # j4 "You know her?"
+    j4 ""
+
+translate english EP18_John_1_c61280ab:
+    # bi2 "We know of each other, yeah."
+    bi2 ""
+
+translate english EP18_John_1_c9ba3c56:
+    # j4 "Interesting. Heh."
+    j4 ""
+
+translate english EP18_John_1_1ce8f72f:
+    # j4 "Didn't know you were a regular in these parts."
+    j4 ""
+
+translate english EP18_John_1_b407e186:
+    # a "Not a local, no."
+    a ""
+
+translate english EP18_John_1_bebf19ff:
+    # a "Just had an occasion here."
+    a ""
+
+translate english EP18_John_1_9d5b6aa4:
+    # j4 "Alright, alright."
+    j4 ""
+
+translate english EP18_John_1_41511409_1:
+    # a "Hello there."
+    a ""
+
+translate english EP18_John_1_25d07062:
+    # bi2 "Heh, hey, back to you."
+    bi2 ""
+
+translate english EP18_John_1_73edc3f2:
+    # bi2 "Who's this?"
+    bi2 ""
+
+translate english EP18_John_1_f8b0b3e2:
+    # j4 "A friend. heh."
+    j4 ""
+
+translate english EP18_John_1_4b43fb9f:
+    # bi2 "A beautiful one."
+    bi2 ""
+
+translate english EP18_John_1_9d5b6aa4_1:
+    # j4 "Alright, alright."
+    j4 ""
+
+translate english EP18_John_1_57e12055:
+    # bi2 "We were about to get our third round."
+    bi2 ""
+
+translate english EP18_John_1_3b743f3a:
+    # bi2 "You guys in or out?"
+    bi2 ""
+
+translate english EP18_John_1_2f195fb8:
+    # a "At this time of the day?"
+    a ""
+
+translate english EP18_John_1_ad45bbf6:
+    # bi2 "It's weekend."
+    bi2 ""
+
+translate english EP18_John_1_c31421c3:
+    # j4 "We'll join you, of course!"
+    j4 ""
+
+translate english EP18_John_1_b60cff94:
+    # j4 "Hey, Jill."
+    j4 ""
+
+translate english EP18_John_1_b638fc9b:
+    # barji1 "John! Good to see you here."
+    barji1 ""
+
+translate english EP18_John_1_5b8b4a7a:
+    # barji1 "You doing good?"
+    barji1 ""
+
+translate english EP18_John_1_75f2093f:
+    # barji1 "Heard you guys got pretty rowdy yesterday."
+    barji1 ""
+
+translate english EP18_John_1_59dfb417:
+    # j4 "Always, haha."
+    j4 ""
+
+translate english EP18_John_1_e6af878e:
+    # barji1 "What can I get you two?"
+    barji1 ""
+
+translate english EP18_John_1_17dfdb26:
+    # j4 "Give us two Venebera IPAs."
+    j4 ""
+
+translate english EP18_John_1_91abd1cb:
+    # barji1 "Coming right up!"
+    barji1 ""
+
+translate english EP18_John_1_e572384a_1:
+    # a "You sure we should?"
+    a ""
+
+translate english EP18_John_1_d3c85f63:
+    # a "How will you ride the bike?"
+    a ""
+
+translate english EP18_John_1_6af9a125:
+    # j4 "C'mon. One drink won't do any harm."
+    j4 ""
+
+translate english EP18_John_1_a57d85ea:
+    # j4 "Trust me."
+    j4 ""
+
+translate english EP18_John_1_2deaad4e:
+    # j4 "We drive better with one beer inside."
+    j4 ""
+
+translate english EP18_John_1_95c1b65a:
+    # barji1 "There you go."
+    barji1 ""
+
+translate english EP18_John_1_a842ffd3:
+    # j4 "Thanks, Jill."
+    j4 ""
+
+translate english EP18_John_1_2b38186b:
+    # j4 "Say hi to Monica from me."
+    j4 ""
+
+translate english EP18_John_1_ead68cc5:
+    # barji1 "Will do, hehe."
+    barji1 ""
+
+translate english EP18_John_1_a37ac302:
+    # j4 "Mmm... I can almost feel the taste..."
+    j4 ""
+
+translate english EP18_John_1_e0aabf06:
+    # j4 "You know, we have a saying around here."
+    j4 ""
+
+translate english EP18_John_1_2813e28f_1:
+    # a "What do you mean?"
+    a ""
+
+translate english EP18_John_1_2394bd65:
+    # j4 "When we drink."
+    j4 ""
+
+translate english EP18_John_1_b5ee295f:
+    # j4 "The rest of the bikers are not around, but it's sort of our motto."
+    j4 ""
+
+translate english EP18_John_1_f994f6ae:
+    # j4 "Ride or die, and when you die, you'll ride forever!"
+    j4 ""
+
+translate english EP18_John_1_26783325:
+    # j4 "It's a life we choose, cheers!"
+    j4 ""
+
+translate english EP18_John_1_c4997908:
+    # a "Hehe. Cheers!"
+    a ""
+
+translate english EP18_John_1_8d11450b:
+    # j4 "One more thing. Bottoms up."
+    j4 ""
+
+translate english EP18_John_1_44e268e7:
+    # bi1 "It's good, isn't it hehe?"
+    bi1 ""
+
+translate english EP18_John_1_2858d250:
+    # a "It's... Umm... Whoa... Hehe."
+    a ""
+
+translate english EP18_John_1_e2a99448:
+    # bi2 "A bit too fast. We got a lightweight here, Haha."
+    bi2 ""
+
+translate english EP18_John_1_cc212dc3:
+    # bi1 "C'mon, give her a break man."
+    bi1 ""
+
+translate english EP18_John_1_37f59392:
+    # bi2 "We're gonna go outside for a smoke."
+    bi2 ""
+
+translate english EP18_John_1_515826d2:
+    # bi2 "You guys coming?"
+    bi2 ""
+
+translate english EP18_John_1_763befb1:
+    # a "Why not."
+    a ""
+
+translate english EP18_John_1_8c5a4512:
+    # bi1 "You smoke?"
+    bi1 ""
+
+translate english EP18_John_1_d4bb20cd:
+    # a "Uhh..."
+    a ""
+
+translate english EP18_John_1_cf9c6816:
+    # a "I don't."
+    a ""
+
+translate english EP18_John_1_24500402:
+    # bi1 "Suit yourself."
+    bi1 ""
+
+translate english EP18_John_1_e4a48a76:
+    # bi2 "By the way, John."
+    bi2 ""
+
+translate english EP18_John_1_3b3f59cb:
+    # bi2 "We got that package for you."
+    bi2 ""
+
+translate english EP18_John_1_1e3479af:
+    # bi2 "Our boy retrieved it from the stolen vehicle."
+    bi2 ""
+
+translate english EP18_John_1_81dc6c97:
+    # j4 "Uh... Heh."
+    j4 ""
+
+translate english EP18_John_1_a2514242:
+    # j4 "He's joking around."
+    j4 ""
+
+translate english EP18_John_1_08bbc8ac:
+    # j4 "No stolen vehicles here."
+    j4 ""
+
+translate english EP18_John_1_ad0b4d0c:
+    # bi2 "Hehe..."
+    bi2 ""
+
+translate english EP18_John_1_5fe9321e:
+    # bi2 "Oh, Johnny boy."
+    bi2 ""
+
+translate english EP18_John_1_91f43932:
+    # bi2 "If only you knew."
+    bi2 ""
+
+translate english EP18_John_1_9ab7191d:
+    # j4 "What are you talking about?"
+    j4 ""
+
+translate english EP18_John_1_f293d31f:
+    # bi1 "We've met this girl before."
+    bi1 ""
+
+translate english EP18_John_1_a70b5c8b:
+    # bi1 "We know some stuff about her."
+    bi1 ""
+
+translate english EP18_John_1_6a23753d:
+    # j4 "Meaning?"
+    j4 ""
+
+translate english EP18_John_1_d39bd6dc:
+    # bi1 "She's not exactly an angel either."
+    bi1 ""
+
+translate english EP18_John_1_bf47487f:
+    # bi1 "Into some shady shit, just as we are."
+    bi1 ""
+
+translate english EP18_John_1_dd376d15:
+    # bi1 "So no point in playing saint."
+    bi1 ""
+
+translate english EP18_John_1_32d5c31c:
+    # bi1 "We may not have met her before..."
+    bi1 ""
+
+translate english EP18_John_1_57595254:
+    # bi1 "But our contacts have."
+    bi1 ""
+
+translate english EP18_John_1_3f03bb4e:
+    # j4 "What do you mean?"
+    j4 ""
+
+translate english EP18_John_1_d39bd6dc_1:
+    # bi1 "She's not exactly an angel either."
+    bi1 ""
+
+translate english EP18_John_1_bf47487f_1:
+    # bi1 "Into some shady shit, just as we are."
+    bi1 ""
+
+translate english EP18_John_1_dd376d15_1:
+    # bi1 "So no point in playing saint."
+    bi1 ""
+
+translate english EP18_John_1_e18639bc:
+    # j4 "Anna?"
+    j4 ""
+
+translate english EP18_John_1_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP18_John_1_7da1d6e9:
+    # bi1 "Oh, yeah, dude."
+    bi1 ""
+
+translate english EP18_John_1_ecc0c866:
+    # bi1 "She's into some criminal shit, same as us."
+    bi1 ""
+
+translate english EP18_John_1_d63a5409:
+    # j4 "Seriously?"
+    j4 ""
+
+translate english EP18_John_1_48dd2fca:
+    # j4 "Are they joking?"
+    j4 ""
+
+translate english EP18_John_1_77b3b97e:
+    # bi1 "Just tell her, Anna."
+    bi1 ""
+
+translate english EP18_John_1_239132fa:
+    # a "I... Well..."
+    a ""
+
+translate english EP18_John_1_adaa717b:
+    # a "I'm... I've done some shady stuff, yeah."
+    a ""
+
+translate english EP18_John_1_f56274a7:
+    # j4 "Wow."
+    j4 ""
+
+translate english EP18_John_1_426e4fd8:
+    # j4 "I didn't expect that at all."
+    j4 ""
+
+translate english EP18_John_1_2b16867a:
+    # j4 "I thought she was just an office lady."
+    j4 ""
+
+translate english EP18_John_1_3a2112ec:
+    # bi2 "Been living under a rock, John."
+    bi2 ""
+
+translate english EP18_John_1_fad2693e:
+    # bi2 "She's been seen doing work Sergey for 'The Bear.'"
+    bi2 ""
+
+translate english EP18_John_1_e87a7ec8:
+    # j4 "WHAT?"
+    j4 ""
+
+translate english EP18_John_1_aee19828:
+    # j4 "Wait."
+    j4 ""
+
+translate english EP18_John_1_4e51dcb2:
+    # j4 "Why did you come here?"
+    j4 ""
+
+translate english EP18_John_1_423493f2:
+    # j4 "Was it on 'business'?"
+    j4 ""
+
+translate english EP18_John_1_76c4395b:
+    # a "Well..."
+    a ""
+
+translate english EP18_John_1_f56274a7_1:
+    # j4 "Wow."
+    j4 ""
+
+translate english EP18_John_1_4f8d9bf6:
+    # j4 "Alright, the less I know, the better."
+    j4 ""
+
+translate english EP18_John_1_fa0fd24e:
+    # a "I did come with some proposals... I won't hide it anymore."
+    a ""
+
+translate english EP18_John_1_3f49ca8a:
+    # a "But It's between them and me..."
+    a ""
+
+translate english EP18_John_1_643fe599:
+    # j4 "Damn... I'm perplexed, to be honest."
+    j4 ""
+
+translate english EP18_John_1_cfca00bf:
+    # j4 "You know what?"
+    j4 ""
+
+translate english EP18_John_1_f373f5bc:
+    # j4 "I really don't want to be a part of this whole ordeal. I'll just go recover the package."
+    j4 ""
+
+translate english EP18_John_1_95fc3d71:
+    # j4 "Meanwhile, you can deal with your business."
+    j4 ""
+
+translate english EP18_John_1_132c51b0:
+    # bi2 "I still remember our previous 'encounter.'"
+    bi2 ""
+
+translate english EP18_John_1_8953a08f:
+    # bi1 "Hah. Yeah."
+    bi1 ""
+
+translate english EP18_John_1_774df18e:
+    # bi2 "It was pretty 'interesting.'"
+    bi2 ""
+
+translate english EP18_John_1_58dd0534:
+    # a "Oh c'mon. That was a while ago."
+    a ""
+
+translate english EP18_John_1_0d83b714:
+    # a "Besides, it wasn't a big deal."
+    a ""
+
+translate english EP18_John_1_909632ab:
+    # bi2 "Oh really?"
+    bi2 ""
+
+translate english EP18_John_1_a2215606:
+    # bi2 "Still fresh in my mind."
+    bi2 ""
+
+translate english EP18_John_1_87ff949b:
+    # bi2 "Kind of seemed like a big deal."
+    bi2 ""
+
+translate english EP18_John_1_28c408f1:
+    # bi1 "He's right, you've got a big deal in the back."
+    bi1 ""
+
+translate english EP18_John_1_9e3308e5:
+    # a "Anyway. snap back."
+    a ""
+
+translate english EP18_John_1_e513b750:
+    # a "I'm here to discuss business."
+    a ""
+
+translate english EP18_John_1_2e55b255:
+    # a "I know what you guys do and..."
+    a ""
+
+translate english EP18_John_1_644e8a7c:
+    # a "I've got some product."
+    a ""
+
+translate english EP18_John_1_f55f47d1:
+    # a "I'm looking for new distribution."
+    a ""
+
+translate english EP18_John_1_85733ca9:
+    # bi2 "And you've come to us..."
+    bi2 ""
+
+translate english EP18_John_1_216d156a:
+    # bi2 "What makes you think we'd deal with you."
+    bi2 ""
+
+translate english EP18_John_1_21ac8ef4:
+    # bi2 "We're doing just fine without new involvements."
+    bi2 ""
+
+translate english EP18_John_1_76ab3a2d:
+    # a "Fine..."
+    a ""
+
+translate english EP18_John_1_2349c638:
+    # a "I hadn't even gotten to the best bit..."
+    a ""
+
+translate english EP18_John_1_d09ef7c9:
+    # a "But if you'll shut me down before I've shown you how good the product is..."
+    a ""
+
+translate english EP18_John_1_9c6a19f0:
+    # a "Then I'm out."
+    a ""
+
+translate english EP18_John_1_de2ea01b:
+    # bi2 "Wait, wait."
+    bi2 ""
+
+translate english EP18_John_1_3044dd24:
+    # bi2 "Alright."
+    bi2 ""
+
+translate english EP18_John_1_d912ea47:
+    # bi2 "I'm just joking around."
+    bi2 ""
+
+translate english EP18_John_1_5beaed50:
+    # bi2 "We can hear you out."
+    bi2 ""
+
+translate english EP18_John_1_3598b193:
+    # bi2 "Since you used to work for Sergey."
+    bi2 ""
+
+translate english EP18_John_1_52e3077b:
+    # a "Oh, now you want to play ball?"
+    a ""
+
+translate english EP18_John_1_58f79ebb:
+    # bi2 "Yeah. show us the product."
+    bi2 ""
+
+translate english EP18_John_1_5704cfa3:
+    # bi2 "Who are you calling?"
+    bi2 ""
+
+translate english EP18_John_1_e492a961:
+    # a "C'mon."
+    a ""
+
+translate english EP18_John_1_ca1fa9f2:
+    # a "I worked for Sergey. You think I'd just walk around with a pound of cocaine?"
+    a ""
+
+translate english EP18_John_1_57984222:
+    # a "I got my contacts, my safe locations."
+    a ""
+
+translate english EP18_John_1_8e5a416e:
+    # a "Not my first rodeo."
+    a ""
+
+translate english EP18_John_1_e3d56128:
+    # bi2 "Damn."
+    bi2 ""
+
+translate english EP18_John_1_a20cefa7:
+    # "..."
+    ""
+
+translate english EP18_John_1_bb28bba5:
+    # a "Hey!"
+    a ""
+
+translate english EP18_John_1_4e199824:
+    # a "You on the spot?"
+    a ""
+
+translate english EP18_John_1_95dfb8dc:
+    # m2 "Yeah. What's up?"
+    m2 ""
+
+translate english EP18_John_1_fc9191f9:
+    # a "Meet me near your house. I need some product."
+    a ""
+
+translate english EP18_John_1_40e7d8c4:
+    # m2 "Alright, girl."
+    m2 ""
+
+translate english EP18_John_1_28eacf93:
+    # m2 "Got some ready to go."
+    m2 ""
+
+translate english EP18_John_1_20e0bbd5:
+    # bi1 "She's for real, sounds like."
+    bi1 ""
+
+translate english EP18_John_1_511ea0e4:
+    # a "I'll be there in five."
+    a ""
+
+translate english EP18_John_1_5b7188df:
+    # m2 "Got it."
+    m2 ""
+
+translate english EP18_John_1_30424ef3:
+    # a "See. I'm not some amateur."
+    a ""
+
+translate english EP18_John_1_a9ab51de:
+    # a "Trust me when I say that this could be very beneficial."
+    a ""
+
+translate english EP18_John_1_290bcd75:
+    # bi1 "Sure, sure. Obviously, we'll want to test it out."
+    bi1 ""
+
+translate english EP18_John_1_86f485dd:
+    # a "Why do you think I'm going to meet my contact now?"
+    a ""
+
+translate english EP18_John_1_7fd4bce7:
+    # a "I'll be back in a while. Don't go anywhere."
+    a ""
+
+translate english EP18_John_1_c3a55078:
+    # bi2 "You got some balls, girl."
+    bi2 ""
+
+translate english EP18_John_1_46d639cf:
+    # bi2 "Respect."
+    bi2 ""
+
+translate english EP18_John_1_c82b667e:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_John_1_240d434d:
+    # bi1 "Among other things..."
+    bi1 ""
+
+translate english EP18_John_1_40835ae7:
+    # m2 "Anna."
+    m2 ""
+
+translate english EP18_John_1_3923e6dd:
+    # m2 "What's up?"
+    m2 ""
+
+translate english EP18_John_1_451077a4:
+    # m2 "Looking good!"
+    m2 ""
+
+translate english EP18_John_1_9cc15b5e:
+    # m2 "What do you need the product for?"
+    m2 ""
+
+translate english EP18_John_1_256f3f55:
+    # a "I'm out working, getting distribution contacts. Need a package of your finest."
+    a ""
+
+translate english EP18_John_1_aeb8eb22:
+    # m2 "Already ready."
+    m2 ""
+
+translate english EP18_John_1_d068ea3f:
+    # m2 "Gotta say."
+    m2 ""
+
+translate english EP18_John_1_0e49b8ab:
+    # m2 "You've been really putting in work."
+    m2 ""
+
+translate english EP18_John_1_04dccb01:
+    # a "Eh. You don't know the half of it."
+    a ""
+
+translate english EP18_John_1_7a954c69:
+    # m2 "Well. Sergey hasn't really explained everything to me."
+    m2 ""
+
+translate english EP18_John_1_2f520e82:
+    # a "Yeah, he's a lot more cautious."
+    a ""
+
+translate english EP18_John_1_c3d61b49:
+    # m2 "All I know is I gotta hustle double now."
+    m2 ""
+
+translate english EP18_John_1_66017b7d:
+    # m2 "And keep my eyes peeled for Carl."
+    m2 ""
+
+translate english EP18_John_1_c55fa757:
+    # a "Yeah..."
+    a ""
+
+translate english EP18_John_1_0ffee0f5:
+    # m2 "I don't really know a lot."
+    m2 ""
+
+translate english EP18_John_1_5f131c0c:
+    # m2 "Just some bits that you've told me."
+    m2 ""
+
+translate english EP18_John_1_c3d61b49_1:
+    # m2 "All I know is I gotta hustle double now."
+    m2 ""
+
+translate english EP18_John_1_66017b7d_1:
+    # m2 "And keep my eyes peeled for Carl."
+    m2 ""
+
+translate english EP18_John_1_c55fa757_1:
+    # a "Yeah..."
+    a ""
+
+translate english EP18_John_1_45c15f99:
+    # a "Things will get more clear in the future."
+    a ""
+
+translate english EP18_John_1_0c8f4e20:
+    # m2 "I'm trusting you on this one, Anna."
+    m2 ""
+
+translate english EP18_John_1_e54d2dfc:
+    # a "Anyway."
+    a ""
+
+translate english EP18_John_1_e79fa601:
+    # m2 "Here's the stuff, as asked."
+    m2 ""
+
+translate english EP18_John_1_b78f5cd8:
+    # a "A whole package?"
+    a ""
+
+translate english EP18_John_1_f20098c0:
+    # m2 "Exactly."
+    m2 ""
+
+translate english EP18_John_1_5492007e:
+    # a "Thanks, Michael."
+    a ""
+
+translate english EP18_John_1_d33d7d00:
+    # a "You're awesome."
+    a ""
+
+translate english EP18_John_1_51ca55da:
+    # a "If I can land this deal, that should really speed things up for us."
+    a ""
+
+translate english EP18_John_1_11ff7452:
+    # m2 "But you owe me some answers."
+    m2 ""
+
+translate english EP18_John_1_b25e5d00:
+    # m2 "OK?"
+    m2 ""
+
+translate english EP18_John_1_8b62a6a6:
+    # a "You got it."
+    a ""
+
+translate english EP18_John_1_6f7d6255:
+    # a "I'll tell you everything."
+    a ""
+
+translate english EP18_John_1_4b472c65:
+    # m2 "Good luck, girl."
+    m2 ""
+
+translate english EP18_John_1_9a5277f3:
+    # bi2 "Well, well."
+    bi2 ""
+
+translate english EP18_John_1_5d113835:
+    # a "You doubted me?"
+    a ""
+
+translate english EP18_John_1_24578ac3:
+    # bi2 "Not for a second, hehe."
+    bi2 ""
+
+translate english EP18_John_1_71bbc1a5:
+    # a "I've got the stuff."
+    a ""
+
+translate english EP18_John_1_8ba49d4b:
+    # a "If you want to test it out."
+    a ""
+
+translate english EP18_John_1_52294e49:
+    # a "Trust me, this shit is good."
+    a ""
+
+translate english EP18_John_1_0facaaab:
+    # a "Not some diluted off-brand bullshit a lot of other places are selling."
+    a ""
+
+translate english EP18_John_1_a889f6f6:
+    # bi2 "Hmm."
+    bi2 ""
+
+translate english EP18_John_1_a77b845f:
+    # bi2 "I'll be the judge of that."
+    bi2 ""
+
+translate english EP18_John_1_c864911e:
+    # a "Go right ahead."
+    a ""
+
+translate english EP18_John_1_05c809c6:
+    # bi2 "That's a big tester."
+    bi2 ""
+
+translate english EP18_John_1_cfe7960f:
+    # a "I know. We've got plenty more where that came from."
+    a ""
+
+translate english EP18_John_1_c5ceb85c:
+    # a "Consider this an 'onboarding' gift."
+    a ""
+
+translate english EP18_John_1_6603986e:
+    # bi2 "Spoken like a true 'office lady.'"
+    bi2 ""
+
+translate english EP18_John_1_905c5953:
+    # bi2 "As John put it."
+    bi2 ""
+
+translate english EP18_John_1_afaad085:
+    # a "I have my moments, hehe."
+    a ""
+
+translate english EP18_John_1_db7abd7a:
+    # bi2 "Alright, be back in a sec."
+    bi2 ""
+
+translate english EP18_John_1_ef1f2dbd:
+    # bi1 "You're not scared he'll just disappear with the stuff."
+    bi1 ""
+
+translate english EP18_John_1_83ce4f69:
+    # a "He may. But then we'll just blacklist your entire organization."
+    a ""
+
+translate english EP18_John_1_3cf18f31:
+    # a "And that's the last of our cocaine he and anyone he's affiliated with will see."
+    a ""
+
+translate english EP18_John_1_4469c916:
+    # bi1 "Impressive."
+    bi1 ""
+
+translate english EP18_John_1_113d183b:
+    # bi1 "Don't take it as a threat, but you should be more careful."
+    bi1 ""
+
+translate english EP18_John_1_34af4e69:
+    # a "From what?"
+    a ""
+
+translate english EP18_John_1_901d3a36:
+    # bi1 "Big hulking dudes."
+    bi1 ""
+
+translate english EP18_John_1_57a27c17:
+    # a "You'll harm me?"
+    a ""
+
+translate english EP18_John_1_646c0442:
+    # a "You do know what happens to you if you harm a negotiator."
+    a ""
+
+translate english EP18_John_1_923beffe:
+    # bi1 "You talk big, but can you back it up?"
+    bi1 ""
+
+translate english EP18_John_1_0082c698:
+    # a "I used to work for Sergey. Guess who He worked for..."
+    a ""
+
+translate english EP18_John_1_900ceb46:
+    # bi1 "I always thought he was the big dog."
+    bi1 ""
+
+translate english EP18_John_1_0c2f15d4:
+    # a "Trust me, he is simply a pawn. And if that crazy man was the pawn, imagine who's at the top."
+    a ""
+
+translate english EP18_John_1_ba66f2f3:
+    # bi1 "Khem..."
+    bi1 ""
+
+translate english EP18_John_1_4d23e585:
+    # bi1 "Um... Nice outfit."
+    bi1 ""
+
+translate english EP18_John_1_af75c5a9:
+    # a "Hehe... Thought you'd come to your senses."
+    a ""
+
+translate english EP18_John_1_8f9d6eb6:
+    # a "And thank you."
+    a ""
+
+translate english EP18_John_1_fe281eb0:
+    # a "I picked it out specifically for this occasion."
+    a ""
+
+translate english EP18_John_1_c587e383:
+    # bi1 "We so special?"
+    bi1 ""
+
+translate english EP18_John_1_ff073fbe:
+    # a "If you help me distribute this product, you will be very... Very special."
+    a ""
+
+translate english EP18_John_1_382ca696:
+    # bi1 "Hehe..."
+    bi1 ""
+
+translate english EP18_John_1_c07e3924:
+    # bi1 "They definitely found a good negotiator."
+    bi1 ""
+
+translate english EP18_John_1_466e4f60:
+    # a "I'm pretty good at convincing people. Stick around, and you'll find out why."
+    a ""
+
+translate english EP18_John_1_aa63e887:
+    # bi2 "{b}*Sniff*{/b}"
+    bi2 ""
+
+translate english EP18_John_1_aa63e887_1:
+    # bi2 "{b}*Sniff*{/b}"
+    bi2 ""
+
+translate english EP18_John_1_aa63e887_2:
+    # bi2 "{b}*Sniff*{/b}"
+    bi2 ""
+
+translate english EP18_John_1_e3d56128_1:
+    # bi2 "Damn."
+    bi2 ""
+
+translate english EP18_John_1_1ed8caf4:
+    # bi2 "She's fucking right."
+    bi2 ""
+
+translate english EP18_John_1_6608870b:
+    # bi2 "This shit is like gold dust."
+    bi2 ""
+
+translate english EP18_John_1_82508602:
+    # bi2 "Haven't had a hit like this since our party in Fort Bailey Glade."
+    bi2 ""
+
+translate english EP18_John_1_f12c5e10:
+    # bi1 "That good?"
+    bi1 ""
+
+translate english EP18_John_1_ddc6e8c8:
+    # bi2 "Oh yeah. It's fucking POWERFUL!"
+    bi2 ""
+
+translate english EP18_John_1_742ce79d:
+    # a "I'm a woman of my word."
+    a ""
+
+translate english EP18_John_1_2c0d164a:
+    # bi2 "You weren't lying... Damn..."
+    bi2 ""
+
+translate english EP18_John_1_542e18b4:
+    # bi2 "Alright. You win."
+    bi2 ""
+
+translate english EP18_John_1_70bc4917:
+    # bi2 "We'll sell this stuff."
+    bi2 ""
+
+translate english EP18_John_1_7bc8c9b0:
+    # bi2 "But... There's the question of percentages."
+    bi2 ""
+
+translate english EP18_John_1_3cf56af9:
+    # a "80:20"
+    a ""
+
+translate english EP18_John_1_73921dea:
+    # bi2 "60:40"
+    bi2 ""
+
+translate english EP18_John_1_559b7537_2:
+    # a "Hmm..."
+    a ""
+
+translate english EP18_John_1_862fb14d:
+    # bi2 "Oh... What you've got in mind?"
+    bi2 ""
+
+translate english EP18_John_1_c61fce43:
+    # a "Well... I know everyone likes my melons."
+    a ""
+
+translate english EP18_John_1_1153600c:
+    # a "And I bet you'd want to see them again."
+    a ""
+
+translate english EP18_John_1_090d1c96:
+    # a "And I bet you'd LOVE to see them."
+    a ""
+
+translate english EP18_John_1_3b964fcb:
+    # bi1 "For 5%%. Why not. Not a big deal."
+    bi1 ""
+
+translate english EP18_John_1_c82b667e_1:
+    # a "Hehe..."
+    a ""
+
+translate english EP18_John_1_ef85c08c:
+    # a "Good."
+    a ""
+
+translate english EP18_John_1_41fab622:
+    # bi2 "I'm starting to see why you're the negotiator."
+    bi2 ""
+
+translate english EP18_John_1_a2e27db1:
+    # a "Indeed. I do have a particular set of skills. Don't I?"
+    a ""
+
+translate english EP18_John_1_0cc3f144:
+    # bi2 "Oh yeah."
+    bi2 ""
+
+translate english EP18_John_1_33f668cb:
+    # bi2 "These are fucking nice."
+    bi2 ""
+
+translate english EP18_John_1_e492a961_1:
+    # a "C'mon."
+    a ""
+
+translate english EP18_John_1_3d140214:
+    # a "You can do more."
+    a ""
+
+translate english EP18_John_1_0210ef8f:
+    # a "{i}...Men... Show them boobs, and they forget about percentages...{/i}"
+    a ""
+
+translate english EP18_John_1_31c2a23c:
+    # a "{i}...What if I pushed for more...{/i}"
+    a ""
+
+translate english EP18_John_1_2c5cffda:
+    # bi2 "Whoa..."
+    bi2 ""
+
+translate english EP18_John_1_63dbb351:
+    # bi2 "That's quite something."
+    bi2 ""
+
+translate english EP18_John_1_73dfcb8e:
+    # a "I told you."
+    a ""
+
+translate english EP18_John_1_bb8e4b4e:
+    # a "..."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_4421e80c:
+    # a "Trust me. I'm part of the benefits... If you go this direction."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_8d54e9db:
+    # a "A reoccurring privilege..."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_87c0817d:
+    # bi2 "Really?"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_9392507d:
+    # bi2 "Well..."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_baaf8661:
+    # bi2 "Heh..."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_9f13b486:
+    # bi2 "You've got a deal, babe."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_1cec8946:
+    # a "I knew I could persuade you."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_91cbc669:
+    # a "Trust me, you won't be disappointed."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_fc052932:
+    # bi1 "This will be fucking good."
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_d1b6db70:
+    # a "Oh, you can count on that, big boy."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_e492a961:
+    # a "C'mon."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_3ea0102f:
+    # a "Go ahead."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_96b86abe:
+    # a "I know you want to."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_80363e4a:
+    # bi1 "Nice!"
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_47663891:
+    # bi1 "That's what I like to see."
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_264f9d34:
+    # a "You are allowed to do more than just look."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_029e04d7:
+    # bi1 "OH YEAH!"
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_f075430e:
+    # a "AAH!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_d849f5c7:
+    # a "Oh..."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_114c3121:
+    # bi1 "Looks like you're enjoying those fingers."
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_a6f51fcc:
+    # bi1 "Moist already."
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_695d16df:
+    # a "Always ready to negotiate... Hehe."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_999136b6:
+    # bi1 "That's apparent, indeed."
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_7891e355:
+    # a "Oh."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_80363e4a_1:
+    # bi1 "Nice!"
+    bi1 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_97016968:
+    # a "Mhm."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_99fc7188:
+    # a "Keep doing that!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_43fa3de0:
+    # a "Aah... I believe that 75:25 is a good deal, considering other 'benefits' you are getting."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_8d85aa89:
+    # bi2 "You sound more and more convincing every second."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_dd8b1281:
+    # bi2 "C'mon."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_cd1b5617:
+    # bi2 "Time to earn your keep!"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_af12a9cd:
+    # a "I could tell you the same thing."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_23dab7e8:
+    # a "If you fail to give me a good fucking..."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_843c8213:
+    # a "I might have to look elsewhere."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_e7b1fa2e:
+    # bi2 "Oh Heh."
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_fea35adc:
+    # bi2 "You'll enjoy this, I promise!"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_3610bc0a:
+    # a "I better!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_4f75cf33:
+    # bi2 "You are a good slut, you know that?"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_94e3ad8f:
+    # a "Mhmmm."
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_1f05ef17:
+    # a "OH!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_86bf6d5b:
+    # a "C'mon. Give me what I want!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_f9960ec5:
+    # bi2 "Fuck you are so good!"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_f345d567:
+    # a "AAHHHAA!!!"
+    a ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_db5e234c:
+    # bi2 "OOHHH YEAH!!!"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_2b2c457a:
+    # bi2 "THAT PUSSY FUCKING SLAPS!"
+    bi2 ""
+
+translate english EP18_Bikers_Sex_Scene_Label_Gallery_e7d733aa:
+    # bi2 "You're so FUCKING WET!"
+    bi2 ""
+
+translate english EP18_Biker_Sex_Label_1_15a97098:
+    # bi2 "OH shit!"
+    bi2 ""
+
+translate english EP18_Biker_Sex_Label_1_690f861a:
+    # bi2 "THIS SHIT IS GOOD AS FUCK!"
+    bi2 ""
+
+translate english EP18_Biker_Sex_Label_1_3c9fc663:
+    # a "MHMMM..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_94ebd8a0:
+    # a "AH!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_76da7ba7:
+    # a "OOHHAAAA!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_2fc4ea55:
+    # a "AHHHH!!!!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_122df1d0:
+    # bi1 "I feel like that mouth oughta do some work."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_1_a638d338:
+    # bi1 "Oh yeah!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_1_4452b55b:
+    # a "Mmm..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_490bc6ee:
+    # bi1 "Wish every negotiation went like this."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_1_5e97af02:
+    # bi2 "Haha. damn straight."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_1_98778ec1:
+    # a "KHHAAAA!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_1_029e04d7:
+    # bi1 "OH YEAH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_1_1d695a8a:
+    # bi1 "Such a good mouth."
+    bi1 ""
+
+translate english EP18_Biker_Sex_Label_2_1e50c141:
+    # bi1 "That mouth WORKING!"
+    bi1 ""
+
+translate english EP18_Biker_Sex_Label_2_c153bca0:
+    # a "Hmmph..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_72058806:
+    # a "Mmmm.!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_492888ac:
+    # bi1 "Fuck!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_aac55bd1:
+    # bi1 "AAHHH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_024e4aa6:
+    # bi1 "Take my entire cock!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_5cb3bdf7:
+    # bi1 "C'mon girl."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_016ee37d:
+    # bi1 "I gotta test that pussy out."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_62ac1969:
+    # a "OK."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_817af250:
+    # bi1 "Come here."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_9e75868b:
+    # bi1 "Fuuck."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_3bc2c7a8:
+    # bi1 "I can't wait a moment longer."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_38831c37:
+    # a "Then we have a deal?"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_59afb60e:
+    # bi1 "Yeah, yeah."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_4e32c4bb:
+    # bi1 "Just ride me, girl."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_8735e946:
+    # bi1 "WOOW!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_52f8181d:
+    # bi1 "That looks fucking fantastic!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_1ba83031:
+    # a "You like it, yeah?"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_c78d8776:
+    # bi1 "Better than anything I've seen before."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_7f108f9a:
+    # a "Hehe."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_7e18f6f2:
+    # a "Let me give you an enjoyable ride then."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_4d0953a3:
+    # bi1 "Fuck YEAH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_4cbee875:
+    # a "AAHHh!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_a07eb0e2:
+    # bi1 "FUUUUCK!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_4064430b:
+    # a "OooAAAHHH!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_616b0572:
+    # bi1 "SHIIIT!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_2362fe30:
+    # bi1 "THAT PUSSY DOING GOOD WORK!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_2_18f7e16e:
+    # a "FUCK!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_27fa2c90:
+    # a "{i}...So hot... Getting fucked by two random bikers...{/i}"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_2_66218ad6:
+    # a "{i}...I can't hold my excitement fuck...{/i}"
+    a ""
+
+translate english EP18_Biker_Sex_Label_3_e65f93f1:
+    # a "AHHH!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_3fcfe2a7:
+    # a "AAHHHAAA!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_4ebbeeff:
+    # bi1 "OHH SHIT!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_3_7d432fee:
+    # bi1 "FUCK FUCK!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_3_e6c4dee5:
+    # a "MHMM!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_4ed0bed3:
+    # bi2 "C'mon girl. I'm ready to shoot a load."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_86dbb4bc:
+    # bi2 "Get up against that wall."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_da63193e:
+    # a "Hehe. OK."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_a5f67613:
+    # bi2 "You're the hottest bitch in town for sure."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_048e95fc:
+    # bi2 "And the best negotiator I've met."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_2d3bc7d4:
+    # a "Oh I bet."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_178e6983:
+    # a "Now give me some more of that cock!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_e5ddc81a:
+    # a "AAAAAAAA!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_3f350d08:
+    # a "Yeah!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_73e850e0:
+    # a "COCK... SO... Good..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_3_1ebb9a4d:
+    # bi2 "I'm going to power fuck you!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_5a5fd990:
+    # bi2 "Give you all that spunk!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_f33de21c:
+    # bi2 "Fill you up so much!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_3_8ac41de7:
+    # a "YES PLEASE!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_4_e65f93f1:
+    # a "AHHH!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_4_b2bb84c3:
+    # a "YEAH!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_4_12737fb8:
+    # bi2 "FUCK THIS SHIT IS GETTING ME GOINNNG!!!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_707fcdc5:
+    # "Moans could be heard throughout the entire alley."
+    ""
+
+translate english EP18_Biker_Anim_Menu_4_16dc4e51:
+    # "Echoing off the walls and into the windows of the buildings."
+    ""
+
+translate english EP18_Biker_Anim_Menu_4_2723537d:
+    # "Hot depravities were taking place..."
+    ""
+
+translate english EP18_Biker_Anim_Menu_4_1aed86ab:
+    # bi2 "FUUCK!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_abf4513b:
+    # bi2 "GETTING CLOSE!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_5c6f76ad:
+    # a "Fill... Me... UP!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_1aed86ab_1:
+    # bi2 "FUUCK!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_6de4f3a7:
+    # bi2 "YEAAHHH!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_ca26ac97:
+    # bi1 "AAAAHHHA!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_4_e979e911:
+    # a "OHHH!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_4bc14a21:
+    # bi2 "That's a good one!"
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_8021dff1:
+    # a "Got it all out?"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_10861c4b:
+    # bi2 "Yeah... Wheew."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_4_e492a961:
+    # a "C'mon."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_74b1417f:
+    # a "I ain't done yet."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_4c17176b:
+    # a "And I'm sure you aren't either."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_5887123d:
+    # bi1 "Hehe. I bet there's some room left there."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_4_8c36cd67:
+    # a "There is... Besides, that cum is already leaking out. Leaving new room."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_da5b2733:
+    # a "Give me your load too."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_8770bb28:
+    # a "Enjoy the benefits of working with us!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_deba7916:
+    # bi1 "FUCK YEAH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_4_f81f043e:
+    # bi1 "FUCK!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_4_c8339e79:
+    # bi1 "YEAHHHH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_4_3c801ecc:
+    # a "OHH!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_099f66fc:
+    # a "That's right!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_40ebc22f:
+    # a "Give me that cock!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_4_0b43d3b2:
+    # a "And don't stop until you cum!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_5_e65f93f1:
+    # a "AHHH!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_5_b2bb84c3:
+    # a "YEAH!"
+    a ""
+
+translate english EP18_Biker_Sex_Label_5_7875adac:
+    # bi1 "I'm about to bust a fat one too!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_c22b4453:
+    # bi1 "You're one nasty bitch, you know that?"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_29b35e5d:
+    # a "Hehe, I do."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_c5e8f6fc:
+    # a "And you love it."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_a638d338:
+    # bi1 "Oh yeah!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_4626a5c7:
+    # a "AHHH!!!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_d657f2a4:
+    # a "FUCK FUCK FUCK!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_c0c2cfa6:
+    # bi1 "I'm GETTING CLOSE!!!!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_14b61278:
+    # bi1 "YEAHHH!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_35c66cdd:
+    # bi1 "TAKE MY LOAD TOO!"
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_cde9d004:
+    # bi1 "Wow."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_2ae0f89e:
+    # bi1 "I'm fucking empty."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_7d0f0816:
+    # a "Good!"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_dffea4f2:
+    # bi1 "Yeah."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_6407f16e:
+    # a "There's so much."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_d1d781d8:
+    # a "I can feel it dripping down my leg."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_e4772276:
+    # a "Didn't know you two would have that much ready to shoot."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_f15554a1:
+    # bi1 "You are one of a kind."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_c03a0dcd:
+    # bi2 "Yeah, I also didn't know I'd cum so much."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_5_c3a043ee:
+    # bi2 "Instincts. When you see a woman like that, you shoot as much as you can."
+    bi2 ""
+
+translate english EP18_Biker_Anim_Menu_5_bee6a69e:
+    # bi1 "Hehe."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_95de30e1:
+    # a "SO?"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_11fa9990:
+    # bi1 "Yes. We'll deal your product."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_2ef0d004:
+    # bi1 "75:25, as discussed."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_ef85c08c:
+    # a "Good."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_a6319e77:
+    # a "If you do good work... You'll receive those extra benefits again."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_bee6a69e_1:
+    # bi1 "Hehe."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_8454fee9:
+    # bi1 "Glad to hear it."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_8aee5188:
+    # a "Just don't mess around and try to rip us off."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_d0c6d67a:
+    # a "My superiors won't take that well."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_934910bf:
+    # a "I will be fine, but those who mess with us... Those will have problems."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_005a48c2:
+    # bi1 "You got it, girl."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_6222fda8:
+    # bi1 "You'll have no problems with us."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_adc3f5b9:
+    # j4 "So umm..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_25c12425:
+    # j4 "You all done?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_2d8eef35:
+    # a "Just finished."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_5dfb90fb:
+    # bi1 "Listen, we'll have a new bit of business to take care of."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_bef99d9c:
+    # j4 "I assume that's what you three discussed?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_dffea4f2_1:
+    # bi1 "Yeah."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_48b2454b:
+    # bi1 "We'll probably have to expand."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_6f7dd88d:
+    # bi1 "Anyway, we'll get moving."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_53fddf75:
+    # a "I will stay in contact."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_77186e07:
+    # bi1 "Got it."
+    bi1 ""
+
+translate english EP18_Biker_Anim_Menu_5_55331c3a:
+    # j4 "What was that 'business' that you talked about?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_76c4395b:
+    # a "Well..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_9745f016:
+    # a "I'll tell you some other time."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_fdbb9200:
+    # j4 "I. I think it's important if you do it now."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_bb8e4b4e:
+    # a "..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_81e486c2:
+    # a "I'm involved in some 'business,' and I've been assigned to find new ways to distribute our product."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_617eec0a:
+    # j4 "Mhm..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_902c52a2:
+    # j4 "That product being cocaine or something, right?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_76c4395b_1:
+    # a "Well..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_96600bac:
+    # j4 "You never cease to surprise... I'm not sure how I feel about this..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_fbcdd615:
+    # a "Me?"
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_5f600cfe:
+    # a "I also just found out you're involved in some dealings. Illegal ones, I might add."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_f7e62a8d:
+    # j4 "Fine, fine..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_9bdef4ef:
+    # j4 "I'm kind of tired. You wanna head home?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_ebb2afb6:
+    # a "Sure."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_7cc2affa:
+    # j4 "We should talk about this some more."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_4d550376:
+    # j4 "OK?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_d17129b4:
+    # a "We'll see..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_5ee6d95c:
+    # j4 "Regardless of what you're into..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_eae1e00b:
+    # j4 "You're still one amazing woman, Anna."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_8556f1e6:
+    # j4 "That much I can tell you..."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_2af29a1c:
+    # j4 "I still admire you."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_6f4b2914:
+    # a "I wouldn't have it any other way, hehe."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_c46ded07:
+    # j4 "Heh."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_c964fc7d:
+    # j4 "I'll take it easy the rest of the day."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_7abf8fb6:
+    # j4 "Wanna just hang around?"
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_9372408f:
+    # a "Uh... I can't. I've got other things to attend to."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_3f4c101b:
+    # j4 "Heh. You always do."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_ae42b89b:
+    # j4 "Alright. Your loss."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_d788818d:
+    # a "I wouldn't be so sure, John."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_b991facf:
+    # a "It's usually everyone else who wants my attention."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_4eb4513f:
+    # j4 "Touche, hehe."
+    j4 ""
+
+translate english EP18_Biker_Anim_Menu_5_2132c30f:
+    # a "Should get prepped and go meet Benjamin at his place."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_c0e82d3b:
+    # a "Just going to get changed..."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_ae7fbd5b:
+    # a "See what's what."
+    a ""
+
+translate english EP18_Biker_Anim_Menu_5_5bd93e37:
+    # a "There. That's better."
+    a ""
+
+translate english EP18_Ruby_1_83b85fc6:
+    # a "Oh... What's this..."
+    a ""
+
+translate english EP18_Ruby_1_1bd7897d:
+    # a "It's Patrick..."
+    a ""
+
+translate english EP18_Ruby_1_22484a79:
+    # a "Hello?"
+    a ""
+
+translate english EP18_Ruby_1_486cd1f2:
+    # pa "Hello, Anna."
+    pa ""
+
+translate english EP18_Ruby_1_d8119bc9:
+    # pa "You know that we're working today, yes?"
+    pa ""
+
+translate english EP18_Ruby_1_3c81ab42:
+    # a "Yeah, I'm aware."
+    a ""
+
+translate english EP18_Ruby_1_fbb8cb33:
+    # pa "I need you to run an errand before you come."
+    pa ""
+
+translate english EP18_Ruby_1_fa5a3fd9:
+    # a "What is it?"
+    a ""
+
+translate english EP18_Ruby_1_6d574e80:
+    # pa "Go to the local sex shop."
+    pa ""
+
+translate english EP18_Ruby_1_956730a2:
+    # pa "We need to buy some... Toys..."
+    pa ""
+
+translate english EP18_Ruby_1_6267150c:
+    # a "Oh... Ok."
+    a ""
+
+translate english EP18_Ruby_1_ca2da412:
+    # pa "Good. When you're done with that, come straight to the bar."
+    pa ""
+
+translate english EP18_Ruby_1_fa3ee657:
+    # a "It's Jim... Ok..."
+    a ""
+
+translate english EP18_Ruby_1_22484a79_1:
+    # a "Hello?"
+    a ""
+
+translate english EP18_Ruby_1_7069d74d:
+    # j3 "Hey, Anna. You good?"
+    j3 ""
+
+translate english EP18_Ruby_1_9ef44f07:
+    # a "I'm ok, yeah."
+    a ""
+
+translate english EP18_Ruby_1_7bc7fb19:
+    # j3 "Listen. I was wondering, what could we do today at the bar?"
+    j3 ""
+
+translate english EP18_Ruby_1_e8bda51e:
+    # j3 "Got any ideas?"
+    j3 ""
+
+translate english EP18_Ruby_1_98e3f2e0:
+    # a "Hmm... Not really."
+    a ""
+
+translate english EP18_Ruby_1_02d1a85e:
+    # a "You?"
+    a ""
+
+translate english EP18_Ruby_1_88c64ada:
+    # j3 "Well, I do... But will you like it?"
+    j3 ""
+
+translate english EP18_Ruby_1_aa778c57:
+    # a "Just tell me."
+    a ""
+
+translate english EP18_Ruby_1_7bd4d27a:
+    # j3 "We'd need some sex toys."
+    j3 ""
+
+translate english EP18_Ruby_1_65c9660d:
+    # a "Oh. Heh. Intriguing."
+    a ""
+
+translate english EP18_Ruby_1_0c3b6f07:
+    # j3 "Could you go get them at a local sex shop before coming in?"
+    j3 ""
+
+translate english EP18_Ruby_1_efd06f3f:
+    # a "Sure, I'll get to it."
+    a ""
+
+translate english EP18_Ruby_1_4ed2aaaa:
+    # j3 "I'll reimburse you after."
+    j3 ""
+
+translate english EP18_Ruby_1_83b85fc6_1:
+    # a "Oh... What's this..."
+    a ""
+
+translate english EP18_Ruby_1_1bd7897d_1:
+    # a "It's Patrick..."
+    a ""
+
+translate english EP18_Ruby_1_22484a79_2:
+    # a "Hello?"
+    a ""
+
+translate english EP18_Ruby_1_486cd1f2_1:
+    # pa "Hello, Anna."
+    pa ""
+
+translate english EP18_Ruby_1_d8119bc9_1:
+    # pa "You know that we're working today, yes?"
+    pa ""
+
+translate english EP18_Ruby_1_3c81ab42_1:
+    # a "Yeah, I'm aware."
+    a ""
+
+translate english EP18_Ruby_1_fbb8cb33_1:
+    # pa "I need you to run an errand before you come."
+    pa ""
+
+translate english EP18_Ruby_1_fa5a3fd9_1:
+    # a "What is it?"
+    a ""
+
+translate english EP18_Ruby_1_6d574e80_1:
+    # pa "Go to the local sex shop."
+    pa ""
+
+translate english EP18_Ruby_1_956730a2_1:
+    # pa "We need to buy some... Toys..."
+    pa ""
+
+translate english EP18_Ruby_1_6267150c_1:
+    # a "Oh... Ok."
+    a ""
+
+translate english EP18_Ruby_1_ca2da412_1:
+    # pa "Good. When you're done with that, come straight to the bar."
+    pa ""
+
+translate english EP18_Ruby_1_fa3ee657_1:
+    # a "It's Jim... Ok..."
+    a ""
+
+translate english EP18_Ruby_1_22484a79_3:
+    # a "Hello?"
+    a ""
+
+translate english EP18_Ruby_1_7069d74d_1:
+    # j3 "Hey, Anna. You good?"
+    j3 ""
+
+translate english EP18_Ruby_1_9ef44f07_1:
+    # a "I'm ok, yeah."
+    a ""
+
+translate english EP18_Ruby_1_7bc7fb19_1:
+    # j3 "Listen. I was wondering, what could we do today at the bar?"
+    j3 ""
+
+translate english EP18_Ruby_1_e8bda51e_1:
+    # j3 "Got any ideas?"
+    j3 ""
+
+translate english EP18_Ruby_1_98e3f2e0_1:
+    # a "Hmm... Not really."
+    a ""
+
+translate english EP18_Ruby_1_02d1a85e_1:
+    # a "You?"
+    a ""
+
+translate english EP18_Ruby_1_88c64ada_1:
+    # j3 "Well, I do... But will you like it?"
+    j3 ""
+
+translate english EP18_Ruby_1_aa778c57_1:
+    # a "Just tell me."
+    a ""
+
+translate english EP18_Ruby_1_7bd4d27a_1:
+    # j3 "We'd need some sex toys."
+    j3 ""
+
+translate english EP18_Ruby_1_65c9660d_1:
+    # a "Oh. Heh. Intriguing."
+    a ""
+
+translate english EP18_Ruby_1_0c3b6f07_1:
+    # j3 "Could you go get them at a local sex shop before coming in?"
+    j3 ""
+
+translate english EP18_Ruby_1_efd06f3f_1:
+    # a "Sure, I'll get to it."
+    a ""
+
+translate english EP18_Ruby_1_4ed2aaaa_1:
+    # j3 "I'll reimburse you after."
+    j3 ""
+
+translate english EP18_Ruby_2_b288b57c:
+    # r2 "Anna!"
+    r2 ""
+
+translate english EP18_Ruby_2_d90921b7:
+    # r2 "Hey!"
+    r2 ""
+
+translate english EP18_Ruby_2_7aafcdf5:
+    # r2 "Haven't seen you in a while."
+    r2 ""
+
+translate english EP18_Ruby_2_e2d32614:
+    # a "Hey, Ruby."
+    a ""
+
+translate english EP18_Ruby_2_c525965f:
+    # a "Been pretty busy."
+    a ""
+
+translate english EP18_Ruby_2_08dbd727:
+    # r2 "So. What brings you to me?"
+    r2 ""
+
+translate english EP18_Ruby_2_76a37010:
+    # a "Patrick sent me to pick up some items for the bar."
+    a ""
+
+translate english EP18_Ruby_2_f3dde0f1:
+    # r2 "Oh. Right!"
+    r2 ""
+
+translate english EP18_Ruby_2_ee7db70b:
+    # a "I came to pick up some stuff for the bar. Jim might've called ahead?"
+    a ""
+
+translate english EP18_Ruby_2_0efb0443:
+    # r2 "Yeah, he did."
+    r2 ""
+
+translate english EP18_Ruby_2_65bc9d1b:
+    # r2 "Got them already prepped."
+    r2 ""
+
+translate english EP18_Ruby_2_c4d6b9b0:
+    # r2 "Give me a sec?"
+    r2 ""
+
+translate english EP18_Ruby_2_ebb2afb6:
+    # a "Sure."
+    a ""
+
+translate english EP18_Ruby_2_c4b6f37c:
+    # r2 "Your old toys still keeping you satisfied?"
+    r2 ""
+
+translate english EP18_Ruby_2_e885ffc8:
+    # a "Heh. I don't have much time to use them... Pretty busy."
+    a ""
+
+translate english EP18_Ruby_2_f862a2ba:
+    # r2 "That's a pity."
+    r2 ""
+
+translate english EP18_Ruby_2_d8aa40c6:
+    # r2 "Let me see..."
+    r2 ""
+
+translate english EP18_Ruby_2_b41cd5d9:
+    # r2 "Ok... Ok..."
+    r2 ""
+
+translate english EP18_Ruby_2_b60050f4:
+    # r2 "Alright."
+    r2 ""
+
+translate english EP18_Ruby_2_c954e080:
+    # r2 "This is the order for the bar."
+    r2 ""
+
+translate english EP18_Ruby_2_edfb6820:
+    # a "Oh wow..."
+    a ""
+
+translate english EP18_Ruby_2_c86a2635:
+    # a "An interesting selection."
+    a ""
+
+translate english EP18_Ruby_2_2a7cc110:
+    # r2 "Since you're a very special customer."
+    r2 ""
+
+translate english EP18_Ruby_2_33d4d921:
+    # r2 "I'll pack something extra in this bag."
+    r2 ""
+
+translate english EP18_Ruby_2_ad14dc92:
+    # r2 "As a surprise for you."
+    r2 ""
+
+translate english EP18_Ruby_2_ba1cd91b:
+    # a "Thank you, Ruby."
+    a ""
+
+translate english EP18_Ruby_2_7d48d71b:
+    # r2 "I hope you enjoy these."
+    r2 ""
+
+translate english EP18_Ruby_2_d2cce06b:
+    # a "Heh... Thanks."
+    a ""
+
+translate english EP18_Ruby_2_bcb2b065:
+    # a "{i}...I wonder what is the surprise for me...{/i}"
+    a ""
+
+translate english EP18_Ruby_2_0153b247:
+    # a "{i}...I wonder what Patrick has planned...{/i}"
+    a ""
+
+translate english EP18_Ruby_2_aa827620:
+    # a "{i}...If I know him at all... He's got some depravities planned...{/i}"
+    a ""
+
+translate english EP18_Ruby_2_96072dc8:
+    # a "{i}...I wonder what Jim had in mind... I'm the leader, but he ends up planning everything...{/i}"
+    a ""
+
+translate english EP18_Ruby_2_15905a76:
+    # a "It could be fun."
+    a ""
+
+
+translate english strings:
+    old "I'll stick to fucking her pussy!"
+    new ""
+
+    old "Put it in Anna's asshole!"
+    new ""
+
+    old "Put it back into Anna's pussy?"
+    new ""
+
+    old "CUMMM!!!"
+    new ""
+
+    old "Cum on Anna's belly!"
+    new ""
+
+    old "Fill that vagina up!"
+    new ""
+
+    old "Give her asshole all that cum!"
+    new ""
+
+    old "Anna has had previous 'engagements' with these two."
+    new ""
+
+    old "Anna is not involved with them."
+    new ""
+
+    old "65:35, and I'll let you touch me and show you something."
+    new ""
+
+    old "75:25, and You can go all the way."
+    new ""
+
+    old "Deal."
+    new ""
