@@ -7,6 +7,8 @@ jobs:
   # Job 1: Setup dan categorisasi file
   setup-and-categorize:
     runs-on: ubuntu-latest
+    outputs:
+      setup-success: ${{ steps.organize.outcome == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -29,17 +31,43 @@ jobs:
           python3 py/telegram_notify.py "🚀 MEMULAI TERJEMAHAN" "Scanning file .rpy..."
 
       - name: Organize files by size
-        run: python3 py/manager2.py tl
+        id: organize
+        run: |
+          echo "📂 Organizing files by size..."
+          python3 py/manager2.py tl
+          
+          # Validate batch directories were created
+          echo "🔍 Checking batch directories..."
+          for dir in batch_kecil batch_sedang batch_besar; do
+            if [ -d "$dir" ]; then
+              count=$(ls $dir/*.rpy 2>/dev/null | wc -l)
+              echo "✅ $dir: $count files"
+            else
+              echo "⚠️ $dir: directory not found"
+            fi
+          done
+          
+          # Check total files to process
+          total_files=$(find batch_* -name "*.rpy" 2>/dev/null | wc -l)
+          if [ $total_files -eq 0 ]; then
+            echo "❌ No .rpy files found to translate!"
+            exit 1
+          fi
+          
+          echo "📊 Total files to translate: $total_files"
 
       - name: Reset progress files
         run: |
           echo "" > translation_progress.txt
-          echo "" > restore_progress.txt
+          echo "setup_completed" > workflow_status.txt
 
   # Job 2: Translate BESAR files (1000+ lines) - SEQUENTIAL
   translate-besar:
     needs: setup-and-categorize
     runs-on: ubuntu-latest
+    if: success()
+    outputs:
+      besar-count: ${{ steps.translate.outputs.file-count }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -53,26 +81,70 @@ jobs:
         run: |
           pip install requests
 
-      - name: Process BESAR files SEQUENTIALLY
+      - name: Check batch_besar directory
         run: |
+          if [ ! -d "batch_besar" ]; then
+            echo "⚠️ batch_besar directory not found, skipping..."
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          file_count=$(ls batch_besar/*.rpy 2>/dev/null | wc -l)
+          echo "📁 batch_besar contains: $file_count files"
+          
+          if [ $file_count -eq 0 ]; then
+            echo "⚠️ No files in batch_besar, skipping..."
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+      - name: Process BESAR files SEQUENTIALLY
+        id: translate
+        run: |
+          if [ ! -d "batch_besar" ] || [ $(ls batch_besar/*.rpy 2>/dev/null | wc -l) -eq 0 ]; then
+            echo "⚠️ Skipping BESAR translation - no files to process"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
           echo "🔴 Processing BESAR files (1000+ lines) - SEQUENTIAL"
+          
+          # Start translation process
           python3 py/translate.py batch_besar &
           PID=$!
           
           # Progress monitoring
           while kill -0 $PID 2>/dev/null; do
             if [ -f "translation_progress.txt" ]; then
-              python3 py/send_progress_update.py "BATCH BESAR"
+              python3 py/send_progress_update.py "BATCH BESAR" || true
             fi
             sleep 30
           done
+          
+          # Wait for process to complete
           wait $PID
-          python3 py/send_final_update.py "BATCH BESAR"
+          translation_exit_code=$?
+          
+          if [ $translation_exit_code -eq 0 ]; then
+            echo "✅ BESAR translation completed successfully"
+            python3 py/send_final_update.py "BATCH BESAR" || true
+            
+            # Count translated files
+            translated_count=$(ls id/*.rpy 2>/dev/null | grep -E "(batch_besar|_besar)" | wc -l || echo 0)
+            echo "file-count=$translated_count" >> $GITHUB_OUTPUT
+          else
+            echo "❌ BESAR translation failed with exit code: $translation_exit_code"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 1
+          fi
 
   # Job 3: Translate SEDANG files (200-999 lines) - SEQUENTIAL  
   translate-sedang:
     needs: setup-and-categorize
     runs-on: ubuntu-latest
+    if: success()
+    outputs:
+      sedang-count: ${{ steps.translate.outputs.file-count }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -86,26 +158,63 @@ jobs:
         run: |
           pip install requests
 
-      - name: Process SEDANG files SEQUENTIALLY
+      - name: Check batch_sedang directory
         run: |
+          if [ ! -d "batch_sedang" ]; then
+            echo "⚠️ batch_sedang directory not found, skipping..."
+            exit 0
+          fi
+          
+          file_count=$(ls batch_sedang/*.rpy 2>/dev/null | wc -l)
+          echo "📁 batch_sedang contains: $file_count files"
+
+      - name: Process SEDANG files SEQUENTIALLY
+        id: translate
+        run: |
+          if [ ! -d "batch_sedang" ] || [ $(ls batch_sedang/*.rpy 2>/dev/null | wc -l) -eq 0 ]; then
+            echo "⚠️ Skipping SEDANG translation - no files to process"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
           echo "🟡 Processing SEDANG files (200-999 lines) - SEQUENTIAL"
+          
+          # Start translation process
           python3 py/translate.py batch_sedang &
           PID=$!
           
           # Progress monitoring
           while kill -0 $PID 2>/dev/null; do
             if [ -f "translation_progress.txt" ]; then
-              python3 py/send_progress_update.py "BATCH SEDANG"
+              python3 py/send_progress_update.py "BATCH SEDANG" || true
             fi
             sleep 30
           done
+          
+          # Wait for process to complete
           wait $PID
-          python3 py/send_final_update.py "BATCH SEDANG"
+          translation_exit_code=$?
+          
+          if [ $translation_exit_code -eq 0 ]; then
+            echo "✅ SEDANG translation completed successfully"
+            python3 py/send_final_update.py "BATCH SEDANG" || true
+            
+            # Count translated files
+            translated_count=$(ls id/*.rpy 2>/dev/null | grep -E "(batch_sedang|_sedang)" | wc -l || echo 0)
+            echo "file-count=$translated_count" >> $GITHUB_OUTPUT
+          else
+            echo "❌ SEDANG translation failed with exit code: $translation_exit_code"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 1
+          fi
 
   # Job 4: Translate KECIL files (1-199 lines) - SEQUENTIAL
   translate-kecil:
     needs: setup-and-categorize
     runs-on: ubuntu-latest
+    if: success()
+    outputs:
+      kecil-count: ${{ steps.translate.outputs.file-count }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -119,110 +228,61 @@ jobs:
         run: |
           pip install requests
 
-      - name: Process KECIL files SEQUENTIALLY
+      - name: Check batch_kecil directory
         run: |
+          if [ ! -d "batch_kecil" ]; then
+            echo "⚠️ batch_kecil directory not found, skipping..."
+            exit 0
+          fi
+          
+          file_count=$(ls batch_kecil/*.rpy 2>/dev/null | wc -l)
+          echo "📁 batch_kecil contains: $file_count files"
+
+      - name: Process KECIL files SEQUENTIALLY
+        id: translate
+        run: |
+          if [ ! -d "batch_kecil" ] || [ $(ls batch_kecil/*.rpy 2>/dev/null | wc -l) -eq 0 ]; then
+            echo "⚠️ Skipping KECIL translation - no files to process"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
           echo "🟢 Processing KECIL files (1-199 lines) - SEQUENTIAL"
+          
+          # Start translation process
           python3 py/translate.py batch_kecil &
           PID=$!
           
           # Progress monitoring
           while kill -0 $PID 2>/dev/null; do
             if [ -f "translation_progress.txt" ]; then
-              python3 py/send_progress_update.py "BATCH KECIL"
+              python3 py/send_progress_update.py "BATCH KECIL" || true
             fi
             sleep 30
           done
+          
+          # Wait for process to complete
           wait $PID
-          python3 py/send_final_update.py "BATCH KECIL"
+          translation_exit_code=$?
+          
+          if [ $translation_exit_code -eq 0 ]; then
+            echo "✅ KECIL translation completed successfully"
+            python3 py/send_final_update.py "BATCH KECIL" || true
+            
+            # Count translated files
+            translated_count=$(ls id/*.rpy 2>/dev/null | grep -E "(batch_kecil|_kecil)" | wc -l || echo 0)
+            echo "file-count=$translated_count" >> $GITHUB_OUTPUT
+          else
+            echo "❌ KECIL translation failed with exit code: $translation_exit_code"
+            echo "file-count=0" >> $GITHUB_OUTPUT
+            exit 1
+          fi
 
-  # Job 5: Restore mapping files
-  restore-mapping:
+  # Job 5: Final organization and cleanup
+  finalize:
     needs: [translate-besar, translate-sedang, translate-kecil]
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Python and dependencies
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: |
-          pip install requests
-
-      - name: Send restore start notification
-        run: |
-          python3 py/telegram_notify.py "🔧 MEMULAI RESTORE" "Memulai proses restore mapping files..."
-
-      - name: Execute batch restore
-        run: |
-          echo "🔧 Starting batch restore process..."
-          python3 py/batch_restore.py &
-          PID=$!
-          
-          # Progress monitoring setiap 30 detik
-          while kill -0 $PID 2>/dev/null; do
-            if [ -f "restore_progress.txt" ]; then
-              PROGRESS=$(cat restore_progress.txt)
-              python3 py/telegram_notify.py "🔧 RESTORE PROGRESS" "$PROGRESS"
-            fi
-            sleep 30
-          done
-          wait $PID
-          
-          echo "✅ Batch restore process completed"
-
-      - name: Send restore completion notification
-        run: |
-          # Check if restore was successful
-          if [ -f "id/restore_summary.txt" ]; then
-            # Get summary stats
-            SUMMARY=$(head -8 id/restore_summary.txt)
-            RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
-            MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
-            
-            # Send detailed notification
-            python3 py/telegram_notify.py "✅ RESTORE SELESAI" \
-              "📊 Hasil Restore:
-              🔄 Files restored: $RESTORED_COUNT
-              📁 Mapping files: $MAPPING_COUNT
-              
-              $SUMMARY"
-          else
-            python3 py/telegram_notify.py "⚠️ RESTORE WARNING" "Restore completed but no summary found"
-          fi
-
-      - name: Validate restore results
-        run: |
-          echo "🔍 Validating restore results..."
-          
-          # Count files in each directory
-          TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
-          RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
-          MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
-          LOG_COUNT=$(ls id/log/*_log.txt 2>/dev/null | wc -l || echo 0)
-          
-          echo "📊 File counts:"
-          echo "  - Translated files: $TRANSLATED_COUNT"
-          echo "  - Restored files: $RESTORED_COUNT" 
-          echo "  - Mapping files: $MAPPING_COUNT"
-          echo "  - Log files: $LOG_COUNT"
-          
-          # Check if restore_report.json exists
-          if [ -f "id/restore_report.json" ]; then
-            echo "✅ Restore report generated successfully"
-            SUCCESS_RATE=$(python3 -c "import json; data=json.load(open('id/restore_report.json')); print(data['success_rate'])")
-            echo "📈 Success rate: $SUCCESS_RATE"
-          else
-            echo "❌ No restore report found"
-          fi
-
-  # Job 6: Final organization and cleanup
-  finalize:
-    needs: [translate-besar, translate-sedang, translate-kecil, restore-mapping]
-    runs-on: ubuntu-latest
+    if: always() # Run even if some translation jobs failed
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -236,20 +296,60 @@ jobs:
         run: |
           pip install requests
 
+      - name: Check translation results
+        id: check_results
+        run: |
+          echo "🔍 Checking translation results..."
+          
+          # Check if id directory exists
+          if [ ! -d "id" ]; then
+            echo "❌ id/ directory not found - all translation jobs failed!"
+            echo "has-results=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Count translated files
+          translated_count=$(ls id/*.rpy 2>/dev/null | wc -l)
+          echo "📊 Found $translated_count translated files"
+          
+          if [ $translated_count -eq 0 ]; then
+            echo "❌ No translated files found - all translation jobs failed!"
+            echo "has-results=false" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Translation successful - found $translated_count files"
+            echo "has-results=true" >> $GITHUB_OUTPUT
+            echo "translated-count=$translated_count" >> $GITHUB_OUTPUT
+          fi
+
       - name: Generate final statistics
+        if: steps.check_results.outputs.has-results == 'true'
         run: |
           echo "📊 Generating final statistics..."
           
-          # Count all file types
-          TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
-          RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
-          MAPPING_COUNT=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
-          LOG_COUNT=$(ls id/log/*_log.txt 2>/dev/null | wc -l || echo 0)
+          # Count files
+          translated_count=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
+          mapping_count=$(ls id/mapping/*_mapping.txt 2>/dev/null | wc -l || echo 0)
+          log_count=$(ls id/log/*_log.txt 2>/dev/null | wc -l || echo 0)
           
-          # Calculate total original files processed
-          ORIGINAL_COUNT=$(($(ls batch_*/*.rpy 2>/dev/null | wc -l || echo 0)))
-          if [ $ORIGINAL_COUNT -eq 0 ]; then
-            ORIGINAL_COUNT=$TRANSLATED_COUNT
+          # Get original count from batch directories (before cleanup)
+          original_count=0
+          for dir in batch_kecil batch_sedang batch_besar; do
+            if [ -d "$dir" ]; then
+              count=$(ls $dir/*.rpy 2>/dev/null | wc -l)
+              original_count=$((original_count + count))
+            fi
+          done
+          
+          # If no batch dirs, use translated count as estimate
+          if [ $original_count -eq 0 ]; then
+            original_count=$translated_count
+          fi
+          
+          # Calculate success rate
+          if [ $original_count -gt 0 ]; then
+            success_rate=$(echo "scale=1; $translated_count * 100 / $original_count" | bc -l 2>/dev/null || echo "N/A")
+          else
+            success_rate="N/A"
           fi
           
           # Create final statistics file
@@ -259,75 +359,89 @@ jobs:
           📅 Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')
           
           📊 PROCESSING SUMMARY:
-          - Original files processed: $ORIGINAL_COUNT
-          - Successfully translated: $TRANSLATED_COUNT
-          - Successfully restored: $RESTORED_COUNT
-          - Mapping files created: $MAPPING_COUNT
-          - Log files generated: $LOG_COUNT
+          - Original files processed: $original_count
+          - Successfully translated: $translated_count
+          - Mapping files created: $mapping_count
+          - Log files generated: $log_count
           
           📁 FINAL STRUCTURE:
           id/
-          ├── *.rpy ($TRANSLATED_COUNT translated files)
-          ├── mapping/ ($MAPPING_COUNT mapping files)
-          ├── log/ ($LOG_COUNT log files)
-          ├── restored/ ($RESTORED_COUNT restored files)
-          └── reports (restore_report.json, restore_summary.txt)
+          ├── *.rpy ($translated_count translated files)
+          ├── mapping/ ($mapping_count mapping files)
+          └── log/ ($log_count log files)
           
-          🎯 SUCCESS RATES:
-          - Translation: $(echo "scale=1; $TRANSLATED_COUNT * 100 / $ORIGINAL_COUNT" | bc -l 2>/dev/null || echo "N/A")%
-          - Restoration: $(echo "scale=1; $RESTORED_COUNT * 100 / $TRANSLATED_COUNT" | bc -l 2>/dev/null || echo "N/A")%
+          🎯 SUCCESS RATE:
+          - Translation: ${success_rate}%
+          
+          ✅ Translation pipeline completed successfully!
           EOF
           
           echo "📄 Final statistics saved to final_stats.txt"
+          echo "📊 Translation success rate: ${success_rate}%"
 
       - name: Send final completion report
         run: |
-          # Read final statistics
-          if [ -f "final_stats.txt" ]; then
-            FINAL_REPORT=$(cat final_stats.txt)
-            python3 py/telegram_notify.py "🎉 PIPELINE SELESAI" "$FINAL_REPORT"
+          if [ "${{ steps.check_results.outputs.has-results }}" = "true" ]; then
+            # Success case - read final statistics
+            if [ -f "final_stats.txt" ]; then
+              FINAL_REPORT=$(cat final_stats.txt)
+              python3 py/telegram_notify.py "🎉 TERJEMAHAN SELESAI" "$FINAL_REPORT"
+            else
+              # Fallback for successful translation
+              translated_count="${{ steps.check_results.outputs.translated-count }}"
+              python3 py/telegram_notify.py "🎉 TERJEMAHAN SELESAI" \
+                "✅ Translation Complete!
+                📁 Successfully translated: $translated_count files
+                📊 Check id/ folder for all results"
+            fi
           else
-            # Fallback notification
-            TRANSLATED_COUNT=$(ls id/*.rpy 2>/dev/null | wc -l || echo 0)
-            RESTORED_COUNT=$(ls id/restored/*.rpy 2>/dev/null | wc -l || echo 0)
-            
-            python3 py/telegram_notify.py "🎉 PIPELINE SELESAI" \
-              "✅ Translation & Restore Complete!
-              📁 Translated: $TRANSLATED_COUNT files
-              🔄 Restored: $RESTORED_COUNT files
-              📊 Check id/ folder for all results"
+            # Failure case
+            python3 py/telegram_notify.py "❌ TERJEMAHAN GAGAL" \
+              "❌ Translation pipeline failed!
+              🔍 Possible causes:
+              - No .rpy files found to translate
+              - Translation script errors
+              - Setup/categorization failed
+              
+              Check workflow logs for details."
           fi
 
       - name: Cleanup temporary files
+        if: always()
         run: |
           echo "🧹 Cleaning up temporary files..."
           
           # Remove batch directories
-          rm -rf batch_kecil batch_sedang batch_besar
+          rm -rf batch_kecil batch_sedang batch_besar || true
           
-          # Remove output_tl (sudah dipindah ke id/)
-          rm -rf output_tl
+          # Remove output_tl (moved to id/)
+          rm -rf output_tl || true
           
           # Remove progress files
-          rm -f translation_progress.txt restore_progress.txt
+          rm -f translation_progress.txt restore_progress.txt workflow_status.txt || true
           
-          # Keep important files but organize them
-          if [ -f "final_stats.txt" ]; then
-            mv final_stats.txt id/final_statistics.txt
+          # Move final stats if translation was successful
+          if [ -f "final_stats.txt" ] && [ -d "id" ]; then
+            mv final_stats.txt id/final_statistics.txt || true
+            echo "📊 Final statistics moved to id/final_statistics.txt"
+          elif [ -f "final_stats.txt" ]; then
+            echo "⚠️ final_stats.txt exists but id/ directory not found"
+            rm -f final_stats.txt || true
           fi
           
           echo "✅ Cleanup completed"
-          echo "📁 All results are now organized in the 'id/' directory"
+          echo "📁 Results are organized in the 'id/' directory"
 
-      - name: Archive results summary
+      - name: Create results summary
+        if: steps.check_results.outputs.has-results == 'true'
         run: |
-          echo "📦 Creating results archive summary..."
+          echo "📦 Creating results summary..."
           
-          # Create a simple index file
+          # Create README for results
           cat > id/README.md << 'EOF'
           # RenPy Translation Results
           
-          This directory contains the complete results of the RenPy translation pipeline.
+          This directory contains the translated RenPy files from the translation pipeline.
           
           ## Directory Structure
           
@@ -338,18 +452,14 @@ jobs:
           │   └── *_mapping.txt        # Tag mappings for each file
           ├── log/                     # Translation log files  
           │   └── *_log.txt            # Processing logs for each file
-          ├── restored/                # Files with restored original tags
-          │   └── *.rpy                # Files with tags restored from mappings
-          ├── restore_report.json      # Detailed restore statistics
-          ├── restore_summary.txt      # Human-readable restore summary
           └── final_statistics.txt     # Complete pipeline statistics
           ```
           
           ## Usage
           
           - **Main translated files**: Use the `.rpy` files in the root of this directory
-          - **With original formatting**: Use files from the `restored/` subdirectory
           - **Troubleshooting**: Check files in `log/` directory for any issues
+          - **Statistics**: View `final_statistics.txt` for complete pipeline report
           
           Generated by RenPy Translation Pipeline
           EOF
