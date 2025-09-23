@@ -17,7 +17,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo npm install -g translate-shell
+          # Install translate-shell dari GitHub (bukan npm)
+          git clone https://github.com/soimort/translate-shell
+          cd translate-shell
+          make
+          sudo make install
           pip install requests
 
       - name: Send start notification
