@@ -1,7 +1,7 @@
 name: Generate RenPy Translation Template
 
 on:
-  workflow_dispatch: # Manual trigger only
+  workflow_dispatch:
     inputs:
       language_code:
         description: 'Language code (e.g., id, en, jp)'
