@@ -1,0 +1,97 @@
+name: Generate RenPy Translation Template
+
+on:
+  push:
+    paths:
+      - 'tl/**/*.rpy'
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  generate-template:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Project Structure
+      run: |
+        mkdir -p game
+        cp tl/*.rpy game/
+        echo "File yang akan di-generate template:"
+        ls -l game/
+        
+    - name: Download Ren'Py SDK 8.0.3
+      run: |
+        wget -q https://www.renpy.org/dl/8.0.3/renpy-8.0.3-sdk.tar.bz2
+        tar -xjf renpy-8.0.3-sdk.tar.bz2
+        mv renpy-8.0.3-sdk renpy-sdk
+        
+    - name: Setup Python for Ren'Py
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Generate Translation Template
+      run: |
+        cd renpy-sdk
+        
+        # Generate template untuk bahasa ID (Indonesia)
+        python renpy.py ../. translate id --extract
+        
+        echo "Files generated:"
+        find .. -path "*/tl/id/*" -name "*.rpy" -type f || echo "No tl/id files found"
+        find .. -path "*/game/tl/id/*" -name "*.rpy" -type f || echo "No game/tl/id files found"
+        
+    - name: Process and Rename Templates
+      run: |
+        mkdir -p output/tl/id
+        
+        # Check multiple possible locations for generated files
+        for search_path in "tl/id" "game/tl/id"; do
+          if [ -d "$search_path" ]; then
+            echo "Processing files from: $search_path"
+            for file in $search_path/*.rpy; do
+              if [ -f "$file" ]; then
+                basename_file=$(basename "$file" .rpy)
+                cp "$file" "output/tl/id/${basename_file}_tl.rpy"
+                echo "Created: ${basename_file}_tl.rpy"
+              fi
+            done
+          fi
+        done
+        
+        # If no files found, create empty template with instructions
+        if [ ! "$(ls -A output/tl/id 2>/dev/null)" ]; then
+          echo "# No translatable content found or generation failed" > output/tl/id/README_tl.txt
+          echo "# Check your .rpy files contain dialogue, menus, or translatable text" >> output/tl/id/README_tl.txt
+        fi
+        
+    - name: Show Results
+      run: |
+        echo "Generated translation templates:"
+        ls -la output/tl/id/
+        
+        echo -e "\nSample content:"
+        for file in output/tl/id/*.rpy; do
+          if [ -f "$file" ]; then
+            echo "=== $(basename $file) ==="
+            head -15 "$file"
+            echo ""
+            break
+          fi
+        done
+        
+    - name: Upload Templates
+      uses: actions/upload-artifact@v3
+      with:
+        name: renpy-translation-id-templates
+        path: output/
+        
+    - name: Commit Generated Templates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add output/
+        git diff --staged --quiet || git commit -m "Auto-generated Ren'Py translation templates for ID [skip ci]"
+        git push || echo "Nothing new to commit"

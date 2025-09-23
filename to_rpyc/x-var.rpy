@@ -1280,7 +1280,7 @@ python early:
         
         def __init__(self, quest_id, branch=''):
             self.quest_id = quest_id  
-            self.name = get_quests_local(quest_id, "name")  
+            self.name = _s_local(quest_id, "name")  
             self.stage = 0  
             self.notification = False  
             self.expanded = True  

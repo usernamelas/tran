@@ -315,6 +315,166 @@ screen stats_tab():
                         background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
                         padding (10, 5)
+            
+            # Exhibitionism
+            frame:
+                background Solid("#664466")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ff88ff}EXHIBITIONISM: [fcs.exg]{/color}" xsize 200
+                    
+                    textbutton "+1" action SetField(fcs, "exg", fcs.exg + 1):
+                        text_size 20
+                        text_color "#ff66ff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "+5" action SetField(fcs, "exg", fcs.exg + 5):
+                        text_size 20
+                        text_color "#ff66ff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetField(fcs, "exg", 100):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+            
+            # Intrigue
+            frame:
+                background Solid("#666644")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ffff66}INTRIGUE: [fcs.intrigue]{/color}" xsize 200
+                    
+                    textbutton "+1" action SetField(fcs, "intrigue", fcs.intrigue + 1):
+                        text_size 20
+                        text_color "#ffff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "+5" action SetField(fcs, "intrigue", fcs.intrigue + 5):
+                        text_size 20
+                        text_color "#ffff00"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetField(fcs, "intrigue", 100):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+            
+            # Submissive
+            frame:
+                background Solid("#444466")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#8888ff}SUBMISSIVE: [fcs.submissive]{/color}" xsize 200
+                    
+                    textbutton "+1" action SetField(fcs, "submissive", fcs.submissive + 1):
+                        text_size 20
+                        text_color "#6666ff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "+5" action SetField(fcs, "submissive", fcs.submissive + 5):
+                        text_size 20
+                        text_color "#6666ff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetField(fcs, "submissive", 100):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+            
+            # Fitness (kemungkinan ada)
+            frame:
+                background Solid("#446666")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#66ffff}FITNESS: [fcs.fitness]{/color}" xsize 200
+                    
+                    textbutton "+1" action SetField(fcs, "fitness", fcs.fitness + 1):
+                        text_size 20
+                        text_color "#00ffff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "+5" action SetField(fcs, "fitness", fcs.fitness + 5):
+                        text_size 20
+                        text_color "#00ffff"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetField(fcs, "fitness", 100):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+            
+            # Appearance (kemungkinan ada)
+            frame:
+                background Solid("#664455")
+                padding (15, 10)
+                xfill True
+                
+                hbox:
+                    spacing 15
+                    
+                    text "{size=24}{color=#ffaacc}APPEARANCE: [fcs.appearance]{/color}" xsize 200
+                    
+                    textbutton "+1" action SetField(fcs, "appearance", fcs.appearance + 1):
+                        text_size 20
+                        text_color "#ff99bb"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "+5" action SetField(fcs, "appearance", fcs.appearance + 5):
+                        text_size 20
+                        text_color "#ff99bb"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
+                    
+                    textbutton "MAX" action SetField(fcs, "appearance", 100):
+                        text_size 20
+                        text_color "#ff8800"
+                        background Frame("gui/button/choice_idle_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        hover_background Frame("gui/button/choice_hover_background.png", gui.choice_button_borders, tile=gui.choice_button_tile)
+                        padding (10, 5)
 
 # Relationship Tab Content
 screen relationship_tab():
