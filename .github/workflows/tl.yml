@@ -1,10 +1,12 @@
 name: Generate RenPy Translation Template
 
 on:
-  push:
-    paths:
-      - 'tl/**/*.rpy'
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch: # Manual trigger only
+    inputs:
+      language_code:
+        description: 'Language code (e.g., id, en, jp)'
+        required: false
+        default: 'id'
 
 jobs:
   generate-template:
@@ -36,25 +38,30 @@ jobs:
       run: |
         cd renpy-sdk
         
-        # Generate template untuk bahasa ID (Indonesia)
-        python renpy.py ../. translate id --extract
+        # Use language from input or default to 'id'
+        LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
+        echo "Generating translation template for language: $LANG_CODE"
+        
+        # Generate template untuk bahasa yang dipilih
+        python renpy.py ../. translate "$LANG_CODE" --extract
         
         echo "Files generated:"
-        find .. -path "*/tl/id/*" -name "*.rpy" -type f || echo "No tl/id files found"
-        find .. -path "*/game/tl/id/*" -name "*.rpy" -type f || echo "No game/tl/id files found"
+        find .. -path "*/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No tl/$LANG_CODE files found"
+        find .. -path "*/game/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No game/tl/$LANG_CODE files found"
         
     - name: Process and Rename Templates
       run: |
-        mkdir -p output/tl/id
+        LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
+        mkdir -p "output/tl/$LANG_CODE"
         
         # Check multiple possible locations for generated files
-        for search_path in "tl/id" "game/tl/id"; do
+        for search_path in "tl/$LANG_CODE" "game/tl/$LANG_CODE"; do
           if [ -d "$search_path" ]; then
             echo "Processing files from: $search_path"
             for file in $search_path/*.rpy; do
               if [ -f "$file" ]; then
                 basename_file=$(basename "$file" .rpy)
-                cp "$file" "output/tl/id/${basename_file}_tl.rpy"
+                cp "$file" "output/tl/$LANG_CODE/${basename_file}_tl.rpy"
                 echo "Created: ${basename_file}_tl.rpy"
               fi
             done
@@ -62,18 +69,20 @@ jobs:
         done
         
         # If no files found, create empty template with instructions
-        if [ ! "$(ls -A output/tl/id 2>/dev/null)" ]; then
-          echo "# No translatable content found or generation failed" > output/tl/id/README_tl.txt
-          echo "# Check your .rpy files contain dialogue, menus, or translatable text" >> output/tl/id/README_tl.txt
+        if [ ! "$(ls -A output/tl/$LANG_CODE 2>/dev/null)" ]; then
+          echo "# No translatable content found or generation failed" > "output/tl/$LANG_CODE/README_tl.txt"
+          echo "# Check your .rpy files contain dialogue, menus, or translatable text" >> "output/tl/$LANG_CODE/README_tl.txt"
+          echo "# Language code used: $LANG_CODE" >> "output/tl/$LANG_CODE/README_tl.txt"
         fi
         
     - name: Show Results
       run: |
-        echo "Generated translation templates:"
-        ls -la output/tl/id/
+        LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
+        echo "Generated translation templates for language: $LANG_CODE"
+        ls -la "output/tl/$LANG_CODE/"
         
         echo -e "\nSample content:"
-        for file in output/tl/id/*.rpy; do
+        for file in output/tl/$LANG_CODE/*.rpy; do
           if [ -f "$file" ]; then
             echo "=== $(basename $file) ==="
             head -15 "$file"
@@ -83,7 +92,7 @@ jobs:
         done
         
     - name: Upload Templates
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: renpy-translation-id-templates
         path: output/
