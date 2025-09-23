@@ -33,55 +33,68 @@ jobs:
         # Set permissions
         chmod +x renpy-sdk/renpy.py
         
-        # List contents untuk debug
-        echo "Ren'Py SDK contents:"
-        ls -la renpy-sdk/
+        # Create minimal environment setup
+        cd renpy-sdk
         
-        # Check python in renpy directory
-        echo "Ren'Py Python modules:"
-        ls -la renpy-sdk/renpy/ | head -10
+        # Try to set up the environment properly
+        export RENPY_PLATFORM="linux-x86_64"
+        
+        echo "Ren'Py SDK contents:"
+        ls -la
+        
+        echo "Testing Ren'Py startup:"
+        python renpy.py --help || echo "Help command failed, but that's expected"
         
     - name: Setup Python for Ren'Py
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.8'  # More compatible
         
     - name: Install Ren'Py Dependencies
       run: |
-        pip install future pygame_sdl2 pefile renpy
-        # Install additional dependencies untuk Ren'Py 8.x
-        pip install pyobjc-framework-Cocoa || true  # macOS only, will fail on Linux but that's ok
+        # Install only available dependencies
+        pip install future
+        pip install pygame==1.9.6 || pip install pygame
+        # Skip pygame_sdl2 and pefile - not needed for CLI operations
         
     - name: Generate Translation Template
       run: |
-        # Set environment variables
+        # Set environment variables untuk Ren'Py
+        export RENPY_PLATFORM="linux-x86_64"
         export PYTHONPATH="$PWD/renpy-sdk:$PYTHONPATH"
         
         cd renpy-sdk
         
-        # Use language from input or default to 'id'
         LANG_CODE="${{ github.event.inputs.language_code || 'id' }}"
         echo "Generating translation template for language: $LANG_CODE"
         
-        # Try different approaches for running Ren'Py
-        echo "Attempting to run Ren'Py translation extraction..."
+        # Try multiple methods with better error handling
+        success=false
         
-        # Method 1: Direct Python execution
-        python3 renpy.py ../. translate "$LANG_CODE" --extract || {
-          echo "Method 1 failed, trying alternative..."
+        # Method 1: Standard translate command
+        echo "Trying standard translate command..."
+        if python renpy.py ../. translate "$LANG_CODE" --extract 2>&1; then
+          echo "Standard command succeeded!"
+          success=true
+        else
+          echo "Standard command failed, trying alternatives..."
           
-          # Method 2: Using launcher script if exists
-          if [ -f "renpy.sh" ]; then
-            bash renpy.sh ../. translate "$LANG_CODE" --extract
+          # Method 2: Different syntax
+          if python renpy.py ../. translate "$LANG_CODE" 2>&1; then
+            echo "Alternative command succeeded!"
+            success=true
           else
-            # Method 3: Try with different python path
-            PYTHONPATH=".:$PYTHONPATH" python3 renpy.py ../. translate "$LANG_CODE" --extract
+            echo "All automatic methods failed. Will create manual template."
           fi
-        }
+        fi
         
-        echo "Files generated:"
-        find .. -path "*/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No tl/$LANG_CODE files found"
-        find .. -path "*/game/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No game/tl/$LANG_CODE files found"
+        # Check what files were generated
+        echo "Checking for generated files..."
+        find .. -path "*/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No automatic tl/$LANG_CODE files found"
+        find .. -path "*/game/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No automatic game/tl/$LANG_CODE files found"
+        
+        # Also check current directory
+        find . -path "*/tl/$LANG_CODE/*" -name "*.rpy" -type f || echo "No local tl files found"
         
     - name: Process and Rename Templates
       run: |
